@@ -1,0 +1,771 @@
+{
+ "file": "conversation_645934_2061.csv",
+ "tier": "High",
+ "user_id": "645934",
+ "ltv": 87352.5,
+ "n_msgs": 157,
+ "n_astro_msgs": 90,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.65,
+ "blueprint": {
+  "score": 3.67,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 0.8,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S2": 666,
+   "S3": 22,
+   "S5": 140,
+   "S8": 5967
+  }
+ },
+ "final": 2.16,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.25,
+  "B2": 2.71,
+  "B3": 2.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 4,
+   "T": 13
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.089,
+   "max_words": 60,
+   "avg_words": 11.8,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     26,
+     41,
+     46
+    ],
+    "paid_idx": [
+     80,
+     81,
+     88,
+     91
+    ],
+    "evidence_idx": [
+     80,
+     81,
+     88,
+     91
+    ],
+    "reason": "The astrologer uses fear (third person involvement, negative cards) to pressure the user into a 'process' that requires extending time and staying on chat."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 35,
+    "quality": 1,
+    "note": "Acknowledges the user's fear but quickly pivots to a pitch."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Asks for the question but doesn't validate the emotional weight of the 5-year relationship."
+   },
+   "S4": {
+    "present": true,
+    "idx": 26,
+    "quality": 0,
+    "note": "Initial prediction is based on 'negative cards' and fear-mongering."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Follow-up is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No real chart analysis provided, only vague claims."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 130,
+    "quality": 1,
+    "note": "Remedy is a mantra, but it follows a high-pressure sales pitch."
+   },
+   "S9": {
+    "present": true,
+    "idx": 156,
+    "quality": 0,
+    "note": "Hook is a request to increase time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional distress about the 5-year relationship and immediately pivots to cards and a sales pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or irrelevant data (gotra).",
+    "quotes": [
+     "Time aur place kya hai",
+     "unka Naam aur gotra Bata dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for partner details but uses them only to create fear and push a paid process.",
+    "quotes": [
+     "unka detail send kar dijiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and fear-based, not specific to the user's chart.",
+    "quotes": [
+     "To Abhi ke time period kuchh negative card a raha hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never gives a clear answer, instead promising that a 'process' will fix it.",
+    "quotes": [
+     "bilkul aapka relationship theek ho jaega"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons provided, only vague references to cards and energy.",
+    "quotes": [
+     "Aapki Kundli ke anusar dekha jaaye na aur aapki card ke according"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same fear-based narrative.",
+    "quotes": [
+     "Inka mind Koi divert kar raha hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a vague timeline of 2 weeks to keep the user engaged.",
+    "quotes": [
+     "2 week ke andar aapko unki taraf Se achcha response milega"
+    ],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a high-pressure sales pitch.",
+    "quotes": [
+     "Main apni taraf Se process karungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread is lost in the pressure to perform a 'process'.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Opens a 'process' layer to keep the user on chat.",
+    "quotes": [
+     "Main apni taraf Se process karungi"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the user waiting for long periods to create a sense of importance.",
+    "quotes": [
+     "Please wait"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just instructions to chant and a request for feedback.",
+    "quotes": [
+     "feedback mein five star dal dijiyega"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Will my relationship with my partner of 5 years be okay?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 117,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 122,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 131,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 133,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 139,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 140,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 144,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 146,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 149,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 152,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 154,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer used fear-based tactics and manipulative sales pitches to keep the user engaged for a long time. The consultation lacked genuine astrological insight and focused entirely on pressuring the user to extend the chat for a 'process'."
+ },
+ "usage": {
+  "input_tokens": 18761,
+  "output_tokens": 3137
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#26 [06:33] ASTRO: To Abhi ke time period kuchh negative card a raha hai ji jaisa Ki Main dekh rahi hun jiski vajah Se Hi thodi samasya hote hue dikhai de rahi hai\n#41 [14:40] ASTRO: Dekhiae Maine third person ko lekar Ke Maine check kiya hai To Matlab Ki Inka mind Koi divert kar raha hai to third person ka involvement Hai inki life mein\n#46 [17:00] ASTRO: Baki Jo unka mind divert kar raha hai na third person vah divert nahin hoga\n#80 [24:03] ASTRO: Baki dekhiae agar dekha Jana to main aapki partner ke liye ek Chhota Sa process mein karna chahti hun taki aap phone ki taraf se do hafton ke andar hi achcha Sa commitment a sake\n#81 [24:20] ASTRO: Thoda aap time ko increase kariyega bahan main aapko abhi bahut sari baten batana chahti hun jo ki aapke liye hi achcha rahega aapki partner Se Hi related hai baten\n#88 [28:12] ASTRO: Baki aapko main batana chahti hun ki aapki partner ke liye ek Chhota Sa process hai kya aap comfortable hai karvane ke liye bahan se unka mind aapke prati bahut jald attraction ho jaega\n#91 [29:13] ASTRO: Aapko bus kuchh nahin karna hai aapko apni partner ka naam aur unka gotra batana hai aur aapko check per available rahana padega bahan Main apni taraf Se process karungi is process mein Koi alag se charge nahin lagega aapko chat per humko thoda samay Dena padega okay bahan",
+   "reason": "The astrologer uses fear (third person involvement, negative cards) to pressure the user into a 'process' that requires extending time and staying on chat.",
+   "quote_en": "#26 [06:33] ASTRO: Currently, some negative cards are appearing, as I can see, which is why some problems are visible.\n#41 [14:40] ASTRO: See, I have checked regarding the third person, and it means someone is diverting their mind, so there is a third-person involvement in their life.\n#46 [17:00] ASTRO: As for the third person who is diverting their mind, they will not be diverted.\n#80 [24:03] ASTRO: Besides that, if you look at it, I want to perform a small process for your partner so that you can get a good commitment from their side within two weeks.\n#81 [24:20] ASTRO: Please increase your time, sister, as I want to tell you many things right now that will be good for you, and these things are related to your partner.\n#88 [28:12] ASTRO: Also, I want to tell you that there is a small process for your partner; are you comfortable getting it done, sister? Their mind will soon be attracted towards you.\n#91 [29:13] ASTRO: You don't have to do anything, you just need to tell me your partner's name and their gotra, and you will have to remain available on the chat, sister. I will perform the process from my end. There will be no extra charge for this process; you just need to give us some time on the chat, okay sister?"
+  }
+ }
+}

@@ -1,0 +1,506 @@
+{
+ "file": "conversation_3137279_2041.csv",
+ "tier": "Medium",
+ "user_id": "3137279",
+ "ltv": 3584.84,
+ "n_msgs": 28,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G4"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.85,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 20,
+   "S3": 44,
+   "S4": 133,
+   "S5": 74
+  }
+ },
+ "final": 2.12,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.4,
+  "B3": 5.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 13.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     14,
+     17,
+     23
+    ],
+    "reason": "The astrologer claims to be able to identify a future spouse's name and identity from a photo, which is an invented, non-astrological claim."
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identifies the question but asks again after the user already stated it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Gives a generic prediction about marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Asks if the user is in a relationship."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's birth date but ignores the emotional context of the question.",
+    "quotes": [
+     "Aapka birth time nahi hai, but aapki date ke hisab se Capricorn energy strong hai."
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo and hand photo, which are Type C (unneeded data).",
+    "quotes": [
+     "Abhi aap mujhe apni photo bhejo",
+     "Left hand ki photo dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 1,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 4,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 6,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 14,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 19,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 22,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 25,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo to identify the person, which is not a valid astrological method.",
+    "quotes": [
+     "Abhi aap mujhe apni photo bhejo aur Main ladke ka naam bhi Bata sakta hun"
+    ],
+    "score": 1,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": true,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": true,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks a concrete marker or chart reason.",
+    "quotes": [
+     "aapke sath mein marriage ka bahut achcha yog dekhne ko mil raha hai"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 11,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never gives a clear time or direction for the marriage.",
+    "quotes": [
+     "aapki marriage uske sath hogi jisse aap pahle Se janti hongi"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 11,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague point about knowing the person.",
+    "quotes": [
+     "Aap usse mil chuki Hain"
+    ],
+    "score": 1,
+    "checks": {
+     "new": false,
+     "uses": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the name to keep the user engaged.",
+    "quotes": [
+     "Ladke ka naam bata raha hun"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat is repetitive.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer uses no technical terms.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri sadi kb hogi",
+  "main_question_idx": 3,
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight, instead repeatedly asking for photos to perform non-astrological 'readings'. The chat was repetitive and lacked any depth or actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 16812,
+  "output_tokens": 2250
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 1,
+   "2.1": 3,
+   "2.2": 4,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G4": {
+   "quote": "#14 [02:47] ASTRO: Abhi aap mujhe apni photo bhejo aur Main ladke ka naam bhi Bata sakta hun\n#17 [02:55] ASTRO: Abhi main dekh Pa raha hun ki aapki marriage uske sath hogi Jaise aap pahle Se janti honge aur aap usse Mil bhi chuki Hain agar uska main Naam Bata dun to confirm ho jaega\n#23 [03:51] ASTRO: Ladke ka naam bata raha hun",
+   "reason": "The astrologer claims to be able to identify a future spouse's name and identity from a photo, which is an invented, non-astrological claim.",
+   "quote_en": "#14 [02:47] ASTRO: Send me your photo now and I can even tell you the boy's name\n#17 [02:55] ASTRO: Right now I can see that you will marry him, as if you already know him and have even met him; if I tell you his name, it will be confirmed\n#23 [03:51] ASTRO: I am telling you the boy's name"
+  }
+ }
+}

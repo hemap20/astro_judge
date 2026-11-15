@@ -1,0 +1,366 @@
+{
+ "file": "conversation_540994_752.csv",
+ "tier": "Low",
+ "user_id": "540994",
+ "ltv": 100.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 3,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.93,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 28
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.0,
+  "B2": 2.71,
+  "B3": 3.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 6,
+   "R": null,
+   "T": 6
+  },
+  "4.1": {
+   "score": 7,
+   "M": 14,
+   "long_frac": 0.067,
+   "max_words": 41,
+   "avg_words": 11.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     20,
+     21
+    ],
+    "paid_idx": [
+     20,
+     21
+    ],
+    "evidence_idx": [
+     20,
+     21
+    ],
+    "reason": "The astrologer uses urgency ('samay chal raha hai thoda jaldi karo') to pressure the user to extend the chat (paid element)."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Asks for the concern but does not acknowledge the specific emotional context."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No initial prediction provided."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions about the situation."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific emotional disclosure and concern, focusing only on data collection.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details that were already provided in the first message (Type C).",
+    "quotes": [
+     "Yah Jo aapane detail dala hai yah kiska detail hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but does not use them to provide any reading or insight before the chat ends.",
+    "quotes": [
+     "Uska naam kya hai"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about how to win the person's heart is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency check possible as no reading was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question was never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer stalls the chat by asking for details already provided and then pressures the user to pay.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cut-off sentence with no reading or guidance.",
+    "quotes": [
+     "Main ek chij dekh Raha Hun ki"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer fails to provide any value.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main ekk tomboy hun Main ekk ledki ka pasand karta hun to ye problem hai usko pau kese",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead wasting time asking for details already provided and pressuring the user to extend the chat. The consultation ended abruptly without addressing the user's emotional concern."
+ },
+ "usage": {
+  "input_tokens": 15183,
+  "output_tokens": 1462
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#20 [03:53] ASTRO: Bahan ji aapka samay chal raha hai thoda jaldi karo ya to fir aap time badha Lo Thoda\n#21 [04:01] ASTRO: Samay aapka chal raha hai thoda jaldi karo ya samay badha Lo Ji",
+   "reason": "The astrologer uses urgency ('samay chal raha hai thoda jaldi karo') to pressure the user to extend the chat (paid element).",
+   "quote_en": "#20 [03:53] ASTRO: Sister, your time is running, please hurry up or extend your time a little.\n#21 [04:01] ASTRO: Your time is running, please hurry up or extend your time."
+  }
+ }
+}

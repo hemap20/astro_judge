@@ -1,0 +1,420 @@
+{
+ "file": "conversation_1520760_2925.csv",
+ "tier": "High",
+ "user_id": "1520760",
+ "ltv": 22403.48,
+ "n_msgs": 73,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 6,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.43,
+ "rubric_score": 6.43,
+ "blueprint": {
+  "score": 6.23,
+  "coverage": 0.5,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.81,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 2,
+   "S2": 2,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 18,
+   "S2": 1317,
+   "S3": 62,
+   "S4": 135,
+   "S6": 489,
+   "S7": 705,
+   "S9": 1473
+  }
+ },
+ "final": 6.33,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.67,
+  "B2": 5.71,
+  "B3": 5.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 7,
+   "long_frac": 0.059,
+   "max_words": 103,
+   "avg_words": 11.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 2,
+    "note": "Warm greeting and rapport established."
+   },
+   "S2": {
+    "present": true,
+    "idx": 64,
+    "quality": 2,
+    "note": "Acknowledged user's anxiety."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Asked for concern, but user had already provided it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gave dasha info, but generic."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Connected Saturn in 8th to job, but generic."
+   },
+   "S7": {
+    "present": true,
+    "idx": 40,
+    "quality": 1,
+    "note": "Asked about other life aspects."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 70,
+    "quality": 1,
+    "note": "Invited user to reconnect for further details."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's concern about anxiety in message 64.",
+    "quotes": [
+     "Main samajh sakti hoon, anxiety hona pareshani ka karan hai"
+    ],
+    "score": 8
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked no questions other than 'how can I help' and 'kaun sa life ka aspect dekhu'.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No specific other person was the focus of the main question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about Saturn in the 8th house is generic and not specific to the user's life.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a timeline for stability and marriage.",
+    "quotes": [
+     "Real stability 2040 k baad h"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Linked Saturn in 8th to job success.",
+    "quotes": [
+     "Apka saturn 8th me h, jobapki life to long banata h"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings added points about marriage and health.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a specific year for stability.",
+    "quotes": [
+     "Real stability 2040 k baad h"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Addressed career, health, and marriage sequentially.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but many empty messages.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages were about reconnecting.",
+    "quotes": [],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and conversational.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Career health money marriage",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was polite and addressed the user's concerns about career and marriage. However, the chat was hindered by many empty messages and a lack of actionable remedies."
+ },
+ "usage": {
+  "input_tokens": 16382,
+  "output_tokens": 1657
+ }
+}

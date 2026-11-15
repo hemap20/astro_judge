@@ -1,0 +1,279 @@
+{
+ "file": "conversation_693391_658.csv",
+ "tier": "Medium",
+ "user_id": "693391",
+ "ltv": 1984.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 8,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.5,
+ "buckets": {
+  "B1": 7.67,
+  "B2": 7.0,
+  "B3": 7.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.143,
+   "max_words": 53,
+   "avg_words": 16.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about house renovation in the reading.",
+    "quotes": [
+     "Kavita ji jaisa ki dikh Raha Hai mujhe ghar ko lekar Yog Jo dikh rahe hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the house direction (Type B) and the husband's profession (Type B). No Type C questions were asked.",
+    "quotes": [
+     "thoda sa mujhe Ghar ki direction Bata sakti hain kya",
+     "Kavita ji aapke husband kya karte hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provides a specific time window (April 2026) and identifies a delay factor (negative energy/Shani).",
+    "quotes": [
+     "Yog Jo dikh rahe hain vah 2026 April ki time period se shuru ho rahe hain",
+     "Sani planet se unki Jo negative energy hai jo ki rukavaten lekar aaengi"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the renovation.",
+    "quotes": [
+     "Yog Jo dikh rahe hain vah 2026 April ki time period se shuru ho rahe hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the delay in renovation to Shani's negative energy.",
+    "quotes": [
+     "Sani planet se unki Jo negative energy hai jo ki rukavaten lekar aaengi"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new layer about financial issues after the initial reading.",
+    "quotes": [
+     "thoda sa Agar dekha jaaye financial chijon ko lekar bhi thoda sa chijen Kafi jyada down dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window (April 2026) based on the chart.",
+    "quotes": [
+     "Yog Jo dikh rahe hain vah 2026 April ki time period se shuru ho rahe hain"
+    ],
+    "score": 8
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a remedy (anushthan) for Shani, but it is vague and lacks specific 'how' or 'when' instructions.",
+    "quotes": [
+     "uske liye ek anushthan hota hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding financial issues.",
+    "quotes": [
+     "thoda sa Agar dekha jaaye financial chijon ko lekar bhi thoda sa chijen Kafi jyada down dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide insights until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a reading about financial issues.",
+    "quotes": [
+     "thoda sa Agar dekha jaaye financial chijon ko lekar bhi thoda sa chijen Kafi jyada down dikh rahi hai"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language and explains the astrological term (Shani) in the context of the user's problem.",
+    "quotes": [
+     "Sani planet se unki Jo negative energy hai jo ki rukavaten lekar aaengi"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "when will my house be renuvated",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear time window for the user's query and linked the delay to a specific astrological cause. However, the remedy suggested was vague and lacked actionable steps, and the astrologer's pace in the beginning was slightly slow."
+ },
+ "usage": {
+  "input_tokens": 10585,
+  "output_tokens": 1375
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "file": "conversation_620859_2078.csv",
+ "tier": "High",
+ "user_id": "620859",
+ "ltv": 49103.46,
+ "n_msgs": 21,
+ "n_astro_msgs": 9,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.06,
+ "buckets": {
+  "B1": 1.5,
+  "B2": 2.43,
+  "B3": 4.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 2,
+   "R": null,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 9,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 12.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's question about marriage or her concern about the relationship, instead focusing entirely on data collection and face reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth time (Type C, as user already said they don't know) and asks for a photo (Type C, as the user is asking about a specific person and the astrologer is performing face reading instead of chart analysis).",
+    "quotes": [
+     "Agar aapko apna birth time hi maloom ho to birth time bhi send kar sakte ho kya",
+     "Aap apni bhi koi pic send kar sakti ho kya"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asks about a specific person, but the astrologer never asks for the person's name or birth details, opting for face reading instead.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading is provided in the window; the astrologer only talks about the process of face reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's question about marriage is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading is provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading is provided to build upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened; the astrologer is still in the process of 'checking'.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no reading or insight, stalling the chat with process updates.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are process-oriented and do not provide a reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer fails to provide any actual astrological insight.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shadi kb hongi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or answer the user's question, focusing entirely on requesting photos and performing face reading. The lack of any astrological insight or meaningful engagement made the consultation unproductive."
+ },
+ "usage": {
+  "input_tokens": 10541,
+  "output_tokens": 1049
+ }
+}

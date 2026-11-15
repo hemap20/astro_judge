@@ -1,0 +1,392 @@
+{
+ "file": "conversation_826216_997.csv",
+ "tier": "Medium",
+ "user_id": "826216",
+ "ltv": 660.0,
+ "n_msgs": 21,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 6,
+  "2.3": 7,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.76,
+ "blueprint": {
+  "score": 4.51,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 49,
+   "S4": 167,
+   "S5": 249,
+   "S6": 212
+  }
+ },
+ "final": 3.63,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.67,
+  "B2": 5.71,
+  "B3": 4.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 1,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.059,
+   "max_words": 41,
+   "avg_words": 14.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     14,
+     15
+    ],
+    "paid_idx": [
+     20
+    ],
+    "evidence_idx": [
+     14,
+     15,
+     20
+    ],
+    "reason": "The astrologer uses fear (Mangal is weak, not good) and then immediately uses that to pressure the user to extend time (paid element)."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identified the concern but did not restate it to confirm understanding."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gave a generic prediction about growth and career."
+   },
+   "S5": {
+    "present": true,
+    "idx": 17,
+    "quality": 2,
+    "note": "Asked a relevant follow-up question about anger and restlessness."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Connected the anger to a weak Mangal, but used it to create fear."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 20,
+    "quality": 0,
+    "note": "The hook is a pressure pitch to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's question about career and studies in the reading.",
+    "quotes": [
+     "Aapka aane wala samay Kafi night dekhne ko mil rahi hai aur aap apni future mein Kafi growth bhi Karenge"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for a photo of the hand (Type C) and to extend time (Type C).",
+    "quotes": [
+     "Ek Bar aap apne right hand ka pic ho to mujhe send kar dijiye",
+     "Aur aap apna time bhi increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about anger and restlessness is specific and relatable, but the career reading is generic.",
+    "quotes": [
+     "aapke andar bechaini chidchidapan aur jaldi gussa bhi a jata hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a positive direction for career but did not provide a specific time or reason.",
+    "quotes": [
+     "aap apni future mein Kafi growth bhi Karenge"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Linked the anger to the weak Mangal planet.",
+    "quotes": [
+     "aapki Kundli mein jo Mangal planet hai vah Kafi kamjor dikhai de rahe hain",
+     "aapke andar bechaini chidchidapan aur jaldi gussa bhi a jata hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading layer provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one topic discussed.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends on a pressure pitch.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pressure pitch to extend time.",
+    "quotes": [
+     "Aur aap apna time bhi increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main apni padhai or nokari ke bare me janna chahta hu",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified a personality trait (anger) linked to a planet, which helped build some initial trust. However, the consultation was severely hurt by the astrologer using fear about the planet to pressure the user into extending the chat time."
+ },
+ "usage": {
+  "input_tokens": 15492,
+  "output_tokens": 1624
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#14 [03:32] ASTRO: Jab humne aapki Kundli ko checking Ho to Main dekh Pa rahi hun ki aapki Kundli mein jo Mangal planet hai vah Kafi kamjor dikhai de rahe hain\n#15 [03:49] ASTRO: Aur Mangal planet ko acchi nahin Mani jaati hai\n#20 [04:56] ASTRO: Aur aap apna time bhi increase Kar lijiye jisse main aapko kuchh important baten bhi batana chahti hun jo main dekh Pa rahi hun aapki Kundli mein",
+   "reason": "The astrologer uses fear (Mangal is weak, not good) and then immediately uses that to pressure the user to extend time (paid element).",
+   "quote_en": "#14 [03:32] ASTRO: When I checked your Kundli, I can see that the Mangal planet in your Kundli appears to be quite weak.\n#15 [03:49] ASTRO: And the Mangal planet is not considered to be in a good position.\n#20 [04:56] ASTRO: And please increase your time as well, so that I can tell you some important things that I am able to see in your Kundli."
+  }
+ }
+}

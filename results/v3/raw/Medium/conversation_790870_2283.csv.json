@@ -1,0 +1,665 @@
+{
+ "file": "conversation_790870_2283.csv",
+ "tier": "Medium",
+ "user_id": "790870",
+ "ltv": 3572.0,
+ "n_msgs": 79,
+ "n_astro_msgs": 72,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 9,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.75,
+ "rubric_score": 7.75,
+ "blueprint": {
+  "score": 8.62,
+  "coverage": 0.833,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.972,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 2,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 1,
+   "S8": 1,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S2": 151,
+   "S3": 163,
+   "S4": 185,
+   "S5": 444,
+   "S6": 247,
+   "S7": 907,
+   "S8": 1347,
+   "S9": 1347
+  }
+ },
+ "final": 8.18,
+ "label": "good",
+ "buckets": {
+  "B1": 8.0,
+  "B2": 9.0,
+  "B3": 7.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 13,
+   "long_frac": 0.25,
+   "max_words": 124,
+   "avg_words": 23.3,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 2,
+    "note": "Warm greeting and rapport established."
+   },
+   "S2": {
+    "present": true,
+    "idx": 10,
+    "quality": 2,
+    "note": "Acknowledged the child's nature."
+   },
+   "S3": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Identified the concern about cricket career."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Gave immediate confirmation of potential."
+   },
+   "S5": {
+    "present": true,
+    "idx": 26,
+    "quality": 2,
+    "note": "Asked about current practice."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Connected Mars and Sun positions to career."
+   },
+   "S7": {
+    "present": true,
+    "idx": 46,
+    "quality": 1,
+    "note": "Probed for physical marks."
+   },
+   "S8": {
+    "present": true,
+    "idx": 74,
+    "quality": 1,
+    "note": "Suggested face/palm reading."
+   },
+   "S9": {
+    "present": true,
+    "idx": 74,
+    "quality": 1,
+    "note": "Suggested further readings."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the child's nature and the parent's concern about cricket.",
+    "quotes": [
+     "Baccha dharmik nature ka hai lekin thoda sa gussa karta hoga",
+     "Bilkul main dekhta hun ki kya yah ek achcha cricketer ban Sakta hai"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked relevant questions about the child's current practice and physical marks.",
+    "quotes": [
+     "Abhi current Li kahin practis karta hai",
+     "Bacche ka koi current ka photo hai to usko bhi aap bhej sakti hain"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable as the question is about the user's son, not a third party.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific, tied to the chart, and provides new insights.",
+    "quotes": [
+     "Mangal dekha jaaye to 9th house mein baithe Hain aur Bhagya bhav mein baitha mangli isko paraakrami banaa raha hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer clearly answered the question about the child becoming a cricketer.",
+    "quotes": [
+     "Bilkul main dekhta hun ki kya yah ek achcha cricketer ban Sakta hai iski kundli mein ek cricketer banne ka yog hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Linked chart factors like Mars and Sun to the child's career potential.",
+    "quotes": [
+     "Mangal dekha jaaye to 9th house mein baithe Hain aur Bhagya bhav mein baitha mangli isko paraakrami banaa raha hai"
+    ],
+    "score": 9
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Added layers about the D10 chart and numerology.",
+    "quotes": [
+     "Ab main iske d10chart kabhi analysis karta hun",
+     "Iska neumerology ke anusar personal year five a raha hai"
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provided a clear timeline without making false promises.",
+    "quotes": [
+     "December 2024 se hi iska yog shuru ho chuka hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Provided practical guidance on supporting the child.",
+    "quotes": [
+     "Bus isko माता-पिता ki sahmati chahie aur Mata pita ka Sahyog chahie"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stayed on one main topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Opened up further analysis via face/palm reading.",
+    "quotes": [
+     "aap chahe to face reading kara sakte hain aur iski hast Rekha bhi right hand ki dikha sakte hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message until the end of the session.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provided encouragement and a final reading.",
+    "quotes": [
+     "Baccha jivan mein prasiddhi payega bus usko motivate karke aur usko support karna hai"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Used simple, accessible language throughout.",
+    "quotes": [
+     "Baccha dharmik nature ka hai",
+     "Khel ke Kshetra mein safalta pane ke liye Mangal ka majbut hona bahut jaruri hai"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera beta cricketer banna chahta hai kya vo first class cricketer ban sakta hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a detailed and encouraging reading about the child's potential as a cricketer, using both astrology and numerology. The consultation was well-structured, though it could have been slightly more concise in its delivery."
+ },
+ "usage": {
+  "input_tokens": 18052,
+  "output_tokens": 2788
+ }
+}

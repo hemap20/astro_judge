@@ -1,0 +1,363 @@
+{
+ "file": "conversation_906259_285.csv",
+ "tier": "Medium",
+ "user_id": "906259",
+ "ltv": 870.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 7,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": null,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.31,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 13,
+   "S4": 94,
+   "S5": 267
+  }
+ },
+ "final": 2.93,
+ "label": "bad",
+ "buckets": {
+  "B1": 6.67,
+  "B2": 3.57,
+  "B3": 2.0,
+  "B4": 9.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 16,
+   "avg_words": 8.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     8
+    ],
+    "paid_idx": [
+     19
+    ],
+    "evidence_idx": [
+     8,
+     19
+    ],
+    "reason": "The astrologer uses fear ('grahan jo rukavat la rahe hain') and then immediately pushes for a paid element by asking the user to 'dobara connect kijiye' (reconnect/extend) to resolve it."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identified the question but did not build rapport."
+   },
+   "S4": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Follow-up question is relevant but late."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to specific chart details like dasha or lagna."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 19,
+    "quality": 0,
+    "note": "Hook is a paid pitch to reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's statement about work ('kam nahi ban rahe') and focused only on marriage.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The only question asked was Type A (building on the user's question about love marriage), but it was asked very late.",
+    "quotes": [
+     "Aap Kisi Ko pasand Karte Hain"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Scripted.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Answered the marriage timing question with a window.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use user details.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a window, but it is not based on any chart reason.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's concern about work was ignored.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ended the chat abruptly with a pitch.",
+    "quotes": [
+     "Aap dobara connect kijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pitch to reconnect.",
+    "quotes": [
+     "Aap dobara connect kijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": true,
+    "reasoning": "Scripted.",
+    "quotes": [],
+    "score": null
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   },
+   "1.3": {
+    "skipped": true,
+    "reasoning": "Scripted.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shadi kab hogi mam",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic timeline for marriage but failed to address the user's work concerns or provide any meaningful chart-based insights. The consultation ended abruptly with a push for a paid reconnection, which significantly hurt the user experience."
+ },
+ "usage": {
+  "input_tokens": 15300,
+  "output_tokens": 1548
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#8 [01:46] ASTRO: Kuchh grahan Jo aapke bich mein rukavat La rahe hain jiske vajah se aisa hota hai\n#19 [04:58] ASTRO: Aap dobara connect kijiye",
+   "reason": "The astrologer uses fear ('grahan jo rukavat la rahe hain') and then immediately pushes for a paid element by asking the user to 'dobara connect kijiye' (reconnect/extend) to resolve it.",
+   "quote_en": "#8 [01:46] ASTRO: There are some planetary influences causing obstacles between you, which is why this is happening\n#19 [04:58] ASTRO: Please reconnect"
+  }
+ }
+}

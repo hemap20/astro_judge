@@ -1,0 +1,355 @@
+{
+ "file": "conversation_140707_2324.csv",
+ "tier": "Medium",
+ "user_id": "140707",
+ "ltv": 4833.0,
+ "n_msgs": 67,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.02,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 4.57,
+  "B3": 4.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 4,
+   "M": 13,
+   "long_frac": 0.161,
+   "max_words": 80,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific situation (breakup, block, confusion) in the first reply after the user shares it. The astrologer just says 'Ok' and asks for details.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details (Type C) and then asks about the relationship duration (Type B). No questions are Type A.",
+    "quotes": [
+     "Unka details de dijiye",
+     "Kitne samay ka relation tha aapka"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details once, but does not provide a reason for why they are needed (e.g., matching charts).",
+    "quotes": [
+     "Unka details de dijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (March 15-20) and the user's feelings, but it is not specific or tied to a chart reason.",
+    "quotes": [
+     "15 March ke bad vah aapse baat kar lenge"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about when they will talk, but only after the user pushes.",
+    "quotes": [
+     "15 March ke bad vah aapse baat kar lenge"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided in plain words. The astrologer mentions 'card read' but does not link any planetary or chart factors to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds that the partner is confused and loves the user, which is new, but it is not linked to any chart reason or user detail.",
+    "quotes": [
+     "Ji han abhi bhi vah aapse bahut pyar karti hain aur aapko lekar kafi jyada confuse Hain"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a window (15-20 March) and maintains it, but provides no chart-based reason for this timing.",
+    "quotes": [
+     "15 se 20 March ke andar hi baat ho jayegi"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer pushes a paid healing service as the solution to get the partner back sooner, which is a pressure tactic.",
+    "quotes": [
+     "Agar usse pahle chahte ho ki aapki baat ho jaaye to fir aapko healing vagaira Lena padega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the breakup and the return of the partner throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer; they focus on pushing the healing service.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation is dominated by the healing pitch.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the healing process and how it works, which is not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish, but there are no astrology terms explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not a difficult user; the astrologer is the one pushing the service.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya unse meri wapas se bat ho sakti h",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a timeline for the user's concern but failed to provide any chart-based reasoning, relying instead on pushing a paid healing service. The consultation felt more like a sales pitch than an astrological reading."
+ },
+ "usage": {
+  "input_tokens": 11727,
+  "output_tokens": 1694
+ }
+}

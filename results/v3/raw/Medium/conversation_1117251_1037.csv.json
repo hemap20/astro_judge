@@ -1,0 +1,428 @@
+{
+ "file": "conversation_1117251_1037.csv",
+ "tier": "Medium",
+ "user_id": "1117251",
+ "ltv": 2203.0,
+ "n_msgs": 37,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 4,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.94,
+ "blueprint": {
+  "score": 3.67,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.8,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S2": 119,
+   "S3": 133,
+   "S4": 92,
+   "S5": 133
+  }
+ },
+ "final": 1.3,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.75,
+  "B2": 3.0,
+  "B3": 4.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.0,
+   "max_words": 18,
+   "avg_words": 7.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     33
+    ],
+    "paid_idx": [
+     31,
+     34,
+     36
+    ],
+    "evidence_idx": [
+     31,
+     33,
+     34,
+     36
+    ],
+    "reason": "The astrologer uses a guaranteed result ('Teen din mein vah aapko unblock karke call karegi') to push a specific mantra (a paid element/ritualistic remedy) for the user to perform."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Acknowledges the user's distress but is very brief."
+   },
+   "S3": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Identifies the concern but asks a question that is already clear."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gives a generic prediction about marriage without chart depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Follow-up is generic and not tied to chart analysis."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors like dasha or houses."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 31,
+    "quality": 0,
+    "note": "Remedy is a mantra given with a guaranteed result and pressure."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation but does not repeat details or name the feeling.",
+    "quotes": [
+     "Aap pareshan mat hoiye"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are Type B (generic) or Type C (asking for what is already known).",
+    "quotes": [
+     "Kaise ho aap",
+     "Kya question hai aapka",
+     "Aap chahte Hain ki aapko unblock kar de"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but does not use them to provide a reading about the match.",
+    "quotes": [
+     "Somi se aapki baat ho rahi hai present time mein"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "Aapke kundli ke according Ham dekh Pa Rahe Hain ki aapke marriage ka Prabal yog ban raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a time window for marriage but it is not based on a clear reason.",
+    "quotes": [
+     "Aapki marriage 2026 ke November Tak ho jayegi"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same promise without adding depth.",
+    "quotes": [
+     "November Tak fix ho jayegi aapki marriage"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a specific outcome ('Teen din mein') which is a guarantee.",
+    "quotes": [
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a mantra given with a guarantee and pressure.",
+    "quotes": [
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer focuses on the marriage question and the unblocking question, but the unblocking is handled with a guarantee.",
+    "quotes": [
+     "Aapki marriage 2026 ke November Tak ho jayegi",
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened; the astrologer just pushes the mantra.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about sending a mantra, which is a pressure tactic.",
+    "quotes": [
+     "Mantra mein aapko send kar rahi hun"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, but the astrologer uses a mantra as a remedy.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is just poor.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere shadi kab hogi kisse hogi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed by providing a guaranteed outcome for a mantra remedy, which creates false hope and pressure. The consultation lacked depth, as no real chart analysis was provided to support the predictions."
+ },
+ "usage": {
+  "input_tokens": 15380,
+  "output_tokens": 1846
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#31 [04:17] ASTRO: Ek MHA Mohini Mantra Hai jiska aapko Jaap karna hoga soumi ka naam lekar\n#33 [04:41] ASTRO: Teen din mein vah aapko unblock karke call karegi\n#34 [04:54] ASTRO: Aapko MHA Mohini Mantra ka Jaap karna hoga uska naam lekar\n#36 [05:00] ASTRO: Mantra mein aapko send kar rahi hun",
+   "reason": "The astrologer uses a guaranteed result ('Teen din mein vah aapko unblock karke call karegi') to push a specific mantra (a paid element/ritualistic remedy) for the user to perform.",
+   "quote_en": "#31 [04:17] ASTRO: There is an MHA Mohini Mantra that you will have to chant while taking Soumi's name\n#33 [04:41] ASTRO: In three days, she will unblock you and call you\n#34 [04:54] ASTRO: You will have to chant the MHA Mohini Mantra while taking her name\n#36 [05:00] ASTRO: I am sending the mantra to you"
+  }
+ }
+}

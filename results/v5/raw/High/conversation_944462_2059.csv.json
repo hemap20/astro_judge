@@ -1,0 +1,596 @@
+{
+ "file": "conversation_944462_2059.csv",
+ "tier": "High",
+ "user_id": "944462",
+ "ltv": 8262.0,
+ "n_msgs": 63,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": 10,
+  "2.1": 8,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 6.36,
+ "rubric_score": 6.36,
+ "blueprint": {
+  "score": 6.31,
+  "coverage": 0.667,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.905,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S2": 176,
+   "S3": 53,
+   "S4": 215,
+   "S5": 482,
+   "S6": 376,
+   "S7": 531
+  }
+ },
+ "final": 6.33,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.25,
+  "B2": 6.5,
+  "B3": 5.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 13.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 20,
+    "quality": 2,
+    "note": "Acknowledges the personal life problems of both parties."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 2,
+    "note": "Identifies the concern about marriage."
+   },
+   "S4": {
+    "present": true,
+    "idx": 25,
+    "quality": 2,
+    "note": "Gives a prediction about divorce and emotional attachment."
+   },
+   "S5": {
+    "present": true,
+    "idx": 48,
+    "quality": 2,
+    "note": "Asks about the current communication gap."
+   },
+   "S6": {
+    "present": true,
+    "idx": 38,
+    "quality": 2,
+    "note": "Connects the situation to the chart and predicts marriage."
+   },
+   "S7": {
+    "present": true,
+    "idx": 53,
+    "quality": 1,
+    "note": "Probes into current problems."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 20, noting that both are facing problems in their personal lives.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos multiple times (Type C).",
+    "quotes": [
+     "Aap apni aur inki pic share kariye to",
+     "Aap apni aur unki pic share kar dijiye fase reading kar leta Hun"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 30,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 40,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 58,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about the partner's marriage and divorce prospects.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho",
+     "future mein aapke partner ke kundli ke anusar Se dekha jaaye to yah funny wife ke sath devorce Le sakte hain"
+    ],
+    "score": 9,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": false,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, adds new information (divorce possibility), is specific to their situation, and is tied to the chart.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho",
+     "future mein aapke partner ke kundli ke anusar Se dekha jaaye to yah funny wife ke sath devorce Le sakte hain"
+    ],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage directly.",
+    "quotes": [
+     "Yah apni wife ko devorce bhi denge aapke sath marriage bhi karenge"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 38,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the situation to the partner's chart.",
+    "quotes": [
+     "future mein aapke partner ke kundli ke anusar Se dekha jaaye to yah funny wife ke sath devorce Le sakte hain"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the partner's family problems and the timeline.",
+    "quotes": [
+     "February ke bad se inke family ka problem hai samapt ho jaega"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a timeline window (February).",
+    "quotes": [
+     "February ke bad se inke family ka problem hai samapt ho jaega"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the main topic.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early close.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are about the wife knowing and photo safety.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, no formal sentences.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya ye mere se shadi karege",
+  "main_question_idx": 10,
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and provided a direct prediction about the marriage. However, the repeated requests for photos were unnecessary and hindered the flow of the consultation."
+ },
+ "usage": {
+  "input_tokens": 17669,
+  "output_tokens": 2723
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 9,
+   "2.1": 8,
+   "2.2": 8,
+   "2.7": 7,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

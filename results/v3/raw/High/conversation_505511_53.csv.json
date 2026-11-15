@@ -1,0 +1,398 @@
+{
+ "file": "conversation_505511_53.csv",
+ "tier": "High",
+ "user_id": "505511",
+ "ltv": 60977.5,
+ "n_msgs": 36,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.98,
+ "blueprint": {
+  "score": 3.7,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S3": 28,
+   "S4": 146
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 2.86,
+  "B3": 2.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 7,
+   "M": 8,
+   "long_frac": 0.05,
+   "max_words": 34,
+   "avg_words": 11.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     24
+    ],
+    "paid_idx": [
+     25,
+     33
+    ],
+    "evidence_idx": [
+     24,
+     25,
+     33
+    ],
+    "reason": "The astrologer uses fear regarding Mangal Dosh causing marriage problems and immediately offers a paid remedy and requests to extend time/recharge to resolve it."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identified the concern but did not build rapport."
+   },
+   "S4": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Gave a generic prediction about loyalty."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layers explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy offered was a paid pitch."
+   },
+   "S9": {
+    "present": true,
+    "idx": 33,
+    "quality": 0,
+    "note": "Hook was a request to extend time/pay."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific question about the boy's loyalty and feelings, providing only generic, repetitive answers.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to understand the user's situation.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the boy's details, making the reading generic.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if the boy is right for her; the astrologer gave a generic 'loyal' answer without any direction or reason.",
+    "quotes": [
+     "Ye ladka mere liye sahi hai",
+     "yah aapse bahut jyada pyar karte hain"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms explained or linked to life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same 'loyal' claim.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid service pitch.",
+    "quotes": [
+     "To agar aap kahenge to main isko bhi Sahi kar dunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to address the main question about the boy's suitability, instead pivoting to a paid pitch.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened; only a request for more time.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly tries to end the chat to get more time/money.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for more time/money.",
+    "quotes": [
+     "To aap apna samay badha lijiye ya fir se contact kijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but lacks professional quality.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ye ladka mere liye sahi hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided generic, repetitive answers without any chart-based insight and failed to address the user's concerns. The consultation was severely damaged by the astrologer's focus on pushing for more time and paid remedies rather than providing value."
+ },
+ "usage": {
+  "input_tokens": 15440,
+  "output_tokens": 1621
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#24 [07:08] ASTRO: Aapki shaadi hone mein thoda problem aaega isko lekar ke\n#25 [07:55] ASTRO: To agar aap kahenge to main isko bhi Sahi kar dunga\n#33 [09:33] ASTRO: To aap apna samay badha lijiye ya fir se contact kijiye taki main Bata sakun",
+   "reason": "The astrologer uses fear regarding Mangal Dosh causing marriage problems and immediately offers a paid remedy and requests to extend time/recharge to resolve it.",
+   "quote_en": "#24 [07:08] ASTRO: You will face some problems regarding your marriage.\n#25 [07:55] ASTRO: So if you say so, I will fix this as well.\n#33 [09:33] ASTRO: So please extend your time or contact again so that I can tell you."
+  }
+ }
+}

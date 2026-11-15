@@ -1,0 +1,375 @@
+{
+ "file": "conversation_191594_1883.csv",
+ "tier": "High",
+ "user_id": "191594",
+ "ltv": 5037.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 3,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.36,
+ "blueprint": {
+  "score": 2.95,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S4": 106
+  }
+ },
+ "final": 2.16,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.67,
+  "B2": 3.43,
+  "B3": 2.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     29
+    ],
+    "paid_idx": [
+     30,
+     34
+    ],
+    "evidence_idx": [
+     29,
+     30,
+     34
+    ],
+    "reason": "The astrologer uses the need to 'see energies' (fear/urgency) to push the user to disconnect and start a paid video call."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not identify the primary concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gave a generic prediction about struggling since August 2025."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user asked 'kya chal raha hai', and the astrologer gave a generic reading about struggling. It does not acknowledge the user's specific state or feelings.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions, only demands a video call.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone. It lacks specificity.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked what is happening in life; the astrologer gave a vague timeline but did not answer the question.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth built.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency check possible.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No second question asked.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer is pushing for a disconnect/video call, which acts as an early close.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about disconnecting to start a video call.",
+    "quotes": [],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer is not using the user's language effectively.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya chal raha hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a very generic reading and failed to engage with the user's actual concerns. The consultation was primarily used to pressure the user into a paid video call, which hurt the user experience significantly."
+ },
+ "usage": {
+  "input_tokens": 15481,
+  "output_tokens": 1461
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#29 [03:33] ASTRO: No issues I need to see you and energies\n#30 [03:53] ASTRO: Go to my profile and there is an option for video call\n#34 [04:40] ASTRO: Yes mam",
+   "reason": "The astrologer uses the need to 'see energies' (fear/urgency) to push the user to disconnect and start a paid video call.",
+   "quote_en": "#29 [03:33] ASTRO: No issues I need to see you and energies\n#30 [03:53] ASTRO: Go to my profile and there is an option for video call\n#34 [04:40] ASTRO: Yes mam"
+  }
+ }
+}

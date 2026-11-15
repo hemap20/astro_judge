@@ -1,0 +1,440 @@
+{
+ "file": "conversation_770487_1117.csv",
+ "tier": "Low",
+ "user_id": "770487",
+ "ltv": 270.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 7,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 6.05,
+ "rubric_score": 6.05,
+ "blueprint": {
+  "score": 4.3,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 17,
+   "S3": 153,
+   "S4": 153,
+   "S5": 171,
+   "S6": 269
+  }
+ },
+ "final": 5.17,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.33,
+  "B2": 5.2,
+  "B3": 5.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 12.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identifies the question but only after significant delay."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gives a prediction but it is blunt and lacks nuance."
+   },
+   "S5": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Asks about Manglik status, which is a standard technical question."
+   },
+   "S6": {
+    "present": true,
+    "idx": 21,
+    "quality": 1,
+    "note": "Connects the conflict to a potential divorce, but lacks chart depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation for further consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's worry and feelings, focusing only on the chart data.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about Manglik status (Type B) and then repeatedly asks about fights (Type A) but fails to use the answers effectively.",
+    "quotes": [
+     "Aapko pata hai aapki kundli manglik hai",
+     "Aap donon ke bich mein jhagade hote hain ya nahin aap hamen clear kijiye"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": [
+      {
+       "idx": 12,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 13,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 16,
+       "type": "A",
+       "answer_used": true
+      },
+      {
+       "idx": 18,
+       "type": "A",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but it is generic and lacks a specific chart reason tied to the user's life.",
+    "quotes": [
+     "Aapke kundli ke anusar dekha jaaye to aapke kundli mein do shaadi hogi"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the number of marriages, but the answer is blunt and lacks depth.",
+    "quotes": [
+     "Main yah Janna chahti hun Meri kitni shaadi hogi",
+     "Aapke kundli ke anusar dekha jaaye to aapke kundli mein do shaadi hogi"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 10,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Manglik dosh and the 4th house, but does not explain what this means for the user's life in plain words.",
+    "quotes": [
+     "Aapke kundli mein manglik dosh ban raha hai aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point about divorce, which is new, but it is not built on the user's specific details.",
+    "quotes": [
+     "Yah jhagada aapko divorce dilaega ek din uske bad dusri shaadi hogi"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second, different question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the astrologer is not providing content in every reply.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a confirmation of the user's situation, not a reading or guidance.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'Manglik dosh' and 'chauthe bhav' without explaining them.",
+    "quotes": [
+     "Aapke kundli mein manglik dosh ban raha hai aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 2,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri kitni shaadi hogi",
+  "main_question_idx": 3,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the main question but failed to explain the astrological reasoning in simple terms or offer any practical guidance. The consultation felt robotic and lacked the necessary emotional connection and depth."
+ },
+ "usage": {
+  "input_tokens": 16802,
+  "output_tokens": 2025
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 6,
+   "1.4": null,
+   "2.1": 4,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 4,
+   "3.2": 6
+  }
+ }
+}

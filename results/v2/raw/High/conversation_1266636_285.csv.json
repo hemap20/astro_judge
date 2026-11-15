@@ -1,0 +1,332 @@
+{
+ "file": "conversation_1266636_285.csv",
+ "tier": "High",
+ "user_id": "1266636",
+ "ltv": 7044.5,
+ "n_msgs": 31,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 4,
+  "2.4": 7,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 5.43,
+  "B3": 3.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 22,
+   "long_frac": 0.091,
+   "max_words": 42,
+   "avg_words": 14.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     27,
+     28,
+     29,
+     30
+    ],
+    "reason": "The astrologer uses fear ('ladke ka nature achcha Nahin Hai', 'negative Kare') and urgency ('15 20 minut ka time lagega', 'abhi samay badhaaoge') to push a paid 'brainwash' service."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the mother's concern about the daughter's relationship and the specific boy.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai",
+     "Sudhanshu nam he"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the boy to perform a service, which is Type C as it is a setup for a paid pitch.",
+    "quotes": [
+     "Ladke ka kuchh Naam kuchh detail pata hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's name to perform a 'brainwash' service, not to analyze the compatibility of the match.",
+    "quotes": [
+     "Ladke ka kuchh Naam kuchh detail pata hai"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the boy's nature and the daughter's future marriage is specific and new to the user.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai",
+     "2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the concern about the daughter's relationship and marriage timing.",
+    "quotes": [
+     "2026 ke bad hi marriage dikhai de rahi hai",
+     "love marriage mein inki marriage successful Nahin rahegi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli and marriage yog, but the explanation is generic.",
+    "quotes": [
+     "En ki Kundli mein 72% love marriage ka yog Hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the boy's nature and the success of the marriage.",
+    "quotes": [
+     "Ladka inko Kabhi support Nahin Karega",
+     "love marriage mein inki marriage successful Nahin rahegi"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear year for marriage.",
+    "quotes": [
+     "2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid 'brainwash' service, which is a pitch.",
+    "quotes": [
+     "brain wash kar dungi 15 20 minut ka time lagega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the daughter's relationship throughout.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai",
+     "2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a 'brainwash' service as a next layer.",
+    "quotes": [
+     "brain wash kar dungi 15 20 minut ka time lagega"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the content is a pitch.",
+    "quotes": [
+     "abhi samay badhaaoge to Abhi start kar dungi"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pitch for a paid service.",
+    "quotes": [
+     "Aur vah ladka agar inke upar kuchh negative Kare usse pahle use ladki ko hi dur kar do brainwash karke"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is Hinglish and easy to understand.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Wo galat ladke ke prem me he",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided some initial insights into the daughter's relationship, but quickly pivoted to a predatory pitch for a paid 'brainwash' service. This unethical behavior and pressure to pay ruined the consultation."
+ },
+ "usage": {
+  "input_tokens": 10991,
+  "output_tokens": 1551
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#27 [03:57] ASTRO: Inka aur use ladke ka naam pata aapane Bata Diya Hai brain wash kar dungi 15 20 minut ka time lagega ya to abhi aap samay badhaaoge to Abhi start kar dungi ya to fir se connect karoge to chat per dobara\n#28 [04:07] ASTRO: Jisse kabhi bhi aapki beti unke bare mein Nahin sochenge\n#29 [04:18] ASTRO: धीरे-धीरे karke Jo Bhi unke man mein hai vah khatm ho jaega use ladke ke liye Baki jaisa aapko theek Lage aapke acche Ke liye Hi bata rahi hun kyunki vah ladke ka nature achcha Nahin Hai\n#30 [04:35] ASTRO: Aur vah ladka agar inke upar kuchh negative Kare usse pahle use ladki ko hi dur kar do brainwash karke",
+   "reason": "The astrologer uses fear ('ladke ka nature achcha Nahin Hai', 'negative Kare') and urgency ('15 20 minut ka time lagega', 'abhi samay badhaaoge') to push a paid 'brainwash' service.",
+   "quote_en": "#27 [03:57] ASTRO: You have given me your daughter's and that boy's name, I will brainwash him. It will take 15-20 minutes. Either you extend the time now and I will start immediately, or you reconnect on chat again.\n#28 [04:07] ASTRO: So that your daughter will never think about him again.\n#29 [04:18] ASTRO: Gradually, whatever is in her mind for that boy will fade away. The rest is up to you, I am only suggesting this for your own good because that boy's nature is not good.\n#30 [04:35] ASTRO: And before that boy does anything negative to her, just distance your daughter from him by brainwashing her."
+  }
+ }
+}

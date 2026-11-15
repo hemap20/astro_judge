@@ -1,0 +1,351 @@
+{
+ "file": "conversation_1402930_2646.csv",
+ "tier": "Medium",
+ "user_id": "1402930",
+ "ltv": 2335.0,
+ "n_msgs": 64,
+ "n_astro_msgs": 29,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.83,
+ "buckets": {
+  "B1": 6.33,
+  "B2": 7.0,
+  "B3": 7.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.138,
+   "max_words": 65,
+   "avg_words": 17.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's exam preparation and previous attempts.",
+    "quotes": [
+     "Ji abhi aap Kisi chij ki taiyari kar rahe ho kya",
+     "Aur aapane pahle Koi attempt bhi diya hua hai kya"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about exam preparation and previous attempts, which are relevant to the user's stated goal.",
+    "quotes": [
+     "Ji abhi aap Kisi chij ki taiyari kar rahe ho kya",
+     "Aur aapane pahle Koi attempt bhi diya hua hai kya"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is about her exam and future, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the exam and the struggle with results is specific and relevant to the user's current situation.",
+    "quotes": [
+     "Lekin usmein kam number se rah gaye ho",
+     "Dekho thodi Si yog dikhai de rahe hain ki kamjor avastha mein hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction regarding the exam pass possibility.",
+    "quotes": [
+     "August ke paper mein aapko pareshani aaegi pass hone mein but main aapko remedies batata hun jisse yog banenge",
+     "August mein bhi nikal jaaoge aap pass Ho jaaoge"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the exam struggle to a weak planet/graha.",
+    "quotes": [
+     "Jaise ki jo grah aapka kamjor hai... Vah aapki confidence ki dikkat bhi deta hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new insights about the user's confidence and study habits.",
+    "quotes": [
+     "Aapke andar aisi feeling aati hai ki Jaisi confidence aapka Low hai",
+     "Baki aapka dikhai deta hai ki aap mehnat karne mein bahut acche ho"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a timeline for the government job and the exam.",
+    "quotes": [
+     "government job ke yog aapke kundli mein thode samay bad dikhai de rahe hain jaise ki 2027 mein",
+     "August mein bhi nikal jaaoge"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific remedy (Aditya Hriday Strot) for the exam problem.",
+    "quotes": [
+     "Dekho aapko Aditya hriday strot YouTube per mil jaega vah aapko sunna hai roj...."
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses the exam question and then moves to the marriage question.",
+    "quotes": [
+     "August mein bhi nikal jaaoge aap pass Ho jaaoge",
+     "Okay ab mere life mein shaadi ke liye baatiye"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer points to the user's hard work and potential for success.",
+    "quotes": [
+     "Baki aapka dikhai deta hai ki aap mehnat karne mein bahut acche ho"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide guidance.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide encouragement and confirmation of the remedy.",
+    "quotes": [
+     "Baki main pray karunga aapka 100% selection Ho jaaye"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, using common terms.",
+    "quotes": [
+     "Ji abhi aap Kisi chij ki taiyari kar rahe ho kya"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "I want to ask about my future .. My job life Marriage And overall",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively identified the user's exam stress and provided a relevant remedy. However, the astrologer's initial focus on data verification and the lack of a clear, structured approach to the marriage question slightly hindered the flow."
+ },
+ "usage": {
+  "input_tokens": 11734,
+  "output_tokens": 1686
+ }
+}

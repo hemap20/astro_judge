@@ -1,0 +1,385 @@
+{
+ "file": "conversation_1423870_1203.csv",
+ "tier": "Medium",
+ "user_id": "1423870",
+ "ltv": 3442.0,
+ "n_msgs": 70,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 6.01,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 5.86,
+  "B3": 6.0,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 1,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 15,
+   "long_frac": 0.25,
+   "max_words": 67,
+   "avg_words": 16.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the relationship issue mentioned by the user in message #7.",
+    "quotes": [
+     "Relationship issue aapke kundli se dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's DOB (#19) and photo (#53). The DOB request is necessary for matching, but the photo request is redundant as the user already stated they don't have it. This counts as Type C.",
+    "quotes": [
+     "Unka date off birth bataiye mujhe",
+     "Agar unka photo aur aapka photo mujhe send kijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB to match the charts, which is appropriate.",
+    "quotes": [
+     "Partner ka Dil Bata dijiye main aap donon ki kundli ko check kar leta Hun",
+     "Unka date off birth bataiye mujhe"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but it is generic and lacks a specific chart reason or unique marker that couldn't be said to anyone in a relationship crisis.",
+    "quotes": [
+     "Aap donon ki kundli ke anusar jaisa ki Main dekh Pa raha hun relationship ko lekar Yog to kafi achcha dikhai de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window for the user's question about when the partner will return.",
+    "quotes": [
+     "yani ki 25 May ke bad vah aapse call aur message jarur karenge"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' and 'yog' but fails to explain the actual astrological reason behind the situation in plain words.",
+    "quotes": [
+     "Aap donon ki kundli ke anusar jaisa ki Main dekh Pa raha hun relationship ko lekar Yog to kafi achcha dikhai de raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points (third person interference, ignoring behavior) that build on the user's situation.",
+    "quotes": [
+     "Aap donon ke bich mein Koi third person hai jo aapke partner ke mind ko aapke prati divert bhi kar raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific date window (25 May) and maintains consistency throughout the chat.",
+    "quotes": [
+     "yani ki 25 May ke bad vah aapse call aur message jarur karenge"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided; the astrologer only offered predictions.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays focused on the return of the partner throughout the chat.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's current energy and thoughts.",
+    "quotes": [
+     "main dekh Pa rahe ho bahut hi jyada bhav se Prem Karti hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just acknowledgments, failing to provide a final reading or pending point.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, though it lacks depth in explaining terms.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri ex wapish aygi ja nhi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully provided a specific timeline for the user's query, which was helpful. However, the astrologer frequently stalled with 'checking' messages and failed to provide any meaningful astrological reasoning or remedies."
+ },
+ "usage": {
+  "input_tokens": 11783,
+  "output_tokens": 1806
+ }
+}

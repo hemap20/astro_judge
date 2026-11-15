@@ -1,0 +1,274 @@
+{
+ "file": "conversation_3371122_1117.csv",
+ "tier": "High",
+ "user_id": "3371122",
+ "ltv": 5423.28,
+ "n_msgs": 28,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 4,
+  "2.6": null,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.71,
+ "buckets": {
+  "B1": 8.5,
+  "B2": 6.0,
+  "B3": 8.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 13.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's struggle in message #15, #17, #18, and #19, which aligns with the user's previous state of being stuck.",
+    "quotes": [
+     "Dhai sal Se dekha jaaye to aap bahut pareshan the",
+     "Aapka koi Kam nahin ban raha tha",
+     "Aap apne future ko lekar ke aage nahin badpa rahi thi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions throughout the chat.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is about her job and then her marriage, not a specific third party.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading in #15-19 is about the past/present, is specific to her struggle, and is new information.",
+    "quotes": [
+     "Dhai sal Se dekha jaaye to aap bahut pareshan the",
+     "Aapka koi Kam nahin ban raha tha"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the job in #10.",
+    "quotes": [
+     "Kundli ke anusar dekha jaaye to aap 9 August Tak new job aapka lagega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Kundli' but fails to link any specific chart factor (like a dasha or planet) to the life events in a meaningful way.",
+    "quotes": [
+     "Kundli ke anusar dekha jaaye to aap 9 August Tak new job aapka lagega"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the family support and the shift in the future, building on the initial reading.",
+    "quotes": [
+     "Family ka bhi support nahin Mil Pa raha tha",
+     "Ab धीरे-धीरे aapke future mein badlav hote hue dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (9 August) which is a single point, not a window, and repeats it as a 'golden time'.",
+    "quotes": [
+     "9 August Tak new job aapka lagega",
+     "9 August se aapka golden time shuru ho raha hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the job question first, then addresses the marriage question later without being prompted.",
+    "quotes": [
+     "shadi ka kuch hoga kya",
+     "Shaadi ke naye raste ke peeche ek aur bada factor dikh raha hai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding the marriage factor at the very end.",
+    "quotes": [
+     "Shaadi ke naye raste ke peeche ek aur bada factor dikh raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide information until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a new, specific point about the marriage factor, giving the user a reason to continue.",
+    "quotes": [
+     "Shaadi ke naye raste ke peeche ek aur bada factor dikh raha hai"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "when my new job come",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's past struggles and provided a clear timeline for the job search. However, the astrologer failed to explain the chart reasons behind the predictions and relied on a specific date rather than a broader window."
+ },
+ "usage": {
+  "input_tokens": 10742,
+  "output_tokens": 1378
+ }
+}

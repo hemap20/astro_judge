@@ -1,0 +1,218 @@
+{
+ "file": "conversation_955296_1763.csv",
+ "tier": "Low",
+ "user_id": "955296",
+ "ltv": 425.0,
+ "n_msgs": 11,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.0,
+ "buckets": {
+  "B1": 4.67,
+  "B2": 3.0,
+  "B3": 4.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 2,
+   "R": null,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 5,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 8.2,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about marriage and the relationship status by promising to check details about the marriage and timing.",
+    "quotes": [
+     "Sab kuchh check karte ho kiske sath aapki shaadi hogi kab tak hogi sab batati hun pareshan mat hoiye do minut ka time lagega"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks two questions. The first is Type B (could be asked to any user), and the second is Type A (builds on the user's '50-50' response). No Type C questions were asked.",
+    "quotes": [
+     "Apka koi love relationship hai",
+     "Relationship kaisa chal raha hai"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about marriage in general, not a specific named person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window; the astrologer only asked questions and requested time to check.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not answer the question about when the marriage will happen; they only asked for time to check.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided to build upon.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not change the topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not open a next layer; they only asked for time to check.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not close the chat, but there were no readings or guidance provided to keep the user engaged.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages were a wait line and a promise to check later, providing no reading.",
+    "quotes": [
+     "Ok wait 2 minut",
+     "Sab kuchh check karte ho kiske sath aapki shaadi hogi kab tak hogi sab batati hun pareshan mat hoiye do minut ka time lagega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish. No technical terms or formal language were used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mara marriage kabo hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight during the consultation, spending the entire time asking questions and requesting time to check. The chat ended without answering the user's main question, leaving the user with no value."
+ },
+ "usage": {
+  "input_tokens": 10294,
+  "output_tokens": 1039
+ }
+}

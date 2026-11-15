@@ -1,0 +1,210 @@
+{
+ "file": "conversation_681311_347.csv",
+ "tier": "Medium",
+ "user_id": "681311",
+ "ltv": 1470.0,
+ "n_msgs": 7,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": null,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": null,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 1,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 2.75,
+ "buckets": {
+  "B1": 1.0,
+  "B2": 2.33,
+  "B3": 3.0,
+  "B4": 4.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 1,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 4.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": true,
+    "reasoning": "The user provided birth details but did not share a worry, feeling, or story in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked no questions; the messages sent were nonsensical strings of numbers and instructions.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question was not provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": true,
+    "reasoning": "The user did not ask a question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or facts were discussed.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not ask a question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided to open any layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sent multiple messages that were not readings or relevant questions, stalling the chat.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were nonsensical numbers, providing no value or reason to return.",
+    "quotes": [],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not use language that fits a consultation; the messages were incoherent.",
+    "quotes": [],
+    "score": 1
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or meaningful interaction, sending only incoherent strings of numbers. This resulted in a complete lack of value for the user."
+ },
+ "usage": {
+  "input_tokens": 10212,
+  "output_tokens": 832
+ }
+}

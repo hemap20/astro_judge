@@ -1,0 +1,361 @@
+{
+ "file": "conversation_698346_347.csv",
+ "tier": "High",
+ "user_id": "698346",
+ "ltv": 8317.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.46,
+ "rubric_score": 3.46,
+ "blueprint": {
+  "score": 1.75,
+  "coverage": 0.056,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 0.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 0,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S8": 1019
+  }
+ },
+ "final": 2.6,
+ "label": "bad",
+ "buckets": {
+  "B1": 1.67,
+  "B2": 2.86,
+  "B3": 3.33,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 2.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "No fear or urgency used to push a paid service."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No greeting or rapport building."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No identification of concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No initial prediction."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Generic remedy provided without context."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's details or question.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "No questions asked.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for details but did not use them for a reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Main question never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies provided are generic and not tied to a problem.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No question answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "Chat consists of fragmented, non-reading messages.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are random numbers and symbols.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is fragmented and lacks context.",
+    "quotes": [],
+    "score": 3
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided fragmented, incoherent messages without any actual reading or engagement. The lack of professional communication and failure to address the user's query made the consultation completely ineffective."
+ },
+ "usage": {
+  "input_tokens": 15004,
+  "output_tokens": 1352
+ }
+}

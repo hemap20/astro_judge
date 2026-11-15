@@ -1,0 +1,336 @@
+{
+ "file": "conversation_1019693_1947.csv",
+ "tier": "High",
+ "user_id": "1019693",
+ "ltv": 11875.22,
+ "n_msgs": 23,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.08,
+ "rubric_score": 6.08,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 14,
+   "S3": 24,
+   "S4": 279
+  }
+ },
+ "final": 4.67,
+ "label": "mixed",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 5.14,
+  "B3": 6.67,
+  "B4": 9.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 10,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 5.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks chart depth."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart, dasha, or planets."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's pain or the specific situation of being in no contact.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's details which were already provided in the chat or could have been asked more efficiently. The questions are not Type A.",
+    "quotes": [
+     "Husband ki details batao",
+     "Husband ka naam bhi batao"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's name and details but did not use them to provide a reading based on his chart.",
+    "quotes": [
+     "Husband ka naam bhi batao"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "Dear jaise Maine dekh paa rahi hu ladke apse contact karega"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a direction (he will contact) but it was very late and lacked reasoning.",
+    "quotes": [
+     "Dear jaise Maine dekh paa rahi hu ladke apse contact karega"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one question was asked.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned someone controlling him but did not open a proper next layer.",
+    "quotes": [
+     "Uske Maan me hei but koi to h jo control kar raha h usse"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer was slow to respond.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a reading.",
+    "quotes": [
+     "Uske Maan me hei but koi to h jo control kar raha h usse"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Reunion hoga",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer was slow to respond and failed to provide a deep, chart-based reading. The most helpful part was the direct answer to the reunion question, but the lack of guidance and depth hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 15303,
+  "output_tokens": 1400
+ }
+}

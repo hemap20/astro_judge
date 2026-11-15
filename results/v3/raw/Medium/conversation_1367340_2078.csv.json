@@ -1,0 +1,368 @@
+{
+ "file": "conversation_1367340_2078.csv",
+ "tier": "Medium",
+ "user_id": "1367340",
+ "ltv": 2336.4,
+ "n_msgs": 23,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.78,
+ "rubric_score": 4.78,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 4,
+   "S3": 92,
+   "S4": 266,
+   "S5": 92
+  }
+ },
+ "final": 4.09,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.8,
+  "B3": 5.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 4,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 26,
+   "avg_words": 11.5,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the user's pain regarding the breakup."
+   },
+   "S3": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided or irrelevant."
+   },
+   "S4": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks chart depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asked a follow-up question but it was not used to build the reading."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Prediction was not connected to specific chart factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the birth details but ignored the user's emotional distress about the breakup.",
+    "quotes": [
+     "Mujhe aapka detail prapt hua hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for birth details of the ex which the user did not have, and then asked for a photo, which is not a standard astrological practice for reading.",
+    "quotes": [
+     "Aap apne ex ka date off birth time aur janmasthan send karo",
+     "Agar aap donon ka pic ho to pic send karo"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the other person's details but did not explain why or use them effectively, instead asking for a photo.",
+    "quotes": [
+     "Aap apne ex ka date off birth time aur janmasthan send karo"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and lacks a chart reason.",
+    "quotes": [
+     "aapke kundli ke anusar aapka aur aapke ex ka ek dusre ke sath aane wala samay bilkul ek sath dikh raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answered the question about the ex returning, but without any chart-based reasoning.",
+    "quotes": [
+     "Aap tension mat lo aapke ex aapke life mein wapas aaenge"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The reading did not build depth; it just repeated the same assurance.",
+    "quotes": [
+     "Aap donon ka aane wala samay ek dusre ke sath long term Ka Hona dikh raha hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promised the outcome as certain without any time window or chart basis.",
+    "quotes": [
+     "Aap tension mat lo aapke ex aapke life mein wapas aaenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stayed on one topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not close the chat, but the conversation was very repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were just empty assurances.",
+    "quotes": [
+     "Aap donon Ka rishta bilkul continue hoga"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language was simple and accessible.",
+    "quotes": [
+     "Radhe radhe ji"
+    ],
+    "score": 7
+   },
+   "1.2_check": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for birth details and photos, which are not helpful for a reading when the user doesn't have them.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera ex muze dur ho gya he",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer was kind but failed to provide any meaningful astrological insight or remedy, relying on empty assurances instead. The chat lacked depth and failed to address the user's emotional state or provide a professional consultation experience."
+ },
+ "usage": {
+  "input_tokens": 15150,
+  "output_tokens": 1631
+ }
+}

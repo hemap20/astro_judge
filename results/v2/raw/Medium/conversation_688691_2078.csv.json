@@ -1,0 +1,253 @@
+{
+ "file": "conversation_688691_2078.csv",
+ "tier": "Medium",
+ "user_id": "688691",
+ "ltv": 1052.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 3,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.72,
+ "buckets": {
+  "B1": 8.5,
+  "B2": 5.4,
+  "B3": 5.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 21,
+   "avg_words": 7.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by confirming they are checking the charts for the breakup/patchup query.",
+    "quotes": [
+     "Theek hai main aap donon ka kundli check kar raha hun"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions; the user provided all necessary details.",
+    "quotes": [],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details (implied by checking both charts) and used them to provide a reading about the patchup.",
+    "quotes": [
+     "Theek hai main aap donon ka kundli check kar raha hun"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific; it is a generic prediction about a patchup that could apply to any user asking about a breakup.",
+    "quotes": [
+     "To main dekha hun aap donon ka patchup hoga"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction and a time window for the patchup.",
+    "quotes": [
+     "Main dekha hun aap donon ke bich 25 January ke pahle Parichay ho jaega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions checking the kundli but fails to provide any specific chart-based reason (e.g., dasha, grah) for the prediction.",
+    "quotes": [
+     "Maine check kiya hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a specific time frame (25 January) in the later message, which builds on the initial prediction.",
+    "quotes": [
+     "Main dekha hun aap donon ke bich 25 January ke pahle Parichay ho jaega"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (25 January) which is a firm deadline, rather than a window, and provides no chart-based reason for it.",
+    "quotes": [
+     "25 January ke pahle Parichay ho jaega"
+    ],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends a message indicating they are still checking at the end of the chat, which is not a closing message.",
+    "quotes": [
+     "Theek hai check karke bata raha hun"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a wait line, which provides no reading or guidance.",
+    "quotes": [
+     "Theek hai check karke bata raha hun"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, though no astrology terms were explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya voh vapis ayega ya nahi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was quick to address the user's concern and provided a specific timeline for the requested outcome. However, the lack of chart-based reasoning and the reliance on a firm date without explanation weakened the quality of the reading."
+ },
+ "usage": {
+  "input_tokens": 10512,
+  "output_tokens": 1211
+ }
+}

@@ -1,0 +1,393 @@
+{
+ "file": "conversation_3274321_3667.csv",
+ "tier": "High",
+ "user_id": "3274321",
+ "ltv": 12399.44,
+ "n_msgs": 80,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.07,
+ "buckets": {
+  "B1": 7.5,
+  "B2": 7.14,
+  "B3": 7.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 9,
+   "long_frac": 0.111,
+   "max_words": 52,
+   "avg_words": 21.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's emotional state and the specific situation regarding her ex-partner and marriage prospects.",
+    "quotes": [
+     "Rubina dekhiae aapke kundli se agar shaadi ke vishay mein Main bataun to shaadi ka yog to aapka December se ban raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details of the ex-partner, which is a Type B question as it could be asked to any user, but it is relevant to the context of the user's query.",
+    "quotes": [
+     "Han agar comfortable ho aap to unka date off birth aur Naam mujhe share kar do"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex-partner's details to check his energy, which is relevant to the user's question about him.",
+    "quotes": [
+     "Han agar comfortable ho aap to unka date off birth aur Naam mujhe share kar do main unki energy bhi aapke liye check kar lungi.."
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the ex-partner's feelings and the user's marriage prospects is specific and tied to the user's situation.",
+    "quotes": [
+     "Yahi ki aap unke liye Sahi nahin Hai kyunki inki family ke sath bhi abhi Inka rishta theek nahin chal raha hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the marriage proposal.",
+    "quotes": [
+     "September se October Tak maximum rishta aapka fix ho jaega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage life issues to the position of Saturn (Shani) in the 5th house.",
+    "quotes": [
+     "Pancham bhav ke Swami Shani hai aur Shani acche nahin hai aur Shani aapke partner ko indicate karte Hain"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by discussing the ex-partner's feelings and the user's future marriage life separately.",
+    "quotes": [
+     "aapne Inka hamesha Sath Diya Hai vah chijen inko whole life ke liye yad rahengi"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a consistent time window (September-October) throughout the chat.",
+    "quotes": [
+     "September se October Tak maximum rishta aapka fix ho jaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice to avoid overthinking.",
+    "quotes": [
+     "Lekin abhi aap over thinking se bachne ka prayas karo kyunki aap bahut jyada pareshan ho abhi ke time se"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages to address both the marriage question and the ex-partner questions throughout the chat.",
+    "quotes": [
+     "Aapki kundli Se to Main dekh Pa rahi hun ki aap inse kafi jyada Prem karte hain"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the ex-partner's future regret.",
+    "quotes": [
+     "yah Apne jivan mein regret karenge kafi jyada"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and provides relevant readings until the end.",
+    "quotes": [
+     "Aap please mujhe sister five star dijiyega agar aapko baat karke achcha Laga hoga to.."
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide guidance and a final reading.",
+    "quotes": [
+     "Lekin abhi aap over thinking se bachne ka prayas karo kyunki aap bahut jyada pareshan ho abhi ke time se"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, using common terms.",
+    "quotes": [
+     "Pancham bhav ke Swami Shani hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shaadi ya rishta kab tak hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the user's marriage and addressed her concerns about her ex-partner with empathy. The most helpful aspect was the consistent timeline and the emotional support, while the most hurting aspect was the initial request for the ex-partner's birth details which the user could not provide."
+ },
+ "usage": {
+  "input_tokens": 12746,
+  "output_tokens": 1919
+ }
+}

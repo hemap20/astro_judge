@@ -1,0 +1,318 @@
+{
+ "file": "conversation_847053_2089.csv",
+ "tier": "Medium",
+ "user_id": "847053",
+ "ltv": 570.0,
+ "n_msgs": 15,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.21,
+ "rubric_score": 4.21,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 25,
+   "S3": 200
+  }
+ },
+ "final": 3.35,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 2.0,
+  "B3": 4.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 4,
+   "R": null,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.0,
+   "max_words": 15,
+   "avg_words": 7.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Understands the concern only after user provides it."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No initial prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's worry about her father-in-law's health in any meaningful way.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for birth details of the father-in-law, which is necessary for a reading, but failed to provide any insight.",
+    "quotes": [
+     "Kripa karke unka date off birth aur jagah bhej dijiye kahan per janm hua tha"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the other person's details but did not explain why or use them.",
+    "quotes": [
+     "Kripa karke unka date off birth aur jagah bhej dijiye kahan per janm hua tha"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the chat.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about the father-in-law's health was never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided to build depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or prediction was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one question was asked.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not close the chat, but the chat was empty of value.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a notification about time running out.",
+    "quotes": [
+     "Aap ka time khatam hone wala hai"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language was simple, but the astrologer failed to provide any value.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger occurred.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "father in law ke tabiyat thik nahi ha vo Kab tak thik hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, spending the entire time asking for data. The consultation ended without addressing the user's concern, leaving the user with no value."
+ },
+ "usage": {
+  "input_tokens": 15178,
+  "output_tokens": 1309
+ }
+}

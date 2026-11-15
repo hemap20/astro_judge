@@ -1,0 +1,341 @@
+{
+ "file": "conversation_195085_168.csv",
+ "tier": "Low",
+ "user_id": "195085",
+ "ltv": 220.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 8,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 6.35,
+ "rubric_score": 6.35,
+ "blueprint": {
+  "score": 3.85,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 1,
+   "S8": 0,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 17,
+   "S4": 162,
+   "S7": 287,
+   "S9": 287
+  }
+ },
+ "final": 5.1,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.5,
+  "B2": 5.57,
+  "B3": 7.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 14.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is warm but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not acknowledge the emotional distress of the user."
+   },
+   "S3": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided in the prompt."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gave a basic prediction about feelings."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Follow-up questions were not relevant to the user's concern."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not connect the reading to chart details like dasha or planets."
+   },
+   "S7": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Opened a new layer about the third person."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Hooked the user to continue for more details about the third person."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's specific worry about a third person or her feelings of insecurity in the first reply.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's name and DOB which were provided, and then asked for a photo (Type C).",
+    "quotes": [
+     "Aapke partner ka naam kya hai Aarti ji",
+     "kya aap Diwakar ji ka photo bhej sakte hain face reading ke liye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details and used them to perform a matching, which is appropriate.",
+    "quotes": [
+     "Main aap donon ki kundli matching karke bata raha hun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is generic and lacks a specific chart reason.",
+    "quotes": [
+     "Diwakar ji ka feelings aapke prati bahut achcha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answered the question about feelings and the third person.",
+    "quotes": [
+     "Diwakar ji aapse pyar karte hain",
+     "Aap donon ke bich Mein Koi third person hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors or planetary terms were explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading added the point about the third person, but it did not use chart reasons.",
+    "quotes": [
+     "Aap donon ke bich Mein Koi third person hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer held the thread of the main question throughout.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opened a new layer about the third person to keep the user engaged.",
+    "quotes": [
+     "Aarti ji main use third person ke bare mein kuchh important chijen aapko batana chahta hun"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a hook about the third person, which is a real reading/guidance point.",
+    "quotes": [
+     "Aarti ji main use third person ke bare mein kuchh important chijen aapko batana chahta hun"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [],
+    "score": 7
+   },
+   "1.3": {
+    "skipped": false,
+    "reasoning": "Q=3 (Name, DOB, Photo), T=3. First reading at 02:42.",
+    "quotes": [],
+    "score": 6
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere aur mere partner ke bich me koi teesra bhi hai? Vah mujhse pyar Karte Hain ki nahin?",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and provided a direct answer regarding the partner's feelings. However, the consultation lacked depth as it failed to provide any chart-based reasoning or actionable remedies."
+ },
+ "usage": {
+  "input_tokens": 15285,
+  "output_tokens": 1530
+ }
+}

@@ -1,0 +1,394 @@
+{
+ "file": "conversation_253497_2059.csv",
+ "tier": "Medium",
+ "user_id": "253497",
+ "ltv": 2125.0,
+ "n_msgs": 49,
+ "n_astro_msgs": 35,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G4"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 2.71,
+  "B3": 6.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 14.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     11,
+     24,
+     25
+    ],
+    "reason": "The astrologer states as fact that the user's wife left him (user is unmarried) and provides specific past dates for the breakup (2025/2026) which are in the future relative to the user's current timeline."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's breakup but immediately misidentifies the partner as a wife and makes false claims about the timeline.",
+    "quotes": [
+     "Aapki wife aapko chhodkar Chali Gai Hain"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and then asks if the user is currently liking someone (Type B).",
+    "quotes": [
+     "Unka date off birth time aur place aapke pass hai",
+     "Current time mein aap kisi ko like and pasand kar rahe ho ya kisi ke sath relationship mein aana chahte Hain"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girlfriend's details but fails to use them for any actual chart analysis of the match, instead making generic claims.",
+    "quotes": [
+     "Unka date off birth time aur place aapke pass hai"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not relatable as it is based on false facts (wife, future dates).",
+    "quotes": [
+     "Aapki wife aapko chhodkar Chali Gai Hain"
+    ],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not answer the user's pain about the breakup, instead insisting the ex will return despite her marriage.",
+    "quotes": [
+     "Shaadi hone ke bad bhi aap donon relationship mein rahoge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli ke anusar' repeatedly but provides no actual chart-based reasoning, only generic predictions.",
+    "quotes": [
+     "Aapke kundli ke anusar Se dekha jaaye to aapke personal life mein kafi problem chal rahi hain"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about a future partner, but they are not based on the user's specific situation.",
+    "quotes": [
+     "Future mein jo ladki aapki life mein aaegi nature wise look wise bahut hi acchi hongi"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives contradictory and impossible dates (2025/2026) for a past event.",
+    "quotes": [
+     "Aapke kundli ke anusar Se dekha jaaye to 2025 December se aap donon ke bich mein problem create hona start Hui Hain"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the ex-girlfriend and future partners, but the main thread is distorted by false facts.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer tries to open a layer about a future partner to keep the user engaged.",
+    "quotes": [
+     "Future mein jo ladki aapki life mein aaegi nature wise look wise bahut hi acchi hongi"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer keeps talking without the user's input.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about a future partner and a guess about the user's anger.",
+    "quotes": [
+     "Koi Hai Kisi Ko apply karne pasand karte Ho present time mein"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the content is inaccurate.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera bandi chor ke chali gayi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was helpful in maintaining a conversational tone and providing consistent engagement. However, the consultation was severely hurt by the astrologer making false claims about the user's marital status and providing impossible dates for past events."
+ },
+ "usage": {
+  "input_tokens": 11526,
+  "output_tokens": 1842
+ },
+ "gate_evidence": {
+  "G4": {
+   "quote": "#11 [02:01] ASTRO: Aapki wife aapko chhodkar Chali Gai Hain\n#24 [05:18] ASTRO: Aapke kundli ke anusar Se dekha jaaye to 2025 December se aap donon ke bich mein problem create hona start Hui Hain\n#25 [05:32] ASTRO: Possible hai 2025 last Se Hi batchit band hai but 2026 January mein thodi si batchit Hui hogi",
+   "reason": "The astrologer states as fact that the user's wife left him (user is unmarried) and provides specific past dates for the breakup (2025/2026) which are in the future relative to the user's current timeline.",
+   "quote_en": "#11 [02:01] ASTRO: Your wife has left you.\n#24 [05:18] ASTRO: According to your kundli, problems between you two started arising from December 2025.\n#25 [05:32] ASTRO: It is possible that communication has been stopped since the end of 2025, but there might have been some conversation in January 2026."
+  }
+ }
+}

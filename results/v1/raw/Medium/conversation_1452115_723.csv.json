@@ -1,0 +1,380 @@
+{
+ "file": "conversation_1452115_723.csv",
+ "tier": "Medium",
+ "user_id": "1452115",
+ "ltv": 1046.0,
+ "n_msgs": 63,
+ "n_astro_msgs": 16,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.4,
+ "buckets": {
+  "B1": 1.5,
+  "B2": 2.43,
+  "B3": 3.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 3,
+   "M": 3,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 2.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer never acknowledges the user's specific situation (non-contact, husband, family involvement) in any text message.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions until the very end, and the only question asked is 'Eppol nidha free anno' (Are you free now), which is a logistical question, not a reading-related one.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user provided the husband's name, but the astrologer never asked for or used his details in any reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no reading or insight about the user's life or chart in the text messages.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked 'Is it end...or reconnect', and the astrologer gave no clear direction or answer.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart references or readings were provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings were provided to build upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or predictions were provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Daily chaiytha madhi' (Just do it daily) without explaining what 'it' is or providing a clear remedy.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question was never answered, so it could not be held.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layers were opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends many empty messages, which are bare acknowledgements/stalls.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are empty/media, providing no reading or guidance.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a mix of English and Malayalam (Hinglish/Malayalam-lish) which matches the user, but provides no actual reading content to judge language quality against.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Is it end...or reconnect",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful reading or insight, relying almost entirely on empty messages and media placeholders. The lack of engagement with the user's specific relationship concerns made the consultation ineffective."
+ },
+ "usage": {
+  "input_tokens": 11017,
+  "output_tokens": 1615
+ }
+}

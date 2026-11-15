@@ -1,0 +1,305 @@
+{
+ "file": "conversation_1153673_2159.csv",
+ "tier": "Medium",
+ "user_id": "1153673",
+ "ltv": 590.0,
+ "n_msgs": 10,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.54,
+ "rubric_score": 3.54,
+ "blueprint": {
+  "score": 1.3,
+  "coverage": 0.056,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 87
+  }
+ },
+ "final": 2.42,
+ "label": "bad",
+ "buckets": {
+  "B1": 1.5,
+  "B2": 2.0,
+  "B3": 3.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 5,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 2.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [
+     8
+    ],
+    "evidence_idx": [
+     8
+    ],
+    "reason": "The astrologer is using the paid element (recharge) to stall the reading.",
+    "overridden": "fear_idx or paid_idx empty"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is minimal and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Concern not identified."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's request or details.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for birth time which was already provided in the first message.",
+    "quotes": [
+     "Birth time?"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asked about a lover, but the astrologer did not ask for details or provide a reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question was never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing mentioned.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer stalled the chat.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a request for payment.",
+    "quotes": [
+     "Oru 5 mint koodi recharge chytholu"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is appropriate but the content is poor.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Enna lover kannuka (Will I find a lover?)",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any value, instead stalling the consultation to demand a recharge. The lack of engagement and failure to address the user's question made the consultation useless."
+ },
+ "usage": {
+  "input_tokens": 14688,
+  "output_tokens": 1151
+ }
+}

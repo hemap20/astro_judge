@@ -1,0 +1,336 @@
+{
+ "file": "conversation_1305435_1300.csv",
+ "tier": "Medium",
+ "user_id": "1305435",
+ "ltv": 1431.34,
+ "n_msgs": 17,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.05,
+ "rubric_score": 5.05,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 39,
+   "S4": 214,
+   "S6": 234
+  }
+ },
+ "final": 4.53,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 2.86,
+  "B3": 4.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 41,
+   "avg_words": 16.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Asks for question after user already provided details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Gives generic percentages for marriage type."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gives a year but lacks depth or connection to user's specific life."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific concerns about obstacles and engagement, providing generic percentages instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo (Type C) which is not needed for a chart reading.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Main question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific markers or chart reasons.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Gives a year (2026) but it is a generic prediction without a strong reason.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions 'Sunny planet' (Shani) but does not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "Sunny planet ki Drishti dekhne ko mil rahi hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are repetitive and do not use user details.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a year (2026) as a prediction.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's question about 'Prem' (love) is ignored.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is very low quality.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses 'Sunny planet' which is not explained.",
+    "quotes": [
+     "Sunny planet ki Drishti"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi kab tak Hogi shaadi Mein rukavat Kyon a rahi hai Sagai Nahin ho rahi hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided generic, unhelpful predictions and failed to address the user's specific concerns about obstacles. The chat was hurt by the lack of personalization and the request for a hand photo instead of providing a meaningful reading."
+ },
+ "usage": {
+  "input_tokens": 15066,
+  "output_tokens": 1403
+ }
+}

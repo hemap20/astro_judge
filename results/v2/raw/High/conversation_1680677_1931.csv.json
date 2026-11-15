@@ -1,0 +1,396 @@
+{
+ "file": "conversation_1680677_1931.csv",
+ "tier": "High",
+ "user_id": "1680677",
+ "ltv": 7690.06,
+ "n_msgs": 69,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.04,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 6.14,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 20,
+   "avg_words": 7.4,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the breakup and the third person, but fails to name the user's feeling of being hurt or betrayed, which was clearly expressed.",
+    "quotes": [
+     "Lamba samay Ho Gaya aapse baat nahin Hui",
+     "Han ji third person Puri tarike se involve hai aap donon ke bich"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the partner and the third person, which are Type A as they build on the user's story. However, the astrologer asks 'kaun hai vah' multiple times after the user already indicated she knows, which is repetitive.",
+    "quotes": [
+     "Kya koi aapka partner tha",
+     "Ek bar aap mujhe uska naam bataiye",
+     "Main yah poochh raha hun third person kaun hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB to check the situation, which is relevant to the user's question about the ex-partner returning. The astrologer uses the name and the situation to provide readings.",
+    "quotes": [
+     "Ek bar aap mujhe uska naam bataiye aur uski date off birth bhi aapko pata Hai to mujhe bataiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading about the marriage yoga being active is generic. The later reading about the third person is specific to the user's situation, but the first reading lacks specificity.",
+    "quotes": [
+     "Aapki kundli mein shaadi ka yog present time mein active hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for marriage and answers the question about the type of marriage.",
+    "quotes": [
+     "October 2026 se march 2027 ke bich",
+     "Only love"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but fails to link specific chart factors (like dasha or planets) to the life events in plain words.",
+    "quotes": [
+     "Aapki kundli mein shaadi ka yog present time mein active hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's input about the breakup and the third person to provide further insights.",
+    "quotes": [
+     "Han ji third person Puri tarike se involve hai aap donon ke bich",
+     "Wapas aaega main bol raha hun wapas aana Hi padega use"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time window for marriage without promising it as a certainty.",
+    "quotes": [
+     "October 2026 se march 2027 ke bich"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No specific remedy or practical advice was given; the astrologer only offered predictions.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages both the question about the ex-partner and the question about future marriage, keeping the thread of the conversation.",
+    "quotes": [
+     "Wapas aaega main bol raha hun wapas aana Hi padega use",
+     "October 2026 se march 2027 ke bich"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the third person's involvement, which is specific to the user's concern.",
+    "quotes": [
+     "Han ji third person Puri tarike se involve hai aap donon ke bich"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and keeps the conversation going with questions and readings.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the third person, which is the core of the user's concern.",
+    "quotes": [
+     "Main yah poochh raha hun third person kaun hai",
+     "Agar aapko pata hai to aap ek bar mujhe bataiye"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's tone.",
+    "quotes": [
+     "Wapas aaega main bol raha hun wapas aana Hi padega use"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult; this rubric is skipped.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shadi kb tak hogi or kaise insan se hogi",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's concerns about her ex-partner and future marriage with clear timeframes. However, the astrologer's repetitive questioning about the third person and lack of clear chart-based explanations hindered the overall quality."
+ },
+ "usage": {
+  "input_tokens": 11652,
+  "output_tokens": 1956
+ }
+}

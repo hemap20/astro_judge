@@ -1,0 +1,487 @@
+{
+ "file": "conversation_1053785_226.csv",
+ "tier": "High",
+ "user_id": "1053785",
+ "ltv": 20520.32,
+ "n_msgs": 142,
+ "n_astro_msgs": 57,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 6,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 4,
+  "2.7": 3,
+  "3.1": 3,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 1,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 3.38,
+ "buckets": {
+  "B1": 4.25,
+  "B2": 3.0,
+  "B3": 2.33,
+  "B4": 6.33,
+  "B5": 1.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 8,
+   "long_frac": 0.035,
+   "max_words": 39,
+   "avg_words": 7.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to acknowledge the user's specific feelings or details about Jen's behavior, instead providing generic responses.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name (Type A) but later asks questions that are not well-integrated or are defensive.",
+    "quotes": [
+     "Tell me her name"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and uses it, but the reading provided is contradictory and defensive.",
+    "quotes": [
+     "Tell me her name"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer eventually gives a 'No' regarding the relationship, but it is delivered late and without a clear, empathetic explanation.",
+    "quotes": [
+     "No"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'energy' and 'cards' but does not explain them in plain, chart-based terms.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same points about loyalty and trust without adding depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer claims 100% accuracy, which is a red flag for timing and consistency.",
+    "quotes": [
+     "My prediction always right"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice to communicate calmly is generic and not tied to a specific chart cause.",
+    "quotes": [
+     "You should try to communicate calmly and patiently"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer struggles to hold the thread, becoming defensive when the user asks about the reading's accuracy.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open new layers effectively, instead shutting down the user's questions.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly tries to end the chat prematurely.",
+    "quotes": [
+     "If you have any other questions then ask otherwise u can end this chat"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are dismissive and defensive rather than providing guidance.",
+    "quotes": [
+     "My prediction always right"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the tone is unprofessional and defensive.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The astrologer becomes defensive and argumentative when the user questions the reading.",
+    "quotes": [
+     "Don't go on my personal matters...",
+     "I am not your dear..."
+    ],
+    "score": 1
+   }
+  },
+  "difficult_user_trigger": "angry_testing",
+  "main_question": "can u tell my career future",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 133,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 135,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 138,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 140,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided some basic readings but became increasingly defensive and unprofessional when challenged by the user. The most helpful part was the initial career and relationship outlook, while the most harmful was the astrologer's aggressive tone and refusal to handle the user's doubts professionally."
+ },
+ "usage": {
+  "input_tokens": 13099,
+  "output_tokens": 2045
+ }
+}

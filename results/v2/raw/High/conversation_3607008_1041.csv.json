@@ -1,0 +1,395 @@
+{
+ "file": "conversation_3607008_1041.csv",
+ "tier": "High",
+ "user_id": "3607008",
+ "ltv": 5002.02,
+ "n_msgs": 72,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 9,
+  "3.3": 9,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.39,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 7.57,
+  "B3": 8.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 7,
+   "T": 11
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.139,
+   "max_words": 50,
+   "avg_words": 16.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about his colleague Shreya and her feelings for him.",
+    "quotes": [
+     "Samajh gaya, kya woh aapki colleague hai ya koi aur?"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the colleague's identity and their relationship, which are relevant to the user's query.",
+    "quotes": [
+     "kya woh aapki colleague hai ya koi aur?",
+     "Uska naam aur date off birth bataiye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details (name and DOB) to perform a compatibility check.",
+    "quotes": [
+     "Uska naam aur date off birth bataiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific to the user's situation, mentioning the girl's feelings and the timing of the relationship.",
+    "quotes": [
+     "Aapki kundli aur partner donon ki kundli ke anusar mein dekh Pa raha hun ki ladki ke andar to aapke prati feeling aur pyar ke kafi achcha dikha de raha hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction and timing for the relationship.",
+    "quotes": [
+     "Aap donon ke relation ko lekar... 25 September ke bad kafi achcha Yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the reading to the kundli and face reading in plain terms.",
+    "quotes": [
+     "Kundli mein bhi dikhai de raha hai aur face reading ke anusar bhi"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the girl's nature and the timing of the relationship.",
+    "quotes": [
+     "vah ladki kafi acchi good nature ki hai",
+     "25 September ke bad kafi achcha Yog ban raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific date window for the relationship to progress.",
+    "quotes": [
+     "25 September ke bad kafi achcha Yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice on when to express feelings.",
+    "quotes": [
+     "Aap apne Dil ki baat inhen 25 September ke bad boliyega"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship throughout the chat.",
+    "quotes": [
+     "Aap donon ke relation ko lekar"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer at the very end of the chat.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and provides relevant information throughout.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua hai"
+    ],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a hook for further discussion.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua hai"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [
+     "Aap apne Dil ki baat inhen 25 September ke bad boliyega"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere sath office main el ladki h woh mere liye kuch Prem bhaw feel krti h ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively addressed the user's relationship query by providing specific timing and guidance based on the charts. The most helpful aspect was the clear, actionable advice regarding the relationship timeline, while the repeated requests for photos slightly slowed the momentum."
+ },
+ "usage": {
+  "input_tokens": 12014,
+  "output_tokens": 1814
+ }
+}

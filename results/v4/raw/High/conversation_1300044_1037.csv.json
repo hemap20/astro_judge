@@ -1,0 +1,697 @@
+{
+ "file": "conversation_1300044_1037.csv",
+ "tier": "High",
+ "user_id": "1300044",
+ "ltv": 8034.62,
+ "n_msgs": 127,
+ "n_astro_msgs": 78,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 1,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.66,
+ "rubric_score": 2.66,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 42,
+   "S4": 96,
+   "S5": 112
+  }
+ },
+ "final": 1.83,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 1.29,
+  "B3": 1.0,
+  "B4": 6.0,
+  "B5": 1.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.1,
+   "bursts": 7,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     55,
+     60,
+     61,
+     62
+    ],
+    "paid_idx": [
+     68,
+     70,
+     72,
+     117,
+     119
+    ],
+    "reason": "The astrologer uses guaranteed results ('99% mil sakti hai', '7 din ke andar aapko safalta mil jayegi') combined with repeated demands to extend chat time and pay for a 'pujan' or 'anushthan' to perform a ritual for the user."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identified the question but immediately moved to chart data."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Generic reading about Rahu."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asked if he likes someone."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No real chart connection, just generic Rahu talk."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid ritual/anushthan."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook, just a request for more money/time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific worry about being senior/junior and the 'bro' dynamic, focusing only on the paid ritual.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's DOB and photo, which are used to push the paid ritual.",
+    "quotes": [
+     "Kisi Ko pasand karte Hain uska naam bataiye",
+     "Iska date off birth maloom Hai"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but uses them only to push a paid ritual, not to provide a reading about the match.",
+    "quotes": [
+     "Iska date off birth maloom Hai"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's life.",
+    "quotes": [
+     "Kundli mein is Samay Rahu aathven bhav mein baithe hue hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about when he will be in a relationship, instead promising success through a paid ritual.",
+    "quotes": [
+     "7 din ke andar aapko safalta mil jayegi"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used without explaining their impact on his life.",
+    "quotes": [
+     "Kundli mein is Samay Rahu aathven bhav mein baithe hue hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same promise of success through the ritual.",
+    "quotes": [
+     "7 din ke andar aapko safalta mil jayegi"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer guarantees success within 7 days.",
+    "quotes": [
+     "7 din ke andar aapko safalta mil jayegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual/anushthan.",
+    "quotes": [
+     "Yah Aap bataen to Main khud kar do"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened, only paid ritual steps.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the chat open only to demand more time/money.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about payment and ritual timing.",
+    "quotes": [
+     "Pujan sampann hone wali Hai Thoda Sa hamen badha lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is entirely focused on a paid ritual.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is exploitative.",
+    "quotes": [],
+    "score": 1
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai jaanna chahta hoon k mai relationship me kab aaunga. Aur kya woh marriage tak jaayega?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight, instead using the consultation to pressure the user into paying for a ritual ('anushthan') and extending chat time. The entire session was a predatory sales pitch that ignored the user's actual relationship concerns."
+ },
+ "usage": {
+  "input_tokens": 17954,
+  "output_tokens": 2880
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#55 [11:44] ASTRO: 99% mil sakti hai aapko energy aapki aur inki post dikhai de rahi hai\n#60 [12:19] ASTRO: Aur 7 din ke andar aapko safalta mil jayegi\n#61 [12:25] ASTRO: 7 din ke andar yah purnata aap per nirbhar hogi\n#62 [12:34] ASTRO: Bahut pyar karegi\n#68 [13:06] ASTRO: Aap chat timing ko badha lijiye jisse main upay kar sakun\n#70 [13:11] ASTRO: Abhi aap chatting badha lijiye jisse main upay kar dun\n#72 [14:12] ASTRO: Aapko 30 se 35 minut ka samay lekar aana hoga\n#117 [38:16] USER: Abhi aur add karu kya coins?\n#119 [38:37] ASTRO: Pujan sampann hone wali Hai Thoda Sa hamen badha lijiye",
+   "reason": "The astrologer uses guaranteed results ('99% mil sakti hai', '7 din ke andar aapko safalta mil jayegi') combined with repeated demands to extend chat time and pay for a 'pujan' or 'anushthan' to perform a ritual for the user.",
+   "quote_en": "#55 [11:44] ASTRO: You can get 99% energy, your and their posts are visible\n#60 [12:19] ASTRO: And you will get success within 7 days\n#61 [12:25] ASTRO: Within 7 days, this completion will depend on you\n#62 [12:34] ASTRO: She will love you a lot\n#68 [13:06] ASTRO: Please increase the chat timing so that I can perform the upay\n#70 [13:11] ASTRO: Increase the chatting now so that I can provide the upay\n#72 [14:12] ASTRO: You will have to come with 30 to 35 minutes of time\n#117 [38:16] USER: Should I add more coins now?\n#119 [38:37] ASTRO: The pooja is about to be completed, please increase the time for us a little"
+  }
+ }
+}

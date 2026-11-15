@@ -1,0 +1,263 @@
+{
+ "file": "conversation_759972_340.csv",
+ "tier": "High",
+ "user_id": "759972",
+ "ltv": 8258.0,
+ "n_msgs": 21,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 2.0,
+  "B2": 3.86,
+  "B3": 3.0,
+  "B4": 9.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 10,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 15,
+   "avg_words": 5.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Aap chat end krke fir sw connect kijiy",
+    "reason": "The astrologer is pushing the user to end the chat and reconnect, which creates artificial urgency and pressure to manage the consultation process, potentially to avoid the platform's time-tracking or to force a new session."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's name but fails to acknowledge the specific concern about marriage life, instead asking for time to prepare.",
+    "quotes": [
+     "Ji deepika"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks 'Kya janna chahte ho aap' which is a Type B question, but then fails to provide any reading, making the interaction purely administrative.",
+    "quotes": [
+     "Kya janna chahte ho aap"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges receiving the details but does not use them or provide any reading based on them.",
+    "quotes": [
+     "Ji mil gyi h"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage life, and the astrologer provided no answer, only requests for time and to reconnect.",
+    "quotes": [
+     "Marriage life ke bare me"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or advice provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stayed on the topic of marriage life.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading or insight provided to open a layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks for time and to end the chat, which stalls the consultation.",
+    "quotes": [
+     "Aap mujhe 2-3 min me connect kijiye",
+     "Aap chat end krke fir sw connect kijiy"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests to end the chat and reconnect, providing no value.",
+    "quotes": [
+     "Aap chat end krke fir sw connect kijiy",
+     "Kundali dono ki banani hogi mujhe"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and appropriate for the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Marriage life ke bare me",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight despite receiving the birth details. The consultation was wasted by the astrologer repeatedly asking the user to end the chat and reconnect."
+ },
+ "usage": {
+  "input_tokens": 10336,
+  "output_tokens": 1122
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Aap chat end krke fir sw connect kijiy",
+   "reason": "The astrologer is pushing the user to end the chat and reconnect, which creates artificial urgency and pressure to manage the consultation process, potentially to avoid the platform's time-tracking or to force a new session.",
+   "quote_en": "Please end the chat and reconnect."
+  }
+ }
+}

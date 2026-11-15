@@ -1,0 +1,236 @@
+{
+ "file": "conversation_414208_1763.csv",
+ "tier": "Low",
+ "user_id": "414208",
+ "ltv": 476.0,
+ "n_msgs": 10,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": null,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.33,
+  "B2": 3.0,
+  "B3": 3.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.2,
+   "max_words": 149,
+   "avg_words": 33.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "iske liye apki right hand ka pic send kariye usme nam likha hota hai",
+    "reason": "The astrologer claims that a photo of the user's hand will reveal the name of their future spouse and the date of marriage, which is a false claim used to push for a specific action/service."
+   },
+   "G4": {
+    "fail": true,
+    "quote": "aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain",
+    "reason": "The astrologer states as a fact that the user already knows their future spouse, which is an invented fact as the user previously stated they have no love relationship."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's question about marriage or the fact that they are single.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if the user has a love relationship (Type B) and then asks for a hand photo (Type C).",
+    "quotes": [
+     "Apka koi love relationship hai",
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not relatable; it contradicts the user's statement about being single by claiming they already know the person.",
+    "quotes": [
+     "aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a clear direction or time for the marriage, instead pivoting to a request for a hand photo.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason is provided in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": true,
+    "reasoning": "Only one reading provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy/advice is a request for a hand photo to reveal information, which is a pitch for a service.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged by promising to reveal the name and meeting details if a photo is sent.",
+    "quotes": [
+     "unka Naam aapko Bata sakti hun aur aap unse kab milenge kahan milenge"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is not providing useful points.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo to provide further details.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy to understand, but the content is problematic.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mari sadi kab hogi aur किस्से hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed by making false claims about palmistry to extract a photo and inventing details about the user's life that contradicted their own input. The consultation provided no real value and relied on manipulative tactics to keep the user engaged."
+ },
+ "usage": {
+  "input_tokens": 10258,
+  "output_tokens": 1102
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "iske liye apki right hand ka pic send kariye usme nam likha hota hai",
+   "reason": "The astrologer claims that a photo of the user's hand will reveal the name of their future spouse and the date of marriage, which is a false claim used to push for a specific action/service.",
+   "quote_en": "For this, please send a picture of your right hand; your name is written on it."
+  },
+  "G4": {
+   "quote": "aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain",
+   "reason": "The astrologer states as a fact that the user already knows their future spouse, which is an invented fact as the user previously stated they have no love relationship.",
+   "quote_en": "The person you are likely to marry is someone you already know."
+  }
+ }
+}

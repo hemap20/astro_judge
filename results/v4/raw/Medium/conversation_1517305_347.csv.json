@@ -1,0 +1,273 @@
+{
+ "file": "conversation_1517305_347.csv",
+ "tier": "Medium",
+ "user_id": "1517305",
+ "ltv": 1634.0,
+ "n_msgs": 4,
+ "n_astro_msgs": 2,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.83,
+ "rubric_score": 3.83,
+ "blueprint": {
+  "score": 1.0,
+  "coverage": 0.0,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 0,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {}
+ },
+ "final": 2.42,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.0,
+  "B2": 3.0,
+  "B3": 4.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 2,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 3.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No greeting or rapport building."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No attempt to understand the concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation to return."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's shared details or intent.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "No questions asked.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No other person's details involved.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question was never addressed.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency check possible.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided no meaningful content, stalling the chat.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were just a year and a link, providing no reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "No astrology terms used, but no language used either.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to engage with the user, providing only a year and a link without any reading or conversation. This lack of communication and value delivery makes the consultation ineffective."
+ },
+ "usage": {
+  "input_tokens": 14954,
+  "output_tokens": 1011
+ }
+}

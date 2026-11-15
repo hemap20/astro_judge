@@ -1,0 +1,474 @@
+{
+ "file": "conversation_856764_1411.csv",
+ "tier": "Low",
+ "user_id": "856764",
+ "ltv": 300.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.21,
+ "blueprint": {
+  "score": 4.21,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 69,
+   "S4": 264,
+   "S5": 175,
+   "S8": 275
+  }
+ },
+ "final": 2.71,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 4.17,
+  "B3": 2.0,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.154,
+   "max_words": 35,
+   "avg_words": 16.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 8
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     18,
+     19
+    ],
+    "reason": "The astrologer explicitly asks the user to 'join' (reconnect) the chat and requests a call, which constitutes a paid element.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identified the concern but asked for it after the user already stated it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gave a prediction but it is very generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asked about college, but it was not clearly tied to the foreign travel concern."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Prediction was not personalised or tied to specific chart factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Remedy given is generic and lacks how/when."
+   },
+   "S9": {
+    "present": true,
+    "idx": 18,
+    "quality": 0,
+    "note": "Hook is a paid pitch to join/call."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared a goal (videsh jana), but the astrologer's reply (asking for DOB confirmation) did not acknowledge the goal or the feeling.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about college (Type B) and relationship (Type B). Neither builds on the user's specific goal of foreign travel.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "questions": [
+      {
+       "idx": 11,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 13,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (foreign travel), not the present. It is generic and lacks a concrete marker.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about foreign travel with a direction (chances are there), but it is very vague and lacks a reason or timeline.",
+    "quotes": [
+     "Gaurav ji jahan tak main aapke kundli ke sath dekh Pa raha hun ki aapke fauran jaane ke chances Bane hue hain"
+    ],
+    "score": 6,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 15,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer lists planets (Ketu, Sani, Mangal, Rahu) without explaining what they mean for the user's life or goal.",
+    "quotes": [
+     "Gaurav ji Maine apni kundli ko analysis Kiya aur Main dekh Pa Raha Hun ki aapka ketu ke sath Sani baitha hua Hai first house mein Mangal baitha hua Hai 11th bhav mein Rahu hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the readings are repetitive and generic.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a stock suggestion (Hanuman ji ki puja) with no link to the problem or how/when to perform it.",
+    "quotes": [
+     "Aapko main aapki kundli ke sath suggestion yah aap Hanuman ji ki Puja kya kariye"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ends the chat with a request to join/call while time is still running.",
+    "quotes": [
+     "Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega"
+    ],
+    "score": 1,
+    "checks": {
+     "early_goodbye_while_time_left": true,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests to join/call and give a rating, not reading or guidance.",
+    "quotes": [
+     "Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega aur please give MI five star call per comfortable ho to please call Jayant kare"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms (bhav, ketu, sani) without explaining their meaning for the user's life.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 4,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Videsh jana chata hu",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful or personalized reading, instead listing planets without context and offering a generic remedy. The chat was hurt by the astrologer's focus on pushing for a paid call and rating rather than addressing the user's goal of foreign travel."
+ },
+ "usage": {
+  "input_tokens": 16739,
+  "output_tokens": 2255
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 6,
+   "1.4": null,
+   "2.1": 4,
+   "2.2": 6,
+   "2.7": null,
+   "4.2": 4,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#18 [04:59] ASTRO: Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega aur please give MI five star call per comfortable ho to please call Jayan\n#19 [05:00] ASTRO: Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega aur please give MI five star call per comfortable ho to please call Jayant kare",
+   "reason": "The astrologer explicitly asks the user to 'join' (reconnect) the chat and requests a call, which constitutes a paid element.",
+   "quote_en": "#18 [04:59] ASTRO: Gaurav ji, the chat is about to end. I have one request: please join the chat and give me a five-star rating. If you are comfortable on a call, please call.\n#19 [05:00] ASTRO: Gaurav ji, the chat is about to end. I have one request: please join the chat and give me a five-star rating. If you are comfortable on a call, please call."
+  }
+ }
+}

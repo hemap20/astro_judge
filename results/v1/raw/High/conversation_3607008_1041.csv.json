@@ -1,0 +1,376 @@
+{
+ "file": "conversation_3607008_1041.csv",
+ "tier": "High",
+ "user_id": "3607008",
+ "ltv": 5002.02,
+ "n_msgs": 72,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 3,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 6,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 5.81,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 5.67,
+  "B3": 6.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 7,
+   "T": 11
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.139,
+   "max_words": 50,
+   "avg_words": 16.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about his colleague's feelings in message #16.",
+    "quotes": [
+     "Aapki kundli aur partner donon ki kundli ke anusar mein dekh Pa raha hun ki ladki ke andar to aapke prati feeling aur pyar ke kafi achcha dikha de raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and then asks if the user has spoken to her (Type B).",
+    "quotes": [
+     "Uska naam aur date off birth bataiye",
+     "Kya aapne kabhi unse personal life ke baare mein baat ki hai"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details with a reason (to check compatibility) and uses them.",
+    "quotes": [
+     "Uska naam aur date off birth bataiye",
+     "Thoda sa Samay dijiye main donon ka kundli Banakar check kar leta Hun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present and the girl's feelings, but it is generic and lacks a specific chart reason.",
+    "quotes": [
+     "ladki ke andar to aapke prati feeling aur pyar ke kafi achcha dikha de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about when they will be in a relationship.",
+    "quotes": [
+     "Aap donon ke relation ko lekar",
+     "Aap donon ke relation ko lekar... 25 September ke bad aane bhi Wale Hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions kundli but does not link it to a specific life factor in plain words.",
+    "quotes": [
+     "Aapki kundli aur partner donon ki kundli ke anusar mein dekh Pa raha hun"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the girl's nature and the timing of the relationship.",
+    "quotes": [
+     "vah ladki kafi acchi good nature ki hai",
+     "Aap donon ke relation ko lekar 25 September ke bad aane bhi Wale Hain"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific date (25 September) which is a firm date rather than a window.",
+    "quotes": [
+     "25 September ke bad aane bhi Wale Hain"
+    ],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice to wait until after 25 September to speak.",
+    "quotes": [
+     "Aap apne Dil ki baat inhen 25 September ke bad boliyega"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main question about the relationship.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a deeper aspect at the very end.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua hai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the system ends it.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a deeper aspect.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Aapki kundli aur partner donon ki kundli ke anusar mein dekh Pa raha hun"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Prem bhaw feel krti h ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and provided a clear timeline for the relationship. However, the astrologer relied too heavily on requesting photos and birth details, which delayed the reading and made the process feel repetitive."
+ },
+ "usage": {
+  "input_tokens": 11813,
+  "output_tokens": 1768
+ }
+}

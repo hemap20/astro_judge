@@ -1,0 +1,206 @@
+{
+ "file": "conversation_726907_708.csv",
+ "tier": "Medium",
+ "user_id": "726907",
+ "ltv": 2430.0,
+ "n_msgs": 7,
+ "n_astro_msgs": 2,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 2.79,
+ "buckets": {
+  "B1": 1.5,
+  "B2": 1.0,
+  "B3": 2.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 3,
+   "M": 2,
+   "long_frac": 0.0,
+   "max_words": 17,
+   "avg_words": 15.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about her crush or the energy between them, instead focusing on technical issues and chart creation.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks 'Aapko kuchh vishay mein jankari chahie', which is a Type C question as the user already stated her question in the previous message.",
+    "quotes": [
+     "Aapko kuchh vishay mein jankari chahie"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the crush's birth details or name, despite the user providing the DOB in the prompt.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about the crush and future dating was not answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No reading or chart reference provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing mentioned.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one question asked.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading or further layer opened.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer is stalling with technical talk and not providing value.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for information that the user already provided.",
+    "quotes": [
+     "Aapko kuchh vishay mein jankari chahie main main aapke kundli chart banaa rahi hun"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal Hindi ('vishay mein jankari chahie') which is slightly bookish compared to the user's Hinglish.",
+    "quotes": [
+     "Aapko kuchh vishay mein jankari chahie"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "I have crush on one guy 3rd may 1999 kaise hain humara current energy aur mein date karti hu usko ya nahi future main",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to acknowledge the user's specific question and instead focused on technical issues and redundant data requests. No reading or insight was provided during the consultation window."
+ },
+ "usage": {
+  "input_tokens": 10062,
+  "output_tokens": 931
+ }
+}

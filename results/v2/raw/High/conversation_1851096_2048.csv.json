@@ -1,0 +1,311 @@
+{
+ "file": "conversation_1851096_2048.csv",
+ "tier": "High",
+ "user_id": "1851096",
+ "ltv": 5125.92,
+ "n_msgs": 31,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 1.71,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.167,
+   "max_words": 46,
+   "avg_words": 14.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     30
+    ],
+    "reason": "The astrologer uses the fear of the relationship ending to push a paid 'puja' service to divert the husband's mind."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding her husband's behavior and the conflict, but fails to name her feelings or build on them effectively.",
+    "quotes": [
+     "Aisa kya hua aapke aur aapke husband ke bich mein"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, some of which are Type C (asking for photos when not needed for a reading, asking about children when the user is focused on the conflict).",
+    "quotes": [
+     "Aap apna aur apne husband ka pic send kijiye",
+     "Bacche Ho Gaye aapke ya FIR nahin"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos of the husband but does not use the details to provide a meaningful reading, instead using it to pivot to a paid service.",
+    "quotes": [
+     "Aap apna aur apne husband ka pic send kijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights, relying on vague observations about the husband being 'sidhe aur sacche'.",
+    "quotes": [
+     "aapke husband kafi sidhe aur sacche Hain imandar bhi hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to provide a clear direction or answer to the user's question about whether the relationship will end, instead shifting the responsibility to the user and pushing a paid service.",
+    "quotes": [
+     "Dekhiae Punam ji aapke upar Hai rishta rahega ya FIR Tut jaega"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Chandra kundli' and 'prashn kundli' but does not link them to the user's life in plain words.",
+    "quotes": [
+     "main aap donon ki Chandra kundli prashn kundli aur gochar kundli check kar leta Hun"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; later readings repeat the same vague points about the husband being misled.",
+    "quotes": [
+     "aapke husband ko koi uksa raha hai ki aap donon ka rishta Tut jaaye"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistent window is provided for the resolution of the conflict.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid service (puja) to divert the husband's mind, which is a direct pitch.",
+    "quotes": [
+     "main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to answer the main question about the divorce and instead pivots to a sales pitch.",
+    "quotes": [
+     "Dekhiae Punam ji aapke upar Hai rishta rahega ya FIR Tut jaega"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about someone from the husband's side influencing him, but it is used to create dependency rather than provide value.",
+    "quotes": [
+     "vah koi dur ka nahin hai aapke ghar ke side ka hi koi human hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant pressure to pay and lack of answers makes the chat feel stalled.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pressure pitch for a paid service, leaving the user with no real guidance.",
+    "quotes": [
+     "main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is mostly accessible, but the astrologer uses formal/bookish phrasing at times.",
+    "quotes": [
+     "Patrika aur FIR setting ke anusar"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer's approach is consistently poor regardless of the user's engagement.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya mera divorce ho jayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful insights or answer the user's core question, instead focusing on requesting photos and pushing a paid puja service. The most helpful aspect was the astrologer's initial willingness to listen, but this was completely undermined by the pressure to pay."
+ },
+ "usage": {
+  "input_tokens": 11031,
+  "output_tokens": 1589
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#30 [09:49] ASTRO: Dekhiae agar aap chahti Hain ki aapki husband aapke sath rahe to aap mere ko kuchh time dijiye main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga",
+   "reason": "The astrologer uses the fear of the relationship ending to push a paid 'puja' service to divert the husband's mind.",
+   "quote_en": "#30 [09:49] ASTRO: See, if you want your husband to stay with you, then give me some time. I will sit for a pooja and divert your husband's mind completely towards you."
+  }
+ }
+}

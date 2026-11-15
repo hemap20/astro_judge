@@ -1,0 +1,319 @@
+{
+ "file": "conversation_1495779_2442.csv",
+ "tier": "High",
+ "user_id": "1495779",
+ "ltv": 15492.22,
+ "n_msgs": 52,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.68,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 5.86,
+  "B3": 7.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 7,
+   "T": 9
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.429,
+   "max_words": 160,
+   "avg_words": 32.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message #15 by referencing the Rahu placement and the extra-marital affair context.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने ka योग बन रहा है"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the user's intent (#23, #26, #27, #30). These are Type A as they build on the user's stated desire for a relationship.",
+    "quotes": [
+     "आप क्या व्यक्तिगत तौर से इनके संपर्क में आना चाहते हैं",
+     "केवल रिलेशनशिप चाहते हैं क्या"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to look at the chart, though the reading remains general.",
+    "quotes": [
+     "उनकी कुंडली दी है उसे चीज को मेरे को देखना पड़ेगा"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading (#15) identifies the Rahu placement in the 7th house and the Venus position, which are specific chart-based reasons for the user's situation.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने ka योग बन रहा है"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer confirms the possibility of the relationship but does not provide a clear timeline or definitive answer, instead pushing for a video session.",
+    "quotes": [
+     "आप कहें तो वह आपके पास आ सकती है इसमें कोई संख्या नहीं है"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the extra-marital affair to the Rahu placement in the 7th house in plain language.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने ka योग बन रहा है"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds depth by discussing the Venus position and the need for face reading, building on the user's input.",
+    "quotes": [
+     "वीनस अर्थात शुक्र से देखा जाता है कि प्रेम कैसा होगा"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific timeframe for the result of the ritual.",
+    "quotes": [
+     "8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a ritual (pooja) via video call as a remedy.",
+    "quotes": [
+     "सर पूजन करना पड़ेगा इसका आप एक काम करिए मुझे वीडियो चैट कर लीजिएगा"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship throughout the chat.",
+    "quotes": [
+     "आप इन से रिलेशनशिप करना चाहते हैं"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a further layer by suggesting a ritual to ensure success.",
+    "quotes": [
+     "8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the conversation going without closing prematurely.",
+    "quotes": [
+     "मैं 4:00 बजे स्वयं सब रेडी करके रखूंगा"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a clear plan for the next step (the video call ritual).",
+    "quotes": [
+     "मैं 4:00 बजे स्वयं सब रेडी करके रखूंगा आपको बस आना है"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy to understand and uses common astrological terms.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship love k bareme puchna",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified chart-based reasons for the user's situation and maintained engagement throughout. However, the reliance on a ritual as the primary solution and the lack of a clear, non-ritualistic path forward hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11695,
+  "output_tokens": 1567
+ }
+}

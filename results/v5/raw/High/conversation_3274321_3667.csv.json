@@ -1,0 +1,638 @@
+{
+ "file": "conversation_3274321_3667.csv",
+ "tier": "High",
+ "user_id": "3274321",
+ "ltv": 12399.44,
+ "n_msgs": 80,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 6,
+  "2.7": 6,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 6.4,
+ "rubric_score": 6.4,
+ "blueprint": {
+  "score": 6.42,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.857,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S2": 328,
+   "S3": 71,
+   "S4": 145,
+   "S5": 102,
+   "S6": 492,
+   "S7": 897,
+   "S8": 1195
+  }
+ },
+ "final": 6.41,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.29,
+  "B3": 7.33,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 9,
+   "long_frac": 0.111,
+   "max_words": 52,
+   "avg_words": 21.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Acknowledges her feelings but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identifies the concern but asks for data already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gives a prediction but it is very brief."
+   },
+   "S5": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Asks for details about the ex-partner."
+   },
+   "S6": {
+    "present": true,
+    "idx": 35,
+    "quality": 1,
+    "note": "Connects to chart but uses technical terms without full explanation."
+   },
+   "S7": {
+    "present": true,
+    "idx": 61,
+    "quality": 1,
+    "note": "Probes about the future husband's nature."
+   },
+   "S8": {
+    "present": true,
+    "idx": 77,
+    "quality": 1,
+    "note": "Gives advice to avoid overthinking."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for a next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 23, but it is generic and does not repeat specific details shared by the user.",
+    "quotes": [
+     "Aapki taraf se to aisi chijen mujhe nahin dikhti Hain lekin Abhi vah bhi kafi jyada pareshan hai.."
+    ],
+    "score": 6,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details in message 7 which were already provided in message 0. This is a Type C question.",
+    "quotes": [
+     "Han agar comfortable ho aap to unka date off birth aur Naam mujhe share kar do"
+    ],
+    "score": 4,
+    "checks": {
+     "questions": [
+      {
+       "idx": 7,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex-partner's details in message 7 with a reason (to check energy), but the user refuses. The astrologer proceeds without the details.",
+    "quotes": [
+     "Han agar comfortable ho aap to unka date off birth aur Naam mujhe share kar do main unki energy bhi aapke liye check kar lungi.."
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": true,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in message 10 is about the future (marriage timing) and is generic.",
+    "quotes": [
+     "shaadi ka yog to aapka December se ban raha hai"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage timing with a clear window (September-October).",
+    "quotes": [
+     "September se October Tak maximum rishta aapka fix ho jaega..."
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 12,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage life issues to the 5th house lord Shani in message 35.",
+    "quotes": [
+     "Pancham bhav ke Swami Shani hai aur Shani acche nahin hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the ex-partner's feelings and the user's future husband.",
+    "quotes": [
+     "Unko bilkul fark padega",
+     "Aapke pass na rakhe honge emotional bonding kafi strong hogi"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a consistent window (September-October) for the marriage.",
+    "quotes": [
+     "September se October Tak maximum rishta aapka fix ho jaega..."
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice to avoid overthinking.",
+    "quotes": [
+     "Lekin abhi aap over thinking se bachne ka prayas karo"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage timing and the ex-partner situation throughout the chat.",
+    "quotes": [
+     "September se October Tak maximum rishta aapka fix ho jaega..."
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": true,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": true,
+     "both_fully_answered": true,
+     "two_answers_connected": true
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the future husband's nature and the marriage life.",
+    "quotes": [
+     "Dikhne mein bhi aapke partner Sundar honge attractive personality ke honge.."
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a rating in message 76, which is not a goodbye but a request for feedback.",
+    "quotes": [
+     "Aap please mujhe sister five star dijiyega"
+    ],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the user's emotional state and a request for a rating.",
+    "quotes": [
+     "Aap please mujhe sister five star dijiyega",
+     "Kyunki aap emotional bhi bahut jyada ho"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'Pancham bhav' and 'karak planet' without full explanation.",
+    "quotes": [
+     "Pancham bhav ke Swami Shani hai",
+     "Jupiter marriage ke karak planet hote Hain"
+    ],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 2,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "shaadi ya rishta kab tak hoga",
+  "main_question_idx": 3,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully answered the user's main question about marriage timing and provided insights into her past relationship. However, the astrologer used some unexplained technical terms and failed to provide a hook for a future consultation."
+ },
+ "usage": {
+  "input_tokens": 18840,
+  "output_tokens": 3049
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 4,
+   "1.4": 7,
+   "2.1": 4,
+   "2.2": 8,
+   "2.7": 8,
+   "4.2": 6,
+   "3.2": 8
+  }
+ }
+}

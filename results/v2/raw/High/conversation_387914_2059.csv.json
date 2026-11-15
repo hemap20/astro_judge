@@ -1,0 +1,247 @@
+{
+ "file": "conversation_387914_2059.csv",
+ "tier": "High",
+ "user_id": "387914",
+ "ltv": 6950.0,
+ "n_msgs": 30,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": null,
+  "2.7": 3,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": 6,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.18,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 3.5,
+  "B3": 5.0,
+  "B4": 7.67,
+  "B5": 6.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 16.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific situation (the 10-day meeting or the lack of contact) in the first reading, instead jumping to a generic face reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo (Type C) which is not needed for a chart reading, and does not ask any questions that build on the user's specific situation.",
+    "quotes": [
+     "Aap apni bhi pic share kar dijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo of the other person but does not ask for their name or birth details, and relies on 'face reading' rather than chart analysis.",
+    "quotes": [
+     "Inke face reading ke anusar Se dekha jaaye to current time mein Thoda Sa confusion inke mind mein banaa hua Hai"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is based on 'face reading' rather than the user's chart, and the statements are generic and could apply to anyone.",
+    "quotes": [
+     "current time mein Thoda Sa confusion inke mind mein banaa hua Hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction regarding the relationship and marriage, though it is based on face reading rather than astrology.",
+    "quotes": [
+     "future mein yah aapke sath relationship mein bhi aaenge aur aapke sath marriage ke liye bhi aapko propose karenge"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart reference or astrological terminology used in the readings provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings repeat the same generic points about confusion and positive response without adding depth or using the user's specific details.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a time window (March) but does not provide a chart-based reason for it.",
+    "quotes": [
+     "But March mein yah aapko response denge"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's main thread (the relationship) is held, but the astrologer fails to address the specific question about the cause of depression.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers of insight.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but the astrologer fails to provide meaningful content to keep the user engaged.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a repetition of the previous vague claim without addressing the user's specific question about depression.",
+    "quotes": [
+     "Inke face reading ke anusar se yog to Hain ki aane Wale time mein inki taraf se aapko positive response milega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was vague ('future batao'), and the astrologer provided a reading (albeit a poor one) without asking for more details.",
+    "quotes": [],
+    "score": 6
+   }
+  },
+  "difficult_user_trigger": "vague",
+  "main_question": "Plz dekho k batao kya hoga hamara",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer relied entirely on 'face reading' from photos instead of using the provided birth details to perform an astrological analysis. This resulted in generic, unhelpful answers that failed to address the user's specific concerns about the relationship and the other person's mental state."
+ },
+ "usage": {
+  "input_tokens": 10779,
+  "output_tokens": 1278
+ }
+}

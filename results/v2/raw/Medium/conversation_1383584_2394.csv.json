@@ -1,0 +1,281 @@
+{
+ "file": "conversation_1383584_2394.csv",
+ "tier": "Medium",
+ "user_id": "1383584",
+ "ltv": 529.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.67,
+  "B2": 2.86,
+  "B3": 1.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 10.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     15,
+     16,
+     17,
+     18
+    ],
+    "reason": "The astrologer uses the fear of 'problems' to push for a 'deep reading' (paid service) and requests the user to 'rejoin' (recharge/pay) to get remedies."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared a specific question about Canada and work permit. The astrologer's first reply after the question (#6) is a generic wait line, failing to acknowledge the user's specific concern.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo (#16) which is not necessary for the reading and is a Type C question.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kar dijiye main aapka hath Rekha check karna chahta hun"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or markers. It is not relatable or specific.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window (2026) for the Canada question.",
+    "quotes": [
+     "Lekin nishchit Roop se 2026 mein Mai 2 tarikh ke andar hi chances dekhne ko mil raha hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'janm kundli' but provides no actual chart-based reasoning for the life events described.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; instead, they pivot to a request for a hand photo and a paid deep reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date/window but frames it with 'nishchit roop se' (certainly), which is a promise.",
+    "quotes": [
+     "Lekin nishchit Roop se 2026 mein Mai 2 tarikh ke andar hi chances dekhne ko mil raha hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a 'deep reading' and hand reading as a remedy, which is a pitch for further engagement/payment.",
+    "quotes": [
+     "Apni kundli ko dipli read karana hoga",
+     "Aap mujhe apni right hand pic send kar dijiye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the Canada question but then pivots to a new topic (hand reading) instead of fully addressing the future/work permit concerns.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'problems' to force a paid deep reading.",
+    "quotes": [
+     "Lekin thodi Si problem bhi a rahi hai uske liye aapko",
+     "Apni kundli ko dipli read karana hoga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ends the chat by asking the user to leave and rejoin to pay/get more info.",
+    "quotes": [
+     "Five star jarur Dena just dobara join karo"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for a rating and a request to rejoin, which is a pressure pitch.",
+    "quotes": [
+     "Five star jarur Dena just dobara join karo"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses 'diplomatically' (misspelled as dipli) and formal/scripted language.",
+    "quotes": [
+     "Aapki kundli ko dipli read karna pada Hai"
+    ],
+    "score": 4
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main kab tak canada jaounga or mera wok permit kab ta ayega ?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a timeline for the user's question but failed to provide any meaningful chart-based insight. The consultation was severely damaged by the astrologer using fear tactics to push for a paid 'deep reading' and requesting the user to rejoin the chat."
+ },
+ "usage": {
+  "input_tokens": 10569,
+  "output_tokens": 1401
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#15 [04:34] ASTRO: Apni kundli ko dipli read karana hoga\n#16 [04:40] ASTRO: Aap mujhe apni right hand pic send kar dijiye main aapka hath Rekha check karna chahta hun\n#17 [04:44] ASTRO: FIR main aapko upay bhi bataunga\n#18 [04:59] ASTRO: Five star jarur Dena just dobara join karo",
+   "reason": "The astrologer uses the fear of 'problems' to push for a 'deep reading' (paid service) and requests the user to 'rejoin' (recharge/pay) to get remedies.",
+   "quote_en": "#15 [04:34] ASTRO: Your kundli needs to be read in detail\n#16 [04:40] ASTRO: Please send me a picture of your right hand, I want to check your palm lines (Rekha)\n#17 [04:44] ASTRO: Then I will also tell you the remedies (upay)\n#18 [04:59] ASTRO: Do give a five-star rating, just join again"
+  }
+ }
+}

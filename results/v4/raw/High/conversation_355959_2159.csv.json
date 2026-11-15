@@ -1,0 +1,348 @@
+{
+ "file": "conversation_355959_2159.csv",
+ "tier": "High",
+ "user_id": "355959",
+ "ltv": 5472.82,
+ "n_msgs": 33,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 1,
+  "2.1": 6,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.28,
+ "rubric_score": 5.28,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 66,
+   "S4": 207
+  }
+ },
+ "final": 4.27,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 3.43,
+  "B3": 4.0,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 10,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 8,
+   "avg_words": 2.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [
+     29
+    ],
+    "evidence_idx": [
+     29
+    ],
+    "reason": "The astrologer uses a paid element (asking for a 5-star rating to reconnect) as a condition for the reading.",
+    "overridden": "fear_idx or paid_idx empty"
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is minimal and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional distress."
+   },
+   "S3": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Identified the need for the wife's details but did not restate the concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 22,
+    "quality": 1,
+    "note": "Gave a generic insight about past memories."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to the user's chart or specific planetary factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layers explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 29,
+    "quality": 0,
+    "note": "The hook is a demand for a 5-star rating."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's pain or the 6-month duration mentioned.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The only question asked was for the wife's name, which is Type B.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the wife's name but never used it or her birth details to provide a reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone; it lacks specific chart reasons.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about the wife's avoidance and potential affair; the astrologer did not provide a clear answer.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The readings are repetitive and lack depth.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread was not addressed properly.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not close the chat, but the quality of interaction was poor.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a demand for a rating.",
+    "quotes": [],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms were explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Wife ennod oru akalch pole enthanu പ്രശ്നം",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight or empathy, instead focusing on demanding a rating. The lack of chart-based analysis and the dismissive tone made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 15556,
+  "output_tokens": 1430
+ }
+}

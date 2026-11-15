@@ -1,0 +1,566 @@
+{
+ "file": "conversation_824269_347.csv",
+ "tier": "Low",
+ "user_id": "824269",
+ "ltv": 425.0,
+ "n_msgs": 69,
+ "n_astro_msgs": 53,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": 4,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 4
+ },
+ "gate_fails": [],
+ "overall": 4.05,
+ "rubric_score": 4.05,
+ "blueprint": {
+  "score": 5.44,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.933,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 54,
+   "S4": 141,
+   "S5": 343,
+   "S6": 184,
+   "S7": 477
+  }
+ },
+ "final": 4.75,
+ "label": "mixed",
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.86,
+  "B3": 5.0,
+  "B4": 4.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.019,
+   "max_words": 41,
+   "avg_words": 5.7,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 4,
+   "Rep": 3,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Identified the concern but asked for unnecessary details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Generic prediction about stability."
+   },
+   "S5": {
+    "present": true,
+    "idx": 40,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Mentions Saturn but in a generic way."
+   },
+   "S7": {
+    "present": true,
+    "idx": 58,
+    "quality": 1,
+    "note": "Probed baby yog after user asked."
+   },
+   "S8": {
+    "present": true,
+    "idx": 54,
+    "quality": 0,
+    "note": "Remedy is a wallpaper change, which is not a practical or standard astrological remedy."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's specific situation or feelings, just jumped to data requests.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for marriage date, husband's photo, and phone number digits, which are Type C questions.",
+    "quotes": [
+     "Partner name",
+     "Date of birth",
+     "Marriage date",
+     "Husband k number mein"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asked for husband's details but did not use them for a meaningful reading.",
+    "quotes": [
+     "Partner name",
+     "Date of birth",
+     "Marriage date"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone.",
+    "quotes": [
+     "kundli mein bhi partner and career ko lekar acha yog hi but some planet disbalance hi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never gave a clear direction on the married life, just mentioned 'stability problems'.",
+    "quotes": [
+     "thoda sa stability problem"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Saturn but does not explain it in plain words for the user's life.",
+    "quotes": [
+     "Actually aap k partner house mein Shani yani saturn 🪐 planet shadow hi"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are not new or built on user details.",
+    "quotes": [
+     "Aap ki kundli mein two baby yog hai and miscarriage problem bhi show ho raha hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a specific year (2028) without a clear window or basis.",
+    "quotes": [
+     "aap ki kundali mein 2028 k baad"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is a wallpaper change, which is not a standard or effective remedy.",
+    "quotes": [
+     "Wallpaper change pink 🪷 Lotus flower with water"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer switched topics to baby yog without finishing the marriage discussion.",
+    "quotes": [
+     "Aur ekk cheez baby ka yog kab tak hai"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cut-off sentence.",
+    "quotes": [
+     "Because aap ko Apr month mein bhi"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy but the astrologer uses 'ji' and 'mam' excessively.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "Not triggered.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri married life kaisi rahegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided some basic insights but relied heavily on data requests and generic remedies like changing a wallpaper. The chat lacked depth and failed to provide a clear, actionable path for the user's concerns."
+ },
+ "usage": {
+  "input_tokens": 15925,
+  "output_tokens": 2290
+ }
+}

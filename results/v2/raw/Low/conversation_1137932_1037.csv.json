@@ -1,0 +1,309 @@
+{
+ "file": "conversation_1137932_1037.csv",
+ "tier": "Low",
+ "user_id": "1137932",
+ "ltv": 230.0,
+ "n_msgs": 30,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 4,
+  "2.5": 6,
+  "2.6": 3,
+  "2.7": 4,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.38,
+ "buckets": {
+  "B1": 5.33,
+  "B2": 4.86,
+  "B3": 4.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 20,
+   "long_frac": 0.0,
+   "max_words": 29,
+   "avg_words": 5.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's business concern in message #17, but the initial response to the user's input was generic. The astrologer does not name the feeling or build on the specific business context effectively.",
+    "quotes": [
+     "Business ka achha yog ban raha hai aapki Kundli mein"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo (#22), which is not necessary for a chart reading, making it a Type C question. The other questions are generic.",
+    "quotes": [
+     "Aap apni ek pic send kar dijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specificity. It claims problems in life and a good business yog, which could apply to anyone.",
+    "quotes": [
+     "Jaisa ki Main dekh Pa rahi hun kundali aapki acchi ban rahi hai but is Samay aapke personal aur professional donon Hi life mein problem dikhai pad rahi hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about business and job location. The astrologer gives a vague 'good yog' but fails to answer the specific question about where the job will be.",
+    "quotes": [
+     "Business ka achha yog ban raha hai aapki Kundli mein"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Rahu as a reason for problems, which is a chart factor in plain words.",
+    "quotes": [
+     "Aapka Kundli mein Rahu kafi jyada negative hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings do not add significant depth or use the user's specific details effectively.",
+    "quotes": [
+     "Aapke job ka yog ban raha hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the business or job outcomes.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy is needed but does not provide one, leaving the user hanging.",
+    "quotes": [
+     "But aapko pahle kuchh upay karna padega"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer switches between business and job without clearly managing the thread or answering both fully.",
+    "quotes": [
+     "Aapke job ka yog ban raha hai",
+     "Business ka achha yog ban raha hai aapki Kundli mein"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened; the astrologer just asks for a photo.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses 'Ji' and 'Please wait' which are bare acknowledgements.",
+    "quotes": [
+     "Ji",
+     "Please wait"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a wait line, providing no value to the user.",
+    "quotes": [
+     "Please wait"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms like 'Kundli' and 'Rahu'.",
+    "quotes": [
+     "Aapka Kundli mein Rahu kafi jyada negative hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Business and job location",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide specific answers to the user's questions about business and job location, instead offering generic statements and requesting an unnecessary photo. The consultation lacked depth and actionable guidance, leaving the user with no clear direction."
+ },
+ "usage": {
+  "input_tokens": 10686,
+  "output_tokens": 1430
+ }
+}

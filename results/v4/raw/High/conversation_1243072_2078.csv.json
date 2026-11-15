@@ -1,0 +1,581 @@
+{
+ "file": "conversation_1243072_2078.csv",
+ "tier": "High",
+ "user_id": "1243072",
+ "ltv": 7911.6,
+ "n_msgs": 121,
+ "n_astro_msgs": 58,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 4
+ },
+ "gate_fails": [],
+ "overall": 5.0,
+ "rubric_score": 5.0,
+ "blueprint": {
+  "score": 4.3,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 5,
+   "S3": 101,
+   "S4": 220,
+   "S5": 330,
+   "S6": 1502
+  }
+ },
+ "final": 4.65,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 4.5,
+  "B3": 6.0,
+  "B4": 5.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 9
+  },
+  "4.1": {
+   "score": 4,
+   "M": 10,
+   "long_frac": 0.017,
+   "max_words": 65,
+   "avg_words": 12.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 4,
+   "Rep": 3,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Confirms birth details but does not identify the primary concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gives a generic negative prediction about the past."
+   },
+   "S5": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Asks if the user is in no-contact, which is a relevant follow-up."
+   },
+   "S6": {
+    "present": true,
+    "idx": 96,
+    "quality": 1,
+    "note": "Gives a timeline (May 2026) but lacks deep chart-based explanation."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant questions probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's past relationship concern but does not name the feeling or build on it meaningfully.",
+    "quotes": [
+     "Past to Achcha nahin Hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and photos, which are Type B/C. The questions are not Type A.",
+    "quotes": [
+     "Aapka detail yahi hai na",
+     "Aap apni koi pic send kar sakte ho kya"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the other person (Bhumika) but relies on face reading rather than chart analysis.",
+    "quotes": [
+     "Naam date off birth time aur janm sthan set karo",
+     "Photo hi send karo"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the past/present but is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "aapki kundli ke anusar aapka past bahut nihit ho raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether the ex will return.",
+    "quotes": [
+     "Wapas aaegi"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but does not explain the factors in plain words.",
+    "quotes": [
+     "aapki kundli ke anusar aapka past bahut nihit ho raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds points about the relationship being long-term friendship, but it is not clearly linked to the user's specific details.",
+    "quotes": [
+     "long term ka jo yog hai vah ek dusre ke sath as friend Jaisi sthiti Bani Rahane ke yog Hain"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a specific date (May 2026) which is a single point rather than a window.",
+    "quotes": [
+     "aap donon ka may 2026 se jo time period dikh raha hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stays on the same topic (ex-partner), so this is skipped.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the friendship, which is a reading.",
+    "quotes": [
+     "Vah aapke liye bahut Achcha hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user's Hinglish.",
+    "quotes": [
+     "Radhe radhe ji",
+     "Mehul ji kaise ho aap"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri ex lovers aayegi wapis",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully answered the user's main question about the return of their ex-partner. However, the consultation lacked depth, relied on face reading instead of chart analysis, and failed to provide any actionable remedies or a hook for future engagement."
+ },
+ "usage": {
+  "input_tokens": 17598,
+  "output_tokens": 2459
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "file": "conversation_1036242_2324.csv",
+ "tier": "Medium",
+ "user_id": "1036242",
+ "ltv": 2502.4,
+ "n_msgs": 40,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 6.79,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 6.0,
+  "B3": 7.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 7,
+   "M": 15,
+   "long_frac": 0.067,
+   "max_words": 38,
+   "avg_words": 12.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the partner's family issues in message 30 and 34.",
+    "quotes": [
+     "Unki life mein koi ladki nahin Hai unki life mein unki family hai jo unko kafi jyada pareshan kar rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the relationship duration and current feelings. Message 12/13 are Type B (generic), message 23 is Type B.",
+    "quotes": [
+     "Kisi dusre ki vajah se aapka rishta kharab ho raha hai kya",
+     "Kitne samay se aap ek dusre ko jante ho"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details in message 6 and uses them to provide a reading about his family situation.",
+    "quotes": [
+     "Rahul ka pura details dijiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the family interference is specific and new to the user.",
+    "quotes": [
+     "Unki life mein unki family hai jo unko kafi jyada pareshan kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether he loves her.",
+    "quotes": [
+     "Ji han aapse pyar karte hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide any chart-based reasons for the readings given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the family's role in the relationship.",
+    "quotes": [
+     "Family ki vajah se vah aapke rishte ko highlighted nahin hone de rahe hain"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window was provided for the relationship outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the user's question about the partner's feelings and family issues.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer regarding the partner's current feelings.",
+    "quotes": [
+     "Ji han pasand to karte hain but abhi current ki feeling kya hai check kar lete hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a reading and a request for feedback/reconnect.",
+    "quotes": [
+     "Ji han pasand to karte hain but abhi current ki feeling kya hai check kar lete hain"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Wo mere se pyar krta h??",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the core issue of family interference and confirmed the partner's feelings. However, the lack of chart-based reasoning and practical guidance limited the depth of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10933,
+  "output_tokens": 1284
+ }
+}

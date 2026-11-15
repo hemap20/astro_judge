@@ -1,0 +1,398 @@
+{
+ "file": "conversation_138170_347.csv",
+ "tier": "Low",
+ "user_id": "138170",
+ "ltv": 260.0,
+ "n_msgs": 33,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 6,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 4.66,
+ "rubric_score": 4.66,
+ "blueprint": {
+  "score": 5.5,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 24,
+   "S4": 50,
+   "S5": 94,
+   "S6": 111
+  }
+ },
+ "final": 5.08,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 4.71,
+  "B3": 5.0,
+  "B4": 4.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.0,
+   "max_words": 9,
+   "avg_words": 3.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "No paid element or fear-based pressure to pay."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is minimal."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Understands the question but asks for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Generic prediction about marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Asks relevant follow-up about liking someone."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Mentions love marriage but lacks chart depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 26,
+    "quality": 0,
+    "note": "Remedy mentioned as a requirement but not provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry or feeling, just gives a generic reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details that were already provided in the first message.",
+    "quotes": [
+     "Name - Himanshi Tripathi",
+     "DOB - 06 January, 1999",
+     "Name",
+     "Date of birth"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for the other person's details but does not use them to provide a reading about the match.",
+    "quotes": [
+     "Name",
+     "Date of birth"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone.",
+    "quotes": [
+     "Shadi to aap ki ho jayegi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Answers the question about marriage but lacks depth or specific timing.",
+    "quotes": [
+     "Shadi to aap ki ho jayegi"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions planet imbalance but does not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "aap ki kundali mein kuch planet disbalance hi"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use user details effectively.",
+    "quotes": [
+     "Amrit ji spiritual hi"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is mentioned as a requirement but not actually given.",
+    "quotes": [
+     "Aap ko kuch remedy follow karni hogi"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Stays on the marriage topic.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends abruptly.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a trailing sentence that provides no value.",
+    "quotes": [
+     "His planet",
+     "But"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses broken English and Hinglish, which is hard to follow.",
+    "quotes": [
+     "Jaise ki mein dekh pa rahi ho",
+     "His planet"
+    ],
+    "score": 3
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi Kab aor kisse hogi",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, repeatedly asked for information already provided, and used broken language. The chat lacked depth, failed to offer actual remedies, and ended without a clear conclusion or hook."
+ },
+ "usage": {
+  "input_tokens": 15427,
+  "output_tokens": 1606
+ }
+}

@@ -1,0 +1,275 @@
+{
+ "file": "conversation_832107_1203.csv",
+ "tier": "Medium",
+ "user_id": "832107",
+ "ltv": 540.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.48,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 4.0,
+  "B3": 3.67,
+  "B4": 9.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 10,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 7.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by providing a reading about the partner's feelings and the relationship status.",
+    "quotes": [
+     "आपके पार्टनर की कुंडली के अनुसार जैसा कि मैं देख पा रहा हूं उनके अंदर आपके लिए फीलिंग काफी अच्छी दिख रही है"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and photo. Asking for a photo is unnecessary for a horoscope reading, making it a Type C question.",
+    "quotes": [
+     "Aap apne GF ka detail send kijiye",
+     "जी आप उनका फोटो भेजिए"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a reason (to check the horoscope) and uses the name provided.",
+    "quotes": [
+     "Aap apne GF ka detail send kijiye",
+     "जैसे ही मैं उनकी कुंडली बनाऊं, जांच कर सकूं"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is generic and lacks specific chart-based reasons or markers.",
+    "quotes": [
+     "उनके अंदर आपके लिए फीलिंग काफी अच्छी दिख रही है"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if they should continue the relationship. The astrologer did not provide a clear direction, instead asking for a photo.",
+    "quotes": [
+     "कंटिन्यू करू या नाही करू"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the partner's horoscope but does not explain any chart factors in plain words.",
+    "quotes": [
+     "आपके पार्टनर की कुंडली के अनुसार"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings are generic and do not add depth or use the user's specific details.",
+    "quotes": [
+     "आप दोनों के बीच रिलेशनशिप में कुछ समस्या है"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided for the relationship outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer did not answer the user's question about continuing the relationship, effectively dropping the thread.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'good news' to keep the user engaged without providing the answer.",
+    "quotes": [
+     "साथ ही साथ मैं आपको अच्छी खबर देना चाहता हूं"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are not consistently providing value.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease, which is not a reading or guidance.",
+    "quotes": [
+     "साथ ही साथ मैं आपको अच्छी खबर देना चाहता हूं"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish/Marathi context.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "कंटिन्यू करू या नाही करू",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to answer the user's core question about whether to continue the relationship, instead stalling with requests for photos and vague teases. The consultation lacked depth and failed to provide any actionable chart-based insights."
+ },
+ "usage": {
+  "input_tokens": 10360,
+  "output_tokens": 1268
+ }
+}

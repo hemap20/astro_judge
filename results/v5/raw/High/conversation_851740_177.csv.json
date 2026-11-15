@@ -1,0 +1,446 @@
+{
+ "file": "conversation_851740_177.csv",
+ "tier": "High",
+ "user_id": "851740",
+ "ltv": 7143.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 6,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.62,
+ "blueprint": {
+  "score": 2.05,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 0,
+   "S2": 0,
+   "S3": 0,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S4": 251,
+   "S5": 76
+  }
+ },
+ "final": 1.83,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 3.8,
+  "B3": 2.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     19
+    ],
+    "reason": "The astrologer ends the chat abruptly with 'Chat end kar dijiye' without providing a proper reading or answering the user's question, effectively pushing the user to end the session.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No greeting or rapport building."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Feelings were not validated."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "The astrologer did not identify the concern or outcome wanted."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Gave a generic statement about feelings being strong."
+   },
+   "S5": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asked how long he knew her, but it was a basic data-gathering question."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized prediction based on chart details."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation to return."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's emotional context and specific situation entirely, focusing only on data collection and then ending the chat.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for photos (Type C) which are not needed for a horoscope reading, and asked how long he knew her (Type B).",
+    "quotes": [
+     "Send me both of photo"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 5,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 8,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for photos of the other person but provided no reading about her or the relationship.",
+    "quotes": [
+     "Send me both of photo"
+    ],
+    "score": 1,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The only reading provided was generic and lacked any chart-based reasoning or specific markers.",
+    "quotes": [
+     "As per your horoscope apki feeling kafi jyda strong hai inke sath"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question about whether she loves him and will become his girlfriend was never answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors or reasons were explained.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No later readings were provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice given.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "No second question answered.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ended the chat prematurely.",
+    "quotes": [
+     "Chat end kar dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "early_goodbye_while_time_left": true,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a command to end the chat.",
+    "quotes": [
+     "Chat end kar dijiye"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms were explained.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "does she love me and will she will become my girlfriend",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful reading or answer the user's question, instead focusing on requesting photos and then abruptly ending the chat. This lack of engagement and failure to address the user's concern made the consultation completely unhelpful."
+ },
+ "usage": {
+  "input_tokens": 16588,
+  "output_tokens": 1988
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 1,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#19 [04:56] ASTRO: Chat end kar dijiye",
+   "reason": "The astrologer ends the chat abruptly with 'Chat end kar dijiye' without providing a proper reading or answering the user's question, effectively pushing the user to end the session.",
+   "quote_en": "#19 [04:56] ASTRO: Please end the chat"
+  }
+ }
+}

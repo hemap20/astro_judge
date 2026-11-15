@@ -1,0 +1,395 @@
+{
+ "file": "conversation_1851096_2048.csv",
+ "tier": "High",
+ "user_id": "1851096",
+ "ltv": 5125.92,
+ "n_msgs": 31,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.89,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 46,
+   "S4": 236,
+   "S5": 362
+  }
+ },
+ "final": 2.22,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.25,
+  "B2": 2.29,
+  "B3": 2.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.167,
+   "max_words": 46,
+   "avg_words": 14.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     25,
+     27
+    ],
+    "paid_idx": [
+     30
+    ],
+    "evidence_idx": [
+     25,
+     27,
+     30
+    ],
+    "reason": "The astrologer uses fear (someone is manipulating the husband) to push a paid ritual (pooja) to divert the husband's mind."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Asks what she wants, but ignores the emotional context."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a reading about the husband drinking, but it is not tied to her chart."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Asks about children, which is relevant but not the primary concern."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific pain and asks for photos instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos and questions about children, which are not Type A.",
+    "quotes": [
+     "Aap apna aur apne husband ka pic send kijiye",
+     "Bacche Ho Gaye aapke ya FIR nahin"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos but does not use them for a chart reading.",
+    "quotes": [
+     "Aap apna aur apne husband ka pic send kijiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the husband drinking is not tied to the chart and is generic.",
+    "quotes": [
+     "husband ko koi Sahara Hai jhagada karne ke liye aapse aur drink bhi karte Hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers if the divorce will happen or if the relationship will improve.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to her life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth is built; the astrologer keeps asking for more time or photos.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid pooja pitch.",
+    "quotes": [
+     "main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about divorce is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps stalling for time.",
+    "quotes": [
+     "Thoda fast kijiye ji time Nikal aaya aapka"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a paid pitch.",
+    "quotes": [
+     "main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the content is poor.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya mera divorce ho jayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight or answer the user's question, instead stalling for time and pushing a paid ritual. The most helpful part was the initial acknowledgement, but the chat quickly devolved into a sales pitch."
+ },
+ "usage": {
+  "input_tokens": 15818,
+  "output_tokens": 1608
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#25 [08:10] ASTRO: Dekhiae Punam ji aapki husband ke face ke anusar mein dekh Pa raha hun ki aapke husband kafi sidhe aur sacche Hain imandar bhi hain but main dekh Pa raha hun ki aapke husband ko koi uksa raha hai ki aap donon ka rishta Tut jaaye\n#27 [08:59] ASTRO: Aur vah koi dur ka nahin hai aapke ghar ke side ka hi koi human hai\n#30 [09:49] ASTRO: Dekhiae agar aap chahti Hain ki aapki husband aapke sath rahe to aap mere ko kuchh time dijiye main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga",
+   "reason": "The astrologer uses fear (someone is manipulating the husband) to push a paid ritual (pooja) to divert the husband's mind.",
+   "quote_en": "#25 [08:10] ASTRO: See, Punam ji, based on your husband's face, I can see that your husband is quite straightforward and honest, but I can see that someone is provoking your husband so that your relationship breaks.\n#27 [08:59] ASTRO: And that person is not someone far away, but someone from your own side of the family.\n#30 [09:49] ASTRO: See, if you want your husband to stay with you, then give me some time; I will sit for a pooja and divert your husband's mind completely towards you."
+  }
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "file": "conversation_870761_1411.csv",
+ "tier": "Low",
+ "user_id": "870761",
+ "ltv": 240.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 16,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 3,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.42,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S2": 179,
+   "S3": 224,
+   "S6": 214
+  }
+ },
+ "final": 1.91,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 1.43,
+  "B3": 1.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 15,
+   "long_frac": 0.188,
+   "max_words": 44,
+   "avg_words": 17.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     19,
+     20,
+     21,
+     22
+    ],
+    "paid_idx": [
+     23
+    ],
+    "evidence_idx": [
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "reason": "The astrologer uses fear/urgency regarding the user's situation and then immediately pivots to a paid element by asking the user to join a call for further consultation."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Acknowledges the user's stress but does not validate the specific emotional pain of the abuse described."
+   },
+   "S3": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Identifies the concern but fails to provide a clear path forward."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 0,
+    "note": "The initial prediction is a generic comment about overthinking, not a reading of the marriage concern."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions were asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Mentions ego, but it is generic and not tied to specific chart factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layers were probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy was provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 23,
+    "quality": 0,
+    "note": "The hook is a paid pitch to move to a call."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's stress but ignores the specific details of the abuse and the husband's behavior.",
+    "quotes": [
+     "Samiksha sister is samay aap bahut jyada over thinking kar rahi hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions, only makes statements.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details but provides no meaningful reading about the match.",
+    "quotes": [
+     "Samiksha ji Maine Rajiv ki kundli ko analysis Kiya"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone; it lacks specific chart-based insights.",
+    "quotes": [
+     "Rajiv ke andar thoda ego hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about divorce and the husband's behavior is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Shani but does not explain how it affects the user's life in plain words.",
+    "quotes": [
+     "Uski kundli mein uska shani bahut strong hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same generic observations about ego and overthinking.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a solution but uses it to push for a paid call.",
+    "quotes": [
+     "Samiksha sister aapki sari pareshaniyan dur ho jayegi"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but fails to provide value.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pitch for a paid call and a request for a rating.",
+    "quotes": [
+     "please call Jaan Karen",
+     "Please give me five star"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the content is not helpful.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya Ham donon ek dusre ke liye hai ya nahin kya aage chalkar Ham donon alag Ho jaenge ya Ham donon ke bich divorce ho jaega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's serious concerns about her marriage and abuse, instead offering generic advice and pushing for a paid call. The lack of empathy and failure to provide any meaningful astrological insight made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 15854,
+  "output_tokens": 1657
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#19 [04:25] ASTRO: Samiksha sister aapki sari pareshaniyan dur ho jayegi main rajiv ki kundli ke hisab se aapko kuchh\n#20 [04:31] ASTRO: Suggestion Dena chahunga syster Rajiv ki kundli ke hisab se\n#21 [04:37] ASTRO: Uski kundli mein uska shani bahut strong hai to aapko main\n#22 [04:45] ASTRO: Suggestion Dena chahunga isase aapka normal ho jaega aapko jitna aur thinking ho raha hai vah chij nahin hoga\n#23 [04:56] ASTRO: Samiksha ji please aap call jankari mam call per comfortable se baat kar payenge aur Main aapko kam se kam time mein samjha bhi paunga to please call Jaan Karen call per Sahi baat Ho payengi",
+   "reason": "The astrologer uses fear/urgency regarding the user's situation and then immediately pivots to a paid element by asking the user to join a call for further consultation.",
+   "quote_en": "#19 [04:25] ASTRO: Samiksha sister, all your problems will go away. Based on Rajiv's kundli, I would like to give you some\n#20 [04:31] ASTRO: suggestions, sister. Based on Rajiv's kundli,\n#21 [04:37] ASTRO: his Shani is very strong in his kundli, so I would like to\n#22 [04:45] ASTRO: give you a suggestion. This will make things normal for you, and the overthinking you are experiencing will stop.\n#23 [04:56] ASTRO: Samiksha ji, please join the call. You will be able to talk comfortably on the call, and I will be able to explain things to you in less time, so please join the call; we can talk properly on the call."
+  }
+ }
+}

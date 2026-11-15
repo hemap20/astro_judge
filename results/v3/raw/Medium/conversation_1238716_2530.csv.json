@@ -1,0 +1,348 @@
+{
+ "file": "conversation_1238716_2530.csv",
+ "tier": "Medium",
+ "user_id": "1238716",
+ "ltv": 1065.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 4.79,
+ "rubric_score": 4.79,
+ "blueprint": {
+  "score": 4.45,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 93,
+   "S3": 124,
+   "S4": 153,
+   "S6": 184
+  }
+ },
+ "final": 4.62,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 4.17,
+  "B3": 4.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 12,
+   "long_frac": 0.25,
+   "max_words": 47,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [
+     18
+    ],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "The astrologer mentions that without a remedy, the negative influence will persist, but no paid element (pooja, product, or payment) is mentioned."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Greeting is generic and late."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Acknowledges the question but asks for it again despite it being in the chat."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gives a reading about Rahu/Shani but it is generic."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up questions about her life."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Mentions luxury life but does not connect to specific chart details."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy given."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about marriage cancellation in message 12, but it is late and follows several 'Ji' messages.",
+    "quotes": [
+     "shaadi fix nahin Ho Pa rahi hai kyunki aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (already provided) and then asks for palm photos. The palm photo request is not a Type A question.",
+    "quotes": [
+     "Aap apne hatheli ka pic send kar do"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about her own marriage, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is generic and could apply to anyone facing marriage delays.",
+    "quotes": [
+     "aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks 'Kb tk hoga aisa' and 'Kb tk', but the astrologer never gives a time window, only a description of the future partner.",
+    "quotes": [
+     "shaadi fix nahin Ho Pa rahi hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Rahu and Shani in the 7th house, which is a chart reason in plain words.",
+    "quotes": [
+     "aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading adds a description of the future partner, but it is not built on user details.",
+    "quotes": [
+     "government wale se hi shaadi Hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing window provided despite multiple asks.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided, only a request for palm photos.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stays on the same topic (marriage timing).",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation is very slow.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for palm photos, which is not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, but the astrologer is very repetitive with 'Ji'.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi fix nahi ho rehi kahi bhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a timeline for the user's marriage despite multiple requests and instead pivoted to asking for palm photos. The chat was slow and lacked meaningful engagement with the user's specific situation."
+ },
+ "usage": {
+  "input_tokens": 15164,
+  "output_tokens": 1550
+ }
+}

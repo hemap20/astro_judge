@@ -1,0 +1,454 @@
+{
+ "file": "conversation_1129795_2283.csv",
+ "tier": "Medium",
+ "user_id": "1129795",
+ "ltv": 1020.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 10,
+  "2.1": 8,
+  "2.2": 3,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.58,
+ "rubric_score": 6.58,
+ "blueprint": {
+  "score": 6.01,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.733,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 1,
+   "S6": 2,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S2": 206,
+   "S3": 71,
+   "S4": 184,
+   "S5": 240,
+   "S6": 184
+  }
+ },
+ "final": 6.29,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.75,
+  "B2": 4.75,
+  "B3": 6.5,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 7,
+   "M": 12,
+   "long_frac": 0.083,
+   "max_words": 47,
+   "avg_words": 15.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Acknowledges the shared anxiety and stress."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 2,
+    "note": "User clearly stated the concern about his girlfriend returning and marriage."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 2,
+    "note": "Gives an initial insight about the commitment and family pressure."
+   },
+   "S5": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Asks for a photo, which is not a relevant follow-up for the concern."
+   },
+   "S6": {
+    "present": true,
+    "idx": 11,
+    "quality": 2,
+    "note": "Connects the situation to the chart and the specific conflict."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the commitment and the family pressure.",
+    "quotes": [
+     "aap donon ke bich mein shaadi ka commitment bhi hua tha aur dekha jaaye to ladki ki family pressure se shaadi fix"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details (Type B) and a photo (Type C).",
+    "quotes": [
+     "uska detail share kijiye",
+     "aapka aur uska photo bhi hai kya"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": [
+      {
+       "idx": 7,
+       "type": "B",
+       "answer_used": true
+      },
+      {
+       "idx": 17,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details with a reason (matching charts) and uses her name.",
+    "quotes": [
+     "uska detail share kijiye",
+     "Neha"
+    ],
+    "score": 8,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific, and tied to the situation.",
+    "quotes": [
+     "aap donon ke bich mein shaadi ka commitment bhi hua tha aur dekha jaaye to ladki ki family pressure se shaadi fix kar rahi hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 11,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses the situation but does not provide a clear direction or answer to 'kab vapis aaegi'.",
+    "quotes": [
+     "aap donon ke bich mein shaadi ka commitment bhi hua tha aur dekha jaaye to ladki ki family pressure se shaadi fix kar rahi hai"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions lagn and rashi but does not link them to the life situation in plain words.",
+    "quotes": [
+     "mesh lagn aur Mithun Rashi ki kundli hai aapki"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 11,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the anxiety and the past life connection.",
+    "quotes": [
+     "donon log anxiety mein hai",
+     "purv janmon ka rishta hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 11,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one main question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a past life connection but does not open a next layer for the user's concern.",
+    "quotes": [
+     "purv janmon ka rishta hai"
+    ],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat ends abruptly without a proper closing.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses 'lagn' and 'rashi' without explanation.",
+    "quotes": [
+     "mesh lagn aur Mithun Rashi"
+    ],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 2,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri gf kab vapis aaegi",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the emotional state of the user and the girlfriend, but failed to provide a clear answer to the main question or any actionable remedy. The chat felt repetitive and lacked a structured conclusion or hook for a future consultation."
+ },
+ "usage": {
+  "input_tokens": 16764,
+  "output_tokens": 2088
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 3,
+   "1.4": 8,
+   "2.1": 7,
+   "2.2": 4,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 8
+  }
+ }
+}

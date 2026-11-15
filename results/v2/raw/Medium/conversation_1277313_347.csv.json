@@ -1,0 +1,386 @@
+{
+ "file": "conversation_1277313_347.csv",
+ "tier": "Medium",
+ "user_id": "1277313",
+ "ltv": 991.0,
+ "n_msgs": 67,
+ "n_astro_msgs": 34,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 4,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 6,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.96,
+ "buckets": {
+  "B1": 4.0,
+  "B2": 3.83,
+  "B3": 4.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 8,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.029,
+   "max_words": 42,
+   "avg_words": 5.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress and career goal in message 23, referencing the user's DOB and career yog.",
+    "quotes": [
+     "Ji jaise ki mein dekh pa rahi ho aap ki date of birth is very good and kundli mein bhi as career ko lekar acha yog hi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions about phone numbers, colors, bed placement, and name spelling. These are Type B/C questions that do not build on the user's specific career/exam concern.",
+    "quotes": [
+     "Aap jo phone number use kar rahe ho usme 2 48 digit",
+     "Black or Blue colour jada use kar rahe ho",
+     "Ghar ka 🛏️ bed wall se touch",
+     "Spelling name ki same hai document pe"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in message 23 is generic and lacks specificity or a concrete marker.",
+    "quotes": [
+     "kundli mein bhi as career ko lekar acha yog hi but some planet disbalance hi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a vague timeline (September) only at the very end, after multiple requests.",
+    "quotes": [
+     "Sep month"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'planet disbalance' but does not explain it in plain words or link it to the user's life in a meaningful way.",
+    "quotes": [
+     "some planet disbalance hi jis wajah se aap ko thoda delay ho raha hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add new, useful points; they focus on generic remedies.",
+    "quotes": [
+     "Aap kuch mistake bhi kar rahe ho"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline (September) without a clear basis.",
+    "quotes": [
+     "Sep month"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedies (wallpaper, screen lock, mustard seeds) are stock remedies not clearly tied to the user's specific exam problem.",
+    "quotes": [
+     "Wallpaper change pink 🪷 Lotus flower with water",
+     "Screen lock 1553",
+     "Ek diya 🪔 jalana hi usme yellow sarson dalna hi"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened; the chat ends with a remedy.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple messages with very little content, stalling the chat.",
+    "quotes": [
+     "Wait",
+     "Pls",
+     "Ji",
+     "Ok"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just a remedy and a month, which is a weak ending.",
+    "quotes": [
+     "In Thursday ko",
+     "Sep month"
+    ],
+    "score": 6
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses 'planet disbalance' without explanation.",
+    "quotes": [
+     "some planet disbalance hi"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera gov . Job kb lgega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer helped by providing specific remedies and a timeline at the end. However, the chat was hurt by excessive questioning about irrelevant details and long wait times that stalled the consultation."
+ },
+ "usage": {
+  "input_tokens": 11354,
+  "output_tokens": 1697
+ }
+}

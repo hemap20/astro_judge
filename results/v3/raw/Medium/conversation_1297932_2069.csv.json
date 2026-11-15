@@ -1,0 +1,448 @@
+{
+ "file": "conversation_1297932_2069.csv",
+ "tier": "Medium",
+ "user_id": "1297932",
+ "ltv": 1175.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 33,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 4.1,
+ "rubric_score": 4.1,
+ "blueprint": {
+  "score": 4.3,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 63,
+   "S4": 389,
+   "S6": 311
+  }
+ },
+ "final": 4.2,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.67,
+  "B2": 4.4,
+  "B3": 3.33,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.1,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identified the question but asked in a generic way."
+   },
+   "S4": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks depth."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions about the user's life."
+   },
+   "S6": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Mentions chart factors but in a very basic, textbook manner."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's specific question or feelings, just asked for birth details.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for birth details (already provided) and then repeatedly pressured for a palm photo.",
+    "quotes": [
+     "Aapki birth details correct hai?",
+     "please aap apne right hand ki hastrekha mujhe share kijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Main question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific markers or deep chart reasons.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Gave a time window for marriage, but it was not very specific or well-reasoned.",
+    "quotes": [
+     "Joki 29 dec 2026 se pahle aapki shadi ke poore chances hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions planets but does not explain them in plain, relatable words.",
+    "quotes": [
+     "Aapke birth chart ke marriage house mai brischik rashi hai jiska lord mars planet hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later messages just repeat the request for a palm photo.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a window for marriage without promising it as a certainty.",
+    "quotes": [
+     "Joki 29 dec 2026 se pahle aapki shadi ke poore chances hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pressured the user for a photo, which stalled the chat.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were a request to rejoin the chat, which is not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but lacks the human touch and personalization.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "शादी कब तक होगी और कहां होगी?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic marriage prediction but failed to engage meaningfully, instead repeatedly pressuring the user for a palm photo. The chat lacked empathy and failed to provide any actionable remedies or a hook for future consultation."
+ },
+ "usage": {
+  "input_tokens": 15551,
+  "output_tokens": 1844
+ }
+}

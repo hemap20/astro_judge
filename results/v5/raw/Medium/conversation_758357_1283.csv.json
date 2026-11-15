@@ -1,0 +1,558 @@
+{
+ "file": "conversation_758357_1283.csv",
+ "tier": "Medium",
+ "user_id": "758357",
+ "ltv": 4310.0,
+ "n_msgs": 45,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 10,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": 3,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 6.55,
+ "blueprint": {
+  "score": 4.75,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 16,
+   "S3": 81,
+   "S4": 118,
+   "S5": 170,
+   "S6": 413
+  }
+ },
+ "final": 4.15,
+ "label": "bad",
+ "buckets": {
+  "B1": 6.75,
+  "B2": 5.8,
+  "B3": 5.33,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 6
+  },
+  "4.1": {
+   "score": 8,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 12.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     43
+    ],
+    "reason": "The astrologer asks for a photo of the user's hand to check marriage lines, which is a request for an unneeded data/photo element to continue the reading.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's feelings about the rejection."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Gave a generic prediction about marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 32,
+    "quality": 1,
+    "note": "Connects to the other person's chart but lacks depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about marriage but does not name the feeling of rejection or frustration.",
+    "quotes": [
+     "Aapki shaadi jaldi hi fix ho jayegi"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details already provided and asks for a photo of the hand which is not needed.",
+    "quotes": [
+     "Apni samasya bataiye",
+     "Iske pahle kahin shaadi ki baat chal rahi thi aapki Pushpendra ji",
+     "Iske pahle kya aap Kisi relation mein rah chuke hain ya Kisi Ko pasand karte The",
+     "aap let hai na raisen ka photo send kar dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 5,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 13,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 18,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 43,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to give a reading about the match.",
+    "quotes": [
+     "unka detail send kar dijiye",
+     "Kashish Ji Ka Maine kundli open Kiya Hai"
+    ],
+    "score": 9,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future and lacks specific chart reasons.",
+    "quotes": [
+     "Aapki shaadi jaldi hi fix ho jayegi"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 8,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question with a positive direction.",
+    "quotes": [
+     "Aapki shaadi jaldi hi fix ho jayegi"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 8,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 8,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the relationship.",
+    "quotes": [
+     "Kashish ji ke kundli ke anusar dikhai de raha hai ki unke bhi kundli mein love marriage ka chance ban raha hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 8,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 8,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early close.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last message is a request for a photo.",
+    "quotes": [
+     "aap let hai na raisen ka photo send kar dijiye"
+    ],
+    "score": 3,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, no technical terms used.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir me marriage ke Bare mein jannna chahta hun",
+  "main_question_idx": 6,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and provided a positive outlook on his marriage prospects. However, the consultation was hurt by the lack of depth in the readings, the absence of actionable remedies, and the request for a hand photo to continue the session."
+ },
+ "usage": {
+  "input_tokens": 17332,
+  "output_tokens": 2518
+ },
+ "reference": {
+  "bare_acks": 3,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 9,
+   "2.1": 4,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#43 [08:46] ASTRO: Ek bar aapke relation ke liye aapki marriage ke liye main aapki hast Rekha check karna chahunga aap let hai na raisen ka photo send kar dijiye",
+   "reason": "The astrologer asks for a photo of the user's hand to check marriage lines, which is a request for an unneeded data/photo element to continue the reading.",
+   "quote_en": "#43 [08:46] ASTRO: I would like to check your palm lines for your relationship and marriage, are you okay with that? Please send a photo of your hand."
+  }
+ }
+}

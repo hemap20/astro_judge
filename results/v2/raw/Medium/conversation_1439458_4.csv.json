@@ -1,0 +1,248 @@
+{
+ "file": "conversation_1439458_4.csv",
+ "tier": "Medium",
+ "user_id": "1439458",
+ "ltv": 663.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 1,
+  "4.1": 8,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 2.25,
+  "B2": 1.29,
+  "B3": 1.67,
+  "B4": 7.0,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 4,
+   "R": null,
+   "T": 4
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 13,
+   "avg_words": 7.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     15
+    ],
+    "reason": "The astrologer uses a promise of a result ('Iske Saath Baat karwa doon 3 din mein') combined with a paid element (implied service/remedy context) to create urgency."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific situation about the girl not talking to him and instead asks for data again.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for name and DOB twice despite the user already explaining the situation, and the questions are not building on the user's input.",
+    "quotes": [
+     "Name and date of birth"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details but does not explain why or use them to provide any insight.",
+    "quotes": [
+     "Name and date of birth"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading is provided; the astrologer only asks for data and makes a promise.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not answer when she will talk, instead offering a 3-day promise.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart-based reasoning is provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings were provided to build upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer makes a promise of a result within 3 days, which is a guaranteed outcome.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is presented as a promise of a result rather than guidance.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened; the astrologer just makes a promise.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a reading and the chat is stalled by repeated data requests.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a promise of a result, not a reading.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses Hinglish but the quality of communication is poor and lacks clarity.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer fails to engage effectively.",
+    "quotes": [],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Oh kabse mere saath baat krega",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead repeatedly asking for data and making an unrealistic promise of a result. The lack of professional guidance and the use of a guaranteed outcome significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 10440,
+  "output_tokens": 1110
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#15 [04:19] ASTRO: Iske Saath Baat karwa doon\n3 din mein",
+   "reason": "The astrologer uses a promise of a result ('Iske Saath Baat karwa doon 3 din mein') combined with a paid element (implied service/remedy context) to create urgency.",
+   "quote_en": "#15 [04:19] ASTRO: Should I get you to talk to him/her\nIn 3 days"
+  }
+ }
+}

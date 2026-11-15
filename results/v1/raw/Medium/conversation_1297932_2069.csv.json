@@ -1,0 +1,371 @@
+{
+ "file": "conversation_1297932_2069.csv",
+ "tier": "Medium",
+ "user_id": "1297932",
+ "ltv": 1175.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 33,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 5.68,
+ "buckets": {
+  "B1": 2.25,
+  "B2": 7.8,
+  "B3": 6.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.1,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about marriage timing and location in the first reply after the question is asked; instead, he asks for birth detail confirmation.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and then repeatedly asks for a palm photo (Type C) after the user has already provided birth details and explained why they cannot provide a photo.",
+    "quotes": [
+     "Aapki birth details correct hai?",
+     "Saurabh ji aap mujhe apne right hand ki hastrekha share kijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about marriage, but the astrologer never asks for the other person's details, instead focusing on palmistry.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provides a chart-based reason (Mars in marriage house) for delay and identifies a timing window for marriage, which is specific and new.",
+    "quotes": [
+     "Aapke birth chart ke marriage house mai brischik rashi hai jiska lord mars planet hai",
+     "Jiski wajah se thoda delay hua tha aapke marriage house mai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the marriage.",
+    "quotes": [
+     "Joki 29 dec 2026 se pahle aapki shadi ke poore chances hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage delay to Mars in the marriage house in plain language.",
+    "quotes": [
+     "Aapke birth chart ke marriage house mai brischik rashi hai jiska lord mars planet hai",
+     "Jiski wajah se thoda delay hua tha aapke marriage house mai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the Jupiter strength as a new point after the initial delay explanation.",
+    "quotes": [
+     "But mai aapko bta du birth chart ke according jupiter aapka strong hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window without promising a specific date.",
+    "quotes": [
+     "Joki 29 dec 2026 se pahle aapki shadi ke poore chances hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only asked one question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to open a new layer by offering to predict the partner's nature and name via palmistry.",
+    "quotes": [
+     "Mai aapki relationship line aur marriage line ko check karke aapki batata hu ki aapki marriage kisse hogi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to rejoin the chat, which is not a reading.",
+    "quotes": [
+     "Aap ek bar chat ko again join kijiye jisse main aapko acche se explain kar paunga"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common astrology terms with explanations.",
+    "quotes": [
+     "Aapke birth chart ke marriage house mai brischik rashi hai jiska lord mars planet hai"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "शादी कब तक होगी और कहां होगी?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear and helpful reading regarding the marriage timeline based on the birth chart. However, the consultation was significantly hampered by the astrologer's persistent and repetitive demands for a palm photo, even after the user explained they could not provide one."
+ },
+ "usage": {
+  "input_tokens": 10877,
+  "output_tokens": 1742
+ }
+}

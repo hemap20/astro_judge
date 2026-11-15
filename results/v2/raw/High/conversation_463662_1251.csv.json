@@ -1,0 +1,715 @@
+{
+ "file": "conversation_463662_1251.csv",
+ "tier": "High",
+ "user_id": "463662",
+ "ltv": 79386.0,
+ "n_msgs": 224,
+ "n_astro_msgs": 103,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": null,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.43,
+ "buckets": {
+  "B1": 4.33,
+  "B2": 1.4,
+  "B3": 4.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 7,
+   "R": null,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.01,
+   "max_words": 32,
+   "avg_words": 6.3,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's need for satisfaction and his situation, but does not name the feeling or build on it in a way that demonstrates deep understanding.",
+    "quotes": [
+     "Yah to main samajh rahi hun aapki baat ki khud ka satisfaction level to hona Hi chahie"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the user's marriage and experience. These are Type B questions as they could be asked to any user in this situation.",
+    "quotes": [
+     "Kitna time hua mrg ko",
+     "Love marriage hai arrange marriage hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is not about a specific other person, but rather a general desire to find a partner.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no reading based on the chart, only conversational validation of the user's desires.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question is about finding a partner/gigolo work, which the astrologer validates but does not answer with any astrological direction or prediction.",
+    "quotes": [
+     "Yar kabhi aapke touch koi aana chahta ho offline to pls help karna"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart reference or astrological insight provided in the entire conversation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings were provided, so no depth could be built.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or predictions were made.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers to help connect the user with potential partners, which is not a valid astrological remedy.",
+    "quotes": [
+     "Agar koi option rahata hai to main aapko guide karungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stayed on one topic throughout.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers of insight.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but there is no reading or guidance provided to keep the user engaged meaningfully.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just conversational filler about the user's plan, not a reading.",
+    "quotes": [
+     "Ok dear",
+     "Me too"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's tone.",
+    "quotes": [
+     "U hv pure heatt",
+     "Right"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Yar kabhi aapke touch koi aana chahta ho offline to pls help karna",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 131,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 133,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 138,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 142,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 146,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 147,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 152,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 157,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 159,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 161,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 165,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 167,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 168,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 169,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 171,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 172,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 176,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 178,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 180,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 181,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 184,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 186,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 187,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 189,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 191,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 193,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 196,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 197,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 201,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 204,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 208,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 210,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 212,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 213,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 217,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 220,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 222,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any astrological insight or reading, instead engaging in a long, inappropriate conversation about the user's desire to find extramarital partners. The chat was entirely devoid of professional astrological value and focused on facilitating the user's personal requests."
+ },
+ "usage": {
+  "input_tokens": 17120,
+  "output_tokens": 2984
+ }
+}

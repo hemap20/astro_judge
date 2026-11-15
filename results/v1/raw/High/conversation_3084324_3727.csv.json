@@ -1,0 +1,273 @@
+{
+ "file": "conversation_3084324_3727.csv",
+ "tier": "High",
+ "user_id": "3084324",
+ "ltv": 12132.76,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 7,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.9,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 5.6,
+  "B3": 5.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.214,
+   "max_words": 55,
+   "avg_words": 14.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about married life by providing a reading, but fails to repeat any specific detail or name the user's feeling.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name twice (idx 19 and 22), which is a Type C question as it was already provided in the chat.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar",
+     "Ek bar apne husband ka naam bataiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name and uses it to provide a reading about his return, though the request was repeated unnecessarily.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar",
+     "Ram Singh Ji ke naam ke anusar agar dekh rahi hun to yah wapas aaenge"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but uses technical terms like 'marriage bhav' and 'Mangal Dev' without clear explanation of how they affect her life specifically, making it generic.",
+    "quotes": [
+     "Dekho aapke marriage bhav mein Mangal Dev Ji ki Rashi padh rahi hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if the marriage will end, and the astrologer gave a direct answer.",
+    "quotes": [
+     "ky vo khatam hoga",
+     "Ji han khatm hoga"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses chart terms like 'marriage bhav', 'Mangal Dev', and 'Shani ki Rashi' without explaining them in plain, everyday words.",
+    "quotes": [
+     "marriage bhav mein Mangal Dev Ji ki Rashi padh rahi hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading adds the detail about the husband returning, which is new and uses the husband's name provided by the user.",
+    "quotes": [
+     "Ram Singh Ji ke naam ke anusar agar dekh rahi hun to yah wapas aaenge"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline ('thoda sa time lagega') without a specific window, which is consistent but lacks depth.",
+    "quotes": [
+     "Abhi thoda sa time lagega"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was provided.",
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stayed on the same topic of her marriage throughout.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers of the reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but the astrologer repeats the request for the husband's name, which stalls the chat.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague timeline, which is a reading, but it is not tied to a specific pending point.",
+    "quotes": [
+     "Abhi thoda sa time lagega"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'marriage bhav', 'Mangal Dev', and 'Shani ki Rashi' without explaining them, which makes the language difficult for the user.",
+    "quotes": [
+     "marriage bhav mein Mangal Dev Ji ki Rashi padh rahi hai"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shadi ka kya future hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's main question about her marriage. However, the consultation was hindered by the unnecessary repetition of requests for the husband's name and the use of unexplained astrological jargon."
+ },
+ "usage": {
+  "input_tokens": 10560,
+  "output_tokens": 1369
+ }
+}

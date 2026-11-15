@@ -1,0 +1,512 @@
+{
+ "file": "conversation_1393723_1037.csv",
+ "tier": "Medium",
+ "user_id": "1393723",
+ "ltv": 2048.48,
+ "n_msgs": 42,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.62,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S3": 15,
+   "S4": 66,
+   "S5": 81
+  }
+ },
+ "final": 2.81,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.0,
+  "B3": 6.5,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.0,
+   "max_words": 21,
+   "avg_words": 8.6,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     41
+    ],
+    "reason": "The astrologer asks the user to extend the chat time to receive a remedy.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the question but did not build rapport."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Gave a generic prediction about marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asked if the user is in a relationship."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart details or dasha."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feeling, just asks for time.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details of the partner multiple times even after the user says they don't want to marry her.",
+    "quotes": [
+     "Uska naam aur date off birth bataiye",
+     "Uska naam aur date off birth bataiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 16,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 31,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details multiple times without a clear reason and ignores the user's input that they don't want to marry her.",
+    "quotes": [
+     "Uska naam aur date off birth bataiye"
+    ],
+    "score": 6,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "Aapke kundli mein shaadi ka yog to bahut hi Prabal banaa hua Hai"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a clear direction or answer to the user's question about when marriage will happen.",
+    "quotes": [
+     "Aapke kundli mein shaadi ka yog to bahut hi Prabal banaa hua Hai"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are repetitive and do not add depth.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided, only a request to extend time.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's concern about the relationship ending and keeps asking for details.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat is not very productive.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the astrologer is repetitive and asks for details repeatedly.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Saadi kb hogi",
+  "main_question_idx": 3,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's main question about marriage timing and instead repeatedly asked for the partner's details, even after the user stated they did not want to marry that person. The chat ended with a request to extend time for a remedy, which is a violation of the payment policy."
+ },
+ "usage": {
+  "input_tokens": 17101,
+  "output_tokens": 2231
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 6,
+   "2.1": 6,
+   "2.2": 4,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#41 [04:56] ASTRO: Aap chat timing ko badha lijiye main kuchh upay bata rahi hun",
+   "reason": "The astrologer asks the user to extend the chat time to receive a remedy.",
+   "quote_en": "#41 [04:56] ASTRO: Please extend the chat timing, I am suggesting some remedies."
+  }
+ }
+}

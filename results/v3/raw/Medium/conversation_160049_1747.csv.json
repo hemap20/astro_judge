@@ -1,0 +1,569 @@
+{
+ "file": "conversation_160049_1747.csv",
+ "tier": "Medium",
+ "user_id": "160049",
+ "ltv": 1470.0,
+ "n_msgs": 66,
+ "n_astro_msgs": 52,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 6,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 4,
+  "2.7": 4,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 4.55,
+ "rubric_score": 4.55,
+ "blueprint": {
+  "score": 5.5,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S3": 127,
+   "S4": 133,
+   "S5": 172,
+   "S6": 361,
+   "S8": 531
+  }
+ },
+ "final": 5.03,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 3.71,
+  "B3": 5.0,
+  "B4": 5.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 0,
+   "R": 1,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.0,
+   "max_words": 8,
+   "avg_words": 3.9,
+   "bursts": 6,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Identified the marriage question but did not confirm the desired outcome."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gave a generic prediction about love marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Asked if she has a partner, despite her already mentioning a boyfriend."
+   },
+   "S6": {
+    "present": true,
+    "idx": 36,
+    "quality": 1,
+    "note": "Mentions charts matching but lacks specific astrological depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 54,
+    "quality": 1,
+    "note": "Remedy provided but lacks clear instructions on how/when to perform it."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's specific worry about her boyfriend calling/texting and focused only on the marriage question.",
+    "quotes": [
+     "Mera love marriage hoga kya arrange marriage sir kab hoga mera marriage mera bf mujhe call sms kab karegr"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked if she has a partner (Type C) after she already mentioned her boyfriend.",
+    "quotes": [
+     "Aapka koi partner hai"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for details and photos but did not use them to provide a meaningful reading about the match.",
+    "quotes": [
+     "Aap apni photo aur iski photo",
+     "Agar bhej sakti ho to bhej do"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "Love marriage ka Yog jyada hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a direction but it was vague and not tied to a specific time or reason.",
+    "quotes": [
+     "Han ji aapka love marriage hoga"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms like Kalsarp and Pitra dosh were mentioned without explaining what they mean for her life.",
+    "quotes": [
+     "Kalsrp dosh",
+     "Aur pitra dosh"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings added new points but were not built on user details.",
+    "quotes": [
+     "Uski feelings",
+     "Kisi aur ke liye",
+     "Dekhne ko mil rahi hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided for the marriage or patch-up.",
+    "quotes": [
+     "Shaadi ho sakti hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a list of items without clear instructions on how or when to use them.",
+    "quotes": [
+     "11 belpatra",
+     "11 Dana chawal",
+     "11 kali mirch",
+     "11 supari",
+     "11 long"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer switched topics from marriage to the boyfriend's feelings without clearly managing the thread.",
+    "quotes": [
+     "Uski feelings",
+     "Kisi aur ke liye"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat feels stalled.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were just a list of items for a remedy.",
+    "quotes": [
+     "11 long"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer uses formal/scripted phrasing.",
+    "quotes": [
+     "Main aapki kundli ko check karta"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult; no trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera love marriage hoga kya arrange marriage sir kab hoga mera marriage mera bf mujhe call sms kab karegr",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided basic answers but failed to build a personal connection or explain the chart factors mentioned. The chat was hurt by the lack of emotional validation and the fragmented, list-like delivery of remedies."
+ },
+ "usage": {
+  "input_tokens": 15837,
+  "output_tokens": 2353
+ }
+}

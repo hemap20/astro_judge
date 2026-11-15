@@ -1,0 +1,291 @@
+{
+ "file": "conversation_214933_347.csv",
+ "tier": "Low",
+ "user_id": "214933",
+ "ltv": 240.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.41,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 5.4,
+  "B3": 3.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 21,
+   "avg_words": 5.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about his friend Madhu in the first reply after the question is asked; instead, she asks for birth details again.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for DOB again (Type C) despite it being provided in the first message. The question 'Do you like her' is Type B as it could be asked to any user.",
+    "quotes": [
+     "Date of birth",
+     "Do you like her"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asks about a specific person (Madhu). The astrologer asks for her DOB, but the user does not know it. The astrologer then proceeds to give a reading without the details, which is acceptable, but she never uses the name 'Madhu' in her reading.",
+    "quotes": [
+     "Date of birth"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks a chart reason or specific detail that could be verified. It is not specific enough to be untrue for others.",
+    "quotes": [
+     "unki life mein ek boy k sath Feelings to hi but as Friend wali"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether there is a boy in his friend's life.",
+    "quotes": [
+     "Mere dost hai madhu kya uske life me koi boy hai kya jaise koi ex",
+     "unki life mein ek boy k sath Feelings to hi but as Friend wali"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart reference or explanation provided for the reading given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency issues as no timing was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not change the topic or ask a second question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers after the reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are multiple bare acknowledgements and wait lines that stall the chat.",
+    "quotes": [
+     "Wait I am checking",
+     "Wait line par bane rahe"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are incomplete and do not provide a reason to return.",
+    "quotes": [
+     "Good hi",
+     "relationship Mein aap k"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, but the astrologer uses 'I m taking card' which is not an astrology term but is slightly formal/English.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere dost hai madhu kya uske life me koi boy hai kya jaise koi ex",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer helped by answering the user's question about his friend, but the chat was hurt by repetitive requests for birth details and long wait times. The lack of depth in the reading and the abrupt, incomplete ending left the consultation feeling unfinished."
+ },
+ "usage": {
+  "input_tokens": 10582,
+  "output_tokens": 1363
+ }
+}

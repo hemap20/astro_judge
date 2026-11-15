@@ -1,0 +1,399 @@
+{
+ "file": "conversation_1495779_2442.csv",
+ "tier": "High",
+ "user_id": "1495779",
+ "ltv": 15492.22,
+ "n_msgs": 52,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.27,
+ "rubric_score": 4.27,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 539,
+   "S4": 249,
+   "S5": 539
+  }
+ },
+ "final": 3.83,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 2.14,
+  "B3": 5.0,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.429,
+   "max_words": 160,
+   "avg_words": 32.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Identified the concern late."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Initial prediction is generic and chart-heavy."
+   },
+   "S5": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction connecting chart to user's specific situation."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 32,
+    "quality": 0,
+    "note": "Remedy is a ritualistic video call session."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific situation (married, affair) in the first reply after the user shares it.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are generic and not built on the user's specific context.",
+    "quotes": [
+     "सर संभावना तो है आप क्या व्यक्तिगत तौर से इनके संपर्क में आना चाहते हैं"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but does not use them to provide a reading about the match.",
+    "quotes": [
+     "Pic bejiye face reading karna padega"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's life.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने ka योग बन रहा है"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never gives a clear direction on the relationship outcome.",
+    "quotes": [
+     "सर संभावना तो है"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used without clear explanation of their impact on the user's life.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add new, specific insights.",
+    "quotes": [
+     "मैं महादशा और चेक कर लेता हूं"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time frame for the result, which is a promise.",
+    "quotes": [
+     "8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a ritualistic session, which is not a practical step.",
+    "quotes": [
+     "सर पूजन करना पड़ेगा इसका"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer does not hold the main thread effectively.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the ritual session.",
+    "quotes": [
+     "मैं 4:00 बजे स्वयं सब रेडी करके रखूंगा"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Formal language used.",
+    "quotes": [
+     "वैचारिक मतभेद उत्पन्न होते होंगे"
+    ],
+    "score": 4
+   },
+   "1.3": {
+    "skipped": true,
+    "reasoning": "Scripted count.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship love k bareme puchna",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead focusing on a ritualistic video call session. The lack of clear guidance and the promise of a specific outcome within 8-10 days significantly hurt the consultation quality."
+ },
+ "usage": {
+  "input_tokens": 16168,
+  "output_tokens": 1705
+ }
+}

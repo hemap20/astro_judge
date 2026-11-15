@@ -1,0 +1,861 @@
+{
+ "file": "conversation_722590_1283.csv",
+ "tier": "High",
+ "user_id": "722590",
+ "ltv": 11853.0,
+ "n_msgs": 108,
+ "n_astro_msgs": 82,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 10,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 10,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 6,
+  "3.1": 7,
+  "3.2": 9,
+  "3.3": 7,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.35,
+ "rubric_score": 7.35,
+ "blueprint": {
+  "score": 7.41,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 1.0
+  },
+  "order": 0.786,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S2": 461,
+   "S3": 65,
+   "S4": 168,
+   "S5": 406,
+   "S6": 247,
+   "S7": 1603,
+   "S8": 683
+  }
+ },
+ "final": 7.38,
+ "label": "good",
+ "buckets": {
+  "B1": 7.75,
+  "B2": 7.29,
+  "B3": 7.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.061,
+   "max_words": 49,
+   "avg_words": 18.2,
+   "bursts": 9,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 8
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Acknowledges financial stress but generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 2,
+    "note": "Identifies marriage as the primary concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gives a reading about marriage delays."
+   },
+   "S5": {
+    "present": true,
+    "idx": 20,
+    "quality": 2,
+    "note": "Asks about job sector to clarify career concern."
+   },
+   "S6": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Mentions Rahu/Ketu but lacks deep chart connection."
+   },
+   "S7": {
+    "present": true,
+    "idx": 75,
+    "quality": 1,
+    "note": "Probes into the future partner's name."
+   },
+   "S8": {
+    "present": true,
+    "idx": 38,
+    "quality": 1,
+    "note": "Gives a mantra remedy for Ketu."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for a next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's struggle with marriage delays and financial stress.",
+    "quotes": [
+     "Last moment mein aapki shaadi cut jaati Hai",
+     "aap bahut pareshan Hain Rahul Kumar ji financial ko lekar"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the job sector and the partner's name. These are relevant to the user's questions.",
+    "quotes": [
+     "Aapko Rahul Kumar ji government job ki ya private sector mein TRAI kar rahe hain",
+     "use ladki ka kya naam hai aap bata sakte hain mujhe"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 20,
+       "type": "A",
+       "answer_used": true
+      },
+      {
+       "idx": 95,
+       "type": "A",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about marriage, which involves a future partner. The astrologer asks for details to check the chart.",
+    "quotes": [
+     "use ladki ka kya naam hai aap bata sakte hain mujhe"
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": true,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": false,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about marriage delays is specific and relates to the user's experience.",
+    "quotes": [
+     "Last moment mein aapki shaadi cut jaati Hai aapki dilwalon ko aapko lagta hai ki shaadi fix ho jayegi lekin shaadi mein problem nahin jaati Hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage timing question with a specific window.",
+    "quotes": [
+     "March ki last tak ki so jayegi"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 15,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Rahu/Ketu and house placements in relation to marriage.",
+    "quotes": [
+     "Lagn mein ketu marriage mein Rahu baitha hua Hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about career and financial growth after the initial marriage reading.",
+    "quotes": [
+     "February mein aapko ek acchi job milegi",
+     "financial mein jo prabhav Hai vah bhi dur Ho jaenge"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a consistent window for marriage.",
+    "quotes": [
+     "March ki last tak"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a mantra remedy for Ketu.",
+    "quotes": [
+     "Om ke ketave namah. om ravraghve"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages both marriage and job questions effectively.",
+    "quotes": [
+     "Aapki shaadi March Tak fix ho jayegi",
+     "February mein aapko ek acchi job milegi"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": true,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": true,
+     "both_fully_answered": true,
+     "two_answers_connected": true
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's name and distance.",
+    "quotes": [
+     "Main aapko check karke bata raha hun use ladki ka first name kya hoga"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye; the astrologer keeps the conversation going.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide reassurance about the future.",
+    "quotes": [
+     "aane Wala samay aapka bahut hi achcha dikhai de raha hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "mari sadi kab tak hogi",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's marriage and career concerns with specific timelines and remedies. The chat was helpful in providing reassurance, though it lacked a clear hook for a future consultation."
+ },
+ "usage": {
+  "input_tokens": 19802,
+  "output_tokens": 3795
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": 7,
+   "2.1": 7,
+   "2.2": 8,
+   "2.7": 8,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

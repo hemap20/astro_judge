@@ -1,0 +1,607 @@
+{
+ "file": "conversation_1414364_340.csv",
+ "tier": "High",
+ "user_id": "1414364",
+ "ltv": 12084.38,
+ "n_msgs": 38,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 6,
+  "1.4": 10,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 6.58,
+ "blueprint": {
+  "score": 6.48,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.75,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S2": 565,
+   "S3": 50,
+   "S4": 170,
+   "S5": 67,
+   "S6": 217,
+   "S7": 572,
+   "S8": 520
+  }
+ },
+ "final": 5.03,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.0,
+  "B2": 5.33,
+  "B3": 6.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 6.9,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     20
+    ],
+    "reason": "The astrologer provides a guaranteed outcome ('Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi') which is a form of manipulation/guarantee often used to secure trust or future paid engagement, and the overall tone creates a false sense of certainty.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 31,
+    "quality": 1,
+    "note": "Acknowledges the user's anxiety and hurt."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 2,
+    "note": "Identifies the concern about the breakup and potential rebound."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a prediction about the rebound possibility."
+   },
+   "S5": {
+    "present": true,
+    "idx": 5,
+    "quality": 2,
+    "note": "Asks relevant follow-up about the relationship duration."
+   },
+   "S6": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Connects the situation to tarot cards rather than the user's chart."
+   },
+   "S7": {
+    "present": true,
+    "idx": 32,
+    "quality": 1,
+    "note": "Addresses the concern about a third person."
+   },
+   "S8": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Gives a practical step to wait for 3 weeks."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No specific hook for a next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's pain and anxiety in message 31.",
+    "quotes": [
+     "I know abhi apko bht anxiety ho rahi hogi hurt h aap"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the relationship duration and timing of issues, which are relevant.",
+    "quotes": [
+     "Kitna time hua h relationship ko",
+     "Kya ye issue dec se araha h"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 5,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 7,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the partner and uses the name Sanchita.",
+    "quotes": [
+     "Sanchita Ganguly"
+    ],
+    "score": 9,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present situation and uses tarot cards as a marker.",
+    "quotes": [
+     "Yes wko blocking wala card aaya h"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the rebound and the future of the relationship.",
+    "quotes": [
+     "Bilkul possibility hai"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 15,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are used; the reading is based on tarot cards.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the partner's mental state.",
+    "quotes": [
+     "Wo thodi mantally disturb h"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a guarantee which is a violation.",
+    "quotes": [
+     "Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Gives a practical step to wait.",
+    "quotes": [
+     "3 weeks baad aap mt kijiye unko krne dijiye"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user does not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Does not open a next layer.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is about the timing of the partner's mental disturbance.",
+    "quotes": [
+     "Dec end se"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and informal.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "is she want rebound now ?",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a reading using tarot cards and addressed the user's concern about their breakup. However, the astrologer gave a guarantee that the partner would return, which is a significant violation of professional standards."
+ },
+ "usage": {
+  "input_tokens": 16995,
+  "output_tokens": 2735
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": 9,
+   "2.1": 7,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#20 [04:32] ASTRO: Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi",
+   "reason": "The astrologer provides a guaranteed outcome ('Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi') which is a form of manipulation/guarantee often used to secure trust or future paid engagement, and the overall tone creates a false sense of certainty.",
+   "quote_en": "#20 [04:32] ASTRO: I am giving you the assurance that she will definitely come into your life."
+  }
+ }
+}

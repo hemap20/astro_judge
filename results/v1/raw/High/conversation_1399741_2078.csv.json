@@ -1,0 +1,350 @@
+{
+ "file": "conversation_1399741_2078.csv",
+ "tier": "High",
+ "user_id": "1399741",
+ "ltv": 8897.0,
+ "n_msgs": 55,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.43,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 6.29,
+  "B3": 7.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's details but fails to acknowledge the emotional distress or the specific situation (ignoring/mixed signals) shared by the user in the first few messages.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided (Type C) and asks about a third person without a clear astrological reason linked to the user's chart.",
+    "quotes": [
+     "Aap unko detail send karo",
+     "Kya unka detail hai aapke pass female friend ka ya koi photo hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about the third-party involvement.",
+    "quotes": [
+     "ok now send their full details"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the third person is specific and new, but it is not clearly tied to a chart reason (e.g., planetary positions or dasha).",
+    "quotes": [
+     "Apke partner jo hai main dekh pa raha hun third person ka involvement lag raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a timeline for when things might improve, answering the user's question about when they will connect.",
+    "quotes": [
+     "Aapke bich mein dekh pa Raha Hun ki April last Tak sab theek hone ke chance hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the chart but does not explain the chart factors in plain words, relying on vague statements about 'kundli ke according'.",
+    "quotes": [
+     "Kundli ke according mein dekh raha hun third person se involve lag raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the third person's influence, which builds on the user's input about the female friend.",
+    "quotes": [
+     "Unke friend Jo Hai divert kar rahi hai aapke Prati"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window (April last) and maintains consistency throughout the chat.",
+    "quotes": [
+     "Aapke bich mein dekh pa Raha Hun ki April last Tak sab theek hone ke chance hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice (patience and silence) that fits the user's problem of being ignored.",
+    "quotes": [
+     "Ji bilkul aapko patience rakhna chahie and silent rahana Hoga thodi time"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages to address the user's multiple questions about the partner's feelings and the future of the relationship.",
+    "quotes": [
+     "Vah aapke liye feeling rakhte Hain",
+     "Aapke liye pyar bhi Hai unke man mein"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer regarding the third person's influence, which keeps the user engaged.",
+    "quotes": [
+     "Unke friend Jo Hai divert kar rahi hai aapke Prati"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the astrologer continues to provide readings until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the partner's feelings, leaving the user with a concrete insight.",
+    "quotes": [
+     "Vah aapke liye feeling rakhte Hain",
+     "Aapke liye pyar bhi Hai unke man mein"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, though it lacks depth in explaining astrological terms.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya koi future h kyuki I love him",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the third-party influence and provided a timeline for reconciliation, which helped the user feel understood. However, the astrologer's repetitive requests for details already provided and lack of clear chart-based explanations hindered the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11175,
+  "output_tokens": 1690
+ }
+}

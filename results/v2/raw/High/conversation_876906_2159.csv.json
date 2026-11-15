@@ -1,0 +1,270 @@
+{
+ "file": "conversation_876906_2159.csv",
+ "tier": "High",
+ "user_id": "876906",
+ "ltv": 274884.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 4,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.5,
+ "buckets": {
+  "B1": 1.67,
+  "B2": 2.33,
+  "B3": 3.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 3,
+   "long_frac": 0.0,
+   "max_words": 1,
+   "avg_words": 1.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 0
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer never acknowledged the user's questions about government job or marriage.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked no questions; the user provided details, but the astrologer did not engage.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage, but the astrologer never asked for partner details or provided any reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about a government job and marriage; the astrologer provided no answer.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or reading was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer did not answer either question.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided to open any layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sent multiple empty messages/media placeholders without providing any content.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were empty media placeholders.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used minimal language but provided no actual content or astrology terms.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "എനിക്ക് എന്ന് ഗവണ്മെന്റ് ജോലി കിട്ടുമോ? ഈ വർഷം കിട്ടുമോ? ഏതു മാസം കിട്ടും",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or answer to the user's questions throughout the entire consultation. The chat consisted almost entirely of empty media placeholders, which provided no value to the user."
+ },
+ "usage": {
+  "input_tokens": 10551,
+  "output_tokens": 1098
+ }
+}

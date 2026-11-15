@@ -1,0 +1,195 @@
+{
+ "file": "conversation_1029568_45.csv",
+ "tier": "Medium",
+ "user_id": "1029568",
+ "ltv": 1539.0,
+ "n_msgs": 4,
+ "n_astro_msgs": 2,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": null,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.67,
+ "buckets": {
+  "B1": 1.67,
+  "B2": 2.33,
+  "B3": 4.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 0,
+   "long_frac": 0.0,
+   "max_words": 1,
+   "avg_words": 1.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 0
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer failed to acknowledge the user's details or the fact that the user is waiting for a reading. The replies are just greetings.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user provided birth details but the astrologer did not acknowledge them or ask for the missing time of birth.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No reading was provided, so no chart reference was made.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading or insight was provided to open any layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sent two greetings without providing any value or reading, stalling the chat.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were just greetings, providing no reading or guidance.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used simple language, but failed to provide any actual consultation.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to acknowledge the user's provided details or initiate the consultation. The chat consisted only of repetitive greetings, providing no value or reading to the user."
+ },
+ "usage": {
+  "input_tokens": 10138,
+  "output_tokens": 748
+ }
+}

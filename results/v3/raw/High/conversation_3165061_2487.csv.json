@@ -1,0 +1,579 @@
+{
+ "file": "conversation_3165061_2487.csv",
+ "tier": "High",
+ "user_id": "3165061",
+ "ltv": 13769.42,
+ "n_msgs": 89,
+ "n_astro_msgs": 54,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 1,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.67,
+ "rubric_score": 6.67,
+ "blueprint": {
+  "score": 7.28,
+  "coverage": 0.611,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.5,
+   "S8": 1.0
+  },
+  "order": 0.806,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S2": 632,
+   "S3": 43,
+   "S4": 165,
+   "S5": 237,
+   "S6": 907,
+   "S7": 1205,
+   "S8": 434,
+   "S9": 1106
+  }
+ },
+ "final": 6.97,
+ "label": "good",
+ "buckets": {
+  "B1": 7.0,
+  "B2": 7.0,
+  "B3": 7.0,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 1,
+   "T": 4
+  },
+  "4.1": {
+   "score": 1,
+   "M": 16,
+   "long_frac": 0.0,
+   "max_words": 21,
+   "avg_words": 6.4,
+   "bursts": 3,
+   "has_list": true
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No self-harm or crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "No paid element or pressure to pay identified."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 43,
+    "quality": 1,
+    "note": "Acknowledges the user's frustration with medical issues."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 2,
+    "note": "Identifies the primary concern (conceiving)."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gives a generic dasha-based insight."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 2,
+    "note": "Asks a relevant follow-up about miscarriage history."
+   },
+   "S6": {
+    "present": true,
+    "idx": 67,
+    "quality": 1,
+    "note": "Connects the past miscarriage to Rahu, but lacks depth."
+   },
+   "S7": {
+    "present": true,
+    "idx": 86,
+    "quality": 1,
+    "note": "Opens a new layer at the very end."
+   },
+   "S8": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Remedies provided but generic."
+   },
+   "S9": {
+    "present": true,
+    "idx": 80,
+    "quality": 1,
+    "note": "Invites the user to return."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about conceiving and the medical struggle, but the response is quite generic.",
+    "quotes": [
+     "Acha ok jj",
+     "Oh acha ji mai check karte hu"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about miscarriage history (Type A) and which god is dear to her (Type B). No Type C questions.",
+    "quotes": [
+     "Ye btaiye isse phle apka miscarriage hua hai kya?",
+     "And kon se bhagwan apko priya hai"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable as the question is not about a specific third person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but it is quite generic and lacks specific chart-based markers.",
+    "quotes": [
+     "ab abhi apki venus ki dasha me jupiter ki antardasha chal rhi hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a clear direction that she will conceive this year.",
+    "quotes": [
+     "Ho jayega is saal conceive"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions dasha and Rahu, but the explanations are very basic.",
+    "quotes": [
+     "venus ki dasha me jupiter ki antardasha chal rhi hai",
+     "Rahu yog chal rha ths"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Adds the point about Rahu causing the miscarriage, which uses the user's detail.",
+    "quotes": [
+     "Ji ha wo miscarriage hua tha",
+     "Rahu yog chal rha ths"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a window (this year) without promising a specific date.",
+    "quotes": [
+     "Ho jayega is saal conceive"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies are provided with how and when, but they are stock remedies.",
+    "quotes": [
+     "daily black cows ko aate aur gud mila ke khilaye",
+     "Tuesday ko Hanuman ji ko 5 lal phool aur hanuman chalisa ka path kare"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stays on the same topic throughout.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Opens a new layer at the very end regarding another factor for conceiving.",
+    "quotes": [
+     "Conceive karne ke effort ke saath ek aur zaruri factor dikh raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer asks for a rating.",
+    "quotes": [
+     "And plss achi rating dijiyega"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about another factor.",
+    "quotes": [
+     "Conceive karne ke effort ke saath ek aur zaruri factor dikh raha hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user's Hinglish.",
+    "quotes": [
+     "Namastey jj",
+     "Radhey Radhey"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Conceive kab hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's primary concern about conceiving and provided actionable remedies. However, the reading remained quite generic and lacked deep chart-based insights."
+ },
+ "usage": {
+  "input_tokens": 16549,
+  "output_tokens": 2430
+ }
+}

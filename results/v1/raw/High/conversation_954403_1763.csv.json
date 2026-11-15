@@ -1,0 +1,229 @@
+{
+ "file": "conversation_954403_1763.csv",
+ "tier": "High",
+ "user_id": "954403",
+ "ltv": 10354.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 2.97,
+ "buckets": {
+  "B1": 1.5,
+  "B2": 2.71,
+  "B3": 2.33,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 2,
+   "R": null,
+   "T": 2
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.286,
+   "max_words": 52,
+   "avg_words": 22.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about the girl talking to someone else, instead focusing on asking for a photo and then stalling.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo (Type C) and then repeatedly asks for time/patience (Type C).",
+    "quotes": [
+     "Ji bilkul Bata sakti Hun uska photo hai aapke pass",
+     "ab thoda sa time add Kar lijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo but never uses the girl's birth details or name to provide any reading about her.",
+    "quotes": [
+     "Ji bilkul Bata sakti Hun uska photo hai aapke pass"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question about whether the girl talks to someone else was never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided to build upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question was never answered, so it could not be held.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'feelings' and 'gochar' to delay the reading rather than opening a layer of value.",
+    "quotes": [
+     "ismein time lagega 6:00 SE 7 minut ka kyunki gochar milaap mein feelings ki jaanch ki jaati Hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly stalls and fails to provide any reading, effectively stalling the chat.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for more time/patience, providing no reading.",
+    "quotes": [
+     "Prakash ji Meri baat nahin samajh rahe hain agar mere upar hota to Main Bata Diya aapko ab thoda sa time add Kar lijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer fails to provide any actual astrological insight.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya aap bta sakti ki ve mere alawa kisi aur se bat krti hai ya nhi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or answer the user's question, instead repeatedly asking for more time and patience. The consultation was entirely unproductive as no astrological insight was shared."
+ },
+ "usage": {
+  "input_tokens": 10453,
+  "output_tokens": 1074
+ }
+}

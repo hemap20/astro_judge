@@ -1,0 +1,506 @@
+{
+ "file": "conversation_924427_1395.csv",
+ "tier": "High",
+ "user_id": "924427",
+ "ltv": 5290.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 5.02,
+ "rubric_score": 5.02,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 21,
+   "S3": 247,
+   "S4": 256,
+   "S5": 247
+  }
+ },
+ "final": 4.21,
+ "label": "bad",
+ "buckets": {
+  "B1": 6.33,
+  "B2": 2.43,
+  "B3": 4.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 7.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's distress about being jobless."
+   },
+   "S3": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asks about field after a long delay."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gives a generic positive statement about the future."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asks about previous job field."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Does not connect chart to the specific job loss issue."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's worry about being jobless for 8 months and the repeated job loss, offering only a generic 'future is good'.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the job field (Type B) and confirms birth details (Type C).",
+    "quotes": [
+     "Pahle kaun se field mein job karte The"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": [
+      {
+       "idx": 13,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks a concrete marker or specific chart reason tied to the user's situation.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 14,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks about job prospects in Feb 2026, but the astrologer never provides a clear direction or answer.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No linked reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 14,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat generic points about planets without adding depth.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 14,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 14,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 14,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about job prospects is never answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple empty/media messages, stalling the chat.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are empty/media, providing no value.",
+    "quotes": [],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no terms are explained.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "job kab milegi",
+  "main_question_idx": 6,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific concerns about job loss and timing, providing only generic, unhelpful statements. The chat was further hindered by the astrologer sending multiple empty or media-only messages, which wasted the user's time."
+ },
+ "usage": {
+  "input_tokens": 17279,
+  "output_tokens": 2203
+ },
+ "reference": {
+  "bare_acks": 4,
+  "longest_ack_run": 2,
+  "judge_own_scores": {
+   "1.2": 3,
+   "1.4": null,
+   "2.1": 3,
+   "2.2": 3,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 4
+  }
+ }
+}

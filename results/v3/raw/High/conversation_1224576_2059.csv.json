@@ -1,0 +1,495 @@
+{
+ "file": "conversation_1224576_2059.csv",
+ "tier": "High",
+ "user_id": "1224576",
+ "ltv": 11399.0,
+ "n_msgs": 76,
+ "n_astro_msgs": 40,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 3,
+  "2.7": 9,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 6.79,
+ "rubric_score": 6.79,
+ "blueprint": {
+  "score": 5.54,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.714,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S2": 825,
+   "S3": 30,
+   "S4": 163,
+   "S5": 151,
+   "S6": 163,
+   "S7": 463
+  }
+ },
+ "final": 6.17,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.67,
+  "B2": 6.14,
+  "B3": 7.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 7
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 13.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 55,
+    "quality": 1,
+    "note": "Acknowledges stress but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Asks for question after user already provided it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a prediction but it is generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Follow-up question is relevant but standard."
+   },
+   "S6": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Connects to chart but lacks depth."
+   },
+   "S7": {
+    "present": true,
+    "idx": 35,
+    "quality": 1,
+    "note": "Probes business interest."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's stress in message 55, but it is generic and does not repeat specific details shared by the user.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks relevant questions (Type A/B) and does not repeat questions or assume facts.",
+    "quotes": [
+     "Current time mein koi rishte ki batchit chal rahi hai kya",
+     "Kis sector mein job aapki hai",
+     "Aap apne donon hand ka pic share kariye to"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person's chart.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future and lacks specific markers that could be verified as new or specific to the user's chart.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction for marriage and promotion with a time window.",
+    "quotes": [
+     "2026 April Se lekar ke June ke bich mein aapka rishta fix hone ka yog ban raha hai",
+     "2026 April Se lekar ke June ke bich mein aapko promotion milane ka yog ban raha hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the chart but does not explain the planetary factors in plain words.",
+    "quotes": [
+     "Aapke kundli ke anusar Se dekha jaaye to"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by moving from marriage to promotion to business, using the user's inputs.",
+    "quotes": [
+     "Aapke kundli ke anusar Se dekha jaaye to current place per hi aapko promotion milane ka yog ban raha hai",
+     "Aapke kundli ke anusar Se dekha jaaye to 2028 Tak aapke business ke yog Ban rahe hain"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a consistent time window for events without promising certainty.",
+    "quotes": [
+     "2026 April Se lekar ke June ke bich mein aapka rishta fix hone ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread well, answering marriage, promotion, and business questions in order.",
+    "quotes": [],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding business planning.",
+    "quotes": [
+     "Future mein Koi business ki bhi planning aapki hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, and every reply carried a reading or question.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a reading about the user's payment issue.",
+    "quotes": [
+     "Yog hai ki aapko cal unki taraf se response positive mile"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger occurred.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi kb hogi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively addressed multiple concerns (marriage, career, business, and financial disputes) in a structured manner. However, the consultation lacked actionable remedies and a clear hook for a follow-up session, which are essential for a complete experience."
+ },
+ "usage": {
+  "input_tokens": 16516,
+  "output_tokens": 2146
+ }
+}

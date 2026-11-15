@@ -1,0 +1,403 @@
+{
+ "file": "conversation_1377057_57.csv",
+ "tier": "Medium",
+ "user_id": "1377057",
+ "ltv": 1071.44,
+ "n_msgs": 45,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.17,
+ "rubric_score": 6.17,
+ "blueprint": {
+  "score": 5.29,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 0.933,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 2,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 26,
+   "S3": 44,
+   "S4": 234,
+   "S5": 604,
+   "S6": 379,
+   "S8": 651
+  }
+ },
+ "final": 5.73,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 5.67,
+  "B3": 6.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.217,
+   "max_words": 43,
+   "avg_words": 16.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Identified the need for general future guidance but was generic."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Gave a negative prediction without specific context."
+   },
+   "S5": {
+    "present": true,
+    "idx": 38,
+    "quality": 1,
+    "note": "Asked a generic follow-up question."
+   },
+   "S6": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Mentioned Lagna and Rashi but the reading was generic."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 41,
+    "quality": 2,
+    "note": "Gave a specific remedy (Hanuman Chalisa) with frequency (daily)."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user asked for future guidance and deep analysis. The astrologer's first reading (16) was generic and negative, not acknowledging the user's specific request for depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked 'Kya jankari aap chahte Hain' (Type B) and 'Aapka koi kaam रुका हुआ है क्या' (Type B). No Type C questions were asked.",
+    "quotes": [
+     "Kya jankari aap chahte Hain",
+     "Aapka koi kaam रुका हुआ है क्या"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No other person's details were involved.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading was about the present but was generic and could apply to anyone. It lacked specific markers.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked for future guidance. The astrologer provided a timeline (Sept onwards, April 2026).",
+    "quotes": [
+     "सितंबर माह से आपका समय अच्छा9 तक चलेगा",
+     "अप्रैल माह से आपका स्वास्थ्य धीरे-धीरे अच्छा होने लगेगा"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned Rahu/Ketu/Moon but did not link them to the user's life in plain, everyday words effectively.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings were repetitive and did not build depth based on user input.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a window for improvement without promising a specific date.",
+    "quotes": [
+     "सितंबर माह से आपका समय अच्छा9 तक चलेगा"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Gave a remedy (Hanuman Chalisa) with frequency (daily) for the stated problem (Rahu/Ketu negativity).",
+    "quotes": [
+     "हनुमान चालीसा का पाठ अब रोजाना कीजिए"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User stayed on one topic (future guidance).",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat felt stalled.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a question about the user's business, which is a relevant follow-up.",
+    "quotes": [
+     "आपको खुद का व्यवसाय है"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language was easy and accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "आने वाले समय के विषय मैं",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the user's future and a practical, actionable remedy. However, the consultation lacked emotional connection and failed to build depth, making the reading feel generic and disconnected from the user's specific request for a deep analysis."
+ },
+ "usage": {
+  "input_tokens": 16020,
+  "output_tokens": 1746
+ }
+}

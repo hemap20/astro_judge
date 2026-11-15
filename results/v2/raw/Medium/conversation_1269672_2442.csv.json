@@ -1,0 +1,358 @@
+{
+ "file": "conversation_1269672_2442.csv",
+ "tier": "Medium",
+ "user_id": "1269672",
+ "ltv": 4065.4,
+ "n_msgs": 49,
+ "n_astro_msgs": 26,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.25,
+  "B2": 6.71,
+  "B3": 3.67,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 6,
+   "R": 6,
+   "T": 10
+  },
+  "4.1": {
+   "score": 10,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     39,
+     47
+    ],
+    "reason": "The astrologer uses urgency ('Abhi bahut kuch batana hai') combined with a demand to recharge the chat to continue."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's name and the specific concern about the husband's affair.",
+    "quotes": [
+     "Okay Priyanka ji bilkul jaan sakte hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the husband's regiment and living situation, which are relevant to the context of the affair.",
+    "quotes": [
+     "Ok kis regiment mai",
+     "Aap unke sath rehti hai ya unse alag"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details to analyze the chart, which is necessary for the question.",
+    "quotes": [
+     "Husband ki den aap"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific to the user's situation (husband's affair at work), but it lacks a clear chart-based reason in the first reading.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%",
+     "Jaha ye work karte hai wohi  ki koi ladki hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the affair and the timeline, though it is interrupted by payment requests.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%",
+     "Dekhiye unka relationship 2025 ke 12 mahine mai chalu hua hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions checking the chart but fails to explain the findings in plain, everyday words linked to the user's life.",
+    "quotes": [
+     "Ok wait I'll chek lagn chart"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the timeline of the affair, building on the initial reading.",
+    "quotes": [
+     "Dekhiye unka relationship 2025 ke 12 mahine mai chalu hua hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific timeline for the affair without promising a certain outcome.",
+    "quotes": [
+     "Dekhiye unka relationship 2025 ke 12 mahine mai chalu hua hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests living together as a way to change the situation, which is practical advice.",
+    "quotes": [
+     "Agar aap rhenge to baat kich or hogi"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the affair throughout the conversation.",
+    "quotes": [
+     "Abhi bahut kuch batana hai inke baare mai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases more information to keep the user engaged.",
+    "quotes": [
+     "Abhi bahut kuch batana hai inke baare mai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant requests for recharge disrupt the flow.",
+    "quotes": [
+     "Recharge rakhiye baat continue chal ske"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for recharge, which do not provide a helpful closing.",
+    "quotes": [
+     "Plz recharge"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses the user's name, but the astrologer uses English phrases like 'lagn chart' without explanation.",
+    "quotes": [
+     "Ok wait I'll chek lagn chart"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mujhe mere husband ke affair ke bare mein Janna hai kisi ke sath hai ya nahin",
+  "message_labels": [
+   {
+    "idx": 0,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's concern about the affair and a timeline. However, the constant pressure to recharge the chat significantly hurt the user experience and the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11014,
+  "output_tokens": 1639
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#39 [08:23] ASTRO: Recharge rakhiye baat continue chal ske\n#47 [09:59] ASTRO: Plz recharge",
+   "reason": "The astrologer uses urgency ('Abhi bahut kuch batana hai') combined with a demand to recharge the chat to continue.",
+   "quote_en": "#39 [08:23] ASTRO: Please keep your account recharged so we can continue the conversation\n#47 [09:59] ASTRO: Plz recharge"
+  }
+ }
+}

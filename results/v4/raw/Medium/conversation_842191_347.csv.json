@@ -1,0 +1,434 @@
+{
+ "file": "conversation_842191_347.csv",
+ "tier": "Medium",
+ "user_id": "842191",
+ "ltv": 720.0,
+ "n_msgs": 47,
+ "n_astro_msgs": 29,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.94,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S3": 41,
+   "S4": 109,
+   "S5": 64
+  }
+ },
+ "final": 2.17,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.25,
+  "B2": 2.86,
+  "B3": 3.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 9
+  },
+  "4.1": {
+   "score": 3,
+   "M": 29,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 5.1,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16,
+     27,
+     28
+    ],
+    "paid_idx": [
+     26
+    ],
+    "evidence_idx": [
+     16,
+     26,
+     27,
+     28
+    ],
+    "reason": "The astrologer uses fear ('miscarriage problem', 'mistake') to create urgency and then immediately asks the user to call, which is a paid element."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the concern but did not build rapport."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gave a generic positive prediction."
+   },
+   "S5": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Asked for partner details."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No specific chart connection provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's emotional state or the specific worry about pregnancy in the first reply.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner name, DOB, marriage date, and last period date. These are data requests, not Type A questions.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details but did not use them to provide a reading about the match.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline (Nov) but it is not a clear answer to the main question.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained in relation to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not build depth; they introduce vague 'mistakes' and 'hand pics'.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives contradictory or vague timelines (2026, Nov).",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical guidance provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread is lost in data requests and vague claims.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease ('mistake') to keep the user engaged without providing value.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague prediction without a reason.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple but the astrologer uses vague, non-astrological claims.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main pregnent kab hongi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful consultation, instead using fear-based tactics and vague claims to push for a call. The lack of chart-based insights and the focus on data collection made the session unhelpful."
+ },
+ "usage": {
+  "input_tokens": 15733,
+  "output_tokens": 1748
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [02:17] ASTRO: Miscarriage problem bhi show ho raha hai\n#26 [03:16] ASTRO: Can you call me\n#27 [03:31] ASTRO: Aap kuch mistake bhi kar rahe ho use\n#28 [03:38] ASTRO: Aap ko delay ho raha hai",
+   "reason": "The astrologer uses fear ('miscarriage problem', 'mistake') to create urgency and then immediately asks the user to call, which is a paid element.",
+   "quote_en": "#16 [02:17] ASTRO: Miscarriage problem is also showing.\n#26 [03:16] ASTRO: Can you call me\n#27 [03:31] ASTRO: You are also making some mistakes with it.\n#28 [03:38] ASTRO: You are facing a delay."
+  }
+ }
+}

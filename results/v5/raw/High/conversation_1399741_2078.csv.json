@@ -1,0 +1,576 @@
+{
+ "file": "conversation_1399741_2078.csv",
+ "tier": "High",
+ "user_id": "1399741",
+ "ltv": 8897.0,
+ "n_msgs": 55,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 10,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 6,
+  "2.5": 7,
+  "2.6": 6,
+  "2.7": 6,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.38,
+ "rubric_score": 6.38,
+ "blueprint": {
+  "score": 6.16,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 1.0
+  },
+  "order": 0.905,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 95,
+   "S4": 179,
+   "S5": 131,
+   "S6": 200,
+   "S7": 508,
+   "S8": 495
+  }
+ },
+ "final": 6.27,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 5.86,
+  "B3": 6.33,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's emotional distress."
+   },
+   "S3": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details repeatedly."
+   },
+   "S4": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Gives a vague prediction about future connection."
+   },
+   "S5": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Asks follow-up questions but they are not deeply insightful."
+   },
+   "S6": {
+    "present": true,
+    "idx": 22,
+    "quality": 1,
+    "note": "Mentions third person involvement but lacks specific chart depth."
+   },
+   "S7": {
+    "present": true,
+    "idx": 45,
+    "quality": 1,
+    "note": "Probes marriage chances but remains generic."
+   },
+   "S8": {
+    "present": true,
+    "idx": 44,
+    "quality": 1,
+    "note": "Gives advice to be patient, but it is not a specific remedy."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided at the end."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the details but fails to name the user's feeling of being ignored or hurt.",
+    "quotes": [
+     "I have received your details which you have mentioned in the chart"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or generic questions.",
+    "quotes": [
+     "Aap unko detail send karo",
+     "Last time baat kab hui thi"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": [
+      {
+       "idx": 10,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 16,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 28,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 33,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to provide a reading about the third person.",
+    "quotes": [
+     "Aap unko detail send karo"
+    ],
+    "score": 9,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": false,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present situation but lacks specific chart-based reasons.",
+    "quotes": [
+     "Aapke partner jo hai main dekh pa raha hun third person ka involvement lag raha hai"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 19,
+     "now": true,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the future connection and marriage.",
+    "quotes": [
+     "Aapke bich mein dekh pa Raha Hun ki April last Tak sab theek hone ke chance hai"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 31,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained in relation to the user's life.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 19,
+     "now": true,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the third person.",
+    "quotes": [
+     "Abhi to vah female friend se contact kar rahe hain isliye aapse distance banaa liye hain"
+    ],
+    "score": 6,
+    "checks": {
+     "new": true,
+     "uses": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a time window for the situation to improve.",
+    "quotes": [
+     "April last Tak sab theek hone ke chance hai"
+    ],
+    "score": 7,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 31,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Gives advice to be patient.",
+    "quotes": [
+     "Ji bilkul aapko patience rakhna chahie and silent rahana Hoga thodi time"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 19,
+     "now": true,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages the questions about the partner and marriage.",
+    "quotes": [
+     "Marriage se related to love marriage dikh raha hai aapka"
+    ],
+    "score": 7,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": true,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": true,
+     "both_fully_answered": true,
+     "two_answers_connected": true
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Does not open a new layer.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages provide reading.",
+    "quotes": [
+     "Vah aapke liye feeling rakhte Hain",
+     "Aapke liye pyar bhi Hai unke man mein"
+    ],
+    "score": 8,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and informal.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya koi future h kyuki I love him",
+  "main_question_idx": 11,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer helped by providing a timeline for the situation to improve and identifying the third-party involvement. However, the astrologer hurt the chat by repeatedly asking for details and failing to acknowledge the user's emotional state."
+ },
+ "usage": {
+  "input_tokens": 17470,
+  "output_tokens": 2618
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 3,
+   "1.4": 9,
+   "2.1": 6,
+   "2.2": 8,
+   "2.7": 7,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

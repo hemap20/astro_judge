@@ -1,0 +1,440 @@
+{
+ "file": "conversation_1269672_2442.csv",
+ "tier": "Medium",
+ "user_id": "1269672",
+ "ltv": 4065.4,
+ "n_msgs": 49,
+ "n_astro_msgs": 26,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.39,
+ "blueprint": {
+  "score": 2.8,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 70,
+   "S5": 380
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.75,
+  "B2": 2.14,
+  "B3": 1.67,
+  "B4": 9.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 6,
+   "R": 6,
+   "T": 10
+  },
+  "4.1": {
+   "score": 10,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis or self-harm mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     20
+    ],
+    "paid_idx": [
+     39,
+     47
+    ],
+    "evidence_idx": [
+     20,
+     39,
+     47
+    ],
+    "reason": "The astrologer uses a guaranteed, fear-inducing claim ('affair hai 100%') to pressure the user into recharging the chat."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 0,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identified the concern but immediately moved to data collection."
+   },
+   "S4": {
+    "present": true,
+    "idx": 20,
+    "quality": 0,
+    "note": "Prediction is a fear-based claim used to push for payment."
+   },
+   "S5": {
+    "present": true,
+    "idx": 26,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided, only payment pressure."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the affair but does not repeat details or name feelings.",
+    "quotes": [
+     "Okay Priyanka ji bilkul jaan sakte hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and then asks about the user's living situation, which is Type B.",
+    "quotes": [
+     "Aap ye bataye jo details fillup hai wo aapki hai ya aapke husband ki",
+     "Aap unke sath rehti hai ya unse alag"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details to answer the question about the affair.",
+    "quotes": [
+     "Aap ye bataye jo details fillup hai wo aapki hai ya aapke husband ki"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and lacks a chart reason.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the user's question about whether the husband wants to marry the other person, instead pushing for payment.",
+    "quotes": [
+     "Recharge rakhiye baat continue chal ske"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no depth, only repeating the claim of an affair.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date for the start of the affair, which is a firm claim.",
+    "quotes": [
+     "Dekhiye unka relationship 2025 ke 12 mahine mai chalu hua hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The first question (affair) is answered with a claim, but the second question (marriage) is ignored for payment.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to push for payment instead of opening a layer.",
+    "quotes": [
+     "Abhi bahut kuch batana hai inke baare mai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for payment, stalling the chat.",
+    "quotes": [
+     "Recharge rakhiye baat continue chal ske"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for payment.",
+    "quotes": [
+     "Plz recharge"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Husband ke affair ke bare mein Janna hai",
+  "message_labels": [
+   {
+    "idx": 0,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight, instead using fear-based claims to pressure the user into recharging. The consultation was entirely focused on payment rather than addressing the user's concerns."
+ },
+ "usage": {
+  "input_tokens": 15487,
+  "output_tokens": 1845
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#20 [05:08] ASTRO: Bilkul Priyanka ji affair hai 100%\n#39 [08:23] ASTRO: Recharge rakhiye baat continue chal ske\n#47 [09:59] ASTRO: Plz recharge",
+   "reason": "The astrologer uses a guaranteed, fear-inducing claim ('affair hai 100%') to pressure the user into recharging the chat.",
+   "quote_en": "#20 [05:08] ASTRO: Absolutely Priyanka ji, there is an affair 100%\n#39 [08:23] ASTRO: Please keep your account recharged so we can continue the conversation\n#47 [09:59] ASTRO: Please recharge"
+  }
+ }
+}

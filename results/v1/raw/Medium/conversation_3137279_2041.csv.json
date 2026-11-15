@@ -1,0 +1,285 @@
+{
+ "file": "conversation_3137279_2041.csv",
+ "tier": "Medium",
+ "user_id": "3137279",
+ "ltv": 3584.84,
+ "n_msgs": 28,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.0,
+  "B2": 2.6,
+  "B3": 4.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 13.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Abhi aap mujhe apni photo bhejo aur Main ladke ka naam bhi Bata sakta hun",
+    "reason": "The astrologer is using the promise of revealing the partner's name to pressure the user into sending a photo, which is a manipulative tactic."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's birth date and Capricorn energy in the first message.",
+    "quotes": [
+     "Aapka birth time nahi hai, but aapki date ke hisab se Capricorn energy strong hai."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo multiple times (Type C) and asks if she is in a relationship (Type B).",
+    "quotes": [
+     "Aap mujhe apni face photo dijiye",
+     "Kya aap kisi ke sath relation mein hain"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user is single and not asking about a specific person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or verifiable markers.",
+    "quotes": [
+     "aapke sath mein marriage ka bahut achcha yog dekhne ko mil raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never provides a clear time window or specific answer to 'kab hogi'.",
+    "quotes": [
+     "Aane Wale time ki agar baat ki jaaye to aapki marriage uske sath hogi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' but provides no actual chart-based reasoning for the life events described.",
+    "quotes": [
+     "Kundli ke according mein dekh Pa raha hun"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same vague point about knowing the person already.",
+    "quotes": [
+     "aapki marriage uske sath hogi jisse aap pahle Se janti hongi"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided, only vague references to 'aane wale time'.",
+    "quotes": [
+     "Aane Wale time ki agar baat ki jaaye"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the partner's name to keep the user engaged.",
+    "quotes": [
+     "Ladke ka naam bata raha hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the quality of interaction is poor.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague tease about the marriage.",
+    "quotes": [
+     "Shaadi ke waqt aur usse judi ek aur badi cheez dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible.",
+    "quotes": [
+     "aapki marriage uske sath hogi jisse aap pahle Se janti hongi"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger from the list was met.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri sadi kb hogi",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading and instead used manipulative tactics to pressure the user for photos. The lack of specific answers and the repetitive focus on getting a photo made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 10517,
+  "output_tokens": 1273
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Abhi aap mujhe apni photo bhejo aur Main ladke ka naam bhi Bata sakta hun",
+   "reason": "The astrologer is using the promise of revealing the partner's name to pressure the user into sending a photo, which is a manipulative tactic.",
+   "quote_en": "Now send me your photo and I can also tell you the boy's name."
+  }
+ }
+}

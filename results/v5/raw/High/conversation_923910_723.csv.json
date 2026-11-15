@@ -1,0 +1,538 @@
+{
+ "file": "conversation_923910_723.csv",
+ "tier": "High",
+ "user_id": "923910",
+ "ltv": 5444.0,
+ "n_msgs": 58,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": null,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.25,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S5": 53
+  }
+ },
+ "final": 2.38,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.0,
+  "B2": 2.67,
+  "B3": 6.0,
+  "B4": 9.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 8,
+   "R": null,
+   "T": 8
+  },
+  "4.1": {
+   "score": 10,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 8,
+   "avg_words": 2.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     36,
+     38,
+     40,
+     53,
+     54
+    ],
+    "reason": "The astrologer pushes for a paid video call healing session and asks the user to recharge to proceed.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is minimal."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer never identifies the concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks questions but does not build on the user's situation."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feelings, only asks questions.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the friend's name and photo, which are standard, but the questions are not building on the user's emotional state.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "questions": [
+      {
+       "idx": 7,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 10,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 41,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The main question is about a friend (Aswathy). The astrologer asks for the name and photo but does not use them for any reading.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided in the chat.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's concern about the friend is never addressed or answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_timing": false
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The only 'remedy' offered is a paid healing session.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_remedy": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No questions were answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_next_layer": false
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but provides no content.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses no technical terms, but the language is very sparse.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Enik oru frnd und... 1 week aayt njangal thammil contact illa..",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead focusing entirely on pitching a paid healing session. The user's concern remained completely unaddressed throughout the consultation."
+ },
+ "usage": {
+  "input_tokens": 17242,
+  "output_tokens": 2217
+ },
+ "reference": {
+  "bare_acks": 4,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 4,
+   "1.4": 1,
+   "2.1": 1,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 7,
+   "3.2": 6
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#36 [05:36] ASTRO: First healing session\n#38 [05:58] ASTRO: On video call for 30 mins\n#40 [06:08] ASTRO: Then u can do daily for 15 mins\n#53 [09:02] ASTRO: Eppol recharge chaiyth\n#54 [09:06] ASTRO: Chaiyam",
+   "reason": "The astrologer pushes for a paid video call healing session and asks the user to recharge to proceed.",
+   "quote_en": "#36 [05:36] ASTRO: First healing session\n#38 [05:58] ASTRO: On video call for 30 mins\n#40 [06:08] ASTRO: Then u can do daily for 15 mins\n#53 [09:02] ASTRO: When did you recharge?\n#54 [09:06] ASTRO: Will do"
+  }
+ }
+}

@@ -1,0 +1,241 @@
+{
+ "file": "conversation_806386_1849.csv",
+ "tier": "Medium",
+ "user_id": "806386",
+ "ltv": 2330.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.36,
+ "buckets": {
+  "B1": 2.75,
+  "B2": 2.33,
+  "B3": 3.67,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 10,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 8,
+   "avg_words": 2.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no acknowledgement of the user's emotional distress or the complexity of the situation, only responding with 'Ok'.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks 'Tell me what problems are you are facing' which is a Type B question, and then asks the user to connect quickly in Telugu. No Type C questions were asked.",
+    "quotes": [
+     "Tell me what problems are you are facing"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the other person's details; the user provides them voluntarily. The astrologer never uses the details or the name to provide any insight.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "There is no reading provided in the window. The astrologer only says 'Ok' or asks for information.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question regarding the complexity of the relationship and the family issues remains unanswered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart references or readings are provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings were provided to build upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or predictions were given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's main thread regarding the relationship complexity was never addressed.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layers were opened; the astrologer provided no insight.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer's messages are bare acknowledgements ('Ok') which stall the chat.",
+    "quotes": [
+     "Ok"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for the user to connect quickly, which is not a reading or guidance.",
+    "quotes": [
+     "Mali connect avandi tym ayipotundi tondara ga"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the user's language (Telugu) in the final message, but provides no astrology terms or explanations.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "We r facing issues with the family regarding love",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, responding only with 'Ok' or requests for information. The consultation ended without addressing the user's concerns, wasting the user's time."
+ },
+ "usage": {
+  "input_tokens": 10284,
+  "output_tokens": 1074
+ }
+}

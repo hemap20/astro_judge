@@ -1,0 +1,255 @@
+{
+ "file": "conversation_387663_60.csv",
+ "tier": "Medium",
+ "user_id": "387663",
+ "ltv": 3226.0,
+ "n_msgs": 18,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": 10,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 6.88,
+ "buckets": {
+  "B1": 7.5,
+  "B2": 5.0,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 12.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about her relationship future in the first reply after the question.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (Type A) which is necessary for the question. No Type C questions were asked.",
+    "quotes": [
+     "Gunja ji kya aap uska naam aur detail bata sakte hain"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a reason (matching) and uses the name in the reading.",
+    "quotes": [
+     "Gunja ji kya aap uska naam aur detail bata sakte hain",
+     "Raushan puri"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future, not the present/past, and lacks specific chart reasons or markers.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the future/marriage clearly.",
+    "quotes": [
+     "Jaisa ki Main dekh Pa raha hun is ladke ke sath mein aapka future kafi achcha rahega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors (dasha, grah, etc.) are mentioned in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading adds a new point about potential distance, but it is not linked to a chart reason.",
+    "quotes": [
+     "Kyunki Main dekh Pa raha hun aage chalkar ke aap donon ke bich Mein duriyan Ban sakti hain"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives vague advice to improve mistakes without explaining how or when.",
+    "quotes": [
+     "vartman Samay Mein galtiyan kar rahi hain usmein aap sudhar kijiye"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about potential distance in the relationship.",
+    "quotes": [
+     "Kyunki Main dekh Pa raha hun aage chalkar ke aap donon ke bich Mein duriyan Ban sakti hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; every message after the reading provided insight.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a reading about potential distance.",
+    "quotes": [
+     "Kyunki Main dekh Pa raha hun aage chalkar ke aap donon ke bich Mein duriyan Ban sakti hain"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational with no technical terms.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya mera unke sath koi future hai like marriage",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully answered the user's question about her relationship and used the partner's details effectively. However, the reading lacked depth, chart-based reasoning, and specific guidance, making the advice feel generic."
+ },
+ "usage": {
+  "input_tokens": 10355,
+  "output_tokens": 1182
+ }
+}

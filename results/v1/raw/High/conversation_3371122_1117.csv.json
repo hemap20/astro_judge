@@ -1,0 +1,259 @@
+{
+ "file": "conversation_3371122_1117.csv",
+ "tier": "High",
+ "user_id": "3371122",
+ "ltv": 5423.28,
+ "n_msgs": 28,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 2.33,
+  "B3": 4.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 13.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "9 August Tak new job aapka lagega",
+    "reason": "The astrologer promises a specific outcome (job) by a specific date, which is a false promise of a result."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about the job search or the feeling of being stuck, instead giving a generic reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to the user.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about her own job and marriage, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or markers that could be verified.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date for the job, but it is a promise of a result rather than a reading of the chart's potential.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' and 'Bhagya' but does not link them to specific life events in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings are generic and do not build on the user's specific situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a job by a specific date (9 August), which is a firm date and a promise.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's question about marriage and continues talking about the job/future.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a 'bada factor' at the end without explaining it.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the content is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a 'bada factor' without providing a reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the content is poor.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "when my new job come",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed by promising a specific outcome by a specific date, which is a major violation. The reading was generic and lacked depth, failing to address the user's concerns meaningfully."
+ },
+ "usage": {
+  "input_tokens": 10541,
+  "output_tokens": 1132
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "9 August Tak new job aapka lagega",
+   "reason": "The astrologer promises a specific outcome (job) by a specific date, which is a false promise of a result.",
+   "quote_en": "You will get a new job by August 9th."
+  }
+ }
+}

@@ -1,0 +1,256 @@
+{
+ "file": "conversation_195085_168.csv",
+ "tier": "Low",
+ "user_id": "195085",
+ "ltv": 220.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 10,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.25,
+ "buckets": {
+  "B1": 7.5,
+  "B2": 6.5,
+  "B3": 8.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 14.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific concern about a third person and the partner's feelings in the reading.",
+    "quotes": [
+     "Aap donon ke bich Mein Koi third person hai jo thoda sa problem ko create kar raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name, DOB, and a photo. The name and DOB are necessary for matching, and the photo request is a Type C question as it is not strictly necessary for a chart reading.",
+    "quotes": [
+     "Aapke partner ka naam kya hai Aarti ji",
+     "Aarti ji kya aap Diwakar ji ka photo bhej sakte hain face reading ke liye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a clear reason (matching) and uses the name in the reading.",
+    "quotes": [
+     "Main aap donon ki kundli matching karke bata raha hun",
+     "Diwakar ji ka feelings aapke prati bahut achcha hai"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new information (partner is disturbed, third person exists), and is specific to the user's relationship.",
+    "quotes": [
+     "Diwakar ji ka feelings aapke prati bahut achcha hai",
+     "pichhle kuchh samay se Diwakar Ji Thoda Sa disturb rahte Hain"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer directly answers the user's question about whether the partner loves her.",
+    "quotes": [
+     "Diwakar ji aapse pyar karte hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions chart matching but does not link the specific life observations to any chart factors (e.g., planets, dashas).",
+    "quotes": [
+     "Main aap donon ki kundli matching karke bata raha hun"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the partner's attraction energy in the second reading.",
+    "quotes": [
+     "pichhle kuchh samay se Diwakar ji ka thoda sa attraction energy down hua hai aapke parti"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing was provided in the reading.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main concern (the relationship), so this is skipped.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by mentioning they have important information about the third person.",
+    "quotes": [
+     "Aarti ji main use third person ke bare mein kuchh important chijen aapko batana chahta hun jo problem create kar raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer kept the conversation open.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a teaser for more information, which keeps the user engaged.",
+    "quotes": [
+     "Aarti ji main use third person ke bare mein kuchh important chijen aapko batana chahta hun jo problem create kar raha hai"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere aur mere partner ke bich me koi teesra bhi hai? Vah mujhse pyar Karte Hain ki nahin?",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's concerns about her relationship and partner's feelings. However, the request for a photo was unnecessary and the reading lacked specific astrological explanations for the insights provided."
+ },
+ "usage": {
+  "input_tokens": 10498,
+  "output_tokens": 1309
+ }
+}

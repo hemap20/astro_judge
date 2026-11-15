@@ -1,0 +1,320 @@
+{
+ "file": "conversation_1303690_2069.csv",
+ "tier": "Medium",
+ "user_id": "1303690",
+ "ltv": 1250.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 6,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.32,
+ "buckets": {
+  "B1": 4.0,
+  "B2": 3.29,
+  "B3": 3.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 4,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 22,
+   "long_frac": 0.0,
+   "max_words": 15,
+   "avg_words": 5.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about marrying the person they like, instead jumping straight to chart analysis.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) which are necessary for the specific question asked, but the question about 'birth place' was asked separately after the name, and the astrologer asks for details after already starting the analysis.",
+    "quotes": [
+     "Aapko uski birth details pta hai",
+     "Name",
+     "Birth place"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details (Sanjna, Agra) with a reason (to check marriage compatibility), but the chat ends before using them.",
+    "quotes": [
+     "Aapko uski birth details pta hai"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (marriage yog) and uses general chart terms without being specific to the user's life or past.",
+    "quotes": [
+     "marriage house mai jupiter planet ki placement hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if they will marry the person they like. The astrologer confirms a love marriage yog but does not answer if it will be with that specific person before the chat ends.",
+    "quotes": [
+     "Aur love marriage ka yog ban raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'marriage house' and 'jupiter', but these are not explained in plain words for the user's life.",
+    "quotes": [
+     "marriage house mai jupiter planet ki placement hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the reading remains generic.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date for the start of the yog, which is a firm date rather than a window.",
+    "quotes": [
+     "marriage ka yog 14 January se hi start ho gaya hai"
+    ],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread of the marriage question but fails to provide a complete answer.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a problem without explaining it, which is a low-quality engagement tactic.",
+    "quotes": [
+     "but ek problem bhi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses wait lines and does not close the chat, but the chat ends abruptly.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a problem, which is not a helpful reading or guidance.",
+    "quotes": [
+     "Unke marriage house mai venus"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses English terms like 'marriage house' and 'jupiter' without explaining them in Hindi/Hinglish.",
+    "quotes": [
+     "marriage house mai jupiter planet ki placement hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi kis se ho gi? Kya me jisi pasnd krta hu Ose ho gi yaa nhi",
+  "message_labels": [
+   {
+    "idx": 0,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to answer the user's specific question about marrying a particular person and instead used vague chart analysis. The consultation ended on a cliffhanger about a 'problem' without providing any actionable insight or resolution."
+ },
+ "usage": {
+  "input_tokens": 10480,
+  "output_tokens": 1490
+ }
+}

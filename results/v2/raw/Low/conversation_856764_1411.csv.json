@@ -1,0 +1,271 @@
+{
+ "file": "conversation_856764_1411.csv",
+ "tier": "Low",
+ "user_id": "856764",
+ "ltv": 300.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 4.54,
+ "buckets": {
+  "B1": 6.67,
+  "B2": 4.17,
+  "B3": 2.0,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.154,
+   "max_words": 35,
+   "avg_words": 16.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 8
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about going abroad in message #8, but does not repeat any detail or name a feeling.",
+    "quotes": [
+     "Okay main aapki kundli check kar leta Hun ki aapke foreign jaane ke chances kitne percent Bane Hain"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks two questions: one about college (#11) and one about a relationship (#13). Both are Type B as they could be asked to any user. No Type C questions were asked.",
+    "quotes": [
+     "Gaurav apna prashn puchiye",
+     "Basic aap yah bataiye Gaurav ji aap abhi college kar rahe hain kya",
+     "Gaurav ji abhi aap Kisi ladki ke Sath relationship mein hai kya"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and does not provide a chart reason for the life situation. It is generic.",
+    "quotes": [
+     "Gaurav ji jahan tak main aapke kundli ke sath dekh Pa raha hun ki aapke fauran jaane ke chances Bane hue hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about going abroad with a positive direction, but provides no reason or timeline.",
+    "quotes": [
+     "Gaurav ji jahan tak main aapke kundli ke sath dekh Pa raha hun ki aapke fauran jaane ke chances Bane hue hain"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer lists chart positions in #10 but does not link them to the user's life or the question about going abroad.",
+    "quotes": [
+     "Gaurav ji Maine apni kundli ko analysis Kiya aur Main dekh Pa Raha Hun ki aapka ketu ke sath Sani baitha hua Hai first house mein Mangal baitha hua Hai 11th bhav mein Rahu hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the chat.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided for the foreign travel.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a stock suggestion (Hanuman ji ki Puja) with no link to the specific problem or how/when to perform it.",
+    "quotes": [
+     "Aapko main aapki kundli ke sath suggestion yah aap Hanuman ji ki Puja kya kariye"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not ask a second question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends a closing/request message while time remains.",
+    "quotes": [
+     "Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages are requests for ratings and calls, not reading or guidance.",
+    "quotes": [
+     "Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega aur please give MI five star call per comfortable ho to please call Jayan",
+     "Gaurav ji chat and hone wala hai aapse yahi ek request hai chat ko join kariyega aur please give MI five star call per comfortable ho to please call Jayant kare"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like '11th bhav' and 'first house' without explaining their impact on the user's life.",
+    "quotes": [
+     "Gaurav ji Maine apni kundli ko analysis Kiya aur Main dekh Pa Raha Hun ki aapka ketu ke sath Sani baitha hua Hai first house mein Mangal baitha hua Hai 11th bhav mein Rahu hai"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Videsh jana chata hu",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead listing chart positions without explanation and asking irrelevant questions. The chat ended poorly with the astrologer prioritizing rating requests over providing guidance."
+ },
+ "usage": {
+  "input_tokens": 10645,
+  "output_tokens": 1471
+ }
+}

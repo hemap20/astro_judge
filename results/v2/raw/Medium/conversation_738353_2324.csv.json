@@ -1,0 +1,321 @@
+{
+ "file": "conversation_738353_2324.csv",
+ "tier": "Medium",
+ "user_id": "738353",
+ "ltv": 4759.0,
+ "n_msgs": 32,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 1,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 1.57,
+  "B3": 1.0,
+  "B4": 7.67,
+  "B5": 1.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 25,
+   "avg_words": 7.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     27,
+     30
+    ],
+    "reason": "The astrologer uses the threat of closing the profile (urgency) to demand a recharge (paid element)."
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     11,
+     15,
+     21
+    ],
+    "reason": "The astrologer makes specific, unverifiable claims about the mother's sexual history and personal life as fact without any basis."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry or feeling, instead providing a direct, inappropriate answer to the user's invasive question.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to build on the user's input, only demanding details and then payment.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the mother's details but uses them to make invasive, unsubstantiated claims rather than providing a professional reading.",
+    "quotes": [
+     "Bataiye kya jana hai unka detail dijiye"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not based on chart analysis but rather makes invasive, speculative claims about the mother's personal life.",
+    "quotes": [
+     "Ek se do logon ke sath"
+    ],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's inappropriate question directly with a specific number, which is a harmful and unprofessional practice.",
+    "quotes": [
+     "Ek se do logon ke sath"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart-based reasoning provided for the claims made about the mother.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer continues to make unsubstantiated claims about the mother's social life without any chart-based depth.",
+    "quotes": [
+     "Koi ek person Hai unki life mein bahut jyada log nahin Hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency is maintained; the astrologer simply makes up facts.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy is given, but the astrologer demands a photo and recharge.",
+    "quotes": [
+     "Recharge kar lo aur apni mummy ka pic send karo"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the same inappropriate topic throughout.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer but rather demands payment to continue.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer threatens to close the profile, which is an early and aggressive closing tactic.",
+    "quotes": [
+     "Recharge karo nahin to main profile band karne wali hun"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are demands for payment and a notification of closing the chat.",
+    "quotes": [
+     "Recharge karo nahin to main profile band karne wali hun"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the content is highly inappropriate and unprofessional.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one failing to maintain professional boundaries.",
+    "quotes": [],
+    "score": 1
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mom ka sexual kitna logo ka sath sex means physical relation kiya hai avitak?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided highly inappropriate and invasive answers to the user's questions about their mother's personal life. The session ended with aggressive demands for payment and threats to close the profile, violating professional boundaries."
+ },
+ "usage": {
+  "input_tokens": 10827,
+  "output_tokens": 1420
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#27 [07:16] ASTRO: Recharge kar lo aur apni mummy ka pic send karo\n#30 [07:55] ASTRO: Recharge karo nahin to main profile band karne wali hun",
+   "reason": "The astrologer uses the threat of closing the profile (urgency) to demand a recharge (paid element).",
+   "quote_en": "#27 [07:16] ASTRO: Please recharge and send your mother's picture\n#30 [07:55] ASTRO: Recharge, otherwise I am going to close the profile"
+  },
+  "G4": {
+   "quote": "#11 [03:17] ASTRO: Ek se do logon ke sath\n#15 [04:04] ASTRO: Koi ek hai\n#21 [05:42] ASTRO: Koi ek person Hai unki life mein bahut jyada log nahin Hai",
+   "reason": "The astrologer makes specific, unverifiable claims about the mother's sexual history and personal life as fact without any basis.",
+   "quote_en": "#11 [03:17] ASTRO: With one or two people\n#15 [04:04] ASTRO: There is someone\n#21 [05:42] ASTRO: There is one person, there aren't too many people in their life"
+  }
+ }
+}

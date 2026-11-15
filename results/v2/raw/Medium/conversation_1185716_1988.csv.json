@@ -1,0 +1,268 @@
+{
+ "file": "conversation_1185716_1988.csv",
+ "tier": "Medium",
+ "user_id": "1185716",
+ "ltv": 503.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.5,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 5.17,
+  "B3": 6.33,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 7,
+   "M": 12,
+   "long_frac": 0.083,
+   "max_words": 40,
+   "avg_words": 9.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about having children in message 17.",
+    "quotes": [
+     "aapke kundli mein Santan Sukh prapti ko lekar kafi acche Yog dikhai de rahe hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about marriage date and baby planning duration. These are Type B questions as they are standard for this topic.",
+    "quotes": [
+     "Marriage kab Hui aapki",
+     "Kab se aap baby planning kar rahi hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name but does not use it or his birth details to provide a reading about the match.",
+    "quotes": [
+     "Husband name Jitendra Singh"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or markers.",
+    "quotes": [
+     "aapke kundli mein Santan Sukh prapti ko lekar kafi acche Yog dikhai de rahe hain"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the pregnancy.",
+    "quotes": [
+     "April 2026 ke bad aapki kundli mein baby conceive ka Yog dikhai de raha hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'grahon ki sthiti' but does not link it to a specific, understandable chart factor.",
+    "quotes": [
+     "jis prakar se aapki kundli ke grahon ki sthiti aur activity dikhai de rahi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the timing for conception after the initial reading.",
+    "quotes": [
+     "April 2026 ke bad aapki kundli mein baby conceive ka Yog dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window without promising a result.",
+    "quotes": [
+     "April 2026 ke bad aapki kundli mein baby conceive ka Yog dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The user asked for a remedy, but the astrologer ignored it and provided a prediction instead.",
+    "quotes": [
+     "Uske liye koi upaye"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layers or pointers are opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a concrete reading.",
+    "quotes": [
+     "April 2026 ke bad aapki kundli mein baby conceive ka Yog dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "aapke kundli mein Santan Sukh prapti ko lekar kafi acche Yog dikhai de rahe hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere bache kab honge",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the user's concern, which was helpful. However, the astrologer failed to address the user's request for a remedy and did not utilize the husband's details provided."
+ },
+ "usage": {
+  "input_tokens": 10585,
+  "output_tokens": 1229
+ }
+}

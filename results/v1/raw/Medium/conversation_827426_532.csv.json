@@ -1,0 +1,218 @@
+{
+ "file": "conversation_827426_532.csv",
+ "tier": "Medium",
+ "user_id": "827426",
+ "ltv": 3097.4,
+ "n_msgs": 7,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": null,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": null,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.42,
+ "buckets": {
+  "B1": 1.0,
+  "B2": 1.67,
+  "B3": 3.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 3,
+   "R": null,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 5,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 8.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": true,
+    "reasoning": "User shared no worry, feeling, or story in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the question multiple times. Message #4 is a request for the question, #5 is a request for the question, and #6 is a follow-up request. These are Type C as they are repetitive requests for information already requested.",
+    "quotes": [
+     "Kya jankari chahte ho aap apna sawal kijiye",
+     "Please bataen mujhe Main kis prakar aapki help kar sakta hun",
+     "Monica ji aapka kuchh reply nahin mil raha hai please answer kijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "User did not ask a question about another person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": true,
+    "reasoning": "User did not ask a question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No reading provided, therefore no chart reference.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing mentioned.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask multiple questions.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading provided to open a layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple messages without providing any value or reading, stalling the chat.",
+    "quotes": [
+     "Monica ji aapka kuchh reply nahin mil raha hai please answer kijiye"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a reply, which provides no value.",
+    "quotes": [
+     "Monica ji aapka kuchh reply nahin mil raha hai please answer kijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and appropriate for the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead repeatedly asking the user for their question. The chat was unproductive as the astrologer did not wait for the user to respond before sending multiple follow-up messages."
+ },
+ "usage": {
+  "input_tokens": 10046,
+  "output_tokens": 930
+ }
+}

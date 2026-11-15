@@ -1,0 +1,259 @@
+{
+ "file": "conversation_1228749_347.csv",
+ "tier": "Medium",
+ "user_id": "1228749",
+ "ltv": 842.0,
+ "n_msgs": 18,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 1,
+  "2.1": 6,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.45,
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.14,
+  "B3": 4.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 7,
+   "M": 11,
+   "long_frac": 0.091,
+   "max_words": 45,
+   "avg_words": 6.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about her husband's potential affair, instead giving a generic reading about career and stability.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name and DOB, which is necessary for the reading, but the question is fragmented and the astrologer fails to use the information to answer the user's specific question about an affair.",
+    "quotes": [
+     "Unka naam",
+     "Date of birth"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details but fails to provide any reading or insight regarding him or the match, despite the user's specific question about an affair.",
+    "quotes": [
+     "Unka naam",
+     "Date of birth"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone; it does not address the user's specific concern about an affair.",
+    "quotes": [
+     "partner and career ko lekar acha yog hi but some planet disbalance hi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if her husband has an affair. The astrologer never answers this question.",
+    "quotes": [
+     "Muzi ye puchna he ki meri Husband ka kahi Afree hi ya"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'planet disbalance' but does not link it to the user's life or the specific question asked.",
+    "quotes": [
+     "some planet disbalance hi"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided, so no depth is built.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency issues as no timing was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question, which was never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers; the chat ends abruptly.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple fragmented messages that do not provide value, stalling the chat.",
+    "quotes": [
+     "Radhe Radhe",
+     "Jaise ki aap",
+     "Marriage",
+     "Pls reply"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is an incomplete sentence that does not address the user's concern.",
+    "quotes": [
+     "Ji jaise ki mein dekh pa rahi ho aap ki date of birth is very good and kundli mein bhi partner and career ko lekar acha yog hi but some planet disbalance hi jis wajah se aap ko thoda stability problem and aap k husband"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses Hinglish, which matches the user, but the language is fragmented and unprofessional.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Muzi ye puchna he ki meri Husband ka kahi Afree hi ya",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific concern about her husband's potential affair and provided a fragmented, generic reading. The communication style was highly unprofessional, with multiple broken messages that stalled the consultation."
+ },
+ "usage": {
+  "input_tokens": 10489,
+  "output_tokens": 1229
+ }
+}

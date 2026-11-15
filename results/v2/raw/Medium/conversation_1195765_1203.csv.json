@@ -1,0 +1,280 @@
+{
+ "file": "conversation_1195765_1203.csv",
+ "tier": "Medium",
+ "user_id": "1195765",
+ "ltv": 995.0,
+ "n_msgs": 33,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.0,
+  "B2": 1.71,
+  "B3": 3.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.5,
+   "max_words": 63,
+   "avg_words": 29.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     27,
+     30
+    ],
+    "reason": "The astrologer uses the user's emotional distress and the 'third person' fear to push for a paid service ('rishta theek kar dunga', 'third person remove kar dunga') while blaming the user for not listening to his previous sales pitches."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress and the situation with the partner, but fails to name the specific feeling or build on the user's emotional state effectively, instead pivoting to a sales pitch.",
+    "quotes": [
+     "Maine aap donon ka face reading Kiya Hai",
+     "aapke partner ke andar aapke prati feeling aur pyar kafi achcha hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos and then repeatedly asks for the user to pay for a service to fix the relationship, which is a Type C question as it assumes a paid service is the only path.",
+    "quotes": [
+     "main aap mujhe apna photo bhejiye",
+     "agar aap mujhe time denge to main Aap donon ka rishta to theek kar dunga"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (photo) but uses it to perform a vague 'face reading' and then pivots to a sales pitch rather than providing a meaningful reading about the partner's intentions.",
+    "quotes": [
+     "main aap mujhe apna photo bhejiye jisse main aapko aur aapki partner ko pahchan pao"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based evidence, relying on 'face reading' and vague claims about a 'third person'.",
+    "quotes": [
+     "aapke partner ke mind ko aapke prati divert Kiya ja raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if the partner will make efforts or wants to marry, but the astrologer avoids a direct answer, instead pushing for a paid remedy.",
+    "quotes": [
+     "Bhaiya wo apne papa ko nahi manayega?",
+     "agar aap mujhe time denge to main Aap donon ka rishta to theek kar dunga"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart-based reasoning provided; the astrologer relies on 'face reading' and vague spiritual claims.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same claim about a 'third person' and the need for a paid remedy without adding depth.",
+    "quotes": [
+     "maine aapse pahle hi bataya tha ki aap donon ke bich mein Koi third person hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistent guidance is provided; the astrologer only offers a vague promise of fixing things if paid.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid service to 'fix the relationship' and 'remove the third person', which is a pitch, not a helpful remedy.",
+    "quotes": [
+     "rishta to theek kar dunga aur jo Aaj third person hai usko bhi main remove kar dunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific questions about the partner's intentions and keeps returning to the sales pitch.",
+    "quotes": [
+     "Maine to aapse pahle hi bola tha meri bhi kya galti Hai"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the 'third person' as a tease to keep the user engaged for a sale rather than providing genuine insight.",
+    "quotes": [
+     "jo Aaj third person hai usko bhi main remove kar dunga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant repetition of the sales pitch makes the chat feel stalled.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cliffhanger designed to keep the user engaged for a paid service.",
+    "quotes": [
+     "Dekho main aapse batana chahunga ki aapke partner AB aapko lekar kafi"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, but the content is manipulative.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one failing to provide a helpful consultation.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Will Rahul make efforts to convince his parents and marry me, or does he want to end the relationship?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful guidance, instead repeatedly pressuring the user to pay for a service to 'fix' the relationship. The most helpful part was the astrologer's initial attempt to listen, but this was quickly overshadowed by manipulative sales tactics."
+ },
+ "usage": {
+  "input_tokens": 11626,
+  "output_tokens": 1538
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#27 [08:30] ASTRO: Aapki bhi  theek hai main bhi kya kar sakta hun Maine to aapse pahle hi bataya tha agar aap mujhe time denge to main Aap donon ka rishta to theek kar dunga aur jo Aaj third person hai usko bhi main remove kar dunga but aap Hi Meri baat nahin Suni\n#30 [09:38] ASTRO: To dekho maine aapse pahle hi bola tha meri bhi kya galti Hai Main to aapse itni bar bola Hun ki Main Aap donon ka rishta theek kar dunga but dekhiae Kisi chij Ko theek hone mein samay lagta hai",
+   "reason": "The astrologer uses the user's emotional distress and the 'third person' fear to push for a paid service ('rishta theek kar dunga', 'third person remove kar dunga') while blaming the user for not listening to his previous sales pitches.",
+   "quote_en": "#27 [08:30] ASTRO: Yours is also fine, what can I even do? I had already told you before that if you give me time, I will fix the relationship between you two and I will also remove the third person who is there today, but you didn't listen to me.\n#30 [09:38] ASTRO: So look, I told you before, what is my fault in this? I have told you so many times that I will fix the relationship between you two, but see, it takes time for things to get better."
+  }
+ }
+}

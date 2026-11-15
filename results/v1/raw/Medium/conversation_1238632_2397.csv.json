@@ -1,0 +1,225 @@
+{
+ "file": "conversation_1238632_2397.csv",
+ "tier": "Medium",
+ "user_id": "1238632",
+ "ltv": 1182.82,
+ "n_msgs": 17,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.73,
+ "buckets": {
+  "B1": 1.67,
+  "B2": 3.0,
+  "B3": 4.0,
+  "B4": 7.0,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 2,
+   "R": null,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.0,
+   "max_words": 29,
+   "avg_words": 10.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared her concerns (marriage, health, career), but the astrologer's replies only focus on asking for patience and photos. No acknowledgement of her specific concerns is present.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo of the hand, which is a Type C question as it is not necessary for a horoscope reading and is used to delay. The question about the hand is also Type C.",
+    "quotes": [
+     "ek bar Apne hast Rekha ka photo bhi send kar dijiyega",
+     "Q left hand ka ji"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage, health, and career, but the astrologer provided no answers, only requests for patience and photos.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or predictions were provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided to open any layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks the user to wait without providing any value.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to wait, which provides no value.",
+    "quotes": [
+     "Han ji main check kar leta Hun aur thoda vate kijiega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer provides no astrology terms or readings.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was vague initially, but the astrologer failed to provide a reading after the trigger, instead continuing to ask for photos and patience.",
+    "quotes": [],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "vague",
+  "main_question": "Marriage, health n career",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, repeatedly asking the user to wait and requesting photos instead. This wasted the user's time and failed to address any of the concerns raised."
+ },
+ "usage": {
+  "input_tokens": 10245,
+  "output_tokens": 975
+ }
+}

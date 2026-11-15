@@ -1,0 +1,550 @@
+{
+ "file": "conversation_1269672_2442.csv",
+ "tier": "Medium",
+ "user_id": "1269672",
+ "ltv": 4065.4,
+ "n_msgs": 49,
+ "n_astro_msgs": 26,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 6,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 9,
+  "3.3": 1,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.6,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 70,
+   "S4": 308,
+   "S5": 380
+  }
+ },
+ "final": 3.07,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 4.4,
+  "B3": 3.67,
+  "B4": 9.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 8
+  },
+  "4.1": {
+   "score": 10,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     39,
+     47
+    ],
+    "reason": "The astrologer explicitly asks the user to recharge to continue the conversation and get more information.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 0,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identifies the concern but immediately pivots to data collection."
+   },
+   "S4": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Gives a prediction but it is a guaranteed '100%' claim."
+   },
+   "S5": {
+    "present": true,
+    "idx": 26,
+    "quality": 1,
+    "note": "Asks about living situation."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided, only a request for money."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's name and the topic of the affair, but does not acknowledge the emotional weight of the situation.",
+    "quotes": [
+     "Okay Priyanka ji bilkul jaan sakte hai"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and living arrangements. The question about the regiment is Type B.",
+    "quotes": [
+     "Aap ye bataye jo details fillup hai wo aapki hai ya aapke husband ki",
+     "Aap unke sath rehti hai ya unse alag",
+     "Ok kis regiment mai"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": [
+      {
+       "idx": 7,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 24,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 26,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details to answer the question about the affair.",
+    "quotes": [
+     "Husband ki den aap"
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is a 100% guarantee which is problematic. It lacks a specific chart reason.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question is answered with a '100%' claim, which is a guarantee.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 20,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are explained in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 20,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading adds a date but is not linked to the user's details.",
+    "quotes": [
+     "Dekhiye unka relationship 2025 ke 12 mahine mai chalu hua hai"
+    ],
+    "score": 4,
+    "checks": {
+     "new": true,
+     "uses": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a 100% guarantee, which is a low-scoring behavior.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 20,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to push for payment.",
+    "quotes": [
+     "Abhi bahut kuch batana hai inke baare mai"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the chat is interrupted by payment requests.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to recharge.",
+    "quotes": [
+     "Plz recharge"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer uses no astrology terms.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mujhe mere husband ke affair ke bare mein Janna hai kisi ke sath hai ya nahin",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 0,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's question but relied on a 100% guarantee and failed to provide any chart-based reasoning. The consultation was severely hurt by the astrologer's repeated pressure to recharge and pay for more information."
+ },
+ "usage": {
+  "input_tokens": 17108,
+  "output_tokens": 2466
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 6,
+   "1.4": 7,
+   "2.1": 4,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 7
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#39 [08:23] ASTRO: Recharge rakhiye baat continue chal ske\n#47 [09:59] ASTRO: Plz recharge",
+   "reason": "The astrologer explicitly asks the user to recharge to continue the conversation and get more information.",
+   "quote_en": "#39 [08:23] ASTRO: Please keep your account recharged so we can continue the conversation\n#47 [09:59] ASTRO: Please recharge"
+  }
+ }
+}

@@ -1,0 +1,399 @@
+{
+ "file": "conversation_738353_2324.csv",
+ "tier": "Medium",
+ "user_id": "738353",
+ "ltv": 4759.0,
+ "n_msgs": 32,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.18,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 79
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 3.29,
+  "B3": 2.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 25,
+   "avg_words": 7.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     30
+    ],
+    "paid_idx": [
+     27,
+     30
+    ],
+    "evidence_idx": [
+     27,
+     30
+    ],
+    "reason": "The astrologer uses a threat to end the session ('main profile band karne wali hun') combined with a demand to recharge to continue the reading."
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     11,
+     15,
+     21
+    ],
+    "reason": "The astrologer makes specific, unverifiable claims about the user's mother's sexual history ('Ek se do logon ke sath', 'Multiple nahin hai') which are impossible to determine from a birth chart."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional state regarding his mother."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Asks for details but does not acknowledge the specific nature of the concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 0,
+    "note": "Gives a made-up, inappropriate prediction about sexual history."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook, only a demand for payment."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feeling, just asks for details.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details, but the questions are not Type A or B; they are inappropriate.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer makes claims about the mother without any chart-based reason or proper process.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not based on the chart and is highly inappropriate/invented.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question with an invented fact.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are just repeating the same inappropriate claims.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the same inappropriate topic.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer threatens to close the session.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a demand for payment and a threat to close.",
+    "quotes": [],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the content is highly inappropriate.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mom ka sexual kitna logo ka sath sex means physical relation kiya hai avitak?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided highly inappropriate and unverifiable claims about the user's mother's personal life, which is a severe violation of ethical standards. The session ended with a threat to close the profile unless the user recharged, which is unprofessional and coercive."
+ },
+ "usage": {
+  "input_tokens": 15300,
+  "output_tokens": 1596
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#27 [07:16] ASTRO: Recharge kar lo aur apni mummy ka pic send karo\n#30 [07:55] ASTRO: Recharge karo nahin to main profile band karne wali hun",
+   "reason": "The astrologer uses a threat to end the session ('main profile band karne wali hun') combined with a demand to recharge to continue the reading.",
+   "quote_en": "#27 [07:16] ASTRO: Please recharge and send your mother's picture\n#30 [07:55] ASTRO: Recharge, otherwise I am going to close the profile"
+  },
+  "G4": {
+   "quote": "#11 [03:17] ASTRO: Ek se do logon ke sath\n#15 [04:04] ASTRO: Koi ek hai\n#21 [05:42] ASTRO: Koi ek person Hai unki life mein bahut jyada log nahin Hai",
+   "reason": "The astrologer makes specific, unverifiable claims about the user's mother's sexual history ('Ek se do logon ke sath', 'Multiple nahin hai') which are impossible to determine from a birth chart.",
+   "quote_en": "#11 [03:17] ASTRO: With one or two people\n#15 [04:04] ASTRO: There is someone\n#21 [05:42] ASTRO: There is one person, there aren't too many people in their life"
+  }
+ }
+}

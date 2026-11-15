@@ -1,0 +1,418 @@
+{
+ "file": "conversation_366835_2059.csv",
+ "tier": "High",
+ "user_id": "366835",
+ "ltv": 8769.0,
+ "n_msgs": 33,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 8,
+  "2.4": 8,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.57,
+ "rubric_score": 7.57,
+ "blueprint": {
+  "score": 6.89,
+  "coverage": 0.722,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.714,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 2,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S2": 348,
+   "S3": 85,
+   "S4": 256,
+   "S5": 138,
+   "S6": 256,
+   "S7": 323
+  }
+ },
+ "final": 7.23,
+ "label": "good",
+ "buckets": {
+  "B1": 8.0,
+  "B2": 8.6,
+  "B3": 6.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 1,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 12.2,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 25,
+    "quality": 2,
+    "note": "Acknowledges the user's compromise in the first marriage."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 2,
+    "note": "Identified the concern as second marriage."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 2,
+    "note": "Gave a specific time window for the second marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 2,
+    "note": "Asked about the planning duration."
+   },
+   "S6": {
+    "present": true,
+    "idx": 17,
+    "quality": 2,
+    "note": "Connected the prediction to the chart and the user's desire for a partner."
+   },
+   "S7": {
+    "present": true,
+    "idx": 23,
+    "quality": 2,
+    "note": "Probed into the first marriage issues."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's past compromise in the first marriage.",
+    "quotes": [
+     "Aapane kafi compromise Kiya first marriage mein"
+    ],
+    "score": 8
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "Questions are relevant to the user's situation (marriage planning, past marriage issues).",
+    "quotes": [
+     "Kab se planning kar rahi ho aap second marriage ke liye",
+     "First marriage mein kya problem thi"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the first marriage compromise and the timing for the second marriage is specific and based on the chart.",
+    "quotes": [
+     "Aapane kafi compromise Kiya first marriage mein",
+     "2026 February Se lekar ke April ke bich mein aapke life mein aapke real partner ke aane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the second marriage.",
+    "quotes": [
+     "2026 February Se lekar ke April ke bich mein aapke life mein aapke real partner ke aane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage timing and the first marriage issues to the chart.",
+    "quotes": [
+     "Aapke kundli ke anusar se first marriage mein aapke marriage ke just bad Se Hi problem create hona start hui thi"
+    ],
+    "score": 8
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by moving from the second marriage timing to the first marriage's issues.",
+    "quotes": [
+     "First marriage mein kya problem thi",
+     "Aapane kafi compromise Kiya first marriage mein"
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a clear window for the second marriage without promising a guarantee.",
+    "quotes": [
+     "2026 February Se lekar ke April ke bich mein"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer opened after the main question was answered.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends without a hook.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the partner's nature, which is a reading.",
+    "quotes": [
+     "Loving and caring person honge aapke feelings ko aapke emotion ko support karne wale honge"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses simple language and explains terms in the context of the user's life.",
+    "quotes": [
+     "Aapke kundli ke anusar se"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir mai shadi krna chahti hu",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a helpful and accurate reading regarding the user's marriage timing and past experiences. However, the consultation lacked actionable remedies and a clear hook for a follow-up session."
+ },
+ "usage": {
+  "input_tokens": 15750,
+  "output_tokens": 1784
+ }
+}

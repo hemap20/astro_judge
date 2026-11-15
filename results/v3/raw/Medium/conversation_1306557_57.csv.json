@@ -1,0 +1,367 @@
+{
+ "file": "conversation_1306557_57.csv",
+ "tier": "Medium",
+ "user_id": "1306557",
+ "ltv": 630.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.99,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 124,
+   "S4": 209,
+   "S5": 139
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 3.29,
+  "B3": 1.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.167,
+   "max_words": 49,
+   "avg_words": 20.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     23
+    ],
+    "paid_idx": [
+     23
+    ],
+    "evidence_idx": [
+     23
+    ],
+    "reason": "The astrologer uses the promise of specific information about the user's future partner as a hook to pressure the user to extend/recharge their time."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's feelings regarding the rejection."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identifies the questions but repeats them back to the user."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Gives a generic prediction about government job prospects."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asks about a crush, but it is a generic follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to specific chart factors like dasha or houses."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant questions probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 23,
+    "quality": 0,
+    "note": "The hook is a paid pitch to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's questions but does not acknowledge the emotional context of the rejection shared by the user.",
+    "quotes": [
+     "Harsh ji main aapki kundli ko check karke aapko bata rahi hun ki aapki private job rahegi ya FIR government job rahegi aapki shaadi jo hai vah love marriage hogi ya arrange marriage hogi"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are generic and not built on the user's specific situation.",
+    "quotes": [
+     "kya aap present time mein kisi ko like karte hain",
+     "kya aap government job ki preparation kar rahe hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user is not asking about a specific named person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "aapke Jo government job ka yog hai vah mujhe Banta hua dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a vague direction for the job but fails to answer the marriage timing question clearly.",
+    "quotes": [
+     "aapke Jo government job ka yog hai vah mujhe Banta hua dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are repetitive and lack depth.",
+    "quotes": [
+     "aapke marriage ka yog Banega kyunki mujhe aapki kundli mein Prem yog dikh raha hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing window provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to address both job and marriage but fails to provide a complete answer for either.",
+    "quotes": [
+     "aapke Jo government job ka yog hai vah mujhe Banta hua dikhai de raha hai",
+     "aapke marriage ka yog Banega"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the partner's details to pressure the user to pay.",
+    "quotes": [
+     "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but uses the remaining time to pitch for more money.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pressure pitch for money.",
+    "quotes": [
+     "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy to understand but lacks depth.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Gov job or private, love or arrange marriage, and marriage timing.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful insights, instead using the user's questions as a setup to demand more money. The lack of chart-based reasoning and the pressure to extend time significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 15256,
+  "output_tokens": 1621
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [05:00] ASTRO: Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information",
+   "reason": "The astrologer uses the promise of specific information about the user's future partner as a hook to pressure the user to extend/recharge their time.",
+   "quote_en": "#23 [05:00] ASTRO: Please increase your time a little so that I can get more information about the girl."
+  }
+ }
+}

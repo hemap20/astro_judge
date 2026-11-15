@@ -1,0 +1,749 @@
+{
+ "file": "conversation_1053785_226.csv",
+ "tier": "High",
+ "user_id": "1053785",
+ "ltv": 20520.32,
+ "n_msgs": 142,
+ "n_astro_msgs": 57,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 1,
+  "4.2": 8,
+  "5.1": 1,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.98,
+ "blueprint": {
+  "score": 4.48,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.867,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 498,
+   "S4": 628,
+   "S5": 198,
+   "S6": 2014,
+   "S7": 2336
+  }
+ },
+ "final": 2.73,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 3.33,
+  "B3": 4.33,
+  "B4": 7.0,
+  "B5": 1.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 7,
+   "M": 8,
+   "long_frac": 0.035,
+   "max_words": 39,
+   "avg_words": 7.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     94
+    ],
+    "reason": "The astrologer pushes the user to connect with another astrologer (her husband) via video call on the app, which is a paid element.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not validate the user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 34,
+    "quality": 1,
+    "note": "Identifies the concern but asks a generic question."
+   },
+   "S4": {
+    "present": true,
+    "idx": 40,
+    "quality": 1,
+    "note": "Gives a generic reading about a connection."
+   },
+   "S5": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Asks about current occupation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 108,
+    "quality": 1,
+    "note": "Connects the situation to the user's personality, though it is accusatory."
+   },
+   "S7": {
+    "present": true,
+    "idx": 125,
+    "quality": 1,
+    "note": "Probes for a timeline."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook for a next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional distress and specific details about the partner's behavior, offering only generic or accusatory responses.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are either generic or accusatory (e.g., 'What are u doing???').",
+    "quotes": [
+     "Currently what are u doing???"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": [
+      {
+       "idx": 12,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 34,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but uses it to make an accusatory claim about the user's personality rather than providing a reading about the person.",
+    "quotes": [
+     "Tell me her name"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading is generic and lacks a concrete marker or specific chart reason.",
+    "quotes": [
+     "there is a strong emotional and spiritual connection between you and Jen"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about Jen's loyalty with a 'No' but provides no clear direction or reason, and later becomes defensive.",
+    "quotes": [
+     "No"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 102,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided in plain words; the astrologer relies on card readings and personal accusations.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are repetitive and do not build depth.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a timeline but it is not based on a clear chart reason.",
+    "quotes": [
+     "May 2026 to august 2026"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical guidance is given.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer does not hold the thread well and becomes hostile when the user asks for clarification.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened; the astrologer shuts down the conversation.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly threatens to end the chat.",
+    "quotes": [
+     "If you have any other questions then ask otherwise u can end this chat"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are defensive and do not provide guidance.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple but the tone is unprofessional and hostile.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The astrologer becomes hostile and defensive when the user pushes for clarity, failing to adapt.",
+    "quotes": [
+     "Don't go on my personal matters..."
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 40,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   }
+  },
+  "difficult_user_trigger": "pushing_certainty",
+  "main_question": "can u tell my career future",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 133,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 135,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 138,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 140,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was unprofessional, hostile, and defensive throughout the chat, frequently threatening to end the session. The consultation failed to provide meaningful guidance or build any rapport, and the astrologer used the chat to pitch another service."
+ },
+ "usage": {
+  "input_tokens": 19193,
+  "output_tokens": 3295
+ },
+ "reference": {
+  "bare_acks": 6,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 3,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 4,
+   "2.7": 1,
+   "4.2": 4,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#94 [28:06] ASTRO: Yes \nAstro atul using video call option on this app so u can connect there and take reading",
+   "reason": "The astrologer pushes the user to connect with another astrologer (her husband) via video call on the app, which is a paid element.",
+   "quote_en": "#94 [28:06] ASTRO: Yes \nAstro atul using video call option on this app so u can connect there and take reading"
+  }
+ }
+}

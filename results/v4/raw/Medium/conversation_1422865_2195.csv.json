@@ -1,0 +1,370 @@
+{
+ "file": "conversation_1422865_2195.csv",
+ "tier": "Medium",
+ "user_id": "1422865",
+ "ltv": 2725.8,
+ "n_msgs": 32,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 9,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.33,
+ "rubric_score": 7.33,
+ "blueprint": {
+  "score": 6.13,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 0.867,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 0,
+   "S8": 2,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 94,
+   "S4": 257,
+   "S5": 343,
+   "S6": 273,
+   "S8": 307
+  }
+ },
+ "final": 6.73,
+ "label": "good",
+ "buckets": {
+  "B1": 6.5,
+  "B2": 7.83,
+  "B3": 6.67,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 7,
+   "M": 8,
+   "long_frac": 0.067,
+   "max_words": 44,
+   "avg_words": 12.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the emotional distress of the divorce."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Identified the need for partner details but did not restate the concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 2,
+    "note": "Gave a reading linking Rahu/Ketu to the marital tension."
+   },
+   "S5": {
+    "present": true,
+    "idx": 25,
+    "quality": 2,
+    "note": "Asked a relevant follow-up about the wife's current status."
+   },
+   "S6": {
+    "present": true,
+    "idx": 18,
+    "quality": 2,
+    "note": "Connected the chart (Rahu/Ketu) to the specific marital problem."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 22,
+    "quality": 2,
+    "note": "Provided actionable remedies (Shiv puja, Hanuman Chalisa) with how/when."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's emotional state or the specific situation of the divorce in the first reply after the user shared it.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for partner details (Type A) and later asked if the wife is living separately (Type A). No Type C questions were asked.",
+    "quotes": [
+     "Aap partner ka detail dijiye",
+     "Kya aapki wife aapse alag hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details with a reason (to check the kundli) and used the information to provide a reading.",
+    "quotes": [
+     "Aap partner ka detail dijiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific to the marital tension, and tied to chart factors (Rahu/Ketu).",
+    "quotes": [
+     "Rahu lagn mein baithe Hain aur ketu marriage house mein baithe Hain"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a direction (that things will improve) and a reason (remedies for Rahu/Ketu).",
+    "quotes": [
+     "aap donon ke bich mein jo bhi samasya hai behtar rahega"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer linked the marital tension to Rahu and Ketu positions in plain words.",
+    "quotes": [
+     "Rahu lagn mein baithe Hain aur ketu marriage house mein baithe Hain jiske vajah se marriage mein kafi jyada mansik tanav dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer added a new layer about the Chandra Grahan Dosh after the initial reading.",
+    "quotes": [
+     "Rahu chandrama ke sath baithe Hain Chandra grahan dosh ban raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer did not give a specific date but provided a positive outlook based on the chart.",
+    "quotes": [
+     "aap donon ke bich mein jo bhi samasya hai behtar rahega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedies are tied to the cause (Rahu/Ketu) and include how and when to perform them.",
+    "quotes": [
+     "Bhagwan Shiv ko thoda sa haldi aur Pila Chandan aur phool Bhagwan Shiv ko chadhakar Om namah Shivay ka Jaap karna hai"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main question (divorce/wife), so this is skipped.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer was opened after the main question was answered.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide guidance.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a reassurance about the wife returning, which is a reading/guidance.",
+    "quotes": [
+     "aur yah wapas aaengi bilkul pareshan mat hoiye"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like Rahu, Ketu, and Puja.",
+    "quotes": [
+     "Rahu lagn mein baithe Hain aur ketu marriage house mein baithe Hain"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri wife bina kisi karan sey mereko divorce key liye bol rahi hay",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided clear chart-based insights and actionable remedies for the user's marital issues. However, the consultation lacked emotional validation and failed to provide a hook for a follow-up session."
+ },
+ "usage": {
+  "input_tokens": 15648,
+  "output_tokens": 1780
+ }
+}

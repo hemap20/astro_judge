@@ -1,0 +1,336 @@
+{
+ "file": "conversation_1145621_2159.csv",
+ "tier": "High",
+ "user_id": "1145621",
+ "ltv": 12265.0,
+ "n_msgs": 41,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.19,
+ "buckets": {
+  "B1": 7.75,
+  "B2": 6.0,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 3.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship and the partner's behavior by providing insights into his mental state and job situation, though it lacks deep emotional validation.",
+    "quotes": [
+     "Aalkk recently joli entho nashtappettathaaytt kaanunnf",
+     "Aalkk pedi thonnunnundenn"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB, which are necessary for a reading involving another person. The question about his location is also relevant to the context of his job and distance.",
+    "quotes": [
+     "Aalde name parayu",
+     "Aalde dob parayuo",
+     "Evideyan all ippo"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB to perform the reading and uses these details to analyze the partner's current situation and mental state.",
+    "quotes": [
+     "Aalde name parayu",
+     "Aalde dob parayuo"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provides specific insights into the partner's mental state (fear, injustice) and job situation, which are new and specific to the partner's current life.",
+    "quotes": [
+     "Aalkk recently joli entho nashtappettathaaytt kaanunnf",
+     "Aalkk pedi thonnunnundenn"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses the user's question about what the partner is thinking by stating he plans to return home and meet the user.",
+    "quotes": [
+     "Aal naatilekk ethrayum pettenn varunnathaaytt kaanunnd",
+     "Ningale kaanaanlla plan nd"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer provides readings about the partner's life but fails to link them to any specific chart factors or astrological terms in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's job, his fear, and his intention to return, building on the initial context of the relationship issues.",
+    "quotes": [
+     "Aalkk recently joli entho nashtappettathaaytt kaanunnf",
+     "Aal naatilekk ethrayum pettenn varunnathaaytt kaanunnd"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a general sense of timing regarding the partner's return without making firm promises or using specific dates.",
+    "quotes": [
+     "Aal naatilekk ethrayum pettenn varunnathaaytt kaanunnd"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No specific remedy or practical advice was provided to the user to handle the situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the partner throughout the chat, addressing the user's questions about his behavior and thoughts.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by mentioning the partner's plan to meet the user, which directly addresses the user's concern about the relationship.",
+    "quotes": [
+     "Ningale kaanaanlla plan nd"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the astrologer continues to provide insights until the end of the transcript.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the partner's intentions, which is relevant to the user's concern.",
+    "quotes": [
+     "Aal naatilekk ethrayum pettenn varunnathaaytt kaanunnd",
+     "Ningale kaanaanlla plan nd"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language used is simple and matches the user's Malayalam/Manglish style. No complex technical terms were used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Avente mindil ipo enne pati ntha ullathu",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer effectively provided insights into the partner's mental state and intentions, which helped the user understand the situation better. However, the lack of astrological reasoning and practical guidance limited the depth and value of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10992,
+  "output_tokens": 1702
+ }
+}

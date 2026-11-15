@@ -1,0 +1,443 @@
+{
+ "file": "conversation_876906_2159.csv",
+ "tier": "High",
+ "user_id": "876906",
+ "ltv": 274884.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 4,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": null,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.5,
+ "rubric_score": 4.5,
+ "blueprint": {
+  "score": 1.0,
+  "coverage": 0.0,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 0,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {}
+ },
+ "final": 2.75,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.0,
+  "B2": 3.0,
+  "B3": 6.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 3,
+   "long_frac": 0.0,
+   "max_words": 1,
+   "avg_words": 1.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 0
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer failed to greet or build rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No identification of concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction provided."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provided no acknowledgement of the user's concern in the first message after the user shared it.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about their own marriage, not a specific third party.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "about_specific_person": false,
+     "user_did_not_know_details": false,
+     "asked": false,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided in the chat.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answered the user's question about government job or marriage.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_timing": false
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_remedy": false
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer failed to answer the first question and did not manage the switch.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_next_layer": false
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sent multiple empty messages, stalling the chat.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used no technical terms but also provided no content.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "has_adaptation": false
+    }
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "എനിക്ക് എന്ന് ഗവണ്മെന്റ് ജോലി കിട്ടുമോ? ഈ വർഷം കിട്ടുമോ? ഏതു മാസം കിട്ടും",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight throughout the entire consultation, sending only empty messages. This resulted in a complete lack of value for the user."
+ },
+ "usage": {
+  "input_tokens": 16645,
+  "output_tokens": 1866
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": null,
+   "1.4": 1,
+   "2.1": 1,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 4
+  }
+ }
+}

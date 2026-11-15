@@ -1,0 +1,250 @@
+{
+ "file": "conversation_1228943_1203.csv",
+ "tier": "Medium",
+ "user_id": "1228943",
+ "ltv": 1925.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": 9,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 6,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.96,
+ "buckets": {
+  "B1": 8.33,
+  "B2": 6.2,
+  "B3": 6.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 48,
+   "avg_words": 16.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress about her marriage and her husband's feelings in message #18 and #21, referencing the problems she mentioned.",
+    "quotes": [
+     "donon ki marriage life mein kafi problem ho rahi hain create",
+     "aapke prati feeling Ko pyar to kafi achcha dikha raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions after the initial data request, so this is not applicable for scoring.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details in #14 and uses them to provide a reading about the relationship in #18 and #21.",
+    "quotes": [
+     "main donon ki pahle kundli ko Banakar check kar leta Hun"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is generic and lacks specific chart-based reasons or unique markers that would make it specific to her.",
+    "quotes": [
+     "donon ki marriage life mein kafi problem ho rahi hain create"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if her husband loves her and what is in his mind. The astrologer provides a direction that he does have feelings but there are problems.",
+    "quotes": [
+     "aapke prati feeling Ko pyar to kafi achcha dikha raha hai vah aapke bare mein sochta bhi Hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions checking the kundli but fails to provide any specific chart-based reasons (like dasha or grah) for the problems in the relationship.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about the husband's feelings in #21 after the initial reading in #18, using the context of the relationship.",
+    "quotes": [
+     "aapke prati feeling Ko pyar to kafi achcha dikha raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided for the resolution of the issues.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main thread regarding her relationship with Reehan.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to open a new layer in #23 but the chat ends before it is delivered.",
+    "quotes": [
+     "Jo aapke husband hai vah ab aapko"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the chat ends abruptly due to time running out.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is an incomplete sentence, failing to provide a meaningful reading or guidance.",
+    "quotes": [
+     "Jo aapke husband hai vah ab aapko"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, with no complex technical terms used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Reehan mujsa pyar kar hai yeah nai uska demak. Mai kya chl ra hai",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully engaged with the user's specific relationship concerns and used the provided partner details. However, the lack of chart-based insights and the abrupt, incomplete ending significantly hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10795,
+  "output_tokens": 1248
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "file": "conversation_1027514_2005.csv",
+ "tier": "Medium",
+ "user_id": "1027514",
+ "ltv": 1789.0,
+ "n_msgs": 16,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": 3,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.33,
+ "buckets": {
+  "B1": 4.33,
+  "B2": 3.0,
+  "B3": 4.67,
+  "B4": 6.67,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.286,
+   "max_words": 38,
+   "avg_words": 18.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific topic (kheti/Aalu) in message #7, but fails to acknowledge the user's frustration or the specific problem shared in #12. The reply in #13 ignores the user's statement that the potatoes did not grow at all.",
+    "quotes": [
+     "Aap pahle Aise client mile Jo kheti ke bare mein Janna Chahte Hain"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the crop type (#7) and acreage (#9). These are Type B questions as they could be asked to any farmer. No Type C questions were asked.",
+    "quotes": [
+     "aap kaun sa kheti Kiye Hain pahle yah bataen",
+     "Kitna ekad Aalu ki kheti ki Kiye Hain aap"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading (#11) is generic and incorrect based on the user's reality. It is not specific or new, as it assumes a successful harvest which the user contradicts.",
+    "quotes": [
+     "Is Sal bahut hi behtarin Aalu ki kheti Kiye Hain aap"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked why the crop failed. The astrologer provides a speculative reason (water logging) in #13, but it does not answer the core concern effectively as it contradicts the user's observation.",
+    "quotes": [
+     "pani ka Jyada laga aur Rahane Ke Karan Aalu Chhota hoga"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart-based reasoning provided in the chat. The astrologer speaks only from general observation/speculation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading (#13) attempts to build on the user's input but fails to provide a meaningful or accurate insight, repeating the assumption that the harvest is ongoing.",
+    "quotes": [
+     "Aage aap Khudai Karenge to aapko bahut hi behtarin Aalu dikhne ko Milega"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer makes a prediction about future digging results without any chart basis or window, which feels like a guess.",
+    "quotes": [
+     "Aage aap Khudai Karenge to aapko bahut hi behtarin Aalu dikhne ko Milega"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer; the chat ends abruptly.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to the lack of meaningful content.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is an incomplete sentence that provides no value or reading.",
+    "quotes": [
+     "Theek hai aap Pareshan Na Ho Aage aapko"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hindi. No technical terms were used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is 'testing' the astrologer by pointing out the failure of the prediction. The astrologer fails to accept the correction and instead doubles down on the incorrect assumption.",
+    "quotes": [
+     "pani ka Jyada laga aur Rahane Ke Karan Aalu Chhota hoga"
+    ],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "angry_testing",
+  "main_question": "Fashal mera kaisa h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide an accurate reading, relying on generic assumptions that contradicted the user's reality. The most helpful aspect was the astrologer's willingness to engage with a non-standard topic, but the lack of chart-based insight and failure to acknowledge the user's feedback hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 10553,
+  "output_tokens": 1272
+ }
+}

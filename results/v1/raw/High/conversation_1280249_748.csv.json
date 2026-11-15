@@ -1,0 +1,267 @@
+{
+ "file": "conversation_1280249_748.csv",
+ "tier": "High",
+ "user_id": "1280249",
+ "ltv": 5595.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 7,
+  "1.4": 10,
+  "2.1": 7,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 9,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 9,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.84,
+ "buckets": {
+  "B1": 8.5,
+  "B2": 7.86,
+  "B3": 8.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 3,
+   "long_frac": 0.2,
+   "max_words": 36,
+   "avg_words": 14.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship and the specific person's behavior in the reading.",
+    "quotes": [
+     "unki energies apkeliye stable nahi hai",
+     "unki taraf se ek bold contact ya approach anne mein september ka time lagega"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions; the user provides all information.",
+    "quotes": [],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the provided details to give a reading about the other person's energies and business situation.",
+    "quotes": [
+     "unki energies apkeliye stable nahi hai",
+     "Business overall achha chal rha hai sir"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new insights about the person's energy and business, and is specific to the user's situation.",
+    "quotes": [
+     "unki energies apkeliye stable nahi hai",
+     "Business overall achha chal rha hai sir, but simratpal ji ki taraf jo contribution anna चाहिए vo nahi mil rha hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a timeline for contact and explains the business situation.",
+    "quotes": [
+     "unki taraf se ek bold contact ya approach anne mein september ka time lagega"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'dasha' as a reason for the timing.",
+    "quotes": [
+     "mene unki dasha check karne ke baad apko yeh bhi bola tha"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the business and the senior male colleague.",
+    "quotes": [
+     "Business overall achha chal rha hai sir",
+     "Agar uss company mein unke senior koi male honge"
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific month as a window for contact.",
+    "quotes": [
+     "september ka time lagega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy was requested or given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses both the relationship and the business questions.",
+    "quotes": [
+     "unki taraf se ek bold contact ya approach anne mein september ka time lagega",
+     "Business overall achha chal rha hai sir"
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding a senior male colleague.",
+    "quotes": [
+     "Agar uss company mein unke senior koi male honge toh aaisa dikhta hai ki recently unki"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended due to time.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a specific, pending insight about a senior colleague.",
+    "quotes": [
+     "Agar uss company mein unke senior koi male honge toh aaisa dikhta hai ki recently unki"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, using the user's context.",
+    "quotes": [
+     "unki energies apkeliye stable nahi hai"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Simratpal kaur ki feelings and energies kya hai",
+  "message_labels": [
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided insightful readings about the user's relationship and the other person's business situation. The chat was hampered by long delays and empty messages, but the quality of the astrological insight remained high."
+ },
+ "usage": {
+  "input_tokens": 10627,
+  "output_tokens": 1261
+ }
+}

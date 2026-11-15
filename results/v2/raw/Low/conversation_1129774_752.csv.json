@@ -1,0 +1,294 @@
+{
+ "file": "conversation_1129774_752.csv",
+ "tier": "Low",
+ "user_id": "1129774",
+ "ltv": 410.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 1,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 4.83,
+  "B3": 1.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 13,
+   "long_frac": 0.286,
+   "max_words": 72,
+   "avg_words": 24.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     22,
+     23
+    ],
+    "reason": "The astrologer uses fear ('negative energy', 'relation tutane ke yog') and then pushes for a paid remedy/recharge ('main aapka help karta hun batata hun kaise theek hoga', 'Aap dobara connect karo')."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's relationship issue and the duration mentioned.",
+    "quotes": [
+     "6 years"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, some of which are repetitive (asking about the duration of the problem twice).",
+    "quotes": [
+     "Kitne din se aap donon ka relationship tha pahle Se",
+     "Yah problem kitne din se a rahi hai",
+     "Aap donon ke bich mein dikkat kitne din se ban rahi hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and photo to check the relationship, which is relevant to the user's question.",
+    "quotes": [
+     "Use ladki ka koi photo hai aapke pass bhi hai agar ho to ek photo ek unka ek apna bhej dijiye face reading ke liye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions the relationship is on the verge of breaking due to negative energy, which is specific and relates to the user's current situation.",
+    "quotes": [
+     "sthiti yah ban gai ki relation tutane ke yog per a Gaya Hai kyunki Jo negative energy Pancham sthan se kundli mein prapt hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a clear answer to 'when will things be okay', instead pivoting to a pitch for a remedy.",
+    "quotes": [
+     "main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship trouble to a chart factor (Pancham sthan) in plain words.",
+    "quotes": [
+     "Jo negative energy Pancham sthan se kundli mein prapt hai vah relation love Life ko disturb kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point about the partner being disturbed by someone else, which is new and uses the user's context.",
+    "quotes": [
+     "present time mein vah Kisi ke anusar se disturb kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing is provided for the resolution, only a vague promise of improvement if the remedy is followed.",
+    "quotes": [
+     "agar vah chij theek ho jaaye positive energy aapke prati uske man mein a jaaye to aap donon ka relation bahut achcha ho jaega"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a remedy but ties it to a pitch for further connection/payment.",
+    "quotes": [
+     "main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only has one main question, so this is skipped.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged for a follow-up.",
+    "quotes": [
+     "ek important baat yah Bhi Jaan Lo Ki unki life mein"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the ending is a cliffhanger to force a recharge.",
+    "quotes": [
+     "Aap dobara connect karo"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cliffhanger designed to force a recharge.",
+    "quotes": [
+     "Aap dobara connect karo main aapko batata hun kaise theek hoga Baki chinta Na Karo ek important baat yah Bhi Jaan Lo Ki unki life mein"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [
+     "Namaskar bhaiya",
+     "Aur kaise ho aap"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sab sehi kab ho ga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's relationship issue and linked it to chart factors, which helped the user feel heard. However, the astrologer repeatedly asked the same questions and ended the chat with a cliffhanger to pressure the user into a paid recharge, which significantly hurt the experience."
+ },
+ "usage": {
+  "input_tokens": 10883,
+  "output_tokens": 1503
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#22 [04:42] ASTRO: Ek chij sacchai Hai Jaan Lo Ki present time mein vah Kisi ke anusar se disturb kar rahi hai confirm chij hai aur agar vah chij theek ho jaaye positive energy aapke prati uske man mein a jaaye to aap donon ka relation bahut achcha ho jaega agar aap chahoge to marriage bhi prapt kar sakte ho main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay\n#23 [05:00] ASTRO: Aap dobara connect karo main aapko batata hun kaise theek hoga Baki chinta Na Karo ek important baat yah Bhi Jaan Lo Ki unki life mein",
+   "reason": "The astrologer uses fear ('negative energy', 'relation tutane ke yog') and then pushes for a paid remedy/recharge ('main aapka help karta hun batata hun kaise theek hoga', 'Aap dobara connect karo').",
+   "quote_en": "#22 [04:42] ASTRO: Know one truth: at present, something is disturbing them according to someone, this is confirmed. If that issue is resolved and positive energy towards you enters their mind, your relationship will become very good. If you wish, you can even get married. I will help you and tell you the path and the remedy to fix it.\n#23 [05:00] ASTRO: Connect again and I will tell you how to fix it. Otherwise, don't worry. Also, know this one important thing that in their life"
+  }
+ }
+}

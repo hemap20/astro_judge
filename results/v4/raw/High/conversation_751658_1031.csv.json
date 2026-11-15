@@ -1,0 +1,479 @@
+{
+ "file": "conversation_751658_1031.csv",
+ "tier": "High",
+ "user_id": "751658",
+ "ltv": 9256.0,
+ "n_msgs": 79,
+ "n_astro_msgs": 32,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.68,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 17,
+   "S3": 74
+  }
+ },
+ "final": 1.59,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 1.86,
+  "B3": 1.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 8,
+   "long_frac": 0.125,
+   "max_words": 75,
+   "avg_words": 11.3,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No self-harm or crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     35,
+     36,
+     61,
+     63,
+     78
+    ],
+    "paid_idx": [
+     47,
+     48,
+     72
+    ],
+    "evidence_idx": [
+     35,
+     36,
+     47,
+     48,
+     61,
+     63,
+     72,
+     78
+    ],
+    "reason": "The astrologer uses fear/urgency ('guarantee', 'do din mein') and promises a result to push the user to reconnect/recharge the chat for a paid ritual/havan."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Identified the concern but immediately pivoted to a sales pitch."
+   },
+   "S4": {
+    "present": true,
+    "idx": 35,
+    "quality": 0,
+    "note": "Prediction is used as a hook for a paid ritual."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid ritual."
+   },
+   "S9": {
+    "present": true,
+    "idx": 47,
+    "quality": 0,
+    "note": "Hook is a request to pay/reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional state and immediately asks if he wants a relationship, then pivots to a sales pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The questions are not building on the user's situation; they are leading questions for a sales pitch.",
+    "quotes": [
+     "Kya aap usko apne sath relationship me ana chathe ho"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but uses it only to facilitate the paid ritual, not to provide a reading.",
+    "quotes": [
+     "jiske bare mein Mantra ka uchharan se start kar sakun"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and used to create fear to sell a ritual.",
+    "quotes": [
+     "aapki bhabhi abhi aapke sath relationship mein nahin aana chahti Hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about whether the bhabhi loves him, instead promising a result if he pays for a ritual.",
+    "quotes": [
+     "mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth added; the conversation is entirely focused on the sales pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer guarantees a result within two days, which is a false promise.",
+    "quotes": [
+     "guarantee ke sath do din ke andar"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual/havan pitch.",
+    "quotes": [
+     "Main kuchh Mantra ka uchharan karenge aur havan karungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered; it is replaced by a sales pitch.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a ritual to keep the user engaged.",
+    "quotes": [
+     "mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the user waiting for a long time without providing value.",
+    "quotes": [
+     "Wait please",
+     "Samne aane Wala Hai Bus 2 minut aur"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests to reconnect for payment.",
+    "quotes": [
+     "Ab aap ek kam kariye chat ko khatm karke dobara juden"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Bhabhi mere Se pyar karti hai ki nahi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight, instead using the consultation to manipulate the user into paying for a ritual. The chat was characterized by long wait times and high-pressure sales tactics, which hurt the user's experience significantly."
+ },
+ "usage": {
+  "input_tokens": 16620,
+  "output_tokens": 2037
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#35 [17:36] ASTRO: Ji dekhiae aapki bhabhi abhi aapke sath relationship mein nahin aana chahti Hain kyunki unke man mein aapke liye feelings nahin hai agar aap chahte Hain ki aapki bhabhi relationship mein Aaye to mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge\n#36 [18:00] ASTRO: Aaiae ham log relationship mein a jaen kyunki bhabhi aapki janti Hain ki aap unko pasand karte Hain lekin abhi chijen behtar nahin Ho Pa rahi hai agar upay karenge to relationship aapke bhabhi ka aapke sath start ho sakta hai aur yah start karne ke liye upay bahut jyada jaruri hai upay karne ke bad hi sari chijen ekadam acche se ho payegi aur aapka aur bhabhi ke sath relationship bhi start ho payega\n#47 [21:07] ASTRO: Ab aap ek kam kariye chat ko khatm karke dobara juden\n#48 [21:14] ASTRO: Turant\n#61 [22:47] ASTRO: 100%\n#63 [22:58] ASTRO: Gurntee ke sath\n#72 [24:19] ASTRO: Dubra judiye\n#78 [24:51] ASTRO: Ji",
+   "reason": "The astrologer uses fear/urgency ('guarantee', 'do din mein') and promises a result to push the user to reconnect/recharge the chat for a paid ritual/havan.",
+   "quote_en": "#35 [17:36] ASTRO: See, your bhabhi does not want to be in a relationship with you right now because she does not have feelings for you. If you want your bhabhi to be in a relationship, I have a remedy that guarantees she will ask you herself within two days.\n#36 [18:00] ASTRO: Let us get into a relationship, because your bhabhi knows that you like her, but things are not working out well right now. If you perform the remedy, a relationship with your bhabhi can start, and this remedy is very necessary to start it. Only after performing the remedy will everything work out perfectly and your relationship with your bhabhi will be able to start.\n#47 [21:07] ASTRO: Now do one thing, end this chat and reconnect.\n#48 [21:14] ASTRO: Immediately.\n#61 [22:47] ASTRO: 100%\n#63 [22:58] ASTRO: With a guarantee.\n#72 [24:19] ASTRO: Reconnect.\n#78 [24:51] ASTRO: Yes."
+  }
+ }
+}

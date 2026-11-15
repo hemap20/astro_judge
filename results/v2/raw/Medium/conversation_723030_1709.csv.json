@@ -1,0 +1,232 @@
+{
+ "file": "conversation_723030_1709.csv",
+ "tier": "Medium",
+ "user_id": "723030",
+ "ltv": 520.0,
+ "n_msgs": 16,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.44,
+ "buckets": {
+  "B1": 4.75,
+  "B2": 2.0,
+  "B3": 4.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.286,
+   "max_words": 50,
+   "avg_words": 22.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about 'santaan yog' in the first reply after the question is asked; instead, he asks about the marriage date.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details again despite them being provided, and asks about a miscarriage as a fact without evidence. These are Type C questions.",
+    "quotes": [
+     "Apni detail Jo dala hai detail aapki sahi hai",
+     "aapka kabhi miscarriage hua Hai Kya"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details and uses them to check the chart, which is appropriate for the question about progeny.",
+    "quotes": [
+     "L theek hai main check karke aapko bata raha hun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and assumes a negative event (miscarriage) as a fact, which is not specific or necessarily true for the user.",
+    "quotes": [
+     "aapka ek bar miscarriage ke chances dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never provides a clear direction or time window for the progeny question, instead focusing on past problems.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'negative drishya' (negative aspect) but does not explain it in plain words or link it to a specific chart factor.",
+    "quotes": [
+     "negative drishya padhne ki vajah se aapko problem bhi create hue hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading repeats the same point about negative aspects and miscarriage.",
+    "quotes": [
+     "Negative drisht padhne ki vajah se problem create ho raha hai",
+     "aapka ek bar miscarriage ke chances dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the user's question.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only has one main question, so this is skipped.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened; the astrologer just repeats the negative reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the reading is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a question about a miscarriage, which is not a helpful reading or guidance.",
+    "quotes": [
+     "Aisa aapke sath hua tha ya nahin"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy to understand, but the astrologer uses 'negative drishya' without explanation.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "mere santaan yog kb bn rhe hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a clear answer to the user's question about progeny and instead focused on assuming a negative past event. The consultation was repetitive and lacked actionable guidance or clear chart-based insights."
+ },
+ "usage": {
+  "input_tokens": 10551,
+  "output_tokens": 1132
+ }
+}

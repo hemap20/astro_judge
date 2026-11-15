@@ -1,0 +1,357 @@
+{
+ "file": "conversation_1331681_2078.csv",
+ "tier": "Medium",
+ "user_id": "1331681",
+ "ltv": 1985.0,
+ "n_msgs": 61,
+ "n_astro_msgs": 30,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 6,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.45,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 5.14,
+  "B3": 7.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 1,
+   "T": 4
+  },
+  "4.1": {
+   "score": 7,
+   "M": 14,
+   "long_frac": 0.033,
+   "max_words": 39,
+   "avg_words": 13.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's stress in message #26, which directly relates to the user's stated relationship problem.",
+    "quotes": [
+     "And because of this, you are under a lot of stress and remain worried."
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks 'how long did you talk' (#30), which is Type B (could be asked to any user). The request for a photo (#40, #48) is Type C as it is not strictly necessary for a horoscope reading.",
+    "quotes": [
+     "how long did you talk"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (#13) and later asks for a photo (#40, #48) to perform face reading. While the name is used, the reading remains generic.",
+    "quotes": [
+     "Do you have your partner's details?"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading (#24) is generic and lacks specificity or a clear chart reason.",
+    "quotes": [
+     "I can see that at present there are a lot of obstacles in your marriage relationship."
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (she will connect) and a time window (before June).",
+    "quotes": [
+     "There is a possibility that he may connect with you before June"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the horoscope but fails to link specific chart factors to the user's life in plain words.",
+    "quotes": [
+     "According to your horoscope, I can see that your partner will connect with you in the coming time."
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points (no other person, she is diverted) but they are not clearly linked to the user's specific details.",
+    "quotes": [
+     "first of all you should be absolutely sure that there is no other person in your partner's life."
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window (before June) and maintains consistency.",
+    "quotes": [
+     "There is a possibility that he may connect with you before June"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No specific remedy or practical advice is given; the astrologer only asks for photos.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the relationship topic throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding the partner's potential involvement with others.",
+    "quotes": [
+     "I will check if she is connecting with any respectable person of her choice."
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the partner's state of mind.",
+    "quotes": [
+     "she is not sleeping after typing the feeling."
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the astrologer uses 'he' instead of 'she' for the partner.",
+    "quotes": [
+     "he also has feelings for you."
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; this is skipped.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "will she be back on her own",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear time window for the user's concern, which was helpful. However, the reliance on face reading and the lack of specific chart-based insights made the consultation feel generic and less professional."
+ },
+ "usage": {
+  "input_tokens": 11583,
+  "output_tokens": 1648
+ }
+}

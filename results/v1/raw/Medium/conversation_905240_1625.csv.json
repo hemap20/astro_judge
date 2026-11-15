@@ -1,0 +1,253 @@
+{
+ "file": "conversation_905240_1625.csv",
+ "tier": "Medium",
+ "user_id": "905240",
+ "ltv": 543.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.25,
+ "buckets": {
+  "B1": 6.33,
+  "B2": 4.0,
+  "B3": 6.0,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 10,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 5,
+   "avg_words": 2.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific concerns about job and health in the first reply after the user shares them.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks 'Currently trials chesthunara' (Are you doing trials?) which is a Type A question as it relates to the job query. However, the astrologer fails to ask meaningful follow-ups for the health query.",
+    "quotes": [
+     "Currently trials chesthunara"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about stress is present, new, and specific to the user's mental state, but it lacks a chart reason.",
+    "quotes": [
+     "Present mentally baga stress udi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a vague direction for health ('Ugadi tharvatha baguntundi') but fails to address the job question effectively.",
+    "quotes": [
+     "Health issues ugadi tharvatha",
+     "Baguntundi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no mention of any chart factors (grahas, dasha, etc.) in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about stress after the health reading, but it does not use any specific details provided by the user.",
+    "quotes": [
+     "Present mentally baga stress udi"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a time window ('Ugadi tharvatha') for health, which is consistent.",
+    "quotes": [
+     "Health issues ugadi tharvatha"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives no remedy or practical advice.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the health question but effectively ignores the job question after the initial check.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers of insight.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but the astrologer provides very little content per message.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a diagnosis of depression, which is a reading, but it is not tied to a future point.",
+    "quotes": [
+     "Depressed unnaru"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Telugu/Hinglish mix, but there are no astrology terms explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "About my job and helath",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a comprehensive reading for both job and health, often giving very brief or dismissive responses. The lack of chart-based reasoning and failure to address the job query significantly hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10258,
+  "output_tokens": 1175
+ }
+}

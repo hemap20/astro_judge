@@ -1,0 +1,576 @@
+{
+ "file": "conversation_3217935_1737.csv",
+ "tier": "High",
+ "user_id": "3217935",
+ "ltv": 5096.42,
+ "n_msgs": 105,
+ "n_astro_msgs": 68,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 10,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 4,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 9,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.26,
+ "rubric_score": 7.26,
+ "blueprint": {
+  "score": 6.96,
+  "coverage": 0.778,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.952,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 2,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 2,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 462816,
+   "S2": 462908,
+   "S3": 463297,
+   "S4": 463580,
+   "S5": 463297,
+   "S6": 463655,
+   "S7": 463897
+  }
+ },
+ "final": 7.11,
+ "label": "good",
+ "buckets": {
+  "B1": 8.25,
+  "B2": 6.8,
+  "B3": 7.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 9,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 8.9,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 54,
+    "quality": 2,
+    "note": "Warm greeting and rapport established."
+   },
+   "S2": {
+    "present": true,
+    "idx": 61,
+    "quality": 2,
+    "note": "Acknowledged the previous chat and the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 74,
+    "quality": 2,
+    "note": "Identified the concern about the relationship with Kundan."
+   },
+   "S4": {
+    "present": true,
+    "idx": 82,
+    "quality": 2,
+    "note": "Gave a clear prediction about the person's interest in marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 74,
+    "quality": 2,
+    "note": "Asked relevant follow-up about current contact."
+   },
+   "S6": {
+    "present": true,
+    "idx": 84,
+    "quality": 2,
+    "note": "Connected the situation to the person's hesitation and feelings."
+   },
+   "S7": {
+    "present": true,
+    "idx": 94,
+    "quality": 2,
+    "note": "Probed the timing of the proposal."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided in this specific session."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided at the end."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the previous chat and the user's specific concern about the relationship.",
+    "quotes": [
+     "Hnji beta bilkul yaad hai"
+    ],
+    "score": 9,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked about the current contact status which is Type A.",
+    "quotes": [
+     "Ye batao kundan se present time mein apki baate hoti hai kya"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 74,
+       "type": "A",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The question is about a specific person (Kundan). The astrologer asked for details and used them to provide a reading.",
+    "quotes": [
+     "Ye batao kundan se present time mein apki baate hoti hai kya"
+    ],
+    "score": 10,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to the user's situation, and provides a concrete marker.",
+    "quotes": [
+     "Yah apke sath marriage ke liye bhi interested hai beta"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 82,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answered the question about the relationship status and timing.",
+    "quotes": [
+     "Yah apke sath marriage ke liye bhi interested hai beta",
+     "27 july ko propose kar skata hai"
+    ],
+    "score": 9,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 82,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer used palm reading as the basis for the insight.",
+    "quotes": [
+     "Maine apke palm reading k according check kiya hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 80,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer added new details about the person's hesitation.",
+    "quotes": [
+     "Ye apko propose bhi karna chaahh raha hai but kuch chijo ke Karan se apse kah nhi pa rha hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 80,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a specific date and month window.",
+    "quotes": [
+     "27 july ko propose kar skata hai"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 80,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given in this session.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "No second question asked.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opened a layer about the proposal timing.",
+    "quotes": [
+     "27 july ko propose kar skata hai"
+    ],
+    "score": 7,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a positive prediction.",
+    "quotes": [
+     "Apki marriage life best rahegi iske sath me"
+    ],
+    "score": 7,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and informal.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 1
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "When will i find love of my life",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully built rapport and provided a specific, personalized prediction based on palm reading. The chat was helpful in addressing the user's concern about their relationship, though it lacked a remedy or a closing hook."
+ },
+ "usage": {
+  "input_tokens": 18843,
+  "output_tokens": 2526
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": 10,
+   "2.1": 9,
+   "2.2": 9,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "file": "conversation_1418425_1305.csv",
+ "tier": "Medium",
+ "user_id": "1418425",
+ "ltv": 2850.0,
+ "n_msgs": 14,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.52,
+ "rubric_score": 6.52,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 173,
+   "S4": 158,
+   "S5": 173
+  }
+ },
+ "final": 4.96,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.75,
+  "B2": 5.0,
+  "B3": 5.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 8.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's distress regarding the money."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Astrologer asks for names to understand the concern, but it is a data request."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Gives a prediction that money will be recovered, but it is generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks for names of the people involved."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors like dasha or houses."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by saying they are checking the kundli, but does not repeat any details or name the feeling.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The only question asked is for the names of the people involved, which is Type A (builds on the user's story).",
+    "quotes": [
+     "Jiske pass aapka Paisa fasa Hai unka Naam bataiye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the names of the people involved to check the kundli, which is a valid reason.",
+    "quotes": [
+     "Jiske pass aapka Paisa fasa Hai unka Naam bataiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (recovery of money), not the present/past, and lacks specific chart reasons.",
+    "quotes": [
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a direction (chances of recovery) without the user repeating the question.",
+    "quotes": [
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not change topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but there are bare acknowledgements.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a wait line.",
+    "quotes": [
+     "Aap aise hi intezar karo"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ek pariwar me mere 30-35 lakh rs fans gaye h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was polite and acknowledged the user's concern, but failed to provide any depth, chart-based insights, or actionable remedies. The consultation felt like a series of wait lines rather than a professional reading."
+ },
+ "usage": {
+  "input_tokens": 14885,
+  "output_tokens": 1369
+ }
+}

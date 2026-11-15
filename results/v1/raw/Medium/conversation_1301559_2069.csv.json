@@ -1,0 +1,322 @@
+{
+ "file": "conversation_1301559_2069.csv",
+ "tier": "Medium",
+ "user_id": "1301559",
+ "ltv": 760.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 6,
+  "2.4": 6,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.88,
+ "buckets": {
+  "B1": 6.67,
+  "B2": 4.83,
+  "B3": 5.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 23,
+   "long_frac": 0.0,
+   "max_words": 15,
+   "avg_words": 7.0,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's job concern by providing a reading about the job yog, but does not name the user's feeling of frustration or the specific detail of the job loss in September.",
+    "quotes": [
+     "Aapko job lagne mein delay isliye ho raha hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one Type A question ('Abhi aapane kahin per Try kiya?') and one Type C question ('Aapki birth details correct hai?'). Since there is one Type C question, it scores 4.",
+    "quotes": [
+     "Aapki birth details correct hai?"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but it is generic and lacks a specific, verifiable marker. It mentions a 'yog' starting, but it is not specific enough to be untrue for others.",
+    "quotes": [
+     "14 March se aapke birth chart mein job ka yog start ho gaya hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (job yog started) but does not give a clear time window for the outcome, instead asking for palmistry to provide the timing.",
+    "quotes": [
+     "14 March se aapke birth chart mein job ka yog start ho gaya hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'career house' and 'mercury planet' but does not link them to the user's life in a way that explains the 'why' clearly in plain words.",
+    "quotes": [
+     "career house mai mercury planet ki placement hai"
+    ],
+    "score": 6
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about the delay being caused by weak planets, which builds on the initial reading.",
+    "quotes": [
+     "Aapko job lagne mein delay isliye ho raha hai kyunki planet aapke week Hain"
+    ],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a date (14 March) as the start of a yog, which is a specific point rather than a window, and it is not a promise of an outcome.",
+    "quotes": [
+     "14 March se aapke birth chart mein job ka yog start ho gaya hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given; the astrologer asks for palmistry instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a further layer by promising to tell the exact month and sector using palmistry.",
+    "quotes": [
+     "Main aapko exact timing batata Hun ki job kis month mein lagegi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but there are multiple bare acknowledgements ('Ok', 'Jaise main aapko acche se explain kar paunga').",
+    "quotes": [
+     "Ok"
+    ],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for palmistry and a push for speed, which does not provide a reading or guidance.",
+    "quotes": [
+     "Jldi kariye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language and avoids formal/bookish sentences, but uses 'Singh lgn' and 'Patrika' which are technical terms without full explanation.",
+    "quotes": [
+     "Singh lgn ki Patrika rashi kumbh ban rahi hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Job kab milegi.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic reading about the job yog but failed to offer a concrete timeline or actionable advice, instead pushing for palmistry. The chat was hurt by the astrologer's repetitive requests and lack of depth in explaining the chart factors."
+ },
+ "usage": {
+  "input_tokens": 10520,
+  "output_tokens": 1564
+ }
+}

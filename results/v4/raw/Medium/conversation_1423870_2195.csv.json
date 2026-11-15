@@ -1,0 +1,372 @@
+{
+ "file": "conversation_1423870_2195.csv",
+ "tier": "Medium",
+ "user_id": "1423870",
+ "ltv": 3442.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 4,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.07,
+ "rubric_score": 5.07,
+ "blueprint": {
+  "score": 4.54,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.933,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S2": 236,
+   "S3": 68,
+   "S4": 236,
+   "S5": 242,
+   "S6": 260
+  }
+ },
+ "final": 4.8,
+ "label": "mixed",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 3.8,
+  "B3": 4.67,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 6
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Acknowledges the user's worry but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Identifies the question but asks for details already provided or unavailable."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Gives a prediction but it is a guaranteed outcome."
+   },
+   "S5": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 22,
+    "quality": 1,
+    "note": "Connects to Rahu/Shukra but lacks depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's worry in message 17, but it is generic and does not repeat specific details shared by the user.",
+    "quotes": [
+     "Dekhiae aap bilkul pareshan mat hoiye inke Sath aapka future dekha jaaye to kafi achcha dekhne ko mil raha hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details that the user already stated they do not know (Type C).",
+    "quotes": [
+     "Aap janme ka time bhi Bata dijiye",
+     "Inka naam birthday time janm sthan",
+     "Inka janm sthan"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but does not use them effectively, and the reading is generic.",
+    "quotes": [
+     "Partner ka detail dijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and could apply to anyone. It is not tied to a chart reason.",
+    "quotes": [
+     "inke Sath aapka future dekha jaaye to kafi achcha dekhne ko mil raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question with a direction (yes) but it is a guaranteed outcome.",
+    "quotes": [
+     "yah wapas aapki life mein aaengi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Rahu and Shukra but does not explain what they mean for the user's life.",
+    "quotes": [
+     "yah samasya aapko Rahu aur shukr ke vajah se ho raha hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add points about the third person and marriage stress, but they are not built on user details.",
+    "quotes": [
+     "Kyunki third percent ki vajah se",
+     "marriage life agar dekha jaaye to unka is samay behtar bhi nahin Hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Promises the outcome as certain.",
+    "quotes": [
+     "yah wapas aapki life mein aaengi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends abruptly.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, which is not a reading.",
+    "quotes": [
+     "Aap apni left hand ka pic share kariye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri ex wapish aygii?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's question but relied on guaranteed outcomes and failed to provide actionable remedies. The chat was hindered by repeated requests for birth details that the user had already stated were unknown."
+ },
+ "usage": {
+  "input_tokens": 15512,
+  "output_tokens": 1608
+ }
+}

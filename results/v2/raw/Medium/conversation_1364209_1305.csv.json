@@ -1,0 +1,361 @@
+{
+ "file": "conversation_1364209_1305.csv",
+ "tier": "Medium",
+ "user_id": "1364209",
+ "ltv": 4103.0,
+ "n_msgs": 58,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 1.57,
+  "B3": 3.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.107,
+   "max_words": 63,
+   "avg_words": 15.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     47,
+     53,
+     55,
+     56
+    ],
+    "reason": "The astrologer uses the promise of a guaranteed result ('11 din ke andar hi vah unblock kar dengi') combined with a push for a paid ritual/puja ('Main idhar se karungi Puja aur vidhi ke sath 1500 mantron ka Ja')."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to acknowledge the user's specific emotional distress or the details of his situation, instead giving a generic reading about 'negative energy' and 'good yogas'.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's name and photo, which are relevant, but the questions are not Type A (building on the user's specific narrative).",
+    "quotes": [
+     "Kya aapke pass ladki ka date off birth hai",
+     "Unka Naam to pata hoga na aapko"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and photo to perform a reading, but the reading provided is generic and does not actually analyze the other person's chart or provide specific insight into the match.",
+    "quotes": [
+     "Unka Naam to pata hoga na aapko",
+     "Aap donon ka sath mein pic hai photo ho to send karo"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone. It lacks specific markers or chart-based reasons tied to the user's life.",
+    "quotes": [
+     "Aapke janm kundli ke anusar Main dekh Pa rahi hun kafi acche yog dekhne ko mil raha hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a 'guaranteed' outcome without a logical chart-based reason, essentially telling the user what he wants to hear to facilitate a sale.",
+    "quotes": [
+     "Nishchit Roop se karegi ji"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'planet' and 'negative energy' but does not link them to the user's specific life events or chart in a meaningful way.",
+    "quotes": [
+     "planet ke negative urja release ho rahi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same promise of a guaranteed outcome rather than building depth or adding new, specific insights.",
+    "quotes": [
+     "Nishchit Roop se aapse vah pyar to Karti hi Karti Hai Ji bahut pyar Karti Hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific, guaranteed timeline for the unblocking, which is a false promise.",
+    "quotes": [
+     "11 din ke andar hi vah unblock kar dengi aapko"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid service pitch, which violates the rubric.",
+    "quotes": [
+     "Main idhar se karungi Puja aur vidhi ke sath 1500 mantron ka Ja"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer focuses entirely on the relationship question and does not address the user's career concerns or hold a thread between multiple topics.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the girl's feelings to keep the user engaged for a paid service.",
+    "quotes": [
+     "Aapko attraction feelings badhane ke liye unka aapko lekar kafi attractive ichcha Karega"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are focused on pushing a paid service rather than providing value.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the paid ritual, which is a pressure tactic.",
+    "quotes": [
+     "Main idhar se karungi Puja aur vidhi ke sath 1500 mantron ka Ja"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the content is problematic.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya o muze unblock karegi ya nahi aagar karegi unblock to kabjitak",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide genuine insight, instead using false promises and guaranteed outcomes to pressure the user into purchasing a paid ritual. The consultation was entirely focused on extracting payment rather than addressing the user's emotional needs or providing a helpful reading."
+ },
+ "usage": {
+  "input_tokens": 12012,
+  "output_tokens": 1779
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#47 [26:03] ASTRO: Aur unblock karenge agar aap upay karenge to nishchit Roop se 11 din ke andar hi vah unblock kar dengi aapko\n#53 [28:05] ASTRO: Aapko mujhse aise hi contact mein Bane rahana hoga jab tak aapka Puja chalega tab tak ke liye\n#55 [28:19] ASTRO: Agar aap kar sakte hain to nahin to main idhar Se Kar dungi vah bhi\n#56 [28:29] ASTRO: Main idhar se karungi Puja aur vidhi ke sath 1500 mantron ka Ja",
+   "reason": "The astrologer uses the promise of a guaranteed result ('11 din ke andar hi vah unblock kar dengi') combined with a push for a paid ritual/puja ('Main idhar se karungi Puja aur vidhi ke sath 1500 mantron ka Ja').",
+   "quote_en": "#47 [26:03] ASTRO: And she will unblock you if you perform the remedies, she will definitely unblock you within 11 days.\n#53 [28:05] ASTRO: You will have to stay in contact with me like this for as long as your pooja continues.\n#55 [28:19] ASTRO: If you can do it, otherwise I will do it from here as well.\n#56 [28:29] ASTRO: I will perform the pooja from here with the rituals and the chanting of 1500 mantras."
+  }
+ }
+}

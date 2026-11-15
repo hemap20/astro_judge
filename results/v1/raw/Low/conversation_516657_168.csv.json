@@ -1,0 +1,266 @@
+{
+ "file": "conversation_516657_168.csv",
+ "tier": "Low",
+ "user_id": "516657",
+ "ltv": 230.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.46,
+ "buckets": {
+  "B1": 8.33,
+  "B2": 7.17,
+  "B3": 7.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 12.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about marriage and partner type in the reading.",
+    "quotes": [
+     "Shabnam ji aapki shaadi aapke Jaan pahchan ya aapke relation mein hone ke chances hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about a breakup, which is Type A (builds on the user's context of marriage/relationships).",
+    "quotes": [
+     "Shabnam ji aapka koi breakup bhi hua Hai pichhle kuchh samay mein"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about a future partner, not a specific named person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/past (breakup), new (not stated by user), specific (known person/relation), and tied to a chart reason (pitradosh).",
+    "quotes": [
+     "Aapki kundli Mein pitradosh ka prabhav hai jiski vajah se aapke marriage mein delay ho raha hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (Nov 20-25) and a description of the partner (someone known).",
+    "quotes": [
+     "Vah aapki life mein 20 se 25 November Tak aane ke chances hai",
+     "Aur use ladke ko aap jante bhi ho"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage delay to pitradosh in plain words.",
+    "quotes": [
+     "Aapki kundli Mein pitradosh ka prabhav hai jiski vajah se aapke marriage mein delay ho raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's identity and timing, using the user's confirmation of a breakup.",
+    "quotes": [
+     "Main dekh Pa raha hun ki aap jis vyakti ke upar jyada Vishwas karte Hain vahi aapke sath problem create karta hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date window (Nov 20-25) without promising it as a certainty.",
+    "quotes": [
+     "Vah aapki life mein 20 se 25 November Tak aane ke chances hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer advises patience, which is a practical step, though generic.",
+    "quotes": [
+     "Shabnam ji aap thoda sa patience rakhen"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about the partner's characteristics.",
+    "quotes": [
+     "Main aapke life partner ke bare mein kuchh basic chijen aapko batana chahta hun"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended at the time limit.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a reading/prediction about a change in life.",
+    "quotes": [
+     "Shabnam ji aapke life mein 25 days ke andar ek bada"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses no complex technical terms without context.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera shadi kb hogi and kaisa ladka se",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline and specific details about the user's future partner, which helped build trust. However, the chat ended abruptly mid-sentence, leaving the user without the full insight promised."
+ },
+ "usage": {
+  "input_tokens": 10360,
+  "output_tokens": 1326
+ }
+}

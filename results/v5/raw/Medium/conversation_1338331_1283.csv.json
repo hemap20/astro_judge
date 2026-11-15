@@ -1,0 +1,492 @@
+{
+ "file": "conversation_1338331_1283.csv",
+ "tier": "Medium",
+ "user_id": "1338331",
+ "ltv": 999.0,
+ "n_msgs": 31,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.08,
+ "blueprint": {
+  "score": 3.1,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S2": 50,
+   "S3": 50,
+   "S5": 50
+  }
+ },
+ "final": 1.09,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 2.67,
+  "B3": 5.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.143,
+   "max_words": 35,
+   "avg_words": 15.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     25
+    ],
+    "paid_idx": [
+     29
+    ],
+    "reason": "The astrologer uses fear ('rukavat hi bani rahegi') to push for a remedy/process in message 29.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Acknowledges the concern but lacks depth."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already implied."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No meaningful prediction given."
+   },
+   "S5": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Follow-up is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized prediction tied to chart."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about having a child, but the reply is generic and does not name the user's feeling.",
+    "quotes": [
+     "Main aapki problem samajh sakta hun ki aap bacche ke liye thoda pareshan hai"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are Type B (generic) and Type C (asking for details already provided or irrelevant).",
+    "quotes": [
+     "aap yah bata sakte hain ki aapki shaadi ke kitne sal Ho Gaye",
+     "kitne Dinon Se plan banaa rahe hain",
+     "kya aapane Kisi doctor se paraamarsh liya hai"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 6,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 9,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 18,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and does not provide a concrete marker or reason tied to the user's life.",
+    "quotes": [
+     "aapki kundli mein Shani ka prabhav hai"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks when she will conceive, and the astrologer never provides a clear direction or time window.",
+    "quotes": [
+     "Kab ho ki santan"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Shani but does not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "aapki kundli mein Shani ka prabhav hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague point about Shani.",
+    "quotes": [
+     "Sani ki prabhav Se Hi Santan ki prapti nahin Ho Pa rahi hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat is repetitive.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are not helpful.",
+    "quotes": [],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal language and technical terms without explanation.",
+    "quotes": [
+     "kripya",
+     "paraamarsh"
+    ],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 1,
+     "formal_sentences": 2,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "baccha kab ho ga",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a clear answer or prediction regarding the user's main concern about conception. The chat was repetitive and relied on fear-based language to suggest that a remedy was needed without actually providing one."
+ },
+ "usage": {
+  "input_tokens": 17007,
+  "output_tokens": 2180
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": null,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 4,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#25 [04:28] ASTRO: Agar yah prabhav dur nahin hue to aapko Santan ki prapti mein rukavat Hi Bani rahegi\n#29 [04:54] ASTRO: Main aapko bata raha hun kya karna chahie aapka",
+   "reason": "The astrologer uses fear ('rukavat hi bani rahegi') to push for a remedy/process in message 29.",
+   "quote_en": "#25 [04:28] ASTRO: If these effects do not go away, then you will continue to face obstacles in conceiving a child.\n#29 [04:54] ASTRO: I am telling you what you should do."
+  }
+ }
+}

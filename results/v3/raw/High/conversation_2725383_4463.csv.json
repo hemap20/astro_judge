@@ -1,0 +1,436 @@
+{
+ "file": "conversation_2725383_4463.csv",
+ "tier": "High",
+ "user_id": "2725383",
+ "ltv": 161972.7,
+ "n_msgs": 31,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.92,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S3": 87,
+   "S4": 114,
+   "S5": 148
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 3.0,
+  "B3": 2.0,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 14.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     23,
+     24,
+     25,
+     26
+    ],
+    "paid_idx": [
+     27,
+     28
+    ],
+    "evidence_idx": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ],
+    "reason": "The astrologer uses fear by claiming planets are in 'kharab avastha' (bad state) and 'neech Rashi' (debilitated) to justify a paid remedy and push for a recharge."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not validate the user's pain of being blocked."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the concern but asked for a photo instead of focusing on the relationship dynamics."
+   },
+   "S4": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Gave a generic prediction about love marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asked a follow-up question but it was generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not connect the chart to the specific situation."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy was tied to a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Hook was a recharge request."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's pain of being blocked and instead asked for a photo.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for a photo (Type C) and birth details were already provided.",
+    "quotes": [
+     "Aap mujhe apne partner ki koi photo share kar dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asked for a photo but used it for a psychic reading pitch rather than chart matching.",
+    "quotes": [
+     "Aap mujhe apne partner ki koi photo share kar dijiye face reading aur psychic reading ke liye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone.",
+    "quotes": [
+     "Shaadi aapke nishchit Roop se aapke manpasand partner se Hogi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Gave a direction but it was vague and followed by a pitch.",
+    "quotes": [
+     "Shaadi aapke nishchit Roop se aapke manpasand partner se Hogi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are listed without explaining their impact on her life.",
+    "quotes": [
+     "Bhagya sthan mein Dev Guru brihaspati apni neech Rashi mein hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the initial generic claims.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is tied to a paid pitch.",
+    "quotes": [
+     "Isko kuchh upay vagaira karke theek Kiya Ja sakta hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about the ex returning was never fully answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ended the chat by asking for a recharge.",
+    "quotes": [
+     "Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were about recharge and not the user's concern.",
+    "quotes": [
+     "Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Used technical terms without explanation.",
+    "quotes": [
+     "Bhagya sthan mein Dev Guru brihaspati apni neech Rashi mein hai"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Koi Asha h wo wapas aynge ? Aur unse shadi hone ka",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's emotional distress and instead used fear-based tactics to push for a recharge. The consultation lacked depth and failed to provide a clear answer to the user's primary question."
+ },
+ "usage": {
+  "input_tokens": 15523,
+  "output_tokens": 1832
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [04:12] ASTRO: Kyunki Abhi aapki kundli mein kafi sare planet kharab avastha mein hai\n#24 [04:20] ASTRO: Jaise ki Bhagya sthan mein Dev Guru brihaspati apni neech Rashi mein hai\n#25 [04:26] ASTRO: Marriage house ke Swami Mangal shukr ke sath ashtam yani kharab ghar mein hai\n#26 [04:32] ASTRO: Is vajah se abhi manpasand partner ke sath shaadi mein thodi dikkat ho rahi hai\n#27 [04:37] ASTRO: Isko kuchh upay vagaira karke theek Kiya Ja sakta hai\n#28 [04:42] ASTRO: Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega",
+   "reason": "The astrologer uses fear by claiming planets are in 'kharab avastha' (bad state) and 'neech Rashi' (debilitated) to justify a paid remedy and push for a recharge.",
+   "quote_en": "#23 [04:12] ASTRO: Because right now, many planets in your kundli are in a bad state.\n#24 [04:20] ASTRO: For instance, Dev Guru Brihaspati is in its debilitated sign (neech Rashi) in the house of fortune (Bhagya sthan).\n#25 [04:26] ASTRO: The lord of the marriage house, Mangal, is in the eighth house, which is an unfavorable house, along with Shukr.\n#26 [04:32] ASTRO: Because of this, you are facing some difficulties in getting married to your preferred partner right now.\n#27 [04:37] ASTRO: This can be fixed by performing some remedies (upay) and such.\n#28 [04:42] ASTRO: Your recharge is also probably running out, so please connect again."
+  }
+ }
+}

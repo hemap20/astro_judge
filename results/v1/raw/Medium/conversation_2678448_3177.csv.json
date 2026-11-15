@@ -1,0 +1,463 @@
+{
+ "file": "conversation_2678448_3177.csv",
+ "tier": "Medium",
+ "user_id": "2678448",
+ "ltv": 3766.56,
+ "n_msgs": 66,
+ "n_astro_msgs": 48,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.33,
+  "B3": 7.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.021,
+   "max_words": 32,
+   "avg_words": 10.1,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Aur uske bad Meri guarantee Hai Ki",
+    "reason": "The astrologer promises a result ('Meri guarantee Hai Ki') for the remedy, which is a form of pressure and false assurance."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the breakup and the lack of communication.",
+    "quotes": [
+     "Abhi to Maine dekha hai ki aap donon logon Ki baat nahin ho rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's birth details, which is necessary for the reading.",
+    "quotes": [
+     "Date of birth kya hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to check the compatibility.",
+    "quotes": [
+     "Date of birth kya hai"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions the current lack of communication and the detachment, which is specific and relatable.",
+    "quotes": [
+     "Abhi to Maine dekha hai ki aap donon logon Ki baat nahin ho rahi hai",
+     "Aapki Kundli mein thodi si problem a rahi hai",
+     "Rahukaal Sahi nahin chal raha hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage positively.",
+    "quotes": [
+     "isliye shaadi bhi aapki ISI ladki ke sath hogi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to 'Rahukaal'.",
+    "quotes": [
+     "Rahukaal Sahi nahin chal raha hai",
+     "Jiski vajah se aap donon logon ke bich mein detachment create ho raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the partner's feelings and external influence.",
+    "quotes": [
+     "Bus is ladki ke mind mein kafi kuchh ulti Sidhi chijen Dali ja rahi hai aapko lekar"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a guarantee of 21 days, which is a firm promise rather than a window.",
+    "quotes": [
+     "Aur uske bad Meri guarantee Hai Ki"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a specific ritual involving black cloth and sesame seeds.",
+    "quotes": [
+     "Aapko Kala kapda lena hai",
+     "Usme kala til rakh lijiyega"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's current feelings and external influence.",
+    "quotes": [
+     "Use ladki Ki Main current feelings aur thinking bata de rahi ho"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the remedy, which is guidance.",
+    "quotes": [
+     "Usme kala til rakh lijiyega",
+     "Aur uske bad aapko ise"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms.",
+    "quotes": [
+     "Rahukaal Sahi nahin chal raha hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri girlfriend se meri shadi hogi ya nahi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear answer and relatable insights about the user's relationship issues. However, the astrologer's use of a 'guarantee' for the remedy is unprofessional and violates the quality standards."
+ },
+ "usage": {
+  "input_tokens": 11524,
+  "output_tokens": 1951
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Aur uske bad Meri guarantee Hai Ki",
+   "reason": "The astrologer promises a result ('Meri guarantee Hai Ki') for the remedy, which is a form of pressure and false assurance.",
+   "quote_en": "And after that, it is my guarantee that"
+  }
+ }
+}

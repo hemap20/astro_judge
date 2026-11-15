@@ -1,0 +1,832 @@
+{
+ "file": "conversation_3761643_2353.csv",
+ "tier": "High",
+ "user_id": "3761643",
+ "ltv": 1197750.74,
+ "n_msgs": 133,
+ "n_astro_msgs": 71,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 6,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 9,
+  "3.3": 4,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.41,
+ "blueprint": {
+  "score": 4.15,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 1,
+   "S8": 0,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 175,
+   "S4": 369,
+   "S5": 749,
+   "S7": 4258,
+   "S9": 4258
+  }
+ },
+ "final": 1.28,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 1.29,
+  "B3": 4.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 5,
+   "T": 16
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.099,
+   "max_words": 46,
+   "avg_words": 16.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     24,
+     46,
+     47,
+     48
+    ],
+    "paid_idx": [
+     79,
+     99
+    ],
+    "reason": "The astrologer uses fear (negative energy, jail, serious problems) to push for a paid ritual/process involving specific items and the astrologer's intervention.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is minimal and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not validate the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identifies the concern but immediately asks for more data."
+   },
+   "S4": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Initial prediction is generic and fear-based."
+   },
+   "S5": {
+    "present": true,
+    "idx": 30,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized chart connection provided."
+   },
+   "S7": {
+    "present": true,
+    "idx": 132,
+    "quality": 1,
+    "note": "Opens a new layer at the very end."
+   },
+   "S8": {
+    "present": true,
+    "idx": 79,
+    "quality": 0,
+    "note": "Remedy is a paid ritual/process."
+   },
+   "S9": {
+    "present": true,
+    "idx": 132,
+    "quality": 1,
+    "note": "Hooks the user to continue the conversation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation but does not name her feelings or build on them effectively.",
+    "quotes": [
+     "Lina ji ismein dekha ja raha hai ki aapki Kundli mein to problem hai hi marriage life ke liye"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details multiple times and asks for a photo, which are Type C questions.",
+    "quotes": [
+     "Aapka birth time",
+     "Aap mere pass bhejiye photo"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 5,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 7,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 9,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 49,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the specific person (Indrajeet) but uses them to create fear and push for a paid process.",
+    "quotes": [
+     "Naam aur details bataen use ladke ka"
+    ],
+    "score": 3,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": true,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is fear-based and lacks concrete markers or chart-based reasons.",
+    "quotes": [
+     "Ismein dekha ja raha hai ki Achanak Se sab kuchh nahin hua Hai Bus yah samjhie ki koi hai Jo nahin chahta aap donon ki shaadi Ho"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 19,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about marriage is not answered clearly; it is met with fear and a pitch for a ritual.",
+    "quotes": [
+     "Hamari shadi hogi kya"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used without explaining their impact on the user's life.",
+    "quotes": [
+     "Kyunki aapke Vivah sthan per Mangal aur Rahu upsthit hai baithe Hain"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 21,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same fear-based narrative.",
+    "quotes": [
+     "Ismein mujhe kuchh situation dikhai pad rahi hai wife se hi related"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 41,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a 6-month timeline but ties it to a paid process.",
+    "quotes": [
+     "inmein lagbhag 6 mahine ka time jaega aapka"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 61,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual/process.",
+    "quotes": [
+     "Lal Chandan, Lal markar, Aur haldi... main aapki prakriya karva Dunga"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 79,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the user focused on the ritual rather than answering the questions.",
+    "quotes": [
+     "Lekin iska exactly situation janne ke liye aapko kuchh parikriya karni padegi"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged for a paid process.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek ol gehra pehlu juda hua dikh raha"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 132,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat is filled with empty requests for rituals.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease to keep the user hooked.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua dikh raha"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 132,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy, but the astrologer uses fear-based terms.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Hamari shadi hogi kya",
+  "main_question_idx": 69,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 96,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 116,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 122,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 125,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading, instead using fear-based tactics and vague claims to push for a paid ritual. The consultation was dominated by data requests and attempts to manipulate the user into paying for services."
+ },
+ "usage": {
+  "input_tokens": 20149,
+  "output_tokens": 3739
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 3,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 7,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#24 [09:25] ASTRO: Is Karan Indrajeet Abhi ek relationship mein commitment nahin De Pa raha hai aur ismein kuchh negative energy ka prayog bhi dekha ja raha hai\n#46 [19:33] ASTRO: Aur highly chances dikhai pad raha hai ki yah jail mein hai\n#47 [20:00] ASTRO: Ya to Kisi dabav mein Hai jiske Karan se yah abhi kafi pareshani mein hai\n#48 [20:38] ASTRO: Kyunki Jo energy iski dikhai pad rahi hai uske anusar kafi Gambhir samasya Dekhi ja rahi hai iske life mein kya karun Kya Na Karun is prakar ka situation hai\n#79 [41:45] ASTRO: Nahin to yah nahin chalega ek kam kariye aap uski koi photo print karva lijiye \nLal Chandan \nLal markar \nAur haldi \nItna Saman aap ektrit kariye phir main aapki prakriya karva Dunga aapko exact situation pata chal jaega uske bad kya karna hai kaise karna hai\n#99 [53:58] ASTRO: Ya to fir aap call chat ya video per live agar join kar saken to main photo ko print kara lunga aur aapke sath baithkar main aapki jagah per kar dunga parikriya Pura",
+   "reason": "The astrologer uses fear (negative energy, jail, serious problems) to push for a paid ritual/process involving specific items and the astrologer's intervention.",
+   "quote_en": "#24 [09:25] ASTRO: Is Karan Indrajeet currently unable to commit to a relationship, and is there some use of negative energy being seen in this?\n#46 [19:33] ASTRO: And there is a high chance that he is in jail.\n#47 [20:00] ASTRO: Or he is under some pressure, which is why he is currently in a lot of trouble.\n#48 [20:38] ASTRO: Because according to the energy being seen, a very serious problem is visible in his life; he is in a situation where he doesn't know what to do or what not to do.\n#79 [41:45] ASTRO: Otherwise, this won't work. Do one thing: get a photo of him printed.\nRed sandalwood\nRed marker\nAnd turmeric\nCollect these items, then I will have you perform the procedure, and you will know the exact situation and what to do and how to do it after that.\n#99 [53:58] ASTRO: Or if you can join live on call, chat, or video, then I will get the photo printed and sit with you to complete the procedure in your place."
+  }
+ }
+}

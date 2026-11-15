@@ -1,0 +1,9 @@
+{
+ "file": "conversation_192131_168.csv",
+ "tier": "Medium",
+ "user_id": "192131",
+ "ltv": 1370.0,
+ "n_msgs": 2,
+ "n_astro_msgs": 0,
+ "status": "too_short"
+}

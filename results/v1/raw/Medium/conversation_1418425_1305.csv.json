@@ -1,0 +1,238 @@
+{
+ "file": "conversation_1418425_1305.csv",
+ "tier": "Medium",
+ "user_id": "1418425",
+ "ltv": 2850.0,
+ "n_msgs": 14,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.18,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 5.4,
+  "B3": 4.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 8.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific distress about the money being stuck or the family not picking up calls.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the names of the people involved, which is a Type A question as it builds on the user's specific situation.",
+    "quotes": [
+     "Jiske pass aapka Paisa fasa Hai unka Naam bataiye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the names of the people involved to check the situation, which is a valid reason.",
+    "quotes": [
+     "Jiske pass aapka Paisa fasa Hai unka Naam bataiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or details that could be verified.",
+    "quotes": [
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (chances of recovery) without the user repeating the question.",
+    "quotes": [
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors or reasons are provided in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading is provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses wait lines that do not carry readings.",
+    "quotes": [
+     "Aap intezar kariye main aapke janm kundli check kar le rahi hun",
+     "Aap aise hi intezar karo"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a wait line.",
+    "quotes": [
+     "Aap aise hi intezar karo"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and appropriate for the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ek pariwar me mere 30-35 lakh rs fans gaye h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's question about money recovery. However, the consultation was hindered by excessive wait lines and a lack of depth or chart-based reasoning."
+ },
+ "usage": {
+  "input_tokens": 10211,
+  "output_tokens": 1029
+ }
+}

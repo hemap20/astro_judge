@@ -1,0 +1,322 @@
+{
+ "file": "conversation_1266636_285.csv",
+ "tier": "High",
+ "user_id": "1266636",
+ "ltv": 7044.5,
+ "n_msgs": 31,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 1,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.5,
+  "B2": 2.71,
+  "B3": 1.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 4,
+   "M": 22,
+   "long_frac": 0.091,
+   "max_words": 42,
+   "avg_words": 14.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "brain wash kar dungi 15 20 minut ka time lagega",
+    "reason": "The astrologer is promising a 'brainwash' service to manipulate the daughter's feelings, which is unethical and uses fear/urgency to push a paid service."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the mother's concern about the daughter's relationship, but the overall quality is severely compromised by the unethical suggestions.",
+    "quotes": [
+     "Ladka inko Kabhi support Nahin Karega"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the boy, but then uses the request to pivot into a manipulative sales pitch.",
+    "quotes": [
+     "Ladke ka kuchh Naam kuchh detail pata hai"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name, but instead of using it for a reading, uses it to offer a 'brainwash' service.",
+    "quotes": [
+     "Inka aur use ladke ka naam pata aapane Bata Diya Hai brain wash kar dungi"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based evidence, focusing instead on fear-mongering about the boy's nature.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a timeline for marriage, but it is overshadowed by the unethical sales pitch.",
+    "quotes": [
+     "2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Kundli' but does not explain the chart factors in plain, relatable words, instead using them to justify the 'brainwash' pitch.",
+    "quotes": [
+     "En ki Kundli mein 72% love marriage ka yog Hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the conversation shifts entirely to the manipulative service.",
+    "quotes": [
+     "brain wash kar dungi"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a timeline but it is not supported by a clear chart-based reason.",
+    "quotes": [
+     "2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The 'remedy' offered is a manipulative service, which is unethical.",
+    "quotes": [
+     "brain wash kar dungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the relationship but fails to provide a professional consultation.",
+    "quotes": [
+     "Jisse kabhi bhi aapki beti unke bare mein Nahin sochenge"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the 'brainwash' offer as a hook to keep the user engaged.",
+    "quotes": [
+     "brain wash kar dungi 15 20 minut ka time lagega"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but keeps pushing the manipulative service.",
+    "quotes": [
+     "ya to abhi aap samay badhaaoge to Abhi start kar dungi"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the unethical 'brainwash' pitch.",
+    "quotes": [
+     "Aur vah ladka agar inke upar kuchh negative Kare usse pahle use ladki ko hi dur kar do brainwash karke"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the content is highly inappropriate.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Marriage ke",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic timeline for marriage but failed significantly by offering unethical 'brainwashing' services to manipulate the user's daughter. This behavior is highly unprofessional and violates core safety and ethical standards."
+ },
+ "usage": {
+  "input_tokens": 10790,
+  "output_tokens": 1505
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "brain wash kar dungi 15 20 minut ka time lagega",
+   "reason": "The astrologer is promising a 'brainwash' service to manipulate the daughter's feelings, which is unethical and uses fear/urgency to push a paid service.",
+   "quote_en": "I will brainwash you, it will take about 15-20 minutes."
+  }
+ }
+}

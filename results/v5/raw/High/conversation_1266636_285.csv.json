@@ -1,0 +1,559 @@
+{
+ "file": "conversation_1266636_285.csv",
+ "tier": "High",
+ "user_id": "1266636",
+ "ltv": 7044.5,
+ "n_msgs": 31,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 10,
+  "1.4": 10,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 6.06,
+ "blueprint": {
+  "score": 4.66,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 47,
+   "S4": 162,
+   "S5": 200,
+   "S6": 179
+  }
+ },
+ "final": 2.36,
+ "label": "bad",
+ "buckets": {
+  "B1": 9.25,
+  "B2": 5.0,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 22,
+   "long_frac": 0.091,
+   "max_words": 42,
+   "avg_words": 14.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     29,
+     30
+    ],
+    "paid_idx": [
+     27
+    ],
+    "reason": "The astrologer uses fear ('ladke ka nature achcha Nahin Hai', 'negative Kare') to push a paid service ('brain wash kar dungi', 'samay badhaaoge')",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the mother's concern."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identified the concern as marriage."
+   },
+   "S4": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Gave a timeline for marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Asked for details about the boy."
+   },
+   "S6": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Gave a prediction about love vs arrange marriage."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 27,
+    "quality": 0,
+    "note": "The hook is a paid pitch for a 'brainwash' service."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the mother's concern about the daughter's marriage and the boy, but does not name the mother's feeling.",
+    "quotes": [
+     "Hetakshi, aap kya jaanna chahti hain?",
+     "Love, marriage, ya career, kis bare mein puchna hai?"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's name and details, which is relevant to the mother's concern.",
+    "quotes": [
+     "Ladke ka kuchh Naam kuchh detail pata hai"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 23,
+       "type": "A",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's name to provide a reading, which is tied to the mother's concern.",
+    "quotes": [
+     "Ladke ka kuchh Naam kuchh detail pata hai"
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the boy's nature and the marriage timeline is specific and new to the user.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai",
+     "Aapke ladki ki marriage mein abhi samay Hai 2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the marriage and the boy's nature.",
+    "quotes": [
+     "Aapke ladki ki marriage mein abhi samay Hai 2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 19,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but does not explain the chart factors in plain words.",
+    "quotes": [
+     "En ki Kundli mein 72% love marriage ka yog Hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the boy's nature and the marriage success probability.",
+    "quotes": [
+     "Ladke ka nature bilkul bhi achcha Nahin Hai",
+     "love marriage mein inki marriage successful Nahin rahegi"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a timeline for marriage.",
+    "quotes": [
+     "2026 ke bad hi marriage dikhai de rahi hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a 'brainwash' service which is a paid pitch, not a valid remedy.",
+    "quotes": [
+     "brain wash kar dungi 15 20 minut ka time lagega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'brainwashing' to push for more time.",
+    "quotes": [
+     "brain wash kar dungi 15 20 minut ka time lagega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the content is manipulative.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pitch for a paid service.",
+    "quotes": [
+     "brain wash kar dungi 15 20 minut ka time lagega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy to understand, but the astrologer uses a manipulative tone.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Marriage ke",
+  "main_question_idx": 6,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a timeline for marriage and insight into the boy's nature, which helped the user. However, the astrologer used fear and manipulation to push for a paid 'brainwashing' service, which severely hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 17085,
+  "output_tokens": 2594
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": 7,
+   "2.1": 7,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#27 [03:57] ASTRO: Inka aur use ladke ka naam pata aapane Bata Diya Hai brain wash kar dungi 15 20 minut ka time lagega ya to abhi aap samay badhaaoge to Abhi start kar dungi ya to fir se connect karoge to chat per dobara\n#29 [04:18] ASTRO: धीरे-धीरे karke Jo Bhi unke man mein hai vah khatm ho jaega use ladke ke liye Baki jaisa aapko theek Lage aapke acche Ke liye Hi bata rahi hun kyunki vah ladke ka nature achcha Nahin Hai\n#30 [04:35] ASTRO: Aur vah ladka agar inke upar kuchh negative Kare usse pahle use ladki ko hi dur kar do brainwash karke",
+   "reason": "The astrologer uses fear ('ladke ka nature achcha Nahin Hai', 'negative Kare') to push a paid service ('brain wash kar dungi', 'samay badhaaoge')",
+   "quote_en": "#27 [03:57] ASTRO: You have already given me your name and that boy's name. I will brainwash him; it will take 15-20 minutes. Either you extend the time now and I will start immediately, or you can reconnect on chat again.\n#29 [04:18] ASTRO: Gradually, whatever is in his mind for that boy will fade away. The rest is up to you, I am telling you this for your own good because that boy's nature is not good.\n#30 [04:35] ASTRO: And before that boy does anything negative to her, just distance that girl away by brainwashing him."
+  }
+ }
+}

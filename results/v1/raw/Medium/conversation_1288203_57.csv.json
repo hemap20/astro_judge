@@ -1,0 +1,263 @@
+{
+ "file": "conversation_1288203_57.csv",
+ "tier": "Medium",
+ "user_id": "1288203",
+ "ltv": 1380.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.42,
+ "buckets": {
+  "B1": 2.33,
+  "B2": 4.33,
+  "B3": 3.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.231,
+   "max_words": 49,
+   "avg_words": 17.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's request for future guidance, instead repeatedly asking the user to 'come to chat' or provide more information.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth timing twice despite the user stating they don't know it, which is a Type C question.",
+    "quotes": [
+     "Kishan ji aapki birth timing kya hai please mention kariye",
+     "Birth timing"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasoning or a concrete marker.",
+    "quotes": [
+     "jo aapke future carrier hoga Na present time mein aapko bahut hi jyada struggle time chal raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about their future, and the astrologer provided a vague statement about struggle without a clear direction or answer.",
+    "quotes": [
+     "Mera life ma aage ka future kay kay hai btayeye",
+     "jo aapke future carrier hoga Na present time mein aapko bahut hi jyada struggle time chal raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason is provided for the struggle mentioned.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide any further readings after the initial vague statement.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any next layer, instead just asking the user to provide more info.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks the user to 'come to chat' or 'join chat' which stalls the conversation.",
+    "quotes": [
+     "Jay Kishan ji chat per aaiae",
+     "please aap ek bar dobara chat join kariye"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for the user to join the chat, which provides no value.",
+    "quotes": [
+     "Jay Kishan ji please chat per aaiae kyunki agar aap chat per nahin aaenge to main aapko details nahin de paungi jo ki"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, though the astrologer is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera life ma aage ka future kay kay hai btayeye",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading and spent most of the time asking the user to 'join the chat' despite the user already being in the chat. The lack of birth time was handled poorly with repetitive questions rather than proceeding with a Prashna-style reading."
+ },
+ "usage": {
+  "input_tokens": 10511,
+  "output_tokens": 1199
+ }
+}

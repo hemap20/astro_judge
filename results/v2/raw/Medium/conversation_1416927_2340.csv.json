@@ -1,0 +1,609 @@
+{
+ "file": "conversation_1416927_2340.csv",
+ "tier": "Medium",
+ "user_id": "1416927",
+ "ltv": 1963.0,
+ "n_msgs": 110,
+ "n_astro_msgs": 77,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 8,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.23,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 7.43,
+  "B3": 7.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.013,
+   "max_words": 35,
+   "avg_words": 11.4,
+   "bursts": 8,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the broken marriage proposal and the family's involvement.",
+    "quotes": [
+     "Ji dekh paa raha hu aapke paas ye rishta family ke through aaya tha",
+     "Lekin kuch samay bad cancel jaisi situation aa gayi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that build on the user's narrative (e.g., about the family's involvement and the mediator).",
+    "quotes": [
+     "Ye bataye ye rishta aapki family ki taraf se aya tha",
+     "Yah bataen inki family walon Ne aapko dekha tha"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the other person's family and the mediator to understand the situation, though the person's name was provided by the user at the start.",
+    "quotes": [
+     "Ye bataye ye rishta aapki family ki taraf se aya tha",
+     "Yah bataen inki family walon Ne aapko dekha tha"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading identifies the current situation (family interference, boy's desire to marry) and links it to the user's chart (Shani in 7th house).",
+    "quotes": [
+     "Actually aapke saptam Bhav me shani jo baar baar aisi badhayen lata hai marriage mr",
+     "Mujhe Achanak Mana karne ka Karan yah dikhai deta hai ki aapke alava aur bhi kahi rishta dekha tha"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction regarding the possibility of the marriage happening if remedies are performed.",
+    "quotes": [
+     "Dekhiae abhi bhi shaadi ho sakti hai",
+     "Iske liye agar aap remedy karen to bilkul sambhav hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage delay to the position of Shani in the 7th house.",
+    "quotes": [
+     "Actually aapke saptam Bhav me shani jo baar baar aisi badhayen lata hai marriage mr"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the boy's guilt and the mother's interference as the conversation progresses.",
+    "quotes": [
+     "Main ye bhi dekh paa raha hu ki ladka is baat ka kafi guit bhi feel kar raha hai",
+     "Lekin unki family mein koi female hai jisne is marriage ko rokne me zyada bhumika nibhai"
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer does not give a specific date but suggests the possibility of the marriage happening if remedies are done.",
+    "quotes": [
+     "Dekhiae abhi bhi shaadi ho sakti hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a mantra for healing, which is a practical step for the user to perform.",
+    "quotes": [
+     "Iska jap aap shuru kare daily ek Mala karna hai aapko"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage concern throughout the conversation.",
+    "quotes": [
+     "Dekhiae abhi bhi shaadi ho sakti hai",
+     "Married life aapki acchi rahegi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the boy's mother's nature and the potential for healing.",
+    "quotes": [
+     "Baki uski mother kafi rude nature ki hai",
+     "aap mantron ke through ek healing hoti hai use karwa sakti hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and continues to provide insights until the end.",
+    "quotes": [
+     "Married life aapki acchi rahegi",
+     "Maine jo aapko Mantra bataya Hai vah ek Mala Daily kijiye"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide guidance on the mantra and offer future healing, keeping the user engaged.",
+    "quotes": [
+     "Maine jo aapko Mantra bataya Hai vah ek Mala Daily kijiye",
+     "Kafi fayda milega aur Jab bhi aapke pass lagbhag 20 minut ka samay Ho mujhe dijiyega Main healing kar dunga"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish.",
+    "quotes": [
+     "Ok ji",
+     "Wait kijiye dekhta hu thoda samay dijiye"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Usse meri shadi ki baat chal rahi thi...... Sab thik tha...... Achanak se wo mana kar diya shadi k liye..... Mujhe janna hai wo aisa kyu kya.... Or hamare bich kya sab firse thik hoga??? Kya wo wapas aaega?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively identified the family dynamics and the boy's internal conflict, providing a clear reading that resonated with the user's situation. The consultation was well-paced and maintained a supportive tone, though it relied on suggesting remedies to resolve the issue."
+ },
+ "usage": {
+  "input_tokens": 13284,
+  "output_tokens": 2863
+ }
+}

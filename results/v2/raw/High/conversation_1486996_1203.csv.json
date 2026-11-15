@@ -1,0 +1,247 @@
+{
+ "file": "conversation_1486996_1203.csv",
+ "tier": "High",
+ "user_id": "1486996",
+ "ltv": 5633.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 6,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.09,
+ "buckets": {
+  "B1": 3.5,
+  "B2": 3.86,
+  "B3": 5.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 10.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about her husband's behavior in the final reading, but the initial response to her sharing the problem was a request for data. The reading at #18 addresses the marriage life, but it contradicts her experience without acknowledging her specific pain.",
+    "quotes": [
+     "Aap donon ki kundli ke anusar jaisa ki Main dekh Pa raha hun aap donon ki kundli mein to marriage life ko lekar to kafi achcha dikhai de raha hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name and DOB. While the name was provided, the astrologer asked for the DOB again after it was provided in the same message (#10), making it a Type C question.",
+    "quotes": [
+     "Husband ka naam aur date off birth pahle aap send kijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's details to check the charts, which is appropriate for the question about the relationship. However, the reading provided does not use the husband's name or specific details to explain the behavior.",
+    "quotes": [
+     "Thoda samay dijiye main donon ki kundli ko Banakar check kar leta Hun"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not relatable; it contradicts the user's stated reality (husband is angry/absent) by claiming the marriage life looks 'quite good'. It is not specific or new.",
+    "quotes": [
+     "aap donon ki kundli mein to marriage life ko lekar to kafi achcha dikhai de raha hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not answer the user's question about whether there is another woman or work pressure; instead, he gives a generic positive statement about the marriage.",
+    "quotes": [
+     "aap donon ki kundli mein to marriage life ko lekar to kafi achcha dikhai de raha hai"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart reason provided for the husband's behavior or the state of the marriage.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency issues as no timing was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main concern (the husband's behavior).",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer; the chat ends abruptly mid-sentence.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the chat ends mid-sentence due to time running out.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is an incomplete sentence, providing no reading or guidance.",
+    "quotes": [
+     "Aur jaisa ki Main dekh Pa raha hun ki aapke husband aapko"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, using common terms.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere pati mere sath ache se nhi rehte gusa krte rehte h. Kya ink life me or koi ldki h ya kam ka presar h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific concerns and provided a generic, contradictory reading that ignored the user's stated problems. The chat ended abruptly mid-sentence, leaving the user with no actionable insight or closure."
+ },
+ "usage": {
+  "input_tokens": 10569,
+  "output_tokens": 1309
+ }
+}

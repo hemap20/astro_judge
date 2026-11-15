@@ -1,0 +1,330 @@
+{
+ "file": "conversation_1495779_2442.csv",
+ "tier": "High",
+ "user_id": "1495779",
+ "ltv": 15492.22,
+ "n_msgs": 52,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 5.43,
+  "B3": 7.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 5,
+   "T": 9
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.429,
+   "max_words": 160,
+   "avg_words": 32.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी",
+    "reason": "The astrologer promises a specific outcome (the girl will contact him) within a specific timeframe, which is a form of manipulation and false promise."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the extra-marital relationship in message #15.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने ka योग बन रहा है"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the user's intent and relationship status, which are relevant to the user's query.",
+    "quotes": [
+     "आप कहें तो वह आपके पास आ सकती है",
+     "आप इन से रिलेशनशिप करना चाहते हैं"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and photo to perform a reading/puja.",
+    "quotes": [
+     "उनकी कुंडली दी है उसे चीज को मेरे को देखना पड़ेगा",
+     "Pic bejiye face reading karna padega"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provides a chart-based explanation for the user's situation.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने का योग बन रहा है"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses the user's desire for a relationship.",
+    "quotes": [
+     "आप इन से रिलेशनशिप करना चाहते हैं",
+     "संभावना तो है"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the extra-marital affair to Rahu in the 7th house.",
+    "quotes": [
+     "राहु आपके सप्तम भाव में बैठा हुआ है जो की एक्स्ट्रा मैरिटल अफेयर दो देने का योग बन रहा है"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds depth by discussing the user's energy and the need for a ritual.",
+    "quotes": [
+     "आपकी एनर्जी को रीड कर रहा हूं"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific timeframe for the outcome, which is problematic.",
+    "quotes": [
+     "8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a ritual (puja) as a remedy.",
+    "quotes": [
+     "सर पूजन करना पड़ेगा इसका"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship throughout the chat.",
+    "quotes": [
+     "आप इन से रिलेशनशिप करना चाहते हैं"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer regarding the ritual/puja to achieve the user's goal.",
+    "quotes": [
+     "सर पूजन करना पड़ेगा इसका"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the conversation going until the end.",
+    "quotes": [
+     "मैं 4:00 बजे स्वयं सब रेडी करके रखूंगा"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages focus on the upcoming ritual/video call.",
+    "quotes": [
+     "मैं 4:00 बजे स्वयं सब रेडी करके रखूंगा आपको बस आना है"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is mostly accessible, though some formal terms are used.",
+    "quotes": [
+     "थोड़ा समय दीजिए मैं फेस रीड कर रहा हूं"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship love k bareme puchna",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a reading based on the user's chart but failed significantly by promising a specific outcome and pushing a ritual to influence the other person. The consultation was helpful in addressing the user's immediate query but crossed ethical boundaries by guaranteeing results."
+ },
+ "usage": {
+  "input_tokens": 11494,
+  "output_tokens": 1512
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी",
+   "reason": "The astrologer promises a specific outcome (the girl will contact him) within a specific timeframe, which is a form of manipulation and false promise.",
+   "quote_en": "That girl will contact you herself within 8 to 10 days."
+  }
+ }
+}

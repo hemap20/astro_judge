@@ -1,0 +1,383 @@
+{
+ "file": "conversation_3289400_670.csv",
+ "tier": "High",
+ "user_id": "3289400",
+ "ltv": 27986.06,
+ "n_msgs": 26,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 8,
+  "2.1": 7,
+  "2.2": 6,
+  "2.3": 4,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 1,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.12,
+ "blueprint": {
+  "score": 4.6,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 20,
+   "S2": 42,
+   "S3": 103,
+   "S4": 377,
+   "S6": 633
+  }
+ },
+ "final": 1.86,
+ "label": "bad",
+ "buckets": {
+  "B1": 6.0,
+  "B2": 5.14,
+  "B3": 4.33,
+  "B4": 5.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 1,
+   "M": 4,
+   "long_frac": 0.692,
+   "max_words": 118,
+   "avg_words": 59.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16,
+     17
+    ],
+    "paid_idx": [
+     20,
+     21,
+     23
+    ],
+    "evidence_idx": [
+     16,
+     17,
+     20,
+     21,
+     23
+    ],
+    "reason": "The astrologer uses fear by claiming a 'third party' is manipulating the user's girlfriend and then immediately offers a paid solution to remove this influence."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Acknowledges the user's need for help but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 2,
+    "note": "Identifies the core concern about the girlfriend's behavior."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gives a positive reading but lacks specific chart evidence."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up question asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 22,
+    "quality": 1,
+    "note": "Mentions Shukr planet but it is generic and not deeply personalized."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy offered is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship but does not repeat specific details or name the feeling.",
+    "quotes": [
+     "Ji bilkul aapko aapke relationship ko lekar kya Janna Hai bataiye"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details which is necessary, but then asks no further questions to build on the user's situation.",
+    "quotes": [
+     "date off birth janm sthan janm time"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details with a reason (matching charts) and uses the name.",
+    "quotes": [
+     "date off birth janm sthan janm time FIR main aap donon ka Patrika match karke aapko clear Bata deta hun"
+    ],
+    "score": 8
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present and is specific to the user's situation, but lacks a clear chart reason.",
+    "quotes": [
+     "inke life mein third party ka involve hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether she loves him, but does so with a vague 'third party' narrative.",
+    "quotes": [
+     "Bilkul bahut Sundar prashn Bhai ji bilkul ismein main aapka help karunga"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Shukr planet but does not link it to the user's life in a meaningful way.",
+    "quotes": [
+     "aapke bhi shukr planet ke according Jo Prem sambandh Ko lekar Mane jaate Hain"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add the 'third party' point, but it is not built on user details.",
+    "quotes": [
+     "inke life mein third party ka involve hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing given, just a general assurance.",
+    "quotes": [
+     "jald hi samapt Ho jaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid service to remove the third party.",
+    "quotes": [
+     "han iska main solution kar sakta hun ki use third party ko dur kar sakta hun"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the relationship topic throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened; the astrologer just pushes the paid remedy.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer stalls by not answering the user's direct question.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are the astrologer failing to answer the user's direct question about the third party.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user's Hinglish.",
+    "quotes": [
+     "Bhai ji",
+     "tension bilkul nahin lena hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; no trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya vo merse pyaar kerti h ya sirf taras khake merse baat kri kl",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer helped by providing a clear, empathetic tone and using the user's language, but hurt the consultation by introducing a 'third party' narrative to push a paid remedy. The lack of a direct answer to the user's final question about the third party's identity further damaged the trust."
+ },
+ "usage": {
+  "input_tokens": 16109,
+  "output_tokens": 1715
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [07:16] ASTRO: Kundli ke madhyam se inke life mein third party ka involve hai abhi jaldi aur galat mat samjhiega inki family member mein koi hai aur vah female hai jo Inka mind divert kar rahi hai jiske vajah se thoda ek confusion mein rahti hai jiske vajah se abhi kuchh samay se jyada hi yah chijen aapko dekhne ko mil raha hoga ego aur thodi duriyan yah chijen abhi dikh Raha hoga aapko\n#17 [07:51] ASTRO: To iska matlab yah thodi na hai ki matlab aapka yah rishta khatm hone jaisa dikh raha hai aisa kuchh bhi nahin Hai positive sanket Hai chances kafi Prabal Hai inki man mein hua feeling jagrit hoga Lekin jo third party ka involve hai please usko aap thoda dur karvaiye aapko pata Hai inki family member mein hai aur vah female hai koi bhi baat ho kuchh bhi baat Ho to yah usse share Karti Hain jiske vajah se vah ladki Inka mind divert kar rahi hai\n#20 [09:57] ASTRO: Dekhiae itna to main aapko hint de diya ki unki family member ka koi hai aur company ki kuchh policy hota hai to yah batana anivarya nahin Hai Lekin bhai ji hint Dena bahut jaruri hai theek hai aur Maine de bhi diya aapko itna to Bata Diya bus aap unko alert kariyega aur Prem Bhavna se hi baat kariyega theek hai jo bhi aapko samjhana hai jo bhi kahana Hai unko Prem Bhavna se hi kahiye theek hai vah samjhenge baat Ko acchi ladki Hai han iska main solution kar sakta hun ki use third party ko dur kar sakta hun unka mind divert karke hata sakta hun aap donon ke life se yah kar sakta\n#21 [09:58] ASTRO: Dekhiae itna to main aapko hint de diya ki unki family member ka koi hai aur company ki kuchh policy hota hai to yah batana anivarya nahin Hai Lekin bhai ji hint Dena bahut jaruri hai theek hai aur Maine de bhi diya aapko itna to Bata Diya bus aap unko alert kariyega aur Prem Bhavna se hi baat kariyega theek hai jo bhi aapko samjhana hai jo bhi kahana Hai unko Prem Bhavna se hi kahiye theek hai vah samjhenge baat Ko acchi ladki Hai han iska main solution kar sakta hun ki use third party ko dur kar sakta hun unka mind divert karke hata sakta hun aap donon ke life se yah kar sakta hun\n#23 [11:54] USER: kya aap third party se uska mind hta sakte ho",
+   "reason": "The astrologer uses fear by claiming a 'third party' is manipulating the user's girlfriend and then immediately offers a paid solution to remove this influence.",
+   "quote_en": "#16 [07:16] ASTRO: Through the Kundli, it appears there is a third-party involvement in their life right now. Please do not misunderstand; it is someone from their family, a female, who is diverting their mind. This is causing some confusion, which is why you might have been noticing these things more lately, such as ego issues and some distance.\n#17 [07:51] ASTRO: This does not mean that your relationship is ending; it is nothing like that. There are positive signs, and the chances are quite strong that the feelings in their heart will be awakened. However, please try to distance that third party. You know it is a family member, a female, and they share everything with her, which is why she is diverting their mind.\n#20 [09:57] ASTRO: Look, I have given you a hint that it is someone from their family. Due to company policy, I am not obligated to disclose more, but brother, it was important to give you a hint, and I have done so. Just alert them and speak with love. Whatever you want to explain or say, say it with love. They will understand; she is a good girl. Yes, I can provide a solution to remove that third party and divert their mind away from your lives.\n#21 [09:58] ASTRO: Look, I have given you a hint that it is someone from their family. Due to company policy, I am not obligated to disclose more, but brother, it was important to give you a hint, and I have done so. Just alert them and speak with love. Whatever you want to explain or say, say it with love. They will understand; she is a good girl. Yes, I can provide a solution to remove that third party and divert their mind away from your lives.\n#23 [11:54] USER: Can you divert their mind away from the third party?"
+  }
+ }
+}

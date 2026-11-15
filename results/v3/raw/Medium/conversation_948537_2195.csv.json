@@ -1,0 +1,361 @@
+{
+ "file": "conversation_948537_2195.csv",
+ "tier": "Medium",
+ "user_id": "948537",
+ "ltv": 3879.6,
+ "n_msgs": 27,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 6,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.38,
+ "rubric_score": 6.38,
+ "blueprint": {
+  "score": 5.08,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.867,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S2": 170,
+   "S3": 234,
+   "S4": 170,
+   "S5": 281,
+   "S6": 264
+  }
+ },
+ "final": 5.73,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.5,
+  "B2": 6.0,
+  "B3": 5.67,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 8,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 7.4,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Acknowledges the mental stress in her marriage."
+   },
+   "S3": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Asks for clarification on children's status."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gives a general insight about marital stress."
+   },
+   "S5": {
+    "present": true,
+    "idx": 23,
+    "quality": 2,
+    "note": "Asks if she is in contact with her children."
+   },
+   "S6": {
+    "present": true,
+    "idx": 21,
+    "quality": 1,
+    "note": "Mentions 2026 as a positive year for her condition."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": ""
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": ""
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the marital stress she shared.",
+    "quotes": [
+     "aapke kundli ke anusar se aapko marriage life mein kafi jyada mansik tanav dekhne Ko Mila Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner details (Type C) and if she is in contact with children (Type A).",
+    "quotes": [
+     "Partner ka detail dijiye",
+     "Aapke Santan se"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner details but does not use them to provide a reading about the match.",
+    "quotes": [
+     "Partner ka detail dijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about marital stress is specific and tied to her situation.",
+    "quotes": [
+     "aapke kundli ke anusar se aapko marriage life mein kafi jyada mansik tanav dekhne Ko Mila Hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "She asks to get her children back; the astrologer gives a positive outlook for 2026.",
+    "quotes": [
+     "2026 mein condition bahut hi achcha dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions kundli but does not link it to a specific planetary factor.",
+    "quotes": [
+     "aapke kundli ke anusar se"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading adds the point about children returning in 2026.",
+    "quotes": [
+     "aapke Santan aapko mil jaenge",
+     "2026 mein condition bahut hi achcha dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a year as a window for improvement.",
+    "quotes": [
+     "2026 mein condition bahut hi achcha dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Stays on the topic of children and marriage.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends abruptly.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a question about her children.",
+    "quotes": [
+     "Aapke Santan se"
+    ],
+    "score": 6
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai apne bccho ko apne pas bulana chahti",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer correctly identified the user's marital stress and provided a hopeful timeline for her children. However, the chat lacked actionable remedies and failed to provide a clear hook for a follow-up consultation."
+ },
+ "usage": {
+  "input_tokens": 15136,
+  "output_tokens": 1508
+ }
+}

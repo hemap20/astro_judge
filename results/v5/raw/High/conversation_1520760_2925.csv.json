@@ -1,0 +1,587 @@
+{
+ "file": "conversation_1520760_2925.csv",
+ "tier": "High",
+ "user_id": "1520760",
+ "ltv": 22403.48,
+ "n_msgs": 73,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 10,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 6,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.26,
+ "rubric_score": 7.26,
+ "blueprint": {
+  "score": 7.6,
+  "coverage": 0.667,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.833,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 2,
+   "S2": 2,
+   "S3": 2,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 18,
+   "S2": 1317,
+   "S3": 76,
+   "S4": 135,
+   "S5": 705,
+   "S6": 489,
+   "S7": 713,
+   "S8": 1317,
+   "S9": 1473
+  }
+ },
+ "final": 7.43,
+ "label": "good",
+ "buckets": {
+  "B1": 8.0,
+  "B2": 6.71,
+  "B3": 7.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 7,
+   "long_frac": 0.059,
+   "max_words": 103,
+   "avg_words": 11.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 2,
+    "note": "Warm greeting and rapport established."
+   },
+   "S2": {
+    "present": true,
+    "idx": 64,
+    "quality": 2,
+    "note": "Acknowledged user's anxiety."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 2,
+    "note": "Identified career, health, money, and marriage as concerns."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Initial prediction given regarding dasha."
+   },
+   "S5": {
+    "present": true,
+    "idx": 40,
+    "quality": 1,
+    "note": "Asked which aspect to cover next."
+   },
+   "S6": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Connected Saturn in 8th to career."
+   },
+   "S7": {
+    "present": true,
+    "idx": 41,
+    "quality": 1,
+    "note": "Probed marriage and health."
+   },
+   "S8": {
+    "present": true,
+    "idx": 64,
+    "quality": 1,
+    "note": "Provided guidance on anxiety."
+   },
+   "S9": {
+    "present": true,
+    "idx": 70,
+    "quality": 1,
+    "note": "Invited user to reconnect for further details."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about anxiety in message 64.",
+    "quotes": [
+     "Main samajh sakti hoon, anxiety hona aajkal common hai, lekin aapke chart mein Moon aur Mercury ki position ki wajah se ye thoda zyada feel hota hai."
+    ],
+    "score": 9,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions to guide the session, but they are mostly generic.",
+    "quotes": [
+     "Aur bataiye, kaun sa life ka aspect dekhu"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": [
+      {
+       "idx": 40,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user mentions wanting to discuss a girl's details in the next session, but it is not the main question of this chat.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "about_specific_person": false,
+     "user_did_not_know_details": false,
+     "asked": false,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading about Rahu/Jupiter dasha is generic and lacks a concrete marker.",
+    "quotes": [
+     "Abhi apki rahu ki mahadasha and Jupiter ki antardasha chal rahi h"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the career and marriage questions with timeframes.",
+    "quotes": [
+     "Real stability 2040 k baad h"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 36,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links Saturn in 8th to career success.",
+    "quotes": [
+     "Apka saturn 8th me h, jobapki life to long banata h"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by moving from career to marriage and health.",
+    "quotes": [
+     "Job me aap bahut accha karenge"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a timeframe for stability.",
+    "quotes": [
+     "Real stability 2040 k baad h"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides guidance on anxiety.",
+    "quotes": [
+     "Main samajh sakti hoon, anxiety hona aajkal common hai, lekin aapke chart mein Moon aur Mercury ki position ki wajah se ye thoda zyada feel hota hai."
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages multiple topics well.",
+    "quotes": [
+     "Aur bataiye, kaun sa life ka aspect dekhu"
+    ],
+    "score": 7,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": true,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": true,
+     "both_fully_answered": true,
+     "two_answers_connected": true
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens the possibility of discussing the girl's details in the next session.",
+    "quotes": [
+     "Okay ji, main apka chart bana k rakhungi"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early close; the astrologer remains engaged until the user decides to reconnect.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are helpful and set up the next session.",
+    "quotes": [
+     "Okay ji, main apka chart bana k rakhungi",
+     "5 pm"
+    ],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and accessible.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mujhe apna aage ka future puchna hai",
+  "main_question_idx": 10,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a helpful and structured consultation, addressing the user's career and marriage concerns with clear timeframes. The most helpful aspect was the astrologer's ability to maintain engagement and provide actionable guidance on anxiety, while the empty media messages slightly disrupted the flow."
+ },
+ "usage": {
+  "input_tokens": 17689,
+  "output_tokens": 2719
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 6,
+   "1.4": 1,
+   "2.1": 6,
+   "2.2": 8,
+   "2.7": 7,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

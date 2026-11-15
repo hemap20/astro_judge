@@ -1,0 +1,362 @@
+{
+ "file": "conversation_1026645_752.csv",
+ "tier": "Low",
+ "user_id": "1026645",
+ "ltv": 141.6,
+ "n_msgs": 19,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.26,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 19,
+   "S4": 217,
+   "S5": 224
+  }
+ },
+ "final": 2.4,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 3.29,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.167,
+   "max_words": 90,
+   "avg_words": 20.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     14
+    ],
+    "paid_idx": [
+     18
+    ],
+    "evidence_idx": [
+     14,
+     18
+    ],
+    "reason": "The astrologer uses fear ('negative energy', 'problem create kar rahi hai') and then immediately pushes for a paid element by asking the user to 'connect on call' (which implies a paid service/extension)."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks for the concern but after multiple greetings."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gives a vague prediction about negative energy and distance."
+   },
+   "S5": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Asks a follow-up question about the current relationship status."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized prediction based on chart details."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about Mihir returning, instead asking for data.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and photos which are standard, but the request for a call is a pressure tactic.",
+    "quotes": [
+     "Unka pura detail dijiye Naam aur date off birth ya to unka aur apna photo"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but does not use them to provide a meaningful reading about the match.",
+    "quotes": [
+     "Unka pura detail dijiye Naam aur date off birth"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is vague and uses fear-based language without specific chart evidence.",
+    "quotes": [
+     "negative energy prapt ho rahi hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a clear direction on whether Mihir will return.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions 'Pancham sthan' but does not explain it in plain words for the user.",
+    "quotes": [
+     "Pancham sthan se jo Bandhan Yog lag raha hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth built; the conversation remains superficial.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is not answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Uses a tease to keep the user engaged without delivering value.",
+    "quotes": [
+     "Main uski life mein ek chij Sabse Badi important chij dekh raha hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is stalled by the astrologer's vague teases.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a push for a paid call.",
+    "quotes": [
+     "Aap call per connect karo"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the astrologer is not professional.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mihir vapasa ayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading and instead used vague, fear-based language to push for a paid call. The lack of clear answers and the pressure to move to a call significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 15504,
+  "output_tokens": 1489
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#14 [03:37] ASTRO: Vaise aage badhane ka Yog To Hai Lekin unki life se jo negative energy prapt ho rahi hai vah bahut jyada distance prapt kar rahi hai positive energy mil jaaye tab to aage badhane ka koi behtar Marg milega anyatha dikkat To unki life se hai isliye kyunki Pancham sthan se jo Bandhan Yog lag raha hai vah aapke jivan mein problem create kar rahi hai pahli chij ko bahut jaldi disturb Ho jaate Hain har chij ko lekar ke aur vah kisi bhi chij ka kahana man lete Hain\n#18 [05:01] ASTRO: Aap call per connect karo",
+   "reason": "The astrologer uses fear ('negative energy', 'problem create kar rahi hai') and then immediately pushes for a paid element by asking the user to 'connect on call' (which implies a paid service/extension).",
+   "quote_en": "#14 [03:37] ASTRO: Although there is a Yog to move forward, the negative energy coming from their life is creating a lot of distance. If you receive positive energy, you will find a better path to move forward; otherwise, the problem lies in their life because the Bandhan Yog forming from the fifth house is creating problems in your life. Firstly, you get disturbed very quickly about everything, and you tend to listen to whatever anyone says.\n#18 [05:01] ASTRO: Connect on a call."
+  }
+ }
+}

@@ -1,0 +1,385 @@
+{
+ "file": "conversation_956380_53.csv",
+ "tier": "Medium",
+ "user_id": "956380",
+ "ltv": 944.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.21,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 47,
+   "S3": 189,
+   "S4": 189
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 4.57,
+  "B3": 1.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 3,
+   "M": 14,
+   "long_frac": 0.286,
+   "max_words": 47,
+   "avg_words": 18.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     13
+    ],
+    "paid_idx": [
+     14,
+     18,
+     19,
+     21
+    ],
+    "evidence_idx": [
+     13,
+     14,
+     18,
+     19,
+     21
+    ],
+    "reason": "The astrologer uses fear ('thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai') to push a paid ritual/service ('main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega... main Aisa kar dunga') and repeatedly pressures the user to extend time or pay for services."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Identified the concern but immediately pivoted to a paid pitch."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gave a vague prediction about the future."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided; only a paid pitch."
+   },
+   "S9": {
+    "present": true,
+    "idx": 19,
+    "quality": 0,
+    "note": "Hook is a pressure tactic to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the question but provides no detail from the user's input, only a generic 'problem' statement.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos (Type C) and to extend time (Type C).",
+    "quotes": [
+     "To agar unka pic ho to aap send kijiye",
+     "Aur aap thoda samay badha lijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos to check matching but does not explain why or use the details.",
+    "quotes": [
+     "To agar unka pic ho to aap send kijiye apna bhi aur unka bhi main aap donon ka face reading bhi check kar leta Hun"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone in a relationship.",
+    "quotes": [
+     "aap donon ka future mein sath dikhai de raha hai but thoda sa problem dikhai de raha"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague 'yes' but immediately attaches a paid condition to it.",
+    "quotes": [
+     "aap donon ka future mein sath dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are just generic statements about love and loyalty.",
+    "quotes": [
+     "Vah aapke liye bahut jyada loyal bhi dikhai de rahe hain"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The 'remedy' is a paid pitch.",
+    "quotes": [
+     "main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one question was asked.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to pressure the user to extend time.",
+    "quotes": [
+     "main aapko abhi bahut kuchh batana chahta hun unke bare mein"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly tries to end the chat or force an extension.",
+    "quotes": [
+     "Kyunki aapka samay aap paryapt hone wala hai"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pressure tactics to extend time.",
+    "quotes": [
+     "Ya dobara contact kijiye",
+     "Kyunki aapka samay aap paryapt hone wala hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is manipulative.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Hm dono ka sath mai future hai ki ni",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading, instead using fear and vague promises to pressure the user into paying for rituals and extending the chat time. The lack of personalization and the aggressive sales tactics significantly hurt the consultation quality."
+ },
+ "usage": {
+  "input_tokens": 15243,
+  "output_tokens": 1710
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#13 [03:09] ASTRO: Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai but thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai thoda sa ISI ke vajah se future mein problem a sakta hai\n#14 [03:24] ASTRO: Agar kahiye to main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega aur family walon ke support se shaadi hoga aap donon ke family wale mam jaenge main Aisa kar dunga\n#18 [04:13] ASTRO: Agar aap donon ka kundli matching nahin Karega to main aap donon ka kundli bhi matching kar  dunga\n#19 [04:22] ASTRO: Aur aap thoda samay badha lijiye taki main aapko abhi bahut kuchh batana chahta hun unke bare mein\n#21 [04:59] ASTRO: Kyunki aapka samay aap paryapt hone wala hai abhi main aapko bahut kuchh batana chahta hun aapke bare mein bhi unke bare mein bhi important baten",
+   "reason": "The astrologer uses fear ('thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai') to push a paid ritual/service ('main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega... main Aisa kar dunga') and repeatedly pressures the user to extend time or pay for services.",
+   "quote_en": "#13 [03:09] ASTRO: As far as I can see, I see a future for both of you together, but there seems to be a slight problem. There is some issue going on with both of you, which might cause problems in the future.\n#14 [03:24] ASTRO: If you say so, I can shape your future in such a way that you both will get married, and it will happen with the support of your families. I will make sure your families agree to it.\n#18 [04:13] ASTRO: If your kundli does not match, I will make your kundli match as well.\n#19 [04:22] ASTRO: And please extend your time, as I want to tell you a lot more about them right now.\n#21 [04:59] ASTRO: Because your time is about to run out, and I want to tell you a lot more about yourself and them, including some important things."
+  }
+ }
+}

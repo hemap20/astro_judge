@@ -1,0 +1,310 @@
+{
+ "file": "conversation_1483366_2530.csv",
+ "tier": "Medium",
+ "user_id": "1483366",
+ "ltv": 1685.0,
+ "n_msgs": 30,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 1,
+  "2.1": 8,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 6.54,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 6.0,
+  "B3": 7.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 12.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by identifying the ego and misunderstandings in the relationship, which directly addresses the user's concern about being blocked.",
+    "quotes": [
+     "Aapke partner mein ego bahut dikhai de raha hai",
+     "Ek dusre ko lekar ke galatfahmiyan bhi bahut jyada ho gai thi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about the duration of the silence (Type A) and one request for a photo (Type C). Since there is one Type C question, the score is 4.",
+    "quotes": [
+     "Kitna din Ho Gaya aap donon ko ek dusre se baat kiye hue",
+     "Aap apne left hand ki pic send kar dijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the partner's name or birth details, focusing only on the user's chart and palmistry.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading identifies the ego and misunderstandings (New, Specific, Reason) and relates to the current situation (Now).",
+    "quotes": [
+     "Aapke partner mein ego bahut dikhai de raha hai",
+     "Ek dusre ko lekar ke galatfahmiyan bhi bahut jyada ho gai thi"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction that the partner will return, though it lacks a specific time window.",
+    "quotes": [
+     "Bahut jald wapas a jaenge kyunki chijen positive dikhai de rahe hain"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to the 5th house and planetary influences in plain words.",
+    "quotes": [
+     "Chandra ke sath Mangal baithe hue aapke Pancham bhav mein jo ki Prem sambandh ka bhav hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new insights about the partner's feelings and the ego issue, building on the initial reading.",
+    "quotes": [
+     "Ego ke vajah se jud nahin Pa Rahe Hain Jo feeling Hai present mein unki aapko lekar ke bahut hi jyada sakaratmak hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises the partner will return 'very soon' without a specific window, which is a vague prediction.",
+    "quotes": [
+     "Bahut jald wapas a jaenge"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a remedy but has not provided it yet, keeping the user waiting.",
+    "quotes": [
+     "main aapko batata hun kya karna hai aapko"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a next layer by asking for a number to provide further insight.",
+    "quotes": [
+     "Aap ek se 10 ke bich mein koi ek sankhya chunkar mujhe bata do"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer remained engaged until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a number to continue the reading, which keeps the momentum.",
+    "quotes": [
+     "Aap ek se 10 ke bich mein koi ek sankhya chunkar mujhe bata do"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms like 'Pancham bhav' which are explained as 'Prem sambandh ka bhav'.",
+    "quotes": [
+     "Chandra ke sath Mangal baithe hue aapke Pancham bhav mein jo ki Prem sambandh ka bhav hai"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere partner ne mujhe block kar rakha hai vah mujhe unblock karenge ya nahin vah Meri jindagi mein wapas aaenge",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a helpful reading by identifying the ego and misunderstandings in the relationship using chart-based insights. However, the consultation was hindered by asking for a photo and a number instead of providing concrete guidance or a clear timeline for the partner's return."
+ },
+ "usage": {
+  "input_tokens": 10679,
+  "output_tokens": 1570
+ }
+}

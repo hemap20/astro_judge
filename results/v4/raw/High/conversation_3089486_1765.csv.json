@@ -1,0 +1,481 @@
+{
+ "file": "conversation_3089486_1765.csv",
+ "tier": "High",
+ "user_id": "3089486",
+ "ltv": 7666.46,
+ "n_msgs": 56,
+ "n_astro_msgs": 33,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 1
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 2.99,
+ "rubric_score": 2.99,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 46,
+   "S2": 46
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 1.29,
+  "B3": 1.0,
+  "B4": 4.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.03,
+   "max_words": 34,
+   "avg_words": 11.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 1,
+   "Rep": 7,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "The user is expressing anxiety about a personal situation, not self-harm or suicidal ideation."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No claim about identity made."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     9,
+     13,
+     17,
+     28
+    ],
+    "paid_idx": [
+     16,
+     37,
+     39,
+     54
+    ],
+    "reason": "The astrologer uses fear ('Surya grah ka negative Prabhav') and guarantees ('iske guarantee main leta Hun') to pressure the user to extend time/recharge ('time Badha lo')."
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     15,
+     17,
+     23
+    ],
+    "reason": "The astrologer makes up a specific fact that the boy will contact the user by 9 PM, which is an invented prediction."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Acknowledges distress but immediately pivots to a pitch."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 0,
+    "note": "Asks for the question after the user already stated it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 0,
+    "note": "Prediction is based on fear and pressure to pay."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedies are a series of mantras used to pressure for time extension."
+   },
+   "S9": {
+    "present": true,
+    "idx": 55,
+    "quality": 0,
+    "note": "Hook is used to pressure for more time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific anxiety and details, focusing only on a generic 'negative influence' pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the question after it was already provided (Type C).",
+    "quotes": [
+     "Question kya hai aapka kyon pareshan hai aap kya galat ho raha hai aapke sath mein"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about the recording, instead promising a result by 9 PM.",
+    "quotes": [
+     "Jawab aapko Aaj ratri Tak mil jaega"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used without any explanation of their impact on the user's life.",
+    "quotes": [
+     "Surya grah ka negative Prabhav Rahu ke sath banaa hua Hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth; the chat is just a series of mantra requests.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer guarantees a result by 9 PM.",
+    "quotes": [
+     "iske guarantee main leta Hun"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a series of mantras used to pressure the user to extend time.",
+    "quotes": [
+     "Time Badha karke aap mantra kariye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user paying.",
+    "quotes": [
+     "Rishte ke future ko lekar ek aur gehri baat saamne aa rahi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer constantly pushes for more time.",
+    "quotes": [
+     "Time Badha lijiye jaldi se"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pressure pitch.",
+    "quotes": [
+     "Rishte ke future ko lekar ek aur gehri baat saamne aa rahi hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "did he record something bad while doing and did not tell me",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific anxiety, instead using fear and pressure to force the user to extend the consultation time. The entire chat was a series of manipulative requests for mantra chanting to extract more money."
+ },
+ "usage": {
+  "input_tokens": 16352,
+  "output_tokens": 1995
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#9 [02:21] ASTRO: Bahan ji Kyunki Surya grah ka negative Prabhav Rahu ke sath banaa hua Hai\n#13 [03:13] ASTRO: Bus Surya grah ka jo negative Prabhav banaa hua hai use positive karna hoga\n#16 [03:29] ASTRO: Sab kuchh main bata raha hun dekhiae upar add coin ka option hai aap apna time Badha lo\n#17 [03:37] ASTRO: Aur ham ek paath ke madhyam se aapke Bane hue negative Prabhav ko positive kar rahe hain aur ratri ko hi aapko jawab mil jaega 9:00 baje tak\n#28 [06:16] ASTRO: Ji bahan bilkul pyar Se Hi rahega iske guarantee main leta Hun bahan ji\n#37 [08:21] ASTRO: Time Badha karke aap mantra kariye\n#39 [09:57] ASTRO: Time Badha lijiye jaldi se aap apna\n#54 [14:57] ASTRO: Time Badha lijiye aap apna jaldi se Kashish ji bus thoda Mantra bacha hua hai aur",
+   "reason": "The astrologer uses fear ('Surya grah ka negative Prabhav') and guarantees ('iske guarantee main leta Hun') to pressure the user to extend time/recharge ('time Badha lo').",
+   "quote_en": "#9 [02:21] ASTRO: Sister, because the negative influence of the Surya grah is formed along with Rahu\n#13 [03:13] ASTRO: We just need to turn the negative influence of the Surya grah into a positive one\n#16 [03:29] ASTRO: I am telling you everything, look there is an add coin option above, increase your time\n#17 [03:37] ASTRO: And through a paath, we are turning your negative influence into a positive one, and you will get the answer by tonight at 9:00 PM\n#28 [06:16] ASTRO: Yes sister, it will definitely remain loving, I take the guarantee for this, sister\n#37 [08:21] ASTRO: Increase the time and then do the mantra\n#39 [09:57] ASTRO: Increase your time quickly\n#54 [14:57] ASTRO: Increase your time quickly Kashish ji, just a little bit of the mantra is left and"
+  },
+  "G4": {
+   "quote": "#15 [03:22] ASTRO: Aapke liye achcha Hi sochta Hai per planet ke negative Prabhav ki vajah se aapse connect nahin kar pa raha hai\n#17 [03:37] ASTRO: Aur ham ek paath ke madhyam se aapke Bane hue negative Prabhav ko positive kar rahe hain aur ratri ko hi aapko jawab mil jaega 9:00 baje tak\n#23 [05:27] ASTRO: Ham Aapke planet ko positive kar denge aur ratri 9:00 baje tak aapke pass jawab a jaega wapas",
+   "reason": "The astrologer makes up a specific fact that the boy will contact the user by 9 PM, which is an invented prediction.",
+   "quote_en": "#15 [03:22] ASTRO: He thinks well of you, but due to the negative influence of the planets, he is unable to connect with you\n#17 [03:37] ASTRO: And through a paath, we are turning your negative influence into a positive one, and you will get the answer by tonight at 9:00 PM\n#23 [05:27] ASTRO: We will make your planets positive and you will get the answer back by 9:00 PM tonight"
+  }
+ }
+}

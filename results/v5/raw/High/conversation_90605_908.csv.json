@@ -1,0 +1,553 @@
+{
+ "file": "conversation_90605_908.csv",
+ "tier": "High",
+ "user_id": "90605",
+ "ltv": 102383.5,
+ "n_msgs": 64,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": 10,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.0,
+ "rubric_score": 7.0,
+ "blueprint": {
+  "score": 6.72,
+  "coverage": 0.5,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.857,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 1,
+   "S8": 2,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 20,
+   "S2": 257,
+   "S3": 21,
+   "S4": 124,
+   "S6": 483,
+   "S7": 1300,
+   "S8": 1065
+  }
+ },
+ "final": 6.86,
+ "label": "good",
+ "buckets": {
+  "B1": 7.67,
+  "B2": 6.67,
+  "B3": 6.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.182,
+   "max_words": 37,
+   "avg_words": 18.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Acknowledges her emotional state but lacks deep empathy."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 2,
+    "note": "Identifies the concern about relationship energy."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gives a reading but it is very brief and lacks depth."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not ask follow-up questions about the user's situation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Provides a prediction but it is not tied to chart details."
+   },
+   "S7": {
+    "present": true,
+    "idx": 52,
+    "quality": 1,
+    "note": "Addresses the third-person concern."
+   },
+   "S8": {
+    "present": true,
+    "idx": 39,
+    "quality": 2,
+    "note": "Provides actionable guidance on how to approach the partner."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided at the end."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the partner's energy but does not repeat specific details or name the user's feelings.",
+    "quotes": [
+     "current energies negative aarahi hain"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide readings about her feelings and loyalty.",
+    "quotes": [
+     "Rajmita ke andar feelings hain",
+     "Rajmita loyal hai aap ke liye"
+    ],
+    "score": 9,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new information, is specific to the partner's state, and is tied to the user's question.",
+    "quotes": [
+     "unke mann mein fear, insecurity aur uncertainty chal rahi hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage and commitment with a time window.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai."
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 27,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are used; the reading is based on Tarot cards.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points about the partner's loyalty and the timeline for commitment.",
+    "quotes": [
+     "Rajmita loyal hai aap ke liye",
+     "3–6 months ke andar Rajmita apni taraf se clear commitment degi"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a consistent time window for marriage and commitment.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai."
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Provides practical guidance on how to handle the relationship.",
+    "quotes": [
+     "Gentle, understanding approach rakhein."
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Does not open a next layer after the main question is answered.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye; every reply carries content.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides specific guidance.",
+    "quotes": [
+     "Bade dramatic gestures se zyada, steady presence important hai."
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and informal, matching the user.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ka mere lia uske dil m payar h",
+  "main_question_idx": 14,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided consistent readings and guidance regarding the user's relationship. The most helpful part was the clear timeline and practical advice, while the lack of a hook for a future consultation was a missed opportunity."
+ },
+ "usage": {
+  "input_tokens": 18019,
+  "output_tokens": 2566
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": null,
+   "1.4": 9,
+   "2.1": 7,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

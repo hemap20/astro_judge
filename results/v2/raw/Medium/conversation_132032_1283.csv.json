@@ -1,0 +1,292 @@
+{
+ "file": "conversation_132032_1283.csv",
+ "tier": "Medium",
+ "user_id": "132032",
+ "ltv": 630.0,
+ "n_msgs": 36,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 9,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 5.14,
+  "B3": 5.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 1,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 26,
+   "avg_words": 13.3,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     33
+    ],
+    "reason": "The astrologer uses fear ('family against hai') and suggests a paid remedy ('upay karna hoga') to resolve the situation."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about love marriage and the partner's details.",
+    "quotes": [
+     "Aapki detail ke Aadhar per Adhikari de raha hai ki aap Kisi relation mein hain",
+     "Aap donon ki kundli ke Aadhar per family against hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details which is necessary for the reading, but the question about the partner's details is repeated.",
+    "quotes": [
+     "Aap apni partner ka detail send kar dijiye",
+     "Apne partner ka pura detail send kar dijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a reason (matching charts) and uses the name provided.",
+    "quotes": [
+     "jisse main aapki kundli aur aapke partner ki kundli Milan kar sakun",
+     "Aap donon ki kundli ke Aadhar per family against hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present and uses the user's input, but it is generic.",
+    "quotes": [
+     "Aap donon ki kundli ke Aadhar per family against hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage by stating the family is against it.",
+    "quotes": [
+     "Aap donon ki kundli ke Aadhar per family against hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions planets but does not explain how they affect the user's life in plain words.",
+    "quotes": [
+     "Jo planet hai na uske Aadhar per yah dikhai de raha hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point about the family being against the marriage.",
+    "quotes": [
+     "Aap donon ki kundli ke Aadhar per family against hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing is provided for the marriage.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is vague and linked to a paid service implication.",
+    "quotes": [
+     "Uske liye upay karna hoga agar aap upay karte Hain to Jo family against Hai vah agri ho jayegi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the relationship throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer, just pushes for a remedy.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the astrologer is not providing deep insights.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the remedy.",
+    "quotes": [
+     "Uske liye upay karna hoga agar aap upay karte Hain to Jo family against Hai vah agri ho jayegi"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri love marriage hogi ya arrenge",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's relationship status and the core conflict with the family. However, the consultation was hurt by the lack of clear chart-based explanations and the use of vague remedies to push for further engagement."
+ },
+ "usage": {
+  "input_tokens": 10904,
+  "output_tokens": 1348
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#33 [04:50] ASTRO: Uske liye upay karna hoga agar aap upay karte Hain to Jo family against Hai vah agri ho jayegi",
+   "reason": "The astrologer uses fear ('family against hai') and suggests a paid remedy ('upay karna hoga') to resolve the situation.",
+   "quote_en": "#33 [04:50] ASTRO: You will need to perform a remedy for that; if you perform the remedy, the family that is against it will agree."
+  }
+ }
+}

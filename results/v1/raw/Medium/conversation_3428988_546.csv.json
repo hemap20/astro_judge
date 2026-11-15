@@ -1,0 +1,404 @@
+{
+ "file": "conversation_3428988_546.csv",
+ "tier": "Medium",
+ "user_id": "3428988",
+ "ltv": 2659.72,
+ "n_msgs": 72,
+ "n_astro_msgs": 39,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 8,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.43,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 7.4,
+  "B3": 7.33,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 8,
+   "T": 15
+  },
+  "4.1": {
+   "score": 8,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 29,
+   "avg_words": 10.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the girlfriend and the communication gap.",
+    "quotes": [
+     "Main samajh sakta hoon, yeh kaafi stressful situation hoti hai."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the relationship status and the third person, which are relevant to the user's concern.",
+    "quotes": [
+     "Kya woh abhi bhi aapke relationship mein interfere kar raha hai ya situation thodi control mein hai?",
+     "Yah bataiye Aman ji unhone aapko block bhi Kiya Hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girlfriend's details to analyze the relationship and uses them to provide a reading.",
+    "quotes": [
+     "Aman ek bar mujhe unka detail share kar sakte ho"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading identifies the current communication gap and the influence of a third person, which are specific and relevant.",
+    "quotes": [
+     "Unke mind mein confusion ki Bani Hui Hai",
+     "Kahin na kahin third person ki vajah se Vah divert ho rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the implicit question about whether the relationship will resume.",
+    "quotes": [
+     "Wapis vah aapko contact karenge Aisa nahin Hai ki chijen khatm Ho Gai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions chart attachment and planetary influence in simple terms.",
+    "quotes": [
+     "Aap donon ki chart recording attachment to Bandha hua dikh raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the third person's influence and the user's own past actions.",
+    "quotes": [
+     "Kahin na kahin Jo third person hai bhaiya ji vah unko bahut jyada divert kar raha hai",
+     "aapane kuchh bol bhi diya hai use time per"
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for the communication gap.",
+    "quotes": [
+     "Is manth Tak Rahane wale ho"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No specific remedy was provided.",
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not switch topics.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the third person's influence.",
+    "quotes": [
+     "Kahin na kahin Jo third person hai bhaiya ji vah unko bahut jyada divert kar raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains engagement throughout the chat.",
+    "quotes": [
+     "Wapis vah aapko contact karenge"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the third person's influence.",
+    "quotes": [
+     "Kahin na kahin Jo third person hai bhaiya ji vah unko bahut jyada divert kar raha hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Jaisa ki Main dekh raha hun bhaiya ji"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Girlfriend related issues and communication gap.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the core issue and provided a reading based on the user's situation. The chat was helpful in addressing the communication gap, though the technical difficulties with message delivery caused some delays."
+ },
+ "usage": {
+  "input_tokens": 11678,
+  "output_tokens": 1768
+ }
+}

@@ -1,0 +1,576 @@
+{
+ "file": "conversation_790870_2283.csv",
+ "tier": "Medium",
+ "user_id": "790870",
+ "ltv": 3572.0,
+ "n_msgs": 79,
+ "n_astro_msgs": 72,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 9,
+  "2.3": 8,
+  "2.4": 8,
+  "2.5": 9,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 9,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.52,
+ "buckets": {
+  "B1": 7.75,
+  "B2": 8.0,
+  "B3": 8.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 13,
+   "long_frac": 0.25,
+   "max_words": 124,
+   "avg_words": 23.3,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about the child becoming a cricketer and builds the reading around it.",
+    "quotes": [
+     "Bilkul main dekhta hun ki kya yah ek achcha cricketer ban Sakta hai iski kundli mein ek cricketer banne ka yog hai"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if the child is currently practicing and if the user is the mother or father. These are relevant to the context of the child's career path.",
+    "quotes": [
+     "Abhi current Li kahin practis karta hai",
+     "aap Anuj ki Mata hain ya pita hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the parent's relationship to the child to better understand the family dynamic regarding the child's career.",
+    "quotes": [
+     "aap Anuj ki Mata hain ya pita hai"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provides specific insights about the child's nature and career potential based on planetary positions (Mangal, Surya, Gajkesari yog).",
+    "quotes": [
+     "Mangal dekha jaaye to 9th house mein baithe Hain aur Bhagya bhav mein baitha mangli isko paraakrami banaa raha hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer clearly answers the question about the child becoming a first-class cricketer, providing a positive outlook and a timeline.",
+    "quotes": [
+     "isliye maine kaha ki agar bacche ka koi current ka photo ho to uski current energy Ko main check karna chahta hun",
+     "antarrashtriy Khiladi banenge ya main Puri tarah se kar sakta hun"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links life traits to chart factors like Mangal and Gajkesari yog in plain language.",
+    "quotes": [
+     "Mangal dekha jaaye to 9th house mein baithe Hain aur Bhagya bhav mein baitha mangli isko paraakrami banaa raha hai"
+    ],
+    "score": 8
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the child's personality, future success, and the role of numerology.",
+    "quotes": [
+     "Sath mein dekha jaaye to dayalu hriday ka hai",
+     "iska neumerology ke anusar personal year five a raha hai"
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a timeline for the career growth without making absolute promises.",
+    "quotes": [
+     "To December 2024 se hi iska yog shuru ho chuka hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice on supporting the child's career path.",
+    "quotes": [
+     "Bus isko माता-पिता ki sahmati chahie aur Mata pita ka Sahyog chahie"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the cricket career throughout the chat.",
+    "quotes": [
+     "antarrashtriy Khiladi banenge ya main Puri tarah se kar sakta hun"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the child's future fame and international success.",
+    "quotes": [
+     "Yah Desh se bahar videsh ki Dharti per khelne wala balak hoga"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the conversation going with relevant insights until the end.",
+    "quotes": [
+     "Baccha jivan mein prasiddhi payega bus usko motivate karke aur usko support karna hai"
+    ],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a summary and encouragement, leaving the user with a positive final impression.",
+    "quotes": [
+     "Baccha jivan mein prasiddhi payega bus usko motivate karke aur usko support karna hai"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is accessible and uses common astrological terms explained in the context of the child's life.",
+    "quotes": [
+     "Gajkesari yog Jo banaa tha chandrama aur brihaspati iske carrier ke house mein baithe Hain"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera beta cricketer banna chahta hai kya vo first class cricketer ban sakta hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a detailed and encouraging reading regarding the child's cricket career, using both Vedic astrology and numerology. The consultation was well-structured, though the astrologer's tendency to send many short messages in quick succession slightly impacted the flow."
+ },
+ "usage": {
+  "input_tokens": 13378,
+  "output_tokens": 2624
+ }
+}

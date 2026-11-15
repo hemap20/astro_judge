@@ -1,0 +1,374 @@
+{
+ "file": "conversation_3084324_3727.csv",
+ "tier": "High",
+ "user_id": "3084324",
+ "ltv": 12132.76,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G4"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.71,
+ "blueprint": {
+  "score": 2.8,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 34,
+   "S3": 36,
+   "S5": 189
+  }
+ },
+ "final": 1.75,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 2.86,
+  "B3": 5.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.214,
+   "max_words": 55,
+   "avg_words": 14.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     18,
+     24
+    ],
+    "reason": "The astrologer makes a definitive, life-altering prediction ('khatm ho jaega') about the user's marriage ending and the husband returning without any chart-based justification or nuance, stating it as an absolute fact."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional state regarding her marriage."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identified the concern but asked for details again."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 0,
+    "note": "The initial reading is confusing, uses technical jargon without explanation, and is not helpful."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Asked for husband's name, but it was not used to provide a meaningful insight."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors like dasha or specific houses explained in a way the user understands."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant questions probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's specific situation or feelings, only asked for details.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's name twice (19, 22) despite the user providing it, which is a Type C question.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar",
+     "Ek bar apne husband ka naam bataiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's name but did not use it to provide a reading based on his chart, just repeated the same vague prediction.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and uses jargon that the user cannot understand.",
+    "quotes": [
+     "marriage bhav mein Mangal Dev Ji ki Rashi padh rahi hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a definitive 'yes' to the marriage ending without any real direction or reason.",
+    "quotes": [
+     "Ji han khatm hoga"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer lists chart terms without explaining their meaning for the user's life.",
+    "quotes": [
+     "marriage bhav ke Swami Mangal Dev Ji Ban Rahe Hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading repeats the same point about 'third person issues' without adding depth.",
+    "quotes": [
+     "third person issues sampurn Roop se banaa hua Hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises the marriage will end as a certainty.",
+    "quotes": [
+     "Ji han khatm hoga"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat was not productive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague prediction about time, not a helpful reading.",
+    "quotes": [
+     "Abhi thoda sa time lagega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms without explanation.",
+    "quotes": [
+     "marriage bhav ke Swami Mangal Dev Ji"
+    ],
+    "score": 3
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shadi ka kya future hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful or empathetic reading, instead using confusing jargon and making definitive, harmful predictions about the user's marriage. The lack of emotional validation and the repetitive, unhelpful questioning made the consultation unproductive."
+ },
+ "usage": {
+  "input_tokens": 15548,
+  "output_tokens": 1610
+ },
+ "gate_evidence": {
+  "G4": {
+   "quote": "#18 [03:02] ASTRO: Ji han khatm hoga\n#24 [04:44] ASTRO: Ram Singh Ji ke naam ke anusar agar dekh rahi hun to yah wapas aaenge thoda sa time lagega kyunki inke Naam Ke anusar third person issues hai lekin yah khatm ho jaega",
+   "reason": "The astrologer makes a definitive, life-altering prediction ('khatm ho jaega') about the user's marriage ending and the husband returning without any chart-based justification or nuance, stating it as an absolute fact.",
+   "quote_en": "#18 [03:02] ASTRO: Yes, it will end.\n#24 [04:44] ASTRO: If I am looking according to Ram Singh Ji's name, he will return, but it will take some time because according to his name there are third-person issues, but this will end."
+  }
+ }
+}

@@ -1,0 +1,354 @@
+{
+ "file": "conversation_3258729_2041.csv",
+ "tier": "High",
+ "user_id": "3258729",
+ "ltv": 127098.98,
+ "n_msgs": 47,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 6,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.11,
+ "buckets": {
+  "B1": 6.25,
+  "B2": 6.83,
+  "B3": 7.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 10
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 14.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress about marriage in message #5, repeating the user's feeling of being 'pareshan'.",
+    "quotes": [
+     "Some marriage life ko lekar aap pareshan chal rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the problem (#7), the husband's birth time (#18), if there was an affair (#33), and details about the affair (#45, #46). Message #33 and #45 are Type A as they build on the user's disclosure of marriage issues and the affair. Message #18 is a necessary data request. No Type C questions found.",
+    "quotes": [
+     "Kya problem a rahi hai aapke marriage life mein aur kab se a rahi hai",
+     "Yah batao aap donon ke bich mein Se Kisi ka pahle extra marital affair tha kya"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details (#12) and the affair partner's details (#38) with a clear reason (to check the charts).",
+    "quotes": [
+     "aap mujhe apne husband ki detail provide karo",
+     "Aur mujhe uski detail dijiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading (#23, #24) is about the present, mentions specific issues (fighting, verbal abuse, mental torture) that the user did not explicitly state, and is specific enough to be verified.",
+    "quotes": [
+     "छोटी-छोटी chijon ko lekar ladai jhagade छोटी-छोटी chijon ko lekar Gali galoch",
+     "aapke husband ji aapko bahut jyada torcher bhi karte Hain mentally rup se"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage tension. The astrologer provides a reading on the state of the marriage, though it is descriptive rather than predictive.",
+    "quotes": [
+     "aap donon logon ka marriage life bahut jyada disturb chal raha hai"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage problems to the Moon being weak and Sade Sati.",
+    "quotes": [
+     "aapki kundli mein chandrama bahut week Hai jiske according aapke sath mein yah samasyaen Hain",
+     "Sani ki sade sati bhi dekhne ko mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the Moon and Sade Sati, and uses the user's disclosure about the past relationship.",
+    "quotes": [
+     "aapki kundli mein chandrama bahut week Hai",
+     "Han vahi main dekh Pa Raha Hun Ki kahin na kahin aapke sath mein relation tha"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window for the marriage outcome is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage issue while incorporating the new topic of the past relationship.",
+    "quotes": [
+     "aap donon logon ka marriage life bahut jyada disturb chal raha hai",
+     "Han vahi main dekh Pa Raha Hun Ki kahin na kahin aapke sath mein relation tha"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by suggesting there is 'energy' from another person involved.",
+    "quotes": [
+     "Han main dekh raha hun ki aap donon ke bich mein Kisi aur ki energy hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message is sent; the astrologer continues to ask questions.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages are questions about the affair, which keeps the momentum going.",
+    "quotes": [
+     "Yah aapse kitne din se baat hui thi isase",
+     "Aur kitne din se no contact hai"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple, conversational language and explains the astrology terms (Moon/Sade Sati) in the context of the user's life.",
+    "quotes": [
+     "aapki kundli mein chandrama bahut week Hai jiske according aapke sath mein yah samasyaen Hain"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Please check my marriage kaafi tension chalti hain",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer effectively identified the user's marital distress and linked it to specific astrological factors like the Moon and Sade Sati. However, the consultation became overly focused on a past, short-lived relationship, which distracted from the user's primary concern about her current marriage."
+ },
+ "usage": {
+  "input_tokens": 11357,
+  "output_tokens": 1836
+ }
+}

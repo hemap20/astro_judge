@@ -1,0 +1,253 @@
+{
+ "file": "conversation_1305435_1300.csv",
+ "tier": "Medium",
+ "user_id": "1305435",
+ "ltv": 1431.34,
+ "n_msgs": 17,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.26,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 5.29,
+  "B3": 4.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 41,
+   "avg_words": 16.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about marriage in message 10, but fails to repeat any specific details or name the user's feeling of frustration.",
+    "quotes": [
+     "Ji jaisa ki Main dekh Pa raha hun aapka janm kundli ke anusar bahut hi achcha news dekhne Ko Mila Hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo in message 16. This is a Type C question as it is not necessary for a Vedic astrology reading and is used to delay the consultation.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about marriage and love, but the astrologer does not ask for or use any details about a specific partner.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specificity. It does not provide a concrete marker or a unique insight that couldn't be said to anyone.",
+    "quotes": [
+     "planet ki kuchh acchi na hone ke naate thodi Si dikkat dekhne ko mil rahi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a year for the marriage, which answers the user's question.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Sunny planet' (Shani) as a reason for the delay, which is a chart factor in plain words.",
+    "quotes": [
+     "Sunny planet ki Drishti dekhne ko mil rahi hai aapke janm kundli mein isliye itni deri"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point about Shani's influence in a later message, which is new and adds depth to the initial prediction.",
+    "quotes": [
+     "But Sunny planet ki Drishti dekhne ko mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a year (2026) as a window, which is consistent throughout the chat.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions remedies but does not provide them yet, instead asking for a photo first.",
+    "quotes": [
+     "aur kuchh upay bhi batata hun aapko"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question but ignores the user's question about love/prem.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer; they simply ask for a photo to continue.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message, but the astrologer is stalling for a photo.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, which does not provide a reason to return or a reading.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses 'Sunny planet' which is understandable, but the overall language is slightly formal and the request for a photo is a common stalling tactic.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi kab tak Hogi shaadi Mein rukavat Kyon a rahi hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for marriage but failed to address the user's specific concerns about love and obstacles. The consultation was hurt by the unnecessary request for a hand photo, which stalled the flow of the reading."
+ },
+ "usage": {
+  "input_tokens": 10593,
+  "output_tokens": 1311
+ }
+}

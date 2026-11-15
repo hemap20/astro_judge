@@ -1,0 +1,5 @@
+label,chats,n_consults,consults_7d,median_return_min,first_chat_min
+good,72,7.75,5.54,6.25,9.15
+mixed,142,6.95,5.7,2.15,5.0
+bad,72,8.49,6.81,4.8,7.0
+bad_no_service,45,6.93,6.07,6.7,0.0

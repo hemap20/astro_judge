@@ -1,0 +1,486 @@
+{
+ "file": "conversation_954403_1004.csv",
+ "tier": "High",
+ "user_id": "954403",
+ "ltv": 10354.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.56,
+ "rubric_score": 5.56,
+ "blueprint": {
+  "score": 3.76,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 16,
+   "S4": 146,
+   "S5": 40,
+   "S7": 204
+  }
+ },
+ "final": 4.66,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.75,
+  "B2": 4.17,
+  "B3": 5.33,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 8,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 3.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Prediction given but lacks chart connection."
+   },
+   "S5": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Follow-up question asked but not built on user's context."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart connection or dasha mentioned."
+   },
+   "S7": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Probed the love interest question."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feeling, just asks a question.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided (DOB) and asks questions that could be asked to anyone.",
+    "quotes": [
+     "Any love relationship",
+     "Nam btao unka"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": [
+      {
+       "idx": 4,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 7,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 14,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 21,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and DOB of the person, but does not provide a reading about the match.",
+    "quotes": [
+     "Nam btao unka"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future, not the present, and lacks any chart reason.",
+    "quotes": [
+     "Aapko ladki 2026 November tk milegi"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": false,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage timing question without the user repeating it.",
+    "quotes": [
+     "Aapki marriage 2027_2028 tk ka yog"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 10,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are explained.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": false,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are generic and do not build depth.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": false,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a time window without a promise.",
+    "quotes": [
+     "Aapki marriage 2027_2028 tk ka yog"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": false,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the second question (love interest) after the user asks.",
+    "quotes": [
+     "Aur mem jiise me love krtaa hu usse saadi ho sakti hai kya"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": true,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat is very sparse.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just asking for details.",
+    "quotes": [],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms are explained.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri saadi kab hogi",
+  "main_question_idx": 3,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a timeline for marriage but failed to connect it to the user's chart or provide any depth. The chat was hurt by the lack of personalization and the repetitive questioning for details."
+ },
+ "usage": {
+  "input_tokens": 16666,
+  "output_tokens": 2177
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 3,
+   "1.4": 4,
+   "2.1": 4,
+   "2.2": 8,
+   "2.7": 4,
+   "4.2": 6,
+   "3.2": 8
+  }
+ }
+}

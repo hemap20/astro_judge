@@ -1,0 +1,456 @@
+{
+ "file": "conversation_1526547_347.csv",
+ "tier": "Medium",
+ "user_id": "1526547",
+ "ltv": 1316.88,
+ "n_msgs": 40,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": null,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.25,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S5": 114
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.33,
+  "B2": 1.0,
+  "B3": 3.0,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 4,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.032,
+   "max_words": 42,
+   "avg_words": 5.4,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     29
+    ],
+    "paid_idx": [
+     36
+    ],
+    "evidence_idx": [
+     29,
+     36
+    ],
+    "reason": "The astrologer uses a promise of relief within one hour (fear/urgency) to push the user to reconnect (paid element)."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is minimal and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's anxiety."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer never identifies the primary concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No meaningful prediction provided."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided; only numbers given."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's statement about anxiety and asks a generic question instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos (Type C) and asks when it started (Type B).",
+    "quotes": [
+     "Can you send me your left hand pic",
+     "And forehead pic bhi send kar dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No meaningful reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's question about how to get better is met with a request to reconnect.",
+    "quotes": [
+     "Mam plz muje koi rasta btao taki mai thik ho shu",
+     "Aap again connect ho jaaye"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are mentioned without any life-meaning or explanation.",
+    "quotes": [
+     "aap ki date of birth is very good jo ki rahu planet se rul hoti hai but aap ka rahu disturb hi"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings provided to build depth.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing mentioned.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides numbers instead of a remedy, and asks to reconnect.",
+    "quotes": [
+     "Aap again connect ho jaaye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer stalls the chat with multiple messages and requests for photos.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request to reconnect and random numbers.",
+    "quotes": [
+     "Aap again connect ho jaaye",
+     "808"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses broken language and asks for photos instead of providing a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mam plz muje koi rasta btao taki mai thik ho shu",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's anxiety, instead focusing on requesting photos and asking the user to reconnect. The lack of a meaningful reading and the pressure to pay for further consultation significantly hurt the chat."
+ },
+ "usage": {
+  "input_tokens": 15348,
+  "output_tokens": 1796
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#29 [07:57] ASTRO: Aap ki within one hour mein relax milega\n#36 [09:46] ASTRO: Aap again connect ho jaaye",
+   "reason": "The astrologer uses a promise of relief within one hour (fear/urgency) to push the user to reconnect (paid element).",
+   "quote_en": "#29 [07:57] ASTRO: You will get relief within one hour\n#36 [09:46] ASTRO: Please connect again"
+  }
+ }
+}

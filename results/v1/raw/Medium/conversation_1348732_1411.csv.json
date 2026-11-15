@@ -1,0 +1,345 @@
+{
+ "file": "conversation_1348732_1411.csv",
+ "tier": "Medium",
+ "user_id": "1348732",
+ "ltv": 988.0,
+ "n_msgs": 50,
+ "n_astro_msgs": 29,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 3.62,
+ "buckets": {
+  "B1": 3.5,
+  "B2": 3.0,
+  "B3": 2.33,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 7,
+   "T": 9
+  },
+  "4.1": {
+   "score": 4,
+   "M": 7,
+   "long_frac": 0.069,
+   "max_words": 75,
+   "avg_words": 14.2,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 12
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about getting a girlfriend or his lack of relationship experience in the first reply after the question.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details of the girl (Type C) and age difference (Type B) after the user already stated he does not know these details.",
+    "quotes": [
+     "Mayank ji aap mujhe uska date off birth aur detail share kar sakte hain kya",
+     "Mayank ji aapko kuchh age difference pata hai aapke hisab Se vah Kitna sal ki hongi"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details but does not use them to provide a reading, instead repeatedly asking for information the user does not have.",
+    "quotes": [
+     "Mayank ji aap mujhe uska date off birth aur detail share kar sakte hain kya"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about stress and overthinking is generic and could apply to anyone, and the prediction about a girl entering his life is vague.",
+    "quotes": [
+     "pichhle kuchh Dinon mein aapane kafi jyada stress aur over thinking jila hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a vague direction about a girl entering his life, but it is not a clear answer to the user's question about whether he will get a girlfriend.",
+    "quotes": [
+     "Bahut jaldi aapki life mein entry hone wali Hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'hastrekha' (palmistry) but does not link it to any specific life events or provide a clear chart-based reason for the user's situation.",
+    "quotes": [
+     "Mayank ji Maine aapki hastrekha ko analysis Kiya"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings are not new or built on user details; they are repetitive attempts to get more information.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (4 April) which is a firm prediction, not a window.",
+    "quotes": [
+     "4 April dopahar ke 2:30 ke bad aapko koi hai aisi ladki"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread remains the same, so this is skipped.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the girl's name to keep the user engaged.",
+    "quotes": [
+     "Mayank uska name aapko Bata dun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks the user to end the chat or join a call, which disrupts the flow.",
+    "quotes": [
+     "End kriye",
+     "Mayank ji end kriye call pr aaiye"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to join a call, which is not a reading or guidance.",
+    "quotes": [
+     "Mayank ji aap call per comfortable ho to Abhi chat and hone wala hai to ek bar call jankari main call wala option on karke Rakha hun"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya meri gf banegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead focusing on repeatedly asking the user to switch to a call or provide information the user did not have. The prediction given was overly specific and lacked a solid chart-based foundation."
+ },
+ "usage": {
+  "input_tokens": 11216,
+  "output_tokens": 1645
+ }
+}

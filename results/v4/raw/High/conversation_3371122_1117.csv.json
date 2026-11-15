@@ -1,0 +1,349 @@
+{
+ "file": "conversation_3371122_1117.csv",
+ "tier": "High",
+ "user_id": "3371122",
+ "ltv": 5423.28,
+ "n_msgs": 28,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.17,
+ "rubric_score": 5.17,
+ "blueprint": {
+  "score": 4.6,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 5,
+   "S3": 103,
+   "S4": 171,
+   "S6": 221,
+   "S7": 303,
+   "S9": 303
+  }
+ },
+ "final": 4.88,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.67,
+  "B2": 2.33,
+  "B3": 5.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 13.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is too brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Identified the concern but asked for time instead of engaging."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gave a date but it is a promise/guarantee."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up questions asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Generic statements about past struggles."
+   },
+   "S7": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Opened a new layer but did not deliver it."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Hook is present but vague."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's specific job concern in the first reply and gave generic statements later.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "No questions were asked by the astrologer.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage, but the astrologer did not ask for details or provide a reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a date (9 August) but framed it as a guarantee.",
+    "quotes": [
+     "9 August Tak new job aapka lagega"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons provided in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are generic and do not use user details.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises the outcome as certain ('golden time', 'pakka').",
+    "quotes": [
+     "9 August se aapka golden time shuru ho raha hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the marriage question and kept talking about the job.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Opened a layer but did not deliver.",
+    "quotes": [
+     "Shaadi ke naye raste ke peeche ek aur bada factor dikh raha hai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer did not provide enough value.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease without a reading.",
+    "quotes": [
+     "Shaadi ke naye raste ke peeche ek aur bada factor dikh raha hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms are explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "when my new job come",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a specific date for the job, which helped the user feel heard. However, the astrologer failed to provide any remedies, ignored the marriage question, and used guaranteed language which hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 15529,
+  "output_tokens": 1420
+ }
+}

@@ -1,0 +1,411 @@
+{
+ "file": "conversation_99308_168.csv",
+ "tier": "Medium",
+ "user_id": "99308",
+ "ltv": 1910.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.57,
+ "rubric_score": 4.57,
+ "blueprint": {
+  "score": 3.76,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S3": 19,
+   "S4": 156,
+   "S5": 81,
+   "S9": 293
+  }
+ },
+ "final": 4.17,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 3.86,
+  "B3": 4.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 8.7,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the user's distress about being blocked."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks chart reasoning."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Follow-up question is relevant but generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors like dasha or planets."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 33,
+    "quality": 1,
+    "note": "Hook is present but is a generic request to reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's specific worry about being blocked and the marriage concern, focusing only on data.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the name (Type A) but also asked for birth details already provided (Type C).",
+    "quotes": [
+     "Kya naam hai aapke Pyar Ka",
+     "Amlen ji Apne 7 August 2025 date of birth submit Kiya Hai"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asked for the name with a reason (face reading), but did not use it effectively.",
+    "quotes": [
+     "Kya naam hai aapke Pyar Ka"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific and lacks a chart reason.",
+    "quotes": [
+     "Deepak ji ka wapas aane ki bahut hi acche chances hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Gave a direction (chances are good) but it is not based on any chart analysis.",
+    "quotes": [
+     "Deepak ji ka wapas aane ki bahut hi acche chances hain"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are repetitive and do not add depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer did not return to the marriage question after the block issue.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer failed to provide value.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to reconnect.",
+    "quotes": [
+     "Please aap dobara se connect Kar lijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, but no astrology terms are explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera pyar ne mujhe block list kar diya hai to mujhe unblock karega ya nahin",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any chart-based insights or remedies, focusing instead on requesting birth data and photos. The consultation lacked depth and failed to address the user's emotional concerns regarding her relationship."
+ },
+ "usage": {
+  "input_tokens": 15368,
+  "output_tokens": 1693
+ }
+}

@@ -1,0 +1,336 @@
+{
+ "file": "conversation_2725383_4463.csv",
+ "tier": "High",
+ "user_id": "2725383",
+ "ltv": 161972.7,
+ "n_msgs": 31,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.62,
+ "buckets": {
+  "B1": 6.75,
+  "B2": 6.71,
+  "B3": 6.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 14.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by mentioning the partner's confusion and the 'on and off' situation, which aligns with the user's concern about the relationship status.",
+    "quotes": [
+     "Bus abhi aapke partner bahut jyada confused aur double minded Ho rakhe hain",
+     "Aur abhi pichhle kuchh Dinon Se aap donon ke bich mein on and off wali situation dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about the duration of the relationship, which is Type B (could be asked to anyone). No Type C questions were asked.",
+    "quotes": [
+     "Kitne time se relationship mein hain aap inke"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's photo for reading purposes, which is a reasonable request in this context, but does not use the partner's name or birth details to provide a specific reading about the match.",
+    "quotes": [
+     "Aap mujhe apne partner ki koi photo share kar dijiye face reading aur psychic reading ke liye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the partner being confused and the 'on and off' situation is specific, about the present, and new to the user.",
+    "quotes": [
+     "Bus abhi aapke partner bahut jyada confused aur double minded Ho rakhe hain",
+     "Aur abhi pichhle kuchh Dinon Se aap donon ke bich mein on and off wali situation dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage possibility with a positive direction, though it is hedged by the current 'difficult' planetary state.",
+    "quotes": [
+     "Shaadi aapke nishchit Roop se aapke manpasand partner se Hogi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship difficulties to specific planetary positions (Jupiter in debilitation, Mars in the 8th house) in plain language.",
+    "quotes": [
+     "Jaise ki Bhagya sthan mein Dev Guru brihaspati apni neech Rashi mein hai",
+     "Marriage house ke Swami Mangal shukr ke sath ashtam yani kharab ghar mein hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by adding the planetary reasons for the relationship issues after the initial reading.",
+    "quotes": [
+     "Kyunki Abhi aapki kundli mein kafi sare planet kharab avastha mein hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the marriage, only a general positive outlook.",
+    "quotes": [
+     "Shaadi aapke nishchit Roop se aapke manpasand partner se Hogi"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions remedies but does not provide specific instructions or a clear link to the problem, keeping it generic.",
+    "quotes": [
+     "Isko kuchh upay vagaira karke theek Kiya Ja sakta hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship throughout the chat.",
+    "quotes": [
+     "Shaadi aapke nishchit Roop se aapke manpasand partner se Hogi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a further layer by promising to explain the partner's feelings and thoughts after receiving the photo.",
+    "quotes": [
+     "Uske bad m aapko yah bhi check karke batata Hun ki aapka partner kya feelings rakhta hai aur kya sochta hai aapke bare mein"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and continues to provide information until the time runs out.",
+    "quotes": [
+     "Main aapke sare doubts clear karke aapko answer karta hun"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the recharge and a promise to clear doubts, which is not a reading.",
+    "quotes": [
+     "Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish.",
+    "quotes": [
+     "Kaisi ho aap aur main aapki kya Seva kar sakta hun?"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult; this rubric is skipped.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Koi Asha h wo wapas aynge ? Aur unse shadi hone ka",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a comforting reading and linked the relationship issues to planetary positions, which helped the user feel understood. However, the astrologer failed to provide specific guidance or a clear timeline, and the chat ended abruptly due to the recharge limit."
+ },
+ "usage": {
+  "input_tokens": 11050,
+  "output_tokens": 1771
+ }
+}

@@ -1,0 +1,432 @@
+{
+ "file": "conversation_2725383_4463.csv",
+ "tier": "High",
+ "user_id": "2725383",
+ "ltv": 161972.7,
+ "n_msgs": 31,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 6,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.63,
+ "blueprint": {
+  "score": 4.3,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S3": 87,
+   "S4": 114,
+   "S5": 148,
+   "S6": 260
+  }
+ },
+ "final": 2.96,
+ "label": "bad",
+ "buckets": {
+  "B1": 6.0,
+  "B2": 3.86,
+  "B3": 2.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 14.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     23
+    ],
+    "paid_idx": [
+     28
+    ],
+    "evidence_idx": [
+     23,
+     28
+    ],
+    "reason": "The astrologer uses fear ('kafi sare planet kharab avastha mein hai') to justify a paid element (requesting the user to recharge/reconnect)."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not validate the user's emotional distress regarding being blocked."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Gave a generic prediction about love marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asked about relationship duration."
+   },
+   "S6": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Mentioned chart factors but used them to create fear."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 28,
+    "quality": 0,
+    "note": "Hook was a request to recharge/reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's situation but did not name the feeling of being blocked or the pain involved.",
+    "quotes": [
+     "Aapki kundli mein love marriage ke chances bhi bahut acche Ban rahe hain"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for a photo (Type C) and relationship duration (Type B).",
+    "quotes": [
+     "Kitne time se relationship mein hain aap inke",
+     "Aap mujhe apne partner ki koi photo share kar dijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's photo but did not use the partner's birth details provided by the user to give a reading.",
+    "quotes": [
+     "Aap mujhe apne partner ki koi photo share kar dijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the partner being confused is generic and could apply to any relationship.",
+    "quotes": [
+     "Bus abhi aapke partner bahut jyada confused aur double minded Ho rakhe hain"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a positive direction but it was vague and not tied to the specific situation of being blocked.",
+    "quotes": [
+     "Shaadi aapke nishchit Roop se aapke manpasand partner se Hogi"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer listed chart terms to create fear rather than explaining them in plain words for the user's life.",
+    "quotes": [
+     "Bhagya sthan mein Dev Guru brihaspati apni neech Rashi mein hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer did not build depth; the readings remained superficial.",
+    "quotes": [
+     "Aapki kundli mein love marriage ke chances bhi bahut acche Ban rahe hain"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided, only a promise of one.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about the partner returning was not answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ended the chat by asking the user to recharge.",
+    "quotes": [
+     "Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were about the recharge and not the user's concern.",
+    "quotes": [
+     "Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language was easy to understand.",
+    "quotes": [
+     "Kaisi ho aap aur main aapki kya Seva kar sakta hun?"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Koi Asha h wo wapas aynge ? Aur unse shadi hone ka",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's distress about being blocked and instead used fear-based tactics to push for a recharge. The consultation lacked empathy and actionable remedies, focusing on generic predictions and technical chart jargon."
+ },
+ "usage": {
+  "input_tokens": 15837,
+  "output_tokens": 1855
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [04:12] ASTRO: Kyunki Abhi aapki kundli mein kafi sare planet kharab avastha mein hai\n#28 [04:42] ASTRO: Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega",
+   "reason": "The astrologer uses fear ('kafi sare planet kharab avastha mein hai') to justify a paid element (requesting the user to recharge/reconnect).",
+   "quote_en": "#23 [04:12] ASTRO: Because right now, many planets in your kundli are in a bad state.\n#28 [04:42] ASTRO: Your recharge is also probably ending, please connect once again."
+  }
+ }
+}

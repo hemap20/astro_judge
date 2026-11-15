@@ -1,0 +1,268 @@
+{
+ "file": "conversation_1157071_2702.csv",
+ "tier": "Medium",
+ "user_id": "1157071",
+ "ltv": 2853.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.48,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 5.0,
+  "B3": 5.33,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 1,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's frustration about the girlfriend's behavior and the relationship dynamic.",
+    "quotes": [
+     "Gf ke baare mein Jana hai",
+     "Relationship mein ho aap abhi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girlfriend's DOB, which is necessary for a relationship reading. The question about the relationship status is Type B.",
+    "quotes": [
+     "Relationship mein ho aap abhi",
+     "Unki dob share karenge"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girlfriend's DOB to analyze the relationship, which is a valid reason.",
+    "quotes": [
+     "Unki dob share karenge"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about being protective is specific and relates to the user's current state, though it lacks a chart reason.",
+    "quotes": [
+     "Aisa dikh raha h aap bahut protective ho unko le kar"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main concern is the relationship dynamic; the astrologer provides general advice rather than a clear answer to the underlying conflict.",
+    "quotes": [
+     "Sab theek ho Jayega"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors (planets, dashas, etc.) are mentioned in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a point about ego, which is new, but it is not tied to a specific detail the user provided in a way that builds depth.",
+    "quotes": [
+     "Dono mein ego h"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice to control anger is a stock remedy not tied to a specific chart cause.",
+    "quotes": [
+     "Aap apne gusse pe thoda control rakho"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stays on the topic of the relationship throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a generic statement about the problem, not a reading.",
+    "quotes": [
+     "Isi wajah se problem ho Rahi h"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Gf ke baare mein Jana hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's relationship dynamic but failed to provide deep chart-based insights or specific answers. The chat remained surface-level with generic advice instead of addressing the user's specific complaints about the girlfriend."
+ },
+ "usage": {
+  "input_tokens": 10618,
+  "output_tokens": 1184
+ }
+}

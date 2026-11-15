@@ -1,0 +1,230 @@
+{
+ "file": "conversation_1153673_2159.csv",
+ "tier": "Medium",
+ "user_id": "1153673",
+ "ltv": 590.0,
+ "n_msgs": 10,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": null,
+  "1.2": null,
+  "1.4": null,
+  "2.1": null,
+  "2.2": 1,
+  "2.3": null,
+  "2.4": null,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": null,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.92,
+ "buckets": {
+  "B1": 1.0,
+  "B2": 1.0,
+  "B3": 2.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 5,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 2.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     8
+    ],
+    "reason": "The astrologer uses a request for payment (recharge) to continue the consultation."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": true,
+    "reasoning": "The user has not shared a worry, feeling, or story yet; the chat is still in the data-gathering phase.",
+    "quotes": [],
+    "score": null
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth time, which is a necessary data request. No other questions were asked.",
+    "quotes": [
+     "Birth time?"
+    ],
+    "score": null
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": true,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked a question, but the astrologer did not answer it, instead asking for a recharge.",
+    "quotes": [
+     "Enna lover kannuka",
+     "Oru 5 mint koodi recharge chytholu"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": true,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "2.4": {
+    "skipped": true,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or prediction was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only asked one question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": true,
+    "reasoning": "No reading was provided to open a layer.",
+    "quotes": [],
+    "score": null
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not provide a reading and instead asked for a recharge, which stalls the chat.",
+    "quotes": [
+     "Oru 5 mint koodi recharge chytholu"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for payment, which provides no value or reason to return.",
+    "quotes": [
+     "Oru 5 mint koodi recharge chytholu"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the user's language (Malayalam/Hinglish mix) and no technical terms were used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Enna lover kannuka",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead immediately pushing for a recharge. The chat ended without the user receiving any value or answer to their question."
+ },
+ "usage": {
+  "input_tokens": 10215,
+  "output_tokens": 940
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#8 [04:04] ASTRO: Oru 5 mint koodi recharge chytholu",
+   "reason": "The astrologer uses a request for payment (recharge) to continue the consultation.",
+   "quote_en": "#8 [04:04] ASTRO: Please recharge for 5 more minutes."
+  }
+ }
+}

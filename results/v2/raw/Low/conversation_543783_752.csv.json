@@ -1,0 +1,281 @@
+{
+ "file": "conversation_543783_752.csv",
+ "tier": "Low",
+ "user_id": "543783",
+ "ltv": 150.0,
+ "n_msgs": 21,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 6,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 4,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.25,
+  "B2": 2.29,
+  "B3": 2.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.182,
+   "max_words": 80,
+   "avg_words": 21.2,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     16
+    ],
+    "reason": "The astrologer uses fear ('negative energy', 'last moment se dikkat a sakti hai') and urgency ('positive energy Milana bahut avashyak hai') to push a vague 'energy creation' process that implies a paid service or ritual, as he claims to take 'full responsibility' for the outcome if this is done."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about pregnancy and the duration of marriage, but fails to name her feeling or build on it effectively.",
+    "quotes": [
+     "Aapko batana chahunga",
+     "Shaadi ko kitne din ho gaye"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details (Type B), then asks about the marriage duration (Type B), and finally asks about miscarriage (Type B). None of these are Type A (building on user's specific words/feelings).",
+    "quotes": [
+     "Aap apne husband ka Naam Bata dijiye",
+     "Shaadi ko kitne din ho gaye",
+     "Santan kabhi miscarriage to nahin hua Hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details with a reason (to check the kundli), but fails to use the name or provide a reading about the match.",
+    "quotes": [
+     "Aap apne husband ka Naam Bata dijiye"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and uses fear-based language rather than specific chart markers.",
+    "quotes": [
+     "negative energy hai vah samapt ho jaaye"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline for pregnancy but ties it to a paid/ritualistic condition.",
+    "quotes": [
+     "pregnancy ka yog jo hai vah 12 December se prapt ho raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Pancham house' but does not explain it in plain words or link it to the user's life in a meaningful way.",
+    "quotes": [
+     "Pancham house se Santan jivan ka yog hota hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the 'negative energy' point without adding new, useful insights.",
+    "quotes": [
+     "negative energy create ho rahi hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (12 December) and a year (2026), which is a promise of outcome rather than a window based on chart analysis.",
+    "quotes": [
+     "pregnancy ka yog jo hai vah 12 December se prapt ho raha hai",
+     "next year 2026 mein safalta mil jayegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer refuses to give a remedy, instead using the request to push a vague, likely paid, service.",
+    "quotes": [
+     "Bilkul aapko aapka help karke vidhi Bata rahe hain usi Marg per aapko chalna hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's repeated requests for a remedy and focuses on the 'negative energy' narrative.",
+    "quotes": [
+     "Plz upay bta dijiye guru ji"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'negative energy' to keep the user engaged without providing a solution.",
+    "quotes": [
+     "negative energy hai vah samapt ho jaaye"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the replies are repetitive and lack substance.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague promise of help without providing any actual guidance or reading.",
+    "quotes": [
+     "Bilkul aapko aapka help karke vidhi Bata rahe hain usi Marg per aapko chalna hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is relatively easy, but the astrologer uses formal/bookish phrasing.",
+    "quotes": [
+     "vidhi Bata rahe hain usi Marg per aapko chalna hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "I want to know about my pregnancy",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a clear reading or actionable remedy, instead using fear-based language to imply a need for a paid service. The consultation was repetitive and did not address the user's specific concerns about pregnancy."
+ },
+ "usage": {
+  "input_tokens": 10768,
+  "output_tokens": 1450
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [03:31] ASTRO: Bilkul dosh Hai usmein kahane ki kya baat hai Ham abhi aapko Dekho upar likhe Hain negative energy create ho rahi hai life mein vah disturb kar rahe hain agar pregnancy period bhi ho jayegi conceive bhi Ho jaega to last moment se dikkat a sakti hai ISI ke Karan positive energy Milana bahut avashyak hai jismein Ham Puri jimmedari ke sath kah Rahe Hain ki agar energy create Ho Gai to aapko next year 2026 mein safalta mil jayegi",
+   "reason": "The astrologer uses fear ('negative energy', 'last moment se dikkat a sakti hai') and urgency ('positive energy Milana bahut avashyak hai') to push a vague 'energy creation' process that implies a paid service or ritual, as he claims to take 'full responsibility' for the outcome if this is done.",
+   "quote_en": "#16 [03:31] ASTRO: There is definitely a dosh, there is no doubt about it. Look, I have written above that negative energy is being created in your life, which is causing disturbances. Even if you conceive during the pregnancy period, there could be complications at the last moment because of this. That is why it is very necessary to receive positive energy. I am saying with full responsibility that if the energy is created, you will achieve success next year in 2026."
+  }
+ }
+}

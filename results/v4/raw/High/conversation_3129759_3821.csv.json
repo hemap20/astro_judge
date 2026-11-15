@@ -1,0 +1,360 @@
+{
+ "file": "conversation_3129759_3821.csv",
+ "tier": "High",
+ "user_id": "3129759",
+ "ltv": 20744.4,
+ "n_msgs": 29,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 1,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 4,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 9,
+  "4.1": 10,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.14,
+ "blueprint": {
+  "score": 1.0,
+  "coverage": 0.0,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 0,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {}
+ },
+ "final": 1.07,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 2.86,
+  "B3": 2.0,
+  "B4": 8.33,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 10,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 16,
+   "avg_words": 7.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     22
+    ],
+    "paid_idx": [
+     28
+    ],
+    "evidence_idx": [
+     22,
+     28
+    ],
+    "reason": "The astrologer uses the user's fear of being under a spell (tantra) to maintain engagement and then explicitly asks the user to 'Connect kijiye' (reconnect/extend) to continue the chat."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 0,
+    "note": "Greeting is extremely brief and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer fails to acknowledge the user's distress."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not identify the primary concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No meaningful insight provided."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Questions asked are not relevant to the user's emotional state."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's stated distress and focus on the relationship, providing only generic responses.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and about the person's tantra knowledge, which are not Type A questions.",
+    "quotes": [
+     "Mam unka name btaiye",
+     "Wo khi kam kr rhe hai astrology aati hai kya mam unko tantra mantra asa"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but does not use it or provide a reading based on the other person's details.",
+    "quotes": [
+     "Mam unka name btaiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No meaningful reading provided; the astrologer just makes vague claims.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline without any chart-based reasoning.",
+    "quotes": [
+     "September se phle call aajaega aapko"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth built; the astrologer just repeats vague reassurances.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a single month as a timeline without any basis.",
+    "quotes": [
+     "September se phle call aajaega aapko"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about meeting is answered with a vague timeline, but no depth is added.",
+    "quotes": [
+     "September se phle call aajaega aapko"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ends the chat by asking for a reconnect.",
+    "quotes": [
+     "Connect kijiye mam"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to reconnect.",
+    "quotes": [
+     "Connect kijiye mam"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but lacks professional quality and astrological depth.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer fails to provide a reading despite the user sharing details.",
+    "quotes": [],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya wo Milne ko bulayeinge or kab tak",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight or empathy, instead offering vague reassurances and eventually pushing for a paid reconnection. The lack of chart-based analysis and the dismissive tone significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 15533,
+  "output_tokens": 1512
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#22 [03:46] USER: Kya unhone mere ko bhi kuch kiya mujhe lgta h\n#28 [04:52] ASTRO: Connect kijiye mam",
+   "reason": "The astrologer uses the user's fear of being under a spell (tantra) to maintain engagement and then explicitly asks the user to 'Connect kijiye' (reconnect/extend) to continue the chat.",
+   "quote_en": "#22 [03:46] USER: Did they do something to me as well? I feel like they did.\n#28 [04:52] ASTRO: Please connect, ma'am."
+  }
+ }
+}

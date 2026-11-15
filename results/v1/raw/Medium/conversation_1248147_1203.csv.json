@@ -1,0 +1,284 @@
+{
+ "file": "conversation_1248147_1203.csv",
+ "tier": "Medium",
+ "user_id": "1248147",
+ "ltv": 1733.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 6,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.61,
+ "buckets": {
+  "B1": 4.25,
+  "B2": 3.17,
+  "B3": 3.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 1,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 7,
+   "M": 14,
+   "long_frac": 0.071,
+   "max_words": 38,
+   "avg_words": 10.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about marriage and relationship in message 11, but fails to mention the specific details provided (single, college senior, specific person).",
+    "quotes": [
+     "aapki kundli mein aapki shaadi ko lekar kafi achcha Yog dikhai de raha hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the birth date of the person in question (Susmit) multiple times (messages 13 and 15) despite the user having provided the birth date (26th March) in message 8. This is a Type C question.",
+    "quotes": [
+     "Susmit ka mujhe date off birth bhi bata do",
+     "Uska date off birth batao ya FIR uska photo bhej do"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the birth date of the other person (Susmit) multiple times, but does not use the information to provide a reading about the match or the person's feelings within the transcript.",
+    "quotes": [
+     "Susmit ka mujhe date off birth bhi bata do"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or markers that could be verified by the user.",
+    "quotes": [
+     "aapki kundli mein aapki shaadi ko lekar kafi achcha Yog dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if the relationship will start this year. The astrologer does not provide a clear direction or answer to this specific question.",
+    "quotes": [
+     "Mera kab shaadi hone wala hai aur Mera kab relationship shuru hone wala hai?",
+     "Kya uske saath Mera relationship iss saal suru hoga ?"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' but does not link any specific chart factor to the user's life in plain words.",
+    "quotes": [
+     "Aage kundli ke anusar jaisa ki Main dekh Pa raha hun"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings do not add new, specific points or use the user's details to build depth.",
+    "quotes": [
+     "aapki relationship bhi bahut hi jaldi start bhi hone wala hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the relationship or marriage.",
+    "quotes": [
+     "bahut hi jaldi start bhi hone wala hai"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer does not address the first question (marriage timing) after the user introduces the second question (Susmit).",
+    "quotes": [
+     "Mera kab shaadi hone wala hai"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases that they will clear everything up but does not deliver the reading.",
+    "quotes": [
+     "sab kuchh clear kar dunga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple bare acknowledgements ('Ok', 'Okay') which stall the chat.",
+    "quotes": [
+     "Ok",
+     "Okay"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a promise to clear things up later, which is a tease rather than a reading.",
+    "quotes": [
+     "sab kuchh clear kar dunga"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though it lacks depth.",
+    "quotes": [
+     "Ji aap apna prashn bataiye kya jankari chahie"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera kab shaadi hone wala hai aur Mera kab relationship shuru hone wala hai?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide specific answers to the user's questions and repeatedly asked for information already provided. The chat lacked depth and relied on generic promises rather than actual astrological insight."
+ },
+ "usage": {
+  "input_tokens": 10477,
+  "output_tokens": 1399
+ }
+}

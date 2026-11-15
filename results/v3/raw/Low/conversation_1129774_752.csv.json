@@ -1,0 +1,386 @@
+{
+ "file": "conversation_1129774_752.csv",
+ "tier": "Low",
+ "user_id": "1129774",
+ "ltv": 410.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.67,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 67,
+   "S4": 187,
+   "S5": 191
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.25,
+  "B2": 1.43,
+  "B3": 1.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 13,
+   "long_frac": 0.286,
+   "max_words": 72,
+   "avg_words": 24.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     15,
+     18,
+     22
+    ],
+    "paid_idx": [
+     22,
+     23
+    ],
+    "evidence_idx": [
+     22,
+     23
+    ],
+    "reason": "The astrologer uses fear ('negative energy', 'relation tutane ke yog') and then immediately pivots to a paid pitch ('main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay', 'Aap dobara connect karo') to push for a paid consultation."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identifies the concern but immediately uses it to stall."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a generic reading about negative energy."
+   },
+   "S5": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Asks a follow-up question but it is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 23,
+    "quality": 0,
+    "note": "Hook is a paid pitch to extend the chat."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the relationship problem but does not name the feeling or build on the user's specific details.",
+    "quotes": [
+     "Yah ladki to bahut acchi hai aapki life ke liye present time mein negative energy prapt Hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo (Type C) and then asks about the duration of the problem (Type B).",
+    "quotes": [
+     "Use ladki ka koi photo hai aapke pass bhi hai",
+     "Kitne din se aap donon ka relationship tha pahle Se"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details/photo but does not use them for a reading, instead using them to push for a paid remedy.",
+    "quotes": [
+     "Use ladki ka koi photo hai aapke pass bhi hai"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and relies on 'negative energy' which is not specific to the user's chart.",
+    "quotes": [
+     "present time mein negative energy prapt Hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked when things will be okay, and the astrologer never gives a clear direction, only a pitch for a remedy.",
+    "quotes": [
+     "main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Pancham sthan' and 'negative energy' but does not explain them in plain words linked to the user's life.",
+    "quotes": [
+     "Jo negative energy Pancham sthan se kundli mein prapt hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings repeat the same 'negative energy' theme without adding new, specific insights.",
+    "quotes": [
+     "present time mein vah Kisi ke anusar se disturb kar rahi hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the resolution.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is promised but is tied to a paid consultation/remedy pitch.",
+    "quotes": [
+     "main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the girl's life to keep the user engaged for a paid session.",
+    "quotes": [
+     "ek important baat yah Bhi Jaan Lo Ki unki life mein"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but uses the remaining time to push for a paid extension.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease/hook for a paid session.",
+    "quotes": [
+     "ek important baat yah Bhi Jaan Lo Ki unki life mein"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy but the astrologer uses 'Pancham sthan' without explanation.",
+    "quotes": [
+     "Pancham sthan"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sab sehi kab ho ga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight, instead using fear-based tactics regarding 'negative energy' to push for a paid consultation. The chat was used primarily to stall and solicit money rather than address the user's relationship concerns."
+ },
+ "usage": {
+  "input_tokens": 15356,
+  "output_tokens": 1747
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#22 [04:42] ASTRO: Ek chij sacchai Hai Jaan Lo Ki present time mein vah Kisi ke anusar se disturb kar rahi hai confirm chij hai aur agar vah chij theek ho jaaye positive energy aapke prati uske man mein a jaaye to aap donon ka relation bahut achcha ho jaega agar aap chahoge to marriage bhi prapt kar sakte ho main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay\n#23 [05:00] ASTRO: Aap dobara connect karo main aapko batata hun kaise theek hoga Baki chinta Na Karo ek important baat yah Bhi Jaan Lo Ki unki life mein",
+   "reason": "The astrologer uses fear ('negative energy', 'relation tutane ke yog') and then immediately pivots to a paid pitch ('main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay', 'Aap dobara connect karo') to push for a paid consultation.",
+   "quote_en": "#22 [04:42] ASTRO: Know one truth: at present, something is disturbing them according to someone, this is confirmed. If that issue is resolved and positive energy towards you enters their mind, your relationship will become very good. If you wish, you can even get married. I will help you and tell you the path and the remedy to fix it.\n#23 [05:00] ASTRO: Connect again and I will tell you how to fix it. Otherwise, don't worry. Also, know this one important thing that in their life"
+  }
+ }
+}

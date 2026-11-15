@@ -1,0 +1,579 @@
+{
+ "file": "conversation_1680677_1931.csv",
+ "tier": "High",
+ "user_id": "1680677",
+ "ltv": 7690.06,
+ "n_msgs": 69,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.34,
+ "rubric_score": 5.34,
+ "blueprint": {
+  "score": 4.75,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.667,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 29,
+   "S2": 1100,
+   "S3": 190,
+   "S4": 153,
+   "S5": 190,
+   "S6": 697
+  }
+ },
+ "final": 5.04,
+ "label": "mixed",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 4.6,
+  "B3": 5.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 20,
+   "avg_words": 7.4,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is minimal."
+   },
+   "S2": {
+    "present": true,
+    "idx": 60,
+    "quality": 1,
+    "note": "Acknowledges pain late in the chat."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already known."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Generic prediction about marriage yoga."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks about the partner."
+   },
+   "S6": {
+    "present": true,
+    "idx": 39,
+    "quality": 1,
+    "note": "Gives a timeline but lacks chart depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation late in the chat, but the initial response was just 'Ji'.",
+    "quotes": [
+     "Main samajhta hun taklif Hui Hai per sab kuchh bhul jaaogi"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already known or assumes facts. Type C questions are present.",
+    "quotes": [
+     "Ek bar aap mujhe uska naam bataiye aur uski date off birth bhi aapko pata Hai to mujhe bataiye",
+     "Main yah poochh raha hun third person kaun hai"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 15,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 63,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but does not use them to provide a reading about the partner's chart.",
+    "quotes": [
+     "Ek bar aap mujhe uska naam bataiye aur uski date off birth bhi aapko pata Hai to mujhe bataiye"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "Aapki kundli mein shaadi ka yog present time mein active hai"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage timing but provides no reason or depth.",
+    "quotes": [
+     "October 2026 se march 2027 ke bich"
+    ],
+    "score": 6,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 39,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use user details effectively.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a window without a promise, but lacks chart-based reasoning.",
+    "quotes": [
+     "October 2026 se march 2027 ke bich"
+    ],
+    "score": 7,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 39,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question that required switching topics.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the astrologer is not providing content in every reply.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are questions about the third person, not a reading.",
+    "quotes": [],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, no technical terms used.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shadi kb tak hogi or kaise insan se hogi",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a timeline for marriage but failed to offer any depth, chart-based reasoning, or actionable remedies. The chat was hurt by the astrologer repeatedly asking for details about a third party that the user already provided or could not provide."
+ },
+ "usage": {
+  "input_tokens": 17746,
+  "output_tokens": 2577
+ },
+ "reference": {
+  "bare_acks": 3,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 6,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 7
+  }
+ }
+}

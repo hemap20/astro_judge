@@ -1,0 +1,289 @@
+{
+ "file": "conversation_846190_2031.csv",
+ "tier": "Medium",
+ "user_id": "846190",
+ "ltv": 855.0,
+ "n_msgs": 32,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 6,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 6,
+  "2.6": 1,
+  "2.7": 6,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 4.0,
+  "B3": 3.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.077,
+   "max_words": 35,
+   "avg_words": 12.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     21,
+     27,
+     28
+    ],
+    "reason": "The astrologer uses fear ('family ka bahut bada Ishu') to push for a paid remedy ('upay karne ki avashyakta hai', 'upay karna padega') without specifying what the remedy is, implying a paid service."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's relationship status and the question about marriage, but fails to name the user's feelings or build on the specific worry shared.",
+    "quotes": [
+     "Ankita ji Jo main aapki aur Shiv ke bare mein check kar pa raha hun to aap donon ke anusar Patrika to bahut hi acchi ban rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if they are in a relationship, which is Type B (could be asked to anyone). The question about birth details was necessary. No Type C questions were asked.",
+    "quotes": [
+     "Kya aap donon ek dusre ko like karte hain ya relation Hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's birth date and uses the name 'Shiv' in the reading, but fails to provide a reading based on his chart, only giving general statements about the relationship.",
+    "quotes": [
+     "Shiv ki date of birth de dijiye"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific markers or chart-based reasons that would make it unique to the user's situation.",
+    "quotes": [
+     "Ankita ji Jo main aapki aur Shiv ke bare mein check kar pa raha hun to aap donon ke anusar Patrika to bahut hi acchi ban rahi hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage chances and whether he is married, but uses fear to push for remedies.",
+    "quotes": [
+     "Shaadi ke liye chances to hai lekin family ka bahut bada Ishu dikh raha hai mujhe",
+     "Nahin shadishuda hone ka koi chance nahin dikh raha hai mujhe uska"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Patrika' but does not link it to any specific chart factor or provide a meaningful explanation of why the family issue exists.",
+    "quotes": [
+     "aap donon ke anusar Patrika to bahut hi acchi ban rahi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points (family issue, not married), but fails to use the user's specific details to build depth.",
+    "quotes": [
+     "Shaadi ke liye chances to hai lekin family ka bahut bada Ishu dikh raha hai mujhe"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the marriage.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests remedies but keeps them vague and tied to a 'paid' implication, failing to provide a practical step.",
+    "quotes": [
+     "Kuchh upay karne ki avashyakta hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers both the marriage question and the 'is he married' question, but the order is not clearly stated.",
+    "quotes": [
+     "Shaadi ke liye chances to hai",
+     "Nahin shadishuda hone ka koi chance nahin dikh raha hai mujhe uska"
+    ],
+    "score": 6
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a 'family issue' without explaining it, which acts as a hook rather than a helpful insight.",
+    "quotes": [
+     "family ka bahut bada Ishu dikh raha hai mujhe"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the responses are repetitive and lack depth.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a non-responsive 'Ji', which provides no value or reason to continue.",
+    "quotes": [
+     "Ji"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, using common terms like 'Patrika' and 'upay'.",
+    "quotes": [
+     "Ankita ji Jo main aapki aur Shiv ke bare mein check kar pa raha hun"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult; the astrologer's approach was consistently vague and pushy.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya humari age jake sadi ho paai gi?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully answered the user's direct questions about marriage and the partner's marital status. However, the consultation was severely undermined by the use of fear-based tactics to push for vague remedies, which failed to provide any real value or guidance."
+ },
+ "usage": {
+  "input_tokens": 10826,
+  "output_tokens": 1538
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#21 [03:18] ASTRO: Kuchh upay karne ki avashyakta hai\n#27 [04:17] ASTRO: Upay karenge tabhi aap donon ki shaadi purn Roop Se Ho payegi kyunki dekhiae family ka ek bada Ishu mujhe dikh raha hai\n#28 [04:25] ASTRO: Family wale man jaenge lekin unke liye kuchh upay karna padega Ankita ji",
+   "reason": "The astrologer uses fear ('family ka bahut bada Ishu') to push for a paid remedy ('upay karne ki avashyakta hai', 'upay karna padega') without specifying what the remedy is, implying a paid service.",
+   "quote_en": "#21 [03:18] ASTRO: Some remedies need to be performed.\n#27 [04:17] ASTRO: Only if you perform the remedies will your marriage be fully possible, because look, I can see a major family issue.\n#28 [04:25] ASTRO: The family will agree, but for that, some remedies will have to be performed, Ankita ji."
+  }
+ }
+}

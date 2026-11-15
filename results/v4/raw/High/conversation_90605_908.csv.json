@@ -1,0 +1,409 @@
+{
+ "file": "conversation_90605_908.csv",
+ "tier": "High",
+ "user_id": "90605",
+ "ltv": 102383.5,
+ "n_msgs": 64,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": null,
+  "2.4": 8,
+  "2.5": 7,
+  "2.6": 9,
+  "2.7": 8,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.62,
+ "rubric_score": 7.62,
+ "blueprint": {
+  "score": 7.02,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.857,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 2,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 1,
+   "S8": 2,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 20,
+   "S2": 148,
+   "S3": 21,
+   "S4": 124,
+   "S6": 257,
+   "S7": 1300,
+   "S8": 1065
+  }
+ },
+ "final": 7.32,
+ "label": "good",
+ "buckets": {
+  "B1": 8.67,
+  "B2": 7.83,
+  "B3": 6.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.182,
+   "max_words": 37,
+   "avg_words": 18.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Acknowledges her fear and insecurity."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 2,
+    "note": "Identifies the concern about the partner's current energy."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gives a generic negative energy reading."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not ask follow-up questions."
+   },
+   "S6": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Addresses feelings but lacks chart-based depth."
+   },
+   "S7": {
+    "present": true,
+    "idx": 52,
+    "quality": 1,
+    "note": "Probes about third-party issues."
+   },
+   "S8": {
+    "present": true,
+    "idx": 39,
+    "quality": 2,
+    "note": "Provides actionable advice on how to approach the partner."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided at the end."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the partner's energy and feelings.",
+    "quotes": [
+     "Yeh card batata hai ki unke mann mein fear, insecurity aur uncertainty chal rahi hai."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "The astrologer asks no questions to the user.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB and uses them to provide readings.",
+    "quotes": [
+     "Rajmita ke andar feelings hain"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, and specific to the partner's behavior.",
+    "quotes": [
+     "Rajmita ke andar feelings hain, par Woh emotionally cautious hai."
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage timing clearly.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai."
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses Tarot cards, not chart terms, so this is skipped.",
+    "quotes": [],
+    "score": null
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by addressing the user's specific concerns about loyalty and third-party issues.",
+    "quotes": [
+     "Break-up ke chances bahut kam hain.",
+     "Nahi, future mein koi serious third person issue nahi dikh raha."
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a clear window for marriage and maintains consistency.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai."
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Provides practical guidance on how to communicate with the partner.",
+    "quotes": [
+     "Gentle, understanding approach rakhein.",
+     "Kabhi yeh mat bolo: “Tum overthink kar rahi ho”"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread of the relationship concern throughout.",
+    "quotes": [
+     "Rishta long-term commitment ke liye suitable hai."
+    ],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer after the main question is answered.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer stops providing value at the end.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide practical guidance.",
+    "quotes": [
+     "Bade dramatic gestures se zyada, steady presence important hai."
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses easy, conversational Hinglish.",
+    "quotes": [
+     "Rajmita ke dil mein care aur emotional attachment hai."
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship love life energy and marriage prospects.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided helpful, actionable advice on how to handle the relationship and gave clear timelines. However, the astrologer failed to provide a hook for a future consultation and did not engage the user with follow-up questions."
+ },
+ "usage": {
+  "input_tokens": 16712,
+  "output_tokens": 1732
+ }
+}

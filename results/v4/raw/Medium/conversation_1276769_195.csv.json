@@ -1,0 +1,336 @@
+{
+ "file": "conversation_1276769_195.csv",
+ "tier": "Medium",
+ "user_id": "1276769",
+ "ltv": 1673.0,
+ "n_msgs": 18,
+ "n_astro_msgs": 9,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.54,
+ "rubric_score": 5.54,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 15,
+   "S4": 228,
+   "S6": 228
+  }
+ },
+ "final": 4.77,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.5,
+  "B2": 3.0,
+  "B3": 5.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 9,
+   "long_frac": 0.111,
+   "max_words": 33,
+   "avg_words": 10.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "none"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the question but asked in a very generic way."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gave a prediction but it was contradicted by the user's information."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Attempted to connect to the chart but failed to account for the user's specific input."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the specific details or the emotional context of the user's query.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the question, which is Type B, but did not ask any follow-up questions after the user provided details.",
+    "quotes": [
+     "Ky question h ji"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the details and used them to provide a reading, but the reading was factually incorrect based on the user's later input.",
+    "quotes": [
+     "Abhishek Ji Thoda Sa mujhe time dijiye main dekh Kar bata raha hun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading was about the future, but it was incorrect and not specific to the user's situation as described by the user.",
+    "quotes": [
+     "August 2026 se December 2027 ke bich bahut hi Prabal yog Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a direction (August 2026-Dec 2027) but it was contradicted by the user's information.",
+    "quotes": [
+     "August 2026 se December 2027 ke bich bahut hi Prabal yog Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned the kundli but did not explain the chart factors in plain words.",
+    "quotes": [
+     "kundli inki kundli mein inki shaadi ka majbut"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No later readings were provided to build depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The timing provided was contradicted by the user's information, making the prediction unreliable.",
+    "quotes": [
+     "August 2026 se December 2027 ke bich"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the chat stalled.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were defensive/justificatory rather than helpful.",
+    "quotes": [
+     "Ab kundli Jo bheje Hain uske according mein bata rahi hun"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language was simple and accessible.",
+    "quotes": [
+     "Kaise ho",
+     "Boliye dear"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ek ldki ki sadi janna tha kb hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a specific date range for the marriage, but it was factually incorrect based on the user's information. The astrologer failed to validate the user's input or provide any actionable remedy, leading to a poor consultation experience."
+ },
+ "usage": {
+  "input_tokens": 15305,
+  "output_tokens": 1500
+ }
+}

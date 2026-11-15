@@ -1,0 +1,285 @@
+{
+ "file": "conversation_3289400_670.csv",
+ "tier": "High",
+ "user_id": "3289400",
+ "ltv": 27986.06,
+ "n_msgs": 26,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 1,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.29,
+  "B3": 7.33,
+  "B4": 5.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 1,
+   "M": 4,
+   "long_frac": 0.692,
+   "max_words": 118,
+   "avg_words": 59.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "iska main solution kar sakta hun ki use third party ko dur kar sakta hun unka mind divert karke hata sakta hun aap donon ke life se yah kar sakta",
+    "reason": "The astrologer is using the user's anxiety about a third party to push a paid remedy/service, which is a form of pressure."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific situation regarding the girlfriend's behavior and the confusion about her feelings.",
+    "quotes": [
+     "Dekhiae bhai ji ab main aapko jo bata raha hun Dhyan se samjhiega yah ladki bilkul aapki prati loyal hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details which were necessary for the chart matching, but then pivots to a sales pitch.",
+    "quotes": [
+     "unka pura detail mujhe Bata dijiye date off birth janm sthan janm time"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to perform a chart match, which is appropriate for the user's question.",
+    "quotes": [
+     "unka pura detail mujhe Bata dijiye date off birth janm sthan janm time FIR main aap donon ka Patrika match karke aapko clear Bata deta hun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new information (third party), and is specific to the user's relationship issue.",
+    "quotes": [
+     "Kundli ke madhyam se inke life mein third party ka involve hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether she loves him or is just pitying him.",
+    "quotes": [
+     "na bilkul aap galat mat sochiyega Taras khakar aapse baat nahin karti hai acchi ladki Hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the Shukra planet in relation to the relationship, which is a chart factor in plain words.",
+    "quotes": [
+     "aapke bhi shukr planet ke according Jo Prem sambandh Ko lekar Mane jaate Hain"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the third party and the potential for marriage, building on the initial reading.",
+    "quotes": [
+     "aap donon ki marriage ko lekar bhi bahut strong Yog ban raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a general positive outlook without promising a specific date, which is appropriate.",
+    "quotes": [
+     "Baki yah Jo condition hai jald hi samapt Ho jaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a remedy that is a paid service pitch, which violates the rubric.",
+    "quotes": [
+     "iska main solution kar sakta hun ki use third party ko dur kar sakta hun"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the relationship concern throughout the chat.",
+    "quotes": [
+     "Baki yah Jo condition hai jald hi samapt Ho jaega"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the third party's influence to keep the user engaged.",
+    "quotes": [
+     "iska main solution kar sakta hun ki use third party ko dur kar sakta hun"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the relationship and the third party issue.",
+    "quotes": [
+     "Baki yah Jo condition hai jald hi samapt Ho jaega"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [
+     "Life mein career, education ya relationship"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya vo merse pyaar kerti h ya sirf taras khake merse baat kri kl",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a helpful reading regarding the user's relationship dynamics and the influence of a third party. However, the consultation was significantly marred by the astrologer using the user's emotional distress to pitch a paid remedy service."
+ },
+ "usage": {
+  "input_tokens": 11435,
+  "output_tokens": 1446
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "iska main solution kar sakta hun ki use third party ko dur kar sakta hun unka mind divert karke hata sakta hun aap donon ke life se yah kar sakta",
+   "reason": "The astrologer is using the user's anxiety about a third party to push a paid remedy/service, which is a form of pressure.",
+   "quote_en": "I can provide a solution to remove that third party by diverting their mind and getting them out of both of your lives; I can do this."
+  }
+ }
+}

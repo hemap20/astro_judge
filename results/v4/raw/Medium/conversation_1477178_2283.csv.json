@@ -1,0 +1,356 @@
+{
+ "file": "conversation_1477178_2283.csv",
+ "tier": "Medium",
+ "user_id": "1477178",
+ "ltv": 1035.0,
+ "n_msgs": 16,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": null,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.8,
+ "rubric_score": 7.8,
+ "blueprint": {
+  "score": 5.5,
+  "coverage": 0.5,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 2,
+   "S5": 1,
+   "S6": 2,
+   "S7": 2,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 51,
+   "S4": 135,
+   "S5": 168,
+   "S6": 217,
+   "S7": 282
+  }
+ },
+ "final": 6.65,
+ "label": "good",
+ "buckets": {
+  "B1": 7.67,
+  "B2": 8.2,
+  "B3": 7.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.167,
+   "max_words": 41,
+   "avg_words": 16.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks for the question after data is provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 7,
+    "quality": 2,
+    "note": "Gives a specific reading about financial and mental peace."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks if the reading is tallying."
+   },
+   "S6": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Connects marriage delay to the 7th lord being debilitated."
+   },
+   "S7": {
+    "present": true,
+    "idx": 15,
+    "quality": 2,
+    "note": "Probes about past relationships to refine the timing."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared no worry or feeling in the first message, only data. The astrologer provided a reading based on the chart.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if the reading is tallying (Type B) and asks about past relationships (Type A). No Type C questions.",
+    "quotes": [
+     "Aap apna question Karen aapko Maine Jo bataya life mein tally ho raha hai",
+     "currently kisi ko like bhi Karte Hain kya 2022 se 2025 ke bich mein Koi rishta tha ya koi shaadi fix होते-होते nahin Ho Paye"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about marriage in general, not a specific person, so this is not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific, and tied to the chart.",
+    "quotes": [
+     "financial problem chal rahi Hogi abhi aapke life mein",
+     "25 April 2025se bilkul mental peace nahin Hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (June to November) and a reason (7th lord debilitated).",
+    "quotes": [
+     "June se November ka samay aapke personal life ko lekar ke bahut achcha samay Hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage delay to the 7th lord being debilitated in plain words.",
+    "quotes": [
+     "shaadi aapki Ho nahin rahi hai kyunki marriage house ka Swami dekha jaaye to neech ka hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new layer about the quality of the relationship and timing.",
+    "quotes": [
+     "aapko apni yogyata personality Aur vichardhara Ke anusar perfect rishta nahin mil pa Raha Hoga"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a window (June to November) based on the chart.",
+    "quotes": [
+     "June se November ka samay aapke personal life ko lekar ke bahut achcha samay Hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User only asked one question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about past relationship history to refine the prediction.",
+    "quotes": [
+     "2022 se 2025 ke bich mein Koi rishta tha ya koi shaadi fix होते-होते nahin Ho Paye"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, every message adds value.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a relevant question about the user's history.",
+    "quotes": [
+     "2022 se 2025 ke bich mein Koi rishta tha ya koi shaadi fix होते-होते nahin Ho Paye"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses simple Hinglish, no formal language, and explains terms.",
+    "quotes": [
+     "marriage house ka Swami"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi के बारे",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear, chart-based reading regarding the user's financial and marriage concerns. However, the consultation lacked a remedy and a proper closing hook to encourage a return."
+ },
+ "usage": {
+  "input_tokens": 15381,
+  "output_tokens": 1624
+ }
+}

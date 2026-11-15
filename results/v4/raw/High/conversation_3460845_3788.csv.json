@@ -1,0 +1,500 @@
+{
+ "file": "conversation_3460845_3788.csv",
+ "tier": "High",
+ "user_id": "3460845",
+ "ltv": 32615.2,
+ "n_msgs": 70,
+ "n_astro_msgs": 40,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 4,
+  "2.2": 3,
+  "2.3": 4,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 4,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.36,
+ "blueprint": {
+  "score": 5.2,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 57,
+   "S4": 241,
+   "S6": 376,
+   "S8": 1143
+  }
+ },
+ "final": 3.28,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 3.43,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 10.7,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     28,
+     32
+    ],
+    "paid_idx": [
+     63,
+     64,
+     65
+    ],
+    "evidence_idx": [
+     63,
+     64,
+     65
+    ],
+    "reason": "The astrologer uses fear regarding Rahu/Ketu being 'very weak' and causing 'distraction/trouble' to push a paid follow-up chat and a ritual process."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not validate the user's emotional distress."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Asks for the concern but does not acknowledge the specific context provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Generic positive prediction about the chart."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions about the user's situation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Connects Ketu to distraction but lacks depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant questions probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 45,
+    "quality": 1,
+    "note": "Remedy provided but not tied to the specific cause."
+   },
+   "S9": {
+    "present": true,
+    "idx": 63,
+    "quality": 0,
+    "note": "Hook is a paid pitch for a follow-up chat."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's distress about studies and anger, focusing only on the chart.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo (Type C) and does not ask questions that build on the user's situation.",
+    "quotes": [
+     "Kya aap bacche ki face ki photo bhej sakte hain"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but does not use them to provide a reading about the daughter's specific situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's life.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about studies is not answered with a clear direction.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used but not linked to the user's life in a meaningful way.",
+    "quotes": [
+     "Aapki kundli mein ketu hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same generic points about Rahu/Ketu.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency in predictions.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is provided but not tied to the specific problem.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread is lost as the astrologer focuses on the remedy.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The next layer is opened through a paid pitch.",
+    "quotes": [
+     "Jab aap yah Chadha lenge to uske bad ek chhoti Si chat connect karni hai mere pass"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is filled with empty acknowledgements.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague instruction about waiting.",
+    "quotes": [
+     "0 waiting ke upar Vishesh Dhyan dena"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, but the astrologer uses formal/bookish tone.",
+    "quotes": [
+     "Bataiye aapki kis prakar se sahayata kar sakta hun main"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere padhai ke bare mai bathaye aur baki sab bhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific concerns about studies and family conflict, instead providing generic chart information and pushing for a paid follow-up. The most helpful part was the attempt to provide a remedy, but it was undermined by the pressure to reconnect for a paid service."
+ },
+ "usage": {
+  "input_tokens": 16638,
+  "output_tokens": 2069
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#28 [11:35] ASTRO: Rahul ketu bahut jyada week Hai to isko distract kafi jyada karenge\n#32 [13:49] ASTRO: Kyunki iski kundli mein Rahu bahut jyada week Hai to isliye usko distract Karega aur pareshani mein bhi Dal sakta hai\n#63 [23:12] ASTRO: Jab aap yah Chadha lenge to uske bad ek chhoti Si chat connect karni hai mere pass\n#64 [23:23] ASTRO: Main aapke bacchi ki details aur uske birth details ke Aadhar per uske liye kuchh Mantra Jaap karunga vah ekadam free rahega aapke liye\n#65 [23:39] ASTRO: Jab aapko result dekhne Lage to aap iska jo chahe vah de sakte hain bad mein Lekin",
+   "reason": "The astrologer uses fear regarding Rahu/Ketu being 'very weak' and causing 'distraction/trouble' to push a paid follow-up chat and a ritual process.",
+   "quote_en": "#28 [11:35] ASTRO: Rahu and Ketu are very weak, so they will distract him quite a lot.\n#32 [13:49] ASTRO: Because Rahu is very weak in his kundli, it will distract him and can also cause trouble.\n#63 [23:12] ASTRO: Once you have offered this, you need to have a short chat with me.\n#64 [23:23] ASTRO: Based on your child's details and birth details, I will perform some Mantra Jaap for him, which will be completely free for you.\n#65 [23:39] ASTRO: Once you start seeing results, you can give whatever you wish later, but"
+  }
+ }
+}

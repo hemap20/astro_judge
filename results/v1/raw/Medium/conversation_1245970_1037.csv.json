@@ -1,0 +1,675 @@
+{
+ "file": "conversation_1245970_1037.csv",
+ "tier": "Medium",
+ "user_id": "1245970",
+ "ltv": 3437.34,
+ "n_msgs": 142,
+ "n_astro_msgs": 89,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 4.29,
+  "B3": 7.33,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 10
+  },
+  "4.1": {
+   "score": 6,
+   "M": 20,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 9.9,
+   "bursts": 8,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Main teen din tak Pujan karungi... Uske bad vah phone bhi karenge shaadi bhi karenge Ghar Wale bhi man jaenge",
+    "reason": "The astrologer promises specific outcomes (phone call, marriage, family acceptance) as a result of a 'Pujan' ritual, creating false certainty and urgency."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's relationship issue by confirming the partner's behavior and the family situation.",
+    "quotes": [
+     "Rakesh ji to is Samay third person ke energy mein bhi dikhai de rahe hain",
+     "Aap shaadi ke liye boli to vah mana kar rahe hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and photos, which are relevant to the reading, but the constant pressure to perform rituals and the focus on 'energy' makes the questions feel like a setup for the remedy.",
+    "quotes": [
+     "Unka Naam aur date off birth bataiye",
+     "Aap apni aur unki pic send kar de"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about his current state and family issues.",
+    "quotes": [
+     "Unka Naam aur date off birth bataiye",
+     "Rakesh ji to is Samay third person ke energy mein bhi dikhai de rahe hain"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the partner being in 'third person energy' and the family issue is specific and new to the user.",
+    "quotes": [
+     "Rakesh ji to is Samay third person ke energy mein bhi dikhai de rahe hain",
+     "Unke Ghar wale unke liye ladki bhi dekh rahe hain kahin"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks when things will be okay, and the astrologer provides a timeline linked to the ritual.",
+    "quotes": [
+     "Kb sb thik hoga",
+     "Uske bad vah phone bhi karenge shaadi bhi karenge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'energy' and 'yog' but does not link them to specific chart factors in plain words.",
+    "quotes": [
+     "Rakesh ji to is Samay third person ke energy mein bhi dikhai de rahe hain"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's family and the block status, building on the user's situation.",
+    "quotes": [
+     "Unke Ghar wale unke liye ladki bhi dekh rahe hain kahin",
+     "Aapko block kar rakha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises the outcome will happen within three days of the ritual, which is a firm promise rather than a chart-based window.",
+    "quotes": [
+     "Uske bad vah phone bhi karenge shaadi bhi karenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a 'Maha Mohini Mantra' and a 'Pujan' which is presented as the only way to fix the relationship, bordering on a pitch.",
+    "quotes": [
+     "Aap MHA Mohini Mantra ka Jaap Kar lijiye",
+     "Main teen din tak Pujan karungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship throughout the chat.",
+    "quotes": [
+     "Aap donon ki shaadi hogi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner unblocking the user after the ritual.",
+    "quotes": [
+     "Ho sakta hai Pujan ke bich mein Hi block khol de"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely and keeps the conversation going.",
+    "quotes": [
+     "Man mein Koi confusion ho to bataiye"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages focus on the ritual and the promise of the partner unblocking the user.",
+    "quotes": [
+     "Ho sakta hai Pujan ke bich mein Hi block khol de",
+     "Man Kamakhya ki kripa Se aapki manokamna jarur purn hogi"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the ritualistic terms are not explained.",
+    "quotes": [
+     "Aap donon ki shaadi hogi"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kb sb thik hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 105,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 111,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 117,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 131,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 133,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 134,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 135,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 138,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 140,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's relationship issues and provided a reading that resonated with her. However, the consultation was heavily marred by the promise of guaranteed results through rituals, which violates safety guidelines regarding false certainty."
+ },
+ "usage": {
+  "input_tokens": 13378,
+  "output_tokens": 2992
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Main teen din tak Pujan karungi... Uske bad vah phone bhi karenge shaadi bhi karenge Ghar Wale bhi man jaenge",
+   "reason": "The astrologer promises specific outcomes (phone call, marriage, family acceptance) as a result of a 'Pujan' ritual, creating false certainty and urgency.",
+   "quote_en": "I will perform the pooja for three days... After that, he will call, we will get married, and the family will also agree."
+  }
+ }
+}

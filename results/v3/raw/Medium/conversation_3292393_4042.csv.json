@@ -1,0 +1,578 @@
+{
+ "file": "conversation_3292393_4042.csv",
+ "tier": "Medium",
+ "user_id": "3292393",
+ "ltv": 2903.98,
+ "n_msgs": 86,
+ "n_astro_msgs": 53,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.24,
+ "blueprint": {
+  "score": 4.54,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.933,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 28,
+   "S2": 82,
+   "S3": 37,
+   "S4": 216,
+   "S5": 248,
+   "S6": 1000
+  }
+ },
+ "final": 1.39,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 2.29,
+  "B3": 3.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.019,
+   "max_words": 39,
+   "avg_words": 14.4,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     43,
+     44
+    ],
+    "paid_idx": [
+     18,
+     26
+    ],
+    "evidence_idx": [
+     43,
+     44,
+     18,
+     26
+    ],
+    "reason": "The astrologer uses fear (black magic) to create urgency and then immediately pivots to asking for more time/reconnecting to discuss remedies, which is a paid element."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Acknowledges feelings but in a generic way."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identifies marriage delay but asks as a leading question."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gives a generic chart reason (Shani/Rahu) for marriage delay."
+   },
+   "S5": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Asks a follow-up question about a specific relationship."
+   },
+   "S6": {
+    "present": true,
+    "idx": 56,
+    "quality": 1,
+    "note": "Connects timing to transit but remains vague."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's health and marriage concerns but does not repeat specific details shared by the user.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, some of which are Type B (generic) and some Type C (assuming facts like black magic).",
+    "quotes": [
+     "Aap apni health issues aur marriage delay ko lekar Jana chahte ho kya",
+     "kisi ne kuchh Black magic kara ho"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No specific other person's birth details were requested or used.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and uses fear-based tactics (black magic) rather than specific chart-based insights.",
+    "quotes": [
+     "kisi ne kuchh Black magic kara ho"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never provides a clear direction or answer to the user's question about why she is not married.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used but not linked to the user's life in a meaningful way.",
+    "quotes": [
+     "marriage house mein Shani aur Rahu ka baithana hi hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same themes of negativity and black magic.",
+    "quotes": [
+     "kisi ne kuchh Black magic kara ho"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timing without a clear window or basis.",
+    "quotes": [
+     "January se June ka bich ka timing theek nahin tha but abhi ek bahut achcha timing shuru ho chuka hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy was actually provided; the astrologer only teased that he would provide one.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps switching topics to black magic and past relationships, losing the main thread.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses fear-based teases about black magic to keep the user engaged.",
+    "quotes": [
+     "kisi ne kuchh Black magic kara ho"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to repetitive questioning.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for details and emotional validation rather than a reading.",
+    "quotes": [
+     "Kuchh details ho to mujhe ek bar share kariye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy, but the astrologer uses formal/scripted phrases.",
+    "quotes": [
+     "Jay Shri Krishna"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger occurred.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Why am I not married yet and what does my chart say?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer helped by maintaining a consistent presence, but hurt the consultation significantly by using fear-based tactics like 'black magic' and failing to provide any actionable remedies or clear answers to the user's primary concerns."
+ },
+ "usage": {
+  "input_tokens": 17050,
+  "output_tokens": 2385
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#43 [15:01] ASTRO: Jaise kisi ne kuchh Black magic kara ho\n#44 [15:09] ASTRO: Mostly mujhe lagta hai yah bhi aap feel Karti hongi\n#18 [04:15] ASTRO: Aur mera aapse ek request rahega aur please aap chat ka timing thoda sa badha sakte ho\n#26 [04:59] ASTRO: Aur agar chat disconnect hota Hai to mujhe turant dobara se connect karo",
+   "reason": "The astrologer uses fear (black magic) to create urgency and then immediately pivots to asking for more time/reconnecting to discuss remedies, which is a paid element.",
+   "quote_en": "#43 [15:01] ASTRO: It feels like someone has done some black magic\n#44 [15:09] ASTRO: Mostly I feel that you must be feeling this too\n#18 [04:15] ASTRO: And I have a request for you, could you please increase the chat timing a little bit\n#26 [04:59] ASTRO: And if the chat disconnects, please reconnect with me immediately"
+  }
+ }
+}

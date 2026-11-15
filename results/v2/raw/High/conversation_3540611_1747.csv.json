@@ -1,0 +1,707 @@
+{
+ "file": "conversation_3540611_1747.csv",
+ "tier": "High",
+ "user_id": "3540611",
+ "ltv": 6854.62,
+ "n_msgs": 133,
+ "n_astro_msgs": 96,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 3,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 5.43,
+  "B3": 6.0,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 3,
+   "M": 27,
+   "long_frac": 0.021,
+   "max_words": 33,
+   "avg_words": 13.0,
+   "bursts": 9,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     30,
+     31,
+     118,
+     127
+    ],
+    "reason": "The astrologer uses urgency ('agar aap meri baton ko lekar serious Ho... to aap apna time badha lijiye') and promises a guaranteed result ('72 ghante ke andar uski mummy man jayegi Meri jimmedari') to push the user to extend the chat (a paid element)."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's breakup and the mother's involvement, which the user implicitly confirms.",
+    "quotes": [
+     "Raunak ji sabse pahle mujhe yahan per recently breakup dikhai de raha hai",
+     "Aur family mein sabse jyada uske mother Ki galti dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's name and DOB, which is necessary for the reading, but then repeatedly asks the user to extend time, which is a Type C behavior.",
+    "quotes": [
+     "Uska naam aur date off birth batao",
+     "Agar aap meri baton ko lekar serious Ho... to aap apna time badha lijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details to perform a matching/prediction and uses them to provide a reading about her feelings and the mother's involvement.",
+    "quotes": [
+     "Uska naam aur date off birth batao",
+     "Iski main kundli lagata hun sath mein aapki kundli screen per lagata hun"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the breakup and the mother's interference is specific and presented as a chart insight.",
+    "quotes": [
+     "Raunak ji sabse pahle mujhe yahan per recently breakup dikhai de raha hai",
+     "Aur family mein sabse jyada uske mother Ki galti dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether the girl will return with a clear direction and a timeline.",
+    "quotes": [
+     "Dekho Mere Bhai yah jo ladki hai yah to wapas aana Hi chahti hai",
+     "72 ghante ke andar uski mummy man jayegi Meri jimmedari"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to the 'Shukr' (Venus) planet and 'Sani' (Saturn) in the 4th house.",
+    "quotes": [
+     "Yahan per aapko apna shukr majbut karne ki jarurat hai",
+     "Char number house mein aapko sabse pahle Sani milega"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the mother's pressure and the specific planetary influence (Shukr) as the chat progresses.",
+    "quotes": [
+     "kyunki uske mummy ka uske upar bahut bada pressure hai",
+     "Kyunki yahan per jo ladki ka shukr planet hai Vah tumhare liye itna jyada positive hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives specific timeframes (7 hours 20 minutes, 72 hours) which are presented as certainties, failing the 'no promise' rule.",
+    "quotes": [
+     "7 ghante 20 minut ke bad mein uska call aaega",
+     "72 ghante ke andar uski mummy man jayegi Meri jimmedari"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a remedy (mantra) but ties it to the need to extend the chat/pay, which is a pressure tactic.",
+    "quotes": [
+     "Agar aap serious Ho... Jo Mantra main bolunga... Aapko mere sath mein bolna hoga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread of the breakup and the girl's return throughout the chat.",
+    "quotes": [
+     "Dekho Mere Bhai yah jo ladki hai yah to wapas aana Hi chahti hai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the mother's involvement and the specific planetary reason for the breakup.",
+    "quotes": [
+     "Sirf ismein uski ma involved hai",
+     "Tumhare ek planet Ne Sara Khel kharab kar diya hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but repeatedly pushes for time extension.",
+    "quotes": [
+     "Ready ho to sabse pahle apna time badha lo"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the time extension and the promise of the call, not a final reading.",
+    "quotes": [
+     "Aap apna time badha lijiye Shriman Ji",
+     "7 ghante 20 minut ke bad mere pass connect karke bol dena"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, using common terms like 'Shukr' and 'Sani' in a way the user understands.",
+    "quotes": [
+     "Yahan per aapko apna shukr majbut karne ki jarurat hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one pushing the agenda.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya wo ladki wapis aaya ghi",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 111,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 113,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 122,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 128,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a reading that resonated with the user's situation, but the experience was severely undermined by constant pressure to extend the chat time and promises of guaranteed results. The astrologer's focus on monetization and time-extension requests overshadowed the actual astrological insights provided."
+ },
+ "usage": {
+  "input_tokens": 13721,
+  "output_tokens": 3287
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#30 [03:28] ASTRO: Agar aap meri baton ko lekar serious Ho sacchai dikhai de rahi ho to aap apna time badha lijiye\n#31 [03:46] ASTRO: Time badhana hoga to upar dekhiaega head coin ka option hoga vahan se aap time badha lega\n#118 [13:45] ASTRO: Ready ho to sabse pahle apna time badha lo\n#127 [14:36] ASTRO: Aap apna time badha lijiye Shriman Ji",
+   "reason": "The astrologer uses urgency ('agar aap meri baton ko lekar serious Ho... to aap apna time badha lijiye') and promises a guaranteed result ('72 ghante ke andar uski mummy man jayegi Meri jimmedari') to push the user to extend the chat (a paid element).",
+   "quote_en": "#30 [03:28] ASTRO: If you are serious about what I am saying and can see the truth, then please extend your time.\n#31 [03:46] ASTRO: If you need to extend the time, look at the top, there will be a coin option, you can extend your time from there.\n#118 [13:45] ASTRO: If you are ready, first extend your time.\n#127 [14:36] ASTRO: Please extend your time, sir."
+  }
+ }
+}

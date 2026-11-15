@@ -1,0 +1,799 @@
+{
+ "file": "conversation_3540611_1747.csv",
+ "tier": "High",
+ "user_id": "3540611",
+ "ltv": 6854.62,
+ "n_msgs": 133,
+ "n_astro_msgs": 96,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 6,
+  "2.1": 6,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": null,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.52,
+ "blueprint": {
+  "score": 4.48,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.7,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S2": 514,
+   "S3": 110,
+   "S4": 92,
+   "S6": 578
+  }
+ },
+ "final": 1.5,
+ "label": "bad",
+ "buckets": {
+  "B1": 6.75,
+  "B2": 2.0,
+  "B3": 4.0,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 27,
+   "long_frac": 0.021,
+   "max_words": 33,
+   "avg_words": 13.0,
+   "bursts": 9,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     36,
+     115,
+     116
+    ],
+    "paid_idx": [
+     30,
+     31,
+     118,
+     127
+    ],
+    "evidence_idx": [
+     30,
+     31,
+     36,
+     115,
+     116,
+     118,
+     127
+    ],
+    "reason": "The astrologer uses fear/urgency (guaranteeing a call in 7 hours and family acceptance in 72 hours) to pressure the user to extend/recharge the chat time."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 1,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 71,
+    "quality": 1,
+    "note": "Acknowledges the user's distress but focuses on self-defense."
+   },
+   "S3": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Identifies the marriage timing question."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gives a generic career prediction."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions about the user's situation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 80,
+    "quality": 1,
+    "note": "Mentions house 4 and Saturn but uses it to create fear/pressure."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 93,
+    "quality": 0,
+    "note": "Remedy is tied to a paid service/recharge pressure."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook; only pressure to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the breakup and family issues, but the tone is manipulative.",
+    "quotes": [
+     "Raunak ji sabse pahle mujhe yahan per recently breakup dikhai de raha hai",
+     "Ladki ke family Ki galti dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details, which is standard, but then uses the chat to pressure for time.",
+    "quotes": [
+     "Uska naam aur date off birth batao"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for details to perform a reading, but uses them to create a dependency.",
+    "quotes": [
+     "Uska naam aur date off birth batao"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific but lacks a genuine chart reason, focusing on emotional manipulation.",
+    "quotes": [
+     "Raunak ji sabse pahle mujhe yahan per recently breakup dikhai de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Answers the question about the girl returning with a guarantee.",
+    "quotes": [
+     "Dekho Mere Bhai yah jo ladki hai yah to wapas aana Hi chahti hai"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Saturn and Venus but uses them to create fear and pressure.",
+    "quotes": [
+     "Char number house mein aapko sabse pahle Sani milega"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are just extensions of the initial pressure.",
+    "quotes": [
+     "7 ghante 20 minut ke bad mein uska call aaega"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives specific, guaranteed timeframes which is a failure.",
+    "quotes": [
+     "7 ghante 20 minut ke bad mein uska call aaega"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is tied to paid services and pressure.",
+    "quotes": [
+     "Yahan per Vaidik vidhi ke dwara Jo Bhagwan ka Pujan hota Hai uske dwara shukr achcha Kiya jata hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Main thread is held but used for manipulation.",
+    "quotes": [
+     "Dekho Mere Bhai yah jo ladki hai yah to wapas aana Hi chahti hai"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Opens a next layer only to pressure for more time.",
+    "quotes": [
+     "Agar aap meri baton ko lekar serious Ho sacchai dikhai de rahi ho to aap apna time badha lijiye"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is filled with pressure.",
+    "quotes": [],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "1.3": {
+    "skipped": true,
+    "reasoning": "Scripted count.",
+    "quotes": [],
+    "score": null
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Will the girl come back?",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 111,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 113,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 122,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 128,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a reading but heavily relied on fear-based tactics and guaranteed outcomes to pressure the user into extending the consultation. The most helpful part was the initial validation of the user's situation, while the constant pressure to recharge and the lack of genuine astrological depth hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 18194,
+  "output_tokens": 3335
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#30 [03:28] ASTRO: Agar aap meri baton ko lekar serious Ho sacchai dikhai de rahi ho to aap apna time badha lijiye\n#31 [03:46] ASTRO: Time badhana hoga to upar dekhiaega head coin ka option hoga vahan se aap time badha lega\n#36 [04:40] ASTRO: 7 ghante 20 minut ke bad mein uska call aaega\n#115 [13:28] ASTRO: Sabhi log pyar Se man jaenge 72 ghante ke andar uski mummy man jayegi Meri jimmedari\n#116 [13:32] ASTRO: Aur 24 ghante ke andar aap donon continue Ho jaaoge\n#118 [13:45] ASTRO: Ready ho to sabse pahle apna time badha lo\n#127 [14:36] ASTRO: Aap apna time badha lijiye Shriman Ji",
+   "reason": "The astrologer uses fear/urgency (guaranteeing a call in 7 hours and family acceptance in 72 hours) to pressure the user to extend/recharge the chat time.",
+   "quote_en": "#30 [03:28] ASTRO: If you are serious about what I am saying and can see the truth, then please extend your time.\n#31 [03:46] ASTRO: If you need to extend the time, look above, there will be a head coin option; you can extend your time from there.\n#36 [04:40] ASTRO: After 7 hours and 20 minutes, you will receive their call.\n#115 [13:28] ASTRO: Everyone will agree lovingly; within 72 hours, their mother will agree, that is my responsibility.\n#116 [13:32] ASTRO: And within 24 hours, both of you will be back together.\n#118 [13:45] ASTRO: If you are ready, then first extend your time.\n#127 [14:36] ASTRO: Please extend your time, sir."
+  }
+ }
+}

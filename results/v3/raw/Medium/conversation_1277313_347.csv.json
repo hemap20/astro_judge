@@ -1,0 +1,464 @@
+{
+ "file": "conversation_1277313_347.csv",
+ "tier": "Medium",
+ "user_id": "1277313",
+ "ltv": 991.0,
+ "n_msgs": 67,
+ "n_astro_msgs": 34,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.64,
+ "rubric_score": 4.64,
+ "blueprint": {
+  "score": 4.54,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 0.933,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 33,
+   "S2": 136,
+   "S3": 60,
+   "S4": 210,
+   "S5": 363,
+   "S8": 518
+  }
+ },
+ "final": 4.59,
+ "label": "mixed",
+ "buckets": {
+  "B1": 2.67,
+  "B2": 3.57,
+  "B3": 5.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 8,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.029,
+   "max_words": 42,
+   "avg_words": 5.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "No paid element or pressure to pay."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Acknowledges distress but generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identifies job concern but asks for no details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Generic prediction about planet disbalance."
+   },
+   "S5": {
+    "present": true,
+    "idx": 36,
+    "quality": 1,
+    "note": "Follow-up is about phone number, not the job concern."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 55,
+    "quality": 1,
+    "note": "Remedies provided but not tied to the job concern."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress but does not repeat any specific details shared by the user.",
+    "quotes": [
+     "Aap pareshan na ho"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about phone numbers and bed placement which are not relevant to the user's job concern.",
+    "quotes": [
+     "Aap jo phone number use kar rahe ho usme 2 48 digit",
+     "Black or Blue colour jada use kar rahe ho",
+     "Ghar ka 🛏️ bed wall se touch",
+     "Spelling name ki same hai document pe"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No other person involved.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone.",
+    "quotes": [
+     "kundli mein bhi as career ko lekar acha yog hi but some planet disbalance hi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never gives a clear direction or time window for the job.",
+    "quotes": [
+     "Mera gov . Job kb lgega"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions 'planet disbalance' but does not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "some planet disbalance hi"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth added; later messages focus on irrelevant numerology.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies are stock numerology/ritualistic advice not tied to the job problem.",
+    "quotes": [
+     "Wallpaper change pink 🪷 Lotus flower with water",
+     "Ek diya 🪔 jalana hi usme yellow sarson dalna hi"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The job question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat stalls with irrelevant questions.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague time reference without a reading.",
+    "quotes": [
+     "Sep month"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is not astrology-based.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera gov . Job kb lgega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's job concern, instead pivoting to irrelevant numerology and home-remedy questions. The chat lacked any meaningful astrological insight or connection to the user's specific situation."
+ },
+ "usage": {
+  "input_tokens": 15827,
+  "output_tokens": 1918
+ }
+}

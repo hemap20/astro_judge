@@ -1,0 +1,292 @@
+{
+ "file": "conversation_1427033_2530.csv",
+ "tier": "Medium",
+ "user_id": "1427033",
+ "ltv": 951.0,
+ "n_msgs": 30,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 9,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.26,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 5.71,
+  "B3": 4.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 9.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about marriage timing or the details provided in the first message, instead jumping straight to chart generation and generic statements.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to the user; all messages are statements or readings.",
+    "quotes": [],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asks about a future partner, but the astrologer does not ask for details about a specific person, which is appropriate as the user is asking for a prediction about a future spouse.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific markers or chart-based reasons tied to the user's life. It is not specific enough to be verified.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window (May, after the 13th) for marriage talks, answering the user's question.",
+    "quotes": [
+     "Mai mein rishte per baat hone ka yog hai",
+     "13 tarikh ke bad"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions chart terms like 'Lagan', 'Rashi', 'Shukr', and 'Budh' but fails to link them to the user's life in a meaningful, plain-language way.",
+    "quotes": [
+     "Lagan aapki Dhanu hai aur Tula aapki Rashi hai",
+     "Shukr baithe hue hain",
+     "Satyamev bhav ke Swami Budh Hain Jo marak grah Hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's background and health, but these are generic and not tied to the user's specific life details.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time window (May, after the 13th) without promising a guaranteed outcome.",
+    "quotes": [
+     "Mai mein rishte per baat hone ka yog hai",
+     "13 tarikh ke bad"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of marriage and the partner's characteristics throughout the chat.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers or offer additional insights beyond the immediate questions.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the chat ends abruptly when the astrologer says 'Sorry' to a question.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is 'Sorry', which provides no reading or guidance.",
+    "quotes": [
+     "Sorry"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, using common terms like 'rishte', 'yog', and 'kundli'.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "When I will marry",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully provided a specific time window for the user's marriage query. However, the consultation suffered from a lack of depth in explaining chart reasons and ended abruptly with an unhelpful 'Sorry' message."
+ },
+ "usage": {
+  "input_tokens": 10804,
+  "output_tokens": 1398
+ }
+}

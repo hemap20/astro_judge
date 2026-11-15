@@ -1,0 +1,266 @@
+{
+ "file": "conversation_898206_1763.csv",
+ "tier": "Medium",
+ "user_id": "898206",
+ "ltv": 885.0,
+ "n_msgs": 18,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 6,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.62,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 5.83,
+  "B3": 7.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.182,
+   "max_words": 76,
+   "avg_words": 17.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared a question about marriage. The astrologer's first reading (message 14) acknowledges the marriage question but does not reference the user's specific feeling or context, just the question itself.",
+    "quotes": [
+     "Ajay Ji aapki shaadi ka jarur ban raha hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about a love relationship (Type B). It is not Type C as it is relevant to the marriage question, but it is not Type A as it does not build on user-provided details.",
+    "quotes": [
+     "Apka koi love relationship hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about their own marriage, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (marriage timing), not the present or past. It is not specific to the user's life.",
+    "quotes": [
+     "agale shal Tak aapki shaadi Ke chances Puri tarah Se Banti dikhai de raha"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about when marriage will happen with a time window (next year).",
+    "quotes": [
+     "Ajay Ji aapki shaadi ka jarur ban raha hai agale shal Tak",
+     "Meri sadi kb hogyi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Shani and Shukr in relation to the marriage delay and love marriage, using plain words.",
+    "quotes": [
+     "Shani thodi Si deri kar rahe hain",
+     "sarve bhav mein shukr ka sthit hona love ke taraf jyada attract karta hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add new points (love marriage, girl entering life) but do not use any specific details provided by the user.",
+    "quotes": [
+     "love marriage ki sthiti aapki bahut hi strong Hai",
+     "Aapki life mein ladki aane ke Yog bhi bahut hi jald Ban rahe hain"
+    ],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a time window (next year) and maintains consistency, but uses a slightly pushy tone regarding the certainty of the event.",
+    "quotes": [
+     "agale shal Tak aapki shaadi Ke chances Puri tarah Se Banti dikhai de raha"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo for palmistry, which is a request for a service/data rather than a remedy for the stated problem.",
+    "quotes": [
+     "Aap apni right hand ka photo send kariye"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only asked one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by offering to predict the girl's name and arrival time via palmistry.",
+    "quotes": [
+     "main aapki baten dikha check karke Bata sakti hun ki aapke life mein ladki kab tak aaegi aur unka naam kya hoga"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the astrologer ends by asking for a photo to continue the consultation.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo to provide further insight, which keeps the thread open.",
+    "quotes": [
+     "Aap apni right hand ka photo send kariye main aapki baten dikha check karke Bata sakti hun"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common astrology terms (Shani, Shukr, Yog) in a conversational way.",
+    "quotes": [
+     "Shani thodi Si deri kar rahe hain",
+     "love marriage ki sthiti aapki bahut hi strong Hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri sadi kb hogyi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the user's marriage and explained the astrological reasons in simple terms. However, the consultation relied on generic predictions and ended by pushing for a palmistry reading via photo, which felt like a pivot to a different service."
+ },
+ "usage": {
+  "input_tokens": 10584,
+  "output_tokens": 1415
+ }
+}

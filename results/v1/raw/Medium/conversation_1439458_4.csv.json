@@ -1,0 +1,247 @@
+{
+ "file": "conversation_1439458_4.csv",
+ "tier": "Medium",
+ "user_id": "1439458",
+ "ltv": 663.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 8,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 1.5,
+  "B2": 1.57,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 4,
+   "R": null,
+   "T": 4
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 13,
+   "avg_words": 7.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Iske Saath Baat karwa doon 3 din mein",
+    "reason": "The astrologer promises a specific result (getting the girl to talk) within a specific timeframe (3 days) for a ritual, which is a false promise and creates pressure."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific situation about the girl not talking and instead asks for data again.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for name and DOB twice (idx 8, 9, 14) despite the user already explaining the situation. These are Type C questions.",
+    "quotes": [
+     "Name and date of birth"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details but never uses them to provide a reading, instead offering a ritual.",
+    "quotes": [
+     "Name and date of birth"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided; the astrologer only asks for data and offers a ritual.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked when she will talk to him; the astrologer promises it will happen in 3 days via a mantra, which is a false promise/pitch rather than a reading.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or explanation provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided to build upon.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a specific outcome in 3 days.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy (mantra jaap) is presented as a way to force a result in 3 days, which is a pressure tactic.",
+    "quotes": [
+     "Mantra jaap karke"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer never addresses the user's question about the girl's behavior with any insight.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer opened; the chat is focused on a ritual promise.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a reading, only data requests and a ritual promise.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a promise of a result and a ritual, which is a pressure pitch.",
+    "quotes": [
+     "Iske Saath Baat karwa doon 3 din mein",
+     "Mantra jaap karke"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer fails to provide any astrological insight.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Oh kabse mere saath baat krega",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead repeatedly asking for data and promising a specific outcome through a ritual. This approach is unethical and provides no value to the user."
+ },
+ "usage": {
+  "input_tokens": 10239,
+  "output_tokens": 1131
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Iske Saath Baat karwa doon 3 din mein",
+   "reason": "The astrologer promises a specific result (getting the girl to talk) within a specific timeframe (3 days) for a ritual, which is a false promise and creates pressure.",
+   "quote_en": "I will get you to talk to him/her in 3 days."
+  }
+ }
+}

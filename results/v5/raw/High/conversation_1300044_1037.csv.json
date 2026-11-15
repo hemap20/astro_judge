@@ -1,0 +1,863 @@
+{
+ "file": "conversation_1300044_1037.csv",
+ "tier": "High",
+ "user_id": "1300044",
+ "ltv": 8034.62,
+ "n_msgs": 127,
+ "n_astro_msgs": 78,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.75,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 42,
+   "S4": 86,
+   "S5": 112
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 1.33,
+  "B3": 2.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.1,
+   "bursts": 7,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     15,
+     16,
+     55,
+     60,
+     61,
+     62
+    ],
+    "paid_idx": [
+     27,
+     35,
+     42,
+     68,
+     70,
+     110,
+     119
+    ],
+    "reason": "The astrologer uses fear (Rahu's 'prakop') and guarantees of success (99% success, 7 days) to pressure the user into paying for extended chat time and a 'Mohini Mantra' ritual.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Feelings are not validated; the astrologer immediately pivots to chart data and then to paid rituals."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identifies the concern but immediately uses it to push paid rituals."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Gives a generic reading about Rahu in the 8th house."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asks if he likes someone, but it is a setup for the paid ritual."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized chart-based prediction provided; only generic Rahu talk."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored; only the paid ritual is pushed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 26,
+    "quality": 0,
+    "note": "Remedy is a paid ritual/mantra service."
+   },
+   "S9": {
+    "present": true,
+    "idx": 68,
+    "quality": 0,
+    "note": "Hook is a demand to extend time for paid rituals."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question but immediately dismisses the emotional context to push a paid ritual.",
+    "quotes": [
+     "Okay Kundli check kar rahi hun thoda Samay dijiye"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and the name of the person, which are used to facilitate the paid ritual pitch.",
+    "quotes": [
+     "Kisi Ko pasand karte Hain uska naam bataiye",
+     "Iska date off birth maloom Hai"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 20,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 22,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but uses them only to push a paid ritual, not to provide a reading about the match.",
+    "quotes": [
+     "Iska date off birth maloom Hai"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": true,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's life.",
+    "quotes": [
+     "Kundli mein is Samay Rahu aathven bhav mein baithe hue hain"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about when he will be in a relationship, instead pushing a paid ritual.",
+    "quotes": [
+     "Aap apna Rahu positive Kar liijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used to create fear rather than explain the user's life.",
+    "quotes": [
+     "Rahu aathven bhav mein baithe hue hain"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same theme of Rahu and the need for the paid ritual.",
+    "quotes": [
+     "Yah to Rahu ka prakop hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a guaranteed timeline for success, which is a violation.",
+    "quotes": [
+     "7 din ke andar aapko safalta mil jayegi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual pitch.",
+    "quotes": [
+     "Yah Aap bataen to Main khud kar do"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the ritual to keep the user paying.",
+    "quotes": [
+     "Ismein aapko kuchh bhi nahin karna hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the chat going to extract more payments.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about payment and scheduling the next ritual session.",
+    "quotes": [
+     "Aapka bhojan complete ho gaya is time ka",
+     "Ab aapko sham ko aana hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses formal/bookish phrases for the ritual.",
+    "quotes": [
+     "Anushthan aarambh kar dun"
+    ],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 1,
+     "formal_sentences": 1,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai jaanna chahta hoon k mai relationship me kab aaunga. Aur kya woh marriage tak jaayega?",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading, instead using fear and guaranteed outcomes to pressure the user into paying for ritual services. The consultation was entirely focused on extracting money rather than addressing the user's relationship concerns."
+ },
+ "usage": {
+  "input_tokens": 19261,
+  "output_tokens": 3837
+ },
+ "reference": {
+  "bare_acks": 2,
+  "longest_ack_run": 2,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#15 [02:17] ASTRO: Yah to Rahu ka prakop hai is vajah se\n#16 [02:27] ASTRO: Rahu aapka positive hota to abhi tak aap relationship mein hote aur shaadi bhi Ho jaati\n#27 [04:42] ASTRO: Yah Aap bataen to Main khud kar do jisse inke man mein aapke prati pyar Jag jaaye aur yah Aakar aapko propose kar de\n#35 [08:34] ASTRO: Yadi aap kahen to uske man mein aapke prati pyar Ko badhava kar dun MHA Mohini Mantra se\n#42 [09:36] ASTRO: Aap 108 bar is mantra ko uske Naam Se ke sath kariye main upay bhi kar dungi jisse uski mind change ho jaaye aur aapse pyar karne lage\n#55 [11:44] ASTRO: 99% mil sakti hai aapko energy aapki aur inki post dikhai de rahi hai\n#60 [12:19] ASTRO: Aur 7 din ke andar aapko safalta mil jayegi\n#61 [12:25] ASTRO: 7 din ke andar yah purnata aap per nirbhar hogi\n#62 [12:34] ASTRO: Bahut pyar karegi\n#68 [13:06] ASTRO: Aap chat timing ko badha lijiye jisse main upay kar sakun\n#70 [13:11] ASTRO: Abhi aap chatting badha lijiye jisse main upay kar dun\n#110 [36:50] ASTRO: But aapka kar Ho jaane per aap dakshina humko Dena bhulna mat\n#119 [38:37] ASTRO: Pujan sampann hone wali Hai Thoda Sa hamen badha lijiye",
+   "reason": "The astrologer uses fear (Rahu's 'prakop') and guarantees of success (99% success, 7 days) to pressure the user into paying for extended chat time and a 'Mohini Mantra' ritual.",
+   "quote_en": "#15 [02:17] ASTRO: This is due to the wrath of Rahu\n#16 [02:27] ASTRO: If your Rahu was positive, you would have been in a relationship by now and even married\n#27 [04:42] ASTRO: If you tell me, I can do it myself so that love for you awakens in their heart and they come and propose to you\n#35 [08:34] ASTRO: If you say so, I can increase the love in their heart for you using the MHA Mohini Mantra\n#42 [09:36] ASTRO: You chant this mantra 108 times along with their name, I will also perform a remedy so that their mind changes and they start loving you\n#55 [11:44] ASTRO: You can get 99% energy, your and their posts are visible\n#60 [12:19] ASTRO: And you will get success within 7 days\n#61 [12:25] ASTRO: Within 7 days, this will depend entirely on you\n#62 [12:34] ASTRO: They will love you a lot\n#68 [13:06] ASTRO: Please increase the chat timing so that I can perform the remedy\n#70 [13:11] ASTRO: Increase the chatting now so that I can perform the remedy\n#110 [36:50] ASTRO: But don't forget to give us the dakshina once your work is done\n#119 [38:37] ASTRO: The pujan is about to be completed, please increase it a little for us"
+  }
+ }
+}

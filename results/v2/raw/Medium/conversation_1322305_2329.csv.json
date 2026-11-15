@@ -1,0 +1,250 @@
+{
+ "file": "conversation_1322305_2329.csv",
+ "tier": "Medium",
+ "user_id": "1322305",
+ "ltv": 1198.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.42,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 3.67,
+  "B3": 4.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the litigation by identifying it as a 'karmik delay' and 'legal or mutual conflict'.",
+    "quotes": [
+     "karmik delay aur legal ya mutual conflict dikh raha hai energy me"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about the direction of the plot, which is Type B (could be asked to any user with a property issue).",
+    "quotes": [
+     "aapke ghar se kis direction me hai plot"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about a property plot, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present (litigation), it is new (karmik delay), specific (legal/mutual conflict), and tied to the user's situation.",
+    "quotes": [
+     "karmik delay aur legal ya mutual conflict dikh raha hai energy me"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked when the litigation would be solved. The astrologer never provided a direction or time window, only a vague description of the energy.",
+    "quotes": [
+     "Mera 1 plots ka litigation hai papers sub mere paas hai kab taq solve hoga 8 saal se latka hai"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'karmik delay' which is a spiritual/astrological concept, but does not link it to a specific chart factor like a planet or dasha.",
+    "quotes": [
+     "karmik delay aur legal ya mutual conflict dikh raha hai energy me"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only asked one question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple empty/media messages without providing any content, which stalls the chat.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are empty/media, providing no reading or guidance.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera 1 plots ka litigation hai papers sub mere paas hai kab taq solve hoga 8 saal se latka hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer correctly identified the nature of the user's problem but failed to provide any concrete answer or timeline for the litigation. The chat was severely hampered by the astrologer sending multiple empty or media-only messages that provided no value."
+ },
+ "usage": {
+  "input_tokens": 10504,
+  "output_tokens": 1186
+ }
+}

@@ -1,0 +1,668 @@
+{
+ "file": "conversation_645934_2061.csv",
+ "tier": "High",
+ "user_id": "645934",
+ "ltv": 87352.5,
+ "n_msgs": 157,
+ "n_astro_msgs": 90,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": 9,
+  "3.1": 7,
+  "3.2": 9,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 7.91,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 8.71,
+  "B3": 8.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 11
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.089,
+   "max_words": 60,
+   "avg_words": 11.8,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the partner's diverted mind and the relationship issues in message #34, which builds on the user's shared worry.",
+    "quotes": [
+     "Inka mind Thoda divert dekhne Ko Mil Pa Rahi jiski vajah se unki taraf se aapko achcha response nahin Mil Pa Rahi"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks relevant questions about the partner's details and the user's availability, which are Type A/B. No Type C questions were found.",
+    "quotes": [
+     "Abhi aapki baat nahin ho rahi kya unse",
+     "Time aur place kya hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to check the chart and uses them to provide a reading about the partner's energy and the relationship.",
+    "quotes": [
+     "Baki ek bar aap unka detail send kar dijiye main aapko check karke bata deti hun"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new information (third person involvement), is specific to the user's situation, and is tied to the chart/energy reading.",
+    "quotes": [
+     "Inka mind Koi divert kar raha hai to third person ka involvement Hai inki life mein"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether the relationship will improve with a clear direction and a time window.",
+    "quotes": [
+     "Dekhiae bilkul aapka relationship theek ho jaega bahan",
+     "2 week ke andar aapko unki taraf Se achcha response milega"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to the partner's energy and chart/card readings in plain words.",
+    "quotes": [
+     "Inka mind Koi divert kar raha hai to third person ka involvement Hai inki life mein"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by adding the third-person involvement and then providing a specific mantra remedy, using the user's details.",
+    "quotes": [
+     "Inka mind Koi divert kar raha hai to third person ka involvement Hai inki life mein",
+     "Is mantra ko aapko 108 bar bolna hai"
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a consistent time window (2 weeks) for improvement without making absolute promises.",
+    "quotes": [
+     "2 week ke andar aapko unki taraf Se achcha response milega"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy (mantra) is tied to the problem (relationship stability) and includes clear instructions on how and when to perform it.",
+    "quotes": [
+     "Is mantra ko aapko 108 bar bolna hai bahan",
+     "Jab Bhi aap comfortable ya FIR available rahiyega morning ya FIR evening ke time mein"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship throughout the chat, addressing the user's concerns about the partner and the third person sequentially.",
+    "quotes": [
+     "Dekhiae bilkul aapka relationship theek ho jaega bahan",
+     "Baki Jo unka mind divert kar raha hai na third person vah divert nahin hoga"
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by suggesting a process to improve the partner's attraction, which follows from the reading.",
+    "quotes": [
+     "Baki aapko main batana chahti hun ki aapki partner ke liye ek Chhota Sa process hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and keeps the user engaged with readings and remedies.",
+    "quotes": [
+     "Baki dekhiae aapko pareshan nahin hona hai"
+    ],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a mantra and guidance, leaving the user with a concrete action to take.",
+    "quotes": [
+     "Is mantra ko aapko 108 bar bolna hai bahan"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms, though there is some formal phrasing.",
+    "quotes": [
+     "Dekhiae bilkul aapka relationship theek ho jaega bahan"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya mera relation theek hoga?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 96,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 117,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 122,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 131,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 133,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 139,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 140,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 144,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 146,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 149,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 152,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 154,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear reading and actionable remedies that directly addressed the user's relationship concerns. The most helpful aspect was the consistent guidance and the specific mantra provided, while the long wait times for the 'process' were the most frustrating part of the experience."
+ },
+ "usage": {
+  "input_tokens": 13974,
+  "output_tokens": 3048
+ }
+}

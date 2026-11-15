@@ -1,0 +1,433 @@
+{
+ "file": "conversation_3547075_658.csv",
+ "tier": "Medium",
+ "user_id": "3547075",
+ "ltv": 2527.56,
+ "n_msgs": 51,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": 1,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.33,
+ "blueprint": {
+  "score": 3.58,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.7,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 19,
+   "S2": 900,
+   "S3": 821,
+   "S4": 900,
+   "S5": 821
+  }
+ },
+ "final": 2.46,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 4.14,
+  "B3": 3.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.12,
+   "max_words": 55,
+   "avg_words": 14.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No self-harm or crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     38,
+     41,
+     44
+    ],
+    "paid_idx": [
+     43,
+     50
+    ],
+    "evidence_idx": [
+     43,
+     50
+    ],
+    "reason": "The astrologer uses fear ('negative planets', 'long term' issues) to push a paid spell/process and requests the user to extend time."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 34,
+    "quality": 1,
+    "note": "Acknowledges confusion but lacks deep empathy."
+   },
+   "S3": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Identifies the concern but asks a generic question."
+   },
+   "S4": {
+    "present": true,
+    "idx": 34,
+    "quality": 1,
+    "note": "Gives a generic prediction about chances of return."
+   },
+   "S5": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Follow-up is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No specific chart details or dasha analysis provided."
+   },
+   "S7": {
+    "present": true,
+    "idx": 19,
+    "quality": 0,
+    "note": "Used as a hook for a paid service."
+   },
+   "S8": {
+    "present": true,
+    "idx": 43,
+    "quality": 0,
+    "note": "Remedy is a paid spell/process."
+   },
+   "S9": {
+    "present": true,
+    "idx": 50,
+    "quality": 0,
+    "note": "Hook is a request to extend time for a paid service."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation but provides no specific detail from the user's story.",
+    "quotes": [
+     "unka mind Kafi jyada divert dikh raha hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or generic questions.",
+    "quotes": [
+     "unki detail dijiye",
+     "last time kuchh hua tha kya"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but never uses them to provide a reading about the other person.",
+    "quotes": [
+     "unki detail dijiye"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to any user.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction without a clear reason.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors are explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague points.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid spell pitch.",
+    "quotes": [
+     "Main Ek spell karunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one main question exists.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The pointer is used to tease a paid service.",
+    "quotes": [
+     "Dosti ke rishte mein wapas aane ke alawa ek aur pehlu dikh raha hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is stalled by paid pitches.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to extend time.",
+    "quotes": [
+     "Apna Samay increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms are explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Will my friend come back to me?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight and instead used fear-based tactics to push a paid spell. The consultation was entirely focused on extracting money rather than addressing the user's emotional distress."
+ },
+ "usage": {
+  "input_tokens": 16289,
+  "output_tokens": 1737
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#38 [17:02] ASTRO: kyunki jaisa ki abhi dikh raha hai block kar Rakhi hain lekin Kabhi ko bar sochati Hain ki mujhe aisa behave nahin karna chahie lekin aapka Jo planet se vah negative hone ki vajah se vah unko dur kar raha hai\n#41 [18:23] ASTRO: main aapko bata raha hun aapko karna kya hai kyunki dekhiae Agar aise hi sab kuchh chalega to yah sab long term rahega\n#43 [19:12] ASTRO: Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega\n#44 [19:53] ASTRO: kyunki jo bhi chijen negative Hain vah Main pic ke dauran postive karunga taki vah aapke pass khud a jaaye\n#50 [21:44] ASTRO: aur Apna Samay increase Kar lijiye",
+   "reason": "The astrologer uses fear ('negative planets', 'long term' issues) to push a paid spell/process and requests the user to extend time.",
+   "quote_en": "#38 [17:02] ASTRO: Because as it appears right now, they have blocked you, but sometimes they think that they shouldn't behave like this, but because your planets are negative, it is pushing them away.\n#41 [18:23] ASTRO: I am telling you what you need to do, because look, if everything continues like this, then this will remain long-term.\n#43 [19:12] ASTRO: I will perform a spell that will improve the bonding between you both and bring them to you.\n#44 [19:53] ASTRO: Because whatever things are negative, I will make them positive during the pooja so that they come to you on their own.\n#50 [21:44] ASTRO: And increase your time."
+  }
+ }
+}

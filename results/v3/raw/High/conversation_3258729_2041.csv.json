@@ -1,0 +1,439 @@
+{
+ "file": "conversation_3258729_2041.csv",
+ "tier": "High",
+ "user_id": "3258729",
+ "ltv": 127098.98,
+ "n_msgs": 47,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 4,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 6,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.44,
+ "rubric_score": 5.44,
+ "blueprint": {
+  "score": 4.86,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.952,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 26,
+   "S2": 45,
+   "S3": 78,
+   "S4": 279,
+   "S5": 441,
+   "S6": 393,
+   "S7": 459
+  }
+ },
+ "final": 5.15,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 4.6,
+  "B3": 5.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 10
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 14.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Acknowledges the tension but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Asks for details already implied."
+   },
+   "S4": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Initial prediction is contradictory and generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 33,
+    "quality": 1,
+    "note": "Follow-up question is intrusive and not directly related to the main marriage concern."
+   },
+   "S6": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Mentions weak Moon but lacks depth."
+   },
+   "S7": {
+    "present": true,
+    "idx": 34,
+    "quality": 1,
+    "note": "Generic offer to know more."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the tension but does not repeat specific details shared by the user.",
+    "quotes": [
+     "Some marriage life ko lekar aap pareshan chal rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details of the husband and the third person, which are Type B/C.",
+    "quotes": [
+     "aap mujhe apne husband ki detail provide karo",
+     "Aap apni photo share kijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for husband's details but the reading is contradictory and generic.",
+    "quotes": [
+     "aap mujhe apne husband ki detail provide karo"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is contradictory (says marriage is good then says it is disturbed) and generic.",
+    "quotes": [
+     "aap donon logon ki kundli bahut acchi aur bahut hi bhagyshali dekhne ko mil rahi hai",
+     "aap donon logon ka marriage life bahut jyada disturb chal raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about marriage tension is not answered with a clear direction.",
+    "quotes": [
+     "aap donon logon ka marriage life bahut jyada disturb chal raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Moon and Sade Sati but does not link them to the user's life in plain words.",
+    "quotes": [
+     "aapki kundli mein chandrama bahut week Hai",
+     "Sani ki sade sati bhi dekhne ko mil rahi hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are not new or useful.",
+    "quotes": [
+     "aap donon logon ka marriage life bahut jyada disturb chal raha hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User stayed on the marriage topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is not productive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are questions about the third person.",
+    "quotes": [
+     "Yah aapse kitne din se baat hui thi isase",
+     "Aur kitne din se no contact hai"
+    ],
+    "score": 6
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy but formal/scripted.",
+    "quotes": [
+     "Jay Shri Ram kaise hain"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "marriage tension",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a coherent reading, contradicting themselves about the marriage quality and focusing on irrelevant third-party details. The lack of actionable remedies or a clear path forward left the user without any resolution to their primary concern."
+ },
+ "usage": {
+  "input_tokens": 15830,
+  "output_tokens": 1789
+ }
+}

@@ -1,0 +1,333 @@
+{
+ "file": "conversation_1414364_340.csv",
+ "tier": "High",
+ "user_id": "1414364",
+ "ltv": 12084.38,
+ "n_msgs": 38,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 6,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 9,
+  "2.5": 1,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 6.0,
+  "B3": 7.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 6.9,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi",
+    "reason": "The astrologer promises a specific outcome ('surety') regarding the user's ex-partner returning, which is a prohibited practice."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's pain and anxiety in message 31.",
+    "quotes": [
+     "I know abhi apko bht anxiety ho rahi hogi hurt h aap"
+    ],
+    "score": 8
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the relationship duration and timing of issues. These are Type B questions as they could be asked to any user in a breakup situation.",
+    "quotes": [
+     "Kitna time hua h relationship ko",
+     "Kya ye issue dec se araha h"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about her state of mind and the lack of a third person.",
+    "quotes": [
+     "her name SANCHITA GANGULY her dob -09/11/2004",
+     "Third person nhi h"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present (blocking, mental state) and provides specific insights (no third person, mental disturbance since Dec).",
+    "quotes": [
+     "Third person nhi h",
+     "Wo thodi mantally disturb h"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if she is in a rebound. The astrologer answers with a possibility and later provides a prediction.",
+    "quotes": [
+     "Bilkul possibility hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses Tarot cards as the basis for the reading, but does not link it to chart factors like dasha or grah in plain words.",
+    "quotes": [
+     "Yes wko blocking wala card aaya h"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the partner's mental state and the absence of a third person.",
+    "quotes": [
+     "Third person nhi h",
+     "Wo thodi mantally disturb h"
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a promise of return, which is a failure in consistency and professional ethics.",
+    "quotes": [
+     "Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice to wait for 3 weeks.",
+    "quotes": [
+     "3 weeks baad aap mt kijiye unko krne dijiye"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question about the rebound/return, so this is skipped.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's mental state.",
+    "quotes": [
+     "Wo thodi mantally disturb h"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued providing insights until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide specific insights about the partner's mental state.",
+    "quotes": [
+     "Wo thodi mantally disturb h",
+     "Dec end se"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish style.",
+    "quotes": [
+     "Kitna time hua h relationship ko"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "is she want rebound now ?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a comforting reading and correctly identified the partner's mental state. However, the astrologer failed significantly by promising a certain outcome, which violates ethical standards."
+ },
+ "usage": {
+  "input_tokens": 10700,
+  "output_tokens": 1512
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi",
+   "reason": "The astrologer promises a specific outcome ('surety') regarding the user's ex-partner returning, which is a prohibited practice.",
+   "quote_en": "I am giving you the surety that she will definitely come into your life."
+  }
+ }
+}

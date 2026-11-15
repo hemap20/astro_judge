@@ -1,0 +1,383 @@
+{
+ "file": "conversation_3079187_926.csv",
+ "tier": "High",
+ "user_id": "3079187",
+ "ltv": 14965.94,
+ "n_msgs": 29,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 8,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.82,
+ "rubric_score": 6.82,
+ "blueprint": {
+  "score": 5.44,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.933,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 5,
+   "S3": 68,
+   "S4": 47,
+   "S5": 68,
+   "S6": 139,
+   "S7": 305
+  }
+ },
+ "final": 6.13,
+ "label": "mixed",
+ "buckets": {
+  "B1": 8.0,
+  "B2": 5.29,
+  "B3": 6.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.0,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the emotional weight of the user's situation."
+   },
+   "S3": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Identified the need for partner details but asked for them after the user already stated the concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Gave a generic reading about mind pressure."
+   },
+   "S5": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Asked for partner details to proceed."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Connected the user and partner's energy but lacked specific chart references."
+   },
+   "S7": {
+    "present": true,
+    "idx": 28,
+    "quality": 1,
+    "note": "Opened a second layer but did not deliver it before time ran out."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's state of mind in message 7, but did not repeat the specific details of her relationship concern.",
+    "quotes": [
+     "Sanchi Ji Main dekh raha hun mind per pressure aur confusion ki situation pichhle kuchh Dinon Se Bani Hui Hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details (Type A) and then asked no further questions.",
+    "quotes": [
+     "Sanchi ji aap mujhe Sumit Ji ka detail provide kar dijiye main check karke batata hun aapko"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details with a reason (to check the situation) and used the name afterwards.",
+    "quotes": [
+     "Sanchi ji aap mujhe Sumit Ji ka detail provide kar dijiye main check karke batata hun aapko"
+    ],
+    "score": 8
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about mind pressure is generic and could apply to anyone.",
+    "quotes": [
+     "Sanchi Ji Main dekh raha hun mind per pressure aur confusion ki situation pichhle kuchh Dinon Se Bani Hui Hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if he will leave the other relationship/come to her. The astrologer gave a vague direction that he is not happy, but no clear answer on the outcome.",
+    "quotes": [
+     "Wo chala jayega ya wo rishta tod payega"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided in the readings.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer added that the partner is not happy and has already tried to show courage, which builds on the user's input.",
+    "quotes": [
+     "Vah satisfy to nahin Hai",
+     "Vah already himmat kar chuka hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stayed on one main thread (the relationship).",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teased a deeper layer at the very end without delivering it.",
+    "quotes": [
+     "Rishte mein badlav ke peeche ek aur gehra pehlu dikh raha hai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the chat ended abruptly.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a tease about a deeper layer, which is a form of reading/insight.",
+    "quotes": [
+     "Rishte mein badlav ke peeche ek aur gehra pehlu dikh raha hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language used is simple and conversational.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai Sumit se pyar krti hu mujhe janna hai wo mujhe milega ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer was polite and engaged with the user's specific situation, but failed to provide any concrete astrological reasoning or actionable remedies. The chat ended on a cliffhanger without providing a clear answer or a path forward."
+ },
+ "usage": {
+  "input_tokens": 15544,
+  "output_tokens": 1728
+ }
+}

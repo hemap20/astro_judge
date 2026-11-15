@@ -1,0 +1,359 @@
+{
+ "file": "conversation_1343523_57.csv",
+ "tier": "Medium",
+ "user_id": "1343523",
+ "ltv": 860.0,
+ "n_msgs": 39,
+ "n_astro_msgs": 30,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 6,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.77,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 7.17,
+  "B3": 7.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 51,
+   "avg_words": 18.9,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's state of being 'uljhi' and 'pareshan' in message 11, which matches the user's input in message 15.",
+    "quotes": [
+     "Mujhe aisa dikh raha hai aapki kundli se ki present time mein kisi baat Ko lekar ab bahut uljhi hun aap pareshan Ho"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details (message 13, 29, 37). These are Type A as they are relevant to the user's query about a relationship, but the repeated requests for the name after the user has already engaged in the reading make them feel like a data collection process.",
+    "quotes": [
+     "agar aap kisi aur ke bare mein jankari chahti Hain to unka Keval date off birth de dijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details to provide a better reading, which is appropriate. However, the astrologer continues to ask for the name multiple times even after the user has not provided it, without fully pivoting to reading the user's chart alone.",
+    "quotes": [
+     "agar aap kisi aur ke bare mein jankari chahti Hain to unka Keval date off birth de dijiye"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to the user's relationship struggles, and tied to the 'love house' in the chart.",
+    "quotes": [
+     "Aap kisi ko like karte hain na present time mein unke sath aapka Jo relation hai usmein problem a rahe hain"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question was about a relationship. The astrologer provides a timeline for improvement.",
+    "quotes": [
+     "vaise aapki kundli ke anusar problems Kareeb August manth ke bad hi sab kuchh Sahi hoga acche se"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship problems to the 'love house' and the 'Shukr' planet's position in plain language.",
+    "quotes": [
+     "Kyunki aapki kundli mein jo aapke love wale house ke planet hai na vah bahut hi galat house mein baithe Hain"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the user's emotional state (nighttime thoughts) and the timing of the issues (December).",
+    "quotes": [
+     "Aur aap Har waqt to sirf usi chij ke bare mein sochati rahti Hain actually raat mein bhi aapko bahut jyada problems hota Hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window (after August) based on the chart, without making a firm promise.",
+    "quotes": [
+     "vaise aapki kundli ke anusar problems Kareeb August manth ke bad hi sab kuchh Sahi hoga acche se"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests remedies but does not specify what they are, only that they are 'planet related'.",
+    "quotes": [
+     "Life mein sab kuchh achcha Ho pahle jaisa iske liye planet se related upay bahan karna bahut jaruri hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer points to the partner's current thoughts as a next layer.",
+    "quotes": [
+     "main check karke bataungi present time mein kya soch rahe hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely and keeps providing insights.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a timeline and a promise of improvement, which is a good ending point.",
+    "quotes": [
+     "Ji aapko main jo upay bata rahi hun na use aap kar lenge to do week ke andar agar nahin change ine aaega to fir aap mujhe kahiyega"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, fitting the user's tone.",
+    "quotes": [
+     "Radhe Radhe kaisi hain aap"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship issues with someone",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's emotional state and provided a helpful timeline for improvement. However, the repeated requests for the partner's name and the lack of specific, actionable remedies hindered the overall quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11220,
+  "output_tokens": 1841
+ }
+}

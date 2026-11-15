@@ -1,0 +1,389 @@
+{
+ "file": "conversation_1116392_495.csv",
+ "tier": "Medium",
+ "user_id": "1116392",
+ "ltv": 2321.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 8,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.8,
+ "rubric_score": 6.8,
+ "blueprint": {
+  "score": 6.4,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 1.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 41,
+   "S4": 138,
+   "S5": 173,
+   "S6": 303,
+   "S8": 466
+  }
+ },
+ "final": 6.6,
+ "label": "good",
+ "buckets": {
+  "B1": 7.0,
+  "B2": 5.86,
+  "B3": 6.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 9,
+   "long_frac": 0.0,
+   "max_words": 19,
+   "avg_words": 9.3,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the question but did not validate the concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks chart reasoning."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asked for the partner's name to proceed."
+   },
+   "S6": {
+    "present": true,
+    "idx": 22,
+    "quality": 1,
+    "note": "Connected the partner's emotional nature to the user's anger, but lacks specific chart details."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant questions were probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 38,
+    "quality": 1,
+    "note": "Gave a remedy but it is a generic ritual without clear chart-based logic."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's worry or feelings, just gave a prediction.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's name (Type A) and then asked about the user's anger (Type B).",
+    "quotes": [
+     "Unka naam bataye",
+     "Aapko bahot gussa ata hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's name and birth date, and provided a reading about the match.",
+    "quotes": [
+     "Unka naam bataye",
+     "Suresh ji ki energy kaafi emotional hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future and lacks specific chart reasons.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answered the marriage question with a time window and the partner question with a positive outlook.",
+    "quotes": [
+     "apki marriage ki possibility age 28 - 29 me hai",
+     "Yes possible ho sakti ahi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided in the readings.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer added the point about the partner's emotional nature and the user's anger.",
+    "quotes": [
+     "Suresh ji ki energy kaafi emotional hai",
+     "Aapko bahot gussa ata hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a window for marriage and kept it consistent.",
+    "quotes": [
+     "apki marriage ki possibility age 28 - 29 me hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a generic ritual for anger control, not tied to a specific chart cause.",
+    "quotes": [
+     "Purnima ki raat ko ek kaanch ke glass me paani bharke use chat pe ya esi jgh pe rakhe"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer addressed both the marriage timing and the specific partner question.",
+    "quotes": [
+     "apki marriage ki possibility age 28 - 29 me hai",
+     "Yes possible ho sakti ahi"
+    ],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer was opened after the main questions were answered.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the astrologer asked for a rating.",
+    "quotes": [
+     "Chat end hone pe rating ka option ayega 5 star rating jarur dijiyega plz"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were about the remedy, which is guidance.",
+    "quotes": [
+     "Purnima ki raat ko ek kaanch ke glass me paani bharke use chat pe ya esi jgh pe rakhe"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shadi kab tak hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided clear answers regarding marriage timing and the specific partner. However, the consultation lacked depth in chart-based reasoning and failed to provide a hook for future engagement."
+ },
+ "usage": {
+  "input_tokens": 15771,
+  "output_tokens": 1726
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "file": "conversation_1377057_57.csv",
+ "tier": "Medium",
+ "user_id": "1377057",
+ "ltv": 1071.44,
+ "n_msgs": 45,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 6,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.79,
+ "buckets": {
+  "B1": 4.67,
+  "B2": 6.17,
+  "B3": 5.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.217,
+   "max_words": 43,
+   "avg_words": 16.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's request for a deep reading and remedies in message #12, though it is generic.",
+    "quotes": [
+     "Ok okay okay theek hai aap bilkul chinta mat kijiye"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are not Type A. Message #30 is defensive/confrontational, and #44 is a guess about his business.",
+    "quotes": [
+     "kyon kya hua aapke hisab se kuch aur hona chahiye kya aapka lagan aur rashi",
+     "aapko khud ka vyavsay hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the moon and confidence is generic and could apply to anyone. It lacks specificity.",
+    "quotes": [
+     "Aapka chandrama Jo aapka man Hai vah bhi kharab house mein baitha hua Hai definitali aapke andar confidence ki Kami kar raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked for future insights. The astrologer provides a timeline for improvement starting from August/September.",
+    "quotes": [
+     "September mah se aapka samay achha9 tak chalega",
+     "April mah se aapka swasthya dhire-dhire achha hone lagega"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions chart factors like Moon, Rahu, Ketu, and Lagna, but the explanations are not linked to specific life events in a clear, plain-worded way.",
+    "quotes": [
+     "Aapka chandrama Jo aapka man Hai vah bhi kharab house mein baitha hua Hai",
+     "aapke lagan mein mangal aur rahu ek sath baithe hain"
+    ],
+    "score": 6
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about health and Rahu/Ketu dasha, but they are not built upon specific details provided by the user.",
+    "quotes": [
+     "Aapka swasthya bhi achha nahin hai",
+     "aapki kundli mein vartman samay mein ketu ki dasha chal rahi hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window for improvement (August/September) and maintains consistency.",
+    "quotes": [
+     "September mah se aapka samay achha9 tak chalega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy (Hanuman Chalisa) is a stock remedy, but it is linked to the Rahu/Ketu issue mentioned in the reading.",
+    "quotes": [
+     "Hanuman ji ki puja karna aapke liye bahut achha hai",
+     "Hanuman Chalisa ka path ab rozana kijiye"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a specific next layer; the chat ends with a question about his business.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no bare acknowledgements; every message contains some content.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a question about his business, which is not a reading or guidance.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'Lagan', 'Rashi', 'Dasha', 'Rahu', 'Ketu' without explaining their real-life impact clearly.",
+    "quotes": [
+     "aapki mithun rashi hai aur aapka lagan jo hai makar hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "आने वाले समय के विषय मैं",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic reading and remedies but struggled to connect with the user's specific needs, often resorting to generic advice. The consultation was hindered by the astrologer's defensive tone when questioned about birth details and a lack of depth in explaining astrological concepts."
+ },
+ "usage": {
+  "input_tokens": 11032,
+  "output_tokens": 1590
+ }
+}

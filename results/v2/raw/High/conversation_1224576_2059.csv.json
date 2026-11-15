@@ -1,0 +1,415 @@
+{
+ "file": "conversation_1224576_2059.csv",
+ "tier": "High",
+ "user_id": "1224576",
+ "ltv": 11399.0,
+ "n_msgs": 76,
+ "n_astro_msgs": 40,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 9,
+  "2.3": 8,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": 9,
+  "3.1": 9,
+  "3.2": 9,
+  "3.3": 9,
+  "4.2": 9,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 8.31,
+ "buckets": {
+  "B1": 8.0,
+  "B2": 8.57,
+  "B3": 9.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 7
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 13.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's financial stress and the specific situation regarding the money owed by Manshu in message #55 and #68.",
+    "quotes": [
+     "Current time mein Thoda Sa financial and personal life ko lekar Ke Jo problem aapko face karni pad rahi hai",
+     "Current time mein to unka condition bhi achcha nahin Chal Raha Hai jiski vajah se vah bhi kafi depression mein hain"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks relevant questions about the user's job sector and business interests, which are Type A/B. No Type C questions were found.",
+    "quotes": [
+     "Kis sector mein job aapki hai",
+     "Aapka interest kis business mein hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is not about a specific other person's romantic interest or match, but rather about career, marriage timing, and a financial dispute.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading about marriage timing is specific and tied to the chart, though it is future-oriented.",
+    "quotes": [
+     "2026 April Se lekar ke June ke bich mein aapka rishta fix hone ka yog ban raha hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides clear time windows for marriage and promotion without the user needing to repeat the question.",
+    "quotes": [
+     "2026 April Se lekar ke June ke bich mein aapka rishta fix hone ka yog ban raha hai",
+     "2026 April Se lekar ke June ke bich mein aapko promotion milane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links life events to chart yogas in plain language.",
+    "quotes": [
+     "Aapke kundli ke anusar se yog to acche Ban rahe hai",
+     "Aapke kundli ke anusar Se dekha jaaye to current place per hi aapko promotion milane ka yog ban raha hai"
+    ],
+    "score": 8
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by moving from marriage to career, then to business, and finally to the specific financial dispute.",
+    "quotes": [
+     "Aapke kundli ke anusar se restaurant hotel garments jewellers furniture se related business ke yog Hain",
+     "Jo Paisa aapka market mein ruka hua Hai"
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides consistent time windows (2026) for marriage, promotion, and the financial recovery.",
+    "quotes": [
+     "2026 April Se lekar ke June ke bich mein aapka rishta fix hone ka yog ban raha hai",
+     "2026 ke last Tak aapka payment aapko milane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice regarding the financial dispute, suggesting maintaining the relationship to recover the money in parts.",
+    "quotes": [
+     "aap unke Sath relation ko behtar rakhen paisa to aapko milega but",
+     "छोटे-छोटे amount mein milega aapko"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer successfully manages multiple threads (marriage, promotion, business, financial dispute) and returns to them as the user brings them up.",
+    "quotes": [
+     "2026 April Se lekar ke June ke bich mein aapka rishta fix hone ka yog ban raha hai",
+     "2026 April Se lekar ke June ke bich mein aapko promotion milane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens new layers by suggesting business opportunities and then specific business types (garments) based on the user's interest.",
+    "quotes": [
+     "Aapke kundli ke anusar se restaurant hotel garments jewellers furniture se related business ke yog Hain"
+    ],
+    "score": 9
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains engagement throughout the chat without closing prematurely.",
+    "quotes": [],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading regarding the user's financial dispute, which is the current concern.",
+    "quotes": [
+     "Yog hai ki aapko cal unki taraf se response positive mile"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy, uses common terms, and avoids formal/bookish language.",
+    "quotes": [],
+    "score": 9
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi kb hogi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided clear, consistent timeframes for the user's marriage, career, and financial concerns, which helped build trust. The most helpful aspect was the practical advice on handling the financial dispute, while the chat remained consistently focused on the user's specific life details."
+ },
+ "usage": {
+  "input_tokens": 12043,
+  "output_tokens": 2080
+ }
+}

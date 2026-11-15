@@ -1,0 +1,289 @@
+{
+ "file": "conversation_1422865_2195.csv",
+ "tier": "Medium",
+ "user_id": "1422865",
+ "ltv": 2725.8,
+ "n_msgs": 32,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 8,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.28,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 7.29,
+  "B3": 7.33,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 7,
+   "M": 8,
+   "long_frac": 0.067,
+   "max_words": 44,
+   "avg_words": 12.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's problem by identifying the planetary causes (Rahu/Ketu) for the marital tension mentioned by the user.",
+    "quotes": [
+     "Dekhiae samasya aapko Rahu aur ketu ki vajah se ho raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the wife's details (Type C, as it was needed for the reading) and then asks if the wife is living separately (Type A, building on the divorce issue).",
+    "quotes": [
+     "Aap partner ka detail dijiye",
+     "Kya aapki wife aapse alag hai"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the wife's details to check the compatibility/issue, which is appropriate. However, the reading focuses on the user's chart rather than the wife's.",
+    "quotes": [
+     "Aap partner ka detail dijiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading identifies the present issue (marital tension) and links it to specific planetary positions (Rahu in lagna, Ketu in marriage house).",
+    "quotes": [
+     "Kyunki Rahu lagn mein baithe Hain aur ketu marriage house mein baithe Hain jiske vajah se marriage mein kafi jyada mansik tanav dekhne ko mil raha hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about the divorce/wife leaving. The astrologer provides a positive outlook and remedies, though it is a bit vague on the 'when'.",
+    "quotes": [
+     "Aur yah wapas aaengi bilkul pareshan mat hoiye"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marital tension to Rahu and Ketu positions in plain language.",
+    "quotes": [
+     "Kyunki Rahu lagn mein baithe Hain aur ketu marriage house mein baithe Hain jiske vajah se marriage mein kafi jyada mansik tanav dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the Chandra Grahan Dosh and later suggests a Shukra remedy, building on the initial reading.",
+    "quotes": [
+     "Aur Rahu chandrama ke sath baithe Hain Chandra grahan dosh ban raha hai",
+     "Aur iske liye aap tatkal mein shukr ka upay kariye"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a positive assurance without a specific date, which is better than a false promise.",
+    "quotes": [
+     "Aur yah wapas aaengi bilkul pareshan mat hoiye"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides specific remedies (Shiv Puja, Hanuman Chalisa) linked to the planetary causes identified.",
+    "quotes": [
+     "Rahu ke liye aapko daily Bhagwan Shiv ka Puja Karna Hai",
+     "ketu ke liye aapko Hanuman chalisa ka paath karna hai daily"
+    ],
+    "score": 8
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the marital issue throughout the chat.",
+    "quotes": [
+     "Aur yah wapas aaengi bilkul pareshan mat hoiye"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by suggesting a Shukra remedy to improve results.",
+    "quotes": [
+     "Aur iske liye aap tatkal mein shukr ka upay kariye jisse aap donon ke bich mein behtar result honge"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide guidance until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a positive reading/assurance regarding the wife returning.",
+    "quotes": [
+     "Aur yah wapas aaengi bilkul pareshan mat hoiye"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like Rahu, Ketu, and Puja, which are well-understood.",
+    "quotes": [
+     "Rahu lagn mein baithe Hain aur ketu marriage house mein baithe Hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri wife bina kisi karan sey mereko divorce key liye bol rahi hay",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively identified the planetary causes for the user's marital issues and provided actionable remedies. The chat was helpful, though the astrologer could have been more efficient by asking for all necessary details at once."
+ },
+ "usage": {
+  "input_tokens": 10861,
+  "output_tokens": 1546
+ }
+}

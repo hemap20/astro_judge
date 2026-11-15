@@ -1,0 +1,352 @@
+{
+ "file": "conversation_842191_347.csv",
+ "tier": "Medium",
+ "user_id": "842191",
+ "ltv": 720.0,
+ "n_msgs": 47,
+ "n_astro_msgs": 29,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.5,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 5.57,
+  "B3": 6.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 3,
+   "M": 29,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 5.1,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific concern about pregnancy in the first reply after the question, instead just saying 'Ok'.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner name, DOB, marriage date, last period date, and hand photo. These are mostly data requests (Type C).",
+    "quotes": [
+     "Partner name",
+     "Date of birth",
+     "Marriage date",
+     "Last period date",
+     "Can you send me your left ✋ hand pic"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (name, DOB) to check the kundli, which is appropriate for the question.",
+    "quotes": [
+     "Partner name",
+     "Date of birth"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions a miscarriage, which is a specific, non-obvious detail that the user did not provide.",
+    "quotes": [
+     "Miscarriage problem bhi show ho raha hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for the pregnancy after the user asks.",
+    "quotes": [
+     "Nov k pass"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'yog' and 'kundli' but does not explain the chart reasons in plain words for the user's life.",
+    "quotes": [
+     "kundli mein two baby yog hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points like the miscarriage and the husband's phone number digits, but these are not linked to the user's specific details in a meaningful way.",
+    "quotes": [
+     "Miscarriage problem bhi show ho raha hai",
+     "Aap jo phone number use kar rahe ho usme 2 48 digit"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a time window ('Nov k pass') and maintains consistency.",
+    "quotes": [
+     "Nov k pass"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests checking phone numbers as a remedy/reason for delay, which is a stock/generic approach.",
+    "quotes": [
+     "Aap jo phone number use kar rahe ho usme 2 48 digit"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of pregnancy throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a 'mistake' and 'husband's growth' to keep the user engaged.",
+    "quotes": [
+     "Aap kuch mistake bhi kar rahe ho use",
+     "Husband ko growth"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the flow is interrupted by many data requests.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a reading about the user's timeline.",
+    "quotes": [
+     "Ji jaise ki mein dekh pa rahi ho aap ko feb last mein"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses Hinglish and simple terms, but the language is slightly broken.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main pregnent kab hongi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a specific prediction regarding pregnancy and identified a past issue (miscarriage), which helped build credibility. However, the consultation was heavily fragmented by excessive data requests and vague, non-astrological remedies like checking phone number digits, which hurt the overall quality."
+ },
+ "usage": {
+  "input_tokens": 10745,
+  "output_tokens": 1587
+ }
+}

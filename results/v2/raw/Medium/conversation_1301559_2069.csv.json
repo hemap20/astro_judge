@@ -1,0 +1,322 @@
+{
+ "file": "conversation_1301559_2069.csv",
+ "tier": "Medium",
+ "user_id": "1301559",
+ "ltv": 760.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 3,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.33,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 5.67,
+  "B3": 5.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 23,
+   "long_frac": 0.0,
+   "max_words": 15,
+   "avg_words": 7.0,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's job search and the delay mentioned by repeating the context of the job search and the timing.",
+    "quotes": [
+     "Aapko job lagne mein delay isliye ho raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if the user has tried anywhere (Type A) and asks for a palm photo (Type C - unnecessary for a chart reading).",
+    "quotes": [
+     "Abhi aapane kahin per Try kiya?",
+     "Aap mujhe apne right hand ke hastrekha share kijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions the career house and Mercury, which is specific, but it is not tied to a concrete marker the user can verify beyond the general job search.",
+    "quotes": [
+     "Aapke career house mai mercury planet ki placement hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (14 March) for the job yog.",
+    "quotes": [
+     "14 march se aapke birth chart mein job ka yog start ho gaya hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the job delay to weak planets in plain words.",
+    "quotes": [
+     "Aapko job lagne mein delay isliye ho raha hai kyunki planet aapke week Hain"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's input about the job search process.",
+    "quotes": [
+     "Koi Na Koi Archan jaati Hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (14 March) which is a firm date rather than a window.",
+    "quotes": [
+     "14 march se"
+    ],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given; the astrologer only asked for a photo.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not change the topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a further layer by promising to tell the exact month and sector.",
+    "quotes": [
+     "Main aapko exact timing batata Hun ki job kis month mein lagegi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for a photo and a push for speed, not a reading.",
+    "quotes": [
+     "Jldi kariye",
+     "Jaise main aapko acche se explain kar paunga"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language and explains the delay in terms of weak planets.",
+    "quotes": [
+     "Aapko job lagne mein delay isliye ho raha hai kyunki planet aapke week Hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Job kab milegi.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the job search based on the chart. However, the consultation was hurt by the astrologer's repetitive messages and the unnecessary request for palmistry photos."
+ },
+ "usage": {
+  "input_tokens": 10721,
+  "output_tokens": 1450
+ }
+}

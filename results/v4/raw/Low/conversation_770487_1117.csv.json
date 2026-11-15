@@ -1,0 +1,348 @@
+{
+ "file": "conversation_770487_1117.csv",
+ "tier": "Low",
+ "user_id": "770487",
+ "ltv": 270.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 4,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.89,
+ "rubric_score": 5.89,
+ "blueprint": {
+  "score": 4.66,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 17,
+   "S3": 153,
+   "S4": 153,
+   "S5": 171,
+   "S6": 163
+  }
+ },
+ "final": 5.28,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 5.57,
+  "B3": 5.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 12.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identified the question but only after significant delay."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gave a prediction but it was blunt and lacked depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Asked a question but it was a generic data check."
+   },
+   "S6": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Mentioned Mangal dosh but it was inaccurate/generic."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation for further consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's emotional distress and urgency, focusing only on the chart.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked if she is Manglik (Type C, as it's a chart fact) and if they fight (Type A).",
+    "quotes": [
+     "Aapko pata hai aapki kundli manglik hai",
+     "Aap donon ke bich mein jhagade hote hain ya nahin"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable as the question is about the user's own marriage count.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about two marriages is specific but lacks a proper chart reason or nuance.",
+    "quotes": [
+     "Aapke kundli ke anusar dekha jaaye to aapke kundli mein do shaadi hogi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answered the question about the number of marriages.",
+    "quotes": [
+     "Aapke kundli ke anusar dekha jaaye to aapke kundli mein do shaadi hogi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentioned Mangal in the 4th house but it was not linked to her life in a meaningful way.",
+    "quotes": [
+     "Aapke kundli mein manglik dosh ban raha hai aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings were just generic guesses about her family life.",
+    "quotes": [
+     "Aapke family mein kisi se aapki baat nahin Banti hogi"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided for the events.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main concern (marriage count).",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ended abruptly without a hook.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were generic statements about her family, not a reading or guidance.",
+    "quotes": [
+     "Aap galtiyan bhi nahin karti Hain fir bhi aapko Doshi thehraya jata hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri kitni shaadi hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the marriage count but failed to offer any emotional support or actionable remedies. The chat lacked depth and ended without a proper hook or guidance for the user's difficult situation."
+ },
+ "usage": {
+  "input_tokens": 15495,
+  "output_tokens": 1503
+ }
+}

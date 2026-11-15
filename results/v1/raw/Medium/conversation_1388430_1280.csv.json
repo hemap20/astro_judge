@@ -1,0 +1,281 @@
+{
+ "file": "conversation_1388430_1280.csv",
+ "tier": "Medium",
+ "user_id": "1388430",
+ "ltv": 966.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 16,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.08,
+ "buckets": {
+  "B1": 6.33,
+  "B2": 4.0,
+  "B3": 4.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.0,
+   "max_words": 17,
+   "avg_words": 7.1,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific question about when they will have a house and provides generic, unrelated predictions.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks 'Aap kya Janna chahte ho' (Type B) and 'Aap kis field me focus se ho' (Type B). No Type C questions were asked.",
+    "quotes": [
+     "Aap kya Janna chahte ho",
+     "Aap kis field me focus se ho"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specificity. It does not provide a concrete marker or a clear chart reason for the user's specific question.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked 'Mara ghar kab tak ho ga'. The astrologer never provides a time window or a clear answer, instead pivoting to government job prospects.",
+    "quotes": [
+     "Mara ghar kab tak ho ga"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'fourth house', 'bhawesh shukr', and 'budhaditya yog' without explaining what these mean for the user's life in plain words.",
+    "quotes": [
+     "Kyuki aapki fourth house ke bhawesh shukr planet hai jo achcha position per hai",
+     "Aur budhaditya yog banaa hua Hai jiski fourth house mein"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add new points (government job, long life) but do not use any details provided by the user.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the house purchase.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer related to the user's concern.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are multiple bare acknowledgements ('Ji', 'Ji') that stall the chat.",
+    "quotes": [
+     "Ji",
+     "Ji"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a generic statement about long life, which does not address the user's concern or provide a reason to return.",
+    "quotes": [
+     "Aapka ayu lambi hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'fourth house', 'bhawesh', and 'budhaditya yog' without explaining them in plain language.",
+    "quotes": [
+     "Kyuki aapki fourth house ke bhawesh shukr planet hai jo achcha position per hai",
+     "Aur budhaditya yog banaa hua Hai jiski fourth house mein"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mara ghar kab tak ho ga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific question about buying a house, instead providing generic predictions about career and life. The use of unexplained technical jargon and the lack of a clear timeline made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 10311,
+  "output_tokens": 1301
+ }
+}

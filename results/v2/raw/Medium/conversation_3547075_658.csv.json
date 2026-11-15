@@ -1,0 +1,342 @@
+{
+ "file": "conversation_3547075_658.csv",
+ "tier": "Medium",
+ "user_id": "3547075",
+ "ltv": 2527.56,
+ "n_msgs": 51,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.94,
+ "buckets": {
+  "B1": 2.75,
+  "B2": 1.29,
+  "B3": 1.0,
+  "B4": 6.67,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.12,
+   "max_words": 55,
+   "avg_words": 14.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     41,
+     42,
+     43,
+     44,
+     50
+    ],
+    "reason": "The astrologer uses the user's distress to push a paid 'spell' service, claiming it is the only way to fix the long-term issue and asking the user to extend their time."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's pain and the specific situation of the friend blocking her, but the response is used to pivot into a paid service.",
+    "quotes": [
+     "Reena ji last time kuchh hua tha kya Unka mind Kafi jyada divert dikh raha hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the user's location and status, but these are not building on the reading; they are preparatory for the paid service pitch.",
+    "quotes": [
+     "abhi aap ghar per Hain ki kahin Bahar"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but uses them to pitch a paid spell rather than providing a genuine reading about the match.",
+    "quotes": [
+     "unki detail dijiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based evidence, focusing instead on the user's emotional state.",
+    "quotes": [
+     "aapke bare mein sochati hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer avoids giving a clear answer to the question of whether the friend will return, instead pivoting to a paid service.",
+    "quotes": [
+     "kyunki dekhiae jaisa ki Main dekh Pa Raha Hun to kahin na kahin aane ke chances to dikh rahe hain"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions planets but does not explain them in plain words or link them to the user's life in a meaningful way.",
+    "quotes": [
+     "aapka Jo planet se vah negative hone ki vajah se vah unko dur kar raha hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same vague promise of the friend returning to justify the paid spell.",
+    "quotes": [
+     "unke wapas aane ke Yog to dikh rahe hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided; the astrologer keeps the outcome vague to maintain the need for the paid service.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid spell, which is a direct violation of the rubric.",
+    "quotes": [
+     "Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's distress and the main question to focus on the paid service.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a 'spell' to keep the user engaged for payment.",
+    "quotes": [
+     "Main Ek spell karunga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but keeps pushing for more time and payment.",
+    "quotes": [
+     "aur Apna Samay increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for payment and time extension.",
+    "quotes": [
+     "aur Apna Samay increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is clearly distressed and seeking help, but the astrologer fails to adapt, instead pushing a paid service.",
+    "quotes": [],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "vo vapis aaygi mere pass ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading and instead used the user's emotional vulnerability to push a paid spell service. The consultation was entirely focused on extracting payment rather than addressing the user's concerns."
+ },
+ "usage": {
+  "input_tokens": 11502,
+  "output_tokens": 1589
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#41 [18:23] ASTRO: main aapko bata raha hun aapko karna kya hai kyunki dekhiae Agar aise hi sab kuchh chalega to yah sab long term rahega\n#42 [18:31] ASTRO: lekin main jo chijen karunga vah long term ke liye karunga\n#43 [19:12] ASTRO: Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega\n#44 [19:53] ASTRO: kyunki jo bhi chijen negative Hain vah Main pic ke dauran postive karunga taki vah aapke pass khud a jaaye\n#50 [21:44] ASTRO: aur Apna Samay increase Kar lijiye",
+   "reason": "The astrologer uses the user's distress to push a paid 'spell' service, claiming it is the only way to fix the long-term issue and asking the user to extend their time.",
+   "quote_en": "#41 [18:23] ASTRO: I am telling you what you need to do because look, if things continue like this, it will remain long-term.\n#42 [18:31] ASTRO: But the things I will do will be for the long term.\n#43 [19:12] ASTRO: I will perform a spell that will strengthen the bonding between you both and bring them to you.\n#44 [19:53] ASTRO: Because whatever things are negative, I will make them positive during the process so that they come to you on their own.\n#50 [21:44] ASTRO: And please increase your time."
+  }
+ }
+}

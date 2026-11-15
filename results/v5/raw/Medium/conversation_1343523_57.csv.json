@@ -1,0 +1,602 @@
+{
+ "file": "conversation_1343523_57.csv",
+ "tier": "Medium",
+ "user_id": "1343523",
+ "ltv": 860.0,
+ "n_msgs": 39,
+ "n_astro_msgs": 30,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": 6,
+  "2.1": 8,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.17,
+ "rubric_score": 6.17,
+ "blueprint": {
+  "score": 6.7,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 1.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 2,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S2": 167,
+   "S3": 211,
+   "S4": 316,
+   "S5": 407,
+   "S6": 433,
+   "S8": 447
+  }
+ },
+ "final": 6.44,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 6.5,
+  "B3": 6.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 9
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 51,
+   "avg_words": 18.9,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 11,
+    "quality": 2,
+    "note": "Acknowledges the user's tension and confusion."
+   },
+   "S3": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Identifies the need for details about the other person."
+   },
+   "S4": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Gives a generic reading about relationship problems."
+   },
+   "S5": {
+    "present": true,
+    "idx": 23,
+    "quality": 2,
+    "note": "Asks a specific follow-up about the timeline of the problem."
+   },
+   "S6": {
+    "present": true,
+    "idx": 25,
+    "quality": 2,
+    "note": "Connects the issue to the Shukr antardasha."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 26,
+    "quality": 1,
+    "note": "Mentions remedies are needed but does not specify what they are."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No specific hook for a next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's tension and confusion in message 11.",
+    "quotes": [
+     "Mujhe aisa dikh raha hai aapki kundli se ki present time mein kisi baat Ko lekar ab bahut uljhi hun aap pareshan Ho"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details/photo (Type C) and asks about the relationship (Type B).",
+    "quotes": [
+     "Agar aap kisi aur ke bare mein jankari chahti Hain to unka Keval date off birth de dijiye ya FIR agar date off birth nahin pata hai to koi photo ho to aap bhej dijiye"
+    ],
+    "score": 4,
+    "checks": {
+     "questions": [
+      {
+       "idx": 13,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about a specific person. The astrologer asks for details with a reason (to check the chart).",
+    "quotes": [
+     "Agar aap kisi aur ke bare mein jankari chahti Hain to unka Keval date off birth de dijiye ya FIR agar date off birth nahin pata hai to koi photo ho to aap bhej dijiye main face reading bhi Karti hun"
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific to relationship issues, and tied to the Shukr antardasha.",
+    "quotes": [
+     "Kyunki dekho Jo shukr planet hai na vah December manth se hi antrdsha chal raha hai lekin vah bahut hi galat ghar mein hone ke Karan galat result bhi de raha hai"
+    ],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question is about her relationship/tension. The astrologer provides a timeline for improvement.",
+    "quotes": [
+     "vaise aapki kundli ke anusar problems Kareeb August manth ke bad hi sab kuchh Sahi hoga acche se"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 37,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to the Shukr antardasha in plain words.",
+    "quotes": [
+     "Kyunki dekho Jo shukr planet hai na vah December manth se hi antrdsha chal raha hai lekin vah bahut hi galat ghar mein hone ke Karan galat result bhi de raha hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add depth about the user's loyalty and nighttime anxiety.",
+    "quotes": [
+     "Aap isliye pareshan hai ki bahut jyada loyal hai bahut pyar karte hain",
+     "Aur aap Har waqt to sirf usi chij ke bare mein sochati rahti Hain actually raat mein bhi aapko bahut jyada problems hota Hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a window (August) for improvement without promising a specific date.",
+    "quotes": [
+     "vaise aapki kundli ke anusar problems Kareeb August manth ke bad hi sab kuchh Sahi hoga acche se"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Mentions remedies are needed but does not provide the actual remedy.",
+    "quotes": [
+     "Life mein sab kuchh achcha Ho pahle jaisa iske liye planet se related upay bahan karna bahut jaruri hai"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last message provides a timeline for improvement.",
+    "quotes": [
+     "Agar aap mujhe unka name hi bataiye Vimla ji baat Ko samjhie agar name bataenge tab bhi aur main check karke bataungi present time mein kya soch rahe hain kab tak achcha hoga vaise aapki kundli ke anusar problems Kareeb August manth ke bad hi sab kuchh Sahi hoga acche se"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and informal.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kisi ke bare mein poochhne ke liye uska bhi chahie mam",
+  "main_question_idx": 12,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's emotional state and provided a timeline for improvement. However, the astrologer failed to provide specific remedies and did not offer a hook for a follow-up consultation."
+ },
+ "usage": {
+  "input_tokens": 17515,
+  "output_tokens": 3045
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 4,
+   "1.4": 7,
+   "2.1": 8,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

@@ -1,0 +1,491 @@
+{
+ "file": "conversation_824269_347.csv",
+ "tier": "Low",
+ "user_id": "824269",
+ "ltv": 425.0,
+ "n_msgs": 69,
+ "n_astro_msgs": 53,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 6,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 6,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 4
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.25,
+  "B2": 5.71,
+  "B3": 8.0,
+  "B4": 4.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.019,
+   "max_words": 41,
+   "avg_words": 5.7,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 4,
+   "Rep": 3,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Aap ki kundli mein two baby yog hai and miscarriage problem bhi show ho raha hai",
+    "reason": "The astrologer predicts a miscarriage, which is a sensitive health-related prediction that can cause unnecessary fear and harm."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about married life by providing a reading, but does not explicitly name the user's feeling or repeat specific details beyond the general topic.",
+    "quotes": [
+     "Ji jaise ki mein dekh pa rahi ho aap ki date of birth is very good and kundli mein bhi partner and career ko lekar acha yog hi"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner name, DOB, marriage date, and a hand photo. Asking for the marriage date and hand photo is Type C as it is not strictly necessary for a basic reading, and the astrologer asks for the hand photo after already starting the reading.",
+    "quotes": [
+     "Partner name",
+     "Date of birth",
+     "Marriage date",
+     "Can you send me your left ✋ hand pic"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but does not use them to provide a reading about the partner or the match, instead focusing on the user's chart and general remedies.",
+    "quotes": [
+     "Partner name",
+     "Date of birth"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based evidence or unique markers for the user's life.",
+    "quotes": [
+     "Actually aap k partner house mein Shani yani saturn 🪐 planet shadow hi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a vague direction about stability and bonding after 2028, but it is not a clear answer to 'how will my married life be'.",
+    "quotes": [
+     "And aap ki kundali mein 2028 k baad Jakar strong bonding banayge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Shani in the partner house, which is a chart factor, but the explanation is very generic.",
+    "quotes": [
+     "Actually aap k partner house mein Shani yani saturn 🪐 planet shadow hi"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points like baby yog and health issues, but they are not built upon the user's specific details.",
+    "quotes": [
+     "Aap ki kundli mein two baby yog hai and miscarriage problem bhi show ho raha hai"
+    ],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for bonding, but it is not based on a clear astrological reason.",
+    "quotes": [
+     "And aap ki kundali mein 2028 k baad Jakar strong bonding banayge"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedies provided (wallpaper, screen lock) are stock remedies not tied to the specific problem or cause.",
+    "quotes": [
+     "Wallpaper change pink 🪷 Lotus flower with water",
+     "Screen lock 1131"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question and then the baby question, but does not explicitly state the order or connect them.",
+    "quotes": [
+     "And aap ki kundali mein 2028 k baad Jakar strong bonding banayge",
+     "Aap ki kundli mein two baby yog hai"
+    ],
+    "score": 6
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about health issues to keep the user engaged.",
+    "quotes": [
+     "And in future aap ko stone wala health issues aayege"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely and keeps providing information.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cliffhanger about the month of April, which keeps the user engaged.",
+    "quotes": [
+     "Because aap ko Apr month mein bhi"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms, but the astrologer uses some formal/scripted phrasing.",
+    "quotes": [
+     "Ji jaise ki mein dekh pa rahi ho"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri married life kaisi rahegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided some basic insights but relied on generic remedies and made a harmful prediction regarding a miscarriage. The chat was kept active with constant follow-up questions and cliffhangers, but lacked depth and personalization."
+ },
+ "usage": {
+  "input_tokens": 11251,
+  "output_tokens": 2253
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Aap ki kundli mein two baby yog hai and miscarriage problem bhi show ho raha hai",
+   "reason": "The astrologer predicts a miscarriage, which is a sensitive health-related prediction that can cause unnecessary fear and harm.",
+   "quote_en": "Your kundli shows a yoga for two babies, but it also indicates a problem with miscarriages."
+  }
+ }
+}

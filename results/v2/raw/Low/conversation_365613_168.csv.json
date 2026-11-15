@@ -1,0 +1,280 @@
+{
+ "file": "conversation_365613_168.csv",
+ "tier": "Low",
+ "user_id": "365613",
+ "ltv": 310.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 8,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.09,
+ "buckets": {
+  "B1": 6.67,
+  "B2": 6.71,
+  "B3": 8.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 12.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's questions about a baby boy and a visa by providing readings for both, though he does not explicitly name the feelings or repeat the details in a conversational way.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a palm photo, which is not necessary for the reading and was not requested by the user. This is a Type C question.",
+    "quotes": [
+     "Jasveer ji aap apna right hand ka photo bhej sakte hain Pam reading ke liye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions planets (Buddh, Shukr, Shani) and gives a specific time frame (2026 for child, November for visa). It is specific and tied to chart factors.",
+    "quotes": [
+     "Buddh shukr Shani aapka negative effect Dal raha hai",
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for both the child and the visa.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the life situation (delay) to the planetary positions (Buddh, Shukr, Shani).",
+    "quotes": [
+     "Shukr Budh Shani aapka down sthiti Mein Hai jiski vajah se Thoda Sa delay ho sakta hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the visa and the Ketu placement after the initial reading.",
+    "quotes": [
+     "November ke bad mein bahut hi achcha chances hai",
+     "Ketu grah aapke ninth house mein hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window (2026, November) without making a guaranteed promise.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions wanting to suggest remedies but does not provide the actual remedy or how to perform it before the chat ends.",
+    "quotes": [
+     "Main aapko thoda sa remedies suggest karna chahta hun"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers both questions (child and visa) in order without needing a reminder.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by mentioning remedies and a 25-day timeline, though it is cut off.",
+    "quotes": [
+     "Main aapko thoda sa remedies suggest karna chahta hun",
+     "Jasveer ji aapke life mein 25 days ke andar"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the chat ends abruptly due to time.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cliffhanger about a 25-day timeline, which gives the user a reason to return.",
+    "quotes": [
+     "Jasveer ji aapke life mein 25 days ke andar"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common astrology terms explained in the context of the user's life.",
+    "quotes": [
+     "Shukr Budh Shani aapka down sthiti Mein Hai jiski vajah se Thoda Sa delay ho sakta hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere ik betiya aa ab dusra baby boy kab tak hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided clear timeframes for the user's questions and linked them to planetary positions. However, the chat was cut off while the astrologer was in the middle of suggesting remedies, leaving the user without actionable advice."
+ },
+ "usage": {
+  "input_tokens": 10573,
+  "output_tokens": 1510
+ }
+}

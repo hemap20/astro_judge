@@ -1,0 +1,346 @@
+{
+ "file": "conversation_1269672_2442.csv",
+ "tier": "Medium",
+ "user_id": "1269672",
+ "ltv": 4065.4,
+ "n_msgs": 49,
+ "n_astro_msgs": 26,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 3.14,
+  "B3": 1.67,
+  "B4": 9.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 9
+  },
+  "4.1": {
+   "score": 10,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Bilkul Priyanka ji affair hai 100%",
+    "reason": "The astrologer makes a 100% certain claim about a sensitive personal matter (infidelity) without any nuance or chart-based explanation, which is irresponsible and potentially harmful."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's name and the specific concern about the husband's affair.",
+    "quotes": [
+     "Okay Priyanka ji bilkul jaan sakte hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks several questions. Some are data requests (Type C), but others like 'Aap unke sath rehti hai ya unse alag' are Type B.",
+    "quotes": [
+     "Aap unke sath rehti hai ya unse alag"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details to check the chart, which is necessary for the user's question.",
+    "quotes": [
+     "Husband ki den aap"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is not specific and lacks a chart reason.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the affair but fails to provide a clear direction regarding the marriage question, instead pushing for a recharge.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided in plain words; the astrologer just makes claims.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a timeline (2025) in a later message, which is new, but it is not linked to the user's details or chart reasons.",
+    "quotes": [
+     "Dekhiye unka relationship 2025 ke 12 mahine mai chalu hua hai Priyanka ji"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer claims 100% certainty, which is a low-scoring behavior.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given; the astrologer only asks for a recharge.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the affair question but fails to address the marriage question, instead asking for a recharge.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged for a recharge.",
+    "quotes": [
+     "Abhi bahut kuch batana hai inke baare mai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks for a recharge, which stalls the chat.",
+    "quotes": [
+     "Plz recharge"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a recharge.",
+    "quotes": [
+     "Plz recharge"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [
+     "Bilkul Priyanka ji affair hai 100%"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Husband ke affair ke bare mein Janna hai",
+  "message_labels": [
+   {
+    "idx": 0,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's concern but failed to provide any chart-based reasoning or professional guidance, instead focusing heavily on pushing for a recharge. The lack of depth and the use of 100% certainty claims significantly undermined the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10813,
+  "output_tokens": 1563
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Bilkul Priyanka ji affair hai 100%",
+   "reason": "The astrologer makes a 100% certain claim about a sensitive personal matter (infidelity) without any nuance or chart-based explanation, which is irresponsible and potentially harmful.",
+   "quote_en": "Absolutely Priyanka ji, there is 100% an affair."
+  }
+ }
+}

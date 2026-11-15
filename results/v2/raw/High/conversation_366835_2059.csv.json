@@ -1,0 +1,331 @@
+{
+ "file": "conversation_366835_2059.csv",
+ "tier": "High",
+ "user_id": "366835",
+ "ltv": 8769.0,
+ "n_msgs": 33,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.42,
+ "buckets": {
+  "B1": 6.67,
+  "B2": 8.0,
+  "B3": 7.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 12.2,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's desire for a second marriage and her past struggles, though it is not a perfect match to her specific feeling of 'thak gayi' or similar, it addresses the core concern.",
+    "quotes": [
+     "Second marriage karna chahti ho aap",
+     "First marriage mein to Apne kafi compromise kiya tha rishte ko behtar karne ke liye"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the user's life (planning, attraction, past marriage). Most are Type B (generic life questions) rather than Type A (building on specific user input).",
+    "quotes": [
+     "Kab se planning kar rahi ho aap second marriage ke liye",
+     "Koi hai aapki Life mein jiske Sath aap manage karna chahti ho",
+     "First marriage mein kya problem thi"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/past, provides new information (compromise in first marriage), is specific to her chart, and is tied to the chart.",
+    "quotes": [
+     "First marriage mein to Apne kafi compromise kiya tha rishte ko behtar karne ke liye",
+     "Aapke kundli ke anusar se first marriage mein aapke marriage ke just bad Se Hi problem create hona start hui thi"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the second marriage.",
+    "quotes": [
+     "2026 February Se lekar ke April ke bich mein aapke life mein aapke real partner ke aane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links life events to chart factors in plain words.",
+    "quotes": [
+     "Aapke kundli ke anusar se first marriage mein aapke marriage ke just bad Se Hi problem create hona start hui thi"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the nature of the future partner and the past marriage.",
+    "quotes": [
+     "Second husband Jo aapke honge nature wise look wise bahut hi acche honge",
+     "First marriage mein to Apne kafi compromise kiya tha rishte ko behtar karne ke liye"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear 3-month window based on the chart.",
+    "quotes": [
+     "2026 February Se lekar ke April ke bich mein aapke life mein aapke real partner ke aane ka yog ban raha hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not change the topic; the conversation remained on marriage.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the future partner's nature.",
+    "quotes": [
+     "Second husband Jo aapke honge nature wise look wise bahut hi acche honge"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued providing insights until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the future partner's nature.",
+    "quotes": [
+     "Second husband Jo aapke honge nature wise look wise bahut hi acche honge",
+     "Loving and caring person honge aapke feelings ko aapke emotion ko support karne wale honge"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms, though it is slightly formal at times.",
+    "quotes": [
+     "Aapke kundli ke anusar se pata chalta Hai mam"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir mai shadi krna chahti hu",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear and specific timeline for the user's second marriage and validated her past experiences. The consultation was helpful because it remained focused on the user's question, though it could have been improved by asking fewer generic questions."
+ },
+ "usage": {
+  "input_tokens": 10963,
+  "output_tokens": 1647
+ }
+}

@@ -1,0 +1,278 @@
+{
+ "file": "conversation_1423870_2195.csv",
+ "tier": "Medium",
+ "user_id": "1423870",
+ "ltv": 3442.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.69,
+ "buckets": {
+  "B1": 5.75,
+  "B2": 6.67,
+  "B3": 6.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 7
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about his ex-partner returning by providing a reading on their future together.",
+    "quotes": [
+     "Dekhiae aap bilkul pareshan mat hoiye inke Sath aapka future dekha jaaye to kafi achcha dekhne ko mil raha hai aur yah wapas aapki life mein aaengi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about a fight, which is a Type B question as it could be asked to any user in a relationship query. The request for birth details is excluded per instructions.",
+    "quotes": [
+     "Kya aap donon ke bich mein kisi baat ke liye bahas hua Hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a reason (to check the match) and proceeds with the reading when the user cannot provide the full details.",
+    "quotes": [
+     "Partner ka detail dijiye",
+     "Inka naam birthday time janm sthan"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future and lacks a specific chart reason or concrete marker, making it generic.",
+    "quotes": [
+     "Dekhiae aap bilkul pareshan mat hoiye inke Sath aapka future dekha jaaye to kafi achcha dekhne ko mil raha hai aur yah wapas aapki life mein aaengi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the main question clearly.",
+    "quotes": [
+     "Meri ex wapish aygii?.",
+     "Dekhiae aap bilkul pareshan mat hoiye inke Sath aapka future dekha jaaye to kafi achcha dekhne ko mil raha hai aur yah wapas aapki life mein aaengi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the mental stress to Rahu and Shukra.",
+    "quotes": [
+     "Aur yah samasya aapko Rahu aur shukr ke vajah se ho raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the partner's marriage and mental stress, using the user's input about the marriage.",
+    "quotes": [
+     "Kyunki marriage life agar dekha jaaye to unka is samay behtar bhi nahin Hai kyunki kafi jyada mansik tanav dekhne ko mil raha hai marriage mein bhi unko"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing window is provided for the return.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not change the topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding the partner's current marriage stress.",
+    "quotes": [
+     "Kyunki marriage life agar dekha jaaye to unka is samay behtar bhi nahin Hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended on a request for a photo.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, which is not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri ex wapish aygii?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's core question about his ex-partner and provided some chart-based insights. However, the consultation ended abruptly with a request for a photo instead of providing a meaningful closing or further guidance."
+ },
+ "usage": {
+  "input_tokens": 10725,
+  "output_tokens": 1388
+ }
+}

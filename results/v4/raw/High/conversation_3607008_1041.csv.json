@@ -1,0 +1,469 @@
+{
+ "file": "conversation_3607008_1041.csv",
+ "tier": "High",
+ "user_id": "3607008",
+ "ltv": 5002.02,
+ "n_msgs": 72,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 6,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 5.08,
+ "rubric_score": 5.08,
+ "blueprint": {
+  "score": 5.65,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 1,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 3,
+   "S2": 17,
+   "S3": 52,
+   "S4": 226,
+   "S5": 387,
+   "S6": 815,
+   "S8": 874,
+   "S9": 914
+  }
+ },
+ "final": 5.37,
+ "label": "mixed",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 4.5,
+  "B3": 6.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 6,
+   "T": 10
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.139,
+   "max_words": 50,
+   "avg_words": 16.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Acknowledges the user's need to talk but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Gives a positive prediction but lacks chart depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 60,
+    "quality": 1,
+    "note": "Connects to a date but lacks specific chart explanation."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 66,
+    "quality": 1,
+    "note": "Advice is generic timing rather than a practical step."
+   },
+   "S9": {
+    "present": true,
+    "idx": 71,
+    "quality": 1,
+    "note": "Hook is generic and lacks specific unexplored topic."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's intent but does not repeat specific details shared by the user.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided (name, DOB) and asks generic questions.",
+    "quotes": [
+     "Uska naam aur date off birth bataiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but does not use them to provide a reading about the match, only general statements.",
+    "quotes": [
+     "Uska naam aur date off birth bataiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is positive but generic and could apply to any user asking about a crush.",
+    "quotes": [
+     "ladki ke andar to aapke prati feeling aur pyar ke kafi achcha dikha de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (25 September) for the relationship.",
+    "quotes": [
+     "Aap donon ke relation ko lekar... 25 September ke bad kafi achcha Yog ban raha hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' but does not explain the chart factors in plain words.",
+    "quotes": [
+     "Kundli mein bhi dikhai de raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the initial positive sentiment without adding depth.",
+    "quotes": [
+     "ladki aapko kafi time se pasand karti hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a specific date (25 September) which is a single point rather than a window.",
+    "quotes": [
+     "25 September ke bad kafi achcha Yog ban raha hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice is to wait until a specific date, which is not a practical remedy.",
+    "quotes": [
+     "Aap apne Dil ki baat inhen 25 September ke bad boliyega"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only has one main question, so this is skipped.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a meaningful next layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message until the system ends the chat.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the date and the system ending the chat.",
+    "quotes": [
+     "Aap apne Dil ki baat inhen 25 September ke bad boliyega"
+    ],
+    "score": 6
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere sath office main el ladki h woh mere liye kuch Prem bhaw feel krti h ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully provided a positive prediction and a specific date for the user's relationship concern. However, the chat was hurt by repetitive requests for birth details and photos, and a lack of depth in explaining the astrological reasons behind the predictions."
+ },
+ "usage": {
+  "input_tokens": 16801,
+  "output_tokens": 1998
+ }
+}

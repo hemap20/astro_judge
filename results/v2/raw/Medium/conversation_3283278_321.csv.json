@@ -1,0 +1,274 @@
+{
+ "file": "conversation_3283278_321.csv",
+ "tier": "Medium",
+ "user_id": "3283278",
+ "ltv": 2679.78,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 3,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 6,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.58,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 5.17,
+  "B3": 7.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.071,
+   "max_words": 32,
+   "avg_words": 12.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's feeling of being drained by the silence in message #6.",
+    "quotes": [
+     "I understand, 7 months of silence is emotionally draining."
+    ],
+    "score": 8
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details (Type C) and then asks about the partner's nature (Type B). No Type A questions were asked.",
+    "quotes": [
+     "Aap ek bar unka pura detail send kijiye",
+     "Kya aap unke nature ke baare mein thoda bata sakti hain?"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a reason (to check energy) and continues the reading when the user cannot provide full details.",
+    "quotes": [
+     "Taki main unka current ka energy check karke aapko Bata sakun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in the chat is in message #6, which is generic and could apply to anyone in a silent relationship.",
+    "quotes": [
+     "I understand, 7 months of silence is emotionally draining."
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if he thinks about her. The astrologer gives a direction that communication will start.",
+    "quotes": [
+     "Batchit start ho jaega"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors are mentioned in the readings.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about a 'deeper reason' in the final message.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy without explaining what it is or how to do it.",
+    "quotes": [
+     "Aapko ek simple upay karna padega"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not change the topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a deeper reason without explaining it.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a deeper reason, which gives the user a reason to return.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya vo bhi mere bare me sochta hh ya shirf me hi pagal hunn",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully acknowledged the user's emotional state and kept the conversation going by teasing a deeper insight. However, the chat suffered from excessive questioning and a lack of concrete chart-based readings or clear guidance."
+ },
+ "usage": {
+  "input_tokens": 10716,
+  "output_tokens": 1253
+ }
+}

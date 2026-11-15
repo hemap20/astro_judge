@@ -1,0 +1,271 @@
+{
+ "file": "conversation_898206_1763.csv",
+ "tier": "Medium",
+ "user_id": "898206",
+ "ltv": 885.0,
+ "n_msgs": 18,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.33,
+  "B2": 2.8,
+  "B3": 3.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.182,
+   "max_words": 76,
+   "avg_words": 17.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "agale sal Tak aapki shaadi Kisi bhi HAL mein ho jayegi",
+    "reason": "The astrologer promises a result ('shaadi Kisi bhi HAL mein ho jayegi') which is a form of certainty that cannot be guaranteed."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage, and the astrologer acknowledged the question by providing a reading on marriage timing and type.",
+    "quotes": [
+     "Meri sadi kb hogyi"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked one question about a love relationship, which is Type B (could be asked to any user).",
+    "quotes": [
+     "Apka koi love relationship hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": null,
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future, not the present/past. It lacks specific markers and is generic.",
+    "quotes": [
+     "agale sal Tak aapki shaadi Kisi bhi HAL mein ho jayegi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage timing, but uses a promise of certainty which is problematic.",
+    "quotes": [
+     "Meri sadi kb hogyi",
+     "agale sal Tak aapki shaadi Kisi bhi HAL mein ho jayegi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Shukr' and 'Shani' but does not explain them in plain words linked to the user's life experience.",
+    "quotes": [
+     "shukr ki sthiti to samanya Roop se dikhai de rahi hai lekin Shani thodi Si deri kar rahe hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add new points (love marriage, girl entering life) but do not use any specific details provided by the user.",
+    "quotes": [
+     "love marriage ki sthiti aapki bahut hi strong Hai",
+     "aapki life mein ladki aane ke Yog bhi bahut hi jald Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises the outcome as certain ('Kisi bhi HAL mein'), which is a low-scoring behavior.",
+    "quotes": [
+     "agale sal Tak aapki shaadi Kisi bhi HAL mein ho jayegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": null,
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not switch topics.",
+    "quotes": null,
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about the girl's name and timing, but it is a pitch for a photo reading.",
+    "quotes": [
+     "main aapki baten dikha check karke Bata sakti hun ki aapke life mein ladki kab tak aaegi aur unka naam kya hoga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the astrologer ended the chat by asking for a photo for a reading.",
+    "quotes": null,
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo to provide a reading, which is a data request/pitch.",
+    "quotes": [
+     "Aap apni right hand ka photo send kariye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, though it contains some astrological terms.",
+    "quotes": [
+     "Ajay Ji aapki shaadi ka jarur ban raha hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger occurred.",
+    "quotes": null,
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri sadi kb hogyi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the marriage question but used problematic language by promising certainty. The consultation ended with a pitch for a photo reading rather than providing further value."
+ },
+ "usage": {
+  "input_tokens": 10383,
+  "output_tokens": 1307
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "agale sal Tak aapki shaadi Kisi bhi HAL mein ho jayegi",
+   "reason": "The astrologer promises a result ('shaadi Kisi bhi HAL mein ho jayegi') which is a form of certainty that cannot be guaranteed.",
+   "quote_en": "Your marriage will definitely happen by next year, no matter what."
+  }
+ }
+}

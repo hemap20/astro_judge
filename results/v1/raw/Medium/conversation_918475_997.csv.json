@@ -1,0 +1,273 @@
+{
+ "file": "conversation_918475_997.csv",
+ "tier": "Medium",
+ "user_id": "918475",
+ "ltv": 3360.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.92,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 3.67,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.143,
+   "max_words": 41,
+   "avg_words": 11.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about career and future growth in message #24, but fails to address the specific love life/breakup concern shared earlier.",
+    "quotes": [
+     "Aapka aane wala samay Kafi nice dekhne ko mil rahi hai aur aap apni future mein Kafi growth bhi Karenge"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to the user.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about future compatibility, not a specific person, so this is skipped.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specificity. It claims career growth because of 'acche grah' and 'Surya', which is vague and not tied to a specific life event or marker.",
+    "quotes": [
+     "carier wale bhav mein acche grah upsthit dekhne Ko mil rahe hain"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about love life and promotion. The astrologer only addresses career growth vaguely and ignores the love life question entirely.",
+    "quotes": [
+     "Aapka aane wala samay Kafi nice dekhne ko mil rahi hai aur aap apni future mein Kafi growth bhi Karenge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Mangal planet' and 'Surya' but does not explain what these mean for the user's life in plain words.",
+    "quotes": [
+     "Mangal planet ki prabhav dikh rahi hai jo Mangal planet acche nahin Mane jaate Hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading is provided; no later readings exist to build depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the predicted events.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the love life question and only addresses career, failing to hold the main thread.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a problem ('ek samasya') without explaining it, which is a low-quality engagement tactic.",
+    "quotes": [
+     "But ek samasya bhi dekhne ko mil rahi hai aapki Kundli mein"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple messages that are just filler or wait lines.",
+    "quotes": [
+     "Okay ji main check Karti hun",
+     "Okay ji main check kar rahi hun"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague, negative statement about Mangal without a reading or guidance.",
+    "quotes": [
+     "Main dekh Pa rahi hun ki aapki Kundli mein Mangal planet ki prabhav dikh rahi hai jo Mangal planet acche nahin Mane jaate Hain"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal/bookish language ('Main aapki kis prakar se help kar sakti hun', 'vistar se bataungi') and technical terms without explanation.",
+    "quotes": [
+     "Main aapki kis prakar se help kar sakti hun",
+     "vistar se bataungi"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "aage kya kisi k saath compatibility bn skti h ? Future me relationship kese rhenge mere ??",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to address the user's primary concern about love life and provided only vague, generic career advice. The consultation was marred by long wait times and a lack of clear, actionable insights."
+ },
+ "usage": {
+  "input_tokens": 10597,
+  "output_tokens": 1365
+ }
+}

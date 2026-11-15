@@ -1,0 +1,391 @@
+{
+ "file": "conversation_3064704_1747.csv",
+ "tier": "High",
+ "user_id": "3064704",
+ "ltv": 8242.3,
+ "n_msgs": 23,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.5,
+ "rubric_score": 2.5,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 41,
+   "S3": 137
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.0,
+  "B2": 1.0,
+  "B3": 1.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 3,
+   "R": null,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.0,
+   "max_words": 20,
+   "avg_words": 9.5,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     10,
+     13,
+     14,
+     20
+    ],
+    "paid_idx": [
+     12,
+     13,
+     18
+    ],
+    "evidence_idx": [
+     10,
+     12,
+     13,
+     18,
+     20
+    ],
+    "reason": "The astrologer uses a guaranteed result ('ladki khud tumko propose Kar degi 11 ghante ke andar') and fear ('tumhara shukr nigative Hai') to pressure the user to extend the chat for a paid service."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but lacks warmth and rapport building."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not validate the user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Understands the concern but immediately pivots to a sales pitch."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No meaningful initial prediction provided."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction based on chart."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided; only a request for more time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional state and immediately demands the name, failing to acknowledge the user's feelings.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name, which is a data request, but then fails to ask any relevant questions about the situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but does not use it to provide any reading or insight, only using it to push for payment.",
+    "quotes": [
+     "Jaldi se uska naam batao"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided; the astrologer only makes claims to sell a service.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not answer the question about whether they are soulmates, instead using the question to pitch a paid service.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'shukr' but does not explain it or link it to the user's life in a meaningful way.",
+    "quotes": [
+     "tumhara shukr nigative Hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings provided to build depth.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a result within 11 hours, which is a guarantee.",
+    "quotes": [
+     "ladki khud tumko propose Kar degi 11 ghante ke andar"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided; only a request for more time.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to push for payment.",
+    "quotes": [
+     "Agar tum mujhe 10 minut ka samay de dete Ho"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for more time instead of providing value.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pressure tactics for more time.",
+    "quotes": [
+     "Time badha lijiye 10 minut ka"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is informal but the content is manipulative and lacks astrological depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya hum soul mate h kya hmara kuch ho sakta h aage",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful reading and instead used fear and false guarantees to pressure the user into extending the chat for payment. The consultation was entirely focused on sales tactics rather than addressing the user's emotional concern."
+ },
+ "usage": {
+  "input_tokens": 15166,
+  "output_tokens": 1673
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#10 [03:01] ASTRO: Agar tum apna shukr majbut kar lete ho to yah ladki khud tumko propose Kar degi 11 ghante ke andar\n#12 [03:31] ASTRO: Agar tum mujhe 10 minut ka samay de dete Ho\n#13 [03:35] ASTRO: To main ISI ladki Se tumko propose karva Dunga 11 ghante ke andar\n#18 [04:34] ASTRO: Time badha lijiye 10 minut ka\n#20 [04:51] ASTRO: Aap pareshan mat hoiye main guarantee le raha hun",
+   "reason": "The astrologer uses a guaranteed result ('ladki khud tumko propose Kar degi 11 ghante ke andar') and fear ('tumhara shukr nigative Hai') to pressure the user to extend the chat for a paid service.",
+   "quote_en": "#10 [03:01] ASTRO: If you strengthen your Shukra, this girl will propose to you herself within 11 hours\n#12 [03:31] ASTRO: If you give me 10 minutes of your time\n#13 [03:35] ASTRO: Then I will have this same girl propose to you within 11 hours\n#18 [04:34] ASTRO: Please increase the time by 10 minutes\n#20 [04:51] ASTRO: Do not worry, I am taking the guarantee"
+  }
+ }
+}

@@ -1,0 +1,384 @@
+{
+ "file": "conversation_140707_2324.csv",
+ "tier": "Medium",
+ "user_id": "140707",
+ "ltv": 4833.0,
+ "n_msgs": 67,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 6.0,
+  "B3": 7.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 13,
+   "long_frac": 0.161,
+   "max_words": 80,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     34,
+     36,
+     42,
+     44,
+     64,
+     66
+    ],
+    "reason": "The astrologer uses the user's emotional distress and fear of losing the relationship to push for a paid 'healing' service, citing other clients' success to create urgency and pressure."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by mentioning the breakup and the confusion, but fails to name the specific feeling of being 'thak gaya' or 'pareshan' in a way that builds deep rapport.",
+    "quotes": [
+     "Ji han abhi bhi vah aapse bahut pyar karti hain aur aapko lekar kafi jyada confuse Hain"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the duration of the relationship, which is a Type B question. No Type C questions were asked.",
+    "quotes": [
+     "Kitne samay ka relation tha aapka"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about the timing of the reconciliation.",
+    "quotes": [
+     "Unka details de dijiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the partner's confusion and the timing is specific and relates to the current situation, but it lacks a clear chart-based reason.",
+    "quotes": [
+     "Ji han abhi bhi vah aapse bahut pyar karti hain aur aapko lekar kafi jyada confuse Hain"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the reconciliation.",
+    "quotes": [
+     "15 March ke bad vah aapse baat kar lenge"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions card reading but does not link the life situation to specific chart factors or planetary positions in plain words.",
+    "quotes": [
+     "card read karna padta hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the partner's feelings and the possibility of accelerating the process through healing.",
+    "quotes": [
+     "Ji han abhi bhi vah aapse bahut pyar karti hain aur aapko lekar kafi jyada confuse Hain"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window (15-20 March) without making an absolute promise, though it is quite firm.",
+    "quotes": [
+     "15 se 20 March ke andar hi baat ho jayegi"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy (healing) is presented as a way to accelerate the process, but it is heavily tied to a paid service pitch, which lowers the quality.",
+    "quotes": [
+     "Agar usse pahle chahte ho ki aapki baat ho jaaye to fir aapko healing vagaira Lena padega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the reconciliation throughout the chat.",
+    "quotes": [
+     "15 March ke bad vah aapse baat kar lenge"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's internal state (confusion) to keep the user engaged.",
+    "quotes": [
+     "aapko lekar kafi jyada confuse Hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely and keeps the conversation going.",
+    "quotes": [
+     "Hamesha Apne mind mein positivity rakho"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages focus on the healing process and the user's mindset, which keeps the thread alive.",
+    "quotes": [
+     "Yahan per Aisa kuchh nahin Hai yahan per aap video call per aaoge usi per tumhara healing ho jaega"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, matching the user's tone.",
+    "quotes": [
+     "Radhe radhe ji"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya unse meri wapas se bat ho sakti h",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully provided a timeline for the user's reconciliation, which was the main concern. However, the consultation was significantly marred by the aggressive pushing of a paid 'healing' service, which undermined the trust and ethical quality of the advice."
+ },
+ "usage": {
+  "input_tokens": 11928,
+  "output_tokens": 1807
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#34 [06:08] ASTRO: Usse pahle bhi baat ho jayegi aapki agar aap unhen relation Ho thoda healing vagaira karvaoge aur aap afmeshan doge to ho jayegi\n#36 [06:44] ASTRO: Agar usse pahle chahte ho ki aapki baat ho jaaye to fir aapko healing vagaira Lena padega relationship love heeling\n#42 [08:02] ASTRO: Maine to Abhi cal Hi ek ladke ka kiya hai aur aaj usko call a gaya hai\n#44 [08:20] ASTRO: 25 ko ek ladki ka Maine healing kara healing Kar Hi rahi thi uske bich mein uska call aage hai\n#64 [12:35] ASTRO: Vahan per log session book karvate Hain4000 Le lete Hain\n#66 [12:58] ASTRO: Yahan per Aisa kuchh nahin Hai yahan per aap video call per aaoge usi per tumhara healing ho jaega",
+   "reason": "The astrologer uses the user's emotional distress and fear of losing the relationship to push for a paid 'healing' service, citing other clients' success to create urgency and pressure.",
+   "quote_en": "#34 [06:08] ASTRO: You will be able to talk to them even before that if you get some healing done for the relationship and provide affirmations, it will happen.\n#36 [06:44] ASTRO: If you want to talk to them before that, then you will have to take healing, like relationship love healing.\n#42 [08:02] ASTRO: I just did it for a boy yesterday, and he received a call today.\n#44 [08:20] ASTRO: I was doing healing for a girl on the 25th, and right in the middle of the healing, she received a call.\n#64 [12:35] ASTRO: People book sessions there and they charge 4000.\n#66 [12:58] ASTRO: There is nothing like that here; here you will come on a video call and your healing will be done right then."
+  }
+ }
+}

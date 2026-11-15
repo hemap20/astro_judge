@@ -1,0 +1,343 @@
+{
+ "file": "conversation_778872_1283.csv",
+ "tier": "High",
+ "user_id": "778872",
+ "ltv": 5087.0,
+ "n_msgs": 49,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 4,
+  "2.4": 7,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.09,
+ "buckets": {
+  "B1": 7.5,
+  "B2": 5.86,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 7,
+   "M": 11,
+   "long_frac": 0.04,
+   "max_words": 49,
+   "avg_words": 19.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress and the specific situation regarding the relationship tension in message #21.",
+    "quotes": [
+     "Bilkul aap apne rishte mein bahut pareshan hai jo ki aapane bahut koshish Kiya Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (#12) which is necessary for the reading, and then asks for a photo (#36, #37). The request for the partner's details is valid. The request for the photo is Type B/C as it is not strictly necessary for a chart reading.",
+    "quotes": [
+     "Aap jiske Sath Hai relation mein hain unka detail send kar dijiye main check karna chahunga"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a clear reason (to check the compatibility/relationship) and uses the partner's chart to provide insights.",
+    "quotes": [
+     "Aap jiske Sath Hai relation mein hain unka detail send kar dijiye main check karna chahunga",
+     "Aapke partner ka kundli bhi Maine open Kiya Hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to the user's situation, and mentions the tension in the relationship.",
+    "quotes": [
+     "Aap donon ek dusre Se dur Hain",
+     "aapke rishte mein clarity nahin mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if the relationship will work. The astrologer provides a clear direction that it will continue.",
+    "quotes": [
+     "Bilkul yah rishta chalega",
+     "Aap donon ka ek dusre ke sath sambandh banaa rahega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli/chart as the basis for the reading but does not explain the specific planetary reasons in plain words.",
+    "quotes": [
+     "aapki kundli mein jo planet Ban Rahe Hain uske Aadhar per tanav dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's feelings and the future clarity of the relationship.",
+    "quotes": [
+     "Aapke partner ka kundli bhi Maine open Kiya Hai uske Aadhar per yah dikhai de raha hai ki aap donon ka jo sambandh hai dusre ke sath banaa rahega",
+     "Aapka partner dikhai de raha hai ki aapse pyar hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time window for improvement.",
+    "quotes": [
+     "Next month ki shuruaat mein aapki problem dur ho jayegi"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a remedy but does not specify what it is or how to do it, making it a generic mention.",
+    "quotes": [
+     "ek upay bata raha hun main aapko"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user asks about the relationship and then about the timing. The astrologer addresses both.",
+    "quotes": [
+     "Bilkul yah rishta chalega",
+     "Next month ki shuruaat mein aapki problem dur ho jayegi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer points to future clarity in the relationship.",
+    "quotes": [
+     "aage dikhai de raha hai ki aapki rishte mein clarity milegi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely and keeps providing information.",
+    "quotes": [
+     "Cal aapki baat hoga aapko pareshan nahin hona hai"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading/guidance regarding the user's concern.",
+    "quotes": [
+     "Cal aapki baat hoga aapko pareshan nahin hona hai Kisi chij Ko lekar rishte mein yah rahenge rishte mein clarity milegi"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, using common terms.",
+    "quotes": [
+     "Aapki kundli mein jo planet Ban Rahe Hain uske Aadhar per tanav dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya ye rishta chlega ya nahi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided consistent reassurance and addressed the user's core concern about the relationship's future. However, the lack of specific chart-based explanations and the vague mention of a remedy weakened the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11386,
+  "output_tokens": 1744
+ }
+}

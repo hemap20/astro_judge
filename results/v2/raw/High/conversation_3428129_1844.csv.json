@@ -1,0 +1,269 @@
+{
+ "file": "conversation_3428129_1844.csv",
+ "tier": "High",
+ "user_id": "3428129",
+ "ltv": 8945.58,
+ "n_msgs": 24,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 6,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.81,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 4.67,
+  "B3": 3.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 7,
+   "M": 10,
+   "long_frac": 0.091,
+   "max_words": 33,
+   "avg_words": 12.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 17 by mentioning family pressure and communication gap, which directly relates to the user's concern about the father fixing the marriage.",
+    "quotes": [
+     "Garima, aapki aur Devesh ki kundli mein abhi family pressure aur communication gap ka kaafi strong influence dikh raha hai."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details in message 6 and 9. While the user provided the name and DOB, the astrologer asked for birth place again in message 9 despite it being a general request. However, these are data requests. No other questions were asked.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the other person's details (Devesh) in message 6 and 9, which was necessary for the reading. The astrologer then used these details to provide a reading about the situation in message 17.",
+    "quotes": [
+     "Aap ek y bar uska detail share karo main check karta hun",
+     "Unka naam date off birth aur birth place"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in message 17 mentions family pressure and communication gap. This is about the present, is specific to the user's situation, and is tied to the chart analysis.",
+    "quotes": [
+     "Garima, aapki aur Devesh ki kundli mein abhi family pressure aur communication gap ka kaafi strong influence dikh raha hai."
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if there is any possibility of marriage. The astrologer does not provide a clear direction or answer, instead suggesting healing or family convincing.",
+    "quotes": [
+     "ab koi possibility nhi h kya mere uske shadi ki?"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli and charts but does not link the life situation to a specific chart factor (like a planet or dasha) in plain words.",
+    "quotes": [
+     "Garima, aapki aur Devesh ki kundli mein abhi family pressure aur communication gap ka kaafi strong influence dikh raha hai."
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later messages (19, 21, 22) add new points about the situation (healing, stress, his inability to handle the pain) but do not use specific details provided by the user beyond the initial context.",
+    "quotes": [
+     "Dekho iske liye aap ek chij kar sakte ho kyunki yah bahut jald sthitiyan badalta Hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the marriage possibility.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests 'healing' in message 19, which is vague and lacks a clear 'how' or 'when'.",
+    "quotes": [
+     "healing karva L"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question about the marriage possibility, so this is skipped.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease in message 23 to keep the user engaged without providing the actual insight.",
+    "quotes": [
+     "Shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but the astrologer's messages are not consistently providing value.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a hidden factor, which is not a real reading or guidance.",
+    "quotes": [
+     "Shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is Hinglish, matching the user. No technical terms are used without explanation, but the language is slightly formal/broken in places.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "ab koi possibility nhi h kya mere uske shadi ki?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the core issue of family pressure but failed to provide a clear answer to the user's main question about marriage possibilities. The consultation ended on a vague tease rather than providing actionable insight or closure."
+ },
+ "usage": {
+  "input_tokens": 10676,
+  "output_tokens": 1487
+ }
+}

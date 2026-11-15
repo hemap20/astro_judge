@@ -1,0 +1,349 @@
+{
+ "file": "conversation_944462_2059.csv",
+ "tier": "High",
+ "user_id": "944462",
+ "ltv": 8262.0,
+ "n_msgs": 63,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.04,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 7.17,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 13.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding her marriage and the partner's marriage in message #20, showing he heard the context.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos multiple times (#30, #40, #58). While he claims it is for 'face reading' and 'energy check', this is not necessary for a chart-based consultation and is a Type C question.",
+    "quotes": [
+     "Aap apni aur inki pic share kariye to"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about the partner's marriage and future, which is appropriate.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to their relationship struggles, and tied to the chart.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether the partner will marry her and divorce his wife.",
+    "quotes": [
+     "Yah apni wife ko devorce bhi denge aapke sath marriage bhi karenge"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the partner's behavior to his chart and current family problems.",
+    "quotes": [
+     "Kyunki inke kundli ke anusar Se dekha jaaye to current time mein apni family ko lekar ke thoda sa pareshan chal rahe hain"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the partner's family issues and the timeline for improvement.",
+    "quotes": [
+     "February ke bad se inke family ka problem hai samapt ho jaega"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window for the situation to improve.",
+    "quotes": [
+     "February ke bad se inke family ka problem hai samapt ho jaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No specific remedy was given, so this is skipped.",
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage question throughout the chat.",
+    "quotes": [
+     "Yog to ban Rahe Hain ki future mein yah aapke sath marriage karenge"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by mentioning the partner's depression and family issues.",
+    "quotes": [
+     "Jiski vajah se inke mind mein depression banaa hua Hai Koi future planning nahin kar pa rahe hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and keeps providing information.",
+    "quotes": [
+     "February ke bad se inke family ka problem hai samapt ho jaega"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the partner's wife knowing about the affair.",
+    "quotes": [
+     "Current time mein inki aur inki wife ke bich mein relation acche nahin Ban Pa rahe hain"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish.",
+    "quotes": [
+     "Aap donon ke kundli ke anusar Se dekha jaaye to donon apni personal life mein problem face kar rahe ho"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya ye mere se shadi karege",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear reading regarding the user's relationship and future prospects, which was the most helpful part. However, the repeated and unnecessary requests for photos significantly hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11575,
+  "output_tokens": 1699
+ }
+}

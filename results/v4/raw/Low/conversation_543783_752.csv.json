@@ -1,0 +1,364 @@
+{
+ "file": "conversation_543783_752.csv",
+ "tier": "Low",
+ "user_id": "543783",
+ "ltv": 150.0,
+ "n_msgs": 21,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.43,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 16,
+   "S3": 27,
+   "S4": 166,
+   "S5": 169
+  }
+ },
+ "final": 2.49,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 1.86,
+  "B3": 4.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.182,
+   "max_words": 80,
+   "avg_words": 21.2,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16
+    ],
+    "paid_idx": [
+     16
+    ],
+    "evidence_idx": [
+     16
+    ],
+    "reason": "The astrologer uses fear ('negative energy create ho rahi hai', 'last moment se dikkat a sakti hai') to push a vague 'energy' process that implies a paid service or ritual, as he claims he is taking 'Puri jimmedari' (full responsibility) for the energy creation."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Asks for the question despite it being stated."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gives a date but uses fear-based language."
+   },
+   "S5": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Asks about marriage duration."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific concern about pregnancy and instead focuses on general negative energy.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or irrelevant questions.",
+    "quotes": [
+     "Aap apne husband ka Naam Bata dijiye",
+     "Shaadi ko kitne din ho gaye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details but does not use them to provide a reading about the match.",
+    "quotes": [
+     "Aap apne husband ka Naam Bata dijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and fear-based, not specific to the user's chart.",
+    "quotes": [
+     "negative energy create ho rahi hai life mein vah disturb kar rahe hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a clear answer to the pregnancy question, instead using fear to delay.",
+    "quotes": [
+     "negative energy create ho rahi hai life mein vah disturb kar rahe hain"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors are explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same fear-based narrative.",
+    "quotes": [
+     "negative energy create ho rahi hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a date and then a year, but it is based on fear.",
+    "quotes": [
+     "12 December se prapt ho raha hai",
+     "next year 2026 mein safalta mil jayegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy is provided, only a promise of one.",
+    "quotes": [
+     "Bilkul aapko aapka help karke vidhi Bata rahe hain"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation is stalled.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a promise of a remedy without providing it.",
+    "quotes": [
+     "Bilkul aapko aapka help karke vidhi Bata rahe hain"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is formal and uses fear-based terminology.",
+    "quotes": [
+     "negative energy create ho rahi hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "I want to know about my pregnancy",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead using fear-based tactics to imply a need for a paid service. The consultation lacked personalization and failed to address the user's primary concern about pregnancy."
+ },
+ "usage": {
+  "input_tokens": 15555,
+  "output_tokens": 1522
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [03:31] ASTRO: Bilkul dosh Hai usmein kahane ki kya baat hai Ham abhi aapko Dekho upar likhe Hain negative energy create ho rahi hai life mein vah disturb kar rahe hain agar pregnancy period bhi ho jayegi conceive bhi Ho jaega to last moment se dikkat a sakti hai ISI ke Karan positive energy Milana bahut avashyak hai jismein Ham Puri jimmedari ke sath kah Rahe Hain ki agar energy create Ho Gai to aapko next year 2026 mein safalta mil jayegi",
+   "reason": "The astrologer uses fear ('negative energy create ho rahi hai', 'last moment se dikkat a sakti hai') to push a vague 'energy' process that implies a paid service or ritual, as he claims he is taking 'Puri jimmedari' (full responsibility) for the energy creation.",
+   "quote_en": "#16 [03:31] ASTRO: There is definitely a dosh, there is no doubt about it. Look, I have written above that negative energy is being created in your life, which is causing disturbances. Even if you conceive during the pregnancy period, there could be complications at the last moment because of this. That is why it is very necessary to receive positive energy. I am saying with full responsibility that if the energy is created, you will achieve success next year in 2026."
+  }
+ }
+}

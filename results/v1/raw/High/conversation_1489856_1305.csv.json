@@ -1,0 +1,279 @@
+{
+ "file": "conversation_1489856_1305.csv",
+ "tier": "High",
+ "user_id": "1489856",
+ "ltv": 106706.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 1.71,
+  "B3": 2.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 11.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Agar aap remedy karenge to nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai",
+    "reason": "The astrologer promises a specific date for a job outcome contingent on a remedy, which is a false promise of a result."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's career struggle in message 11, but does not name the feeling or repeat the specific detail of 5 years experience.",
+    "quotes": [
+     "aap ke carier ko lekar"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo (Type C) which is not needed for a chart reading.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kariye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about her own marriage and job, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks a specific chart reason or detail.",
+    "quotes": [
+     "kafi acche yog dekhne ko mil raha hai aap ke carier ko lekar"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date for the job, but it is a promise of a result.",
+    "quotes": [
+     "agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'yog' but does not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "kafi acche yog dekhne ko mil raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the reading remains superficial.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a specific date for the job, which is a failure.",
+    "quotes": [
+     "agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is requested as a condition for the prediction, which is a pressure tactic.",
+    "quotes": [
+     "Agar aap remedy karenge to nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the marriage question entirely.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened; the astrologer just asks for photos.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer pushes for a rating and re-joining instead of providing value.",
+    "quotes": [
+     "Five star jarur Dena dobara join karo"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about re-joining and a promise of a remedy.",
+    "quotes": [
+     "Main aapko upay batati hun nishchit Roop se nikal jaega"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses 'yog' without explanation.",
+    "quotes": [
+     "kafi acche yog"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri marriage kb hogi or job kb lgegi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, ignored the marriage question, and used pressure tactics to solicit a rating and re-joining. The promise of a specific date for a job outcome is unprofessional and misleading."
+ },
+ "usage": {
+  "input_tokens": 10429,
+  "output_tokens": 1307
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Agar aap remedy karenge to nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai",
+   "reason": "The astrologer promises a specific date for a job outcome contingent on a remedy, which is a false promise of a result.",
+   "quote_en": "If you perform the remedy, there is a definite chance of seeing job opportunities by the 25th of next month."
+  }
+ }
+}

@@ -1,0 +1,310 @@
+{
+ "file": "conversation_1445286_2340.csv",
+ "tier": "High",
+ "user_id": "1445286",
+ "ltv": 5841.0,
+ "n_msgs": 39,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.45,
+ "buckets": {
+  "B1": 8.0,
+  "B2": 7.8,
+  "B3": 7.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 20,
+   "long_frac": 0.05,
+   "max_words": 31,
+   "avg_words": 7.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the boy avoiding her in message #11.",
+    "quotes": [
+     "Accha ji matlab ab wo aapko avoid kar raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's details (#12) and when she proposed (#25). Both are Type A as they build on the user's story about the boy.",
+    "quotes": [
+     "Uski detail dijiye",
+     "Aapane kab propose kiya tha inko"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's details with a reason (to check the chart) and proceeds to give a reading about him.",
+    "quotes": [
+     "Uski detail dijiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new (the user didn't say he has feelings), specific (about the nature of his feelings), and tied to the user's chart (Shani).",
+    "quotes": [
+     "jaisa ki Main dekh Pa raha hun charanjeet ji aapki kundli mein Shani ka prabhav thoda jyada Hai",
+     "Jabki uske Dil mein kahin na kahin aapke prati jhukav Ho to Hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked what is in his heart. The astrologer provides a clear direction (he has feelings but not enough for a relationship).",
+    "quotes": [
+     "Uske dil mein keya hai",
+     "Jabki uske Dil mein kahin na kahin aapke prati jhukav Ho to Hai",
+     "Lekin vah jhukav itna jyada nahin hai ki vah aapke Kisi Baat Ko accept Karen"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the user's life situation (attraction issues) to a chart factor (Shani).",
+    "quotes": [
+     "aapki kundli mein Shani ka prabhav thoda jyada Hai jiski vajah se aapka attraction inke upar nahin Ban Pa raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new layer about the boy's feelings and the reason for the rejection, using the user's detail about the proposal.",
+    "quotes": [
+     "Lekin vah jhukav itna jyada nahin hai ki vah aapke Kisi Baat Ko accept Karen",
+     "Aapane kab propose kiya tha inko"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing window is given for the outcome, but the facts remain consistent.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main thread (the boy).",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a further layer by promising he will come into a relationship.",
+    "quotes": [
+     "Lekin aap chinta na Karen yah aapke sath relationship mein aaenge"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the system messages and the astrologer's own 'time running out' warnings create a sense of urgency.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a promise of a future relationship, which is a reading.",
+    "quotes": [
+     "Lekin aap chinta na Karen yah aapke sath relationship mein aaenge"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, using common terms like 'kundli' and 'Shani'.",
+    "quotes": [
+     "aapki kundli mein Shani ka prabhav thoda jyada Hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Uske dil mein keya hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear and insightful reading about the boy's feelings and the user's chart. However, the constant reminders about the time running out created unnecessary pressure and disrupted the flow of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10718,
+  "output_tokens": 1564
+ }
+}

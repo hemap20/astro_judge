@@ -1,0 +1,412 @@
+{
+ "file": "conversation_1305435_1300.csv",
+ "tier": "Medium",
+ "user_id": "1305435",
+ "ltv": 1431.34,
+ "n_msgs": 17,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 9,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.43,
+ "rubric_score": 5.43,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 67,
+   "S4": 214,
+   "S6": 248
+  }
+ },
+ "final": 4.71,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 3.57,
+  "B3": 6.5,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 41,
+   "avg_words": 16.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the concern but did not build rapport."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks depth."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up questions asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Connected to Shani but very briefly."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feeling in the first reply after the question.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo which is not needed for a kundli consultation.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 16,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific markers.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 10,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage timing question but does not explain the reason well.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 13,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Shani but does not explain it in plain words for the user's life.",
+    "quotes": [
+     "Sunny planet ki Drishti dekhne ko mil rahi hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use user details.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a year window without promise.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user asked about love, but the astrologer did not address it.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses 'Sunny' instead of Shani and asks for hand photo.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 1,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi kab tak Hogi shaadi Mein rukavat Kyon a rahi hai",
+  "main_question_idx": 8,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic timeline for marriage but failed to address the user's specific concerns about obstacles and love life. The consultation lacked depth, failed to provide actionable remedies, and requested unnecessary data (hand photo)."
+ },
+ "usage": {
+  "input_tokens": 16687,
+  "output_tokens": 1739
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": null,
+   "2.1": 6,
+   "2.2": 8,
+   "2.7": 1,
+   "4.2": 4,
+   "3.2": 8
+  }
+ }
+}

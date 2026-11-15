@@ -1,0 +1,332 @@
+{
+ "file": "conversation_2850603_1238.csv",
+ "tier": "High",
+ "user_id": "2850603",
+ "ltv": 16757.18,
+ "n_msgs": 36,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.0,
+  "B2": 5.5,
+  "B3": 5.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 22,
+   "long_frac": 0.043,
+   "max_words": 32,
+   "avg_words": 9.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": "No self-harm or crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Uske liye black magic ko kaatna padega. Main batata hun kaise",
+    "reason": "The astrologer confirms black magic and implies a remedy is needed to fix it, creating fear and urgency to push a service."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": "No specific life events invented as fact."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the ex-partner's behavior and the feeling of distance.",
+    "quotes": [
+     "Dekho inki date of birth ke anusar inko nature aur behaviour aapke prati bilkul change hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and a photo. The photo request is Type C as it is not necessary for a reading.",
+    "quotes": [
+     "Inka birth time aur birth place kya hai",
+     "Photo To hoga Inka na aapke pass agar hai to send kar dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to provide a reading about the partner's feelings.",
+    "quotes": [
+     "Inka birth time aur birth place kya hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, adds new information about the partner's feelings, and is specific to the user's situation.",
+    "quotes": [
+     "Dekho inki date of birth ke anusar inko nature aur behaviour aapke prati bilkul change hai",
+     "Feeling abhi bhi dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether the ex will return and if they still love the user.",
+    "quotes": [
+     "Vah aapse baat bhi karna chahte ho vah aapse pyar bhi karte Hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions negative energy and black magic but does not link it to specific chart factors.",
+    "quotes": [
+     "itni negative energy unke upar hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's past behavior and the influence of negative energy.",
+    "quotes": [
+     "Yah khud aapse baat karte the AAP bhul jaate the per vah nahin bolate the"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the return of the partner.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a remedy for black magic but does not provide a specific, non-paid step.",
+    "quotes": [
+     "Uske liye black magic ko kaatna padega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stays on the same topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the black magic influence.",
+    "quotes": [
+     "Kisi Ne inke Man Ko divert kar rakha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is pushing a remedy.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the black magic remedy.",
+    "quotes": [
+     "Uske liye black magic ko kaatna padega",
+     "Main batata hun kaise"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere ex wapas ayegi kya mere life mei",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully engaged with the user's emotional concern and provided a reading about the partner's feelings. However, the consultation was severely undermined by the introduction of 'black magic' to create fear and push for a remedy."
+ },
+ "usage": {
+  "input_tokens": 10736,
+  "output_tokens": 1540
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Uske liye black magic ko kaatna padega. Main batata hun kaise",
+   "reason": "The astrologer confirms black magic and implies a remedy is needed to fix it, creating fear and urgency to push a service.",
+   "quote_en": "For that, the black magic will have to be removed. I will tell you how."
+  }
+ }
+}

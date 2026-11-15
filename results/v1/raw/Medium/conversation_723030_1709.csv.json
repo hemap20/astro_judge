@@ -1,0 +1,240 @@
+{
+ "file": "conversation_723030_1709.csv",
+ "tier": "Medium",
+ "user_id": "723030",
+ "ltv": 520.0,
+ "n_msgs": 16,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 6,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.93,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 5.2,
+  "B3": 7.33,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.286,
+   "max_words": 50,
+   "avg_words": 22.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about 'santaan yog' in the first reply after the question, instead asking about the marriage date.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the marriage date (Type B) and then asks about a miscarriage (Type A/B). The question about miscarriage is built on the reading provided, but the astrologer asks for confirmation of birth details which were already provided (Type C).",
+    "quotes": [
+     "Shaadi aapki kab Hui Hai",
+     "Apni detail Jo dala hai detail aapki sahi hai"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details and uses them to check the chart, which is appropriate for a question about progeny.",
+    "quotes": [
+     "Vikas Tyagi Dob 24 Dec 1987, haridwar time 5am"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions a delay in progeny and negative aspects, which is specific enough to be a reading, but it is not clearly tied to a specific chart factor or life event for the user to verify beyond generalities.",
+    "quotes": [
+     "Santan ki bhav mein Thoda Sa aapko vilamb dekhne ko mil raha hoga"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer identifies a delay but does not provide a clear direction or time window for when the progeny yoga might form.",
+    "quotes": [
+     "Santan ki bhav mein Thoda Sa aapko vilamb dekhne ko mil raha hoga"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the term 'negative drishya' (negative aspect) and 'santan bhav' (house of progeny) but does not explain them in plain, everyday terms that the user can easily understand.",
+    "quotes": [
+     "negative drishya padhne ki vajah se"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about a potential miscarriage, which is a new layer of information.",
+    "quotes": [
+     "aur aapka kabhi miscarriage hua Hai Kya ek bar"
+    ],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the progeny yoga.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given in the transcript.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only asked one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by asking about a miscarriage, which is a specific further thing related to the user's concern.",
+    "quotes": [
+     "aur aapka kabhi miscarriage hua Hai Kya ek bar"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, and every reply after the first reading carries a relevant question or insight.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a question about a miscarriage, which is a real reading/insight.",
+    "quotes": [
+     "aur ek bar aapka miscarriage dekhne ko mil raha kyunki misunder standing dekhne ko mil rahi to yani aapka ek bar miscarriage ke chances dekhne Ko Mil Rahe Hain Aisa aapke sath hua tha ya nahin"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'santan bhav' and 'negative drishya' without explaining them in simple terms.",
+    "quotes": [
+     "Santan ki bhav",
+     "negative drishya"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "mere santaan yog kb bn rhe hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully gathered the necessary birth details for both partners to analyze the progeny yoga. However, the consultation suffered from using technical jargon without explanation and failing to provide a clear timeline or direction for the user's main concern."
+ },
+ "usage": {
+  "input_tokens": 10350,
+  "output_tokens": 1272
+ }
+}

@@ -1,0 +1,263 @@
+{
+ "file": "conversation_3129759_3821.csv",
+ "tier": "High",
+ "user_id": "3129759",
+ "ltv": 20744.4,
+ "n_msgs": 29,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 10,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.06,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 5.4,
+  "B3": 4.67,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 10,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 16,
+   "avg_words": 7.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to acknowledge the user's distress or the specific details shared about her situation, offering only generic responses.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the person's profession and occult knowledge (Type B), but these questions do not build on the user's core concern about the relationship status.",
+    "quotes": [
+     "Mam unka name btaiye",
+     "Mam wo khi kam kr rhe hai astrology aati hai kya mam unko tantra mantra asa"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name, but fails to use it in the reading or explain why it is needed for the chart analysis.",
+    "quotes": [
+     "Mam unka name btaiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights or verifiable markers.",
+    "quotes": [
+     "Hanji mam kundali se dikh rha hai aap unko hi sab kuch manti ho"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a timeline for the call, which answers the user's question about when she will hear from him.",
+    "quotes": [
+     "September se phle call aajaega aapko"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but fails to link it to any specific life event or provide a clear chart reason in plain words.",
+    "quotes": [
+     "Hanji mam kundali se dikh rha hai aap unko hi sab kuch manti ho"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings do not add new, specific insights or use the user's details to build depth.",
+    "quotes": [
+     "Wo aapko khud msg kr denge",
+     "Wo aapko bhut mante hai asa toh kuch kiya nhi unhone"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window (before September) without making a promise, which is a reasonable approach.",
+    "quotes": [
+     "September se phle call aajaega aapko"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers of insight.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely, but the responses are repetitive and lack depth.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a generic instruction to connect, which does not provide a meaningful final insight.",
+    "quotes": [
+     "Connect kijiye mam"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's informal style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya wo Milne ko bulayeinge or kab tak",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful chart-based insights and relied on generic reassurances. The chat lacked depth and failed to connect the user's emotional state to any astrological reasoning."
+ },
+ "usage": {
+  "input_tokens": 10545,
+  "output_tokens": 1213
+ }
+}

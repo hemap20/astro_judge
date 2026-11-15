@@ -1,0 +1,358 @@
+{
+ "file": "conversation_365613_168.csv",
+ "tier": "Low",
+ "user_id": "365613",
+ "ltv": 310.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 1,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 8,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.49,
+ "rubric_score": 5.49,
+ "blueprint": {
+  "score": 4.45,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S3": 24,
+   "S4": 156,
+   "S6": 190
+  }
+ },
+ "final": 4.97,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 5.29,
+  "B3": 5.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 12.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Asks for the question after details were provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Gives a prediction for the child, but it is generic."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up questions asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Connects visa to November, but lacks depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific concerns about the baby or the visa in the first reply after the user shares them.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions after the initial greeting.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about a future child and a visa, not a specific other person's chart.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone; it lacks specific markers.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for both the child and the visa.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer lists planets without explaining their impact on the user's life in plain words.",
+    "quotes": [
+     "Buddh shukr Shani aapka negative effect Dal raha hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading about the visa adds a new point but does not use the user's specific details.",
+    "quotes": [
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a window for the events without promising certainty.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions wanting to suggest remedies but never actually provides one.",
+    "quotes": [
+     "Main aapko thoda sa remedies suggest karna chahta hun"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers both questions without the user needing to remind them.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened; the chat ends abruptly.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends abruptly without a hook.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is an incomplete sentence about a timeframe, not a reading or guidance.",
+    "quotes": [
+     "Jasveer ji aapke life mein 25 days ke andar"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language, but the astrology terms are not explained.",
+    "quotes": [
+     "Buddh shukr Shani aapka negative effect Dal raha hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere ik betiya aa ab dusra baby boy kab tak hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided clear timeframes for the user's questions, which was helpful. However, the chat lacked depth, failed to provide promised remedies, and ended abruptly without a proper closing or hook."
+ },
+ "usage": {
+  "input_tokens": 15360,
+  "output_tokens": 1580
+ }
+}

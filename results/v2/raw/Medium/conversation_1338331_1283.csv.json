@@ -1,0 +1,282 @@
+{
+ "file": "conversation_1338331_1283.csv",
+ "tier": "Medium",
+ "user_id": "1338331",
+ "ltv": 999.0,
+ "n_msgs": 31,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 1,
+  "2.5": 6,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.92,
+ "buckets": {
+  "B1": 6.67,
+  "B2": 5.0,
+  "B3": 5.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.143,
+   "max_words": 35,
+   "avg_words": 15.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's worry about having a child and the duration of the marriage.",
+    "quotes": [
+     "Main aapki problem samajh sakta hun ki aap bacche ke liye thoda pareshan hai",
+     "aap yah bata sakte hain ki aapki shaadi ke kitne sal Ho Gaye"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions about the marriage duration, planning, and medical consultations. These are Type B questions as they could be asked to any user with this concern.",
+    "quotes": [
+     "aap yah bata sakte hain ki aapki shaadi ke kitne sal Ho Gaye",
+     "kitne Dinon Se plan banaa rahe hain",
+     "kya aapane Kisi doctor se paraamarsh liya hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present (difficulty conceiving) and links it to a chart factor (Shani). It is specific to her situation.",
+    "quotes": [
+     "aapki kundli mein aap lagatar aapki husband aur aap Santan ke liye plan to banaa rahe hain lekin Sansthan ke liye aapki kundli mein Shani ka prabhav hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks for a month, but the astrologer fails to provide a clear direction or time window, instead focusing on the Shani influence.",
+    "quotes": [
+     "Koie month bata do ki concive ho jaya",
+     "Santan ke liye aapko good news milegi lekin uske liye Shani ka prabhav hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the difficulty in conceiving to the influence of Shani in her chart.",
+    "quotes": [
+     "Sani ki prabhav Se Hi Santan ki prapti nahin Ho Pa rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the point about Shani's influence without adding new, useful depth or using the user's specific details to build a new layer.",
+    "quotes": [
+     "Sani ki prabhav Se Hi Santan ki prapti nahin Ho Pa rahi hai",
+     "Santan ke liye aapko good news milegi lekin uske liye Shani ka prabhav hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a time window and keeps the reading vague regarding when the outcome will occur.",
+    "quotes": [
+     "Santan ke liye aapko good news milegi"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions that the influence needs to be removed but does not provide a specific, actionable remedy or practical step.",
+    "quotes": [
+     "uske liye Shani ka prabhav hai usko dur karna hoga"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer; the conversation remains stuck on the same point.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but the astrologer's replies are repetitive and lack depth.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are repetitive and do not provide a clear reading or guidance.",
+    "quotes": [
+     "Agar yah prabhav dur nahin hue to aapko Santan ki prapti mein rukavat Hi Bani rahegi",
+     "Date kab tak Punam ji"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language, but the sentences are slightly formal/bookish.",
+    "quotes": [
+     "kripya aap apni samasya bataiye",
+     "Santan ki prapti"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "baccha kab ho ga",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and linked it to a chart factor (Shani). However, the astrologer failed to provide a clear timeline or actionable remedies, and the conversation became repetitive."
+ },
+ "usage": {
+  "input_tokens": 10913,
+  "output_tokens": 1426
+ }
+}

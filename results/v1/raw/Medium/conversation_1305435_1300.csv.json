@@ -1,0 +1,253 @@
+{
+ "file": "conversation_1305435_1300.csv",
+ "tier": "Medium",
+ "user_id": "1305435",
+ "ltv": 1431.34,
+ "n_msgs": 17,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.44,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 6.43,
+  "B3": 6.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.2,
+   "max_words": 41,
+   "avg_words": 16.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific concerns about marriage delays or engagement issues in the first reply after the user shared them.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo (Type C) which is not necessary for a chart-based consultation and was not requested as part of the initial data.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific markers or chart-based reasons that could be verified by the user.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window (2026) for the marriage question.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Sunny planet' (Shani) as a reason for the delay, which is a chart factor in plain words.",
+    "quotes": [
+     "But Sunny planet ki Drishti dekhne ko mil rahi hai aapke janm kundli mein isliye itni deri aur thodi Si dikkat dekhne ko mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point about the planet's influence after the initial marriage prediction.",
+    "quotes": [
+     "But Sunny planet ki Drishti dekhne ko mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a year (2026) as the timing, which is a window, and the facts remain consistent.",
+    "quotes": [
+     "2026 mein aapke shaadi ka yog dekhne Ko Mil Rahe Hain"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo to provide a remedy, which is a request for a non-essential task rather than a direct remedy.",
+    "quotes": [
+     "main aapke hath se Rekha check kar lun FIR aapko batata hun aur kuchh upay bhi batata hun aapko"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question and then addresses the love life question implicitly by providing percentages for love vs arrange marriage.",
+    "quotes": [
+     "aapki shaadi arrange marriage hone ke 60% dekhne ko mil raha hai love marriage hone ke 40 percent"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by suggesting a palm reading to provide further insights and remedies.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye main aapke hath se Rekha check kar lun"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message, and every reply after the first reading carries relevant information.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, which is a data request and not a reading.",
+    "quotes": [
+     "Aap apni right hand pic send kar dijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses 'Sunny planet' which is a transliteration of Shani, but the language is generally accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi kab tak Hogi shaadi Mein rukavat Kyon a rahi hai Sagai Nahin ho rahi hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the marriage question and identified a planetary influence. However, the consultation was hindered by requesting a palm photo instead of providing immediate remedies or deeper chart analysis."
+ },
+ "usage": {
+  "input_tokens": 10392,
+  "output_tokens": 1285
+ }
+}

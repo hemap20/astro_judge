@@ -1,0 +1,340 @@
+{
+ "file": "conversation_3552969_680.csv",
+ "tier": "High",
+ "user_id": "3552969",
+ "ltv": 14617.84,
+ "n_msgs": 20,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 6,
+  "2.3": 4,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.22,
+ "rubric_score": 6.22,
+ "blueprint": {
+  "score": 3.76,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S2": 158,
+   "S3": 242,
+   "S4": 194,
+   "S5": 242
+  }
+ },
+ "final": 4.99,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.75,
+  "B2": 5.14,
+  "B3": 5.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 7,
+   "M": 9,
+   "long_frac": 0.091,
+   "max_words": 39,
+   "avg_words": 12.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "none"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Acknowledges the user's distress but in a very generic way."
+   },
+   "S3": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asks for the reason for the conflict, but it is late in the chat."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gives a generic prediction about the return of the partner."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Asks a relevant follow-up question about the cause of the conflict."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Does not connect the user's specific situation to the chart in detail."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress in message 9, but it is generic and does not repeat the specific details shared by the user.",
+    "quotes": [
+     "Pankaj ji Maine aapki kundli ko check kiya hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the wife's details (Type B) and the reason for the conflict (Type A).",
+    "quotes": [
+     "Mujhe aap unka detail bhi share kijiega apni wife ka",
+     "kya aap bata sakte hain ki unhe ghar chhodne ka kya karan bataya gaya tha?"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the wife's details but does not use them to provide a reading about her or the match.",
+    "quotes": [
+     "Mujhe aap unka detail bhi share kijiega apni wife ka"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future but is generic and could apply to any user with relationship issues.",
+    "quotes": [
+     "Aapke partner ka wapas aane ka yog to dikh raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a direction (yes, return is possible) but it is very generic.",
+    "quotes": [
+     "Aapke partner ka wapas aane ka yog to dikh raha hai"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions planets (Sani, Ketu) but does not link them to the user's life in a meaningful way.",
+    "quotes": [
+     "Sani Aur ketu grah ka placement aapke personal life ke liye achcha nahin dikh raha hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading provided, no depth built.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one question asked.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends abruptly due to time.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a promise to check the wife's chart, which is a wait line/data request.",
+    "quotes": [
+     "Aur unki kundli ke grah ke placement ko check karke aapko upay bataungi"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and conversational.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri wife ghar chodakr chali gyi hai wo return kab aayegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was polite but failed to provide a deep or personalized reading, and the chat ended before any remedy or actionable advice could be given. The most helpful part was the initial acknowledgment of the user's distress, while the lack of depth and the abrupt ending hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 15377,
+  "output_tokens": 1535
+ }
+}

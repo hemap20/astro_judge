@@ -1,0 +1,453 @@
+{
+ "file": "conversation_1429679_2646.csv",
+ "tier": "Medium",
+ "user_id": "1429679",
+ "ltv": 2157.0,
+ "n_msgs": 60,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 4,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 5.97,
+ "rubric_score": 5.97,
+ "blueprint": {
+  "score": 7.15,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 2,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S2": 73,
+   "S3": 86,
+   "S4": 148,
+   "S5": 159,
+   "S6": 440,
+   "S7": 596,
+   "S8": 825
+  }
+ },
+ "final": 6.56,
+ "label": "good",
+ "buckets": {
+  "B1": 6.33,
+  "B2": 5.57,
+  "B3": 6.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 4,
+   "M": 9,
+   "long_frac": 0.226,
+   "max_words": 62,
+   "avg_words": 22.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Acknowledges tension but generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 2,
+    "note": "Identifies divorce and second marriage concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Gives a timeline but lacks chart depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks if she is talking to someone, generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 26,
+    "quality": 1,
+    "note": "Describes future partner but lacks specific chart connection."
+   },
+   "S7": {
+    "present": true,
+    "idx": 37,
+    "quality": 1,
+    "note": "Probes about the child."
+   },
+   "S8": {
+    "present": true,
+    "idx": 55,
+    "quality": 2,
+    "note": "Gives specific remedies (cow/Shiv ji) for foreign travel."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's tension but does not repeat specific details shared by the user.",
+    "quotes": [
+     "tension mat lijiye"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about her current life (talking to someone, travel habits) which are Type B.",
+    "quotes": [
+     "Abhi aapki kisi se baat ho rahi hai kya",
+     "Aapko ghumne firne ka bhi shauk jyada rahata hai kya"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable as the question is about the user's own future, not a specific named person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [
+     "aapki kundli mein chijen dikhai de rahi hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Provides a timeline for divorce and second marriage.",
+    "quotes": [
+     "2026 ke end Tak sambhavnayen aapki paksh ki or hogi divorce ki case mein"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions kundli but does not link specific chart factors to life events in plain words.",
+    "quotes": [
+     "aapki kundli mein chijen dikhai de rahi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add new points (child, foreign travel) but do not use details from the user's previous inputs.",
+    "quotes": [
+     "Aapka baccha bahut bhagyavan hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a window for divorce and foreign travel.",
+    "quotes": [
+     "2026 ke end Tak",
+     "2028 ke aaspaas"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies are provided for foreign travel with how and when.",
+    "quotes": [
+     "gay ko guruwar guruwar gud khilana chalu Karen"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Maintains the thread of divorce, second marriage, child, and foreign travel.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Does not open a specific next layer after the main question.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends without a hook.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the remedy and a general prayer.",
+    "quotes": [
+     "Baki main Puri prathna karunga"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses easy language, no formal/bookish tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera divorce kab hoga aur dusri shaadi ke yog hain?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided clear timelines for the user's divorce and foreign travel, which helped address the main concerns. However, the chat lacked depth in chart-based explanations and failed to provide a hook for a follow-up consultation."
+ },
+ "usage": {
+  "input_tokens": 16977,
+  "output_tokens": 1893
+ }
+}

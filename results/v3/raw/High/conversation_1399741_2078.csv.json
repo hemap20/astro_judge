@@ -1,0 +1,434 @@
+{
+ "file": "conversation_1399741_2078.csv",
+ "tier": "High",
+ "user_id": "1399741",
+ "ltv": 8897.0,
+ "n_msgs": 55,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.53,
+ "rubric_score": 5.53,
+ "blueprint": {
+  "score": 6.21,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 1.0
+  },
+  "order": 0.952,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 125,
+   "S4": 179,
+   "S5": 131,
+   "S6": 271,
+   "S7": 302,
+   "S8": 495
+  }
+ },
+ "final": 5.87,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 4.86,
+  "B3": 5.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's emotional distress."
+   },
+   "S3": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Gives a generic prediction about future connection."
+   },
+   "S5": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Connects to third-person involvement but lacks specific chart details."
+   },
+   "S7": {
+    "present": true,
+    "idx": 28,
+    "quality": 1,
+    "note": "Probes about the female friend."
+   },
+   "S8": {
+    "present": true,
+    "idx": 44,
+    "quality": 1,
+    "note": "Gives advice to be patient, but it is generic."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional state and the specific details of the relationship struggle, focusing only on data collection.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided (DOB/Time) and asks questions that could be asked to any user.",
+    "quotes": [
+     "Aap unko detail send karo",
+     "Aap donon Ki baat hoti hai"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to confirm the third-person involvement.",
+    "quotes": [
+     "Aap unko detail send karo"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasoning.",
+    "quotes": [
+     "vahan se aane wale samay mein connect karenge"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction about the future connection.",
+    "quotes": [
+     "April last Tak sab theek hone ke chance hai"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No specific chart terms or plain-word explanations are provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same point about the third person.",
+    "quotes": [
+     "Third person say involvement lag raha hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a specific month (April) as a window, which is a reasonable timeframe.",
+    "quotes": [
+     "April last Tak sab theek hone ke chance hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice to be patient is generic and not tied to a specific chart cause.",
+    "quotes": [
+     "aapko patience rakhna chahie"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the same topic throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened; the conversation just repeats the same points.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer repeats the same points.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just confirming feelings, not providing a new reading.",
+    "quotes": [
+     "Vah aapke liye feeling rakhte Hain"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya koi future h kyuki I love him",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer helped by providing a timeline for reconciliation, but hurt the chat by failing to acknowledge the user's emotions and repeating the same points about a third person without providing deep chart-based insights."
+ },
+ "usage": {
+  "input_tokens": 15849,
+  "output_tokens": 1792
+ }
+}

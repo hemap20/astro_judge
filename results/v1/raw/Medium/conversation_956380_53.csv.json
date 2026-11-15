@@ -1,0 +1,286 @@
+{
+ "file": "conversation_956380_53.csv",
+ "tier": "Medium",
+ "user_id": "956380",
+ "ltv": 944.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 3.67,
+  "B3": 1.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 3,
+   "M": 14,
+   "long_frac": 0.286,
+   "max_words": 47,
+   "avg_words": 18.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Agar kahiye to main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega aur family walon ke support se shaadi hoga aap donon ke family wale mam jaenge main Aisa kar dunga",
+    "reason": "The astrologer promises a specific outcome (marriage and family support) in exchange for a service, which is a form of pressure and false promise."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about their future together.",
+    "quotes": [
+     "Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos, which is a Type C question as it is not strictly necessary for a reading and is used to push for more engagement.",
+    "quotes": [
+     "To agar unka pic ho to aap send kijiye apna bhi aur unka bhi"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos to check matching but does not ask for the partner's name or birth details, and uses the request to push for more time/services.",
+    "quotes": [
+     "To agar unka pic ho to aap send kijiye apna bhi aur unka bhi"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons or unique markers.",
+    "quotes": [
+     "Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the future but immediately pivots to a sales pitch.",
+    "quotes": [
+     "Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided for the claims made.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later messages repeat the same sentiment and push for more time/photos.",
+    "quotes": [
+     "Vah aapke liye bahut jyada loyal bhi dikhai de rahe hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers to 'make' the marriage happen, which is a paid service pitch.",
+    "quotes": [
+     "Agar kahiye to main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged for more time.",
+    "quotes": [
+     "main aapko abhi bahut kuchh batana chahta hun unke bare mein"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for more time and contact.",
+    "quotes": [
+     "Aur aap thoda samay badha lijiye",
+     "Ya dobara contact kijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for more time and contact.",
+    "quotes": [
+     "Ya dobara contact kijiye",
+     "Kyunki aapka samay aap paryapt hone wala hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Hm dono ka sath mai future hai ki ni",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic answer but quickly pivoted to pressuring the user for more time and offering to 'fix' the future for a fee. This behavior violates the core principles of honest and ethical consultation."
+ },
+ "usage": {
+  "input_tokens": 10569,
+  "output_tokens": 1360
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Agar kahiye to main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega aur family walon ke support se shaadi hoga aap donon ke family wale mam jaenge main Aisa kar dunga",
+   "reason": "The astrologer promises a specific outcome (marriage and family support) in exchange for a service, which is a form of pressure and false promise.",
+   "quote_en": "If you say so, I can shape your future in such a way that you both will get married, and it will happen with your families' support. I will make sure your families agree to it."
+  }
+ }
+}

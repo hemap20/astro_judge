@@ -1,0 +1,288 @@
+{
+ "file": "conversation_1489856_1305.csv",
+ "tier": "High",
+ "user_id": "1489856",
+ "ltv": 106706.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 2.14,
+  "B3": 1.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 11.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     13,
+     15,
+     17,
+     18,
+     19
+    ],
+    "reason": "The astrologer uses the promise of a job (guaranteed result) to pressure the user into sending a hand photo for a remedy and then pushes the user to recharge/extend the chat to get that remedy."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's career struggle in message 11, but fails to name the feeling or use the specific detail of 5 years of experience.",
+    "quotes": [
+     "aap ke carier ko lekar"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo (Type C) which is not necessary for a chart reading, and does so repeatedly.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kariye",
+     "Aap mujhe apni right hand pic send karo left hand bhi"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about her own marriage and job, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons or markers.",
+    "quotes": [
+     "kafi acche yog dekhne ko mil raha hai aap ke carier ko lekar"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date for the job, but it is tied to a remedy and a pressure tactic.",
+    "quotes": [
+     "agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'yog' but does not explain what it means for the user's life or link it to a specific chart factor.",
+    "quotes": [
+     "kafi acche yog dekhne ko mil raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the reading remains superficial and repetitive.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (25th of next month) which is a form of a firm date/promise.",
+    "quotes": [
+     "agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a request for a photo and a pressure to extend the chat, making it a low-quality interaction.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kariye main aapko ek remedy batati hun"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the marriage question entirely and focuses only on the job.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the promise of a remedy as a tease to keep the user engaged.",
+    "quotes": [
+     "Main aapko upay batati hun nishchit Roop se nikal jaega"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks for photos and pushes for a recharge, stalling the chat.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send karo left hand bhi",
+     "dobara join karo kyunki aapke pass time khatm ho raha hai"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pressure tactics to recharge and send photos.",
+    "quotes": [
+     "dobara join karo kyunki aapke pass time khatm ho raha hai",
+     "Main aapko upay batati hun nishchit Roop se nikal jaega"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer fails to explain the 'yog' mentioned.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri marriage kb hogi or job kb lgegi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading and instead used pressure tactics to demand photos and a chat extension. The most helpful part was the initial acknowledgement of the career struggle, but the lack of depth and the focus on paid-element pressure severely hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 10630,
+  "output_tokens": 1419
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#13 [03:55] ASTRO: Aap mujhe apni right hand pic send kariye main aapko ek remedy batati hun\n#15 [04:07] ASTRO: Agar aap remedy karenge to nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai\n#17 [04:54] ASTRO: Five star jarur Dena dobara join karo kyunki aapke pass time khatm ho raha hai\n#18 [05:00] ASTRO: Main aapko upay batati hun nishchit Roop se nikal jaega\n#19 [05:00] ASTRO: Main aapko upay batati hun nishchit Roop se nikal jaega ji",
+   "reason": "The astrologer uses the promise of a job (guaranteed result) to pressure the user into sending a hand photo for a remedy and then pushes the user to recharge/extend the chat to get that remedy.",
+   "quote_en": "#13 [03:55] ASTRO: Please send me a picture of your right hand, I will tell you a remedy.\n#15 [04:07] ASTRO: If you perform the remedy, there is a definite chance of seeing job opportunities by the 25th of next month.\n#17 [04:54] ASTRO: Do give a five-star rating and join again because your time is running out.\n#18 [05:00] ASTRO: I will tell you the remedy, it will definitely work out.\n#19 [05:00] ASTRO: I will tell you the remedy, it will definitely work out."
+  }
+ }
+}

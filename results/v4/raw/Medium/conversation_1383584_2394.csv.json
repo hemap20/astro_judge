@@ -1,0 +1,376 @@
+{
+ "file": "conversation_1383584_2394.csv",
+ "tier": "Medium",
+ "user_id": "1383584",
+ "ltv": 529.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.21,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 16,
+   "S4": 245
+  }
+ },
+ "final": 2.23,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.67,
+  "B2": 3.86,
+  "B3": 1.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 10.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     14
+    ],
+    "paid_idx": [
+     15,
+     18
+    ],
+    "evidence_idx": [
+     14,
+     15,
+     18
+    ],
+    "reason": "The astrologer uses fear ('thodi Si problem bhi a rahi hai') to push for a paid service ('kundli ko dipli read karana hoga') and asks the user to reconnect/rejoin ('dobara join karo')."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Asks for the question, but the user had already provided details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gives a prediction but it is vague and lacks chart depth."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors or dasha."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 18,
+    "quality": 0,
+    "note": "The hook is a paid pitch to rejoin."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific concern about Canada/work permit in the reply.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a hand photo which is not needed for a kundli reading, and asks to rejoin.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kar dijiye",
+     "just dobara join karo"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Gives a time window for the Canada question.",
+    "quotes": [
+     "2026 mein Mai 2 tarikh ke andar hi chances dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth added; the astrologer pivots to a pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a specific date/window without a clear chart basis.",
+    "quotes": [
+     "2026 mein Mai 2 tarikh ke andar"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy given; only a pitch for a deeper reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question was answered, but the astrologer then abandoned the thread for a pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Uses a fear-based tease to open a 'next layer' for a paid reading.",
+    "quotes": [
+     "thodi Si problem bhi a rahi hai",
+     "Apni kundli ko dipli read karana hoga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer pushes for the chat to end so the user can rejoin.",
+    "quotes": [
+     "just dobara join karo"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pitch and a request to rejoin.",
+    "quotes": [
+     "Apni kundli ko dipli read karana hoga",
+     "just dobara join karo"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer uses 'dipli' (deeply) which is not a standard term.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main kab tak canada jaounga or mera wok permit kab ta ayega ?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic answer to the Canada question but failed to provide any meaningful chart-based insight. The consultation was severely hurt by the astrologer using fear to push for a paid 'deep reading' and requesting the user to rejoin the chat."
+ },
+ "usage": {
+  "input_tokens": 15356,
+  "output_tokens": 1585
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#14 [04:29] ASTRO: Lekin thodi Si problem bhi a rahi hai uske liye aapko\n#15 [04:34] ASTRO: Apni kundli ko dipli read karana hoga\n#18 [04:59] ASTRO: Five star jarur Dena just dobara join karo",
+   "reason": "The astrologer uses fear ('thodi Si problem bhi a rahi hai') to push for a paid service ('kundli ko dipli read karana hoga') and asks the user to reconnect/rejoin ('dobara join karo').",
+   "quote_en": "#14 [04:29] ASTRO: But there is a small problem coming up, for which you\n#15 [04:34] ASTRO: Will need to get your kundli read in depth\n#18 [04:59] ASTRO: Do give a five star rating, just join again"
+  }
+ }
+}

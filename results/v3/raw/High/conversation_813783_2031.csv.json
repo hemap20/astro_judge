@@ -1,0 +1,377 @@
+{
+ "file": "conversation_813783_2031.csv",
+ "tier": "High",
+ "user_id": "813783",
+ "ltv": 9197.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 3,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.63,
+ "rubric_score": 5.63,
+ "blueprint": {
+  "score": 3.7,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 43,
+   "S4": 180,
+   "S5": 164
+  }
+ },
+ "final": 4.67,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.5,
+  "B2": 5.71,
+  "B3": 4.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.118,
+   "max_words": 39,
+   "avg_words": 12.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Gave a reading but it is based on palmistry, not the birth chart provided."
+   },
+   "S5": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Asked a relevant follow-up about the relationship."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided yet."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about his ex-partner but does not repeat any specific details shared by the user.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex's name (Type A) and asks about misunderstandings (Type A). No Type C questions.",
+    "quotes": [
+     "Ex ka name bata do",
+     "ek baat bataiye aap donon ke bich mein kuchh misunderstanding aur kuchh third party shuru hua hai kya"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex's name and mother's name to perform a reading, which is relevant to the user's question.",
+    "quotes": [
+     "Ex ka name bata do"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present and uses the user's situation, but it is based on palmistry rather than the birth chart provided.",
+    "quotes": [
+     "shukr parvat ki sthiti Simran ki kafi viprit ho rahi hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether the partner will return with a positive outlook.",
+    "quotes": [
+     "Rakesh ji ine future aap donon ka relation achcha ho sakta hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are used; the reading is based on palmistry.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds that the partner is thinking positively but is hesitant, which adds depth.",
+    "quotes": [
+     "vah bhi positive",
+     "vah aage aane ke liye stand nahin kar pa rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a solution but does not provide it yet.",
+    "quotes": [
+     "Aapke relation ka ek Chhota Sa solution hai"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a solution but does not provide it.",
+    "quotes": [
+     "Aapke relation ka ek Chhota Sa solution hai"
+    ],
+    "score": 3
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is stalling.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about providing a suggestion, which is a tease.",
+    "quotes": [
+     "Main aapko kuchh suggestion deta hun"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya ex partner wapis ayegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was helpful in addressing the user's concern about their ex-partner and maintained a good tone. However, the astrologer relied on palmistry instead of the provided birth chart and teased a solution without delivering it, which hurt the consultation's value."
+ },
+ "usage": {
+  "input_tokens": 15254,
+  "output_tokens": 1626
+ }
+}

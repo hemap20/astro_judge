@@ -1,0 +1,497 @@
+{
+ "file": "conversation_956380_53.csv",
+ "tier": "Medium",
+ "user_id": "956380",
+ "ltv": 944.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": null,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.83,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 47,
+   "S3": 129,
+   "S4": 189
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 4.33,
+  "B3": 1.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 14,
+   "long_frac": 0.286,
+   "max_words": 47,
+   "avg_words": 18.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     13
+    ],
+    "paid_idx": [
+     14,
+     18,
+     19,
+     20,
+     21
+    ],
+    "reason": "The astrologer uses fear ('thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai') to push for a paid service ('main aap donon ka future Aisa banaa deta hun... main Aisa kar dunga') and repeatedly asks the user to extend time or reconnect.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identifies the concern but asks for a wait."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Gives a vague prediction about the future."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up question asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 19,
+    "quality": 0,
+    "note": "Hook is a paid pitch to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about the future of their relationship but does not name the feeling or build on the user's emotional state.",
+    "quotes": [
+     "Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos and to extend time, which are Type C questions.",
+    "quotes": [
+     "To agar unka pic ho to aap send kijiye",
+     "Aur aap thoda samay badha lijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 17,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 19,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's photo to perform face reading and kundli matching, but does so as a demand for data rather than a helpful step.",
+    "quotes": [
+     "To agar unka pic ho to aap send kijiye"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks a concrete marker or chart reason.",
+    "quotes": [
+     "Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai but thoda sa problem dikhai de raha"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the future but immediately pivots to a paid pitch.",
+    "quotes": [
+     "Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 13,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are generic and do not use user details.",
+    "quotes": [
+     "Aur vah aapse bahut jyada pyar karte hain"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid service/pitch.",
+    "quotes": [
+     "main aap donon ka future Aisa banaa deta hun"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to push for more time.",
+    "quotes": [
+     "abhi main aapko bahut kuchh batana chahta hun"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly tries to close the chat or push for more time.",
+    "quotes": [
+     "Ya dobara contact kijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "early_goodbye_while_time_left": true,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer uses formal/scripted phrases.",
+    "quotes": [
+     "Ji boliye kya question hai aapka"
+    ],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 1,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Hm dono ka sath mai future hai ki ni",
+  "main_question_idx": 8,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a vague reading and immediately pivoted to a paid pitch, using fear to pressure the user. The chat was dominated by requests for more time and photos rather than meaningful astrological insight."
+ },
+ "usage": {
+  "input_tokens": 16864,
+  "output_tokens": 2291
+ },
+ "reference": {
+  "bare_acks": 2,
+  "longest_ack_run": 2,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 4,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#13 [03:09] ASTRO: Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai but thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai thoda sa ISI ke vajah se future mein problem a sakta hai\n#14 [03:24] ASTRO: Agar kahiye to main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega aur family walon ke support se shaadi hoga aap donon ke family wale mam jaenge main Aisa kar dunga\n#18 [04:13] ASTRO: Agar aap donon ka kundli matching nahin Karega to main aap donon ka kundli bhi matching kar  dunga\n#19 [04:22] ASTRO: Aur aap thoda samay badha lijiye taki main aapko abhi bahut kuchh batana chahta hun unke bare mein\n#20 [04:46] ASTRO: Ya dobara contact kijiye\n#21 [04:59] ASTRO: Kyunki aapka samay aap paryapt hone wala hai abhi main aapko bahut kuchh batana chahta hun aapke bare mein bhi unke bare mein bhi important baten",
+   "reason": "The astrologer uses fear ('thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai') to push for a paid service ('main aap donon ka future Aisa banaa deta hun... main Aisa kar dunga') and repeatedly asks the user to extend time or reconnect.",
+   "quote_en": "#13 [03:09] ASTRO: As far as I can see, I see a future together for both of you, but there seem to be some problems. There are some issues going on for both of you, which might cause problems in the future.\n#14 [03:24] ASTRO: If you say so, I can shape your future in such a way that you both will get married, and it will happen with the support of your families. I will make sure your families agree to it.\n#18 [04:13] ASTRO: If your kundli does not match, I will make your kundli match as well.\n#19 [04:22] ASTRO: And please extend your time, as I want to tell you a lot more about them right now.\n#20 [04:46] ASTRO: Or contact again.\n#21 [04:59] ASTRO: Because your time is about to run out, and I still want to tell you a lot about yourself and them, including some important things."
+  }
+ }
+}

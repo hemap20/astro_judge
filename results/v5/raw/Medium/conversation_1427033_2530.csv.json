@@ -1,0 +1,493 @@
+{
+ "file": "conversation_1427033_2530.csv",
+ "tier": "Medium",
+ "user_id": "1427033",
+ "ltv": 951.0,
+ "n_msgs": 30,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 6,
+  "2.5": 3,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": 3,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.64,
+ "rubric_score": 5.64,
+ "blueprint": {
+  "score": 4.0,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S3": 43,
+   "S4": 166,
+   "S6": 221
+  }
+ },
+ "final": 4.82,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.5,
+  "B2": 4.4,
+  "B3": 5.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 9.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Acknowledged the request to check the chart."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gave a prediction for marriage timing."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up questions asked to the user."
+   },
+   "S6": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Connected to 7th house and Shukra, but explanation is fragmented."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feeling, just says 'Theek Hai'.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "No questions asked by the astrologer.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Main question is about marriage, not a specific named person.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "about_specific_person": false,
+     "user_did_not_know_details": false,
+     "asked": false,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future, not the present. It lacks a concrete marker for the user to verify.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage timing question with a month and date.",
+    "quotes": [
+     "Vivah ka yog aapka next manth",
+     "13 tarikh ke bad"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 15,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions 7th house and Shukra but does not explain what they mean for the user's life in plain words.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add details about the partner's background and health.",
+    "quotes": [
+     "family background dekha jaaye to achcha hona chahie",
+     "Aapke partner ki health ki sthiti aapane poochha Hai to health to bahut achcha rahega"
+    ],
+    "score": 6,
+    "checks": {
+     "new": true,
+     "uses": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a specific date (13th) which is a firm date, not a window.",
+    "quotes": [
+     "13 tarikh ke bad"
+    ],
+    "score": 3,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 15,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": false,
+     "new": true,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second, different question; they asked follow-ups about the same topic.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further is opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat ends abruptly with 'Sorry'.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is 'Sorry', which is not a reading or guidance.",
+    "quotes": [],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses technical terms like 'Lagan', 'Rashi', '7th house', 'Shukra', 'Swami', 'Budh', 'marak grah' without explaining them.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 7,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "When I will marry",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a specific date for marriage but failed to explain the astrological terms used, making the reading difficult to understand. The chat ended abruptly without any remedy or closing guidance."
+ },
+ "usage": {
+  "input_tokens": 16898,
+  "output_tokens": 2295
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": null,
+   "1.4": null,
+   "2.1": 4,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 3,
+   "3.2": 7
+  }
+ }
+}

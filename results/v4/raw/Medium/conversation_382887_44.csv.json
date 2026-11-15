@@ -1,0 +1,733 @@
+{
+ "file": "conversation_382887_44.csv",
+ "tier": "Medium",
+ "user_id": "382887",
+ "ltv": 4871.82,
+ "n_msgs": 181,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 7,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.38,
+ "rubric_score": 7.38,
+ "blueprint": {
+  "score": 6.05,
+  "coverage": 0.556,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 0.778,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 2,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 20,
+   "S2": 3076,
+   "S3": 141,
+   "S4": 272,
+   "S5": 141,
+   "S6": 1024,
+   "S7": 1989,
+   "S8": 1371,
+   "S9": 3237
+  }
+ },
+ "final": 6.71,
+ "label": "good",
+ "buckets": {
+  "B1": 7.5,
+  "B2": 7.0,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.0,
+   "max_words": 7,
+   "avg_words": 3.4,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "The user expresses distress but the astrologer provides supportive, non-judgmental responses and does not ignore the emotional state."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No false identity claims."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "No pressure to pay or fear-based sales tactics."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts or past dates claimed as future."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but minimal."
+   },
+   "S2": {
+    "present": true,
+    "idx": 167,
+    "quality": 1,
+    "note": "Acknowledges the user's distress at the end."
+   },
+   "S3": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Identifies the need to clarify whose chart to read."
+   },
+   "S4": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Provides initial insight after checking charts."
+   },
+   "S5": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Asks relevant follow-up about whose chart to analyze."
+   },
+   "S6": {
+    "present": true,
+    "idx": 66,
+    "quality": 1,
+    "note": "Connects the user's situation to chart observations."
+   },
+   "S7": {
+    "present": true,
+    "idx": 116,
+    "quality": 1,
+    "note": "Probes about career interests."
+   },
+   "S8": {
+    "present": true,
+    "idx": 84,
+    "quality": 2,
+    "note": "Suggests specific deities (Ayyanar, Kaamatchi Amman) for remedy."
+   },
+   "S9": {
+    "present": true,
+    "idx": 178,
+    "quality": 1,
+    "note": "Warm closing, though lacks a specific hook for a new topic."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation throughout the chat.",
+    "quotes": [
+     "God bless you varnika.."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "Questions are relevant to the user's situation.",
+    "quotes": [
+     "Avangalukku jadagam paakanuma",
+     "Ungalukku paakanuma"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for details of the husband and daughter to provide a comprehensive reading.",
+    "quotes": [
+     "Avangalukku jadagam paakanuma"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is relatable and specific to the user's family issues.",
+    "quotes": [
+     "God is with you. Take care da"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Addresses the user's concerns about foreign travel and family issues.",
+    "quotes": [
+     "Aama"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Uses chart-related context in plain language.",
+    "quotes": [
+     "God is with you."
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Builds depth by addressing career and family concerns sequentially.",
+    "quotes": [
+     "Okay okay ..."
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides guidance without making impossible promises.",
+    "quotes": [
+     "God is with you."
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Suggests specific deities for remedy.",
+    "quotes": [
+     "Ayyanar and kaamatchi amman than soluvanga mam"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Maintains the thread of the user's concerns throughout.",
+    "quotes": [
+     "Aama"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Opens layers regarding career and future prospects.",
+    "quotes": [
+     "Okay okay ..."
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early closing; the astrologer stays engaged.",
+    "quotes": [
+     "You are always welcome. Take care"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Ends with supportive messages.",
+    "quotes": [
+     "God is with you. Take care da"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses simple, accessible language.",
+    "quotes": [
+     "God bless you varnika.."
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Will I be able to go abroad with my husband and daughter and live happily?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 112,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 118,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 134,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 140,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 141,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 147,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 148,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 152,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 153,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 155,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 157,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 159,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 161,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 162,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 163,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 165,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 167,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 170,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 171,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 172,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 173,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 175,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 178,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided empathetic support and relevant spiritual remedies for the user's family and career concerns. The chat was helpful in validating the user's feelings, though the frequent use of empty media messages slightly disrupted the flow."
+ },
+ "usage": {
+  "input_tokens": 19130,
+  "output_tokens": 2934
+ }
+}

@@ -1,0 +1,289 @@
+{
+ "file": "conversation_1036242_2324.csv",
+ "tier": "Medium",
+ "user_id": "1036242",
+ "ltv": 2502.4,
+ "n_msgs": 40,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 6.0,
+  "B3": 7.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 7,
+   "M": 15,
+   "long_frac": 0.067,
+   "max_words": 38,
+   "avg_words": 12.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     21
+    ],
+    "reason": "The astrologer uses the fear of disconnection to push for a recharge."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship and family issues in message 34.",
+    "quotes": [
+     "Family ki vajah se vah aapke rishte ko highlighted nahin hone de rahe hain family issue create kar rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the relationship status and duration. Message 12 and 13 are Type B (could be asked to anyone), and 23 is Type B.",
+    "quotes": [
+     "Kisi dusre ki vajah se aapka rishta kharab ho raha hai kya",
+     "Aap donon Ke rishte mein Koi Aur a gaya hai kya",
+     "Kitne samay se aap ek dusre ko jante ho"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details in message 6 and uses them to provide insights about his family and feelings.",
+    "quotes": [
+     "Rahul ka pura details dijiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new information about the family's interference, and is specific to the user's situation.",
+    "quotes": [
+     "Unki life mein koi ladki nahin Hai unki life mein unki family hai jo unko kafi jyada pareshan kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether the partner still loves her.",
+    "quotes": [
+     "Ji han aapse pyar karte hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide any chart-based reasons for the insights given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the family's role in the relationship.",
+    "quotes": [
+     "Family ki vajah se vah aapke rishte ko highlighted nahin hone de rahe hain family issue create kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays focused on the relationship and the partner's feelings throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's current feelings in message 38.",
+    "quotes": [
+     "Ji han pasand to karte hain but abhi current ki feeling kya hai check kar lete hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely, though the recharge request is a distraction.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about checking current feelings, which keeps the momentum.",
+    "quotes": [
+     "Ji han pasand to karte hain but abhi current ki feeling kya hai check kar lete hain"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Rahul kya chhata hai?? Wo mere se pyar krta h??",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the core issue regarding family interference and confirmed the partner's feelings. However, the experience was marred by a pushy request to recharge the chat, which disrupted the flow."
+ },
+ "usage": {
+  "input_tokens": 11134,
+  "output_tokens": 1354
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#21 [03:18] ASTRO: Aisa kuchh abhi tak to nahin dikha hai but main check karke aapko clear batati hun aap recharge Kar lijiye nahin to aapka disconnect ho jaega",
+   "reason": "The astrologer uses the fear of disconnection to push for a recharge.",
+   "quote_en": "#21 [03:18] ASTRO: I haven't seen anything like that yet, but I will check and let you know clearly. Please recharge, otherwise your call will get disconnected."
+  }
+ }
+}

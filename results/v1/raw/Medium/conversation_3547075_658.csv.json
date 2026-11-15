@@ -1,0 +1,342 @@
+{
+ "file": "conversation_3547075_658.csv",
+ "tier": "Medium",
+ "user_id": "3547075",
+ "ltv": 2527.56,
+ "n_msgs": 51,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.25,
+  "B2": 1.57,
+  "B3": 2.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.12,
+   "max_words": 55,
+   "avg_words": 14.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega",
+    "reason": "The astrologer is promising a specific result (bringing the person back) through a 'spell' to push for a paid service/time extension."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's pain and the specific situation of the friend blocking her, but the response is heavily focused on selling a service.",
+    "quotes": [
+     "kabhi ko bar sochati Hain ki mujhe aisa behave nahin karna chahie lekin aapka Jo planet se vah negative hone ki vajah se vah unko dur kar raha hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about her location and requests time extension, which are not relevant to the reading. The question about 'last time kuch hua tha kya' is a generic question.",
+    "quotes": [
+     "abhi aap ghar per Hain ki kahin Bahar"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but uses them to push for a 'spell' rather than providing a genuine chart-based reading.",
+    "quotes": [
+     "unki detail dijiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based evidence, focusing instead on the 'spell' pitch.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer avoids giving a clear answer, instead pivoting to a sales pitch for a spell.",
+    "quotes": [
+     "Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions planets but does not explain them in plain words or link them to the user's life in a meaningful way.",
+    "quotes": [
+     "aapka Jo planet se vah negative hone ki vajah se vah unko dur kar raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same vague promise of the person coming back.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided, only vague promises.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The 'remedy' is a paid spell, which is a violation of the rubric.",
+    "quotes": [
+     "Main Ek spell karunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's distress and focuses on the spell.",
+    "quotes": [
+     "Main Ek spell karunga"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the 'spell' as a tease to keep the user engaged.",
+    "quotes": [
+     "Main Ek spell karunga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but keeps pushing for time extension.",
+    "quotes": [
+     "aur Apna Samay increase Kar lijiye"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for time extension.",
+    "quotes": [
+     "aur Apna Samay increase Kar lijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the content is manipulative.",
+    "quotes": [
+     "aap ek kam kariyega Apna hath pair dho lijiyeye"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir plz koi chance h iske vapis aane. K",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading, instead using the user's emotional distress to push for a paid 'spell'. The consultation was entirely focused on extracting more time and money rather than addressing the user's concerns."
+ },
+ "usage": {
+  "input_tokens": 11301,
+  "output_tokens": 1558
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega",
+   "reason": "The astrologer is promising a specific result (bringing the person back) through a 'spell' to push for a paid service/time extension.",
+   "quote_en": "I will perform a spell that will strengthen your bond and bring them closer to you."
+  }
+ }
+}

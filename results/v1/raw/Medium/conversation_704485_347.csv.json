@@ -1,0 +1,286 @@
+{
+ "file": "conversation_704485_347.csv",
+ "tier": "Medium",
+ "user_id": "704485",
+ "ltv": 2495.0,
+ "n_msgs": 30,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": null,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": null,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.63,
+ "buckets": {
+  "B1": 1.0,
+  "B2": 3.2,
+  "B3": 4.33,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 2.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": "No fear or urgency used to push paid services."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": "No specific life facts invented."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": true,
+    "reasoning": "User shared no worry, feeling, or story.",
+    "quotes": [],
+    "score": null
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "Astrologer asked no questions.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No specific other person mentioned in a question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "User asked no question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies provided (green pen, chanting) without any stated link to a problem or reading.",
+    "quotes": [
+     "Green pen se",
+     "Circle ⭕ karna hai",
+     "108time shrim shrim bolna hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask multiple questions.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading provided to open a layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but no reading provided either.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are random symbols and numbers, not a reading.",
+    "quotes": [
+     "Thumb 👍"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "No technical terms used, but no reading provided either.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided no reading or insight, instead sending random numbers and symbols throughout the session. This lack of communication and failure to address any user concern made the consultation completely ineffective."
+ },
+ "usage": {
+  "input_tokens": 10437,
+  "output_tokens": 1106
+ }
+}

@@ -1,0 +1,367 @@
+{
+ "file": "conversation_3283278_321.csv",
+ "tier": "Medium",
+ "user_id": "3283278",
+ "ltv": 2679.78,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 7,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.52,
+ "rubric_score": 6.52,
+ "blueprint": {
+  "score": 5.97,
+  "coverage": 0.611,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 0.857,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 2,
+   "S2": 2,
+   "S3": 2,
+   "S4": 1,
+   "S5": 2,
+   "S6": 0,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S2": 127,
+   "S3": 62,
+   "S4": 293,
+   "S5": 267,
+   "S7": 304,
+   "S8": 298
+  }
+ },
+ "final": 6.24,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.25,
+  "B2": 4.5,
+  "B3": 7.33,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 8,
+   "R": 8,
+   "T": 8
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.071,
+   "max_words": 32,
+   "avg_words": 12.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 2,
+    "note": "Warm greeting and invitation to share."
+   },
+   "S2": {
+    "present": true,
+    "idx": 6,
+    "quality": 2,
+    "note": "Acknowledged the emotional drain of silence."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 2,
+    "note": "Identified the concern as personal life/relationship tension."
+   },
+   "S4": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Gave a prediction about communication starting, but it was generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 20,
+    "quality": 2,
+    "note": "Asked about the partner's nature to understand the connection."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not connect the user's chart to the prediction."
+   },
+   "S7": {
+    "present": true,
+    "idx": 25,
+    "quality": 1,
+    "note": "Teased a deeper reason for the issue."
+   },
+   "S8": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Mentioned a remedy is needed but did not provide it yet."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's feeling of being drained by the silence.",
+    "quotes": [
+     "I understand, 7 months of silence is emotionally draining."
+    ],
+    "score": 8
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for details about the partner, which was necessary for the reading.",
+    "quotes": [
+     "Kya aap unke nature ke baare mein thoda bata sakti hain?"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details to check energy, which was relevant to the user's question.",
+    "quotes": [
+     "Aap ek bar unka pura detail send kijiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about communication starting is generic and lacks a chart-based reason.",
+    "quotes": [
+     "Batchit start ho jaega"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a direction regarding communication starting.",
+    "quotes": [
+     "Batchit start ho jaega"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer added a point about ego and a deeper reason, but it was not linked to the user's chart.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a vague timing for communication.",
+    "quotes": [
+     "21 July ke pahle aap log ke bich"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned a remedy is needed but did not provide the actual steps.",
+    "quotes": [
+     "Aapko ek simple upay karna padega"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teased a deeper reason for the relationship issue.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a tease about a deeper reason.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language used was simple and conversational.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya vo bhi mere bare me sochta hh ya shirf me hi pagal hunn",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer was empathetic and engaged well with the user's emotional state. However, the consultation lacked depth as it failed to provide specific chart-based insights or actionable remedies before the time ran out."
+ },
+ "usage": {
+  "input_tokens": 15503,
+  "output_tokens": 1553
+ }
+}

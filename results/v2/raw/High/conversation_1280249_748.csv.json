@@ -1,0 +1,265 @@
+{
+ "file": "conversation_1280249_748.csv",
+ "tier": "High",
+ "user_id": "1280249",
+ "ltv": 5595.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": 9,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.84,
+ "buckets": {
+  "B1": 8.67,
+  "B2": 8.0,
+  "B3": 7.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 3,
+   "long_frac": 0.2,
+   "max_words": 36,
+   "avg_words": 14.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship and the specific person's energies in message 19.",
+    "quotes": [
+     "Sir, unki energies apkeliye stable nahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions; he only provides readings and responses to the user's prompts.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the provided details to analyze the relationship and the specific person's behavior.",
+    "quotes": [
+     "Sir, unki energies apkeliye stable nahi hai",
+     "Appka relationship sir karmic hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific to the user's situation (karmic relationship, unblocking, business contribution) and provides new insights.",
+    "quotes": [
+     "Appka relationship sir karmic hai",
+     "unki energies apkeliye stable nahi hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about when contact might happen.",
+    "quotes": [
+     "unke tarf se ek bold contact ya approach anne mein september ka time lagega"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship status to 'karmic' and 'dasha' in plain words.",
+    "quotes": [
+     "Appka relationship sir karmic hai",
+     "mene unki dasha check karne ke baad apko yeh bhi bola tha"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by moving from the relationship to the business situation.",
+    "quotes": [
+     "Business overall achha chal rha hai sir, but simratpal ji ki taraf jo contribution anna चाहिए vo nahi mil rha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific month for the contact, which is a reasonable window.",
+    "quotes": [
+     "unke tarf se ek bold contact ya approach anne mein september ka time lagega"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer successfully transitions from the relationship question to the business question.",
+    "quotes": [
+     "Business overall achha chal rha hai sir"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding the senior male colleague in the business.",
+    "quotes": [
+     "Agar uss company mein unke senior koi male honge toh aaisa dikhta hai ki recently unki"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended due to time.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a specific insight about a senior male colleague.",
+    "quotes": [
+     "Agar uss company mein unke senior koi male honge toh aaisa dikhta hai ki recently unki"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses the user's name.",
+    "quotes": [
+     "simratpal ji ki taraf jo contribution anna चाहिए vo nahi mil rha hai"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult; this is skipped.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Dekhna simratpal kaur ki feelings and energies kya hai",
+  "message_labels": [
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided clear insights into the user's relationship and business concerns using the provided birth details. The most helpful aspect was the specific timing given for the contact, while the most hurtful aspect was the delay in providing readings due to technical issues."
+ },
+ "usage": {
+  "input_tokens": 10828,
+  "output_tokens": 1272
+ }
+}

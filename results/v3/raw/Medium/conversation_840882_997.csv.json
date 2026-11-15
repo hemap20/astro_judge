@@ -1,0 +1,403 @@
+{
+ "file": "conversation_840882_997.csv",
+ "tier": "Medium",
+ "user_id": "840882",
+ "ltv": 4220.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 3,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.23,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S3": 24,
+   "S4": 155,
+   "S5": 185
+  }
+ },
+ "final": 1.39,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 6.6,
+  "B3": 2.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.053,
+   "max_words": 35,
+   "avg_words": 12.0,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     23,
+     24
+    ],
+    "paid_idx": [
+     24
+    ],
+    "evidence_idx": [
+     23,
+     24
+    ],
+    "reason": "The astrologer uses urgency ('time ja rahi hai') and a pressure pitch to extend time/recharge to reveal 'important' information."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks for the question after details were already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a date but it is not well-connected to the user's life."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Asks a generic question about anger/impatience."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Prediction is not personalized to the user's specific situation."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared a question about marriage, but the astrologer's initial response was just a greeting and a request for the question.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a yes/no confirmation of a generic trait (anger) which is a Type B question.",
+    "quotes": [
+     "Kya Aisa aapki life mein bhi hota hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable as the user did not ask about another person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone with Mangal dosh.",
+    "quotes": [
+     "aapke andar bechaini chidchidapan aur jaldi gussa bhi a jata hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for marriage.",
+    "quotes": [
+     "2026 April manth mein marriage hone ki possibility Kafi adhik dikh rahi hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Links the anger/impatience to Mangal planet in plain words.",
+    "quotes": [
+     "aapki Kundli mein Mangal planet ki prabhav dikh rahi hai... aapke andar bechaini chidchidapan aur jaldi gussa bhi a jata hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No later readings provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a clear window without promising a certain outcome.",
+    "quotes": [
+     "2026 April manth mein marriage hone ki possibility Kafi adhik dikh rahi hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not change topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses pressure to extend time, which is a form of closing/stalling.",
+    "quotes": [
+     "Please aap jaldi Karen kyunki aapki Jo time hai vah ja rahi hai"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pressure tactics to pay/extend time.",
+    "quotes": [
+     "Please aap jaldi Karen kyunki aapki Jo time hai vah ja rahi hai",
+     "Aur aap apna time hi increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and accessible.",
+    "quotes": [
+     "Mangal planet marriage ke liye acche nahin Mane jaate Hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mare sadi kob hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for marriage but failed to build a meaningful connection, relying instead on generic traits and high-pressure tactics to extend the consultation. The use of urgency and pressure to pay for 'important information' significantly harmed the user experience."
+ },
+ "usage": {
+  "input_tokens": 15212,
+  "output_tokens": 1686
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [04:18] ASTRO: Please aap jaldi Karen kyunki aapki Jo time hai vah ja rahi hai\n#24 [04:45] ASTRO: Aur aap apna time hi increase Kar lijiye jisse main aapko kuchh important baten bhi batana chahti hun jo main dekh Pa rahi hun aapki Kundli mein",
+   "reason": "The astrologer uses urgency ('time ja rahi hai') and a pressure pitch to extend time/recharge to reveal 'important' information.",
+   "quote_en": "#23 [04:18] ASTRO: Please hurry up because your time is running out\n#24 [04:45] ASTRO: And please increase your time so that I can tell you some important things that I am able to see in your Kundli"
+  }
+ }
+}

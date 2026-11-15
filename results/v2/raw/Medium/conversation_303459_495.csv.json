@@ -1,0 +1,352 @@
+{
+ "file": "conversation_303459_495.csv",
+ "tier": "Medium",
+ "user_id": "303459",
+ "ltv": 2120.0,
+ "n_msgs": 41,
+ "n_astro_msgs": 26,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 4,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 3,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.06,
+ "buckets": {
+  "B1": 6.75,
+  "B2": 5.83,
+  "B3": 5.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation and feelings in message 19 and 20, but fails to repeat specific details shared by the user (like the name Rachit or the specific concerns about his marriage status).",
+    "quotes": [
+     "Jaya ji aap chinta nahi kare",
+     "Unke sath apki shadi ki possibility ban rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question in message 8 (name) and one in message 13 (about marriage status). Message 13 is Type A as it builds on the user's concern about his marital status. No Type C questions were asked.",
+    "quotes": [
+     "Aap us ladke ka naam bataye jaya ji",
+     "Kya wo sahi me shadishuda hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name in message 8, but never asks for birth details or uses the name in the reading to provide specific insights about the match.",
+    "quotes": [
+     "Aap us ladke ka naam bataye jaya ji"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present (he is not proposing, he is egoistic) and is specific to the user's situation, but it lacks a clear chart-based reason for these insights.",
+    "quotes": [
+     "Wo abhi aapko propose nahi kar rahe hai",
+     "Unko abhi aap me woh attachment nahi aaa rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if he loves her and if marriage is possible. The astrologer answers that marriage is possible but he is not currently attached.",
+    "quotes": [
+     "Unke sath apki shadi ki possibility ban rahi hai",
+     "Unko abhi aap me woh attachment nahi aaa rahi hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'spiritual connection' but does not link life events to specific chart factors like dasha or grah in a way that explains the 'why'.",
+    "quotes": [
+     "Aap dono koi spritual connection me hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about his ego and past experiences, and uses the user's shared trauma, building depth.",
+    "quotes": [
+     "Wo thode egoistic bhi hai",
+     "Aur aapne bhi bahot trauma face kiya hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague instruction to 'do as I say' without providing a specific remedy or practical step.",
+    "quotes": [
+     "Lekin mai jesa kehta hu aap kar e"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main thread (the relationship with Rachit).",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases that there is more to his past in the final messages without delivering the insight.",
+    "quotes": [
+     "Unka koi",
+     "Past me"
+    ],
+    "score": 3
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages or bare acknowledgements that stall the chat.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages are a tease about his past, which leaves the user hanging without a real reading or guidance.",
+    "quotes": [
+     "Unka koi",
+     "Past me"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's tone.",
+    "quotes": [
+     "Jaya ji aap chinta nahi kare"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Does he love me and is marriage possible?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a relatable reading about the partner's nature and the user's emotional state, which helped build rapport. However, the chat ended abruptly with a tease about the partner's past, and the astrologer failed to provide any concrete remedies or clear chart-based explanations."
+ },
+ "usage": {
+  "input_tokens": 11067,
+  "output_tokens": 1708
+ }
+}

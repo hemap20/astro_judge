@@ -1,0 +1,246 @@
+{
+ "file": "conversation_414208_1763.csv",
+ "tier": "Low",
+ "user_id": "414208",
+ "ltv": 476.0,
+ "n_msgs": 10,
+ "n_astro_msgs": 5,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 3,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.0,
+  "B2": 1.86,
+  "B3": 3.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.2,
+   "max_words": 149,
+   "avg_words": 33.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     9
+    ],
+    "reason": "The astrologer uses the promise of specific details (name, date, location) to pressure the user into sending a photo of their hand, which is a prerequisite for the reading."
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     9
+    ],
+    "reason": "The astrologer claims as fact that the user already knows the person they will marry and that their family knows her, which is an invented fact as the user previously stated they have no love relationship."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's question about when and who they will marry, instead making up a story about a person they already know.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if there is a love relationship (Type A), but then asks for a hand photo (Type C) to provide information that should be derived from the chart.",
+    "quotes": [
+     "Apka koi love relationship hai",
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about a future spouse, but the astrologer invents a person and demands a hand photo to proceed.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not relatable; it contradicts the user's statement that they have no relationship and makes up a specific scenario that the user cannot verify.",
+    "quotes": [
+     "aap unko pahle Se jante hain"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not answer the question about when the marriage will happen, instead pushing for a hand photo.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason is provided for the claims made.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided, which is fabricated.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided; the astrologer demands a photo to provide a date.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The request for a hand photo is a demand for a non-astrological input to proceed.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's question about 'when' is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about knowing the name and meeting details to force the user to send a photo.",
+    "quotes": [
+     "unka Naam aapko Bata sakti hun aur aap unse kab milenge kahan milenge"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the content is a pitch for a photo.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a demand for a photo to get the reading.",
+    "quotes": [
+     "iske liye apki right hand ka pic send kariye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy to understand, but the content is deceptive.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mari sadi kab hogi aur किस्से hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading, instead inventing a scenario about a person the user already knows to pressure them into sending a hand photo. This deceptive approach and the demand for a photo to answer the user's question significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 10459,
+  "output_tokens": 1170
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#9 [05:01] ASTRO: Ji dekhiae kundli ke anusar jaisa ki main check kar pa rahi hun aap kundli mein aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain aap logon ki mulakat ek dusre se kafi bar ho chuki hai donon log ek dusre ko kafi acche se jante Hain unke Sath hi aapki shaadi ki sambhavna hai bahut hi acchi Banti dikhai de rahi hain aur apki family bhi use ladki ke bare me janti hai aur aap usko bahut ache se janti ho unka Naam aapko Bata sakti hun aur aap unse kab milenge kahan milenge aur pahle kahan mulakat Hui thi ye bhi bta skti hu iske liye apki right hand ka pic send kariye usme nam likha hota hai aur milne ka date aur apki shadi kis year mein kis date ko ye sari chijen ek sath nikalkar samne aati hai",
+   "reason": "The astrologer uses the promise of specific details (name, date, location) to pressure the user into sending a photo of their hand, which is a prerequisite for the reading.",
+   "quote_en": "#9 [05:01] ASTRO: Yes, look, according to the kundli, as I can check, the person you are likely to marry is someone you already know. You have met each other many times and both of you know each other very well. The possibility of your marriage with them looks very strong, and your family also knows about that girl, and you know her very well too. I can tell you her name, when and where you will meet her, and where you met for the first time. For this, please send a picture of your right hand; the name is written there, and the date of meeting and the year and date of your marriage, all these things come out together."
+  },
+  "G4": {
+   "quote": "#9 [05:01] ASTRO: Ji dekhiae kundli ke anusar jaisa ki main check kar pa rahi hun aap kundli mein aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain aap logon ki mulakat ek dusre se kafi bar ho chuki hai donon log ek dusre ko kafi acche se jante Hain unke Sath hi aapki shaadi ki sambhavna hai bahut hi acchi Banti dikhai de rahi hain aur apki family bhi use ladki ke bare me janti hai aur aap usko bahut ache se janti ho unka Naam aapko Bata sakti hun aur aap unse kab milenge kahan milenge aur pahle kahan mulakat Hui thi ye bhi bta skti hu iske liye apki right hand ka pic send kariye usme nam likha hota hai aur milne ka date aur apki shadi kis year mein kis date ko ye sari chijen ek sath nikalkar samne aati hai",
+   "reason": "The astrologer claims as fact that the user already knows the person they will marry and that their family knows her, which is an invented fact as the user previously stated they have no love relationship.",
+   "quote_en": "#9 [05:01] ASTRO: Yes, look, according to the kundli, as I can check, the person you are likely to marry is someone you already know. You have met each other many times and both of you know each other very well. The possibility of your marriage with them looks very strong, and your family also knows about that girl, and you know her very well too. I can tell you her name, when and where you will meet her, and where you met for the first time. For this, please send a picture of your right hand; the name is written there, and the date of meeting and the year and date of your marriage, all these things come out together."
+  }
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "file": "conversation_1244720_1037.csv",
+ "tier": "High",
+ "user_id": "1244720",
+ "ltv": 8015.28,
+ "n_msgs": 29,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 3,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 6,
+  "2.6": 4,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.72,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 3.71,
+  "B3": 3.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.0,
+   "max_words": 29,
+   "avg_words": 8.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to acknowledge the user's specific distress regarding Priyanka's family finding out and taking her phone. The response is generic.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for DOB and photos, which are standard, but the questions are not Type A (building on the user's specific situation).",
+    "quotes": [],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to provide a reading, though the reading is vague.",
+    "quotes": [
+     "Priyanka ka date of birth bataiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights or markers.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage but immediately pivots to a remedy/mantra.",
+    "quotes": [
+     "Ho jayegi love marriage"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors are explained in plain words; the astrologer only mentions 'family problem' without linking it to a specific planetary cause.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the need for a remedy rather than adding new, deep insights.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the marriage.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy (Mohini Mantra) is a stock suggestion and is not tied to a specific chart cause or practical life step.",
+    "quotes": [
+     "Aapko Apne aur Priyanka ke naam se ek MHA Mohini Mantra ka Jaap karna hoga"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of marriage but fails to provide a comprehensive answer, focusing instead on the remedy.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged without providing immediate value.",
+    "quotes": [
+     "Kuchh important jankari hai aap donon ke marriage ko lekar"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are repetitive and lack depth.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease, leaving the user with no concrete information.",
+    "quotes": [
+     "Kuchh important jankari hai aap donon ke marriage ko lekar"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, but lacks depth.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri aur Priyanka ki shaadi Ho payegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was quick to respond but failed to provide meaningful insights, relying on generic promises and a mantra remedy. The chat felt repetitive and lacked the depth needed to address the user's specific concerns about his relationship."
+ },
+ "usage": {
+  "input_tokens": 10870,
+  "output_tokens": 1354
+ }
+}

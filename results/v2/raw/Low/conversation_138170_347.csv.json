@@ -1,0 +1,307 @@
+{
+ "file": "conversation_138170_347.csv",
+ "tier": "Low",
+ "user_id": "138170",
+ "ltv": 260.0,
+ "n_msgs": 33,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 6,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 3,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 4.5,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 3.0,
+  "B3": 4.0,
+  "B4": 5.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.0,
+   "max_words": 9,
+   "avg_words": 3.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about marriage or her concern about the partner's confusion until the very end, and even then, it is minimal.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB, which is Type A (relevant to the question). However, the astrologer also asks for details in a fragmented way.",
+    "quotes": [
+     "Name",
+     "Date of birth"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to perform matching, which is a valid reason. However, the astrologer does not use the name or details to provide a meaningful reading about the match.",
+    "quotes": [
+     "Kundali matching"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights or concrete markers.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer confirms marriage will happen but provides no clear direction, time window, or meaningful reason.",
+    "quotes": [
+     "Shadi to aap ki ho jayegi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'planet disbalance' but does not link it to the user's life in plain words.",
+    "quotes": [
+     "aap ki kundali mein kuch planet disbalance hi"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to build depth; the reading remains superficial throughout.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the marriage.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy is needed but does not provide the actual remedy or instructions.",
+    "quotes": [
+     "Aap ko kuch remedy follow karni hogi"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the partner but fails to provide a complete answer to the initial question.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases that there is more to see but does not deliver any specific insight.",
+    "quotes": [
+     "But",
+     "Some issues"
+    ],
+    "score": 3
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are fragmented and lack substance.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are fragmented and do not provide a meaningful conclusion or reason to return.",
+    "quotes": [
+     "His planet",
+     "But"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses Hinglish but the language is broken and lacks clarity.",
+    "quotes": [],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shaadi Kab aor kisse hogi",
+  "message_labels": [
+   {
+    "idx": 1,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided very fragmented, low-quality responses that lacked depth and clarity. The most helpful aspect was the attempt to match the charts, but the most harmful was the failure to provide any concrete answers or actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 10640,
+  "output_tokens": 1357
+ }
+}

@@ -1,0 +1,371 @@
+{
+ "file": "conversation_3084324_3727.csv",
+ "tier": "High",
+ "user_id": "3084324",
+ "ltv": 12132.76,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 6,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.65,
+ "rubric_score": 4.65,
+ "blueprint": {
+  "score": 4.3,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 19,
+   "S3": 39,
+   "S4": 150,
+   "S5": 189,
+   "S6": 284
+  }
+ },
+ "final": 4.47,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 2.29,
+  "B3": 5.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.214,
+   "max_words": 55,
+   "avg_words": 14.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the emotional weight of the user's situation."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identified the concern but asked a generic question instead of validating."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gave a reading but it was confusing and used technical jargon without clear explanation."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Asked for husband's name, which is relevant, but the flow was disjointed."
+   },
+   "S6": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Attempted to connect the husband's name to the reading but remained vague."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook or invitation for a next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's request for married life details but failed to address the emotional context of the user's concern about the marriage ending.",
+    "quotes": [
+     "Dekh Kar Main aapko bata rahi hun aapke married life ke bare mein"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's name twice (idx 19 and 22), which is redundant and counts as Type C.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar",
+     "Ek bar apne husband ka naam bataiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the husband's name to check the chart, but the reading provided was generic and repetitive.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading was not specific and relied on jargon that the user could not understand.",
+    "quotes": [
+     "marriage bhav ke Swami ka third person issues"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if the marriage would end, and the astrologer gave a vague 'yes it will end' followed by 'it will come back', which is contradictory and lacks a clear direction.",
+    "quotes": [
+     "Ji han khatm hoga",
+     "yah wapas aaenge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer used chart terms like 'Mangal Dev Ji' and 'Shani ki Rashi' without explaining their impact on the user's life in plain words.",
+    "quotes": [
+     "marriage bhav ke Swami Mangal Dev Ji Ban Rahe Hain Jo ki Shani ki Rashi mein aapke Prem bhav mein virajman hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings repeated the same 'third person issues' point without adding new depth.",
+    "quotes": [
+     "third person issues sampurn Roop se banaa hua Hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a contradictory timeline and outcome, promising it will end and then saying it will come back.",
+    "quotes": [
+     "Ji han khatm hoga",
+     "yah wapas aaenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread was held, but the answers were contradictory.",
+    "quotes": [
+     "Ji han khatm hoga",
+     "yah wapas aaenge"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the chat stalled due to repetitive questions.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a vague promise of time, not a meaningful reading.",
+    "quotes": [
+     "Abhi thoda sa time lagega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used technical terms without explanation, making it difficult for the user.",
+    "quotes": [
+     "marriage bhav ke Swami Mangal Dev Ji"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya meri married life khatam hogi?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a clear or empathetic reading, using confusing jargon and giving contradictory answers about the user's marriage. The lack of a remedy or a clear path forward left the user without any actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 15234,
+  "output_tokens": 1682
+ }
+}

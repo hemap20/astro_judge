@@ -1,0 +1,357 @@
+{
+ "file": "conversation_1157071_2702.csv",
+ "tier": "Medium",
+ "user_id": "1157071",
+ "ltv": 2853.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.3,
+ "rubric_score": 5.3,
+ "blueprint": {
+  "score": 4.66,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 1.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 18,
+   "S3": 62,
+   "S4": 108,
+   "S5": 83,
+   "S8": 240
+  }
+ },
+ "final": 4.98,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.75,
+  "B2": 3.14,
+  "B3": 5.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge the user's frustration about lack of respect."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identified the topic but did not clarify the outcome wanted."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gave a generic observation about being protective."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asked a basic confirmation question."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based connection provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 21,
+    "quality": 1,
+    "note": "Generic advice to control anger without context."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's specific complaint about lack of respect and instead insisted on the user having anger issues.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer assumed the user has anger issues despite the user denying it, which is a Type C assumption.",
+    "quotes": [
+     "Aap apne gusse pe thoda control rakho"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the DOB, but did not explain why or use it to provide a reading about the match.",
+    "quotes": [
+     "Unki dob share karenge"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and the user explicitly denied the astrologer's claim about his anger.",
+    "quotes": [
+     "Lekin kabhi kabhi gussa bhi kar dete ho"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main concern was the lack of respect, which was never addressed or answered.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeated the same point about anger despite the user's denial.",
+    "quotes": [
+     "Aap apne gusse pe thoda control rakho"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice to control anger is a stock remedy not tied to the user's specific problem of lack of respect.",
+    "quotes": [
+     "Aap apne gusse pe thoda control rakho"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread of 'lack of respect' was ignored.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat was not productive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a generic, repetitive claim about ego.",
+    "quotes": [
+     "Isi wajah se problem ho Rahi h"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, but the astrologer is dismissive.",
+    "quotes": [],
+    "score": 7
+   },
+   "1.2_check": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for DOB (Type C) and if the user is in a relationship (Type B).",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "angry_testing",
+  "main_question": "Girlfriend ke baare mein jaana hai / respect nahi karti",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to address the user's core concern about lack of respect and instead insisted on a narrative about the user's anger that the user denied. The consultation lacked any chart-based insights or meaningful guidance, making the user feel unheard."
+ },
+ "usage": {
+  "input_tokens": 15091,
+  "output_tokens": 1520
+ }
+}

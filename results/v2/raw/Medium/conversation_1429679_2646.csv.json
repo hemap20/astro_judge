@@ -1,0 +1,369 @@
+{
+ "file": "conversation_1429679_2646.csv",
+ "tier": "Medium",
+ "user_id": "1429679",
+ "ltv": 2157.0,
+ "n_msgs": 60,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 6,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 4,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 6.79,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 7.57,
+  "B3": 6.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 4,
+   "M": 9,
+   "long_frac": 0.226,
+   "max_words": 62,
+   "avg_words": 22.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress about the divorce and the need for a second marriage, providing a timeline.",
+    "quotes": [
+     "Ji dekho aapki kundli mein chijen dikhai de rahi hai jo aapki divorce ke yog hai vah abhi filhal thode Se let hi dikhai de rahe hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the user's current relationship status and travel habits. These are Type B questions as they could be asked to any user.",
+    "quotes": [
+     "Abhi aapki kisi se baat ho rahi hai kya",
+     "Aapko ghumne firne ka bhi shauk jyada rahata hai kya"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about a future partner and the current husband. The astrologer addresses the current husband's resistance and the future partner's traits.",
+    "quotes": [
+     "itni aasani se yah divorce aapko De to nahin payenge",
+     "Jo dusra milega vah pahli baat aapko hi pasand ISI vajah Se Hi aaega ki vah kafi respect phool honge"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the divorce timeline and the nature of the future partner is specific and relates to the user's current situation.",
+    "quotes": [
+     "2026 ke end Tak sambhavnayen aapki paksh ki or hogi divorce ki case mein"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear timeline for the divorce and the future partner.",
+    "quotes": [
+     "2027 April Tak aap apna devorce le paoge"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli and yog, but does not link them to specific life events in a way that explains the 'why' clearly.",
+    "quotes": [
+     "aapki kundli mein kuchh Pani Se Judi pareshani dikhai de rahe hain"
+    ],
+    "score": 6
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's questions about the divorce, the child, and foreign travel.",
+    "quotes": [
+     "Aapka hundred percent foreign general likha hua hai",
+     "Dekho bacche se aapko Khushi milegi"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific window for the divorce and foreign travel without making absolute promises.",
+    "quotes": [
+     "2027 April Tak aap apna devorce le paoge",
+     "2028 ke aaspaas"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a remedy for foreign travel with specific instructions.",
+    "quotes": [
+     "gay ko guruwar guruwar gud khilana chalu Karen aur Shiv ji ke upar guruwar guruwar.. chane ki daal chadhana chalu Karen"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages the transition between divorce, child, and foreign travel questions effectively.",
+    "quotes": [
+     "Baki aapko aisa lagta hai ki aapki income jo hoti hai vah kharche mein jyada jaati Hai",
+     "Dekho bacche se aapko Khushi milegi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding the child's future and foreign travel.",
+    "quotes": [
+     "Aapka baccha bahut bhagyavan hai aane Wale samay per aapko bahut acchi chijen pata chalegi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains engagement throughout the chat without closing prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a prayer and encouragement, which is not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, matching the user's style.",
+    "quotes": [
+     "Ji bilkul Jo dusra milega vah pahli baat aapko hi pasand ISI vajah Se Hi aaega"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera divorce kab hoga aur dusri shaadi ke yog hain?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided clear timelines for the user's divorce and foreign travel, which helped address her main concerns. However, the chat ended with generic prayers rather than a final insightful reading, and some questions were slightly repetitive."
+ },
+ "usage": {
+  "input_tokens": 12190,
+  "output_tokens": 1832
+ }
+}

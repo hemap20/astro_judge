@@ -1,0 +1,296 @@
+{
+ "file": "conversation_870761_1411.csv",
+ "tier": "Low",
+ "user_id": "870761",
+ "ltv": 240.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 16,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": null,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.67,
+  "B2": 1.43,
+  "B3": 2.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 15,
+   "long_frac": 0.188,
+   "max_words": 44,
+   "avg_words": 17.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     23
+    ],
+    "reason": "The astrologer uses the user's distress to push for a paid call ('call per comfortable se baat kar payenge') after failing to provide a meaningful reading."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's stress and overthinking, which she mentioned, but fails to address the specific marital conflict details.",
+    "quotes": [
+     "Samiksha sister is samay aap bahut jyada over thinking kar rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions; he only makes statements.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details and claims to analyze them, but provides no actual insight into the husband's chart or the relationship dynamics.",
+    "quotes": [
+     "Rajiv ka Maine kundli ko analysis Kiya ja raha hai"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights or verifiable markers.",
+    "quotes": [
+     "Rajiv ke andar thoda ego hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if they will divorce or if his behavior will change; the astrologer avoids answering and pushes for a call.",
+    "quotes": [
+     "Samiksha ji please aap call jankari"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Shani' but does not explain how it affects her life or the relationship.",
+    "quotes": [
+     "Uski kundli mein uska shani bahut strong hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same vague points about overthinking and ego without adding depth.",
+    "quotes": [
+     "Samiksha sister is samay aap bahut jyada over thinking kar rahi hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistent facts provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a call instead of a remedy.",
+    "quotes": [
+     "please aap call jankari"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the main question about divorce and behavior change.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to push for a paid call.",
+    "quotes": [
+     "Main aapko kam se kam time mein samjha bhi paunga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but fails to provide value.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for a call and a rating, not a reading.",
+    "quotes": [
+     "Please give me five star"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses 'sister' and 'mam' repeatedly in a way that feels unnatural.",
+    "quotes": [
+     "Samiksha sister"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; this is skipped.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya Ham donon ek dusre ke liye hai ya nahin kya aage chalkar Ham donon alag Ho jaenge ya Ham donon ke bich divorce ho jaega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's serious marital concerns, offering only vague observations and repetitive comments about 'overthinking'. The consultation was ultimately used as a platform to pressure the user into a paid call rather than providing astrological guidance."
+ },
+ "usage": {
+  "input_tokens": 11067,
+  "output_tokens": 1338
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [04:56] ASTRO: Samiksha ji please aap call jankari mam call per comfortable se baat kar payenge aur Main aapko kam se kam time mein samjha bhi paunga to please call Jaan Karen call per Sahi baat Ho payengi",
+   "reason": "The astrologer uses the user's distress to push for a paid call ('call per comfortable se baat kar payenge') after failing to provide a meaningful reading.",
+   "quote_en": "#23 [04:56] ASTRO: Samiksha ji, please join the call. You will be able to talk comfortably on the call, and I will also be able to explain things to you in the least amount of time, so please join the call; it will be easier to talk properly on the call."
+  }
+ }
+}

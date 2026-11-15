@@ -1,0 +1,307 @@
+{
+ "file": "conversation_750110_347.csv",
+ "tier": "Medium",
+ "user_id": "750110",
+ "ltv": 2467.5,
+ "n_msgs": 26,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": null,
+  "1.2": null,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": null,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": null,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.04,
+ "buckets": {
+  "B1": 1.0,
+  "B2": 1.5,
+  "B3": 3.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 3.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": true,
+    "reasoning": "The user provided birth details but did not share a worry, feeling, or story in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "The astrologer asked no questions.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "There is no reading in the window; the astrologer only provided a series of disjointed numbers and instructions.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": true,
+    "reasoning": "The user asked no question in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading was provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or facts were discussed.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a series of remedies (numbers, pen color, diya) without any reading or explanation of the problem, which is a low-quality approach.",
+    "quotes": [
+     "Green pen se",
+     "Shreem shreem bolna hai",
+     "Yellow sarson ka diya 🪔 jalana hi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not ask a question, so there is no thread to hold.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading was provided to open a layer.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sent a long series of fragmented messages without any reading or context, which stalls the chat.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were instructions for a remedy without any reading or context.",
+    "quotes": [
+     "Yellow sarson ka diya 🪔 jalana hi usme yellow sarson dalna hi",
+     "Laxminarayan k samne jalana hi evening time mein"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used no technical terms, but the communication is entirely fragmented and lacks any coherent explanation or reading.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead sending a series of disconnected numbers and instructions. This lack of communication and failure to address the user's presence made the consultation completely ineffective."
+ },
+ "usage": {
+  "input_tokens": 10566,
+  "output_tokens": 1295
+ }
+}

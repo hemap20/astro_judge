@@ -1,0 +1,291 @@
+{
+ "file": "conversation_1385510_2530.csv",
+ "tier": "Low",
+ "user_id": "1385510",
+ "ltv": 460.0,
+ "n_msgs": 36,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.45,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 3.86,
+  "B3": 5.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 9.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by saying 'dekha jaaye to kundli ke hisab se aapka to manpasand shaadi ka yog banaa hua Hai' after the user shared her breakup story, but fails to name her feeling or repeat specific details of the breakup.",
+    "quotes": [
+     "Ji dekha jaaye to kundli ke hisab se aapka to manpasand shaadi ka yog banaa hua Hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and birth details of the partner. While the name is relevant, the astrologer asks for the photo and details multiple times in a way that feels like data collection rather than building on the user's specific narrative.",
+    "quotes": [
+     "Unka naam kya tha",
+     "pic nahin Hai Kya unki",
+     "Sara detail de do"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and birth details to check his 'present feeling and mind circle', which is a valid reason for a relationship question.",
+    "quotes": [
+     "Unka naam kya tha",
+     "main Inka aap present feeling aur mind circle ko check kar leta Hun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and does not provide a specific, verifiable insight about the user's past or present situation beyond a general statement about marriage yoga.",
+    "quotes": [
+     "dekha jaaye to kundli ke hisab se aapka to manpasand shaadi ka yog banaa hua Hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks 'Samjh nhi araha kya kru' regarding the breakup. The astrologer does not provide a clear direction or answer, instead focusing on data collection.",
+    "quotes": [
+     "Samjh nhi araha kya kru"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' but does not link it to a specific life event or provide a clear chart reason in plain words.",
+    "quotes": [
+     "dekha jaaye to kundli ke hisab se aapka to manpasand shaadi ka yog banaa hua Hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is no significant depth built; the astrologer repeats the need for data.",
+    "quotes": [
+     "Sara detail de do main Inka chart Banakar ke dekh Raha Hun"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread is held, but not answered.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases that they will check the partner's feelings, but does not deliver it.",
+    "quotes": [
+     "main Inka aap present feeling aur mind circle ko check kar leta Hun"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to repeated data requests.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a vague promise to tell what to do, which is not a concrete reading.",
+    "quotes": [
+     "Bilkul aap nishchint rahiye bata raha hun kya kar sakte ho aap kya karna chahie"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and appropriate for the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Samjh nhi araha kya kru",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead focusing on repeatedly asking for the partner's details and photo. The consultation lacked depth and failed to address the user's emotional distress regarding the breakup."
+ },
+ "usage": {
+  "input_tokens": 10663,
+  "output_tokens": 1442
+ }
+}

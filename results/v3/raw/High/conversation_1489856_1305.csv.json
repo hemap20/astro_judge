@@ -1,0 +1,374 @@
+{
+ "file": "conversation_1489856_1305.csv",
+ "tier": "High",
+ "user_id": "1489856",
+ "ltv": 106706.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.46,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S3": 193,
+   "S4": 193
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.67,
+  "B2": 1.86,
+  "B3": 1.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 11.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     15,
+     18,
+     19
+    ],
+    "paid_idx": [
+     13,
+     16,
+     17
+    ],
+    "evidence_idx": [
+     13,
+     15,
+     16,
+     17,
+     18,
+     19
+    ],
+    "reason": "The astrologer uses a guaranteed result ('nishchit Roop se') to push for a remedy and then immediately demands a photo of the user's hand and asks the user to 'dobara join karo' (recharge/extend) to get the remedy."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Identifies career as a concern but does not address marriage."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Generic statement about career yog."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction connected to chart details."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is gated behind a photo request and a paid extension."
+   },
+   "S9": {
+    "present": true,
+    "idx": 17,
+    "quality": 0,
+    "note": "Hook is a demand to recharge/extend the chat."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific details about rejection and marriage, providing only a generic 'yog' statement.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo of the hand, which is not a relevant astrological question for a birth chart reading.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kariye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date for a job but ties it to a remedy that requires a paid extension.",
+    "quotes": [
+     "nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth is built; the astrologer only repeats the need for a photo.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a specific date as a certainty.",
+    "quotes": [
+     "nishchit Roop se agale manth 25 tarikh ko"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is gated behind a request for a photo and a paid extension.",
+    "quotes": [
+     "Aap mujhe apni right hand pic send kariye main aapko ek remedy batati hun"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The marriage question is completely ignored.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened; the astrologer only asks for a photo.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for an extension.",
+    "quotes": [
+     "dobara join karo kyunki aapke pass time khatm ho raha hai"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are demands for a photo and a recharge.",
+    "quotes": [
+     "dobara join karo kyunki aapke pass time khatm ho raha hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the astrologer is not engaging.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.3": {
+    "skipped": false,
+    "reasoning": "Q=2, R=1, T=2. The astrologer asks for a photo and to join again.",
+    "quotes": [],
+    "score": 9
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "marriage kb hogi or job kb lgegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's marriage question and used a guaranteed job date to pressure the user into a paid extension. The consultation was dominated by requests for photos and recharges rather than providing astrological insight."
+ },
+ "usage": {
+  "input_tokens": 15103,
+  "output_tokens": 1603
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#13 [03:55] ASTRO: Aap mujhe apni right hand pic send kariye main aapko ek remedy batati hun\n#15 [04:07] ASTRO: Agar aap remedy karenge to nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai\n#16 [04:46] ASTRO: Aap mujhe apni right hand pic send karo left hand bhi\n#17 [04:54] ASTRO: Five star jarur Dena dobara join karo kyunki aapke pass time khatm ho raha hai\n#18 [05:00] ASTRO: Main aapko upay batati hun nishchit Roop se nikal jaega\n#19 [05:00] ASTRO: Main aapko upay batati hun nishchit Roop se nikal jaega ji",
+   "reason": "The astrologer uses a guaranteed result ('nishchit Roop se') to push for a remedy and then immediately demands a photo of the user's hand and asks the user to 'dobara join karo' (recharge/extend) to get the remedy.",
+   "quote_en": "#13 [03:55] ASTRO: Please send me a picture of your right hand, I will tell you a remedy.\n#15 [04:07] ASTRO: If you perform the remedy, there is a definite chance of seeing job opportunities by the 25th of next month.\n#16 [04:46] ASTRO: Send me a picture of your right hand and your left hand as well.\n#17 [04:54] ASTRO: Do give a five-star rating and join again because your time is running out.\n#18 [05:00] ASTRO: I will tell you the remedy, it will definitely work out.\n#19 [05:00] ASTRO: I will tell you the remedy, it will definitely work out."
+  }
+ }
+}

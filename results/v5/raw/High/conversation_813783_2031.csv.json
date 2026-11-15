@@ -1,0 +1,542 @@
+{
+ "file": "conversation_813783_2031.csv",
+ "tier": "High",
+ "user_id": "813783",
+ "ltv": 9197.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 7,
+  "1.4": 10,
+  "2.1": 8,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.46,
+ "blueprint": {
+  "score": 3.7,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 43,
+   "S4": 180,
+   "S5": 164
+  }
+ },
+ "final": 3.08,
+ "label": "bad",
+ "buckets": {
+  "B1": 7.0,
+  "B2": 4.17,
+  "B3": 4.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.118,
+   "max_words": 39,
+   "avg_words": 12.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     22,
+     25
+    ],
+    "reason": "The astrologer mentions a 'solution' to fix the relationship and then asks the user to follow suggestions, implying a paid remedy or ritual process.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identified the concern after user input."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Initial reading provided but based on palmistry rather than the birth chart provided."
+   },
+   "S5": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Asked a relevant follow-up about the relationship conflict."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not connect to birth chart, dasha, or planets."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is implied as a paid service."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about the ex-partner but does not name the feeling or build on the user's specific situation beyond the question.",
+    "quotes": [
+     "Kya Janna chahte hain aap"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex's name (Type B) and asks about third-party involvement (Type A).",
+    "quotes": [
+     "Ex ka name bata do",
+     "ek baat bataiye aap donon ke bich mein kuchh misunderstanding aur kuchh third party shuru hua hai kya"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": [
+      {
+       "idx": 12,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 14,
+       "type": "A",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and mother's name of the ex-partner with a reason (to check palmistry/chart).",
+    "quotes": [
+     "Ex ka name bata do"
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, mentions the ex-partner's feelings (new), and is specific to the conflict, but it is based on palmistry, not the birth chart.",
+    "quotes": [
+     "shukr parvat ki sthiti Simran ki kafi viprit ho rahi hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether the partner will return with a positive outlook.",
+    "quotes": [
+     "In future aap donon ka relation achcha ho sakta hai"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 21,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses palmistry terms (Shukr parvat, mastishk rekha) instead of chart terms, and they are not linked to the user's life in a meaningful way.",
+    "quotes": [
+     "shukr parvat ki sthiti Simran ki kafi viprit ho rahi hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings repeat the initial sentiment about the ex-partner thinking positively.",
+    "quotes": [
+     "vah bhi positive",
+     "vah aapke bare mein thinking karte hain"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing is given for the return of the partner.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a solution but does not provide the actual remedy, implying a paid service.",
+    "quotes": [
+     "Aapke relation ka ek Chhota Sa solution hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a solution without providing it, which is a low-quality hook.",
+    "quotes": [
+     "Aapke relation ka ek Chhota Sa solution hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the conversation is not very productive.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for the user to reply and a promise of suggestions, which is not a real reading.",
+    "quotes": [
+     "Reply kijiye Rakesh ji",
+     "Main aapko kuchh suggestion deta hun"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses palmistry terms without explanation and the language is somewhat formal.",
+    "quotes": [
+     "shukr parvat",
+     "mastishk Rekha"
+    ],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 2,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya ex partner wapis ayegi",
+  "main_question_idx": 10,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to use the provided birth chart, relying instead on palmistry and vague promises of a 'solution' to fix the relationship. The chat was hurt by the lack of depth and the implication of a paid remedy."
+ },
+ "usage": {
+  "input_tokens": 16875,
+  "output_tokens": 2543
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 7,
+   "1.4": 7,
+   "2.1": 7,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 4,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#22 [04:24] ASTRO: Aapke relation ka ek Chhota Sa solution hai jise aap donon ki chijen behtar ho jaayengi properli theek ho jaayengi..\n#25 [04:57] ASTRO: Main aapko kuchh suggestion deta hun",
+   "reason": "The astrologer mentions a 'solution' to fix the relationship and then asks the user to follow suggestions, implying a paid remedy or ritual process.",
+   "quote_en": "#22 [04:24] ASTRO: There is a small solution for your relationship that will make things better for both of you and will fix them properly.\n#25 [04:57] ASTRO: I will give you some suggestions."
+  }
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "file": "conversation_3355731_1117.csv",
+ "tier": "High",
+ "user_id": "3355731",
+ "ltv": 10195.2,
+ "n_msgs": 45,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 6,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.75,
+  "B2": 4.29,
+  "B3": 5.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 1,
+   "R": 1,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 4,
+   "long_frac": 0.1,
+   "max_words": 59,
+   "avg_words": 19.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Yadi aap inhen apna banana chahte Hain to positive chijen hongi taki yah confuse se bahar a chuke are khud apne husband ko divorce de de",
+    "reason": "The astrologer implies that by doing 'positive things' (likely a paid remedy/pooja), the user can influence the girl to divorce her husband, which is a promise of a result for payment."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's confusion and the girl's feelings, but the response is generic and lacks specific details from the user's story.",
+    "quotes": [
+     "Vah confuse mein bolati hain confuse bahut jaldi Ho jaati Hai Apne andar patience nahin banaa paati hain jaise ki ham check kar pa rahe hain"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo, which is not strictly necessary for a chart reading, and asks if the user knows who is confusing her, which is a Type B question.",
+    "quotes": [
+     "Yadi aap possible hai to unka pic send kar sakte hain face reading karna chahte hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details and uses them to provide a reading, though the reading is highly speculative and promises a divorce.",
+    "quotes": [
+     "Aap unka detail bataen"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present and the girl's feelings, but it is not specific and could apply to any situation involving a confused partner.",
+    "quotes": [
+     "Present time mein bhi dekha jaaye to vah aapko mis kar rahi hai unke dil mein aapke liye pyar bhi dikhai de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether she will marry him, but makes it conditional on a divorce, which is a speculative prediction.",
+    "quotes": [
+     "Bilkul karenge aapse shaadi karna chahti bhi hain aapko bahut pasand Karti hain",
+     "divorce inke husband inhen denge tab ine donon ka divorce hoga tabhi aap donon ki shaadi Ho payegi"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' but does not provide any actual chart-based reasons for the girl's behavior or the future outcome.",
+    "quotes": [
+     "Kundli ke anusar jaise ki ham dekh pa rahe hain confuse mein dikhai de rahi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same points about the girl being confused and loving the user throughout the chat.",
+    "quotes": [
+     "Bilkul Aaj bhi unke dil mein aapke liye pyar dikhai de raha hai",
+     "Aapse pyar karti hai yah Aisa nahin hai ki aapse pyar nahin karti Hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a specific time window for the marriage, only stating it depends on a divorce.",
+    "quotes": [
+     "divorce inke husband inhen denge tab ine donon ka divorce hoga tabhi aap donon ki shaadi Ho payegi"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests 'positive things' to help the girl divorce, which is a vague, potentially paid remedy.",
+    "quotes": [
+     "Yadi aap inhen apna banana chahte Hain to positive chijen hongi taki yah confuse se bahar a chuke are khud apne husband ko divorce de de"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the girl's feelings and the possibility of marriage throughout the chat.",
+    "quotes": [
+     "Aapse pyar karti hai yah Aisa nahin hai ki aapse pyar nahin karti Hain"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a deeper reason for the confusion at the very end of the chat.",
+    "quotes": [
+     "Rishte mein confusion ke peeche ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the content is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a deeper reason, which is a common tactic to keep the user engaged.",
+    "quotes": [
+     "Rishte mein confusion ke peeche ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, but the astrologer uses 'kundli' without explaining its relevance to the specific situation.",
+    "quotes": [
+     "Kundli ke anusar jaise ki ham dekh pa rahe hain"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Does she love me and will she marry me in the future?",
+  "message_labels": [
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a reading that validated the user's feelings but relied on repetitive, speculative claims about the girl's confusion and potential divorce. The consultation was marred by the astrologer hinting at a 'deeper reason' and suggesting 'positive things' to influence the situation, which borders on unethical pressure."
+ },
+ "usage": {
+  "input_tokens": 11233,
+  "output_tokens": 1764
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Yadi aap inhen apna banana chahte Hain to positive chijen hongi taki yah confuse se bahar a chuke are khud apne husband ko divorce de de",
+   "reason": "The astrologer implies that by doing 'positive things' (likely a paid remedy/pooja), the user can influence the girl to divorce her husband, which is a promise of a result for payment.",
+   "quote_en": "If you want to make them yours, positive things will happen so that she comes out of her confusion and divorces her husband herself."
+  }
+ }
+}

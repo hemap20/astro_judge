@@ -1,0 +1,404 @@
+{
+ "file": "conversation_3395760_1031.csv",
+ "tier": "High",
+ "user_id": "3395760",
+ "ltv": 260728.08,
+ "n_msgs": 39,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.85,
+ "rubric_score": 2.85,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 40,
+   "S3": 941
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 1.0,
+  "B3": 1.0,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 4,
+   "M": 6,
+   "long_frac": 0.15,
+   "max_words": 141,
+   "avg_words": 18.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "none"
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16,
+     24
+    ],
+    "paid_idx": [
+     23,
+     26
+    ],
+    "evidence_idx": [
+     16,
+     23,
+     24,
+     26
+    ],
+    "reason": "The astrologer uses fear ('family kisi bhi hal mein nahi manegi', 'problem create karegi') and guarantees ('100% guarantee le sakti hun', '24 ghante ke andar family khud shaadi ke liye bol degi') to push a paid havan/ritual costing 2000 rupees."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer ignores the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Identifies the concern but uses it to create fear."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 0,
+    "note": "Prediction is fear-based and used to sell a ritual."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized chart analysis provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layers explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid ritual."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Hook is a fear-based tease to keep the user paying."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's feelings or the specific details shared about the relationship struggle.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details (DOB/Time) but does not ask any questions that build on the user's situation.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but never uses them to provide a reading about the match.",
+    "quotes": [
+     "Unka detail send kar"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic, fear-based, and lacks specific chart-based insights.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about the possibility of marriage, instead pivoting to a paid ritual.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions 'grah' and 'Sani' but provides no meaningful link to the user's life.",
+    "quotes": [
+     "girahu ke sath Sani baithe Hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are just repetitions of the fear-based pitch.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Promises a 24-hour result, which is a guarantee.",
+    "quotes": [
+     "24 ghante ke andar family khud shaadi Ke liye bol degi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual pitch.",
+    "quotes": [
+     "Ismein ₹2000 ka kharch aata Hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is abandoned for a sales pitch.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Uses a fear-based tease to keep the user engaged.",
+    "quotes": [
+     "Shaadi ke raste mein ek aur badi rukawat chhipi hui dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer constantly pushes for more coins and keeps the chat open for payment.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a fear-based tease.",
+    "quotes": [
+     "Shaadi ke raste mein ek aur badi rukawat chhipi hui dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mujhe ye jaanna tha ki mai jisse prem karti hu usse meri shaadi hone ki samvabhna kitna hai",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any genuine astrological insight, instead using fear-based manipulation and false guarantees to solicit money for a ritual. The consultation was entirely focused on extracting payment rather than addressing the user's relationship concerns."
+ },
+ "usage": {
+  "input_tokens": 15762,
+  "output_tokens": 1764
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [15:41] ASTRO: Dekhiae aap logon ki shaadi ki Yog mein kafi rukavat a rahi hai Kundli mein bhi rukavate hain aur uske साथ-साथ family Kisi bhi HAL mein aapke shaadi Ke liye manegi nahin kyunki family bahut jyada problem create karegi to girahu ke sath Sani baithe Hain Jo ki aapka support nahin kar raha hai udhar Se love marriage mein bhi problem hai aur kahin na kahin dekha Jaaye to aapki family Kisi bhi HAL mein accept nahin karne wali hai aapki shaadi ko agar chahti Ho ki family to kuchh upay mere pass jisko karne se main 100% guarantee Le sakti hun ki aapki shaadi aapke boyfriend ke sath ho jayegi aur koi rukavat nahin aaegi chijen hamesha ke liye acchi Ho jaayengi dikkat Hai jivan mein nahin aaengi aur 24 ghante ke andar family khud shaadi Ke liye bol degi\n#23 [22:06] ASTRO: Is upay mein kya karna hai main aapko batati hun ismein kuchh Mantra ka uchharan Hoga aur Mantra ki uchharan ke turant bad havan Hoga yah sari chijen mere dwara Hoga jisko karne se problem solve ho jayegi\nIsmein ₹2000 ka kharch aata Hai jiske pass sari chijen ekadam acche se hoti hain aur Main havan karte samay photo Mantra ka uchharan karte samay photo bhi aapko send karungi\n#24 [23:01] ASTRO: Aur sab kuchh 100% guarantee ke sath Hoga jiske bhi family se problem Hogi aur 24 ghante ke andar khud man jaenge\n#26 [23:31] ASTRO: Aapane Jaise coin add kiya tha use 2000 rupaye ka kamai add kariye main taiyari karke chijen shuru Karti hun",
+   "reason": "The astrologer uses fear ('family kisi bhi hal mein nahi manegi', 'problem create karegi') and guarantees ('100% guarantee le sakti hun', '24 ghante ke andar family khud shaadi ke liye bol degi') to push a paid havan/ritual costing 2000 rupees.",
+   "quote_en": "#16 [15:41] ASTRO: Look, there are many obstacles in your marriage Yog, and there are also obstacles in your Kundli. Along with that, your family will not agree to your marriage under any circumstances because they will create a lot of problems. Shani is sitting with Rahu, which is not supporting you. From that side, there is also a problem in love marriage, and if seen from somewhere, your family is not going to accept your marriage under any circumstances. If you want your family to agree, I have some remedies, and by doing them, I can give a 100% guarantee that your marriage with your boyfriend will happen, there will be no obstacles, things will become good forever, there will be no problems in life, and within 24 hours, the family will ask for the marriage themselves.\n#23 [22:06] ASTRO: I will tell you what to do in this remedy. It will involve the chanting of some Mantras, and immediately after the chanting of the Mantras, there will be a havan. All these things will be done by me, and by doing this, the problem will be solved.\nThis costs ₹2000, through which everything is done perfectly, and I will also send you photos while I am performing the havan and chanting the Mantras.\n#24 [23:01] ASTRO: And everything will be done with a 100% guarantee; whoever has family problems, they will agree themselves within 24 hours.\n#26 [23:31] ASTRO: Just like you added coins, add ₹2000 worth of coins, and I will prepare and start the process."
+  }
+ }
+}

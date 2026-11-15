@@ -1,0 +1,805 @@
+{
+ "file": "conversation_2946836_3183.csv",
+ "tier": "Medium",
+ "user_id": "2946836",
+ "ltv": 4817.94,
+ "n_msgs": 115,
+ "n_astro_msgs": 66,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.58,
+ "blueprint": {
+  "score": 3.76,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S2": 422,
+   "S3": 26,
+   "S4": 422,
+   "S5": 566
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 1.67,
+  "B3": 2.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 6,
+   "R": 6,
+   "T": 10
+  },
+  "4.1": {
+   "score": 6,
+   "M": 9,
+   "long_frac": 0.152,
+   "max_words": 50,
+   "avg_words": 19.1,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     28,
+     32,
+     45,
+     48,
+     56
+    ],
+    "paid_idx": [
+     65,
+     67,
+     68,
+     69,
+     71,
+     76,
+     85,
+     100,
+     107,
+     113
+    ],
+    "reason": "The astrologer uses fear (negative energy, someone did something to them) to push a paid 'face healing' ritual, requiring the user to add time/coins to perform it.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Acknowledges feelings but immediately pivots to negative energy."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Asks what she wants to know, but doesn't really identify the core concern independently."
+   },
+   "S4": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Initial reading is based on face reading/negative energy, not chart."
+   },
+   "S5": {
+    "present": true,
+    "idx": 38,
+    "quality": 1,
+    "note": "Asks about family members."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 65,
+    "quality": 0,
+    "note": "Remedy is a paid ritual/pooja."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook, just a push for more time/money."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation but immediately attributes it to negative energy/third-party interference rather than validating the emotional weight of the user's struggle.",
+    "quotes": [
+     "Dekho Sneha bahan face reading ke madhyam Se dekha jaaye to kijiye to positive dikhai de rahe hain unke man mein feeling bhi hai aapke liye"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos and birth details, which are standard, but then pivots to asking about family members to build a narrative of 'negative energy'.",
+    "quotes": [
+     "Unki family mein kon-kon hai"
+    ],
+    "score": 4,
+    "checks": {
+     "questions": [
+      {
+       "idx": 38,
+       "type": "B",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and photo, but uses them to claim 'negative energy' and 'black magic' rather than providing a reading about the person.",
+    "quotes": [
+     "Main unki current feeling check kar leta Hun aur ya unka data birth ho to bata do"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is based on 'face reading' and 'negative energy' rather than the user's chart. It is generic and not tied to any astrological reason.",
+    "quotes": [
+     "Lekin main dekh Pa Raha Hun ki present time mein koi negative urja hai"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks why the partner fights after drinking. The astrologer never answers this, instead blaming 'negative energy' and pushing a paid ritual.",
+    "quotes": [
+     "Woo pine ke bad q hmse ladty hay bina kuch baat"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart-based reasons are provided; the astrologer relies entirely on 'face reading' and 'negative energy'.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same 'negative energy' and 'third-party interference' narrative.",
+    "quotes": [
+     "Isiliye unka behaviour change hua Hai aur aap logon ke sath mein ladai jhagada ka Karan yahi hai kuchh unhone unko khilaya hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline for the effect of the ritual, which is not a valid astrological prediction.",
+    "quotes": [
+     "Iska prabhav jo hai 1 week ke andar aapko dikhai dene lagega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual/pooja, which is a violation.",
+    "quotes": [
+     "Ek bar aap inki face healing kara dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the main question, so there is no thread to hold.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the 'negative energy' narrative to tease a solution that requires payment.",
+    "quotes": [
+     "Ek bar aap inki face healing kara dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the content is entirely focused on the paid ritual.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the user adding more time/coins for the ritual.",
+    "quotes": [
+     "Pahle 15 minut ka Kar lijiye uske bad FIR 15 minut ka Kar lijiyega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses 'face healing' and 'negative energy' as technical terms without explanation.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 2,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Woo pine ke bad q hmse ladty hay bina kuch baat",
+  "main_question_idx": 15,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 113,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any astrological insight, instead using fear-based tactics to push a paid ritual. The consultation was entirely focused on extracting more time and money from the user."
+ },
+ "usage": {
+  "input_tokens": 19979,
+  "output_tokens": 3734
+ },
+ "reference": {
+  "bare_acks": 3,
+  "longest_ack_run": 2,
+  "judge_own_scores": {
+   "1.2": 4,
+   "1.4": 4,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#28 [07:23] ASTRO: Lekin main dekh Pa Raha Hun ki present time mein koi negative urja hai koi hai aap logon ke bich mein jo rishte ko lekar jalan rakhta Hai jiske Karan se najar dosh ban raha hai\n#32 [08:30] ASTRO: Face reading ke madhyam Se dekha jaaye to main dekh raha hun ki negative urja to unke upar dikhai de rahi hai koi hai teesra Jo aapke rishte ko lekar jalan mein hai unko yah rishta achcha nahin lagta hai isiliye koi hai jo kuchh unke upar Kiya hua Hai\n#45 [13:35] ASTRO: Isiliye unka behaviour change hua Hai aur aap logon ke sath mein ladai jhagada ka Karan yahi hai kuchh unhone unko khilaya hai jiske Karan se unke man mein negative urja utpann ho rahi hai\n#48 [14:23] ASTRO: Lekin jab Se ine logon Ne unko bhadkane ka kam kiya hai aur kuchh unke upar karaya hai negative urja tab Se unke man mein ban rahi hai aapke liye\n#56 [17:10] ASTRO: Aur inhin donon logon Ne milkar ke unke upar kuchh karaya hai jiske Karan se unke man mein negative chijen aapke liye Ban rahe hain\n#65 [20:51] ASTRO: Ek bar aap inki face healing kara dijiye\n#67 [21:12] ASTRO: Agar Inka face healing ho jata hai to aap dekhoge ki jo aapke prati unke man mein negative urja ban rahi hai jo unhone karvaya hai vah samapt ho jaega aur inke man mein aapke liye positive urja ka Pravesh hoga\n#68 [21:31] ASTRO: Dekhiae unka photo Rakh karke ek Puja Kiya jata Hai face healing ka jisse negative urja samapt hoti hai aur positive urja ka Pravesh hota Hai\n#69 [21:58] ASTRO: Iske liye kuchh samagri ki avashyakta hoti hai Jaise panch mombatti haldi aur Inka photo aur ek Kala dhaaga\n#71 [22:26] ASTRO: Aur jab aap comfortable Ho tab aap isko kara sakti ho aapko bhi Puja per baithana hoga aur ham bhi baithenge kuchh Mantra Ko Main aapko lekar send karunga aap usko Jaap karte rahiyega jab tak yah Puja chalegi\n#76 [23:37] ASTRO: Aur Main Puja kar dunga bus yah hai ki bich mein Puja khandit honi nahin chahie\n#85 [26:39] ASTRO: Theek hai koi baat nahin mombatti Ko Main Manga lunga lekin yah hai ki aapko 30 Se 32 minut baithana rahega aur mobile mein photo khol karke\n#100 [31:46] ASTRO: Theek hai aap apna time increase kar do main aapko Mantra likhkar send karta hun aur main bhi Mantra ko Jaap karna shuru karte Hain\n#107 [35:50] ASTRO: Aap apne mobile mein kam se kam 32 minut ka coin add Kar lijiye\n#113 [39:37] ASTRO: Pahle 15 minut ka Kar lijiye uske bad FIR 15 minut ka Kar lijiyega",
+   "reason": "The astrologer uses fear (negative energy, someone did something to them) to push a paid 'face healing' ritual, requiring the user to add time/coins to perform it.",
+   "quote_en": "#28 [07:23] ASTRO: But I can see that at present there is some negative energy; there is someone between you two who is jealous of your relationship, which is causing a nazar dosh.\n#32 [08:30] ASTRO: Looking through face reading, I can see that negative energy is visible on them. There is a third person who is jealous of your relationship and does not like it, which is why someone has done something to them.\n#45 [13:35] ASTRO: That is why their behavior has changed, and this is the reason for the fights between you two. Someone has fed them something, which is causing negative energy to arise in their mind.\n#48 [14:23] ASTRO: But ever since these people have worked to provoke them and have done something negative to them, negative energy has been forming in their mind towards you.\n#56 [17:10] ASTRO: And these two people together have had something done to them, which is why negative things are forming in their mind towards you.\n#65 [20:51] ASTRO: Get their face healing done once.\n#67 [21:12] ASTRO: If their face healing is done, you will see that the negative energy forming in their mind towards you, which they have caused, will end, and positive energy will enter their mind for you.\n#68 [21:31] ASTRO: See, a pooja is performed by keeping their photo, which is called face healing, through which negative energy is eliminated and positive energy enters.\n#69 [21:58] ASTRO: For this, some materials are required, such as five candles, turmeric, their photo, and a black thread.\n#71 [22:26] ASTRO: And whenever you are comfortable, you can get this done. You will also have to sit for the pooja, and I will also sit. I will send you some mantras, and you keep chanting them as long as this pooja continues.\n#76 [23:37] ASTRO: And I will perform the pooja; the only thing is that the pooja should not be interrupted in between.\n#85 [26:39] ASTRO: Okay, no problem, I will arrange for the candles, but you will have to sit for 30 to 32 minutes with their photo open on your mobile.\n#100 [31:46] ASTRO: Okay, increase your time. I am writing and sending you the mantra, and I will also start chanting the mantra.\n#107 [35:50] ASTRO: Add at least 32 minutes of time on your mobile.\n#113 [39:37] ASTRO: First do it for 15 minutes, and after that, do it for another 15 minutes."
+  }
+ }
+}

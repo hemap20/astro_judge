@@ -1,0 +1,274 @@
+{
+ "file": "conversation_1157071_2702.csv",
+ "tier": "Medium",
+ "user_id": "1157071",
+ "ltv": 2853.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": 1,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.57,
+ "buckets": {
+  "B1": 6.25,
+  "B2": 3.29,
+  "B3": 4.0,
+  "B4": 8.33,
+  "B5": 1.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about his girlfriend in message #6, but fails to incorporate the user's specific feelings or details shared later (like the lack of respect).",
+    "quotes": [
+     "Gf ke baare mein Jana hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girlfriend's DOB (#17, #19), which is a Type A question as it is necessary for the reading. However, the astrologer also makes assumptions about the user's anger (#15, #21) which the user denies.",
+    "quotes": [
+     "Unki dob share karenge",
+     "Birthday kab aata hai unka"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girlfriend's DOB with a reason (to analyze the relationship), but fails to use the details effectively after receiving them.",
+    "quotes": [
+     "Unki dob share karenge"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but the astrologer makes generic claims about the user being protective and having anger, which the user explicitly denies.",
+    "quotes": [
+     "Kyuki Aisa dikh raha h aap bahut protective ho unko le kar"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main concern is the girlfriend's behavior and lack of respect. The astrologer never provides a clear direction or answer, instead blaming the user's anger.",
+    "quotes": [
+     "Aap apne gusse pe thoda control rakho"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart-based reasoning provided in plain words; the astrologer just makes behavioral observations.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the claim about the user's anger despite the user's denial, failing to build depth.",
+    "quotes": [
+     "Isi wajah se problem ho Rahi h"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window is provided for the relationship outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice to control anger is a stock remedy not tied to any specific chart cause or deeper insight.",
+    "quotes": [
+     "Aap apne gusse pe thoda control rakho"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's main thread (girlfriend's behavior) is ignored in favor of blaming the user.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layers are opened; the conversation stalls on the user's anger.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but the astrologer's replies are repetitive and lack substance.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a blame-shifting statement that does not provide a reason to return.",
+    "quotes": [
+     "Isi wajah se problem ho Rahi h"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish, but it lacks astrological depth.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is testing/pushing back against the astrologer's claims (#25). The astrologer fails to accept the correction and continues to blame the user.",
+    "quotes": [
+     "Isi wajah se problem ho Rahi h"
+    ],
+    "score": 1
+   }
+  },
+  "difficult_user_trigger": "angry_testing",
+  "main_question": "Gf ke baare mein Jana hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific concerns about his girlfriend's behavior, instead repeatedly blaming the user for anger issues. This led to a defensive interaction where the user felt unheard and misunderstood."
+ },
+ "usage": {
+  "input_tokens": 10417,
+  "output_tokens": 1358
+ }
+}

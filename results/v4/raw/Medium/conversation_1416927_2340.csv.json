@@ -1,0 +1,706 @@
+{
+ "file": "conversation_1416927_2340.csv",
+ "tier": "Medium",
+ "user_id": "1416927",
+ "ltv": 1963.0,
+ "n_msgs": 110,
+ "n_astro_msgs": 77,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 4,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 8,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 6.58,
+ "blueprint": {
+  "score": 6.04,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 0.929,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S2": 120,
+   "S3": 506,
+   "S4": 193,
+   "S5": 792,
+   "S6": 1643,
+   "S7": 2345,
+   "S8": 2326
+  }
+ },
+ "final": 4.81,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.0,
+  "B2": 6.0,
+  "B3": 6.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.013,
+   "max_words": 35,
+   "avg_words": 11.4,
+   "bursts": 8,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     93,
+     94
+    ],
+    "paid_idx": [
+     107
+    ],
+    "evidence_idx": [
+     93,
+     94,
+     107
+    ],
+    "reason": "The astrologer uses fear regarding planetary positions to push for a paid healing service."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is very brief."
+   },
+   "S2": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Acknowledges the situation but lacks depth."
+   },
+   "S3": {
+    "present": true,
+    "idx": 30,
+    "quality": 1,
+    "note": "Asks if she wants the marriage, but doesn't fully validate the emotional concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a generic chart reason for the delay."
+   },
+   "S5": {
+    "present": true,
+    "idx": 40,
+    "quality": 1,
+    "note": "Asks about the family's involvement."
+   },
+   "S6": {
+    "present": true,
+    "idx": 73,
+    "quality": 1,
+    "note": "Connects the situation to family pressure but remains generic."
+   },
+   "S7": {
+    "present": true,
+    "idx": 99,
+    "quality": 1,
+    "note": "Asks about future married life."
+   },
+   "S8": {
+    "present": true,
+    "idx": 98,
+    "quality": 1,
+    "note": "Gives a mantra remedy, but it is tied to a paid healing pitch."
+   },
+   "S9": {
+    "present": true,
+    "idx": 107,
+    "quality": 0,
+    "note": "The hook is a pitch for a paid healing service."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the family situation but does not name the user's feelings of pain or confusion.",
+    "quotes": [
+     "Ji dekh paa raha hu aapke paas ye rishta family ke through aaya tha"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are Type B (could be asked to anyone).",
+    "quotes": [
+     "Kya aap chahti Hain ki aapko shaadi Se Ho jaye",
+     "Yah bataen inki family walon Ne aapko dekha tha"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to provide a reading about the family dynamics.",
+    "quotes": [
+     "Yah bataen ki jiske through ye shaadi ayi thi ya aap log sampark me aaye the wo kaun hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present situation, but it is generic and could apply to many users facing family opposition.",
+    "quotes": [
+     "Actually aapke saptam Bhav me shani jo baar baar aisi badhayen lata hai marriage mr"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction that the marriage can still happen if remedies are done.",
+    "quotes": [
+     "Dekhiae abhi bhi shaadi ho sakti hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Saptam Bhav' and 'Shani' but does not explain them in plain words for the user's life.",
+    "quotes": [
+     "Actually aapke saptam Bhav me shani jo baar baar aisi badhayen lata hai marriage mr"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the mother's nature and the relative's negative publicity.",
+    "quotes": [
+     "Koi lady hai jo santusht nahi thi",
+     "Usne is shaadi bhi negative publicity ki Hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing is given, just a general possibility.",
+    "quotes": [
+     "Dekhiae abhi bhi shaadi ho sakti hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to the problem, but it is followed by a paid healing pitch.",
+    "quotes": [
+     "Iska jap aap shuru kare daily ek Mala karna hai aapko"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread of the marriage question throughout.",
+    "quotes": [
+     "Dekhiae abhi bhi shaadi ho sakti hai"
+    ],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the future married life.",
+    "quotes": [
+     "Married life aapki acchi rahegi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is pushing for a paid service.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the mantra and the paid healing service.",
+    "quotes": [
+     "Iska jap aap shuru kare daily ek Mala karna hai aapko",
+     "Main healing kar dunga"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Ok ji",
+     "Radhe Radhe"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya wo wapas aaega? Hamare bich kya sab firse thik hoga?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the family dynamics causing the relationship issues. However, the consultation was marred by a pushy pitch for a paid healing service, which undermined the trust built."
+ },
+ "usage": {
+  "input_tokens": 18071,
+  "output_tokens": 2937
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#93 [37:14] ASTRO: Ja to sakta hai ji lekin main aapse yahi kahunga ki aapko uske liye remedy ki avashyakta\n#94 [37:26] ASTRO: Kyunki planetary position se gadbad Hoti Hai to problem aati Hai\n#107 [40:53] ASTRO: Kafi fayda milega aur Jab bhi aapke pass lagbhag 20 minut ka samay Ho mujhe dijiyega Main healing kar dunga",
+   "reason": "The astrologer uses fear regarding planetary positions to push for a paid healing service.",
+   "quote_en": "#93 [37:14] ASTRO: It is possible, but I would suggest that you need a remedy for it.\n#94 [37:26] ASTRO: Because when there is a disturbance in the planetary position, problems arise.\n#107 [40:53] ASTRO: You will get a lot of benefit, and whenever you have about 20 minutes of time, let me know, I will perform the healing."
+  }
+ }
+}

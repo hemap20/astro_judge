@@ -1,0 +1,409 @@
+{
+ "file": "conversation_1377057_57.csv",
+ "tier": "Medium",
+ "user_id": "1377057",
+ "ltv": 1071.44,
+ "n_msgs": 45,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 8,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.46,
+ "rubric_score": 6.46,
+ "blueprint": {
+  "score": 5.29,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.5
+  },
+  "order": 0.933,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 2,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 26,
+   "S3": 44,
+   "S4": 234,
+   "S5": 604,
+   "S6": 379,
+   "S8": 651
+  }
+ },
+ "final": 5.88,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.33,
+  "B2": 6.5,
+  "B3": 6.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.217,
+   "max_words": 43,
+   "avg_words": 16.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "No paid element or pressure to pay."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer did not acknowledge or validate the user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Asked for information but did not identify the primary concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Gave a generic negative prediction without specific context."
+   },
+   "S5": {
+    "present": true,
+    "idx": 38,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Mentioned chart details but did not connect them to the user's life."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": true,
+    "idx": 41,
+    "quality": 2,
+    "note": "Gave a clear, actionable remedy (Hanuman Chalisa) with frequency."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided at the end."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user asked for a deep look into the future. The astrologer did not acknowledge this request or the user's tone, jumping straight to negative predictions.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked 'Kya jankari aap chahte Hain' (Type B) and 'Aapka koi kaam रुका हुआ है kya' (Type B). No Type C questions were asked.",
+    "quotes": [
+     "Kya jankari aap chahte Hain",
+     "Aapka koi kaam रुका हुआ है क्या जो पूरा नहीं हो रहा है"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No other person involved.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is negative and generic (health, partnership, confidence), which could apply to anyone. It lacks specificity.",
+    "quotes": [
+     "aapke kundli mein aapka samay bahut kharab chal raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked for a deep look into the future. The astrologer provided a timeline for improvement (September/April 2026).",
+    "quotes": [
+     "सितंबर माह से आपका समय अच्छा चलेगा",
+     "अप्रैल माह से आपका स्वास्थ्य धीरे-धीरे अच्छा होने लगेगा"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Rahu/Ketu/Moon but does not link them to the user's life in plain, understandable words.",
+    "quotes": [
+     "आपका चंद्रमा सबसे पहला ख़राब है जो आपके अंदर आत्मविश्वास की कमी कर रहा है"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds information about health and partnership in later messages, but it is not built on user details.",
+    "quotes": [
+     "आपकी मिथुन राशि है और आपका लगन जो है मकर है"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a timeline for improvement without promising a specific date.",
+    "quotes": [
+     "सितंबर माह से आपका समय अच्छा चलेगा"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is actionable and tied to the planets mentioned (Rahu/Ketu).",
+    "quotes": [
+     "हनुमान चालीसा का पाठ अब रोजाना कीजिए"
+    ],
+    "score": 8
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat feels stalled.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a question about the user's business, which is a relevant follow-up.",
+    "quotes": [
+     "आपको खुद का व्यवसाय है"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy to understand, but the astrologer uses formal/bookish phrasing occasionally.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "आने वाले समय के विषय मैं",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear remedy and a timeline for the user's future, which was helpful. However, the lack of emotional validation and the generic, somewhat negative tone of the initial reading hurt the rapport."
+ },
+ "usage": {
+  "input_tokens": 15706,
+  "output_tokens": 1810
+ }
+}

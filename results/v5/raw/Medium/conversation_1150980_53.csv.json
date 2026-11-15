@@ -1,0 +1,442 @@
+{
+ "file": "conversation_1150980_53.csv",
+ "tier": "Medium",
+ "user_id": "1150980",
+ "ltv": 1188.8,
+ "n_msgs": 16,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": null,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.71,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S3": 42
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 1.67,
+  "B2": 3.0,
+  "B3": 2.5,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 2,
+   "R": null,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 8.4,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     7,
+     12
+    ],
+    "paid_idx": [
+     6,
+     13,
+     15
+    ],
+    "reason": "The astrologer repeatedly pressures the user to pay/reconnect (G3a) and uses urgency ('time ja raha hai') to push for a photo and reconnection (G3b).",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Asks for the question, but ignores the user's provided details."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy given."
+   },
+   "S9": {
+    "present": true,
+    "idx": 13,
+    "quality": 0,
+    "note": "Hook is a paid pitch to reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared a question in #5, but the astrologer's reply in #6 ignores the question and asks for a photo.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo (#6) which is not needed for a horoscope reading, making it a Type C question.",
+    "quotes": [
+     "main aapka face reading bhi check kar leta Hun"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 6,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The question is about the user himself, not another person.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "about_specific_person": false,
+     "user_did_not_know_details": false,
+     "asked": false,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question was never answered.",
+    "quotes": [
+     "Abhinav ki shaadi Kab hogi"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": false
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple empty messages ('Hello') and then closes the chat.",
+    "quotes": [
+     "Hello",
+     "Hello",
+     "Ji aapka time khatm hone wala hai"
+    ],
+    "score": 1,
+    "checks": {
+     "early_goodbye_while_time_left": true,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal Hindi ('kripya', 'vistaar se' implied by tone) and asks for a photo which is not explained.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 1,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Abhinav ki shaadi Kab hogi",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or answer the user's question, instead repeatedly pressuring the user to send a photo and reconnect. The chat was dominated by empty messages and demands for payment/reconnection, providing zero value to the user."
+ },
+ "usage": {
+  "input_tokens": 16543,
+  "output_tokens": 1843
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": null,
+   "2.1": 1,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 4,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#6 [01:29] ASTRO: Ji main aapka kundli check karke batata hun aap apna ek pic send kijiye main aapka face reading bhi check kar leta Hun\n#7 [02:08] ASTRO: Ji jaldi kijiye aapka time ja raha hai\n#12 [04:12] ASTRO: Ji aapka time khatm hone wala hai aapane kuchh reply nahin de rahe hain\n#13 [04:44] ASTRO: Aap mujhe dobara contact kijiye uske bad main aapko batata hun ki aap bata de kab hoga\n#15 [04:55] ASTRO: To aapka time khatm ho gaya hai aap mujhe dobara contact kijiye",
+   "reason": "The astrologer repeatedly pressures the user to pay/reconnect (G3a) and uses urgency ('time ja raha hai') to push for a photo and reconnection (G3b).",
+   "quote_en": "#6 [01:29] ASTRO: Yes, I will check your kundli and let you know, please send a picture of yourself so I can also check your face reading.\n#7 [02:08] ASTRO: Yes, please hurry, your time is running out.\n#12 [04:12] ASTRO: Yes, your time is about to end and you are not giving any reply.\n#13 [04:44] ASTRO: Please contact me again, after that I will tell you when it will happen.\n#15 [04:55] ASTRO: So your time has ended, please contact me again."
+  }
+ }
+}

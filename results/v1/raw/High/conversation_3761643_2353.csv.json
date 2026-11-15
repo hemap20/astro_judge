@@ -1,0 +1,584 @@
+{
+ "file": "conversation_3761643_2353.csv",
+ "tier": "High",
+ "user_id": "3761643",
+ "ltv": 1197750.74,
+ "n_msgs": 133,
+ "n_astro_msgs": 71,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 4,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 4,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 3.57,
+  "B3": 5.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 5,
+   "T": 16
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.099,
+   "max_words": 46,
+   "avg_words": 16.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Lal Chandan, Lal markar, Aur haldi... aap ektrit kariye phir main aapki prakriya karva Dunga aapko exact situation pata chal jaega",
+    "reason": "The astrologer is pushing a specific ritual/remedy as a prerequisite to getting answers about the user's situation, creating artificial urgency and dependency."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the partner's phone being switched off and the confusion, but the response is generic and lacks deep empathy.",
+    "quotes": [
+     "Lina ji ismein dekha ja raha hai ki aapki Kundli mein to problem hai hi marriage life ke liye"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and photos, which are standard, but also asks questions that could be answered by the user's own intuition or are irrelevant to the immediate crisis.",
+    "quotes": [
+     "Naam aur details bataen use ladke ka",
+     "Aapka birth time",
+     "Aap mere pass bhejiye photo"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide readings, though the readings are vague and speculative.",
+    "quotes": [
+     "Naam aur details bataen use ladke ka",
+     "Indrajeet shirke naam"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present situation but is highly generic and lacks specific, verifiable markers.",
+    "quotes": [
+     "Ismein dekha ja raha hai ki Achanak Se sab kuchh nahin hua Hai Bus yah samjhie ki koi hai Jo nahin chahta aap donon ki shaadi Ho"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if they will get married and if he will contact her. The astrologer gives a vague timeline but ties it to a paid ritual.",
+    "quotes": [
+     "Bilkul aapko contact to karega lekin isme time lagega",
+     "lagbhag 6 mahine ka time jaega"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions chart terms like Mangal, Rahu, and Ketu but does not explain them in a way that provides a clear, linked insight into the user's life.",
+    "quotes": [
+     "Kyunki aapke Vivah sthan per Mangal aur Rahu upsthit hai baithe Hain"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's life (affairs, jail, family issues) but these are speculative and not clearly linked to the user's specific details.",
+    "quotes": [
+     "Iski life ki pareshaniyon ko dekh kar aur iske current aadat ko check karne ke bad",
+     "Iski life mein Kai sare affair rahe hain"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a 6-month window but contradicts the certainty of the outcome by linking it to a ritual.",
+    "quotes": [
+     "lagbhag 6 mahine ka time jaega"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a ritual involving specific items and the astrologer's intervention, which feels like a service pitch.",
+    "quotes": [
+     "Lal Chandan, Lal markar, Aur haldi... aap ektrit kariye phir main aapki prakriya karva Dunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to hold the thread of the marriage and contact questions, but the answers are inconsistent and tied to the ritual.",
+    "quotes": [
+     "Bilkul aapko contact to karega lekin isme time lagega",
+     "aapki marriage ho sakti hai iske sath"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a 'deep aspect' to keep the user engaged.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua dikh raha"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant pushing of the ritual makes the engagement feel forced.",
+    "quotes": [
+     "Aapka karya ho jaega bilkul bhi pareshan Na Ho"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease, leaving the user hanging.",
+    "quotes": [
+     "Rishte ke bhavishya ke saath ek aur gehra pehlu juda hua dikh raha"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is mostly accessible, but the astrologer uses some formal/scripted phrasing.",
+    "quotes": [
+     "Ismein dekha ja raha hai ki",
+     "kuchh negative energy ka prayog bhi dekha ja raha hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya Indrajeet mujhse shaadi karega aur wo contact kyun nahi kar raha?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 96,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 116,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 122,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 125,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided some insights into the partner's situation but relied heavily on speculative claims and pushed for a paid ritual to resolve the user's concerns. This created a sense of pressure and dependency rather than offering clear, actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 13854,
+  "output_tokens": 2747
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Lal Chandan, Lal markar, Aur haldi... aap ektrit kariye phir main aapki prakriya karva Dunga aapko exact situation pata chal jaega",
+   "reason": "The astrologer is pushing a specific ritual/remedy as a prerequisite to getting answers about the user's situation, creating artificial urgency and dependency.",
+   "quote_en": "Red sandalwood, red marker, and turmeric... please collect these, then I will guide you through the process and you will know the exact situation."
+  }
+ }
+}

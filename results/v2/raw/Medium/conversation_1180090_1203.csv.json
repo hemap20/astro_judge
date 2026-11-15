@@ -1,0 +1,295 @@
+{
+ "file": "conversation_1180090_1203.csv",
+ "tier": "Medium",
+ "user_id": "1180090",
+ "ltv": 645.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 3,
+  "2.3": 4,
+  "2.4": 1,
+  "2.5": 6,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 3,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.29,
+ "buckets": {
+  "B1": 5.33,
+  "B2": 3.5,
+  "B3": 4.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 1,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.056,
+   "max_words": 36,
+   "avg_words": 11.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about debt and career growth in message 16 and 17, but fails to name the feeling or build on the specific struggle of debt increasing despite repayment.",
+    "quotes": [
+     "aapke career future ko lekar to kafi achcha growth dikhai de raha hai",
+     "aapki kundli mein Shani ke nakaratmak prabhav pad raha hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo of the left hand (Type C) which is not strictly necessary for a horoscope reading, and does not build on the user's input.",
+    "quotes": [
+     "Aap apne left hand ke pic send kijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specificity. It mentions Shani's negative influence but does not provide a concrete marker or specific detail that could be verified by the user.",
+    "quotes": [
+     "aapki kundli mein Shani ke nakaratmak prabhav pad raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about debt, but the astrologer did not provide a clear direction or timeline for when the debt would be resolved, instead focusing on general career growth.",
+    "quotes": [
+     "Jitna krz utarti hu utna or chad jata h"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Shani but does not link it to the user's specific life situation in a meaningful way, keeping it vague.",
+    "quotes": [
+     "aapki kundli mein Shani ke nakaratmak prabhav pad raha hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats general statements about career and Shani without adding new, specific insights based on the user's input.",
+    "quotes": [
+     "aapke career future ko lekar to kafi achcha growth dikhai de raha hai",
+     "aapki kundli mein Shani ke nakaratmak prabhav pad raha hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided for the resolution of the debt.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The user mentioned doing Shani Chalisa, but the astrologer ignored this and asked for a hand photo instead of providing a fitting remedy.",
+    "quotes": [
+     "Aap apne left hand ke pic send kijiye"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'good news' without delivering it before the transcript ends.",
+    "quotes": [
+     "Sath hi Sath main aapko ek achcha good news Dena chahta hun"
+    ],
+    "score": 3
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to the request for a photo.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease that leaves the user hanging without a reading.",
+    "quotes": [
+     "Sath hi Sath main aapko ek achcha good news Dena chahta hun aapke"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, avoiding complex technical jargon.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Jitna krz utarti hu utna or chad jata h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific financial distress, instead offering generic career advice and requesting a photo. The most helpful aspect was the initial acknowledgement, but the lack of a concrete answer to the debt question and the use of a tease at the end significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 10802,
+  "output_tokens": 1447
+ }
+}

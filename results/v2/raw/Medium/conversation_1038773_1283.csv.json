@@ -1,0 +1,269 @@
+{
+ "file": "conversation_1038773_1283.csv",
+ "tier": "Medium",
+ "user_id": "1038773",
+ "ltv": 3613.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": 3,
+  "1.3": 3,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.98,
+ "buckets": {
+  "B1": 2.75,
+  "B2": 2.14,
+  "B3": 4.0,
+  "B4": 8.0,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 6
+  },
+  "4.1": {
+   "score": 7,
+   "M": 12,
+   "long_frac": 0.083,
+   "max_words": 31,
+   "avg_words": 13.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific feelings of hopelessness and the fact that the person does not reciprocate, instead pushing for a photo and promising a relationship.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or unnecessary (asking for the name after the user said they only know the name, asking for a photo).",
+    "quotes": [
+     "Aap Kisi Ko pasand karte Hain",
+     "Naam Bata dijiye iska jiske Sath aap relation mein aana chahte Hain",
+     "Aap mujhe apne left hand right hand ka photo send kar dijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and DOB, but does not use them to provide any reading about the match, instead asking for a hand photo.",
+    "quotes": [
+     "Naam Bata dijiye iska jiske Sath aap relation mein aana chahte Hain"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks any chart-based reasoning or specific insight into the user's life.",
+    "quotes": [
+     "Use ladki ke sath aap relation mein aaenge uske sath rishta bhi aapka chalega"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a prediction without any reason or chart-based explanation.",
+    "quotes": [
+     "Next manth mein aap relation mein aaenge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'planet' but provides no explanation or link to the user's life.",
+    "quotes": [
+     "Aapki planet mein prabhav hai main sirf"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the reading remains superficial and repetitive.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time ('Next manth') as a certainty without any chart-based justification.",
+    "quotes": [
+     "Next manth mein aap relation mein aaenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a remedy but does not explain what it is or how it relates to the user's problem, and it is presented as a condition for the relationship.",
+    "quotes": [
+     "Aap relation mein aaenge main aapko ek remedies suggest karta hun agar aap kar lenge"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's doubt and continues to push the same narrative.",
+    "quotes": [
+     "Sir mujhe nhi lagta uske saath relation hoga"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about remedies to keep the user engaged.",
+    "quotes": [
+     "main aapko ek remedies suggest karta hun agar aap kar lenge"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are not providing value.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a prediction without any depth or reason.",
+    "quotes": [
+     "Next manth mein aap relation mein aaenge"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user expresses doubt ('Sir mujhe nhi lagta uske saath relation hoga'), and the astrologer ignores it completely, continuing to push the same prediction.",
+    "quotes": [
+     "Sir mujhe nhi lagta uske saath relation hoga"
+    ],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "love and personal life improvements and when will I meet a good person",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead relying on generic predictions and repeatedly asking for unnecessary details like hand photos. The most helpful aspect was the quick response time, but the lack of depth and failure to address the user's concerns made the consultation ineffective."
+ },
+ "usage": {
+  "input_tokens": 10782,
+  "output_tokens": 1354
+ }
+}

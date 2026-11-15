@@ -1,0 +1,282 @@
+{
+ "file": "conversation_913184_285.csv",
+ "tier": "Medium",
+ "user_id": "913184",
+ "ltv": 2295.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 3.76,
+ "buckets": {
+  "B1": 3.0,
+  "B2": 2.71,
+  "B3": 1.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 7,
+   "M": 15,
+   "long_frac": 0.067,
+   "max_words": 48,
+   "avg_words": 12.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific question about his love interest and instead repeatedly demands birth details, failing to acknowledge the user's emotional concern.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details repeatedly (Type C) even after the user struggles to provide them, and fails to build on the user's input.",
+    "quotes": [
+     "Unka detail bataiye",
+     "Aur unka date of birth",
+     "Jaldi bataiye date off birth"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but does so in a demanding, repetitive way without explaining how it will help the reading, and never uses the details.",
+    "quotes": [
+     "Unka detail bataiye",
+     "Tabhi to check kar paungi na"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provided is generic and lacks any chart-based reasoning or specific insight into the user's life.",
+    "quotes": [
+     "Aapki shaadi mein bhi bahut samay hai bahut jyada samay"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage timing but does so in a dismissive manner after failing to get the requested data.",
+    "quotes": [
+     "Mayeri shadi kab hogi",
+     "2026 ke bad hi aur bhi time lagega 27 ke bad hi hai"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors or reasons are provided for the marriage timing prediction.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the messages are repetitive demands for data.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague time window (2027+) without any chart-based justification.",
+    "quotes": [
+     "2026 ke bad hi aur bhi time lagega 27 ke bad hi hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a remedy but it is conditional on providing data, which feels like a pitch.",
+    "quotes": [
+     "Hamesha rahana Hai To uske liye bhi upay bataungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the love question and focuses only on the marriage timing question.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the partner's feelings to pressure the user for data.",
+    "quotes": [
+     "unke man mein aapke liye kya hai yah bhi bataungi per mujhe aap unka date off birth sahi se bataiye"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for data and suggests the user reconnect, which acts as an early close.",
+    "quotes": [
+     "Aap fir se mujhe connect Kar lijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for data and instructions to reconnect, leaving the user with no actual insight.",
+    "quotes": [
+     "Aap fir se mujhe connect Kar lijiye aur unka date off birth Bata dijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer is repetitive and demanding.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mayeri shadi kab hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's emotional concern and instead repeatedly demanded birth details in a pushy manner. The lack of chart-based insight and the constant pressure to reconnect made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 10523,
+  "output_tokens": 1361
+ }
+}

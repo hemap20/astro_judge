@@ -1,0 +1,583 @@
+{
+ "file": "conversation_1117625_168.csv",
+ "tier": "High",
+ "user_id": "1117625",
+ "ltv": 6450.22,
+ "n_msgs": 55,
+ "n_astro_msgs": 33,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": 3,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 6.25,
+ "rubric_score": 6.25,
+ "blueprint": {
+  "score": 6.72,
+  "coverage": 0.5,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 1.0
+  },
+  "order": 0.857,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 19,
+   "S2": 111,
+   "S3": 29,
+   "S4": 227,
+   "S5": 158,
+   "S6": 494,
+   "S7": 853,
+   "S8": 304
+  }
+ },
+ "final": 6.48,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.67,
+  "B2": 5.33,
+  "B3": 5.33,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 10.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 10
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 9,
+    "quality": 2,
+    "note": "Acknowledges the user's stress and lack of satisfaction."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Asks for the question, but the user had to state it themselves."
+   },
+   "S4": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Gives a prediction about March, but it is vague."
+   },
+   "S5": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Asks about Jamshedpur job search, relevant to the concern."
+   },
+   "S6": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Connects April to Jamshedpur opportunity, but relies on palm reading."
+   },
+   "S7": {
+    "present": true,
+    "idx": 39,
+    "quality": 1,
+    "note": "Addresses the 2027 query."
+   },
+   "S8": {
+    "present": true,
+    "idx": 22,
+    "quality": 1,
+    "note": "Suggests a mantra, but lacks specific how/when details."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No specific hook for a next consultation provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's feeling of not being satisfied in the new job.",
+    "quotes": [
+     "Jaisa Ki Main dekh Pa Raha Hun yahan Se aap certified Nahin feel kar rahe hain apne aap ko"
+    ],
+    "score": 7,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the job search duration and priorities. These are Type B questions.",
+    "quotes": [
+     "Jamshedpur mein job ke liye aap kab se prayas kar rahe hain?",
+     "Job pasand aane ke liye aapki kya priority hai?"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": [
+      {
+       "idx": 14,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 45,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about April is specific and new, but lacks a strong chart-based reason.",
+    "quotes": [
+     "Aapke Pam reading se yah spasht ho raha hai ki April Month mein Opportunity jamshedpur main milegi"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about when the opportunity will come.",
+    "quotes": [
+     "Opportunity jamshedpur main milegi",
+     "April manth se offer aana start ho jaega"
+    ],
+    "score": 8,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 28,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart-based reasons provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add the 2027 prediction.",
+    "quotes": [
+     "2027 aapke liye Kafi jyada Bator hoga"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a window (April) for the job offer.",
+    "quotes": [
+     "April manth se offer aana start ho jaega"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Suggests a mantra but lacks how/when details.",
+    "quotes": [
+     "Main aapko ek Mantra suggest karna chahta hun"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 18,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": true,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the job topic throughout.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early close.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about a mantra and a goodbye.",
+    "quotes": [
+     "Aur uske साथ-साथ Mein Main aapko ek Mantra suggest karunga",
+     "Theek hai sir"
+    ],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy, no technical terms used.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Next opportunity kab milega aur mai chahta hu Ghar ke pass jamshedpur me mil jaye",
+  "main_question_idx": 10,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's concern about finding a job in Jamshedpur by providing a timeline. However, the reliance on palm reading and lack of chart-based explanations weakened the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 17621,
+  "output_tokens": 2586
+ },
+ "reference": {
+  "bare_acks": 3,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 6,
+   "1.4": null,
+   "2.1": 7,
+   "2.2": 8,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

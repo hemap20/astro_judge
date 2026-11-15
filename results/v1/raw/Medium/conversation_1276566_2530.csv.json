@@ -1,0 +1,597 @@
+{
+ "file": "conversation_1276566_2530.csv",
+ "tier": "Medium",
+ "user_id": "1276566",
+ "ltv": 2149.0,
+ "n_msgs": 101,
+ "n_astro_msgs": 75,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 9,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": 9,
+  "3.1": 9,
+  "3.2": 9,
+  "3.3": 9,
+  "4.2": 9,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 7.98,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 9.0,
+  "B3": 9.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 14
+  },
+  "4.1": {
+   "score": 4,
+   "M": 22,
+   "long_frac": 0.013,
+   "max_words": 33,
+   "avg_words": 10.8,
+   "bursts": 8,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about marriage in the first few messages.",
+    "quotes": [
+     "Vivah ka yog to aapka banaa hua Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the partner and family, which are relevant to the user's query.",
+    "quotes": [
+     "Ladke ka naam kya hai",
+     "Family ki kya sthiti hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading.",
+    "quotes": [
+     "Ladke ka naam kya hai",
+     "Kyunki Maine uske naam se jo aapke kundli ko Milan Kiya Hai to sthiti to bahut acchi ban rahi hai"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific, about the present, and uses chart-based reasoning.",
+    "quotes": [
+     "Sunny prapat thode Se down Hai jis vajah Se aapke har kamon mein Thoda Sa Sangharsh to Hai",
+     "Maine Bina Sangharsh ke koi bhi kam aapke nahin hote honge"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the marriage.",
+    "quotes": [
+     "Dekho shaadi ki sthiti jo ban rahi hai 2026 mein Hi ban rahi hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links life struggles to the position of Saturn (Shani) and Mars (Mangal).",
+    "quotes": [
+     "Sunny prapat thode Se down Hai jis vajah Se aapke har kamon mein Thoda Sa Sangharsh to Hai",
+     "Aapke hast rekhaon mein Angel likha hai yani ki Mangal Rekha"
+    ],
+    "score": 9
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by adding new insights about the partner and family issues.",
+    "quotes": [
+     "Lekin family yishu bhi aaenge",
+     "Khaskar ke ladke ki taraf kuchh jyada rahenge"
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear window for the event without making a promise.",
+    "quotes": [
+     "Dekho shaadi ki sthiti jo ban rahi hai 2026 mein Hi ban rahi hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides practical advice regarding the partner and family.",
+    "quotes": [
+     "aur is baar ghar walon se khud baat kijiye"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage question throughout the chat.",
+    "quotes": [
+     "Vivah ka yog to aapka banaa hua Hai",
+     "Dekho shaadi ki sthiti jo ban rahi hai 2026 mein Hi ban rahi hai"
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by offering to read the partner's photo for loyalty and commitment.",
+    "quotes": [
+     "Aur loyalty bhi pata chal jayegi kya sthiti hai",
+     "Aur kab tak commentment denge iska bhi thoda clear ho jaega"
+    ],
+    "score": 9
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the conversation going with relevant readings and requests for photos.",
+    "quotes": [
+     "Apni bhi pic send kar do",
+     "Main donon ki energy check kar leta Hun"
+    ],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on reading the photos to provide further insight.",
+    "quotes": [
+     "Main donon ki energy check kar leta Hun"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like 'Shani' and 'Mangal' with explanations.",
+    "quotes": [
+     "Sunny prapat thode Se down Hai jis vajah Se aapke har kamon mein Thoda Sa Sangharsh to Hai",
+     "Aapke hast rekhaon mein Angel likha hai yani ki Mangal Rekha"
+    ],
+    "score": 9
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya app bol sakte mere shadhi kb hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 82,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the user's marriage and used chart-based reasoning to explain life struggles. The consultation was highly engaging, with the astrologer actively using the user's inputs to build a deeper reading."
+ },
+ "usage": {
+  "input_tokens": 12540,
+  "output_tokens": 2640
+ }
+}

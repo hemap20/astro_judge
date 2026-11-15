@@ -1,0 +1,430 @@
+{
+ "file": "conversation_1373927_2515.csv",
+ "tier": "High",
+ "user_id": "1373927",
+ "ltv": 19165.0,
+ "n_msgs": 81,
+ "n_astro_msgs": 46,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 8,
+  "2.5": 9,
+  "2.6": 7,
+  "2.7": 9,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 9,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.81,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 8.0,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 4.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the separation and the husband's interest, though it is somewhat generic.",
+    "quotes": [
+     "Ardam ayindi mam",
+     "Vallaki interested undi mam"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to the user; all questions are from the user to the astrologer.",
+    "quotes": [],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details to check the compatibility and reunion chances, which is appropriate.",
+    "quotes": [
+     "Mee husband details ha mam"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the marriage being with someone known (classmate) is specific and new.",
+    "quotes": [
+     "Meeru telisina vallatho ne pelli chesukunnaru mam"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction regarding the reunion chances and the timeline.",
+    "quotes": [
+     "Ledu ante renuion chances takkuva andi",
+     "June month nundi set havutaru mam"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the separation and issues to the rasi and planetary influence in plain words.",
+    "quotes": [
+     "Iddari Jatakam prakaramga challa issues and mind disturbance and temporary separation e undi mam"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by addressing the user's concern about the husband's support and the recurring nature of the issues.",
+    "quotes": [
+     "Prati chinna chinna vishayam paina koncham issues and disturbance and anger issues vastundi mam"
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for the situation to improve without making false promises.",
+    "quotes": [
+     "June month nundi set havutaru mam"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No specific remedy was given; the astrologer focused on the reading.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the reunion and the husband's behavior throughout the chat.",
+    "quotes": [
+     "Ikkada inka 2 months varaku communication gap or temporary separation e vastundi mam",
+     "June month nundi set havutaru mam"
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the husband's nature and potential for future issues.",
+    "quotes": [
+     "Prati chinna chinna vishayam paina koncham issues and disturbance and anger issues vastundi mam"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and provides relevant insights until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about moving to a call for further clarity, which is a natural progression.",
+    "quotes": [
+     "Call lo chepatanu clear ga mam"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses the user's preferred style (Telugu/Hinglish mix).",
+    "quotes": [
+     "Ardam ayindi mam",
+     "Tapuga hanukokanddi please mam"
+    ],
+    "score": 9
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Pls check his chart and see what are the chances for divorce or reunion?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided clear insights into the user's marital situation and gave a realistic timeline for potential reconciliation. The chat was helpful because it addressed the user's specific concerns about her husband's behavior and the possibility of divorce without using fear tactics."
+ },
+ "usage": {
+  "input_tokens": 11955,
+  "output_tokens": 1909
+ }
+}

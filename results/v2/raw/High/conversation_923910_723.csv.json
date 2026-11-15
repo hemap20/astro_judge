@@ -1,0 +1,369 @@
+{
+ "file": "conversation_923910_723.csv",
+ "tier": "High",
+ "user_id": "923910",
+ "ltv": 5444.0,
+ "n_msgs": 58,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 1,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.62,
+ "buckets": {
+  "B1": 1.5,
+  "B2": 1.0,
+  "B3": 1.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 9,
+   "R": null,
+   "T": 9
+  },
+  "4.1": {
+   "score": 10,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 8,
+   "avg_words": 2.5,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     36,
+     38,
+     53,
+     56,
+     57
+    ],
+    "reason": "The astrologer pushes a paid video call healing session and asks the user to recharge to proceed."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to acknowledge the user's distress or the specific situation regarding her friend, instead repeatedly asking for details and then pushing a paid service.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, many of which are Type C (asking for photos, asking for details already implied or irrelevant to the immediate reading).",
+    "quotes": [
+     "Friend name please",
+     "Enthan issue?",
+     "Photo ondo?"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the friend's name and photo but never uses them to provide any insight or reading about the friend or the relationship.",
+    "quotes": [
+     "Friend name please",
+     "Photo ondo?"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "There is no reading provided in the window. The astrologer only asks questions and pitches a paid service.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main concern about her friend's silence is never addressed or answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading is provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading is provided to build upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction is provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The only 'remedy' offered is a paid video call session, which is a pitch.",
+    "quotes": [
+     "First healing session",
+     "With me",
+     "On video call for 30 mins"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main thread is ignored as no reading is ever given.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No reading is provided, so no further layer is opened.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide value and instead focuses on pushing a paid recharge.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about recharging, which provides no value or closure.",
+    "quotes": [
+     "Eppol recharge chaiyth",
+     "Chaiyam"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses English/Hinglish while the user is communicating in Malayalam, and the astrologer provides no actual reading or astrological insight.",
+    "quotes": [],
+    "score": 1
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Why is my friend not in contact with me?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead spending the entire session asking for details and pushing a paid healing session. The lack of engagement with the user's emotional state and the focus on payment significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 11148,
+  "output_tokens": 1543
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#36 [05:36] ASTRO: First healing session\n#38 [05:58] ASTRO: On video call for 30 mins\n#53 [09:02] ASTRO: Eppol recharge chaiyth\n#56 [09:54] USER: Recharge cheytha mathiyo\n#57 [09:59] ASTRO: Yes",
+   "reason": "The astrologer pushes a paid video call healing session and asks the user to recharge to proceed.",
+   "quote_en": "#36 [05:36] ASTRO: First healing session\n#38 [05:58] ASTRO: On video call for 30 mins\n#53 [09:02] ASTRO: When did you recharge?\n#56 [09:54] USER: Is it enough if I just recharge?\n#57 [09:59] ASTRO: Yes"
+  }
+ }
+}

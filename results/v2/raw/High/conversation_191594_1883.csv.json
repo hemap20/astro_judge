@@ -1,0 +1,300 @@
+{
+ "file": "conversation_191594_1883.csv",
+ "tier": "High",
+ "user_id": "191594",
+ "ltv": 5037.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.33,
+  "B2": 1.57,
+  "B3": 1.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     20,
+     21,
+     24,
+     30,
+     31
+    ],
+    "reason": "The astrologer uses the need to 'check aura' and 'see energies' to repeatedly push the user to switch to a paid video call service, creating urgency by implying the reading cannot proceed without it."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's request for a life reading, instead focusing on data and then pushing for a video call.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a video call, which is a Type C request as it is a platform-specific action rather than a question about the user's life or chart.",
+    "quotes": [
+     "Can you connect with me over the call to check"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about her own life, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and contains a factual error (August 2025 is in the future).",
+    "quotes": [
+     "Since august 2025 u r struggling"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked when things will get better, and the astrologer never answers, instead pushing for a video call.",
+    "quotes": [
+     "Ye kb thik hoga?",
+     "I need to check your aura"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided for the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth is built; the astrologer only repeats the need for a video call.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a future date (August 2025) as a past struggle, which is a contradiction/error.",
+    "quotes": [
+     "Since august 2025 u r struggling"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The only advice given is to switch to a video call, which is a platform-specific push.",
+    "quotes": [
+     "Go to my profile and there is an option for video call"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the 'aura check' as a tease to force a video call.",
+    "quotes": [
+     "I need to check your aura"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for a video call instead of providing a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests to disconnect and join a video call.",
+    "quotes": [
+     "Yes mam"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses English, which is acceptable, but the language is not helpful or insightful.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger from the rubric was met.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya aap bta skte h meri life m kya chl rha h",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead repeatedly pressuring the user to switch to a paid video call. The reading provided contained a significant factual error regarding the date."
+ },
+ "usage": {
+  "input_tokens": 10694,
+  "output_tokens": 1328
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#20 [02:40] ASTRO: Can you connect with me over the call to check\n#21 [02:48] ASTRO: Sorry video call\n#24 [03:10] ASTRO: Connect with me over the video call\n#30 [03:53] ASTRO: Go to my profile and there is an option for video call\n#31 [04:31] ASTRO: Can you connect over video ?",
+   "reason": "The astrologer uses the need to 'check aura' and 'see energies' to repeatedly push the user to switch to a paid video call service, creating urgency by implying the reading cannot proceed without it.",
+   "quote_en": "#20 [02:40] ASTRO: Can you connect with me over the call to check\n#21 [02:48] ASTRO: Sorry video call\n#24 [03:10] ASTRO: Connect with me over the video call\n#30 [03:53] ASTRO: Go to my profile and there is an option for video call\n#31 [04:31] ASTRO: Can you connect over video ?"
+  }
+ }
+}

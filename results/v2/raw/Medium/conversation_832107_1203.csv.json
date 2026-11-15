@@ -1,0 +1,274 @@
+{
+ "file": "conversation_832107_1203.csv",
+ "tier": "Medium",
+ "user_id": "832107",
+ "ltv": 540.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 9,
+  "2.1": 6,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.19,
+ "buckets": {
+  "B1": 5.0,
+  "B2": 3.43,
+  "B3": 3.67,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 5
+  },
+  "4.1": {
+   "score": 10,
+   "M": 14,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 7.9,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by mentioning the partner's feelings and the relationship status, but fails to name the user's feeling of distress or the specific breakup context.",
+    "quotes": [
+     "आपके पार्टनर की कुंडली के अनुसार जैसा कि मैं देख पा रहा हूं उनके अंदर आपके लिए फीलिंग काफी अच्छी दिख रही है"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo, which is not necessary for a horoscope reading, making it a Type C question.",
+    "quotes": [
+     "जी आप उनका फोटो भेजिए जैसे"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about the partner's feelings, which is relevant to the user's question.",
+    "quotes": [
+     "Aap apne GF ka detail send kijiye",
+     "आपके पार्टनर की कुंडली के अनुसार जैसा कि मैं देख पा रहा हूं उनके अंदर आपके लिए फीलिंग काफी अच्छी दिख रही है"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons or concrete markers that would make it unique to the user's situation.",
+    "quotes": [
+     "उनके अंदर आपके लिए फीलिंग काफी अच्छी दिख रही है"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked whether to continue the relationship, and the astrologer did not provide a clear direction, instead asking for a photo.",
+    "quotes": [
+     "कंटिन्यू करू या नाही करू"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the partner's horoscope but does not link it to any specific chart factors or planetary positions.",
+    "quotes": [
+     "आपके पार्टनर की कुंडली के अनुसार"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings are repetitive and do not add new, specific insights based on the user's input.",
+    "quotes": [
+     "आप दोनों को रिलेशनशिप में भी काफी अच्छा दिख रहा है"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or specific window was provided for the relationship outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer did not answer the main question about continuing the relationship, so there was no thread to hold.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a vague tease to keep the user engaged without providing value.",
+    "quotes": [
+     "साथ ही साथ मैं आपको अच्छी खबर देना चाहता हूं"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are not consistently providing value.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease without a reading, leaving the user with no concrete information.",
+    "quotes": [
+     "साथ ही साथ मैं आपको अच्छी खबर देना चाहता हूं"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language that matches the user's Hinglish, but the lack of explanation for astrological terms (or lack of terms) keeps it at a medium level.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "कंटिन्यू करू या नाही करू",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully gathered the necessary details to look at the partner's chart but failed to provide a clear answer to the user's main question about the relationship. The consultation was hurt by unnecessary requests for photos and vague teases that did not provide actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 10561,
+  "output_tokens": 1328
+ }
+}

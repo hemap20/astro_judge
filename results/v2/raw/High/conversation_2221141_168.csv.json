@@ -1,0 +1,256 @@
+{
+ "file": "conversation_2221141_168.csv",
+ "tier": "High",
+ "user_id": "2221141",
+ "ltv": 19534.9,
+ "n_msgs": 19,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 10,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 7.08,
+ "buckets": {
+  "B1": 8.75,
+  "B2": 6.57,
+  "B3": 6.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 20,
+   "avg_words": 11.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 7
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about Priyam's feelings in message #7.",
+    "quotes": [
+     "Kavita ji jaisa ki Main dekh Pa raha hun priyam ji ka feeling thoughts acche Hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions to the user; all messages are readings or responses to the user's inputs.",
+    "quotes": [],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details in response to the user's question, and uses them to provide a reading about Priyam's feelings and situation.",
+    "quotes": [
+     "Kavita ji jaisa ki Main dekh Pa raha hun priyam ji ka feeling thoughts acche Hain"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading is about the present, provides new information (he is confused), is specific, and is tied to the chart.",
+    "quotes": [
+     "Kavita ji jaisa ki Main dekh Pa raha hun priyam ji ka feeling thoughts acche Hain",
+     "But priyam ji pichhle kuchh samay se confuse hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether he likes her.",
+    "quotes": [
+     "Kavita ji bilkul aapko pasand karta hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer provides readings but does not link them to specific chart factors like dasha or grah in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about a third person and the future, using the user's input.",
+    "quotes": [
+     "Kavita ji jaisa ki main dekh Pa raha hun aap donon ke bich mein Koi third person bhi involve hai",
+     "Priyam ji ke sath mein aapka future nahin kafi achcha dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stayed on the same topic throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about a third person influencing the situation.",
+    "quotes": [
+     "Kavita ji jaisa ki main dekh Pa raha hun aap donon ke bich mein Koi third person bhi involve hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended due to time.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a partial sentence that cuts off, failing to provide a meaningful final reading.",
+    "quotes": [
+     "Priyam ke life mein pichhle kuchh samay se"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya wo pasand krta h ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and provided direct answers about the person of interest. However, the chat ended abruptly with an incomplete sentence, and the astrologer failed to explain the chart-based reasons for the insights provided."
+ },
+ "usage": {
+  "input_tokens": 10555,
+  "output_tokens": 1248
+ }
+}

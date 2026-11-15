@@ -1,0 +1,324 @@
+{
+ "file": "conversation_418962_1436.csv",
+ "tier": "High",
+ "user_id": "418962",
+ "ltv": 10746.74,
+ "n_msgs": 34,
+ "n_astro_msgs": 20,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 9,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 1,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 6.57,
+  "B3": 7.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 1,
+   "M": 10,
+   "long_frac": 0.55,
+   "max_words": 57,
+   "avg_words": 30.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     32,
+     33
+    ],
+    "reason": "The astrologer uses the fear of future problems ('aage chalkar') and the user's distress to push a paid remedy/intervention ('main kuchh karunga')."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's career struggle and the feeling of things not going as planned.",
+    "quotes": [
+     "Maine kundli ke hisab se dekha aapke Surya ki sthiti kamjor hai situation mein kya hota hai carrier ko lekar kafi jyada disturbing rahata hai"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the user's career and later about the partner's details. These are relevant to the user's stated concerns.",
+    "quotes": [
+     "Abhi kya karte hain carrier ko lekar Simran ji"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to check his chart and face reading, which is relevant to the user's question about him.",
+    "quotes": [
+     "Unka detail hai kya pic vagaira hai aapke pass agar ho to aap send kijiye main unke bare mein aapko Bata deta hun"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the career and the partner's negative behavior is specific and relates to the user's current situation.",
+    "quotes": [
+     "Maine inke face reading ke hisab se dekha inke andar thinking hai aapko lekar lekin positive nahin hai negative to kar rahe hain lekin negative thinking hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether Akash will return.",
+    "quotes": [
+     "Aakash bilkul aaenge wapas"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the career struggle to the Sun's position.",
+    "quotes": [
+     "Maine kundli ke hisab se dekha aapke Surya ki sthiti kamjor hai situation mein kya hota hai carrier ko lekar kafi jyada disturbing rahata hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's input about the partner's change in behavior.",
+    "quotes": [
+     "Pahle nahin the vahi chij to main bhi bol raha hod"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline for the partner's return without promising a specific date.",
+    "quotes": [
+     "dobara se aaega lekin itni jaldi nahin aaega kuchh din ruk kar hi aaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers a remedy but it is tied to a vague promise of 'doing something' which leans towards a paid service.",
+    "quotes": [
+     "Main aapko kuchh upay bataunga usko karna hoga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages both the career and the relationship questions.",
+    "quotes": [
+     "Dekhiae carrier bahut achcha rahega job bahut achcha continue chalega",
+     "Aakash bilkul aaenge wapas"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's return.",
+    "quotes": [
+     "Aakash bilkul aaenge wapas uske liye main kuchh karunga"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended due to time.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a direct answer to the user's question.",
+    "quotes": [
+     "Aakash bilkul aaenge wapas uske liye main kuchh karunga aur aapko bhi use samay thoda sa samay Dena hoga"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [
+     "Maine kundli ke hisab se dekha"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Will my boyfriend Akash come back to the salon?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's concerns about her career and relationship by providing specific insights. However, the consultation was marred by the astrologer using vague promises of intervention to create dependency, which negatively impacted the trust and quality of the guidance."
+ },
+ "usage": {
+  "input_tokens": 11518,
+  "output_tokens": 1583
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#32 [11:42] ASTRO: Main aapko kuchh upay bataunga usko karna hoga aur already thoda sa kuchh Dhyan dijiye is hisab se agar continue kuchh aisi chijen kar denge na jiski vajah se aapko aage chalkar\n#33 [11:56] ASTRO: Aakash bilkul aaenge wapas uske liye main kuchh karunga aur aapko bhi use samay thoda sa samay Dena hoga",
+   "reason": "The astrologer uses the fear of future problems ('aage chalkar') and the user's distress to push a paid remedy/intervention ('main kuchh karunga').",
+   "quote_en": "#32 [11:42] ASTRO: I will suggest some remedies that you will need to perform, and you should also pay some attention to this; if you continue doing certain things like this, then because of that, in the future\n#33 [11:56] ASTRO: Aakash will definitely come back, I will do something for that, and you will also have to dedicate some time at that moment."
+  }
+ }
+}

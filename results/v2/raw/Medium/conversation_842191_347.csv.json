@@ -1,0 +1,359 @@
+{
+ "file": "conversation_842191_347.csv",
+ "tier": "Medium",
+ "user_id": "842191",
+ "ltv": 720.0,
+ "n_msgs": 47,
+ "n_astro_msgs": 29,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.84,
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.71,
+  "B3": 2.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 3,
+   "M": 29,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 5.1,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about pregnancy in the first reply after the question, instead asking for more data.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner's DOB, marriage date, last period date, and hand photo. These are Type C questions as they are data requests or irrelevant to the core question.",
+    "quotes": [
+     "Partner name",
+     "Date of birth",
+     "Marriage date",
+     "Last period date",
+     "Can you send me your left hand pic"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but does not use them to provide a reading about the match or the partner's chart.",
+    "quotes": [
+     "Partner name",
+     "Date of birth"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasoning or a concrete marker for the user to verify.",
+    "quotes": [
+     "kundli mein bhi partner and baby ko lekar acha yog hi"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a vague time window after the user repeats the question.",
+    "quotes": [
+     "Nov k pass"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' but does not link it to any specific life event or provide a clear explanation of the chart factor.",
+    "quotes": [
+     "kundli mein bhi partner and baby ko lekar acha yog hi"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings do not build on the user's input or add meaningful depth.",
+    "quotes": [
+     "Aane wale samay mein change dekhno ko milega",
+     "2026 mein"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague time window ('Nov k pass') without a clear basis or consistency.",
+    "quotes": [
+     "Nov k pass"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer hints at a 'mistake' but does not provide a clear, actionable remedy, instead asking for a phone number check.",
+    "quotes": [
+     "Aap kuch mistake bhi kar rahe ho use",
+     "Aap jo phone number use kar rahe ho usme 2 48 digit"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer does not hold the main thread effectively, shifting to phone numbers and hand photos.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a 'mistake' to keep the user engaged without providing a clear answer.",
+    "quotes": [
+     "Aap kuch mistake bhi kar rahe ho use"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple short, fragmented messages that stall the chat.",
+    "quotes": [
+     "And",
+     "And",
+     "Because"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a fragmented, incomplete sentence that provides no closure or value.",
+    "quotes": [
+     "Ji jaise ki mein dekh pa rahi ho aap ko feb last mein"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses fragmented, non-conversational sentences.",
+    "quotes": [
+     "And",
+     "Because"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main pregnent kab hongi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a coherent reading, instead bombarding the user with fragmented messages and irrelevant data requests. The lack of clear, empathetic communication and the failure to address the user's core concern significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 10946,
+  "output_tokens": 1606
+ }
+}

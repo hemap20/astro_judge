@@ -1,0 +1,370 @@
+{
+ "file": "conversation_693391_658.csv",
+ "tier": "Medium",
+ "user_id": "693391",
+ "ltv": 1984.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 6,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.58,
+ "rubric_score": 5.58,
+ "blueprint": {
+  "score": 4.96,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 2,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S3": 65,
+   "S4": 297,
+   "S5": 114,
+   "S6": 297
+  }
+ },
+ "final": 5.27,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.33,
+  "B2": 5.0,
+  "B3": 3.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.143,
+   "max_words": 53,
+   "avg_words": 16.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Acknowledged the question but did not restate it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Gave a specific time window for the renovation."
+   },
+   "S5": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asked for direction, but it was not directly tied to the renovation concern."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Mentioned the renovation yog but did not link it to specific chart factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's question about renovation in message 6, but did not repeat any details or name feelings.",
+    "quotes": [
+     "ok, I will check and let you know"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the house direction (Type B) and the husband's profession (Type B). No Type C questions were asked.",
+    "quotes": [
+     "thoda sa mujhe Ghar ki direction Bata sakti hain kya",
+     "Kavita ji aapke husband kya karte hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the renovation timing is specific and about the future, but it lacks a chart reason.",
+    "quotes": [
+     "Kavita ji jaisa ki dikh Raha Hai mujhe ghar ko lekar Yog Jo dikh rahe hain vah 2026 April ki time period se shuru ho rahe hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a clear time window for the renovation without the user repeating the question.",
+    "quotes": [
+     "I want to ask about when will my house be renuvated",
+     "Kavita ji jaisa ki dikh Raha Hai mujhe ghar ko lekar Yog Jo dikh rahe hain vah 2026 April ki time period se shuru ho rahe hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned 'Sani planet' but did not link it to the user's life in a meaningful way.",
+    "quotes": [
+     "jo Sani planet se unki Jo negative energy hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading about negative energy and delays adds a new point but does not use any specific details from the user.",
+    "quotes": [
+     "lekin kahin na kahin kuchh thoda sa negative energy bhi dikh rahi Hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a window (April 2026) and remained consistent.",
+    "quotes": [
+     "2026 April ki time period se shuru ho rahe hain"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned an 'anushthan' but did not provide how or when to do it.",
+    "quotes": [
+     "to uske liye ek anushthan hota hai"
+    ],
+    "score": 6
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but there were several bare acknowledgements.",
+    "quotes": [
+     "Ji",
+     "Ok sir"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a question about the husband's profession, which is not a reading.",
+    "quotes": [
+     "Kavita ji aapke husband kya karte hain"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Kavita ji jaisa ki dikh Raha Hai mujhe ghar ko lekar Yog Jo dikh rahe hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "when will my house be renuvated",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully provided a specific time window for the user's renovation query. However, the chat lacked depth, failed to provide actionable remedies, and ended on a generic question rather than a helpful hook."
+ },
+ "usage": {
+  "input_tokens": 15573,
+  "output_tokens": 1657
+ }
+}

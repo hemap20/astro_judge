@@ -1,0 +1,276 @@
+{
+ "file": "conversation_821993_752.csv",
+ "tier": "Medium",
+ "user_id": "821993",
+ "ltv": 2343.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.14,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 6.71,
+  "B3": 7.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.231,
+   "max_words": 56,
+   "avg_words": 20.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's relationship problem and the specific duration mentioned (8 months).",
+    "quotes": [
+     "8 manth se problem hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that build on the user's situation (e.g., asking if they want to reconcile, confirming the duration).",
+    "quotes": [
+     "Aap iski Life mein aage fir se badhana chahte ho hamesha ke liye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's birth details to better understand the relationship, which is relevant to the user's question.",
+    "quotes": [
+     "Unka date off birth kya hai bhaiya"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading identifies the current conflict and the partner's state of mind, which is specific and relevant to the user's situation.",
+    "quotes": [
+     "relation to aapka bahut achcha dikh raha hai problem uski taraf se a rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction regarding the possibility of reconciliation based on the partner's feelings.",
+    "quotes": [
+     "agar positive energy usko mil jaaye to vah swayam fir se aapki life mein aaegi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship problems to planetary influences (Brihaspati/Shukr) and the 5th house in simple terms.",
+    "quotes": [
+     "love life aur marriage life ke Jo karykram hote hain vah hamare devguru brihaspati aur shukr hote hain jismein love life se relationship mein jo problems a rahi hai vah use ladki ki taraf se hai jis Karan se 5वां sthan disturb hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the partner's current state and potential third-party attachment.",
+    "quotes": [
+     "vah Kisi aur ke Sath attachment mein ja rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a reading without making a firm, guaranteed promise of a specific date.",
+    "quotes": [
+     "agar positive energy usko mil jaaye to vah swayam fir se aapki life mein aaegi"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests positive energy as a remedy, though it is somewhat vague.",
+    "quotes": [
+     "bus ek bar usko positive energy mil jaaye jo dikkat hai vah samapt ho jayegi"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains focus on the relationship throughout the chat.",
+    "quotes": [
+     "Aap iski Life mein aage fir se badhana chahte ho hamesha ke liye"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by mentioning the partner's potential attachment to someone else.",
+    "quotes": [
+     "vah Kisi aur ke Sath attachment mein ja rahi hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the astrologer continues to provide insights until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a specific, albeit difficult, insight about the partner's current situation.",
+    "quotes": [
+     "vah Kisi aur ke Sath attachment mein ja rahi hai"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is conversational and easy to understand, using common terms.",
+    "quotes": [
+     "relation to aapka bahut achcha dikh raha hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship hoga nehi hoga",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively identified the core relationship issues and provided a clear, non-guaranteed perspective on the situation. The chat was most helped by the astrologer's ability to provide specific insights about the partner's state of mind, though it could have been improved by offering more concrete, actionable advice beyond 'positive energy'."
+ },
+ "usage": {
+  "input_tokens": 10786,
+  "output_tokens": 1398
+ }
+}

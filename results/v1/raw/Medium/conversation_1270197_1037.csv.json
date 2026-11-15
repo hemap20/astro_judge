@@ -1,0 +1,316 @@
+{
+ "file": "conversation_1270197_1037.csv",
+ "tier": "Medium",
+ "user_id": "1270197",
+ "ltv": 3260.82,
+ "n_msgs": 35,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": 8,
+  "2.1": 6,
+  "2.2": 1,
+  "2.3": 7,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.75,
+  "B2": 3.0,
+  "B3": 2.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 11.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं जिसे आप दोनों के बीच में लड़ाई कभी नहीं होगी जैसा आप चाहोगी वैसा ही होगा",
+    "reason": "The astrologer promises a specific outcome ('लड़ाई कभी नहीं होगी', 'जैसा आप चाहोगी वैसा ही होगा') to push for extending the chat time."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the fight with Sameer in the reading.",
+    "quotes": [
+     "आपकी कुंडली में इस समय राहु का बहुत ज्यादा नेगेटिव बना हुआ है इस वजह से लड़ाई हो रही है"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and then asks about the last conversation (Type B).",
+    "quotes": [
+     "समीर का डेट ऑफ बर्थ मालूम है",
+     "लास्ट बार कब बात हुई थी आप दोनों की"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details with a reason (to check the Kundli/energy) and uses the name Sameer.",
+    "quotes": [
+     "समीर का डेट ऑफ बर्थ मालूम है",
+     "जिससे आपकी और समीर की कुंडली चेक करके मैं आपको उचित जानकारी दूं"
+    ],
+    "score": 8
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, but it is generic and lacks a specific marker or deep chart reason beyond mentioning Rahu.",
+    "quotes": [
+     "आपकी कुंडली में इस समय राहु का बहुत ज्यादा नेगेटिव बना हुआ है इस वजह से लड़ाई हो रही है"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if he will come back, but the astrologer refuses to answer until a remedy is performed.",
+    "quotes": [
+     "तो मेरे पास आएंगे कि नहीं अब",
+     "जब तक आप राहु का उपाय नहीं करती हैं तब तक हम आपको कुछ भी नहीं बता पाएंगे"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the fighting to Rahu, which is a chart factor in plain words.",
+    "quotes": [
+     "आपकी कुंडली में इस समय राहु का बहुत ज्यादा नेगेटिव बना हुआ है इस वजह से लड़ाई हो रही है"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading adds that the energy is good, but it is not linked to the user's specific details.",
+    "quotes": [
+     "इनकी एनर्जी तो आपसे बहुत ही अच्छी है"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided; the astrologer refuses to answer until a remedy is done.",
+    "quotes": [
+     "जब तक आप राहु का उपाय नहीं करती हैं तब तक हम आपको कुछ भी नहीं बता पाएंगे"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a paid service/extension of time rather than a practical step.",
+    "quotes": [
+     "आप चैट टाइमिंग को बढ़ा लीजिए",
+     "मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about whether he will come back is never answered.",
+    "quotes": [
+     "तो मेरे पास आएंगे कि नहीं अब"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a remedy to hold the user's attention.",
+    "quotes": [
+     "मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं जिसे आप दोनों के बीच में लड़ाई कभी नहीं होगी"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for extending the chat time instead of providing a reading.",
+    "quotes": [
+     "आप चैट टाइमिंग को बढ़ा लीजिए"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to extend time.",
+    "quotes": [
+     "चेक टाइमिंग को बढ़ा लीजिए आप"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses the user's name.",
+    "quotes": [
+     "समीर का डेट ऑफ बर्थ मालूम है"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "तो मेरे पास आएंगे कि नहीं अब",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to answer the user's core question, instead repeatedly pressuring the user to extend the chat time for a remedy. This behavior, combined with promising guaranteed results, makes the consultation highly unprofessional."
+ },
+ "usage": {
+  "input_tokens": 10640,
+  "output_tokens": 1516
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं जिसे आप दोनों के बीच में लड़ाई कभी नहीं होगी जैसा आप चाहोगी वैसा ही होगा",
+   "reason": "The astrologer promises a specific outcome ('लड़ाई कभी नहीं होगी', 'जैसा आप चाहोगी वैसा ही होगा') to push for extending the chat time.",
+   "quote_en": "I will perform a small remedy for you today, after which there will never be any fights between you two, and everything will happen exactly as you wish."
+  }
+ }
+}

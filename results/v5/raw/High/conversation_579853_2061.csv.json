@@ -1,0 +1,708 @@
+{
+ "file": "conversation_579853_2061.csv",
+ "tier": "High",
+ "user_id": "579853",
+ "ltv": 18268.0,
+ "n_msgs": 86,
+ "n_astro_msgs": 50,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.46,
+ "blueprint": {
+  "score": 4.54,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.933,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S2": 256,
+   "S3": 331,
+   "S4": 267,
+   "S5": 518,
+   "S6": 915
+  }
+ },
+ "final": 1.5,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 3.0,
+  "B3": 3.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.1,
+   "max_words": 56,
+   "avg_words": 12.9,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 1,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     81,
+     83
+    ],
+    "paid_idx": [
+     80
+    ],
+    "reason": "The astrologer uses fear/manipulation ('negative thinking', 'I will bring her into your life') to push for a reconnection/recharge in message 80.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Acknowledges feelings but very briefly."
+   },
+   "S3": {
+    "present": true,
+    "idx": 31,
+    "quality": 1,
+    "note": "Identifies the concern but asks basic questions."
+   },
+   "S4": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Gives a generic positive prediction."
+   },
+   "S5": {
+    "present": true,
+    "idx": 42,
+    "quality": 1,
+    "note": "Asks about relationship duration."
+   },
+   "S6": {
+    "present": true,
+    "idx": 63,
+    "quality": 1,
+    "note": "Connects future to marriage but lacks chart depth."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 80,
+    "quality": 0,
+    "note": "Hook is a paid pitch for reconnection."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's breakup and desire to reconnect, but the response is generic.",
+    "quotes": [
+     "koi baat nahin aap pareshan mat hoiye"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or generic questions.",
+    "quotes": [
+     "Jo rishta aaya Hai aap unka bataiye detail",
+     "Inke Sath aapka relationship kitne Dinon ka tha"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": [
+      {
+       "idx": 12,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 42,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the partner but does not use them for a reading.",
+    "quotes": [
+     "Agar aapke pass pic hai to ek bar change kar dijiye"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart markers.",
+    "quotes": [
+     "rishta dobara aane Ki chances dikhai de rahi hai"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about chances of reconnection.",
+    "quotes": [
+     "100 percent mein se 95% chances dikhai de rahi hai"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 54,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same generic positive outcome.",
+    "quotes": [
+     "rishta dobara aane Ki chances dikhai de rahi hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a specific percentage and time window without chart basis.",
+    "quotes": [
+     "95% chances",
+     "February ki last Tak"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the same topic.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are about the paid pitch.",
+    "quotes": [
+     "contact dobara kar sakte hain"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 24,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but lacks astrological depth.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ek rishta aya",
+  "main_question_idx": 2,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided generic positive predictions without any chart-based reasoning. The consultation ended with a manipulative pitch for reconnection, violating the no-pressure-to-pay policy."
+ },
+ "usage": {
+  "input_tokens": 18358,
+  "output_tokens": 3026
+ },
+ "reference": {
+  "bare_acks": 7,
+  "longest_ack_run": 2,
+  "judge_own_scores": {
+   "1.2": 3,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 4,
+   "2.7": 7,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#80 [20:01] ASTRO: Agar aap chahte Hain Ki aapka samay best Na Ho To Main check kar rahi hun aap kya 1 minut ke bad Mujhse contact dobara kar sakte hain uske bad main aapko bata rahi hun kya karna hai okay ji ismein aapka samay bhi nahin jaega Baki main check kar rahi hun\n#81 [20:10] ASTRO: Unki mind mein Jo Bhi negative thinking rahega Na use mein positive energy mein exchange kar dungi aur\n#83 [20:51] ASTRO: Unblock ko lekar tumhen dekh Leti hun aur dekhiae inko main aapki life mein laungi acchi tarike se aapko bilkul bhi pareshan nahin hona hai Ayush ji",
+   "reason": "The astrologer uses fear/manipulation ('negative thinking', 'I will bring her into your life') to push for a reconnection/recharge in message 80.",
+   "quote_en": "#80 [20:01] ASTRO: If you don't want your time to be wasted, I am checking it. Can you contact me again after 1 minute? After that, I will tell you what to do, okay? This way your time won't be wasted either, and I am checking it.\n#81 [20:10] ASTRO: Whatever negative thinking is in their mind, I will exchange it with positive energy and\n#83 [20:51] ASTRO: I will check regarding the unblock for you, and look, I will bring them into your life in a good way. You don't need to be worried at all, Ayush ji"
+  }
+ }
+}

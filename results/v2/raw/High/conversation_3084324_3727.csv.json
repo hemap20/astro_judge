@@ -1,0 +1,282 @@
+{
+ "file": "conversation_3084324_3727.csv",
+ "tier": "High",
+ "user_id": "3084324",
+ "ltv": 12132.76,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.8,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 5.29,
+  "B3": 6.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 14,
+   "long_frac": 0.214,
+   "max_words": 55,
+   "avg_words": 14.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about married life by providing a reading, but fails to name the feeling or build on the specific context of her 19-year marriage.",
+    "quotes": [
+     "Dekho aapke marriage bhav mein Mangal Dev Ji ki Rashi padh rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name twice (idx 19 and 22), which is redundant and counts as Type C.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar",
+     "Ek bar apne husband ka naam bataiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's name, but the request is repeated unnecessarily. The reading provided is generic and does not demonstrate a deep analysis of the match.",
+    "quotes": [
+     "Apne husband ka naam bataiye ek bar"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future and uses chart terms, but it is not specific enough to be verified by the user as unique to her situation.",
+    "quotes": [
+     "yahan third person issues ban gaya hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if the marriage will end. The astrologer gives a direct answer ('khatm ho jaega') and later clarifies he will return.",
+    "quotes": [
+     "Ji han khatm hoga",
+     "Ram Singh Ji ke naam ke anusar agar dekh rahi hun to yah wapas aaenge"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses chart terms like 'marriage bhav', 'Mangal Dev', and 'Shani ki Rashi' but does not explain them in plain, everyday language that the user can understand.",
+    "quotes": [
+     "Dekho aapke marriage bhav mein Mangal Dev Ji ki Rashi padh rahi hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point that the husband will return, which is a new point building on the initial reading.",
+    "quotes": [
+     "Ram Singh Ji ke naam ke anusar agar dekh rahi hun to yah wapas aaenge"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer says 'thoda sa time lagega' which is vague and not a specific window.",
+    "quotes": [
+     "Abhi thoda sa time lagega"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's main thread (the marriage) is held throughout.",
+    "quotes": [
+     "khatm ho jaega",
+     "yah wapas aaenge"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer or specific future insight is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended when time ran out.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a reading/insight about the timing.",
+    "quotes": [
+     "Abhi thoda sa time lagega"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms without explanation, making it difficult for the user to understand.",
+    "quotes": [
+     "marriage bhav",
+     "Mangal Dev Ji ki Rashi",
+     "Shani ki Rashi"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shadi ka kya future hai",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's concern about her marriage and provided a direct answer. However, the consultation was hurt by the repetitive request for the husband's name and the use of technical astrological jargon without clear explanations."
+ },
+ "usage": {
+  "input_tokens": 10761,
+  "output_tokens": 1369
+ }
+}

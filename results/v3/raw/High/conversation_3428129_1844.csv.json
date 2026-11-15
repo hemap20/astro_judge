@@ -1,0 +1,369 @@
+{
+ "file": "conversation_3428129_1844.csv",
+ "tier": "High",
+ "user_id": "3428129",
+ "ltv": 8945.58,
+ "n_msgs": 24,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 3,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.53,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S3": 234
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.5,
+  "B2": 2.29,
+  "B3": 2.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 7,
+   "M": 10,
+   "long_frac": 0.091,
+   "max_words": 33,
+   "avg_words": 12.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     23
+    ],
+    "paid_idx": [
+     19
+    ],
+    "evidence_idx": [
+     19,
+     23
+    ],
+    "reason": "The astrologer uses fear ('bada factor chupa hua hai') to push a paid remedy ('healing karva L')."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional distress."
+   },
+   "S3": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Identifies the concern but only after a long delay."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No meaningful initial prediction provided."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction based on chart factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 19,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": true,
+    "idx": 23,
+    "quality": 0,
+    "note": "Hook is used as a fear-based tease to push for more payment."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the situation in message 17, but it is very late and lacks empathy.",
+    "quotes": [
+     "Garima, aapki aur Devesh ki kundli mein abhi family pressure aur communication gap ka kaafi strong influence dikh raha hai."
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details which were necessary, but the interaction is purely data-gathering.",
+    "quotes": [
+     "Aap ek y bar uska detail share karo main check karta hun"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but fails to provide a reading based on them.",
+    "quotes": [
+     "Unka naam date off birth aur birth place"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No meaningful reading provided; the astrologer only states generalities about family pressure.",
+    "quotes": [
+     "family pressure aur communication gap ka kaafi strong influence dikh raha hai."
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question about the possibility of marriage is never answered.",
+    "quotes": [
+     "ab koi possibility nhi h kya mere uske shadi ki?"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons provided in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth built; the astrologer repeats vague statements.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid pitch.",
+    "quotes": [
+     "healing karva L"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is ignored.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a fear-based tease to keep the user engaged.",
+    "quotes": [
+     "Shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the content is empty.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a fear-based tease.",
+    "quotes": [
+     "Shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is Hinglish, but the astrologer is vague and uses no astrology terms correctly.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "ab koi possibility nhi h kya mere uske shadi ki?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight or answer the user's question, instead using fear-based tactics to push for a paid healing service. The consultation was largely a waste of the user's time with no real astrological value delivered."
+ },
+ "usage": {
+  "input_tokens": 15149,
+  "output_tokens": 1548
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#19 [04:40] ASTRO: Dekho iske liye aap ek chij kar sakte ho kyunki yah bahut jald sthitiyan badalta Hai aur vah khud Se standard lega ya to aap family convence ko lekar ke healing karva L\n#23 [05:04] ASTRO: Shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai",
+   "reason": "The astrologer uses fear ('bada factor chupa hua hai') to push a paid remedy ('healing karva L').",
+   "quote_en": "#19 [04:40] ASTRO: Look, you can do one thing for this because the situation changes very quickly and he will take a stand himself, or you can get healing done by involving the family.\n#23 [05:04] ASTRO: Another major factor is hidden behind the obstacles in marriage."
+  }
+ }
+}

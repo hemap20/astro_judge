@@ -1,0 +1,424 @@
+{
+ "file": "conversation_1395618_2195.csv",
+ "tier": "Medium",
+ "user_id": "1395618",
+ "ltv": 1200.0,
+ "n_msgs": 42,
+ "n_astro_msgs": 23,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 4,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.6,
+ "blueprint": {
+  "score": 4.75,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6,
+   "S3": 40,
+   "S4": 201,
+   "S5": 212,
+   "S6": 234
+  }
+ },
+ "final": 3.17,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 3.57,
+  "B3": 4.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.087,
+   "max_words": 48,
+   "avg_words": 13.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     33
+    ],
+    "paid_idx": [
+     38,
+     40
+    ],
+    "evidence_idx": [
+     33,
+     38,
+     40
+    ],
+    "reason": "The astrologer uses fear ('family bilkul swikar nahin karegi') and urgency ('tatkal mein milta hai') to push a paid mantra jaap service performed by the astrologer."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's emotional state."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided or not needed."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Generic prediction about matching charts."
+   },
+   "S5": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Follow-up question is generic and not deeply tied to the user's specific situation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 21,
+    "quality": 1,
+    "note": "Mentions Shani but lacks depth or connection to the user's specific chart."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional relevant layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 22,
+    "quality": 0,
+    "note": "Remedy is tied to a paid service pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's feelings or specific situation, jumping straight to data requests.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided (name/DOB) and assumes facts.",
+    "quotes": [
+     "Inka janm sthan aur janme ka time"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but does not use them for a meaningful reading, only for a generic match.",
+    "quotes": [
+     "Partner ka detail dijiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to any user asking about love marriage.",
+    "quotes": [
+     "aap donon ki kundli bahut acchi match ho rahi hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for marriage but it is vague and not well-supported.",
+    "quotes": [
+     "June manth mein dikh raha hai"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Shani and Rahu but does not explain them in plain words linked to the user's life.",
+    "quotes": [
+     "Sani ki vajah Se Hi marriage mein let ho raha hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use the user's specific details.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a vague window without a solid basis.",
+    "quotes": [
+     "Mai se June ke bich mein"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid service pitch.",
+    "quotes": [
+     "Main Rahu aur shukr ka Mantra Jaap kar deti hu"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer does not hold the thread well, focusing on the paid pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is dominated by the paid pitch.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pressure pitch.",
+    "quotes": [
+     "Agar aap time deti hai to yah Mantra Jaap main already aap donon ki family ke liye kar sakti hun"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the astrologer uses formal/scripted phrasing.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Love marriage",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic reading but failed to build emotional trust and quickly pivoted to a paid service pitch. The most helpful part was the initial confirmation of chart compatibility, while the aggressive push for paid mantra jaap significantly hurt the consultation quality."
+ },
+ "usage": {
+  "input_tokens": 15905,
+  "output_tokens": 1772
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#33 [08:28] ASTRO: To dekhiae aap bilkul pareshan mat hoiye bus aap family ke liye Rahu aur shukr ka Mantra Jaap karva lijiye Mantra Jaap ka result tatkal mein milta Hai jisse family bhi is marriage ke liye swikar karenge aur shukr ka Mantra kafi achcha hota hai marriage ke liye\n#38 [09:33] ASTRO: Aur agar aap time deti hai to Main Rahu aur shukr ka Mantra Jaap kar deti hu\n#40 [10:02] ASTRO: Agar aap time deti hai to yah Mantra Jaap main already aap donon ki family ke liye kar sakti hun",
+   "reason": "The astrologer uses fear ('family bilkul swikar nahin karegi') and urgency ('tatkal mein milta hai') to push a paid mantra jaap service performed by the astrologer.",
+   "quote_en": "#33 [08:28] ASTRO: See, please do not worry at all, just get the Mantra Jaap for Rahu and Shukr done for your family. The results of Mantra Jaap are immediate, which will make your family accept this marriage, and the Shukr Mantra is quite good for marriage.\n#38 [09:33] ASTRO: And if you give me the time, I can perform the Rahu and Shukr Mantra Jaap.\n#40 [10:02] ASTRO: If you give me the time, I can already perform this Mantra Jaap for both of your families."
+  }
+ }
+}

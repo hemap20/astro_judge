@@ -1,0 +1,350 @@
+{
+ "file": "conversation_1238716_2530.csv",
+ "tier": "Medium",
+ "user_id": "1238716",
+ "ltv": 1065.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 4.92,
+ "rubric_score": 4.92,
+ "blueprint": {
+  "score": 4.75,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 2,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 93,
+   "S3": 94,
+   "S4": 153,
+   "S6": 184
+  }
+ },
+ "final": 4.83,
+ "label": "mixed",
+ "buckets": {
+  "B1": 4.67,
+  "B2": 4.33,
+  "B3": 4.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 12,
+   "long_frac": 0.25,
+   "max_words": 47,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [
+     18
+    ],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": "The astrologer uses fear ('aage chalkar se Bheem ka prabhav to rahega') but does not link it to a paid element (pooja, payment, or extension request)."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of the user's frustration."
+   },
+   "S3": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Asks for the question even though the user already stated it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Gives a reading about Rahu/Shani affecting the marriage."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up question asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Mentions marriage prospects but is generic."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern in message 12 after a long delay.",
+    "quotes": [
+     "shaadi fix nahin Ho Pa rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo of the palm (Type C) after the user already provided birth details.",
+    "quotes": [
+     "Aap apne hatheli ka pic send kar do"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific, and tied to chart factors.",
+    "quotes": [
+     "sath mein bhav mein Rahu aur Shani ka prabhav"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks 'kb tk' and the astrologer avoids a direct answer, focusing on the quality of the marriage instead.",
+    "quotes": [
+     "Kb tk hoga aisa"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Links the marriage delay to Rahu and Shani in the 7th house.",
+    "quotes": [
+     "sath mein bhav mein Rahu aur Shani ka prabhav"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading adds no new depth, just repeats the quality of the marriage.",
+    "quotes": [
+     "bahut acchi shaadi Hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing window provided despite multiple asks.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided, only a request for a photo.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only has one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is not providing value.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests for photos.",
+    "quotes": [
+     "Aap apne left aur right hand ka pic send karo please"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple and accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi fix nahi ho rehi kahi bhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer correctly identified the planetary influence on the user's marriage delay but failed to provide a timeline or actionable remedy. The consultation was hurt by the astrologer repeatedly asking for palm photos instead of addressing the user's core question about timing."
+ },
+ "usage": {
+  "input_tokens": 15478,
+  "output_tokens": 1470
+ }
+}

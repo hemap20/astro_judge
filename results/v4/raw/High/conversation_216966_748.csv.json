@@ -1,0 +1,332 @@
+{
+ "file": "conversation_216966_748.csv",
+ "tier": "High",
+ "user_id": "216966",
+ "ltv": 24809.0,
+ "n_msgs": 21,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 7,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.27,
+ "rubric_score": 6.27,
+ "blueprint": {
+  "score": 4.6,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 2,
+   "S5": 0,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S2": 49,
+   "S3": 59,
+   "S4": 217,
+   "S6": 268
+  }
+ },
+ "final": 5.43,
+ "label": "mixed",
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.4,
+  "B3": 5.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.125,
+   "max_words": 39,
+   "avg_words": 15.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but lacks an invitation to share."
+   },
+   "S2": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Acknowledges tension but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 7,
+    "quality": 1,
+    "note": "Identifies the concern but asks for no further details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 2,
+    "note": "Gives a meaningful insight about the sudden detachment."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No follow-up question asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 18,
+    "quality": 1,
+    "note": "Connects to Shukra in 9th house but is generic."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 15, mentioning the sudden detachment and self-doubt, which reflects the user's shared worry.",
+    "quotes": [
+     "detachment jo hua hai apke apke beloved person ke saath vo ekdam sudden tha aur apko ek self doubt de kar chala gaya hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": true,
+    "reasoning": "No questions asked by the astrologer.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the partner's birth details, only the name and photo, and does not use them for a reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, adds new insight (sudden detachment), is specific to the relationship dynamic, and is tied to the user's chart.",
+    "quotes": [
+     "detachment jo hua hai apke apke beloved person ke saath vo ekdam sudden tha"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if he will return/marry. The astrologer says reunion is possible but does not provide a clear direction or time window.",
+    "quotes": [
+     "Dekhiye app dono ka reunion possible hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship status to the Shukra grah in the 9th house.",
+    "quotes": [
+     "apka shukra grah 9th house mein gochar kar rah hai jo relationship ko jinda rakh raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading (message 18) adds the point about the connection being alive, which is new and uses the user's context.",
+    "quotes": [
+     "app dono abhi bhi connected ho ek dusre se"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one main question (will he return/marry).",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer stops providing value at the end.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cliffhanger about a remedy, which is a tease without a reading.",
+    "quotes": [
+     "Dekhiye app dono ka reunion possible hai but uske appko sab se pehle ek kaam karna hoga ji"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Bhaiya kya wo ayenge wapas aana chahte he life me or shadi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a good initial insight into the relationship dynamic using chart factors. However, the consultation failed to provide a clear answer to the main question, lacked actionable remedies, and ended on a vague tease."
+ },
+ "usage": {
+  "input_tokens": 15488,
+  "output_tokens": 1490
+ }
+}

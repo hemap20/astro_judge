@@ -1,0 +1,408 @@
+{
+ "file": "conversation_1270197_1037.csv",
+ "tier": "Medium",
+ "user_id": "1270197",
+ "ltv": 3260.82,
+ "n_msgs": 35,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 1,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 4,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.71,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 70,
+   "S4": 188,
+   "S5": 134
+  }
+ },
+ "final": 2.05,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 1.86,
+  "B3": 1.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 11.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     26,
+     33
+    ],
+    "paid_idx": [
+     31,
+     34
+    ],
+    "evidence_idx": [
+     31,
+     33,
+     34
+    ],
+    "reason": "The astrologer uses fear ('jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge') and promises a guaranteed result ('jaisa aap chahogi waisa hi hoga') to pressure the user to extend the chat time."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Identified the concern but immediately asked for data."
+   },
+   "S4": {
+    "present": true,
+    "idx": 21,
+    "quality": 1,
+    "note": "Gave a generic Rahu-based insight."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 1,
+    "note": "Follow-up question asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalised prediction based on charts."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is tied to a paid extension."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignored the user's emotional distress and focused on data collection.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for birth details and photos, which are standard, but the pressure to extend time is a Type C behavior.",
+    "quotes": [
+     "Samer ka date of birth maloom hai",
+     "chat timing ko badha lijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the partner's details but never used them to provide a reading.",
+    "quotes": [
+     "Samer ka date of birth maloom hai"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's situation.",
+    "quotes": [
+     "Aapki kundli mein is samay Rahu ka bahut jyada negative bana hua hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answered whether the partner will return, instead demanding a remedy.",
+    "quotes": [
+     "jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Rahu but does not link it to the user's life in a meaningful way.",
+    "quotes": [
+     "Aapki kundli mein is samay Rahu ka bahut jyada negative bana hua hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth was built; the astrologer repeated the need for a remedy.",
+    "quotes": [
+     "Aap ek baar Rahu ka chhota sa upay usko kar lijiye"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided; the astrologer refused to answer until a remedy was performed.",
+    "quotes": [
+     "jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a paid extension of the chat.",
+    "quotes": [
+     "Aap chat timing ko badha lijiye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question was never answered.",
+    "quotes": [
+     "jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to force a paid extension.",
+    "quotes": [
+     "main aaj aapke liye ki chhoti si upay abhi kar deta hoon"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushed for a paid extension instead of providing value.",
+    "quotes": [
+     "Aap chat timing ko badha lijiye"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were pressure tactics for payment.",
+    "quotes": [
+     "check timing ko badha lijiye aap"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "तो मेरे पास आएंगे कि नहीं अब कभी वाफस",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight and instead used fear and pressure tactics to demand a paid chat extension. The user's emotional concern was completely ignored in favor of manipulative sales behavior."
+ },
+ "usage": {
+  "input_tokens": 15628,
+  "output_tokens": 1776
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#26 [03:52] ASTRO: जब तक आप राहु का उपाय नहीं करती हैं तब तक हम आपको कुछ भी नहीं बता पाएंगे\n#31 [04:32] ASTRO: आप चैट टाइमिंग को बढ़ा लीजिए\n#33 [04:52] ASTRO: मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं जिसे आप दोनों के बीच में लड़ाई कभी नहीं होगी जैसा आप चाहोगी वैसा ही होगा\n#34 [04:59] ASTRO: चेक टाइमिंग को बढ़ा लीजिए आप",
+   "reason": "The astrologer uses fear ('jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge') and promises a guaranteed result ('jaisa aap chahogi waisa hi hoga') to pressure the user to extend the chat time.",
+   "quote_en": "#26 [03:52] ASTRO: Until you perform the remedy for Rahu, we will not be able to tell you anything.\n#31 [04:32] ASTRO: Please extend your chat timing.\n#33 [04:52] ASTRO: I will perform a small remedy for you right now, after which there will never be any fights between you two, and everything will happen just as you wish.\n#34 [04:59] ASTRO: Please extend your chat timing."
+  }
+ }
+}

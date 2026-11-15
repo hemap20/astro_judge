@@ -1,0 +1,1287 @@
+{
+ "file": "conversation_2634220_347.csv",
+ "tier": "High",
+ "user_id": "2634220",
+ "ltv": 5090.52,
+ "n_msgs": 376,
+ "n_astro_msgs": 126,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.42,
+ "blueprint": {
+  "score": 3.85,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 25,
+   "S4": 158,
+   "S5": 89
+  }
+ },
+ "final": 1.13,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 3.0,
+  "B3": 5.0,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 4,
+   "T": 15
+  },
+  "4.1": {
+   "score": 4,
+   "M": 18,
+   "long_frac": 0.095,
+   "max_words": 71,
+   "avg_words": 9.7,
+   "bursts": 6,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 1,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No self-harm or crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No false identity claim."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     34,
+     41
+    ],
+    "paid_idx": [
+     36,
+     44,
+     50,
+     53
+    ],
+    "evidence_idx": [
+     34,
+     36,
+     44,
+     50,
+     53
+    ],
+    "reason": "The astrologer uses fear ('negative vibration', 'kam bigaad deti hai') to push for a paid 'blockage removal' service, repeatedly insisting on time and payment."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented life facts stated."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is minimal and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identified business issues but through guessing rather than listening."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Generic prediction about planet disbalance."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asked about business type."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 76,
+    "quality": 0,
+    "note": "Remedies are generic and tied to a paid blockage removal process."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's input and guesses business issues.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "Questions are generic and not built on user input.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No other person involved.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "Reading is generic and not specific to the user.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "No clear direction given for the business success.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Readings are repetitive and lack depth.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Promises results in 3 months without chart basis.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies are tied to a paid service.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Main thread is lost in Vastu/remedy talk.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but chat is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are about technical issues.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but lacks astrological depth.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Business issues and debt problem",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 111,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 117,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 128,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 139,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 141,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 142,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 145,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 148,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 153,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 157,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 158,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 162,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 163,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 165,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 166,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 168,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 172,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 173,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 179,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 180,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 182,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 183,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 184,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 188,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 190,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 192,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 193,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 194,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 196,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 198,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 200,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 201,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 203,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 205,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 206,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 209,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 210,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 213,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 214,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 216,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 217,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 219,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 220,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 223,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 224,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 225,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 226,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 227,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 230,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 232,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 236,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 239,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 240,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 241,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 243,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 244,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 245,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 249,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 254,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 257,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 259,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 262,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 263,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 266,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 270,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 273,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 274,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 276,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 279,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 280,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 282,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 284,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 286,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 287,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 289,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 291,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 296,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 297,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 298,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 301,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 303,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 305,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 307,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 310,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 313,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 315,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 319,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 320,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 322,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 323,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 326,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 328,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 330,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 331,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 334,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 335,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 336,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 338,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 339,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 342,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 343,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 345,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 346,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 347,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 352,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 353,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 355,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 357,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 358,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 361,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 362,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 363,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 365,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 368,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 370,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 373,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 374,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 375,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful astrological insight, instead focusing on Vastu and repetitive, paid-remedy-based tasks. The chat was dominated by technical troubleshooting and pressure to perform rituals, leaving the user's core business concerns unaddressed."
+ },
+ "usage": {
+  "input_tokens": 22962,
+  "output_tokens": 5049
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#34 [06:03] ASTRO: Blockage remove ke Samay dekhna padega Mujhe lag raha hai ki aap kuchh negative vibration Apne Sath lekar baithe ho jo ki aapke sath aapka Kam nahin banne deti aur aapke kam bigaad deti Hai to yah blockage yah negative vibration sabko remove Karni hi padegi\n#36 [06:28] ASTRO: Aap k blockage remove karna karna hai\n#44 [07:28] ASTRO: Kyunki Mujhe blockage remove karne mein thoda Samay chahie aapse\n#50 [08:10] ASTRO: Ji main samajhti hun lekin thoda sa Samay to chahie hoga jisse aapki problem solve ho jayegi\n#53 [08:29] ASTRO: Pahle block is remove kar dun",
+   "reason": "The astrologer uses fear ('negative vibration', 'kam bigaad deti hai') to push for a paid 'blockage removal' service, repeatedly insisting on time and payment.",
+   "quote_en": "#34 [06:03] ASTRO: I will have to check the time to remove the blockage. I feel like you are carrying some negative vibrations with you, which are preventing your work from being successful and are spoiling your tasks, so this blockage and these negative vibrations must be removed.\n#36 [06:28] ASTRO: Your blockage needs to be removed.\n#44 [07:28] ASTRO: Because I need some time from you to remove the blockage.\n#50 [08:10] ASTRO: Yes, I understand, but I will need a little time so that your problem can be solved.\n#53 [08:29] ASTRO: Let me remove the blockage first."
+  }
+ }
+}

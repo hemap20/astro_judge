@@ -1,0 +1,422 @@
+{
+ "file": "conversation_3460845_3788.csv",
+ "tier": "High",
+ "user_id": "3460845",
+ "ltv": 32615.2,
+ "n_msgs": 70,
+ "n_astro_msgs": 40,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 3,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 3,
+  "2.3": 8,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.68,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 5.71,
+  "B3": 7.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 10.7,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": true,
+    "reason": "The astrologer claims 'December 2025 se aapka samay thoda theek nahin chal raha hai' which is a future date relative to the consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the child's studies and behavior in message 13 and 16.",
+    "quotes": [
+     "Isliye padhaai aur dimag aapka donon hi kafi Tej hoga",
+     "Aapke kundli mein ketu hai jo aapko thoda describe Karega"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo in message 36 and 39, which is a Type C question as it is not necessary for a reading. Message 50 is a Type B question.",
+    "quotes": [
+     "Kya aap bacche ki face ki photo bhej sakte hain jisse bacche ki face reading ki Ja sake",
+     "Upay Kaun Karega aap ya baccha"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the child's details and photo to provide a remedy, which is relevant to the user's concern about the child.",
+    "quotes": [
+     "Kya aap bacche ki face ki photo bhej sakte hain jisse bacche ki face reading ki Ja sake"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the child's intelligence and the influence of Ketu is specific and linked to the chart, though it lacks a concrete marker.",
+    "quotes": [
+     "Aapki kundli mein satven bhav mein Surya Budh ka ek kaksha competition yani budhaditya yog ban raha hai",
+     "Aapke kundli mein ketu hai jo aapko thoda describe Karega"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about studies and behavior. The astrologer provides a remedy but does not give a clear direction or answer regarding the outcome of the studies or the behavior issues.",
+    "quotes": [
+     "Mere padhai ke bare mai bathaye aur baki sab bhi"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the child's intelligence to the Budhaditya yog and the distraction to Ketu/Rahu in plain words.",
+    "quotes": [
+     "Aapki kundli mein satven bhav mein Surya Budh ka ek kaksha competition yani budhaditya yog ban raha hai",
+     "Aapke kundli mein ketu hai jo aapko thoda describe Karega"
+    ],
+    "score": 8
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about Rahu/Ketu and the need for the child to stay home, using the user's input about the child's behavior.",
+    "quotes": [
+     "Rahul ketu bahut jyada week Hai to isko distract kafi jyada karenge",
+     "Agar Meri sala Mane to aap isko apne pass hi rah kar padhaayen"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a past/future date incorrectly and does not provide a consistent window for the outcome.",
+    "quotes": [
+     "December 2025 se aapka samay thoda theek nahin chal raha hai"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is specific (pan leaf, honey, clove) and includes instructions on how and when to perform it.",
+    "quotes": [
+     "Ek Pan ka pata lena hai uske ek taraf Haj ka lep lagana hai",
+     "Shehad ka lep lagana hai",
+     "Uske bad uske bich mein ek laung dalkar usko lock kar dena hai"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the child's studies and behavior throughout the chat.",
+    "quotes": [
+     "Aapki kundli mein satven bhav mein Surya Budh ka ek kaksha competition yani budhaditya yog ban raha hai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a next layer by offering to perform a mantra jaap after the remedy is performed.",
+    "quotes": [
+     "Main aapke bacchi ki details aur uske birth details ke Aadhar per uske liye kuchh Mantra Jaap karunga"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and provides relevant guidance until the end.",
+    "quotes": [
+     "Main aapke bacchi ki details aur uske birth details ke Aadhar per uske liye kuchh Mantra Jaap karunga"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a specific instruction for the user to follow up, which keeps the thread alive.",
+    "quotes": [
+     "Ji aap cal chat karen",
+     "0 waiting ke upar Vishesh Dhyan dena"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language and explains the astrology terms like Budhaditya yog and Rahu/Ketu in the context of the child's life.",
+    "quotes": [
+     "Aapki kundli mein satven bhav mein Surya Budh ka ek kaksha competition yani budhaditya yog ban raha hai",
+     "Rahul ketu bahut jyada week Hai to isko distract kafi jyada karenge"
+    ],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere padhai ke bare mai bathaye aur baki sab bhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a helpful remedy and linked chart factors to the child's behavior, which helped the user feel understood. However, the astrologer's request for a photo and the incorrect mention of a future date as a past event hurt the credibility of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11650,
+  "output_tokens": 2234
+ }
+}

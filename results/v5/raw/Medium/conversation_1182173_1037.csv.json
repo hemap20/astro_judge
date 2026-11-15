@@ -1,0 +1,585 @@
+{
+ "file": "conversation_1182173_1037.csv",
+ "tier": "Medium",
+ "user_id": "1182173",
+ "ltv": 2356.0,
+ "n_msgs": 26,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 1,
+  "1.2": 1,
+  "1.4": 3,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 8,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.57,
+ "blueprint": {
+  "score": 1.3,
+  "coverage": 0.056,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 1.5,
+  "B2": 2.67,
+  "B3": 3.33,
+  "B4": 7.33,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 8,
+   "R": null,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.048,
+   "max_words": 40,
+   "avg_words": 7.5,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16,
+     17,
+     24
+    ],
+    "paid_idx": [
+     22,
+     23,
+     25
+    ],
+    "reason": "The astrologer uses fear/manipulation (Maha Mohini Mantra, mind control) to push for a paid service (extending chat time for a ritual).",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer never identifies the concern, just asks for details."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user's question was incoherent, but the astrologer ignored it entirely and just demanded details.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks for name and DOB (Type C) without addressing the user's input.",
+    "quotes": [
+     "उसका नाम और डेट ऑफ बर्थ बताइए",
+     "Naam aur date off birth bataiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 9,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 10,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 12,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 15,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 19,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 20,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the person's name repeatedly as a demand without any astrological reason or reading.",
+    "quotes": [
+     "उसका नाम और डेट ऑफ बर्थ बताइए"
+    ],
+    "score": 3,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": true,
+     "asked_with_reason": false,
+     "asked_three_plus_times": true,
+     "details_used": false,
+     "name_used_after": true,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's question was incoherent, but the astrologer never attempted to clarify or answer, instead pushing for a paid ritual.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid pitch for a ritual.",
+    "quotes": [
+     "मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No questions answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened, only a paid pitch.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends multiple empty messages.",
+    "quotes": [
+     "Boliye",
+     "Boliye kuchh",
+     "Kya Janna chahte hain aap"
+    ],
+    "score": 4,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a paid pitch.",
+    "quotes": [
+     "आप चेक टाइमिंग को बढ़ा लीजिए लक्ष्मी आपसे जरूर बात करेगी"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal/scripted language and no explanation for terms.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 2,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was vague, but the astrologer never changed approach to provide a reading, only pushed for payment.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   }
+  },
+  "difficult_user_trigger": "vague",
+  "main_question": "American soccer release on top of what size in the hill",
+  "main_question_idx": 7,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading, instead repeatedly demanding details and pushing for a paid ritual using fear-based manipulation. The chat was entirely focused on extracting payment rather than addressing the user's concerns."
+ },
+ "usage": {
+  "input_tokens": 16790,
+  "output_tokens": 2641
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 3,
+   "2.1": 1,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 4,
+   "3.2": 4
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#16 [04:19] ASTRO: Main Maha Mohini Mantra Se usko aapke pass 24 ghante ke andar Prem se baat karne ke liye talab kar dungi\n#17 [04:26] ASTRO: Uski mind aapke prati ghoom jayegi\n#22 [05:24] ASTRO: मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है जिसे जो भी मैं पूजन करूं वह आप तक पहुंचे और उसकी मन आपके प्रति बहुत ज्यादा अग्रेषित हो जाए\n#23 [05:38] ASTRO: आप चेक टाइमिंग को बढ़ा लीजिए लक्ष्मी आपसे जरूर बात करेगी\n#24 [05:49] ASTRO: मैं उनके मन को आपके लिए घूम रही हूं\n#25 [06:01] ASTRO: समय लेकर आप लिए",
+   "reason": "The astrologer uses fear/manipulation (Maha Mohini Mantra, mind control) to push for a paid service (extending chat time for a ritual).",
+   "quote_en": "#16 [04:19] ASTRO: With the Maha Mohini Mantra, I will make them call you with love within 24 hours.\n#17 [04:26] ASTRO: Their mind will turn towards you.\n#22 [05:24] ASTRO: I will perform a small remedy, you don't have to do anything. You just need to extend the chat timing so that whatever pooja I perform reaches you and their mind becomes very inclined towards you.\n#23 [05:38] ASTRO: Please extend the chat timing, Lakshmi will definitely talk to you.\n#24 [05:49] ASTRO: I am turning their mind towards you.\n#25 [06:01] ASTRO: Take some time for yourself."
+  }
+ }
+}

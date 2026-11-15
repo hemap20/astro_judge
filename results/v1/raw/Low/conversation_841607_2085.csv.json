@@ -1,0 +1,284 @@
+{
+ "file": "conversation_841607_2085.csv",
+ "tier": "Low",
+ "user_id": "841607",
+ "ltv": 270.0,
+ "n_msgs": 36,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": 7,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 7
+ },
+ "gate_fails": [],
+ "overall": 6.04,
+ "buckets": {
+  "B1": 5.0,
+  "B2": 5.2,
+  "B3": 6.33,
+  "B4": 6.67,
+  "B5": 7.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 11,
+   "avg_words": 4.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific situation (the partner not talking/calling) in the first reply after the user shares it. The astrologer only asks for the name.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and birth details, which are necessary for the reading. These are not Type C. The questions are functional.",
+    "quotes": [
+     "Kya naam hai uska",
+     "Birth details aapko pta hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and birth date of the person the user is asking about, which is appropriate for the context of the question.",
+    "quotes": [
+     "Kya naam hai uska",
+     "Birth details aapko pta hai"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (17th Jan) and is generic. It lacks specificity and does not provide a chart-based reason for the current situation.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (before 17th Jan) for the user's question about when the partner will talk.",
+    "quotes": [
+     "Abhi 17 january se pahle o aapse acche se baat karegi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the prediction to the Venus planet, which is a chart factor, and explains it in simple terms.",
+    "quotes": [
+     "Kyunii aapka Venus planet strong hone ja rha hai",
+     "Aur Venus planet relationship emotion ka karak hota hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not add new, deeper layers to the reading; the subsequent messages just repeat the timing.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (17th Jan) as a deadline, which is a firm date rather than a window.",
+    "quotes": [
+     "17 january se pahle ke chances hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main question.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer or specific insight was opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a reading/prediction.",
+    "quotes": [
+     "17 january se pahle ke chances hai",
+     "Ki o aapse baat karegi"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms like 'Venus planet'.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was vague initially, but the astrologer eventually moved to a reading after getting the necessary details.",
+    "quotes": [],
+    "score": 7
+   }
+  },
+  "difficult_user_trigger": "vague",
+  "main_question": "Pratima pal baat nahi kar rahi hai, call bhi nahi kar rahi hai.",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully gathered the necessary details to provide a prediction. However, the reading was generic and lacked depth, failing to address the user's emotional concern beyond a simple date."
+ },
+ "usage": {
+  "input_tokens": 10516,
+  "output_tokens": 1333
+ }
+}

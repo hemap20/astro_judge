@@ -1,0 +1,355 @@
+{
+ "file": "conversation_3258729_2041.csv",
+ "tier": "High",
+ "user_id": "3258729",
+ "ltv": 127098.98,
+ "n_msgs": 47,
+ "n_astro_msgs": 28,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 7,
+  "1.4": 8,
+  "2.1": 7,
+  "2.2": 4,
+  "2.3": 8,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.91,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 6.14,
+  "B3": 7.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 10
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.071,
+   "max_words": 35,
+   "avg_words": 14.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's worry about marriage life in message #5.",
+    "quotes": [
+     "Some marriage life ko lekar aap pareshan chal rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for husband's details (#12), marriage duration (#16), husband's birth time (#18), extra-marital affair (#33), and details about the third person (#38, #45). Message #33 is Type A (builds on the conflict), #45 is Type A (builds on the affair). However, #12 and #18 are data requests. Since there are multiple questions and some are Type A, it scores 7.",
+    "quotes": [
+     "Kya problem a rahi hai aapke marriage life mein aur kab se a rahi hai",
+     "Aap mujhe apne husband ki detail provide karo",
+     "Kitne sal Ho Gaye aapke marriage ko",
+     "Time off birth se pata hai husband ka",
+     "Yah batao aap donon ke bich mein Se Kisi ka pahle extra marital affair tha kya"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details with a reason (to check the kundli) and uses the name.",
+    "quotes": [
+     "Main samajhta hun kya problem a rahi hai aap mujhe apne husband ki detail provide karo"
+    ],
+    "score": 8
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions specific issues like 'choti-choti chijon ko lekar ladai jhagade' and 'Gali galoch', which are specific and present-focused.",
+    "quotes": [
+     "Main dekh Pa Raha Hun Ki छोटी-छोटी chijon ko lekar ladai jhagade छोटी-छोटी chijon ko lekar Gali galoch"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about marriage tension. The astrologer identifies the conflict but does not provide a clear direction or outcome, just describing the current state.",
+    "quotes": [
+     "Marriage mera kabhi sahi nahi gaya",
+     "Main dekh Pa Raha Hun Ki छोटी-छोटी chijon ko lekar ladai jhagade"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage issues to the moon (chandrama) and Sade Sati.",
+    "quotes": [
+     "Kundli mein Main dekh Pa raha hun ki aapki kundli mein chandrama bahut week Hai jiske according aapke sath mein yah samasyaen Hain",
+     "Aur kahin na kahin main dekh Pa Raha Hun Ki Sani ki sade sati bhi dekhne ko mil rahi hai"
+    ],
+    "score": 8
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the husband's behavior and the Sade Sati, building on the initial reading.",
+    "quotes": [
+     "Aur Main dekh raha hun ki aap donon logon ka marriage life bahut jyada disturb chal raha hai khaskar aapke husband ki site se kuchh jyada hi",
+     "Aur kahin na kahin main dekh Pa Raha Hun Ki Sani ki sade sati bhi dekhne ko mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window provided for the marriage resolution.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage issue while incorporating the new topic of the extra-marital affair.",
+    "quotes": [
+     "Yah batao aap donon ke bich mein Se Kisi ka pahle extra marital affair tha kya"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by asking about the extra-marital affair, which is specific to the user's situation.",
+    "quotes": [
+     "Yah batao aap donon ke bich mein Se Kisi ka pahle extra marital affair tha kya"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message; the astrologer continues to ask questions.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are questions about the affair, which keeps the momentum going.",
+    "quotes": [
+     "Yah aapse kitne din se baat hui thi isase",
+     "Aur kitne din se no contact hai"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like 'kundli', 'grah', 'Sade Sati'.",
+    "quotes": [
+     "Kundli mein Main dekh Pa raha hun ki aapki kundli mein chandrama bahut week Hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Please check my marriage kaafi tension chalti hain",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's marital conflict and linked it to astrological factors like the moon and Sade Sati. However, the consultation lacked actionable remedies or a clear timeline for resolution, and the focus shifted heavily toward investigating an extra-marital affair."
+ },
+ "usage": {
+  "input_tokens": 11156,
+  "output_tokens": 1876
+ }
+}

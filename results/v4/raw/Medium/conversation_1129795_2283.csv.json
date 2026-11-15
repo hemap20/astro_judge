@@ -1,0 +1,352 @@
+{
+ "file": "conversation_1129795_2283.csv",
+ "tier": "Medium",
+ "user_id": "1129795",
+ "ltv": 1020.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.44,
+ "rubric_score": 6.44,
+ "blueprint": {
+  "score": 4.96,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 2,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 71,
+   "S4": 184,
+   "S5": 240,
+   "S6": 206
+  }
+ },
+ "final": 5.7,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.5,
+  "B2": 5.6,
+  "B3": 5.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 7,
+   "M": 12,
+   "long_frac": 0.083,
+   "max_words": 47,
+   "avg_words": 15.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 2,
+    "note": "Identified the concern about the girlfriend returning and marriage."
+   },
+   "S4": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Gave a basic insight about the commitment and family pressure."
+   },
+   "S5": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Asked for a photo, but it is not directly relevant to the concern."
+   },
+   "S6": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Mentions 2025 struggles, but lacks specific chart details."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the commitment and family pressure mentioned by the user.",
+    "quotes": [
+     "aap donon ke bich mein shaadi ka commitment bhi hua tha aur dekha jaaye to ladki ki family pressure se shaadi fix"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details and a photo. The photo request is Type C as it is not needed for the reading.",
+    "quotes": [
+     "uska detail share kijiye",
+     "aapka aur uska photo bhi hai kya"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the girl's details with a reason (to check the match) and uses them to provide insight.",
+    "quotes": [
+     "uska detail share kijiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/past and specific to the user's situation, but lacks a strong chart reason.",
+    "quotes": [
+     "aap donon ke bich mein shaadi ka commitment bhi hua tha"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a clear direction on whether she will return.",
+    "quotes": [
+     "aap donon ke bich mein shaadi ka commitment bhi hua tha"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Lagna and Rashi but does not link them to the life situation in plain words.",
+    "quotes": [
+     "mesh lagn aur Mithun Rashi ki kundli hai aapki"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings add points about the girl's feelings and anxiety.",
+    "quotes": [
+     "jabki ladki dekha jaaye to kabhi bhi aapke sath future dekh Rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided for the return.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, not a reading.",
+    "quotes": [
+     "to uska apna photo send"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and matches the user.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri gf kab vapis aaegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's core relationship concern and validated the situation. However, the consultation lacked actionable remedies and failed to provide a clear prediction or a meaningful hook for a follow-up."
+ },
+ "usage": {
+  "input_tokens": 15457,
+  "output_tokens": 1475
+ }
+}

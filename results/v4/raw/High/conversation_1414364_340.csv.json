@@ -1,0 +1,428 @@
+{
+ "file": "conversation_1414364_340.csv",
+ "tier": "High",
+ "user_id": "1414364",
+ "ltv": 12084.38,
+ "n_msgs": 38,
+ "n_astro_msgs": 24,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 6,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.24,
+ "blueprint": {
+  "score": 4.3,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 0.667,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S2": 565,
+   "S3": 50,
+   "S4": 170,
+   "S5": 67,
+   "S8": 520
+  }
+ },
+ "final": 3.27,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.25,
+  "B2": 3.71,
+  "B3": 5.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 6.9,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     20
+    ],
+    "paid_idx": [
+     17
+    ],
+    "evidence_idx": [
+     17,
+     20
+    ],
+    "reason": "The astrologer uses a guarantee ('surety de rahi hun') in message 20 and demands 'extreme level' efforts (which in this context implies paid rituals/remedies often associated with such phrasing) while pushing for a specific outcome."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 31,
+    "quality": 1,
+    "note": "Acknowledges anxiety late in the chat."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identifies the breakup concern but asks unnecessary questions."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Gives a generic 'possibility' reading."
+   },
+   "S5": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks questions about the relationship duration."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layers explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Gives a 'wait' instruction without a clear remedy."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's feelings or details until very late in the chat.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that could be asked to any user (Type B).",
+    "quotes": [
+     "Kitna time hua h relationship ko",
+     "Kya ye issue dec se araha h"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but does not use them for a chart-based reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague 'possibility' answer rather than a clear direction.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague points.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a guarantee which is a low-scoring behavior.",
+    "quotes": [
+     "Main is baat ki aapko surety de rahi hun"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The advice is a 'wait' instruction, not a specific remedy.",
+    "quotes": [
+     "3 weeks baad aap mt kijiye unko krne dijiye"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only has one main question.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is not very engaging.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are generic statements about the partner's mental state.",
+    "quotes": [],
+    "score": 6
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is Hinglish, but the astrologer uses poor grammar and spelling.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Is she rebound now?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a personalized reading and instead relied on generic tarot card interpretations and guarantees. The chat was hurt by the lack of chart-based insights and the use of a guarantee to keep the user engaged."
+ },
+ "usage": {
+  "input_tokens": 15688,
+  "output_tokens": 1726
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#17 [03:37] ASTRO: And the second card represent kar raha hai ki aapko apni taraf Se efforts dalni hongi hundred percent I mean extreme level per\n#20 [04:32] ASTRO: Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi",
+   "reason": "The astrologer uses a guarantee ('surety de rahi hun') in message 20 and demands 'extreme level' efforts (which in this context implies paid rituals/remedies often associated with such phrasing) while pushing for a specific outcome.",
+   "quote_en": "#17 [03:37] ASTRO: And the second card represents that you will have to put in your efforts from your side, hundred percent, I mean at an extreme level.\n#20 [04:32] ASTRO: I am giving you the surety that she will definitely come into your life."
+  }
+ }
+}

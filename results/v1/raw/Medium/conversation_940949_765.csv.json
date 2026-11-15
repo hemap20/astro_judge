@@ -1,0 +1,244 @@
+{
+ "file": "conversation_940949_765.csv",
+ "tier": "Medium",
+ "user_id": "940949",
+ "ltv": 2853.46,
+ "n_msgs": 17,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 1.8,
+  "B3": 2.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar",
+    "reason": "The astrologer promises a specific result (getting the partner back) within a specific timeframe, which is a false promise and creates pressure/false hope."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's breakup or feelings, only asks for the partner's name.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name, which is necessary for the reading, but then makes a false promise instead of a reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name but fails to provide a reading based on the chart, instead promising a result.",
+    "quotes": [
+     "Aap jinke Sath relationship me hai unka name bata dijiye"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading is provided; only a false promise of a result.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a result instead of providing a reading or astrological direction.",
+    "quotes": [
+     "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or explanation is provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a specific outcome within a short timeframe, which is a false promise.",
+    "quotes": [
+     "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User only had one question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks the user to increase chat time, which is a sales pitch.",
+    "quotes": [
+     "Aap apne chat ki timing increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a confirmation of the user's statement, not a reading.",
+    "quotes": [
+     "Ha"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is understandable, but the content is unprofessional.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "humara breakup hua kya woh wapas ayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed by making a false promise to return the partner within days, which is unethical and harmful. The consultation lacked any astrological insight or chart-based reading."
+ },
+ "usage": {
+  "input_tokens": 10226,
+  "output_tokens": 1062
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar",
+   "reason": "The astrologer promises a specific result (getting the partner back) within a specific timeframe, which is a false promise and creates pressure/false hope.",
+   "quote_en": "I will bring them back into your life within 2 to 4 days."
+  }
+ }
+}

@@ -1,0 +1,319 @@
+{
+ "file": "conversation_1012156_1849.csv",
+ "tier": "Medium",
+ "user_id": "1012156",
+ "ltv": 908.0,
+ "n_msgs": 53,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 10,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.25,
+  "B2": 1.0,
+  "B3": 1.0,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 6
+  },
+  "4.1": {
+   "score": 10,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 7,
+   "avg_words": 2.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Vere panthulu ki aduguthey kala sarpa dosh pooja annaru adhi kuda chepisthunna... 11000 worth",
+    "reason": "The astrologer confirms the Kalsarpam dosham and does not warn against the expensive ritual, effectively validating the user's decision to spend money on a remedy before providing a proper reading."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation with 'Ok' and 'Chusi' but fails to repeat any specific detail or name the user's feeling, providing only generic responses.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and asks 'Enduku' regarding money, which is a Type B question. The astrologer asks for birth details that were not provided, but the overall questioning is not well-tailored to the user's emotional state.",
+    "quotes": [
+     "Mi right hand palm pic petandi",
+     "Enduku",
+     "Place of birth",
+     "Time of birth"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details (Abhinaya) but does not use them to provide any specific reading about the match or her perspective.",
+    "quotes": [
+     "Mi right hand palm pic petandi",
+     "Place of birth",
+     "Time of birth"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no reading about the user's life, only confirming the existence of a dosham.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks 'Ma edhharki pelli avthada leda', and the astrologer never provides a clear direction or answer.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Kalsarpam dosham' but does not link it to the user's life in plain words.",
+    "quotes": [
+     "Kalsarpam dosham",
+     "Undi"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is no reading provided to build depth upon.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer validates the user's plan to perform a 11,000 worth ritual without providing a proper reading or guidance.",
+    "quotes": [
+     "Kalsarpam dosham",
+     "Undi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question about marriage is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No further layer is opened.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ends the chat by telling the user to reconnect because time is running out, which is a closing message.",
+    "quotes": [
+     "Mali connect avandi tym ayipotundi tondara ga"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request to reconnect and a warning about time, which provides no value.",
+    "quotes": [
+     "Photo chusara",
+     "Mali connect avandi tym ayipotundi tondara ga"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer fails to explain the astrology terms or provide a meaningful reading.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ma edhharki pelli avthada leda",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful reading or answer the user's core question about marriage. The consultation was dominated by data requests and ended abruptly with a push to reconnect."
+ },
+ "usage": {
+  "input_tokens": 10925,
+  "output_tokens": 1488
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Vere panthulu ki aduguthey kala sarpa dosh pooja annaru adhi kuda chepisthunna... 11000 worth",
+   "reason": "The astrologer confirms the Kalsarpam dosham and does not warn against the expensive ritual, effectively validating the user's decision to spend money on a remedy before providing a proper reading.",
+   "quote_en": "When I asked other priests, they suggested a Kala Sarpa Dosh pooja, so I am getting that done as well... it costs 11,000."
+  }
+ }
+}

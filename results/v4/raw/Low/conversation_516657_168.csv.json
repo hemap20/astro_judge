@@ -1,0 +1,356 @@
+{
+ "file": "conversation_516657_168.csv",
+ "tier": "Low",
+ "user_id": "516657",
+ "ltv": 230.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 5.71,
+ "rubric_score": 5.71,
+ "blueprint": {
+  "score": 4.6,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 2,
+   "S6": 1,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 18,
+   "S3": 36,
+   "S4": 135,
+   "S5": 163,
+   "S6": 270
+  }
+ },
+ "final": 5.15,
+ "label": "mixed",
+ "buckets": {
+  "B1": 7.0,
+  "B2": 3.83,
+  "B3": 5.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 12.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the question but did not restate it."
+   },
+   "S4": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 8,
+    "quality": 2,
+    "note": "Asked a relevant follow-up about the breakup."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gave a specific date but it is not tied to chart factors."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's question about marriage but did not acknowledge the emotional context of the breakup or the user's situation.",
+    "quotes": [
+     "Shabnam ji kaise hain aap kya question hai aapka"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked one question about a breakup which is Type A (builds on the user's situation).",
+    "quotes": [
+     "Shabnam ji aapka koi breakup bhi hua Hai pichhle kuchh samay mein"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about a future partner, not a specific person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future and present, but it is not specific enough to be verified.",
+    "quotes": [
+     "Aapki shaadi aapke Jaan pahchan ya aapke relation mein hone ke chances hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a direction (marriage in relation) and a time window.",
+    "quotes": [
+     "Aapki shaadi aapke Jaan pahchan ya aapke relation mein hone ke chances hain",
+     "Vah aapki life mein 20 se 25 November Tak aane ke chances hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentioned 'pitradosh' but did not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "Aapki kundli Mein pitradosh ka prabhav hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer added a new point about the partner being someone known, but it is not clearly linked to the user's specific details.",
+    "quotes": [
+     "use ladke ko aap jante bhi ho"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a specific date window which is too narrow.",
+    "quotes": [
+     "Vah aapki life mein 20 se 25 November Tak aane ke chances hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only asked one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teased a new point but did not deliver it before the chat ended.",
+    "quotes": [
+     "Shabnam ji aapke life mein 25 days ke andar ek bada"
+    ],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, but the chat ended abruptly.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease with no reading behind it.",
+    "quotes": [
+     "Shabnam ji aapke life mein 25 days ke andar ek bada"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Shabnam ji kaise hain aap kya question hai aapka"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera shadi kb hogi and kaisa ladka se",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and asked a relevant follow-up question about a past breakup. However, the consultation lacked depth, failed to provide a remedy, and ended abruptly with an incomplete tease."
+ },
+ "usage": {
+  "input_tokens": 15348,
+  "output_tokens": 1580
+ }
+}

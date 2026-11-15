@@ -1,0 +1,486 @@
+{
+ "file": "conversation_160049_1747.csv",
+ "tier": "Medium",
+ "user_id": "160049",
+ "ltv": 1470.0,
+ "n_msgs": 66,
+ "n_astro_msgs": 52,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 9,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": 4,
+  "2.7": 6,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 5.96,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 5.0,
+  "B3": 7.0,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.0,
+   "max_words": 8,
+   "avg_words": 3.9,
+   "bursts": 6,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about marriage and partner, but fails to name the feeling or build on the specific context of the breakup until much later.",
+    "quotes": [
+     "Agar marriage ki baat Karen",
+     "Love marriage ka Yog"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos (Type C, as it is not needed for a chart reading) and asks about the breakup duration (Type A).",
+    "quotes": [
+     "Aap apni photo aur iski photo",
+     "Agar bhej sakti ho to bhej do",
+     "Kitna time hua breakup ko"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and photos, and eventually provides a reading on the match, though the process was fragmented.",
+    "quotes": [
+     "Aap apni photo aur iski photo",
+     "Aap donon ki Kundli to mil rahi hai",
+     "Shaadi ho sakti hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading about marriage is generic and lacks specific chart-based markers or life details.",
+    "quotes": [
+     "Love marriage ka Yog",
+     "Arrange marriage ke Yog se",
+     "Jyada dikh raha hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question clearly after the user repeats it.",
+    "quotes": [
+     "Han ji aapka love marriage hoga"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions doshas but does not explain how they impact the user's life in plain words.",
+    "quotes": [
+     "Kalsrp dosh",
+     "Aur pitra dosh",
+     "Donon banaa hua Hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new information about the partner's feelings and the breakup, using the user's input.",
+    "quotes": [
+     "Uski feelings",
+     "Kisi aur ke liye",
+     "Dekhne ko mil rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the marriage or patch-up.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is provided for the patch-up, but it is a list of items without clear instructions on how or when to perform it, and it feels like a precursor to a paid service.",
+    "quotes": [
+     "11 belpatra",
+     "11 Dana chawal",
+     "11 kali mirch"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages the transition between marriage and patch-up questions reasonably well.",
+    "quotes": [
+     "Shaadi ho sakti hai",
+     "Lekin present time",
+     "Situation acchi nahin dikh rahi"
+    ],
+    "score": 6
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the partner's feelings for someone else, which is specific to the user's situation.",
+    "quotes": [
+     "Uski feelings",
+     "Kisi aur ke liye"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely, but the flow is interrupted by requests to reconnect.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a list of items for a remedy, which provides a sense of direction but lacks a final summary.",
+    "quotes": [
+     "11 supari",
+     "11 long"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the astrologer uses some formal terms like 'yog'.",
+    "quotes": [
+     "Love marriage ka Yog"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera love marriage hoga kya arrange marriage sir kab hoga mera marriage mera bf mujhe call sms kab karegr",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully addressed the user's core questions about marriage and the partner's feelings. However, the chat was hindered by fragmented communication, including unnecessary requests to reconnect and a lack of clear explanation for the mentioned doshas."
+ },
+ "usage": {
+  "input_tokens": 11364,
+  "output_tokens": 2135
+ }
+}

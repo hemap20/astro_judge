@@ -1,0 +1,944 @@
+tier,file,user_id,ltv,status,n_msgs,n_astro_msgs,final,label,label_fixed,rubric_score,blueprint,overall,gate_fail,gate_fail_quote,gate_fail_quote_en,gate_fail_reason,B1,B2,B3,B4,B5,r1.1,r1.2,r1.3,r1.4,r2.1,r2.2,r2.3,r2.4,r2.5,r2.6,r2.7,r3.1,r3.2,r3.3,r4.1,r4.2,r4.3,r5.1,trigger,S1,S2,S3,S4,S5,S6,S7,S8,S9,on_time_S4,on_time_S6,on_time_S8,length_bucket_min
+High,conversation_1019693_1947.csv,1019693,11875.22,ok,23,10,4.67,mixed,mixed,6.08,3.25,6.08,,,,,3.5,5.14,6.67,9.0,,3,3,4,4,6,7,3,3,7,3,7,6,7,7,10,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_1019693_2387.csv,1019693,11875.22,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_1050838_2283.csv,1050838,8579.0,ok,43,19,5.55,good,mixed,6.14,4.96,6.14,,,,,6.0,6.57,4.67,7.33,,3,8,9,4,7,8,7,7,7,3,7,4,7,3,7,6,9,,none,1,0,1,1,1,2,0,0,0,0.5,1.0,0.0,5
+High,conversation_1050838_2515.csv,1050838,8579.0,ok,51,30,5.43,good,mixed,6.11,4.75,6.11,,,,,6.5,4.6,6.0,7.33,,3,,10,,6,6,3,1,7,,,4,7,7,6,7,9,,none,1,0,1,1,0,1,0,0,0,1.0,1.0,0.0,10
+High,conversation_1053785_226.csv,1053785,20520.32,ok,142,57,4.08,mixed,bad,3.86,4.3,3.86,,,,,3.5,3.14,3.33,6.33,3.0,3,3,4,4,4,4,3,3,1,4,3,4,3,3,7,6,6,3,angry_testing,1,1,1,1,1,0,0,1,0,0.5,0.0,0.5,15
+High,conversation_1094821_2078.csv,1094821,9760.82,ok,55,39,5.08,good,mixed,5.7,4.45,5.7,,,,,5.75,4.71,6.0,6.33,,6,4,9,4,6,7,3,3,4,3,7,4,7,7,6,7,6,,none,1,0,1,1,0,1,0,0,0,1.0,0.5,0.0,15
+High,conversation_1104271_2283.csv,1104271,22765.2,ok,32,18,4.37,mixed,bad,4.25,4.48,4.25,,,,,5.25,2.43,3.67,5.67,,3,4,7,7,6,4,1,1,1,3,1,1,7,3,3,7,7,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+High,conversation_1117625_168.csv,1117625,6450.22,ok,55,33,5.98,good,mixed,6.25,5.71,6.25,,,,,7.67,6.0,5.0,6.33,,6,7,10,,7,7,3,7,7,4,7,4,7,4,6,7,6,,none,1,1,1,1,1,1,0,1,0,0.5,1.0,0.5,15
+High,conversation_1145621_2159.csv,1145621,12265.0,ok,41,25,3.79,mixed,bad,4.94,2.65,4.94,,,,,4.75,3.0,4.67,7.33,,3,6,7,3,3,3,3,3,3,3,3,4,6,4,6,6,10,,none,0,0,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+High,conversation_1190855_2195.csv,1190855,9604.0,ok,7,3,2.27,bad,bad,3.25,1.3,3.25,,,,,1.0,1.67,4.67,5.67,,,,1,,1,,3,1,,,,4,6,4,3,7,7,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,15
+High,conversation_1224576_2059.csv,1224576,11399.0,ok,76,40,6.75,good,good,6.75,6.74,6.75,,,,,7.0,7.0,6.0,7.0,,6,8,7,,7,9,4,8,9,3,9,4,7,7,8,7,6,,none,1,1,1,2,2,2,2,0,0,1.0,1.0,0.0,15
+High,conversation_1243072_2078.csv,1243072,7911.6,ok,121,58,4.65,mixed,mixed,5.0,4.3,5.0,,,,,4.5,4.5,6.0,5.0,,6,4,4,4,6,7,3,4,4,3,,4,7,7,4,7,4,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,15
+High,conversation_1244720_1037.csv,1244720,8015.28,ok,29,21,2.08,bad,bad,3.92,3.25,3.0,G3,"G3: #20 [03:41] ASTRO: Marriage ho jayegi aap donon ki family problem dikhai pad Rahe family problem ke liye kuchh upay karna padega
+#27 [04:51] ASTRO: Aap thoda sa aur time dijiye","G3: #20 [03:41] ASTRO: You both will get married, but family problems are visible. You will need to perform some remedies for the family problems.
+#27 [04:51] ASTRO: Please give it a little more time.",G3: The astrologer uses fear/urgency regarding family problems in message 20 and then asks the user to extend time/recharge in message 27 to get more information.,3.0,3.0,3.0,6.67,,3,1,4,4,6,1,3,3,1,4,3,1,7,1,4,6,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_1266636_285.csv,1266636,7044.5,ok,31,22,3.57,mixed,bad,5.48,4.66,3.0,G3,"G3: #27 [03:57] ASTRO: Inka aur use ladke ka naam pata aapane Bata Diya Hai brain wash kar dungi 15 20 minut ka time lagega ya to abhi aap samay badhaaoge to Abhi start kar dungi ya to fir se connect karoge to chat per dobara
+#29 [04:18] ASTRO: धीरे-धीरे karke Jo Bhi unke man mein hai vah khatm ho jaega use ladke ke liye Baki jaisa aapko theek Lage aapke acche Ke liye Hi bata rahi hun kyunki vah ladke ka nature achcha Nahin Hai
+#30 [04:35] ASTRO: Aur vah ladka agar inke upar kuchh negative Kare usse pahle use ladki ko hi dur kar do brainwash karke","G3: #27 [03:57] ASTRO: You have already told me her name and that boy's name, I will brainwash him. It will take 15-20 minutes. Either you extend the time now and I will start immediately, or you reconnect and we can do it again on chat.
+#29 [04:18] ASTRO: Gradually, whatever is in his mind for that boy will fade away. The rest is up to you, I am telling you this for your own good because that boy's nature is not good.
+#30 [04:35] ASTRO: And before that boy does anything negative to her, just distance that girl by brainwashing him.","G3: The astrologer uses fear ('ladke ka nature achcha Nahin Hai', 'negative Kare') to push a paid service ('brain wash kar dungi', 'samay badhaaoge').",7.0,4.57,3.67,6.67,,7,7,10,4,6,7,3,1,7,1,7,4,6,1,4,7,9,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+High,conversation_1280249_748.csv,1280249,5595.0,ok,28,10,4.22,mixed,bad,4.75,3.7,4.75,,,,,5.67,3.67,3.33,6.33,,3,,10,4,4,4,4,3,4,,3,4,3,3,3,6,10,,none,0,0,1,1,0,1,0,0,0,0.5,0.5,0.0,10
+High,conversation_1300044_1037.csv,1300044,8034.62,ok,127,78,1.83,bad,bad,2.66,4.0,2.66,G3,"G3: #55 [11:44] ASTRO: 99% mil sakti hai aapko energy aapki aur inki post dikhai de rahi hai
+#60 [12:19] ASTRO: Aur 7 din ke andar aapko safalta mil jayegi
+#61 [12:25] ASTRO: 7 din ke andar yah purnata aap per nirbhar hogi
+#62 [12:34] ASTRO: Bahut pyar karegi
+#68 [13:06] ASTRO: Aap chat timing ko badha lijiye jisse main upay kar sakun
+#70 [13:11] ASTRO: Abhi aap chatting badha lijiye jisse main upay kar dun
+#72 [14:12] ASTRO: Aapko 30 se 35 minut ka samay lekar aana hoga
+#117 [38:16] USER: Abhi aur add karu kya coins?
+#119 [38:37] ASTRO: Pujan sampann hone wali Hai Thoda Sa hamen badha lijiye","G3: #55 [11:44] ASTRO: You can get 99% energy, your and their posts are visible
+#60 [12:19] ASTRO: And you will get success within 7 days
+#61 [12:25] ASTRO: Within 7 days, this completion will depend on you
+#62 [12:34] ASTRO: She will love you a lot
+#68 [13:06] ASTRO: Please increase the chat timing so that I can perform the upay
+#70 [13:11] ASTRO: Increase the chatting now so that I can provide the upay
+#72 [14:12] ASTRO: You will have to come with 30 to 35 minutes of time
+#117 [38:16] USER: Should I add more coins now?
+#119 [38:37] ASTRO: The pooja is about to be completed, please increase the time for us a little","G3: The astrologer uses guaranteed results ('99% mil sakti hai', '7 din ke andar aapko safalta mil jayegi') combined with repeated demands to extend chat time and pay for a 'pujan' or 'anushthan' to perform a ritual for the user.",4.0,1.29,1.0,6.0,1.0,3,3,7,3,3,1,1,1,1,1,1,1,1,1,6,6,6,1,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,15
+High,conversation_1338879_1953.csv,1338879,53149.56,ok,103,43,2.0,bad,bad,3.76,3.25,3.0,G3,"G3: #28 [07:48] ASTRO: Dekhiae use third person ne inke mind ko divert kar diya hai aur inke upar kuchh black magic jaisa bhi uska negative prabhav dikh raha hai vah kafi dinon se prayas kar rahi thi Apne relationship mein laane ke liye
+#32 [08:37] ASTRO: Main aapko yah bol raha hun ki gurjot ke upar buri energy dikh rahi hai use third person ka prabhav dikh raha hai
+#36 [08:59] ASTRO: Usne inke mind ko divert kar Diya hai pahle shuru mein hasil jab nahin ho rahe the to usne black magic jaisa kuchh Kiya hua hai Gurjot  ke upar
+#41 [10:20] ASTRO: Iske liye ek hi solution hai aap karke main use third person ko remove kar dunga aur black magic ko bhi aur inke attraction energy ko aapke taraf kar dunga
+#43 [10:44] ASTRO: 2100 Mantra Jaap karna padega third person ko aur black magic ko remove karna padega
+#98 [21:33] ASTRO: Jo bhi aapka Lage 600 ya ₹700 lagega
+#101 [21:46] ASTRO: Agar aap ready hain to bataiye aur ek hi bar time increase karke connect kar lijiye main kar deta hun","G3: #28 [07:48] ASTRO: See, a third person has diverted their mind, and there is a negative influence of something like black magic visible on them. She has been trying for many days to bring them into her relationship.
+#32 [08:37] ASTRO: I am telling you that there is bad energy visible on Gurjot, and the influence of that third person is visible.
+#36 [08:59] ASTRO: She has diverted their mind. Initially, when she wasn't succeeding, she did something like black magic on Gurjot.
+#41 [10:20] ASTRO: There is only one solution for this; I will remove that third person and the black magic, and I will redirect their attraction energy towards you.
+#43 [10:44] ASTRO: You will have to perform 2100 Mantra Jaap to remove the third person and the black magic.
+#98 [21:33] ASTRO: Whatever it costs you, it will be 600 or 700 rupees.
+#101 [21:46] ASTRO: If you are ready, let me know and connect by increasing the time just once, and I will do it.","G3: The astrologer uses fear (black magic, third person influence) to push a paid ritual (mantra jaap) and explicitly asks for payment (600-700 rupees) and to extend time.",4.75,1.29,1.67,7.33,,3,3,10,3,1,1,3,1,1,1,1,1,3,1,6,7,9,,none,1,0,1,0,0,0,0,1,0,0.0,0.0,0.5,15
+High,conversation_1353554_2601.csv,1353554,6149.0,ok,31,20,3.53,mixed,bad,4.7,2.35,4.7,,,,,4.75,3.71,3.67,6.67,,3,3,9,4,6,3,3,3,7,3,1,3,4,4,3,7,10,,none,0,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+High,conversation_1373927_2515.csv,1373927,19165.0,ok,81,46,3.95,mixed,bad,5.42,5.48,3.0,G3,"G3: #31 [05:29] ASTRO: Ledu ante renuion chances takkuva andi
+#39 [07:19] ASTRO: Iddari Jatakam prakaramga challa issues and mind disturbance and temporary separation e undi mam
+#60 [10:36] ASTRO: Prati chinna chinna vishayam paina koncham issues and disturbance and anger issues vastundi mam
+#64 [11:14] ASTRO: Koncham mind disturbance aithye vastundi mam
+#76 [13:13] ASTRO: Naku emaina call cheyagalla ippudu mam
+#77 [13:19] ASTRO: Call lo chepatanu clear ga mam
+#80 [13:29] ASTRO: Sure mam cheyandi call mam","G3: #31 [05:29] ASTRO: If it's not there, then the chances of reunion are low.
+#39 [07:19] ASTRO: According to both of your Jatakam, there are many issues, mind disturbance, and only a temporary separation, ma'am.
+#60 [10:36] ASTRO: There are some issues, disturbances, and anger issues arising over every small matter, ma'am.
+#64 [11:14] ASTRO: Some mind disturbance is definitely happening, ma'am.
+#76 [13:13] ASTRO: Can you call me now, ma'am?
+#77 [13:19] ASTRO: I will explain it clearly on the call, ma'am.
+#80 [13:29] ASTRO: Sure ma'am, please call, ma'am.",G3: The astrologer uses fear/urgency regarding the relationship's future and then immediately pivots to a paid call request to resolve the situation.,7.25,4.43,3.0,7.0,,6,6,10,7,6,4,3,4,4,3,7,1,7,1,6,7,8,,none,1,1,2,1,1,1,1,0,0,0.5,1.0,0.0,15
+High,conversation_1378119_1270.csv,1378119,109383.64,ok,64,31,5.46,good,mixed,6.01,4.9,6.01,,,,,3.75,5.29,7.67,7.33,,6,1,4,4,6,7,3,4,7,3,7,7,7,9,8,7,7,,none,1,0,1,1,1,1,1,0,1,0.5,0.5,0.0,15
+High,conversation_1392525_2598.csv,1392525,5041.0,ok,10,6,3.96,mixed,bad,5.12,2.8,5.12,,,,,4.75,3.4,4.67,7.67,,3,8,1,7,1,3,3,3,7,,,4,6,4,6,7,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_1399741_2078.csv,1399741,8897.0,ok,55,28,5.8,good,mixed,5.39,6.21,5.39,,,,,3.5,4.71,5.67,7.67,,3,3,4,4,6,6,3,3,4,4,7,4,7,6,8,6,9,,none,1,0,1,1,1,1,1,1,0,0.5,1.0,1.0,10
+High,conversation_1414364_340.csv,1414364,12084.38,ok,38,24,3.27,mixed,bad,5.24,4.3,3.0,G3,"G3: #17 [03:37] ASTRO: And the second card represent kar raha hai ki aapko apni taraf Se efforts dalni hongi hundred percent I mean extreme level per
+#20 [04:32] ASTRO: Main is baat ki aapko surety de rahi hun ki vah aapki life mein jarur aaengi","G3: #17 [03:37] ASTRO: And the second card represents that you will have to put in your efforts from your side, hundred percent, I mean at an extreme level.
+#20 [04:32] ASTRO: I am giving you the surety that she will definitely come into your life.",G3: The astrologer uses a guarantee ('surety de rahi hun') in message 20 and demands 'extreme level' efforts (which in this context implies paid rituals/remedies often associated with such phrasing) while pushing for a specific outcome.,4.25,3.71,5.67,7.33,,3,6,4,4,4,4,3,3,1,4,7,4,7,6,6,6,10,,none,1,1,1,1,1,0,0,1,0,0.5,0.0,0.5,10
+High,conversation_1422799_2571.csv,1422799,7719.0,ok,5,2,2.36,bad,bad,3.42,1.3,3.42,,,,,1.0,1.67,4.33,6.67,,,,1,,1,,3,1,,,,4,6,3,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_1437435_2078.csv,1437435,38178.0,ok,60,35,4.75,mixed,mixed,5.28,4.21,5.28,,,,,5.25,4.86,4.67,6.33,,3,6,8,4,4,7,3,3,7,3,7,4,6,4,6,7,6,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,15
+High,conversation_1445286_2340.csv,1445286,5841.0,ok,39,20,2.76,mixed,bad,4.31,4.21,3.0,G3,"G3: #35 [04:31] ASTRO: Apna Samay badhaen aapka Samay khatm ho raha hai
+#37 [04:56] ASTRO: Lekin aap chinta na Karen yah aapke sath relationship mein aaenge","G3: #35 [04:31] ASTRO: Please extend your time, your time is running out
+#37 [04:56] ASTRO: But don't worry, they will come into a relationship with you",G3: The astrologer uses a guaranteed result ('yah aapke sath relationship mein aaenge') to push the user to extend their time ('Apna Samay badhaen').,3.0,3.57,4.0,6.67,,3,1,4,4,6,4,4,3,1,3,4,4,7,1,6,6,8,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,5
+High,conversation_148388_340.csv,148388,10793.66,ok,97,28,5.45,good,mixed,6.3,4.6,6.3,,,,,6.0,5.86,5.0,8.33,,7,6,7,4,7,7,3,7,7,3,7,4,7,4,8,7,10,,none,1,1,1,1,1,0,1,0,0,1.0,0.0,0.0,15
+High,conversation_1486996_1203.csv,1486996,5633.0,ok,20,10,3.9,mixed,bad,5.0,2.8,5.0,,,,,3.75,3.57,5.0,7.67,,3,4,4,4,3,3,3,3,7,3,3,4,7,4,8,6,9,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_1489856_1305.csv,1489856,106706.0,ok,20,13,1.85,bad,bad,3.46,3.25,3.0,G3,"G3: #15 [04:07] ASTRO: Agar aap remedy karenge to nishchit Roop se agale manth 25 tarikh ko aapke job ka chances dekhne ko mil raha hai
+#17 [04:54] ASTRO: Five star jarur Dena dobara join karo kyunki aapke pass time khatm ho raha hai
+#18 [05:00] ASTRO: Main aapko upay batati hun nishchit Roop se nikal jaega
+#19 [05:00] ASTRO: Main aapko upay batati hun nishchit Roop se nikal jaega ji","G3: #15 [04:07] ASTRO: If you perform the remedy, then there is definitely a chance of seeing job opportunities by the 25th of next month.
+#17 [04:54] ASTRO: Do give a five-star rating and join again because your time is running out.
+#18 [05:00] ASTRO: I will tell you the remedy, it will definitely be resolved.
+#19 [05:00] ASTRO: I will tell you the remedy, it will definitely be resolved.",G3: The astrologer uses a guaranteed result ('nishchit Roop se') combined with a demand to 'dobara join karo' (recharge/extend) to push for a remedy.,4.67,1.86,1.0,6.33,,3,1,10,,3,1,3,3,1,1,1,1,1,1,6,6,7,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_1495779_2442.csv,1495779,15492.22,ok,52,21,2.17,bad,bad,3.93,3.4,3.0,G3,G3: #42 [17:03] ASTRO: सर इसके लिए हमें पूजन क्रिएट करते हैं आप इस चैट के और हो जाने के बाद मेरे को कुछ समय दिन काम से कम 5 से 10 मिनट का मैं आपका पंचांग देख लेता हूं मुहूर्त देख लेता हूं उसके बाद यह जो पिक आपने दी है उनका मैं प्रिंट आउट निकलवा लेता हूं क्योंकि पूजन में आवश्यक होगा उसके बाद में सामग्री इकट्ठा कर लेता हूं और अभी बच रहा है 3:32 आप करेक्ट 4:00 बजे मुझे संपर्क करें विशेष रूप से वीडियो चैट करें आप और आए वीडियो में 8 से 10 दिन के अंदर-अंदर वह लड़की आपसे स्वयं संपर्क करेगी लेकिन जो मैंने बताया है उसे करें क्योंकि 4:00 बजे पुष्य नक्षत्र चालू हो जाएगा उसे नक्षत्र में किया गया काम सफल होता है इसलिए आप ठीक 4:00 आ जाएं वीडियो चैट में आपको कुछ नहीं करना है केवल जो मैं मंत्र यहां से बोलूंगा और मित्रों को सुनना है और इसका कोई चार्ज नहीं लगेगा,"G3: #42 [17:03] ASTRO: Sir, for this, we will create a pooja. After this chat is over, give me some time, at least 5 to 10 minutes. I will check your Panchang and look at the Muhurat. After that, I will get a printout of the picture you provided because it will be necessary for the pooja. Then I will gather the materials. It is currently 3:32, contact me at exactly 4:00. Specifically, do a video chat and come on video. Within 8 to 10 days, that girl will contact you herself, but do what I have told you because Pushya Nakshatra will start at 4:00. Work done in that Nakshatra is successful, so come to the video chat at exactly 4:00. You don't have to do anything, just listen to the mantras I will recite from here, and there will be no charge for this.","G3: The astrologer uses the promise of a guaranteed result ('8 se 10 din ke andar-andar wo ladki aapse swayam sampark karegi') combined with a request to perform a ritual/pooja ('poojan karna padega', 'main kuch poojan aapse create karunga') and a specific instruction to reconnect via video call at 4:00 PM to perform this ritual.",4.25,2.14,2.67,6.67,,3,6,4,4,6,1,4,1,1,1,1,1,6,1,3,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+High,conversation_1520760_2925.csv,1520760,22403.48,ok,73,17,6.33,good,mixed,6.43,6.23,6.43,,,,,7.67,5.71,5.67,6.67,,8,6,9,,6,7,7,6,4,3,7,4,6,7,4,7,9,,none,2,2,1,1,0,1,1,0,1,1.0,1.0,0.0,15
+High,conversation_1680677_1931.csv,1680677,7690.06,ok,69,36,5.09,good,mixed,4.73,5.44,4.73,,,,,3.5,3.43,4.67,7.33,,3,3,4,4,4,7,3,3,1,3,3,4,7,3,6,6,10,,none,1,1,2,1,1,1,1,0,0,1.0,0.5,0.0,15
+High,conversation_174274_2078.csv,174274,27600.0,ok,97,73,5.4,good,mixed,6.32,4.48,6.32,,,,,7.25,5.71,6.0,6.33,,6,4,10,9,6,7,3,7,7,3,7,4,7,7,6,7,6,,none,1,1,1,1,1,1,0,0,0,0.5,0.5,0.0,15
+High,conversation_1851096_2048.csv,1851096,5125.92,ok,31,18,2.22,bad,bad,3.89,3.55,3.0,G3,"G3: #25 [08:10] ASTRO: Dekhiae Punam ji aapki husband ke face ke anusar mein dekh Pa raha hun ki aapke husband kafi sidhe aur sacche Hain imandar bhi hain but main dekh Pa raha hun ki aapke husband ko koi uksa raha hai ki aap donon ka rishta Tut jaaye
+#27 [08:59] ASTRO: Aur vah koi dur ka nahin hai aapke ghar ke side ka hi koi human hai
+#30 [09:49] ASTRO: Dekhiae agar aap chahti Hain ki aapki husband aapke sath rahe to aap mere ko kuchh time dijiye main Puja per baithkar aapke husband ka mind aapke taraf Puri tarah divert karunga","G3: #25 [08:10] ASTRO: See, Punam ji, based on your husband's face, I can see that your husband is quite straightforward and honest, but I can see that someone is provoking your husband so that your relationship breaks.
+#27 [08:59] ASTRO: And that person is not someone far away, but someone from your own side of the family.
+#30 [09:49] ASTRO: See, if you want your husband to stay with you, then give me some time; I will sit for a pooja and divert your husband's mind completely towards you.",G3: The astrologer uses fear (someone is manipulating the husband) to push a paid ritual (pooja) to divert the husband's mind.,3.25,2.29,2.67,7.33,,3,3,4,3,4,1,3,3,3,1,1,4,3,1,6,7,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+High,conversation_191594_1883.csv,191594,5037.0,ok,35,17,2.16,bad,bad,4.36,2.95,3.0,G3,"G3: #29 [03:33] ASTRO: No issues I need to see you and energies
+#30 [03:53] ASTRO: Go to my profile and there is an option for video call
+#34 [04:40] ASTRO: Yes mam","G3: #29 [03:33] ASTRO: No issues I need to see you and energies
+#30 [03:53] ASTRO: Go to my profile and there is an option for video call
+#34 [04:40] ASTRO: Yes mam",G3: The astrologer uses the need to 'see energies' (fear/urgency) to push the user to disconnect and start a paid video call.,4.67,3.43,2.33,7.0,,3,1,10,,6,3,3,3,3,3,3,3,3,1,6,6,9,,none,1,0,0,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_216966_748.csv,216966,24809.0,ok,21,8,5.43,good,mixed,6.27,4.6,6.27,,,,,6.0,6.4,5.0,7.67,,7,,10,1,7,4,7,7,7,,,4,7,4,6,7,10,,none,1,1,1,2,0,1,0,0,0,0.5,0.5,0.0,5
+High,conversation_2221141_168.csv,2221141,19534.9,ok,19,11,5.73,good,mixed,6.71,4.75,6.71,,,,,8.33,6.2,5.33,7.0,,6,,10,9,6,8,3,7,7,,,4,8,4,8,7,6,,none,1,0,2,1,0,1,0,0,0,0.5,1.0,0.0,5
+High,conversation_244875_1947.csv,244875,32310.0,ok,31,13,4.25,mixed,bad,4.5,4.0,4.5,,,,,4.25,3.43,4.0,6.33,,3,3,10,1,3,4,3,1,7,3,3,4,4,4,6,6,7,,none,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,10
+High,conversation_2634220_347.csv,2634220,5090.52,ok,376,126,2.58,mixed,bad,4.32,3.85,3.0,G3,"G3: #34 [06:03] ASTRO: Blockage remove ke Samay dekhna padega Mujhe lag raha hai ki aap kuchh negative vibration Apne Sath lekar baithe ho jo ki aapke sath aapka Kam nahin banne deti aur aapke kam bigaad deti Hai to yah blockage yah negative vibration sabko remove Karni hi padegi
+#41 [07:07] ASTRO: Vah bhi pata chal jaega jab main aapki blockege ke remove karungi to vahan samajh a jaega ki aap kya galti kar rahe ho
+#374 [133:00] ASTRO: Ek bar disconnect karke again connect kijiye video call ke liye","G3: #34 [06:03] ASTRO: I will have to check the time for removing the blockage. I feel that you are carrying some negative vibrations with you, which are preventing your work from being successful and are spoiling your tasks, so this blockage and these negative vibrations must be removed.
+#41 [07:07] ASTRO: That will also be known when I remove your blockage; then it will be understood what mistake you are making.
+#374 [133:00] ASTRO: Please disconnect once and connect again for the video call.","G3: The astrologer uses fear ('negative vibration', 'kam bigaad deti hai') to push for a video call/reconnection, which is a paid element.",4.33,3.29,4.33,5.33,,3,6,4,,4,3,3,3,3,4,3,4,6,3,4,6,6,,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,15
+High,conversation_2725383_4463.csv,2725383,161972.7,ok,31,24,2.96,mixed,bad,4.63,4.3,3.0,G3,"G3: #23 [04:12] ASTRO: Kyunki Abhi aapki kundli mein kafi sare planet kharab avastha mein hai
+#28 [04:42] ASTRO: Abhi aapka recharge bhi Shayad over ho raha hai please aap ek bar fir se connect kariyega","G3: #23 [04:12] ASTRO: Because right now, many planets in your kundli are in a bad state.
+#28 [04:42] ASTRO: Your recharge is also probably ending, please connect once again.",G3: The astrologer uses fear ('kafi sare planet kharab avastha mein hai') to justify a paid element (requesting the user to recharge/reconnect).,6.0,3.86,2.0,6.67,,6,4,10,4,6,6,1,3,7,3,1,4,1,1,4,7,9,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,5
+High,conversation_282357_285.csv,282357,6383.0,too_short,4,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_2850603_1238.csv,2850603,16757.18,ok,36,23,2.42,bad,bad,4.58,3.25,3.0,G3,"G3: #18 [02:41] ASTRO: Kisi Ne inke Man Ko divert kar rakha hai
+#22 [03:31] ASTRO: Lekin jaisa Maine dekha itni negative energy unke upar hai
+#23 [03:38] ASTRO: Jo bhi inko Apne vash mein kiya hai
+#28 [04:10] ASTRO: Hanji
+#29 [04:14] ASTRO: Wahi dikh raha hai
+#34 [04:58] ASTRO: Uske liye black magic ko kaatna padega
+#35 [05:00] ASTRO: Main batata hun kaise","G3: #18 [02:41] ASTRO: Someone has diverted their mind
+#22 [03:31] ASTRO: But as I saw, there is so much negative energy on them
+#23 [03:38] ASTRO: Whoever has put them under their control
+#28 [04:10] ASTRO: Yes
+#29 [04:14] ASTRO: That is what is visible
+#34 [04:58] ASTRO: For that, the black magic will have to be removed
+#35 [05:00] ASTRO: I will tell you how","G3: The astrologer uses fear (black magic, negative energy) to push a paid remedy (black magic removal).",4.75,3.57,3.0,7.0,,3,3,9,4,3,3,3,1,7,1,7,1,7,1,4,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_3064704_1747.csv,3064704,8242.3,ok,23,17,1.44,bad,bad,3.37,2.5,3.0,G3,"G3: #10 [03:01] ASTRO: Agar tum apna shukr majbut kar lete ho to yah ladki khud tumko propose Kar degi 11 ghante ke andar
+#12 [03:31] ASTRO: Agar tum mujhe 10 minut ka samay de dete Ho
+#13 [03:35] ASTRO: To main ISI ladki Se tumko propose karva Dunga 11 ghante ke andar
+#14 [03:40] ASTRO: Kyunki iski feelings bahut jyada hai yah tumhare liye Hi bani hai
+#18 [04:34] ASTRO: Time badha lijiye 10 minut ka
+#20 [04:51] ASTRO: Aap pareshan mat hoiye main guarantee le raha hun
+#21 [04:59] ASTRO: Aisa case mein roj dekhta hun bhai jaldi se a jao aap dobara","G3: #10 [03:01] ASTRO: If you strengthen your Shukra, this girl will propose to you herself within 11 hours
+#12 [03:31] ASTRO: If you give me 10 minutes of your time
+#13 [03:35] ASTRO: Then I will make this same girl propose to you within 11 hours
+#14 [03:40] ASTRO: Because her feelings are very strong, she is made just for you
+#18 [04:34] ASTRO: Increase the time by 10 minutes
+#20 [04:51] ASTRO: Do not worry, I am taking the guarantee
+#21 [04:59] ASTRO: I see such cases every day brother, come back quickly","G3: The astrologer uses fear/guarantee ('11 ghante ke andar propose kar degi', 'main guarantee le raha hun') to push for a paid element (extending time/recharging).",3.25,1.57,1.67,7.0,,3,1,8,1,1,1,3,1,1,3,1,1,3,1,6,6,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_3079187_926.csv,3079187,14965.94,ok,29,18,6.13,good,mixed,6.82,5.44,6.82,,,,,8.0,5.29,6.67,7.33,,6,8,10,8,6,4,3,7,7,3,7,6,7,7,6,7,9,,none,1,0,1,1,1,1,1,0,0,1.0,1.0,0.0,5
+High,conversation_3084324_3727.csv,3084324,12132.76,ok,26,14,1.75,bad,bad,4.71,2.8,3.0,G4,"G4: #18 [03:02] ASTRO: Ji han khatm hoga
+#24 [04:44] ASTRO: Ram Singh Ji ke naam ke anusar agar dekh rahi hun to yah wapas aaenge thoda sa time lagega kyunki inke Naam Ke anusar third person issues hai lekin yah khatm ho jaega","G4: #18 [03:02] ASTRO: Yes, it will end.
+#24 [04:44] ASTRO: If I am looking according to Ram Singh Ji's name, he will return, but it will take some time because according to his name there are third-person issues, but this will end.","G4: The astrologer makes a definitive, life-altering prediction ('khatm ho jaega') about the user's marriage ending and the husband returning without any chart-based justification or nuance, stating it as an absolute fact.",5.0,2.86,5.0,6.0,,3,3,10,4,3,4,1,1,1,3,7,4,7,4,6,3,9,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_3089486_1765.csv,3089486,7666.46,ok,56,33,1.0,bad,bad,2.99,2.5,2.99,"G3,G4","G3: #9 [02:21] ASTRO: Bahan ji Kyunki Surya grah ka negative Prabhav Rahu ke sath banaa hua Hai
+#13 [03:13] ASTRO: Bus Surya grah ka jo negative Prabhav banaa hua hai use positive karna hoga
+#16 [03:29] ASTRO: Sab kuchh main bata raha hun dekhiae upar add coin ka option hai aap apna time Badha lo
+#17 [03:37] ASTRO: Aur ham ek paath ke madhyam se aapke Bane hue negative Prabhav ko positive kar rahe hain aur ratri ko hi aapko jawab mil jaega 9:00 baje tak
+#28 [06:16] ASTRO: Ji bahan bilkul pyar Se Hi rahega iske guarantee main leta Hun bahan ji
+#37 [08:21] ASTRO: Time Badha karke aap mantra kariye
+#39 [09:57] ASTRO: Time Badha lijiye jaldi se aap apna
+#54 [14:57] ASTRO: Time Badha lijiye aap apna jaldi se Kashish ji bus thoda Mantra bacha hua hai aur | G4: #15 [03:22] ASTRO: Aapke liye achcha Hi sochta Hai per planet ke negative Prabhav ki vajah se aapse connect nahin kar pa raha hai
+#17 [03:37] ASTRO: Aur ham ek paath ke madhyam se aapke Bane hue negative Prabhav ko positive kar rahe hain aur ratri ko hi aapko jawab mil jaega 9:00 baje tak
+#23 [05:27] ASTRO: Ham Aapke planet ko positive kar denge aur ratri 9:00 baje tak aapke pass jawab a jaega wapas","G3: #9 [02:21] ASTRO: Sister, because the negative influence of the Surya grah is formed along with Rahu
+#13 [03:13] ASTRO: We just need to turn the negative influence of the Surya grah into a positive one
+#16 [03:29] ASTRO: I am telling you everything, look there is an add coin option above, increase your time
+#17 [03:37] ASTRO: And through a paath, we are turning your negative influence into a positive one, and you will get the answer by tonight at 9:00 PM
+#28 [06:16] ASTRO: Yes sister, it will definitely remain loving, I take the guarantee for this, sister
+#37 [08:21] ASTRO: Increase the time and then do the mantra
+#39 [09:57] ASTRO: Increase your time quickly
+#54 [14:57] ASTRO: Increase your time quickly Kashish ji, just a little bit of the mantra is left and | G4: #15 [03:22] ASTRO: He thinks well of you, but due to the negative influence of the planets, he is unable to connect with you
+#17 [03:37] ASTRO: And through a paath, we are turning your negative influence into a positive one, and you will get the answer by tonight at 9:00 PM
+#23 [05:27] ASTRO: We will make your planets positive and you will get the answer back by 9:00 PM tonight","G3: The astrologer uses fear ('Surya grah ka negative Prabhav') and guarantees ('iske guarantee main leta Hun') to pressure the user to extend time/recharge ('time Badha lo'). | G4: The astrologer makes up a specific fact that the boy will contact the user by 9 PM, which is an invented prediction.",5.33,1.29,1.0,4.33,,3,3,10,,3,1,1,1,1,1,1,1,1,1,6,6,1,,none,1,1,0,0,0,0,0,0,0,0.0,0.0,0.0,15
+High,conversation_3100018_2041.csv,3100018,17137.14,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_3129759_3821.csv,3129759,20744.4,ok,29,12,1.07,bad,bad,4.14,1.0,3.0,G3,"G3: #22 [03:46] USER: Kya unhone mere ko bhi kuch kiya mujhe lgta h
+#28 [04:52] ASTRO: Connect kijiye mam","G3: #22 [03:46] USER: Did they do something to me as well? I feel like they did.
+#28 [04:52] ASTRO: Please connect, ma'am.",G3: The astrologer uses the user's fear of being under a spell (tantra) to maintain engagement and then explicitly asks the user to 'Connect kijiye' (reconnect/extend) to continue the chat.,4.5,2.86,2.0,8.33,3.0,3,3,9,3,1,4,3,1,4,3,4,4,1,1,10,6,9,3,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_3141140_670.csv,3141140,12877.34,ok,22,12,2.1,bad,bad,3.66,3.55,3.0,G3,"G3: #17 [04:45] ASTRO: Dekhiae Meri bahan aapko main clear bata raha hun Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega Lekin
+#18 [04:55] ASTRO: Jaisa main aapko bata raha hun Meri bahana vaisa aapka yah theek hai aapko main kuchh suggestion bata raha hun time ko aap continue Kariye Meri bahan main aapko dekhe Vishwas ke sath bata raha hun
+#19 [05:00] ASTRO: Yah aapki life mein wapas a jaenge okay Meri bahan Keval do SE teen","G3: #17 [04:45] ASTRO: See, my sister, I am telling you clearly that within just 15 to 20 minutes, you will receive a good commitment from their side, but
+#18 [04:55] ASTRO: Just as I am telling you, my sister, this is fine for you. I am giving you some suggestions, continue with the time, my sister. I am telling you this with confidence.
+#19 [05:00] ASTRO: They will come back into your life, okay my sister, just two to three","G3: The astrologer uses a guaranteed result ('15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega') and then immediately pushes for the user to 'continue' the time ('time ko aap continue Kariye') to receive further guidance, creating a paid pressure scenario.",4.5,2.14,1.0,7.0,,3,3,9,3,3,1,3,1,1,3,3,1,1,1,6,6,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_3165061_2487.csv,3165061,13769.42,ok,89,54,7.2,good,good,7.12,7.28,7.12,,,,,7.33,7.14,8.0,6.0,,7,8,7,,7,8,7,7,7,7,7,7,8,9,1,8,9,,none,1,1,2,1,2,1,1,1,1,1.0,0.5,1.0,15
+High,conversation_3217935_1737.csv,3217935,5096.42,ok,105,68,4.24,mixed,bad,5.08,3.4,5.08,,,,,4.0,4.0,6.0,6.33,,3,6,3,,4,7,3,3,4,3,,4,7,7,6,7,6,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+High,conversation_3233283_1873.csv,3233283,9480.12,ok,27,14,6.29,good,mixed,7.17,5.41,7.17,,,,,8.25,6.43,7.0,7.0,,8,8,10,7,7,7,7,7,7,3,7,7,7,7,4,7,10,,none,1,2,1,1,2,1,1,0,0,0.5,0.5,0.0,5
+High,conversation_3258729_2041.csv,3258729,127098.98,ok,47,28,4.56,mixed,mixed,4.58,4.54,4.58,,,,,2.75,3.57,5.0,7.0,,3,1,4,3,3,3,3,3,7,3,3,4,7,4,6,6,9,,none,1,1,1,1,1,1,0,0,0,0.5,0.5,0.0,10
+High,conversation_3274321_3667.csv,3274321,12399.44,ok,80,36,7.98,good,good,7.71,8.25,7.71,,,,,8.5,8.0,7.67,6.67,,9,8,10,7,8,9,7,8,9,6,9,7,8,8,6,8,6,,none,1,2,2,2,2,2,2,1,0,1.0,1.0,0.5,15
+High,conversation_3289400_670.csv,3289400,27986.06,ok,26,13,3.36,mixed,bad,5.51,4.21,3.0,G3,"G3: #16 [07:16] ASTRO: Kundli ke madhyam se inke life mein third party ka involve hai abhi jaldi aur galat mat samjhiega inki family member mein koi hai aur vah female hai jo Inka mind divert kar rahi hai jiske vajah se thoda ek confusion mein rahti hai jiske vajah se abhi kuchh samay se jyada hi yah chijen aapko dekhne ko mil raha hoga ego aur thodi duriyan yah chijen abhi dikh Raha hoga aapko
+#17 [07:51] ASTRO: To iska matlab yah thodi na hai ki matlab aapka yah rishta khatm hone jaisa dikh raha hai aisa kuchh bhi nahin Hai positive sanket Hai chances kafi Prabal Hai inki man mein hua feeling jagrit hoga Lekin jo third party ka involve hai please usko aap thoda dur karvaiye aapko pata Hai inki family member mein hai aur vah female hai koi bhi baat ho kuchh bhi baat Ho to yah usse share Karti Hain jiske vajah se vah ladki Inka mind divert kar rahi hai
+#20 [09:57] ASTRO: Dekhiae itna to main aapko hint de diya ki unki family member ka koi hai aur company ki kuchh policy hota hai to yah batana anivarya nahin Hai Lekin bhai ji hint Dena bahut jaruri hai theek hai aur Maine de bhi diya aapko itna to Bata Diya bus aap unko alert kariyega aur Prem Bhavna se hi baat kariyega theek hai jo bhi aapko samjhana hai jo bhi kahana Hai unko Prem Bhavna se hi kahiye theek hai vah samjhenge baat Ko acchi ladki Hai han iska main solution kar sakta hun ki use third party ko dur kar sakta hun unka mind divert karke hata sakta hun aap donon ke life se yah kar sakta
+#21 [09:58] ASTRO: Dekhiae itna to main aapko hint de diya ki unki family member ka koi hai aur company ki kuchh policy hota hai to yah batana anivarya nahin Hai Lekin bhai ji hint Dena bahut jaruri hai theek hai aur Maine de bhi diya aapko itna to Bata Diya bus aap unko alert kariyega aur Prem Bhavna se hi baat kariyega theek hai jo bhi aapko samjhana hai jo bhi kahana Hai unko Prem Bhavna se hi kahiye theek hai vah samjhenge baat Ko acchi ladki Hai han iska main solution kar sakta hun ki use third party ko dur kar sakta hun unka mind divert karke hata sakta hun aap donon ke life se yah kar sakta hun","G3: #16 [07:16] ASTRO: Through the Kundli, it appears there is a third-party involvement in their life right now. Please do not misunderstand; it is a family member, a female, who is diverting their mind, which is why they have been in a state of confusion. This is likely why you have been seeing more of these things lately, such as ego and distance.
+#17 [07:51] ASTRO: This does not mean that your relationship is ending; it is nothing like that. There are positive signs and strong chances that their feelings will be awakened. However, please try to distance that third party. You know it is a family member, a female, and they share everything with her, which is why she is diverting their mind.
+#20 [09:57] ASTRO: Look, I have given you a hint that it is someone from their family, and due to company policy, I am not obligated to disclose more. But brother, it was important to give you a hint, and I have done so. Just alert them and speak with love. Whatever you want to explain or say, say it with love. They will understand; they are a good person. Yes, I can provide a solution to remove that third party and divert their mind away from your lives.
+#21 [09:58] ASTRO: Look, I have given you a hint that it is someone from their family, and due to company policy, I am not obligated to disclose more. But brother, it was important to give you a hint, and I have done so. Just alert them and speak with love. Whatever you want to explain or say, say it with love. They will understand; they are a good person. Yes, I can provide a solution to remove that third party and divert their mind away from your lives.","G3: The astrologer uses fear regarding a 'third party' influencing the user's relationship and then offers to perform a 'solution' to remove this third party and divert their mind, which constitutes a paid ritual/process.",5.75,6.29,5.0,5.0,,6,6,4,7,7,8,7,7,7,1,7,4,7,4,1,7,7,,none,1,1,1,1,0,1,0,0,0,0.5,0.5,0.0,15
+High,conversation_3308505_2019.csv,3308505,20638.2,ok,29,13,4.92,good,mixed,5.84,4.0,5.84,,,,,6.25,4.43,4.0,8.67,,3,8,10,4,6,4,3,3,4,4,7,4,4,4,10,7,9,,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,5
+High,conversation_3308505_4010.csv,3308505,20638.2,ok,42,25,4.45,mixed,bad,5.14,3.76,5.14,,,,,3.0,4.57,5.0,8.0,,6,1,4,1,6,7,1,1,7,3,7,4,8,3,8,7,9,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+High,conversation_3355731_1117.csv,3355731,10195.2,ok,45,20,2.55,mixed,bad,4.83,4.28,3.0,G4,"G4: #17 [07:34] ASTRO: Bilkul karenge aapse shaadi karna chahti bhi hain aapko bahut pasand Karti hain jaise ki ham dekh pa rahe hain
+#21 [09:30] ASTRO: Dekhiae humne aapko pahle hi bataya hai agar ine donon ka devorce Ho jaaye to aapki shaadi avashya hogi inke sath
+#42 [18:32] ASTRO: Face reading ke anusar hamen yah dikhai de raha hai inke andar thoda dar banaa hua hai aur yah confuse mein bhi rahti Hain but dekha jaaye to aapse bahut pyar karti Hain yah humne aapko pahle hi bataya hai main usmein latest mein aapke sath aana chahti hun aur aap donon ka future bhi dikhai de raha hai","G4: #17 [07:34] ASTRO: We will definitely do it, she wants to marry you and likes you a lot, as we can see.
+#21 [09:30] ASTRO: See, we have already told you that if they both get a divorce, then your marriage with her will definitely happen.
+#42 [18:32] ASTRO: According to face reading, we can see that there is some fear inside her and she also remains confused, but if we look at it, she loves you a lot. We have already told you this, she wants to be with you in the future and a future for both of you is also visible.","G4: The astrologer makes definitive, irresponsible claims about a third party (the girl's husband) giving a divorce and the user's future marriage, which are not astrological predictions but invented outcomes.",3.75,3.57,5.67,6.33,,6,1,4,4,4,4,3,3,1,3,7,6,7,4,3,7,9,,none,1,1,1,1,1,0,1,0,1,0.5,0.0,0.0,15
+High,conversation_3371122_1117.csv,3371122,5423.28,ok,28,13,4.88,good,mixed,5.17,4.6,5.17,,,,,4.67,2.33,5.67,8.0,,3,,10,1,3,3,3,3,1,,1,6,7,4,8,6,10,,none,1,0,1,1,0,1,1,0,1,0.5,0.5,0.0,5
+High,conversation_3385183_546.csv,3385183,20880.1,ok,181,104,7.28,good,good,6.75,7.81,6.75,,,,,7.5,7.14,6.67,5.67,,9,8,4,9,8,8,8,8,7,3,8,4,8,8,3,8,6,,none,2,2,2,2,2,2,2,0,0,1.0,1.0,0.0,15
+High,conversation_3395760_1031.csv,3395760,260728.08,ok,39,20,1.0,bad,bad,2.44,2.5,2.44,G3,"G3: #16 [15:41] ASTRO: Dekhiae aap logon ki shaadi ki Yog mein kafi rukavat a rahi hai Kundli mein bhi rukavate hain aur uske साथ-साथ family Kisi bhi HAL mein aapke shaadi Ke liye manegi nahin kyunki family bahut jyada problem create karegi to girahu ke sath Sani baithe Hain Jo ki aapka support nahin kar raha hai udhar Se love marriage mein bhi problem hai aur kahin na kahin dekha Jaaye to aapki family Kisi bhi HAL mein accept nahin karne wali hai aapki shaadi ko agar chahti Ho ki family to kuchh upay mere pass jisko karne se main 100% guarantee Le sakti hun ki aapki shaadi aapke boyfriend ke sath ho jayegi aur koi rukavat nahin aaegi chijen hamesha ke liye acchi Ho jaayengi dikkat Hai jivan mein nahin aaengi aur 24 ghante ke andar family khud shaadi Ke liye bol degi
+#23 [22:06] ASTRO: Is upay mein kya karna hai main aapko batati hun ismein kuchh Mantra ka uchharan Hoga aur Mantra ki uchharan ke turant bad havan Hoga yah sari chijen mere dwara Hoga jisko karne se problem solve ho jayegi
+Ismein ₹2000 ka kharch aata Hai jiske pass sari chijen ekadam acche se hoti hain aur Main havan karte samay photo Mantra ka uchharan karte samay photo bhi aapko send karungi
+#24 [23:01] ASTRO: Aur sab kuchh 100% guarantee ke sath Hoga jiske bhi family se problem Hogi aur 24 ghante ke andar khud man jaenge
+#26 [23:31] ASTRO: Aapane Jaise coin add kiya tha use 2000 rupaye ka kamai add kariye main taiyari karke chijen shuru Karti hun
+#31 [25:34] ASTRO: ₹2000 ka karna hai","G3: #16 [15:41] ASTRO: See, there are many obstacles in the Yog of your marriage. There are obstacles in the Kundli as well, and along with that, your family will not agree to your marriage under any circumstances because they will create a lot of problems. Shani is sitting with the planets, which is not supporting you. On the other hand, there are problems in love marriage as well, and if seen from one perspective, your family is not going to accept your marriage under any circumstances. If you want your family to agree, I have some remedies, and by doing them, I can give a 100% guarantee that your marriage with your boyfriend will happen, there will be no obstacles, things will become good forever, there will be no problems in life, and within 24 hours, the family will themselves agree to the marriage.
+#23 [22:06] ASTRO: I will tell you what to do in this remedy. It will involve the chanting of some Mantras, and immediately after the chanting of the Mantras, there will be a Havan. All these things will be done by me, and by doing this, the problem will be solved.
+It costs ₹2000, which covers everything perfectly, and I will also send you photos while I perform the Havan and chant the Mantras.
+#24 [23:01] ASTRO: And everything will be done with a 100% guarantee; whoever has family problems, they will agree themselves within 24 hours.
+#26 [23:31] ASTRO: Just like you added coins, add ₹2000, and I will prepare and start the process.
+#31 [25:34] ASTRO: You have to do it for ₹2000.","G3: The astrologer uses fear and guaranteed results ('100% guarantee', '24 ghante ke andar family khud shaadi ke liye bol degi') to push a paid ritual ('₹2000 ka kharch', 'havan mere dwara hoga').",3.75,1.0,1.0,4.0,,3,1,10,1,1,1,1,1,1,1,1,1,1,1,4,1,7,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,15
+High,conversation_3428129_1844.csv,3428129,8945.58,ok,24,11,2.12,bad,bad,4.0,3.25,3.0,G3,"G3: #19 [04:40] ASTRO: Dekho iske liye aap ek chij kar sakte ho kyunki yah bahut jald sthitiyan badalta Hai aur vah khud Se standard lega ya to aap family convence ko lekar ke healing karva L
+#23 [05:04] ASTRO: Shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai","G3: #19 [04:40] ASTRO: Look, you can do one thing for this because the situation changes very quickly and he will take a stand himself, or you can get healing done by involving the family.
+#23 [05:04] ASTRO: Another major factor is hidden behind the obstacles in marriage.",G3: The astrologer uses fear ('shaadi ki rukawat ke peeche ek aur bada factor chupa hua hai') to push a paid healing service ('healing karva L').,4.0,2.0,3.0,7.0,,3,1,9,3,4,1,3,3,1,1,1,1,7,1,7,4,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_3460845_3788.csv,3460845,32615.2,ok,70,40,3.28,mixed,bad,4.36,5.2,3.0,G3,"G3: #28 [11:35] ASTRO: Rahul ketu bahut jyada week Hai to isko distract kafi jyada karenge
+#32 [13:49] ASTRO: Kyunki iski kundli mein Rahu bahut jyada week Hai to isliye usko distract Karega aur pareshani mein bhi Dal sakta hai
+#63 [23:12] ASTRO: Jab aap yah Chadha lenge to uske bad ek chhoti Si chat connect karni hai mere pass
+#64 [23:23] ASTRO: Main aapke bacchi ki details aur uske birth details ke Aadhar per uske liye kuchh Mantra Jaap karunga vah ekadam free rahega aapke liye
+#65 [23:39] ASTRO: Jab aapko result dekhne Lage to aap iska jo chahe vah de sakte hain bad mein Lekin","G3: #28 [11:35] ASTRO: Rahu and Ketu are very weak, so they will distract him quite a lot.
+#32 [13:49] ASTRO: Because Rahu is very weak in his kundli, it will distract him and can also cause trouble.
+#63 [23:12] ASTRO: Once you have offered this, you need to have a short chat with me.
+#64 [23:23] ASTRO: Based on your child's details and birth details, I will perform some Mantra Jaap for him, which will be completely free for you.
+#65 [23:39] ASTRO: Once you start seeing results, you can give whatever you wish later, but",G3: The astrologer uses fear regarding Rahu/Ketu being 'very weak' and causing 'distraction/trouble' to push a paid follow-up chat and a ritual process.,4.0,3.43,3.0,7.0,,3,3,7,3,4,3,4,3,3,4,3,1,4,4,6,6,9,,none,1,0,1,1,0,1,0,1,0,0.5,1.0,0.5,15
+High,conversation_3475164_2462.csv,3475164,7611.0,ok,155,101,5.87,good,mixed,6.32,5.41,6.32,,,,,6.0,6.29,6.67,6.33,,7,7,3,7,7,8,3,7,7,4,8,4,8,8,6,7,6,,none,1,1,2,1,2,1,1,0,0,0.5,0.5,0.0,15
+High,conversation_3540611_1747.csv,3540611,6854.62,ok,133,96,1.98,bad,bad,3.56,3.4,3.0,G3,"G3: #30 [03:28] ASTRO: Agar aap meri baton ko lekar serious Ho sacchai dikhai de rahi ho to aap apna time badha lijiye
+#31 [03:46] ASTRO: Time badhana hoga to upar dekhiaega head coin ka option hoga vahan se aap time badha lega
+#36 [04:40] ASTRO: 7 ghante 20 minut ke bad mein uska call aaega
+#115 [13:28] ASTRO: Sabhi log pyar Se man jaenge 72 ghante ke andar uski mummy man jayegi Meri jimmedari
+#116 [13:32] ASTRO: Aur 24 ghante ke andar aap donon continue Ho jaaoge
+#118 [13:45] ASTRO: Ready ho to sabse pahle apna time badha lo
+#127 [14:36] ASTRO: Aap apna time badha lijiye Shriman Ji","G3: #30 [03:28] ASTRO: If you are serious about what I am saying and can see the truth, then please extend your time.
+#31 [03:46] ASTRO: If you need to extend the time, look above, there will be a head coin option; you can extend your time from there.
+#36 [04:40] ASTRO: After 7 hours and 20 minutes, you will receive their call.
+#115 [13:28] ASTRO: Everyone will agree lovingly; within 72 hours, their mother will agree, that is my responsibility.
+#116 [13:32] ASTRO: And within 24 hours, both of you will be back together.
+#118 [13:45] ASTRO: If you are ready, then first extend your time.
+#127 [14:36] ASTRO: Please extend your time, sir.","G3: The astrologer uses fear and guaranteed results (e.g., '7 ghante 20 minut ke bad mein uska call aaega', '72 ghante ke andar uski mummy man jayegi') to pressure the user to extend time/pay for a ritual.",4.25,2.0,3.0,5.0,,3,3,7,4,6,1,1,1,1,1,3,1,7,1,3,6,6,,none,1,0,1,1,0,0,0,0,0,1.0,0.0,0.0,15
+High,conversation_3552969_680.csv,3552969,14617.84,ok,20,11,4.99,good,mixed,6.22,3.76,6.22,,,,,6.75,5.14,5.0,8.0,,6,7,10,4,6,6,4,3,7,3,7,4,7,4,7,7,10,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_355959_2159.csv,355959,5472.82,ok,33,12,4.27,mixed,bad,5.28,3.25,5.28,,,,,5.0,3.43,4.0,8.67,,3,6,10,1,6,3,3,1,7,3,1,4,7,1,10,6,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_3568670_1747.csv,3568670,11526.24,ok,41,25,2.5,mixed,bad,3.34,4.66,3.0,G3,"G3: #20 [03:25] ASTRO: Jisse pasand karti ho vahan per shaadi ka yog पूरा-पूरा banaa hua Hai
+#23 [03:50] ASTRO: Guarantee Ke Sath Ho jayegi aap mujhe Time to dijiye
+#26 [04:02] ASTRO: Aap apna time badha lijiye pahle jaldi se
+#29 [04:09] ASTRO: Dekho add coin ka option hoga
+#30 [04:14] ASTRO: Main karvata Hun tumhari shaadi kyon pareshan hun aap
+#31 [04:20] ASTRO: Maine pahle hi bol diya love marriage ka yog banaa hua Hai jisse pyar Karti usi ke sath tumhari shaadi hogi
+#32 [04:24] ASTRO: Upar Dekho add coin ka option hoga apna time badha Lo pahle
+#35 [04:48] ASTRO: Aapko mere sath mein karna hoga main change karunga energy aise thodi Na hoga Ki aap akele bol do
+#36 [04:53] ASTRO: Bharosa karo 10 minut ka time do
+#38 [04:59] ASTRO: Upar Dekho","G3: #20 [03:25] ASTRO: The yog for marriage with the person you like is fully formed.
+#23 [03:50] ASTRO: It will happen with a guarantee, just give me some time.
+#26 [04:02] ASTRO: Please increase your time quickly first.
+#29 [04:09] ASTRO: Look, there should be an add coin option.
+#30 [04:14] ASTRO: I will get your marriage done, why are you worried?
+#31 [04:20] ASTRO: I have already said that the yog for a love marriage is formed; you will marry the person you love.
+#32 [04:24] ASTRO: Look above, there should be an add coin option, increase your time first.
+#35 [04:48] ASTRO: You will have to do it with me, I will change the energy; it won't happen just by you saying it alone.
+#36 [04:53] ASTRO: Trust me, give me 10 minutes of time.
+#38 [04:59] ASTRO: Look above.","G3: The astrologer uses guaranteed results ('Guarantee Ke Sath Ho jayegi', 'Main karvata Hun') combined with repeated pressure to add time/recharge ('add coin ka option hoga', 'apna time badha lijiye') to perform a ritual/energy change.",4.25,2.14,1.0,6.33,3.0,3,3,10,1,4,1,4,1,1,1,3,1,1,1,4,6,9,3,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+High,conversation_3596060_2005.csv,3596060,14457.36,ok,31,14,2.82,mixed,bad,4.79,3.85,3.0,G3,"G3: #21 [05:35] ASTRO: Ji bilkul Hogi nahin hoga to bhi upay hai
+#27 [06:56] ASTRO: Aap 2 minut ka time dijiye aur ho sake to Apne time ko increase Kar lijiye","G3: #21 [05:35] ASTRO: Yes, absolutely it will happen, and even if it doesn't, there are remedies.
+#27 [06:56] ASTRO: Please give me 2 minutes, and if possible, increase your time.",G3: The astrologer uses fear/guarantee ('nahin hoga to bhi upay hai') and then immediately asks the user to extend time ('time ko increase Kar lijiye') to get the reading.,5.0,3.14,3.0,8.0,,3,4,9,4,4,3,3,3,3,3,3,3,3,3,8,6,10,,none,1,0,1,1,2,0,0,0,0,0.5,0.0,0.0,10
+High,conversation_3607008_1041.csv,3607008,5002.02,ok,72,36,5.37,good,mixed,5.08,5.65,5.08,,,,,3.5,4.5,6.0,6.33,,3,3,4,4,6,7,3,3,4,4,,4,8,6,6,7,6,,none,1,1,1,1,1,1,0,1,1,0.5,0.5,0.5,15
+High,conversation_366835_2059.csv,366835,8769.0,ok,33,24,7.23,good,good,7.57,6.89,7.57,,,,,8.0,8.6,6.0,7.67,,8,8,8,,9,9,8,8,9,,,4,7,7,6,8,9,,none,1,2,2,2,2,2,2,0,0,0.5,1.0,0.0,10
+High,conversation_3684647_765.csv,3684647,7339.6,ok,14,6,4.3,mixed,bad,5.36,3.25,5.36,,,,,4.67,4.43,4.67,7.67,,3,1,10,,4,4,3,3,7,3,7,4,7,3,6,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_3712530_4320.csv,3712530,19637.56,ok,18,1,2.12,bad,bad,3.25,1.0,3.25,,,,,1.0,1.67,4.0,6.33,,,,1,,1,,3,1,,,,4,4,4,3,6,10,,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,10
+High,conversation_372003_107.csv,372003,6734.82,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_372400_721.csv,372400,5315.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_3753418_2788.csv,3753418,19138.42,ok,162,123,2.96,mixed,bad,3.81,5.11,3.0,G3,"G3: #105 [43:32] ASTRO: Lekin Sabse Badi baat Ko maine aapko bataya hai ki tu ka prabhav ismein ketu jo hai
+#106 [43:57] ASTRO: Keval kuchh samay ke liye Jaise aapka achcha nahin Ho Pa raha hai kyunki Main dekh raha hun ki Guru Buddh ke prabhav ke Karan ketu bhi kuchh kar nahin Pa rahe hain lekin jarur kuchh rukavaten abhi Dale hue hain
+#110 [45:22] ASTRO: Kyunki ketu ka kuchh Aisa main abhi upay kar deta hun healing ke dwara ki sab kuchh jald sahi ho jaaye
+#111 [45:35] ASTRO: Aisa main kar dena chahta hun
+#117 [48:08] ASTRO: Abhi Ham ketu Mantra ke dwara healing kar dete Hain sab kuchh clear hoga aur jald hoga
+#122 [55:42] ASTRO: Ketu ke dwara Rahu ke dwara aisi sthiti a jaati hai aapko najar bahut jyada lagta hai
+#125 [56:38] ASTRO: Kyunki Rahu ketu se prabhav mein aisa hota hai ISI Karan se aapko najar Hi lag jaati Hai
+#132 [58:19] ASTRO: Isiliye Maine ketu ke prabhav Ko jab dekha Hai tabhi humko Laga Hai ki is tarah ke problem aapko ho rahe hain jabki kundli ke according aapko bahut aage badh Jana chahie Tha ab Tak acchi safalta hasil kar lena chahie","G3: #105 [43:32] ASTRO: But the biggest thing I have told you is about the influence of Ketu in this.
+#106 [43:57] ASTRO: It is only for a short time that things are not going well for you, because I see that due to the influence of Guru and Buddh, even Ketu is unable to do anything, but it has definitely created some obstacles for now.
+#110 [45:22] ASTRO: Because I will perform a remedy for Ketu right now through healing so that everything gets better soon.
+#111 [45:35] ASTRO: I want to do this for you.
+#117 [48:08] ASTRO: Now we will perform healing through the Ketu Mantra; everything will be cleared up and it will happen soon.
+#122 [55:42] ASTRO: Due to Ketu and Rahu, such a situation arises where you get affected by the evil eye very easily.
+#125 [56:38] ASTRO: Because it happens under the influence of Rahu and Ketu, that is the reason why you get affected by the evil eye.
+#132 [58:19] ASTRO: That is why when I saw the influence of Ketu, I felt that you are facing these kinds of problems, whereas according to your kundli, you should have moved much further ahead by now and achieved great success.","G3: The astrologer uses fear (negative energy, Ketu/Rahu influence, nazar) to justify performing a 'healing' ritual (paid element) for the user.",3.67,1.57,4.67,5.33,,3,1,7,,3,3,1,1,1,1,1,4,7,3,6,6,4,,none,1,1,1,1,0,1,0,0,0,1.0,1.0,0.0,15
+High,conversation_3761643_2353.csv,3761643,1197750.74,ok,133,71,2.5,mixed,bad,4.16,3.85,3.0,G3,"G3: #24 [09:25] ASTRO: Is Karan Indrajeet Abhi ek relationship mein commitment nahin De Pa raha hai aur ismein kuchh negative energy ka prayog bhi dekha ja raha hai
+#46 [19:33] ASTRO: Aur highly chances dikhai pad raha hai ki yah jail mein hai
+#48 [20:38] ASTRO: Kyunki Jo energy iski dikhai pad rahi hai uske anusar kafi Gambhir samasya Dekhi ja rahi hai iske life mein kya karun Kya Na Karun is prakar ka situation hai
+#79 [41:45] ASTRO: Nahin to yah nahin chalega ek kam kariye aap uski koi photo print karva lijiye 
+Lal Chandan 
+Lal markar 
+Aur haldi 
+Itna Saman aap ektrit kariye phir main aapki prakriya karva Dunga aapko exact situation pata chal jaega uske bad kya karna hai kaise karna hai
+#99 [53:58] ASTRO: Ya to fir aap call chat ya video per live agar join kar saken to main photo ko print kara lunga aur aapke sath baithkar main aapki jagah per kar dunga parikriya Pura","G3: #24 [09:25] ASTRO: Is Karan Indrajeet currently unable to give a commitment in the relationship, and some use of negative energy is also being seen in this.
+#46 [19:33] ASTRO: And there are high chances that he is in jail.
+#48 [20:38] ASTRO: Because according to the energy being shown for him, a very serious problem is seen in his life; he is in a situation where he doesn't know what to do and what not to do.
+#79 [41:45] ASTRO: Otherwise this won't work, do one thing, get a photo of him printed.
+Red sandalwood
+Red marker
+And turmeric
+Collect these items, then I will have you perform the procedure, and you will know the exact situation and what to do and how to do it after that.
+#99 [53:58] ASTRO: Or if you can join live on call, chat, or video, then I will get the photo printed and sit with you to complete the procedure in your place.","G3: The astrologer uses fear (negative energy, jail, serious problems) to push a paid ritual/process involving printing photos and performing a mantra-based procedure.",3.75,1.57,4.0,7.33,,3,4,4,4,3,1,1,1,1,1,3,1,7,4,6,7,9,,none,1,0,1,1,1,0,0,0,1,0.5,0.0,0.0,15
+High,conversation_3775635_1691.csv,3775635,12569.36,ok,23,11,3.38,mixed,bad,3.97,2.8,3.97,,,,,1.5,2.71,3.67,8.0,,3,1,1,1,1,1,3,3,7,3,1,4,4,3,8,7,9,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_387914_2059.csv,387914,6950.0,ok,30,10,4.42,mixed,bad,4.84,4.0,4.84,,,,,3.75,4.14,5.0,7.33,4.0,3,1,10,1,4,7,3,1,4,3,7,4,7,4,8,6,8,4,vague,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,5
+High,conversation_396032_1305.csv,396032,82407.0,ok,67,36,2.32,bad,bad,3.94,3.7,3.0,G3,"G3: #32 [07:39] ASTRO: Nahin a naam mein struggle rahega bacche ko
+#33 [07:56] ASTRO: To aap to yah chahenge nahin ki Bete ki life mein struggle Ho
+#63 [14:31] ASTRO: Aap mujhe ek bar disconnect karke fir se connect kariye join kariye kyunki thoda network Ishu a raha hai
+#64 [14:43] ASTRO: Main inki janm kundli check kar rahi hun aap join kariye main aapko batati hun","G3: #32 [07:39] ASTRO: No, there will be struggle in the name for the child
+#33 [07:56] ASTRO: So you wouldn't want there to be struggle in your son's life
+#63 [14:31] ASTRO: Please disconnect and reconnect/join again because there is a bit of a network issue
+#64 [14:43] ASTRO: I am checking his janm kundli, you join and I will tell you","G3: The astrologer uses fear ('A naam mein struggle rahega') to influence the user, and then uses a paid element (requesting the user to disconnect and reconnect/rejoin the chat) to avoid answering the question.",5.25,1.86,2.0,6.67,,3,4,10,4,3,1,3,1,1,3,1,4,1,1,6,6,8,,none,1,0,1,1,0,0,0,0,0,1.0,0.0,0.0,15
+High,conversation_400197_2439.csv,400197,114830.0,ok,10,4,2.4,bad,bad,3.5,1.3,3.5,,,,,2.0,2.33,3.0,6.67,,3,,1,,1,,3,3,,,,,3,3,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_411255_721.csv,411255,13740.0,too_short,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_418962_1436.csv,418962,10746.74,ok,34,20,3.61,mixed,bad,4.59,5.63,3.0,G3,"G3: #26 [09:37] ASTRO: Ek chij main bataun agar aap unke sath soch Rahi dobara se chijen Sahi hone ke to chances hai uske liye upay karna hoga already aapke kundli mein kuchh aisi chijen bhi hain na jiski vajah se thoda disturbing aapko kafi jyada ho raha hoga
+#29 [10:55] ASTRO: Aapko pata hai ki nahin aapke kundli mein kuchh aisi dos aur kuchh aisi chijen bhi Bani Hui jiski vajah se aapki life mein kafi jyada struggle rahata hoga
+#32 [11:42] ASTRO: Main aapko kuchh upay bataunga usko karna hoga aur already thoda sa kuchh Dhyan dijiye is hisab se agar continue kuchh aisi chijen kar denge na jiski vajah se aapko aage chalkar
+#33 [11:56] ASTRO: Aakash bilkul aaenge wapas uske liye main kuchh karunga aur aapko bhi use samay thoda sa samay Dena hoga","G3: #26 [09:37] ASTRO: Let me tell you one thing, if you are thinking of making things right with him again, there are chances, but you will have to perform some remedies for that. There are already some things in your kundli because of which you must be feeling quite disturbed.
+#29 [10:55] ASTRO: Do you know or not that there are some doshas and some such things formed in your kundli because of which there must be a lot of struggle in your life.
+#32 [11:42] ASTRO: I will tell you some remedies that you will have to perform, and you should already pay a little attention. If you continue doing certain things in this way, then in the future...
+#33 [11:56] ASTRO: Aakash will definitely come back, I will do something for that, and you will also have to give it some time.","G3: The astrologer uses fear ('kuch aisi chijen bhi hain', 'kuch aisi dos') and promises to perform a remedy ('main kuchh karunga') to keep the user engaged, which constitutes a paid element.",5.25,3.43,4.0,5.67,,6,4,7,4,6,4,4,4,1,1,4,1,7,4,1,7,9,,none,1,1,1,1,1,1,1,0,0,1.0,1.0,0.0,10
+High,conversation_426225_1988.csv,426225,15370.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_463662_1251.csv,463662,79386.0,ok,224,103,3.51,mixed,bad,4.22,2.8,4.22,,,,,2.67,2.2,4.67,7.33,,3,4,1,,1,1,3,3,,3,,4,6,4,6,7,9,,none,1,1,1,0,1,0,0,0,0,0.0,0.0,0.0,15
+High,conversation_468392_2159.csv,468392,25823.0,ok,49,11,3.99,mixed,bad,4.73,3.25,4.73,,,,,3.75,3.86,5.0,6.33,,3,1,10,1,4,4,3,3,7,3,3,4,4,7,3,6,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,15
+High,conversation_505511_53.csv,505511,60977.5,ok,36,20,2.28,bad,bad,4.15,3.4,3.0,G3,"G3: #24 [07:08] ASTRO: Aapki shaadi hone mein thoda problem aaega isko lekar ke
+#25 [07:55] ASTRO: To agar aap kahenge to main isko bhi Sahi kar dunga
+#33 [09:33] ASTRO: To aap apna samay badha lijiye ya fir se contact kijiye taki main Bata sakun","G3: #24 [07:08] ASTRO: You will face some problems regarding your marriage.
+#25 [07:55] ASTRO: So if you say so, I will fix this as well.
+#33 [09:33] ASTRO: So please extend your time or contact again so that I can tell you.",G3: The astrologer uses the fear of Mangal Dosh causing marriage problems to pitch a paid remedy ('main isko bhi Sahi kar dunga') and requests the user to extend time or reconnect.,3.75,2.86,2.67,7.33,,3,1,10,1,4,3,3,1,7,1,1,4,3,1,7,6,9,,none,0,0,1,1,0,0,0,0,0,1.0,0.0,0.0,10
+High,conversation_579853_2061.csv,579853,18268.0,ok,86,50,2.33,bad,bad,4.0,3.67,3.0,G3,"G3: #80 [20:01] ASTRO: Agar aap chahte Hain Ki aapka samay best Na Ho To Main check kar rahi hun aap kya 1 minut ke bad Mujhse contact dobara kar sakte hain uske bad main aapko bata rahi hun kya karna hai okay ji ismein aapka samay bhi nahin jaega Baki main check kar rahi hun
+#81 [20:10] ASTRO: Unki mind mein Jo Bhi negative thinking rahega Na use mein positive energy mein exchange kar dungi aur
+#83 [20:51] ASTRO: Unblock ko lekar tumhen dekh Leti hun aur dekhiae inko main aapki life mein laungi acchi tarike se aapko bilkul bhi pareshan nahin hona hai Ayush ji","G3: #80 [20:01] ASTRO: If you don't want your time to be wasted, I am checking it. Can you contact me again after 1 minute? After that, I will tell you what to do, okay? This way your time won't be wasted either, and I am checking it.
+#81 [20:10] ASTRO: Whatever negative thinking is in their mind, I will exchange it for positive energy and
+#83 [20:51] ASTRO: I will look into the unblocking for you, and see, I will bring them into your life in a good way. You don't need to be worried at all, Ayush ji","G3: The astrologer uses fear/guarantee ('negative thinking... positive energy mein exchange kar dungi', 'inko main aapki life mein laungi') combined with a request to reconnect/recharge ('1 minut ke bad Mujhse contact dobara kar sakte hain') to push a paid service.",4.0,3.0,2.67,6.33,,6,3,4,3,4,6,3,3,1,1,3,1,6,1,6,7,6,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+High,conversation_620859_2078.csv,620859,49103.46,ok,21,9,3.51,mixed,bad,4.22,2.8,4.22,,,,,1.5,2.71,4.67,8.0,,3,1,1,1,1,1,3,3,7,3,1,4,6,4,8,6,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_645934_2061.csv,645934,87352.5,ok,157,90,2.16,bad,bad,3.65,3.67,3.0,G3,"G3: #26 [06:33] ASTRO: To Abhi ke time period kuchh negative card a raha hai ji jaisa Ki Main dekh rahi hun jiski vajah Se Hi thodi samasya hote hue dikhai de rahi hai
+#41 [14:40] ASTRO: Dekhiae Maine third person ko lekar Ke Maine check kiya hai To Matlab Ki Inka mind Koi divert kar raha hai to third person ka involvement Hai inki life mein
+#46 [17:00] ASTRO: Baki Jo unka mind divert kar raha hai na third person vah divert nahin hoga
+#80 [24:03] ASTRO: Baki dekhiae agar dekha Jana to main aapki partner ke liye ek Chhota Sa process mein karna chahti hun taki aap phone ki taraf se do hafton ke andar hi achcha Sa commitment a sake
+#81 [24:20] ASTRO: Thoda aap time ko increase kariyega bahan main aapko abhi bahut sari baten batana chahti hun jo ki aapke liye hi achcha rahega aapki partner Se Hi related hai baten
+#88 [28:12] ASTRO: Baki aapko main batana chahti hun ki aapki partner ke liye ek Chhota Sa process hai kya aap comfortable hai karvane ke liye bahan se unka mind aapke prati bahut jald attraction ho jaega
+#91 [29:13] ASTRO: Aapko bus kuchh nahin karna hai aapko apni partner ka naam aur unka gotra batana hai aur aapko check per available rahana padega bahan Main apni taraf Se process karungi is process mein Koi alag se charge nahin lagega aapko chat per humko thoda samay Dena padega okay bahan","G3: #26 [06:33] ASTRO: Currently, some negative cards are appearing, as I can see, which is why some problems are visible.
+#41 [14:40] ASTRO: See, I have checked regarding the third person, and it means someone is diverting their mind, so there is a third-person involvement in their life.
+#46 [17:00] ASTRO: As for the third person who is diverting their mind, they will not be diverted.
+#80 [24:03] ASTRO: Besides that, if you look at it, I want to perform a small process for your partner so that you can get a good commitment from their side within two weeks.
+#81 [24:20] ASTRO: Please increase your time, sister, as I want to tell you many things right now that will be good for you, and these things are related to your partner.
+#88 [28:12] ASTRO: Also, I want to tell you that there is a small process for your partner; are you comfortable getting it done, sister? Their mind will soon be attracted towards you.
+#91 [29:13] ASTRO: You don't have to do anything, you just need to tell me your partner's name and their gotra, and you will have to remain available on the chat, sister. I will perform the process from my end. There will be no extra charge for this process; you just need to give us some time on the chat, okay sister?","G3: The astrologer uses fear (third person involvement, negative cards) to pressure the user into a 'process' that requires extending time and staying on chat.",3.25,2.71,2.33,6.33,,3,3,4,3,3,3,3,3,3,1,3,1,3,3,6,6,7,,none,1,1,1,0,1,0,0,1,0,0.0,0.0,0.5,15
+High,conversation_64810_723.csv,64810,32346.46,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_662873_2069.csv,662873,49160.0,ok,70,54,5.43,good,mixed,5.36,5.5,5.36,,,,,4.25,4.86,5.33,7.0,,3,3,4,7,6,6,4,4,4,3,7,6,7,3,6,7,8,,none,1,0,1,1,1,1,1,0,0,1.0,1.0,0.0,15
+High,conversation_682317_723.csv,682317,22221.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_697149_2324.csv,697149,7053.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_698346_347.csv,698346,8317.0,ok,24,18,2.57,mixed,bad,3.39,1.75,3.39,,,,,1.67,2.57,3.33,6.0,,3,,1,1,1,1,3,1,7,4,1,4,3,3,6,3,9,,none,0,0,0,0,0,0,0,1,0,0.0,0.0,0.5,15
+High,conversation_698918_2283.csv,698918,13694.0,ok,28,14,4.74,mixed,mixed,5.18,4.3,5.18,,,,,5.0,3.71,4.67,7.33,,3,3,10,4,6,4,3,3,4,3,3,4,7,3,6,6,10,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,5
+High,conversation_722590_1283.csv,722590,11853.0,ok,108,82,6.0,good,mixed,5.39,6.61,5.39,,,,,5.33,4.57,5.67,6.0,,3,6,7,,4,7,4,3,4,4,6,4,7,6,6,6,6,,none,1,0,1,1,1,1,1,1,0,1.0,1.0,1.0,15
+High,conversation_722590_2387.csv,722590,11853.0,ok,40,21,3.06,mixed,bad,3.94,5.18,3.0,G3,"G3: #15 [05:03] ASTRO: Aapko kuchh upay bata deti hun jisse aap karenge to aapko kafi fayda hoga aur jald fayde ke liye aap new job manifestation spell kara sakte hain jo ki Ham video call session per karenge teen bar aur aapki chijen 40 din ke andar kafi badalne lagenge
+#19 [06:37] ASTRO: Kya aap mujhe video setting per join kar sakte hain spell ke liye to aap mujhe
+#20 [06:56] ASTRO: Kyunki Navratri ka time bahut achcha hota hai spell ke liye aap mujhe Somwar ko join kar sakte hain job manifestation ke liye ya FIR Friday ko
+#22 [07:28] ASTRO: Kyunki aapko abhi kafi negativity aur self stream Lo ho gaya hai yani bahut hi blockages chalte chalte aap kafi negative ho gaye ho ise Ham balance karenge aur aapke life mein niyoja le aaenge
+#25 [08:01] ASTRO: Pareshan na ho aap Raat mein bhi mujhe sirf 15 minut bhi join kar sakte ho
+#26 [08:19] ASTRO: Kyunki yah aapke liye kafi jaruri hai","G3: #15 [05:03] ASTRO: I will tell you some remedies that will be very beneficial for you if you follow them, and for quick results, you can get a new job manifestation spell done, which we will perform over three video call sessions, and things will start changing significantly for you within 40 days.
+#19 [06:37] ASTRO: Can you join me on a video call for the spell?
+#20 [06:56] ASTRO: Because Navratri is a very auspicious time for spells, you can join me on Monday or Friday for the job manifestation.
+#22 [07:28] ASTRO: Because you are currently facing a lot of negativity and your self-esteem has become low, meaning due to many blockages, you have become quite negative; we will balance this and bring a new job into your life.
+#25 [08:01] ASTRO: Don't worry, you can join me even at night for just 15 minutes.
+#26 [08:19] ASTRO: Because this is very important for you.","G3: The astrologer uses fear ('negativity', 'self esteem low', 'blockages') and urgency ('Navratri ka time bahut achcha hota hai') to push a paid 'job manifestation spell' via video call.",2.33,3.43,3.33,6.67,,3,1,3,,3,4,3,3,4,4,3,1,6,3,6,6,8,,none,1,1,1,1,1,0,1,1,0,0.5,0.0,1.0,15
+High,conversation_741846_1697.csv,741846,5418.0,too_short,6,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_751658_1031.csv,751658,9256.0,ok,79,32,1.59,bad,bad,3.68,2.5,3.0,G3,"G3: #35 [17:36] ASTRO: Ji dekhiae aapki bhabhi abhi aapke sath relationship mein nahin aana chahti Hain kyunki unke man mein aapke liye feelings nahin hai agar aap chahte Hain ki aapki bhabhi relationship mein Aaye to mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge
+#36 [18:00] ASTRO: Aaiae ham log relationship mein a jaen kyunki bhabhi aapki janti Hain ki aap unko pasand karte Hain lekin abhi chijen behtar nahin Ho Pa rahi hai agar upay karenge to relationship aapke bhabhi ka aapke sath start ho sakta hai aur yah start karne ke liye upay bahut jyada jaruri hai upay karne ke bad hi sari chijen ekadam acche se ho payegi aur aapka aur bhabhi ke sath relationship bhi start ho payega
+#47 [21:07] ASTRO: Ab aap ek kam kariye chat ko khatm karke dobara juden
+#48 [21:14] ASTRO: Turant
+#61 [22:47] ASTRO: 100%
+#63 [22:58] ASTRO: Gurntee ke sath
+#72 [24:19] ASTRO: Dubra judiye
+#78 [24:51] ASTRO: Ji","G3: #35 [17:36] ASTRO: See, your bhabhi does not want to be in a relationship with you right now because she does not have feelings for you. If you want your bhabhi to be in a relationship, I have a remedy that guarantees she will ask you herself within two days.
+#36 [18:00] ASTRO: Let us get into a relationship, because your bhabhi knows that you like her, but things are not working out well right now. If you perform the remedy, a relationship with your bhabhi can start, and this remedy is very necessary to start it. Only after performing the remedy will everything work out perfectly and your relationship with your bhabhi will be able to start.
+#47 [21:07] ASTRO: Now do one thing, end this chat and reconnect.
+#48 [21:14] ASTRO: Immediately.
+#61 [22:47] ASTRO: 100%
+#63 [22:58] ASTRO: With a guarantee.
+#72 [24:19] ASTRO: Reconnect.
+#78 [24:51] ASTRO: Yes.","G3: The astrologer uses fear/urgency ('guarantee', 'do din mein') and promises a result to push the user to reconnect/recharge the chat for a paid ritual/havan.",4.5,1.86,1.67,6.67,,3,3,9,3,3,1,3,3,1,1,1,1,3,1,4,6,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,15
+High,conversation_759972_340.csv,759972,8258.0,ok,21,11,3.37,mixed,bad,4.24,2.5,4.24,,,,,3.25,2.71,2.0,9.0,,3,6,1,3,1,1,3,3,7,3,1,4,1,1,10,7,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_760247_2078.csv,760247,5280.0,ok,15,6,3.38,mixed,bad,4.25,2.5,4.25,,,,,1.67,3.0,4.67,7.67,,3,,1,1,1,1,3,3,7,,,4,6,4,6,7,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_770575_1305.csv,770575,9670.0,too_short,5,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_778872_1283.csv,778872,5087.0,ok,49,25,5.72,good,mixed,6.33,5.11,6.33,,,,,7.25,4.71,5.67,7.67,,8,4,8,9,6,7,3,3,4,3,7,4,7,6,7,7,9,,none,1,2,1,1,1,1,0,0,0,0.5,1.0,0.0,10
+High,conversation_813783_2031.csv,813783,9197.0,ok,27,17,4.58,mixed,mixed,5.47,3.7,5.47,,,,,5.5,4.71,4.67,7.0,,3,6,9,4,4,6,3,3,7,3,7,3,7,4,6,7,8,,none,1,0,1,1,2,0,0,0,0,0.5,0.0,0.0,5
+High,conversation_847703_285.csv,847703,6610.0,ok,57,33,1.0,bad,bad,3.35,2.8,3.0,"G3,G4","G3: #31 [09:33] ASTRO: Can you increase your time
+#40 [12:24] ASTRO: This will help you in your love marriage and you will get quick response from their family side.
+#45 [15:53] ASTRO: If you give it some time, everything will be fine for love marriage and your partner will also take a stand in front of his/her family.
+#47 [18:20] ASTRO: Now increase the time a little more because it takes some time but its result is very good and you get it quickly, your relationship will be fixed soon.
+#54 [23:43] ASTRO: This process is still going on and has not been completed. Please do not disconnect. You still need to connect, please extend the time.
+#56 [24:02] ASTRO: It is happening for love marriage, hence it is taking time, your relationship will remain good in the long term. | G4: #12 [03:21] ASTRO: Yes, I can see that no relationship is coming for you soon and even if it is coming, there are many obstacles in it and some problem or the other is being created.
+#13 [03:53] ASTRO: Yes, in the last year also your parents are searching for a match but are not getting any response and in this year also they have not received any response yet.
+#26 [08:07] ASTRO: Yes, I will keep watching, he also seems to have feelings for you but there might be a problem from his parents' side, he seems to be getting less support and he is also scared to take a stand in front of his family members.","G3: #31 [09:33] ASTRO: Can you increase your time
+#40 [12:24] ASTRO: This will help you in your love marriage and you will get a quick response from their family.
+#45 [15:53] ASTRO: If you give it some time, everything will be fine for your love marriage and your partner will also take a stand in front of their family.
+#47 [18:20] ASTRO: Now increase the time a little more because it takes some time, but the results are very good and you will get them quickly; your relationship will be fixed soon.
+#54 [23:43] ASTRO: This process is still ongoing and has not been completed. Please do not disconnect. You still need to stay connected, please extend the time.
+#56 [24:02] ASTRO: This is for a love marriage, which is why it is taking time; your relationship will remain good in the long term. | G4: #12 [03:21] ASTRO: Yes, I can see that no marriage proposals are coming for you soon, and even if they do, there are many obstacles and some problem or another keeps arising.
+#13 [03:53] ASTRO: Yes, your parents have been searching for a match for the last year but haven't received any response, and they haven't received any response this year either.
+#26 [08:07] ASTRO: Yes, I will keep watching. He also seems to have feelings for you, but there might be a problem from his parents' side; he seems to be getting less support and is also scared to take a stand in front of his family members.","G3: The astrologer uses fear/urgency ('quick response', 'everything will be fine') to repeatedly pressure the user to extend time and pay for a 'process' of chanting mantras. | G4: The astrologer makes specific claims about the user's life (parents searching for a match, partner's feelings, partner's family issues) despite having no birth time and a very limited chart.",3.5,1.57,1.0,7.33,,3,1,7,3,3,1,3,1,1,1,1,1,1,1,7,6,9,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,15
+High,conversation_851740_177.csv,851740,7143.0,ok,20,6,2.65,mixed,bad,4.01,1.3,4.01,,,,,4.0,2.71,2.0,7.33,,3,3,9,1,1,1,3,3,7,3,1,4,1,1,6,6,10,,none,0,0,0,0,1,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_876906_2159.csv,876906,274884.0,ok,25,4,2.45,mixed,bad,3.6,1.3,3.6,,,,,1.67,2.71,3.67,6.33,,3,,1,1,1,1,3,3,7,3,1,4,4,3,3,6,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,10
+High,conversation_90605_2324.csv,90605,102383.5,ok,265,137,8.3,good,good,7.88,8.72,7.88,,,,,7.5,8.71,9.0,6.33,,9,8,4,9,9,9,7,9,9,9,9,9,9,9,4,9,6,,none,2,2,2,2,2,2,2,2,1,1.0,0.5,0.5,15
+High,conversation_90605_908.csv,90605,102383.5,ok,64,22,7.32,good,good,7.62,7.02,7.62,,,,,8.67,7.83,6.33,7.67,,7,,10,9,7,8,,8,7,9,8,4,7,8,6,8,9,,none,1,2,2,1,0,1,1,2,0,1.0,1.0,0.5,15
+High,conversation_917188_340.csv,917188,14565.0,too_short,5,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_922515_347.csv,922515,5480.0,too_short,5,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_923910_723.csv,923910,5444.0,ok,58,21,1.77,bad,bad,4.03,2.5,3.0,G3,"G3: #36 [05:36] ASTRO: First healing session
+#38 [05:58] ASTRO: On video call for 30 mins
+#53 [09:02] ASTRO: Eppol recharge chaiyth
+#54 [09:06] ASTRO: Chaiyam","G3: #36 [05:36] ASTRO: First healing session
+#38 [05:58] ASTRO: On video call for 30 mins
+#53 [09:02] ASTRO: When did you recharge?
+#54 [09:06] ASTRO: I will do it","G3: The astrologer uses a 'healing session' (paid element) as a solution to the user's distress, and explicitly asks the user to recharge to proceed.",2.0,2.43,3.0,8.67,,3,3,1,1,1,1,3,3,7,1,1,1,7,1,10,6,10,,none,1,0,0,0,1,0,0,0,0,0.0,0.0,0.0,10
+High,conversation_924427_1395.csv,924427,5290.0,ok,40,18,4.16,mixed,bad,4.92,3.4,4.92,,,,,6.33,3.33,3.33,6.67,,3,6,10,,4,4,1,1,7,3,,4,3,3,8,6,6,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+High,conversation_933664_723.csv,933664,6927.0,too_short,9,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High,conversation_944462_2059.csv,944462,8262.0,ok,63,28,5.14,good,mixed,5.74,4.54,5.74,,,,,5.75,4.86,4.67,7.67,,6,1,7,9,4,7,3,6,4,3,7,4,7,3,8,7,8,,none,1,1,1,1,1,1,0,0,0,0.5,0.5,0.0,10
+High,conversation_954403_1004.csv,954403,10354.0,ok,25,13,4.6,mixed,mixed,5.44,3.76,5.44,,,,,4.75,4.67,4.67,7.67,,3,3,9,4,6,6,3,3,7,,3,4,7,3,8,6,9,,none,1,0,1,1,1,0,1,0,0,0.5,0.0,0.0,5
+High,conversation_954403_1763.csv,954403,10354.0,ok,20,7,1.11,bad,bad,2.72,2.5,2.72,G3,"G3: #10 [01:24] ASTRO: Face reading karke current free mein current Udaya check Karti hun check karte hain aapke bare mein kya sochati hai kya Kisi Aur Ke Sath Inka relationship Hai yah sab kuchh aapko batati Hai ismein time lagega 6:00 SE 7 minut ka kyunki gochar milaap mein feelings ki jaanch ki jaati Hai
+#12 [03:03] ASTRO: Agar possible hota to Main aapko bata deti ismein itna time lagta hai kyunki process mein chijen nikal kar samne aate ho sari chijen ek Sath nikal
+#13 [03:05] ASTRO: Agar possible hota to Main aapko bata deti ismein itna time lagta hai kyunki process mein chijen nikal kar samne aate ho sari chijen ek Sath nikalti Hain
+#17 [04:17] ASTRO: Prakash ji Meri baat nahin samajh rahe hain agar mere upar hota to Main Bata Diya aapko ab thoda sa time add Kar lijiye tab tak main check karke Rakhi rahti hun sari chijen aapko Bata dun","G3: #10 [01:24] ASTRO: I will perform a face reading to check Udaya's current feelings for you, whether she is thinking about you, or if she is in a relationship with someone else. I will tell you everything, but it will take 6 to 7 minutes because the transit analysis requires checking feelings.
+#12 [03:03] ASTRO: If it were possible, I would have told you already. It takes this much time because things come out during the process, and not everything comes out at once.
+#13 [03:05] ASTRO: If it were possible, I would have told you already. It takes this much time because things come out during the process, and not everything comes out at once.
+#17 [04:17] ASTRO: Prakash ji, you are not understanding me. If it were up to me, I would have told you. Please add a little more time, and by then, I will have everything checked and ready to tell you.","G3: The astrologer uses urgency ('jaldi btaiye', 'time lagega') and then explicitly asks the user to extend time ('time add kar lijiye') to get the reading, which constitutes a paid element.",1.5,2.71,2.0,4.67,,3,1,1,1,1,1,3,3,7,3,1,1,4,1,3,4,7,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+High,conversation_959210_908.csv,959210,50015.0,ok,317,127,4.05,mixed,bad,5.0,3.1,5.0,,,,,5.0,1.67,5.0,8.33,,6,6,3,,1,,3,1,,,,4,7,4,10,7,8,,none,2,1,1,0,1,0,0,0,0,0.0,0.0,0.0,15
+Low,conversation_1005236_1713.csv,1005236,225.0,ok,36,29,3.0,mixed,bad,3.51,2.5,3.51,,,,,2.0,2.71,3.67,5.67,,3,3,1,1,1,1,3,3,7,3,1,4,4,3,3,6,8,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_1021165_2078.csv,1021165,383.08,ok,21,14,5.7,good,mixed,6.2,5.2,6.2,,,,,5.67,7.8,4.67,6.67,,3,4,10,,9,9,9,3,9,,,4,7,3,4,7,9,,none,1,0,2,2,0,2,0,0,0,0.5,1.0,0.0,5
+Low,conversation_1026645_752.csv,1026645,141.6,ok,19,12,2.4,bad,bad,4.26,3.55,3.0,G3,"G3: #14 [03:37] ASTRO: Vaise aage badhane ka Yog To Hai Lekin unki life se jo negative energy prapt ho rahi hai vah bahut jyada distance prapt kar rahi hai positive energy mil jaaye tab to aage badhane ka koi behtar Marg milega anyatha dikkat To unki life se hai isliye kyunki Pancham sthan se jo Bandhan Yog lag raha hai vah aapke jivan mein problem create kar rahi hai pahli chij ko bahut jaldi disturb Ho jaate Hain har chij ko lekar ke aur vah kisi bhi chij ka kahana man lete Hain
+#18 [05:01] ASTRO: Aap call per connect karo","G3: #14 [03:37] ASTRO: Although there is a Yog to move forward, the negative energy coming from their life is creating a lot of distance. If you receive positive energy, you will find a better path to move forward; otherwise, the problem lies in their life because the Bandhan Yog forming from the fifth house is creating problems in your life. Firstly, you get disturbed very quickly about everything, and you tend to listen to whatever anyone says.
+#18 [05:01] ASTRO: Connect on a call.","G3: The astrologer uses fear ('negative energy', 'problem create kar rahi hai') and then immediately pushes for a paid element by asking the user to 'connect on call' (which implies a paid service/extension).",3.75,3.29,3.0,7.0,,3,4,4,4,4,4,1,3,7,3,1,1,7,1,4,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Low,conversation_1034826_2026.csv,1034826,169.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_1110546_2366.csv,1110546,355.0,ok,19,11,4.54,mixed,mixed,5.54,3.55,5.54,,,,,4.67,4.17,4.67,8.67,,3,,10,1,3,6,3,3,4,,6,4,6,4,10,7,9,,none,1,0,1,1,0,0,1,0,0,0.5,0.0,0.0,5
+Low,conversation_1129774_752.csv,1129774,410.0,ok,24,14,1.98,bad,bad,3.42,3.55,3.0,G3,"G3: #15 [03:07] ASTRO: Yah ladki to bahut acchi hai aapki life ke liye present time mein negative energy prapt Hai kyunki vahi aapke relation ko disturb kar rakhi hai Puri tarike se
+#18 [03:28] ASTRO: Kyunki present time mein vah bahut jyada disturb chal rahi hai aur aap donon ke bich mein baat hona bhi bilkul band hota hai chala gaya hai aur sthiti yah ban gai ki relation tutane ke yog per a Gaya Hai kyunki Jo negative energy Pancham sthan se kundli mein prapt hai vah relation love Life ko disturb kar rahi hai
+#22 [04:42] ASTRO: Ek chij sacchai Hai Jaan Lo Ki present time mein vah Kisi ke anusar se disturb kar rahi hai confirm chij hai aur agar vah chij theek ho jaaye positive energy aapke prati uske man mein a jaaye to aap donon ka relation bahut achcha ho jaega agar aap chahoge to marriage bhi prapt kar sakte ho main aapka help karta hun batata hun kaise theek hoga uska Marg aur uska upay
+#23 [05:00] ASTRO: Aap dobara connect karo main aapko batata hun kaise theek hoga Baki chinta Na Karo ek important baat yah Bhi Jaan Lo Ki unki life mein","G3: #15 [03:07] ASTRO: This girl is very good for your life, but at present, there is negative energy which is completely disturbing your relationship.
+#18 [03:28] ASTRO: Because at present, she is going through a lot of disturbance, and communication between you two has completely stopped. The situation has reached a point where the relationship is on the verge of breaking because the negative energy present in the fifth house of the kundli is disturbing your love life.
+#22 [04:42] ASTRO: Know one truth: at present, she is being influenced by someone else, this is confirmed. If that is resolved and positive energy towards you enters her mind, your relationship will become very good. If you wish, you can even get married; I will help you and tell you the path and the remedy to fix this.
+#23 [05:00] ASTRO: Connect with me again, and I will tell you how to fix this. Don't worry, also know this one important thing that in her life","G3: The astrologer uses fear ('negative energy', 'relation tutane ke yog') to push for a paid follow-up consultation ('Aap dobara connect karo').",4.0,2.0,1.0,6.67,,3,3,7,3,6,1,1,1,1,3,1,1,1,1,3,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Low,conversation_1137932_1037.csv,1137932,230.0,ok,30,20,4.29,mixed,bad,4.89,3.7,4.89,,,,,5.0,3.57,4.0,7.0,,3,3,9,,6,4,1,1,7,3,3,4,4,4,6,6,9,,none,1,0,1,1,0,0,0,0,0,1.0,0.0,0.0,5
+Low,conversation_1139572_2373.csv,1139572,160.0,ok,6,2,2.81,mixed,bad,4.33,1.3,4.33,,,,,2.0,4.0,4.67,6.67,,3,,1,,1,6,3,3,7,,,4,6,4,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_1294843_2072.csv,1294843,404.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_138170_347.csv,138170,260.0,ok,33,21,5.08,good,mixed,4.66,5.5,4.66,,,,,4.25,4.71,5.0,4.67,,3,1,9,4,6,6,1,3,7,3,7,4,7,4,4,3,7,,none,1,0,1,1,2,1,0,0,0,1.0,1.0,0.0,5
+Low,conversation_1385510_2530.csv,1385510,460.0,ok,36,17,4.39,mixed,bad,5.39,3.4,5.39,,,,,5.25,4.33,5.0,7.0,,6,4,4,7,6,4,3,3,7,3,,4,7,4,6,7,8,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Low,conversation_1504124_663.csv,1504124,236.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_1527930_443.csv,1527930,227.0,ok,7,3,3.75,mixed,bad,4.39,3.1,4.39,,,,,2.33,3.57,5.0,6.67,,3,3,1,,1,1,3,3,7,3,7,4,7,4,3,7,10,,none,1,1,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_194854_168.csv,194854,200.0,too_short,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_195085_168.csv,195085,220.0,ok,17,10,5.1,good,mixed,6.35,3.85,6.35,,,,,5.5,5.57,7.33,7.0,,3,3,9,7,6,8,3,4,7,3,8,7,8,7,8,7,6,,none,1,0,1,1,0,0,1,0,1,0.5,0.0,0.0,5
+Low,conversation_214933_347.csv,214933,240.0,ok,27,18,4.67,mixed,mixed,5.8,3.55,5.8,,,,,5.75,5.14,5.0,7.33,,3,6,10,4,6,7,3,3,7,3,7,4,7,4,6,7,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Low,conversation_365613_168.csv,365613,310.0,ok,17,13,4.97,good,mixed,5.49,4.45,5.49,,,,,5.0,5.29,5.0,6.67,,3,6,10,1,6,8,1,4,7,3,8,4,7,4,6,6,8,,none,1,0,1,1,0,1,0,0,0,0.5,1.0,0.0,5
+Low,conversation_414208_1763.csv,414208,476.0,ok,10,5,1.0,bad,bad,4.06,2.8,3.0,"G3,G4",G3: #9 [05:01] ASTRO: Ji dekhiae kundli ke anusar jaisa ki main check kar pa rahi hun aap kundli mein aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain aap logon ki mulakat ek dusre se kafi bar ho chuki hai donon log ek dusre ko kafi acche se jante Hain unke Sath hi aapki shaadi ki sambhavna hai bahut hi acchi Banti dikhai de rahi hain aur apki family bhi use ladki ke bare me janti hai aur aap usko bahut ache se janti ho unka Naam aapko Bata sakti hun aur aap unse kab milenge kahan milenge aur pahle kahan mulakat Hui thi ye bhi bta skti hu iske liye apki right hand ka pic send kariye usme nam likha hota hai aur milne ka date aur apki shadi kis year mein kis date ko ye sari chijen ek sath nikalkar samne aati hai | G4: #9 [05:01] ASTRO: Ji dekhiae kundli ke anusar jaisa ki main check kar pa rahi hun aap kundli mein aapki shaadi jinke Sath hone ki sambhavnayen ban rahi hai aap unko pahle Se jante hain aap logon ki mulakat ek dusre se kafi bar ho chuki hai donon log ek dusre ko kafi acche se jante Hain unke Sath hi aapki shaadi ki sambhavna hai bahut hi acchi Banti dikhai de rahi hain aur apki family bhi use ladki ke bare me janti hai aur aap usko bahut ache se janti ho unka Naam aapko Bata sakti hun aur aap unse kab milenge kahan milenge aur pahle kahan mulakat Hui thi ye bhi bta skti hu iske liye apki right hand ka pic send kariye usme nam likha hota hai aur milne ka date aur apki shadi kis year mein kis date ko ye sari chijen ek sath nikalkar samne aati hai,"G3: #9 [05:01] ASTRO: Yes, look, according to the kundli, as I can check, the person you are likely to marry is someone you already know. You have met each other many times and both of you know each other very well. The possibility of your marriage with them looks very strong, and your family also knows about that girl, and you know her very well too. I can tell you her name, when and where you will meet her, and where you met for the first time. For this, please send a picture of your right hand; the name is written there, and the date of meeting and the year and date of your marriage, all these things come out together. | G4: #9 [05:01] ASTRO: Yes, look, according to the kundli, as I can check, the person you are likely to marry is someone you already know. You have met each other many times and both of you know each other very well. The possibility of your marriage with them looks very strong, and your family also knows about that girl, and you know her very well too. I can tell you her name, when and where you will meet her, and where you met for the first time. For this, please send a picture of your right hand; the name is written there, and the date of meeting and the year and date of your marriage, all these things come out together.","G3: The astrologer uses the fear/urgency of needing to know the future spouse's name and meeting details to push for a paid element (sending a photo of the hand for a reading). | G4: The astrologer claims to know the identity of the future spouse, where they met, and when they will meet, which is an invented fact as no birth time was provided to analyze a chart.",5.0,1.57,3.0,6.67,,3,6,10,1,1,1,3,1,1,3,1,1,7,1,3,7,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_516657_168.csv,516657,230.0,ok,19,12,5.15,good,mixed,5.71,4.6,5.71,,,,,7.0,3.83,5.0,7.0,,3,8,10,,4,7,1,4,4,3,,4,7,4,8,7,6,,none,1,0,1,1,2,1,0,0,0,0.5,0.5,0.0,5
+Low,conversation_540994_752.csv,540994,100.0,ok,24,15,2.02,bad,bad,4.24,2.8,3.0,G3,"G3: #20 [03:53] ASTRO: Bahan ji aapka samay chal raha hai thoda jaldi karo ya to fir aap time badha Lo Thoda
+#21 [04:01] ASTRO: Samay aapka chal raha hai thoda jaldi karo ya samay badha Lo Ji","G3: #20 [03:53] ASTRO: Sister, your time is running, please hurry up or extend your time a little.
+#21 [04:01] ASTRO: Your time is running, please hurry up or extend your time.",G3: The astrologer uses urgency ('samay chal raha hai thoda jaldi karo') to pressure the user to extend time ('time badha Lo').,2.25,2.71,4.0,8.0,,3,1,1,4,1,1,3,3,7,3,1,4,4,4,7,7,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_543783_752.csv,543783,150.0,ok,21,11,2.49,mixed,bad,4.43,3.55,3.0,G3,G3: #16 [03:31] ASTRO: Bilkul dosh Hai usmein kahane ki kya baat hai Ham abhi aapko Dekho upar likhe Hain negative energy create ho rahi hai life mein vah disturb kar rahe hain agar pregnancy period bhi ho jayegi conceive bhi Ho jaega to last moment se dikkat a sakti hai ISI ke Karan positive energy Milana bahut avashyak hai jismein Ham Puri jimmedari ke sath kah Rahe Hain ki agar energy create Ho Gai to aapko next year 2026 mein safalta mil jayegi,"G3: #16 [03:31] ASTRO: There is definitely a dosh, there is no doubt about it. Look, I have written above that negative energy is being created in your life, which is causing disturbances. Even if you conceive during the pregnancy period, there could be complications at the last moment because of this. That is why it is very necessary to receive positive energy. I am saying with full responsibility that if the energy is created, you will achieve success next year in 2026.","G3: The astrologer uses fear ('negative energy create ho rahi hai', 'last moment se dikkat a sakti hai') to push a vague 'energy' process that implies a paid service or ritual, as he claims he is taking 'Puri jimmedari' (full responsibility) for the energy creation.",4.5,1.86,4.67,6.67,,3,3,8,4,3,1,3,1,1,3,1,4,6,4,4,6,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Low,conversation_54794_168.csv,54794,270.0,ok,17,10,5.19,good,mixed,5.62,4.75,5.62,,,,,5.33,4.8,4.67,7.67,,3,3,10,,6,6,1,4,7,,,4,7,3,8,7,8,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Low,conversation_685336_765.csv,685336,440.0,ok,20,6,4.02,mixed,bad,5.08,2.95,5.08,,,,,4.67,4.0,4.67,7.0,,3,,10,1,4,3,3,3,7,,,3,7,4,6,6,9,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Low,conversation_725096_658.csv,725096,470.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_770487_1117.csv,770487,270.0,ok,25,12,5.28,good,mixed,5.89,4.66,5.89,,,,,5.33,5.57,5.0,7.67,,3,4,9,,6,8,4,4,7,3,7,4,7,4,8,7,8,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Low,conversation_780460_1965.csv,780460,100.0,ok,7,2,2.77,mixed,bad,4.25,1.3,4.25,,,,,2.0,3.0,5.33,6.67,,3,,1,,1,1,3,3,7,,,4,8,4,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_799310_752.csv,799310,280.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_817108_1203.csv,817108,405.0,ok,22,16,4.65,mixed,mixed,5.1,4.21,5.1,,,,,3.5,4.57,4.67,7.67,,3,1,4,6,4,7,3,4,4,3,7,4,7,3,8,7,8,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,5
+Low,conversation_824269_347.csv,824269,425.0,ok,69,53,4.77,mixed,mixed,4.1,5.44,4.1,,,,,3.5,3.57,5.0,4.33,,3,3,4,4,6,4,1,3,4,4,3,4,7,4,3,6,4,,none,1,0,1,1,1,0,1,1,0,1.0,0.0,1.0,10
+Low,conversation_841607_2085.csv,841607,270.0,ok,36,17,4.82,good,mixed,5.19,4.45,5.19,,,,,3.5,4.57,6.0,6.67,,3,3,4,4,4,7,4,3,4,3,7,4,7,7,6,7,7,,none,1,0,1,1,0,1,0,0,0,0.5,1.0,0.0,5
+Low,conversation_856764_1411.csv,856764,300.0,ok,20,13,4.25,mixed,bad,4.29,4.21,4.29,,,,,5.67,3.5,2.0,6.0,,3,6,8,,4,4,1,1,7,4,,4,1,1,6,6,6,,none,1,0,1,1,1,0,0,1,0,0.5,0.0,0.5,5
+Low,conversation_870761_1411.csv,870761,240.0,ok,25,16,1.91,bad,bad,3.42,3.4,3.0,G3,"G3: #19 [04:25] ASTRO: Samiksha sister aapki sari pareshaniyan dur ho jayegi main rajiv ki kundli ke hisab se aapko kuchh
+#20 [04:31] ASTRO: Suggestion Dena chahunga syster Rajiv ki kundli ke hisab se
+#21 [04:37] ASTRO: Uski kundli mein uska shani bahut strong hai to aapko main
+#22 [04:45] ASTRO: Suggestion Dena chahunga isase aapka normal ho jaega aapko jitna aur thinking ho raha hai vah chij nahin hoga
+#23 [04:56] ASTRO: Samiksha ji please aap call jankari mam call per comfortable se baat kar payenge aur Main aapko kam se kam time mein samjha bhi paunga to please call Jaan Karen call per Sahi baat Ho payengi","G3: #19 [04:25] ASTRO: Samiksha sister, all your problems will go away. Based on Rajiv's kundli, I would like to give you some
+#20 [04:31] ASTRO: suggestions, sister. Based on Rajiv's kundli,
+#21 [04:37] ASTRO: his Shani is very strong in his kundli, so I would like to
+#22 [04:45] ASTRO: give you a suggestion. This will make things normal for you, and the overthinking you are experiencing will stop.
+#23 [04:56] ASTRO: Samiksha ji, please join the call. You will be able to talk comfortably on the call, and I will be able to explain things to you in less time, so please join the call; we can talk properly on the call.",G3: The astrologer uses fear/urgency regarding the user's situation and then immediately pivots to a paid element by asking the user to join a call for further consultation.,4.25,1.43,1.67,6.33,,3,1,10,3,4,1,1,1,1,1,1,1,3,1,6,7,6,,none,1,1,1,0,0,1,0,0,0,0.0,0.5,0.0,5
+Low,conversation_955296_1763.csv,955296,425.0,ok,11,5,3.71,mixed,bad,4.61,2.8,4.61,,,,,2.75,3.0,5.0,7.67,,3,6,1,1,1,1,3,3,7,3,3,4,7,4,6,7,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Low,conversation_98175_168.csv,98175,270.0,too_short,5,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Low,conversation_997093_655.csv,997093,270.0,ok,4,2,2.54,mixed,bad,4.08,1.0,4.08,,,,,2.0,3.0,4.67,6.67,,3,,1,,1,1,3,3,7,,,4,6,4,3,7,10,,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1012156_1849.csv,1012156,908.0,ok,53,21,2.01,bad,bad,4.22,2.8,3.0,G3,"G3: #47 [09:17] ASTRO: Kalsarpam dosham
+#52 [09:54] ASTRO: Mali connect avandi tym ayipotundi tondara ga","G3: #47 [09:17] ASTRO: Kalsarpam dosham
+#52 [09:54] ASTRO: Please connect, time is running out, hurry up",G3: The astrologer confirms a 'Kalsarpam dosham' (fear/urgency) and then immediately demands the user to reconnect/extend time (paid element) to continue.,3.5,2.71,2.0,8.67,,3,4,3,4,1,1,3,3,7,3,1,4,1,1,10,6,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_1027080_655.csv,1027080,695.0,too_short,3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1027514_2005.csv,1027514,1789.0,ok,16,7,3.56,mixed,bad,4.33,2.8,4.33,,,,,4.33,1.67,5.0,6.33,,3,6,4,,1,1,3,1,1,3,,4,7,4,3,6,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1029568_45.csv,1029568,1539.0,ok,4,2,2.44,bad,bad,3.58,1.3,3.58,,,,,1.0,2.33,4.33,6.67,,,,1,,1,,3,3,,,,4,6,3,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_1034549_168.csv,1034549,1057.0,ok,21,9,4.19,mixed,bad,5.12,3.25,5.12,,,,,4.67,2.8,4.67,8.33,,3,1,10,,3,4,3,3,1,,,3,7,4,8,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1036242_2324.csv,1036242,2502.4,ok,40,15,2.46,mixed,bad,4.38,3.55,3.0,G3,G3: #21 [03:18] ASTRO: Aisa kuchh abhi tak to nahin dikha hai but main check karke aapko clear batati hun aap recharge Kar lijiye nahin to aapka disconnect ho jaega,"G3: #21 [03:18] ASTRO: I haven't seen anything like that yet, but I will check and let you know clearly. Please recharge, otherwise your call will get disconnected.",G3: The astrologer uses urgency ('aap recharge Kar lijiye nahin to aapka disconnect ho jaega') to push for a paid element (recharging the chat).,3.5,4.71,2.0,7.33,,3,3,4,4,4,6,3,3,7,3,7,4,1,1,7,7,8,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1037518_2251.csv,1037518,1005.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1038773_1283.csv,1038773,3613.0,ok,28,12,4.25,mixed,bad,5.1,3.4,5.1,,,,,3.25,4.14,5.0,8.0,,3,3,3,4,3,6,3,3,4,3,7,4,7,4,7,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1042056_723.csv,1042056,1926.5,ok,29,18,3.93,mixed,bad,5.06,2.8,5.06,,,,,4.0,3.57,5.0,7.67,,3,8,1,4,1,1,3,3,7,3,7,4,7,4,6,7,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1052066_1283.csv,1052066,2752.9,ok,6,3,2.52,mixed,bad,3.75,1.3,3.75,,,,,3.67,2.67,2.0,6.67,,3,,1,7,1,1,3,1,7,3,,4,1,1,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_1053721_1961.csv,1053721,844.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1056008_1980.csv,1056008,1424.0,ok,265,111,5.94,good,mixed,5.88,6.0,5.88,,,,,5.0,5.86,6.33,6.33,,6,6,4,4,6,7,4,4,7,6,7,4,8,7,6,7,6,,none,1,1,1,1,1,1,1,1,0,1.0,0.5,0.5,15
+Medium,conversation_1060072_2300.csv,1060072,586.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1070009_2329.csv,1070009,4011.0,ok,26,15,4.75,mixed,mixed,5.5,4.0,5.5,,,,,4.67,4.0,5.0,8.33,,3,,10,1,4,6,3,3,4,4,,4,7,4,8,7,10,,none,1,0,1,1,0,0,0,1,0,0.5,0.0,0.5,5
+Medium,conversation_1097793_1980.csv,1097793,685.0,ok,63,33,6.24,good,mixed,6.1,6.39,6.1,,,,,4.25,6.14,6.33,7.67,,3,3,4,7,4,7,4,7,7,7,7,4,7,8,7,7,9,,none,1,1,1,1,1,1,1,1,0,1.0,1.0,0.5,15
+Medium,conversation_1116392_495.csv,1116392,2321.0,ok,40,19,6.6,good,good,6.8,6.4,6.8,,,,,7.0,5.86,6.0,8.33,,3,6,10,9,4,8,3,7,7,4,8,4,7,7,8,7,10,,none,1,0,1,1,1,1,0,1,0,1.0,1.0,1.0,10
+Medium,conversation_1117251_1037.csv,1117251,2203.0,ok,37,22,4.52,mixed,mixed,5.37,3.67,5.37,,,,,6.5,3.29,5.0,6.67,,6,6,10,4,4,6,3,3,3,1,3,4,7,4,4,6,10,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1129795_2283.csv,1129795,1020.0,ok,20,12,5.7,good,mixed,6.44,4.96,6.44,,,,,7.5,5.6,5.0,7.67,,7,4,10,9,7,4,3,7,7,,,4,8,3,7,7,9,,none,1,0,2,1,1,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1129824_2324.csv,1129824,753.0,ok,47,33,1.75,bad,bad,3.09,3.4,3.0,G3,"G3: #24 [05:48] ASTRO: Kya tum abhi video call kar sakte ho
+#25 [06:00] ASTRO: Video call karo vahan per Main ek healing ka process hai vah kar dungi aur aapko kuchh tric bataungi vah karo
+#26 [06:06] ASTRO: Healing karvao Apne channel ka
+#27 [06:18] ASTRO: Bahut sal se mehnat kar rahe ho but aapke mehnat kafi acche Hain result aapko isliye nahin mil raha hai kyunki blockage ja raha hai
+#28 [06:39] ASTRO: 10 se 15 minut ka ek process Hai video call per jaisa bolungi vaisa karna 3 mahine ke andar tumhara channel monetize ho jaega
+#34 [09:06] ASTRO: Abhi aap chat disconnect Karti video call per aao 10 minut ke liye
+#35 [09:14] ASTRO: Vahan per tumhara Puja kar dungi 6 mahine ke andar tumhara channel chal jaega
+#41 [11:38] ASTRO: Jahan se aapane chat Kiya Hai vahin per jaaiye vahan per teen option hai audio call chat aur video call
+#42 [11:42] ASTRO: Vahan se aap mujhe video call kar sakte ho
+#43 [11:49] ASTRO: Video call ka option milega aapko aap disconnect karke check karo
+#44 [12:13] ASTRO: Video call per 10 minut ke liye connect karna kyunki video call thoda jaldi se disconnect ho jata hai to pura process continue hone Tak 10 se 15 minut lag jaega to 10 se 15 minut ka hi call lekar aana
+#46 [12:27] ASTRO: Puja paath karna hai tumhara aur healing karna hai aur kaise kis time per kitne baje upload karna hai sari chijen bataenge Ham aapko","G3: #24 [05:48] ASTRO: Can you do a video call right now?
+#25 [06:00] ASTRO: Make a video call, I will perform a healing process there and tell you some tricks, follow them.
+#26 [06:06] ASTRO: Get your channel healed.
+#27 [06:18] ASTRO: You have been working hard for many years, but your efforts are good; you are not getting results because there is a blockage.
+#28 [06:39] ASTRO: It is a 10 to 15-minute process on video call; do as I say, and your channel will be monetized within 3 months.
+#34 [09:06] ASTRO: Disconnect the chat now and come on a video call for 10 minutes.
+#35 [09:14] ASTRO: I will perform your pooja there, and your channel will take off within 6 months.
+#41 [11:38] ASTRO: Go to the place where you started the chat; there are three options there: audio call, chat, and video call.
+#42 [11:42] ASTRO: You can video call me from there.
+#43 [11:49] ASTRO: You will find the video call option; disconnect and check.
+#44 [12:13] ASTRO: Connect for 10 minutes on video call because the video call disconnects a bit quickly, so it will take 10 to 15 minutes to complete the whole process, so come prepared for a 10 to 15-minute call.
+#46 [12:27] ASTRO: I need to perform your pooja and healing, and I will tell you everything, including how and at what time you should upload.","G3: The astrologer uses fear ('blockage ja raha hai') to push a paid healing process and pooja via video call, promising monetization within 3 months.",2.33,1.71,1.67,6.67,,3,1,3,,4,1,3,1,1,1,1,1,3,1,6,6,8,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1130438_53.csv,1130438,2289.0,ok,13,8,2.46,mixed,bad,3.63,1.3,3.63,,,,,1.5,2.71,2.0,8.33,,3,1,1,1,1,1,3,3,7,3,1,4,1,1,8,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1150980_53.csv,1150980,1188.8,ok,16,12,1.58,bad,bad,3.67,2.5,3.0,G3,"G3: #7 [02:08] ASTRO: Ji jaldi kijiye aapka time ja raha hai
+#13 [04:44] ASTRO: Aap mujhe dobara contact kijiye uske bad main aapko batata hun ki aap bata de kab hoga
+#15 [04:55] ASTRO: To aapka time khatm ho gaya hai aap mujhe dobara contact kijiye","G3: #7 [02:08] ASTRO: Please hurry, your time is running out
+#13 [04:44] ASTRO: Please contact me again, after that I will tell you when it will happen
+#15 [04:55] ASTRO: So your time is up, please contact me again","G3: The astrologer uses urgency ('time ja raha hai') to pressure the user, and then explicitly asks the user to 'dobara contact kijiye' (reconnect/recharge) to get the answer.",1.67,2.67,2.67,7.67,,3,1,1,,1,1,3,1,7,3,,4,3,1,8,6,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1153673_2159.csv,1153673,590.0,ok,10,5,2.34,bad,bad,3.38,1.3,3.38,,,,,1.5,2.71,2.0,7.33,,3,1,1,1,1,1,3,3,7,3,1,4,1,1,6,6,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1157071_2702.csv,1157071,2853.0,ok,27,14,5.06,good,mixed,5.47,4.66,5.47,,,,,4.75,4.14,5.0,8.0,,3,3,9,4,6,3,3,3,7,4,3,4,7,4,8,6,10,,none,1,0,1,1,1,0,0,1,0,0.5,0.0,1.0,5
+Medium,conversation_1175612_53.csv,1175612,922.0,ok,15,7,3.95,mixed,bad,4.5,3.4,4.5,,,,,4.25,3.43,4.0,6.33,,3,4,4,6,4,3,3,3,7,3,1,4,4,4,6,6,7,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1180090_1203.csv,1180090,645.0,ok,28,18,4.91,good,mixed,5.36,4.45,5.36,,,,,5.33,3.43,5.0,7.67,,6,1,9,,4,4,4,1,7,3,1,4,7,4,6,7,10,,none,1,0,1,1,0,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1182173_1037.csv,1182173,2356.0,ok,26,21,1.0,bad,bad,3.14,1.3,3.0,G3,"G3: #16 [04:19] ASTRO: Main Maha Mohini Mantra Se usko aapke pass 24 ghante ke andar Prem se baat karne ke liye talab kar dungi
+#17 [04:26] ASTRO: Uski mind aapke prati ghoom jayegi
+#22 [05:24] ASTRO: मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है जिसे जो भी मैं पूजन करूं वह आप तक पहुंचे और उसकी मन आपके प्रति बहुत ज्यादा अग्रेषित हो जाए
+#23 [05:38] ASTRO: आप चेक टाइमिंग को बढ़ा लीजिए लक्ष्मी आपसे जरूर बात करेगी
+#24 [05:49] ASTRO: मैं उनके मन को आपके लिए घूम रही हूं
+#25 [06:01] ASTRO: समय लेकर आप लिए","G3: #16 [04:19] ASTRO: With the Maha Mohini Mantra, I will compel them to talk to you lovingly within 24 hours.
+#17 [04:26] ASTRO: Their mind will turn towards you.
+#22 [05:24] ASTRO: I will perform a small remedy; you don't have to do anything. You just need to increase the chat timing so that whatever pooja I perform reaches you and their mind becomes very inclined towards you.
+#23 [05:38] ASTRO: Please increase the chat timing, Lakshmi will definitely talk to you.
+#24 [05:49] ASTRO: I am turning their mind towards you.
+#25 [06:01] ASTRO: Take some time for yourself.","G3: The astrologer uses fear/urgency ('Maha Mohini Mantra', 'mind will turn') to push for a paid element (extending chat time/recharging).",2.0,1.57,1.67,7.33,,3,1,1,3,1,1,3,3,1,1,1,1,3,1,6,6,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1183240_1411.csv,1183240,634.0,too_short,3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1185716_1988.csv,1185716,503.0,ok,22,12,4.9,good,mixed,6.26,3.55,6.26,,,,,5.75,5.29,6.0,8.0,,3,6,10,4,6,8,3,3,7,3,7,4,7,7,7,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1194829_2075.csv,1194829,969.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1195765_1203.csv,1195765,995.0,ok,33,12,1.63,bad,bad,3.77,2.5,3.0,G3,"G3: #14 [03:37] ASTRO: Aap donon ke face reading ke anusar jaisa ki Main dekh Pa raha hun ki aapke partner ke andar aapke prati feeling aur pyar kafi achcha hai aur Main dekh Pa raha hun bahut udaas hokar hi vah aapse Aisa bahut bole Hain kyunki Main dekh Pa raha hun ki aapke partner ke mind ko aapke prati divert Kiya ja raha hai bahan
+#19 [05:24] ASTRO: Dekho aapki bhi baat theek hai but dekho maine aapse pahle hi bataya tha ki aap donon ke bich mein Koi third person hai jo inke mind ko aapke prati divert ka rajya jiski vajah se yah pareshan hai but ladke ke andar aapke prati feeling aur pyar abhi bhi kafi achcha dikhai de raha hai
+#27 [08:30] ASTRO: Aapki bhi  theek hai main bhi kya kar sakta hun Maine to aapse pahle hi bataya tha agar aap mujhe time denge to main Aap donon ka rishta to theek kar dunga aur jo Aaj third person hai usko bhi main remove kar dunga but aap Hi Meri baat nahin Suni
+#30 [09:38] ASTRO: To dekho maine aapse pahle hi bola tha meri bhi kya galti Hai Main to aapse itni bar bola Hun ki Main Aap donon ka rishta theek kar dunga but dekhiae Kisi chij Ko theek hone mein samay lagta hai","G3: #14 [03:37] ASTRO: According to the face reading of both of you, as I can see, your partner has very good feelings and love for you. I can see that they only spoke to you like that because they were very sad, as I can see that your partner's mind is being diverted against you.
+#19 [05:24] ASTRO: Look, you are also right, but as I told you earlier, there is a third person between you two who is diverting their mind against you, which is why they are troubled. But the feelings and love for you inside the boy still seem quite good.
+#27 [08:30] ASTRO: You are also right, but what can I do? I told you earlier that if you give me time, I will fix your relationship and also remove the third person who is there today, but you did not listen to me.
+#30 [09:38] ASTRO: So look, I told you earlier, what is my fault? I have told you so many times that I will fix your relationship, but see, it takes time for things to get better.","G3: The astrologer uses fear ('third person' influencing the partner) to pressure the user into a paid service ('remove the third person', 'rishta theek kar dunga') while explicitly blaming the user for not paying ('aap hi meri baat nahin suni').",3.5,1.57,3.33,6.67,,3,1,9,1,3,1,3,1,1,1,1,1,6,3,3,7,10,,none,1,1,1,0,0,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_1203146_44.csv,1203146,675.0,ok,17,2,3.09,mixed,bad,3.68,2.5,3.68,,,,,1.67,2.71,4.0,6.33,,3,,1,1,1,1,3,3,7,3,1,4,4,4,3,6,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1207672_1283.csv,1207672,692.0,ok,41,19,5.17,good,mixed,5.54,4.81,5.54,,,,,4.75,4.43,4.67,8.33,,3,1,8,7,4,6,3,1,7,3,7,4,7,3,8,7,10,,none,1,1,1,1,1,1,0,0,0,0.5,1.0,0.0,10
+Medium,conversation_1213602_44.csv,1213602,710.0,ok,33,6,4.22,mixed,bad,5.49,2.95,5.49,,,,,5.0,4.29,6.0,6.67,,3,6,10,1,6,4,4,3,7,3,3,4,7,7,3,7,10,,none,1,0,0,1,0,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1220297_2387.csv,1220297,1351.0,ok,63,15,3.83,mixed,bad,4.27,3.4,4.27,,,,,2.25,3.14,5.0,6.67,,3,1,4,1,4,3,3,1,7,3,1,4,7,4,6,6,8,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1222192_44.csv,1222192,1170.0,ok,27,4,2.49,mixed,bad,3.68,1.3,3.68,,,,,1.67,2.71,4.0,6.33,,3,,1,1,1,1,3,3,7,3,1,4,4,4,3,6,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1228749_347.csv,1228749,842.0,ok,18,11,4.23,mixed,bad,5.22,3.25,5.22,,,,,5.5,3.71,5.0,6.67,,3,6,9,4,6,3,3,3,7,3,1,4,7,4,7,3,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1228943_1203.csv,1228943,1925.0,ok,25,10,5.02,good,mixed,5.74,4.3,5.74,,,,,6.25,4.71,4.67,7.33,,6,6,9,4,6,4,3,3,7,3,7,4,7,3,6,7,9,,none,1,1,1,1,0,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_1238632_2397.csv,1238632,1182.82,ok,17,7,2.57,mixed,bad,3.84,1.3,3.84,,,,,1.67,2.71,4.0,7.0,,3,1,1,,1,1,3,3,7,3,1,4,4,4,6,6,9,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1238716_2530.csv,1238716,1065.0,ok,22,12,4.83,good,mixed,4.92,4.75,4.92,,,,,4.67,4.33,4.67,6.0,,7,3,4,,8,4,7,3,1,3,,4,7,3,3,7,8,,none,1,0,1,2,0,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1243358_2069.csv,1243358,516.92,ok,35,19,4.29,mixed,bad,4.73,3.85,4.73,,,,,3.0,3.25,5.0,7.67,,6,1,4,1,6,3,1,3,,,,4,7,4,6,7,10,,none,1,1,2,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1244057_1283.csv,1244057,1774.0,ok,74,37,5.13,good,mixed,5.0,5.26,5.0,,,,,4.25,3.43,5.0,7.33,,6,3,4,4,4,8,3,3,1,4,1,4,7,4,6,7,9,,none,1,1,1,1,1,1,0,1,0,0.5,0.5,0.5,15
+Medium,conversation_1245970_1037.csv,1245970,3437.34,ok,142,89,2.4,bad,bad,3.94,3.85,3.0,G3,"G3: #67 [08:16] ASTRO: Aap chat timing ko badha lijiye
+#121 [17:08] ASTRO: 99% mein Vishwas dilati Hun ki vah Baat Karega aapse vah bhi bahut pyar se
+#133 [18:59] ASTRO: Aisa feel hoga kisi aapko block kiya hi nahin
+#135 [19:09] ASTRO: Ho sakta hai Pujan ke bich mein Hi block khol de
+#136 [19:19] ASTRO: Jaise hi Pujan apna karya karna aarambh karegi uske mind mein vah unblock kariyega","G3: #67 [08:16] ASTRO: Please increase the chat timing
+#121 [17:08] ASTRO: I assure you with 99% certainty that he will talk to you, and very lovingly at that
+#133 [18:59] ASTRO: It will feel as if no one ever blocked you
+#135 [19:09] ASTRO: It is possible that he unblocks you right in the middle of the pooja
+#136 [19:19] ASTRO: As soon as the pooja starts doing its work, he will unblock you in his mind","G3: The astrologer uses guaranteed results ('99% mein Vishwas dilati Hun ki vah Baat Karega', 'Aisa feel hoga kisi aapko block kiya hi nahin') combined with a request to extend chat time ('Aap chat timing ko badha lijiye') to perform a ritual.",2.75,2.0,5.0,6.0,,3,3,4,1,4,1,3,1,1,1,3,4,7,4,6,6,6,,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,15
+Medium,conversation_1248147_1203.csv,1248147,1733.0,ok,20,14,4.42,mixed,bad,5.28,3.55,5.28,,,,,4.25,3.86,5.0,8.0,,3,1,9,4,6,4,3,3,7,3,1,4,7,4,7,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1253924_2078.csv,1253924,1835.0,ok,22,11,4.39,mixed,bad,5.24,3.55,5.24,,,,,5.0,4.29,5.0,6.67,,3,4,9,4,4,6,3,3,4,3,7,4,7,4,4,7,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1269672_2442.csv,1269672,4065.4,ok,49,26,1.83,bad,bad,3.87,2.8,3.0,G3,"G3: #20 [05:08] ASTRO: Bilkul Priyanka ji affair hai 100%
+#39 [08:23] ASTRO: Recharge rakhiye baat continue chal ske
+#47 [09:59] ASTRO: Plz recharge","G3: #20 [05:08] ASTRO: Absolutely Priyanka ji, there is an affair 100%
+#39 [08:23] ASTRO: Please keep your account recharged so we can continue the conversation
+#47 [09:59] ASTRO: Please recharge","G3: The astrologer uses a definitive, fear-inducing claim ('affair hai 100%') to pressure the user into recharging the chat to continue the reading.",3.0,2.14,1.67,8.67,,3,3,3,3,1,1,3,3,1,3,3,1,3,1,10,6,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_1270197_1037.csv,1270197,3260.82,ok,35,18,2.05,bad,bad,3.71,3.4,3.0,G3,"G3: #26 [03:52] ASTRO: जब तक आप राहु का उपाय नहीं करती हैं तब तक हम आपको कुछ भी नहीं बता पाएंगे
+#31 [04:32] ASTRO: आप चैट टाइमिंग को बढ़ा लीजिए
+#33 [04:52] ASTRO: मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं जिसे आप दोनों के बीच में लड़ाई कभी नहीं होगी जैसा आप चाहोगी वैसा ही होगा
+#34 [04:59] ASTRO: चेक टाइमिंग को बढ़ा लीजिए आप","G3: #26 [03:52] ASTRO: Until you perform the remedy for Rahu, we will not be able to tell you anything.
+#31 [04:32] ASTRO: Please extend your chat timing.
+#33 [04:52] ASTRO: I will perform a small remedy for you right now, after which there will never be any fights between you two, and everything will happen just as you wish.
+#34 [04:59] ASTRO: Please extend your chat timing.",G3: The astrologer uses fear ('jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge') and promises a guaranteed result ('jaisa aap chahogi waisa hi hoga') to pressure the user to extend the chat time.,4.0,1.86,1.67,7.33,,3,3,9,1,4,1,4,1,1,1,1,1,3,1,6,6,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1270431_57.csv,1270431,1128.0,ok,38,18,2.89,mixed,bad,4.88,3.91,3.0,G3,"G3: #26 [03:54] ASTRO: Ji bilkul main jahan tak dekh pa rahe ho na aap donon ke bich mein jo third person hai na usne kuchh Kiya Hai aap donon ka relationship use dekha nahin ja raha tha
+#31 [04:25] ASTRO: Aap apne time ko thoda impress kar lijiye","G3: #26 [03:54] ASTRO: Yes, absolutely, as far as I can see, the third person between the two of you has done something; they couldn't stand to see your relationship.
+#31 [04:25] ASTRO: Please manage your time a little better.","G3: The astrologer uses fear by claiming a third person has done something ('kuch kiya hai') to break the relationship, and then immediately asks the user to extend their time ('time ko thoda impress kar lijiye') to get more information.",5.0,3.5,3.67,7.33,,6,6,4,4,6,3,3,3,3,3,,1,6,4,6,7,9,,none,1,1,1,1,1,0,1,0,0,0.5,0.0,0.0,5
+Medium,conversation_1276566_2530.csv,1276566,2149.0,ok,101,75,5.17,good,mixed,4.83,5.5,4.83,,,,,3.5,5.14,4.67,6.0,,3,3,4,4,6,7,4,3,6,3,7,4,7,3,4,7,7,,none,1,0,1,1,1,1,1,0,0,1.0,1.0,0.0,15
+Medium,conversation_1276769_195.csv,1276769,1673.0,ok,18,9,4.77,mixed,mixed,5.54,4.0,5.54,,,,,6.5,3.0,5.0,7.67,,3,6,10,7,4,4,3,3,1,3,,4,7,4,6,7,10,,none,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_1277313_347.csv,1277313,991.0,ok,67,34,4.36,mixed,bad,4.5,4.21,4.5,,,,,2.67,3.0,5.0,7.33,,3,1,4,,4,3,3,3,3,4,1,4,7,4,6,6,10,,none,1,1,1,1,0,0,0,1,0,0.5,0.0,0.5,10
+Medium,conversation_1282985_2159.csv,1282985,1677.96,ok,48,26,3.87,mixed,bad,5.24,2.5,5.24,,,,,3.5,4.14,6.0,7.33,,3,4,3,4,6,4,3,3,7,3,3,4,7,7,6,6,10,,none,1,0,0,0,1,0,0,0,0,0.0,0.0,0.0,15
+Medium,conversation_1288203_57.csv,1288203,1380.0,ok,22,13,1.98,bad,bad,3.71,3.25,3.0,G3,"G3: #17 [04:00] ASTRO: Aap apne time ko thoda impress kar lijiye taki ham donon ke bich mein aap mujhe pura information Apne bare mein dekh sake aur main aapko usse related solution bata sakun
+#18 [04:11] ASTRO: Jay Kishan ji chat per aaiae
+#19 [04:38] ASTRO: Dekhiae agar aap chat per aaenge to Shayad main aapki problems ko solution bata sakun jo aap problem present time mein kar rahe hain vah karne se aap samle aur ab aur bhi Kai sare jankari Jo aapke man mein abhi present time mein chal rahi hai jisse related
+#20 [04:46] ASTRO: Vah sare jankariyan main aapko Dena chahti hun please aap ek bar dobara chat join kariye
+#21 [05:00] ASTRO: Jay Kishan ji please chat per aaiae kyunki agar aap chat per nahin aaenge to main aapko details nahin de paungi jo ki","G3: #17 [04:00] ASTRO: Please provide your birth details so that I can see all your information and provide you with a solution related to it.
+#18 [04:11] ASTRO: Jay Kishan ji, please come to the chat.
+#19 [04:38] ASTRO: See, if you come to the chat, perhaps I can provide solutions to the problems you are currently facing, help you understand them, and address the many other questions currently on your mind.
+#20 [04:46] ASTRO: I want to give you all that information, please join the chat again.
+#21 [05:00] ASTRO: Jay Kishan ji, please come to the chat because if you do not come, I will not be able to provide you with the details.","G3: The astrologer uses urgency ('please aap ek bar dobara chat join kariye') and pressure to extend the chat to get solutions, which constitutes a paid element.",2.33,3.2,2.0,7.33,,3,1,3,,6,1,3,3,,3,,4,1,1,6,7,9,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1297932_2069.csv,1297932,1175.0,ok,40,33,2.5,mixed,bad,3.71,4.3,3.0,G3,"G3: #36 [10:21] ASTRO: Kyunki ladki kaisi hogi kya naam hoga yah Janna aapke liye bahut yad Aaye important hai
+#39 [10:55] ASTRO: Aap ek bar chat ko again join kijiye jisse main aapko acche se explain kar paunga","G3: #36 [10:21] ASTRO: Because knowing what the girl will be like and what her name will be is very important for you.
+#39 [10:55] ASTRO: Please join the chat again so that I can explain it to you properly.","G3: The astrologer uses fear/urgency ('Janna aapke liye bahut yad Aaye important hai') to push the user to reconnect/rejoin the chat, which is a paid element.",2.25,5.57,1.67,5.33,,3,1,4,1,6,8,3,3,9,3,7,1,3,1,6,4,6,,none,1,0,1,1,0,1,0,0,0,0.5,1.0,0.0,10
+Medium,conversation_1301559_2069.csv,1301559,760.0,ok,28,23,4.56,mixed,mixed,4.55,4.57,4.55,,,,,4.67,2.2,4.67,6.67,,3,1,10,,4,4,1,1,1,,,4,7,3,4,6,10,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1303690_2069.csv,1303690,1250.0,ok,35,23,4.46,mixed,bad,5.06,3.85,5.06,,,,,5.0,3.57,5.0,6.67,,3,6,4,7,6,4,3,3,3,3,3,4,7,4,4,7,9,,none,1,0,1,1,2,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1304957_45.csv,1304957,775.0,ok,47,30,3.55,mixed,bad,4.6,2.5,4.6,,,,,3.0,3.71,5.0,6.67,,3,4,4,1,1,4,3,1,7,3,7,4,7,4,3,7,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1305435_1300.csv,1305435,1431.34,ok,17,10,4.64,mixed,mixed,5.28,4.0,5.28,,,,,5.33,4.43,4.67,6.67,,3,4,9,,4,7,4,3,7,3,3,4,7,3,6,4,10,,none,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_1306557_57.csv,1306557,630.0,ok,24,12,3.58,mixed,bad,3.75,3.4,3.75,,,,,3.5,3.14,1.67,6.67,,3,6,4,1,4,4,3,1,6,3,1,1,3,1,6,6,8,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_132032_1283.csv,132032,630.0,ok,36,15,4.12,mixed,bad,6.25,4.99,3.0,G3,G3: #33 [04:50] ASTRO: Uske liye upay karna hoga agar aap upay karte Hain to Jo family against Hai vah agri ho jayegi,"G3: #33 [04:50] ASTRO: You will need to perform a remedy for that; if you perform the remedy, the family that is against it will agree.","G3: The astrologer uses fear ('family against hai') and implies a need for a remedy to make them agree, which is linked to a paid element (implied by the context of 'upay karna hoga' in a paid consultation setting).",7.25,4.43,5.0,8.33,,6,6,9,8,6,4,3,3,7,1,7,4,7,4,8,7,10,,none,1,1,1,1,1,1,0,0,0,1.0,0.5,0.0,5
+Medium,conversation_1321926_4.csv,1321926,4086.0,ok,99,52,2.1,bad,bad,3.51,3.7,3.0,G3,"G3: #60 [09:03] ASTRO: Usko chudwa dungi
+#61 [09:06] ASTRO: Free mein karungi tumhara kaam
+#62 [09:15] ASTRO: Dumm karungi uske photo pe
+#67 [09:37] ASTRO: Khud donoo ka fight hoga and dono alag","G3: #60 [09:03] ASTRO: I will make him leave her
+#61 [09:06] ASTRO: I will do your work for free
+#62 [09:15] ASTRO: I will perform a ritual on his photo
+#67 [09:37] ASTRO: Both of them will fight themselves and they will separate","G3: The astrologer uses fear ('Khud donoo ka fight hoga and dono alag') and offers to perform a ritual ('Dumm karungi uske photo pe') for free, which constitutes a paid element/process in the context of the rubric.",2.75,1.29,4.67,5.33,,1,3,4,3,1,1,3,1,1,1,1,4,6,4,6,6,4,,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,15
+Medium,conversation_1322305_2329.csv,1322305,1198.0,ok,22,8,4.35,mixed,bad,5.31,3.4,5.31,,,,,4.33,4.6,4.0,8.33,,3,6,4,,6,4,3,3,7,,,4,4,4,8,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1331681_2078.csv,1331681,1985.0,ok,61,30,4.47,mixed,bad,5.27,3.67,5.27,,,,,4.75,4.0,5.0,7.33,,6,1,8,4,4,6,3,1,4,3,7,4,7,4,7,6,9,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1338331_1283.csv,1338331,999.0,ok,31,14,4.48,mixed,bad,5.21,3.76,5.21,,,,,5.33,3.83,4.67,7.0,,6,6,4,,4,4,4,1,7,3,,4,6,4,6,6,9,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1343523_57.csv,1343523,860.0,ok,39,30,4.77,mixed,mixed,5.33,4.21,5.33,,,,,4.5,4.5,5.0,7.33,,6,4,4,4,6,4,4,4,6,3,,4,7,4,6,7,9,,none,1,1,0,1,1,1,0,0,0,0.5,0.5,0.0,10
+Medium,conversation_1348732_1411.csv,1348732,988.0,ok,50,29,3.39,mixed,bad,3.23,3.55,3.23,,,,,2.75,2.86,2.0,5.33,,3,1,4,3,3,4,3,3,1,3,3,4,1,1,4,6,6,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+Medium,conversation_135782_168.csv,135782,660.0,too_short,3,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1359793_2059.csv,1359793,547.0,ok,42,25,5.18,good,mixed,5.88,4.48,5.88,,,,,5.75,5.43,5.67,6.67,,6,6,4,7,4,7,3,3,7,7,7,4,6,7,6,7,7,,none,1,1,1,1,1,0,0,1,0,0.5,0.0,0.5,10
+Medium,conversation_1364209_1305.csv,1364209,4103.0,ok,58,28,1.0,bad,bad,3.28,2.5,3.0,"G3,G4","G3: #46 [25:53] ASTRO: Ji nishchit Roop se aapse vah pyar to Karti hi Karti Hai Ji bahut pyar Karti Hain
+#47 [26:03] ASTRO: Aur unblock karenge agar aap upay karenge to nishchit Roop se 11 din ke andar hi vah unblock kar dengi aapko
+#48 [26:08] ASTRO: Aur aapse milane ke liye bekar Ho jaenge
+#53 [28:05] ASTRO: Aapko mujhse aise hi contact mein Bane rahana hoga jab tak aapka Puja chalega tab tak ke liye
+#55 [28:19] ASTRO: Agar aap kar sakte hain to nahin to main idhar Se Kar dungi vah bhi
+#56 [28:29] ASTRO: Main idhar se karungi Puja aur vidhi ke sath 1500 mantron ka Ja | G4: #34 [17:09] ASTRO: Ji bilkul nishchit Roop se Karti Hai Ji
+#36 [17:44] ASTRO: Nishchit Roop se karegi ji
+#46 [25:53] ASTRO: Ji nishchit Roop se aapse vah pyar to Karti hi Karti Hai Ji bahut pyar Karti Hain","G3: #46 [25:53] ASTRO: Yes, she definitely loves you, she loves you very much.
+#47 [26:03] ASTRO: And she will unblock you if you perform the remedies, she will definitely unblock you within 11 days.
+#48 [26:08] ASTRO: And she will become restless to meet you.
+#53 [28:05] ASTRO: You will have to stay in contact with me like this as long as your pooja is ongoing.
+#55 [28:19] ASTRO: If you can do it, otherwise I will do it from here as well.
+#56 [28:29] ASTRO: I will perform the pooja from here with the proper rituals and 1500 mantra chants. | G4: #34 [17:09] ASTRO: Yes, absolutely, she definitely does.
+#36 [17:44] ASTRO: She will definitely do it.
+#46 [25:53] ASTRO: Yes, she definitely loves you, she loves you very much.","G3: The astrologer uses fear/urgency ('11 din ke andar', 'bekar ho jayenge') to push a paid ritual/pooja ('main idhar se karungi Puja'). | G4: The astrologer makes definitive, guaranteed claims about the other person's feelings and future actions ('Nishchit Roop se Karti Hai', 'Nishchit Roop se karegi') without any basis.",3.25,1.86,2.0,6.0,,3,3,4,3,3,1,3,1,1,1,3,1,4,1,3,6,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,15
+Medium,conversation_1367340_2078.csv,1367340,2336.4,ok,23,15,4.1,mixed,bad,4.8,3.4,4.8,,,,,3.0,3.86,5.0,7.33,,3,1,4,4,6,6,3,1,1,3,7,4,7,4,6,7,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1369938_44.csv,1369938,500.0,ok,20,2,2.48,mixed,bad,3.67,1.3,3.67,,,,,1.67,2.67,4.0,6.33,,3,,1,1,1,1,3,3,7,,1,4,4,4,3,6,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1370397_168.csv,1370397,2086.0,ok,17,12,4.5,mixed,bad,5.74,3.25,5.74,,,,,5.5,3.86,4.33,7.0,8.0,6,3,10,3,4,4,1,1,7,3,7,4,6,3,8,7,6,8,vague,1,0,0,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1373007_723.csv,1373007,4576.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1373574_997.csv,1373574,3982.0,ok,19,15,5.33,good,mixed,5.69,4.96,5.69,,,,,5.67,5.4,4.67,7.0,,3,4,10,,6,6,4,4,7,,,4,7,3,6,6,9,,none,1,0,1,1,2,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1376452_532.csv,1376452,1145.0,ok,9,4,2.48,mixed,bad,3.67,1.3,3.67,,,,,1.0,2.33,4.67,6.67,,,1,1,,1,,3,3,,,,4,7,3,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1377057_57.csv,1377057,1071.44,ok,45,23,5.73,good,mixed,6.17,5.29,6.17,,,,,5.33,5.67,6.0,7.67,,3,6,7,,6,8,3,3,7,7,,4,7,7,6,7,10,,none,1,0,1,1,1,1,0,2,0,0.5,0.5,0.5,10
+Medium,conversation_1377829_1980.csv,1377829,955.8,ok,23,12,4.79,mixed,mixed,5.1,4.48,5.1,,,,,4.75,3.33,4.33,8.0,,3,3,9,4,4,7,1,4,1,3,,4,6,3,8,7,9,,none,1,1,1,1,0,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1383584_2394.csv,1383584,529.0,ok,19,14,2.23,bad,bad,4.21,3.25,3.0,G3,"G3: #14 [04:29] ASTRO: Lekin thodi Si problem bhi a rahi hai uske liye aapko
+#15 [04:34] ASTRO: Apni kundli ko dipli read karana hoga
+#18 [04:59] ASTRO: Five star jarur Dena just dobara join karo","G3: #14 [04:29] ASTRO: But there is a small problem coming up, for which you
+#15 [04:34] ASTRO: Will need to get your kundli read in depth
+#18 [04:59] ASTRO: Do give a five star rating, just join again",G3: The astrologer uses fear ('thodi Si problem bhi a rahi hai') to push for a paid service ('kundli ko dipli read karana hoga') and asks the user to reconnect/rejoin ('dobara join karo').,4.67,3.86,1.0,7.33,,3,1,10,,4,7,3,3,4,3,3,1,1,1,6,6,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1388430_1280.csv,1388430,966.0,ok,20,16,5.33,good,mixed,5.54,5.11,5.54,,,,,6.33,4.5,4.67,6.67,,3,6,10,,6,4,4,4,,,,4,6,4,6,6,8,,none,1,0,1,1,1,1,0,0,0,1.0,1.0,0.0,5
+Medium,conversation_1393723_1037.csv,1393723,2048.48,ok,42,24,2.15,bad,bad,3.59,3.7,3.0,G3,G3: #41 [04:56] ASTRO: Aap chat timing ko badha lijiye main kuchh upay bata rahi hun,"G3: #41 [04:56] ASTRO: Please extend the chat timing, I am suggesting some remedies.",G3: The astrologer uses the user's distress about family acceptance to push for extending the chat time to provide a remedy.,2.75,2.29,4.0,5.33,,3,1,4,3,4,3,3,1,3,1,1,4,7,1,4,6,6,,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,5
+Medium,conversation_1395618_2195.csv,1395618,1200.0,ok,42,23,3.17,mixed,bad,4.6,4.75,3.0,G3,"G3: #33 [08:28] ASTRO: To dekhiae aap bilkul pareshan mat hoiye bus aap family ke liye Rahu aur shukr ka Mantra Jaap karva lijiye Mantra Jaap ka result tatkal mein milta Hai jisse family bhi is marriage ke liye swikar karenge aur shukr ka Mantra kafi achcha hota hai marriage ke liye
+#38 [09:33] ASTRO: Aur agar aap time deti hai to Main Rahu aur shukr ka Mantra Jaap kar deti hu
+#40 [10:02] ASTRO: Agar aap time deti hai to yah Mantra Jaap main already aap donon ki family ke liye kar sakti hun","G3: #33 [08:28] ASTRO: See, please do not worry at all, just get the Mantra Jaap for Rahu and Shukr done for your family. The results of Mantra Jaap are immediate, which will make your family accept this marriage, and the Shukr Mantra is quite good for marriage.
+#38 [09:33] ASTRO: And if you give me the time, I can perform the Rahu and Shukr Mantra Jaap.
+#40 [10:02] ASTRO: If you give me the time, I can already perform this Mantra Jaap for both of your families.",G3: The astrologer uses fear ('family bilkul swikar nahin karegi') and urgency ('tatkal mein milta hai') to push a paid mantra jaap service performed by the astrologer.,3.5,3.57,4.0,7.33,,3,3,4,4,4,6,4,3,4,1,3,4,7,1,7,6,9,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,10
+Medium,conversation_1402414_53.csv,1402414,546.0,ok,20,12,1.52,bad,bad,3.55,2.5,3.0,G3,"G3: #11 [03:53] ASTRO: Jaldi kijiye aapka samay ja raha hai
+#12 [04:04] ASTRO: Lag raha hai aapko dobara contact karna padega
+#14 [04:26] ASTRO: Vah dobara contact kijiye uske bad pic send kar dijiye FIR main check kar leta Hun uske bad aapko jankari bhi de dunga
+#16 [04:40] ASTRO: Aapka samay bhi khatm hone wala hai bhai
+#18 [04:48] ASTRO: Aap hi bataiye main kaise check Karun ab aap samay badhaenge tabhi na main check kar paunga
+#19 [04:53] ASTRO: To samay add kar lijiye ya dobara contact kijiye","G3: #11 [03:53] ASTRO: Please hurry, your time is running out
+#12 [04:04] ASTRO: It seems you will have to contact again
+#14 [04:26] ASTRO: Please contact again and then send the picture, then I will check it and give you the information
+#16 [04:40] ASTRO: Your time is also about to end, brother
+#18 [04:48] ASTRO: You tell me, how should I check now? Only if you extend the time will I be able to check
+#19 [04:53] ASTRO: So please add time or contact again",G3: The astrologer uses urgency ('samay ja raha hai') to pressure the user to extend time or reconnect to get a reading.,1.5,2.71,2.0,8.0,,3,1,1,1,1,1,3,3,7,3,1,4,1,1,8,7,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1402930_2646.csv,1402930,2335.0,ok,64,29,4.89,good,mixed,5.13,4.66,5.13,,,,,4.33,3.86,5.67,6.67,,3,6,4,,4,6,3,3,4,4,3,4,7,6,4,7,9,,none,1,0,1,1,1,0,0,1,0,0.5,0.0,1.0,15
+Medium,conversation_140707_2324.csv,140707,4833.0,ok,67,31,2.62,mixed,bad,4.74,3.49,3.0,G3,"G3: #34 [06:08] ASTRO: Usse pahle bhi baat ho jayegi aapki agar aap unhen relation Ho thoda healing vagaira karvaoge aur aap afmeshan doge to ho jayegi
+#36 [06:44] ASTRO: Agar usse pahle chahte ho ki aapki baat ho jaaye to fir aapko healing vagaira Lena padega relationship love heeling
+#64 [12:35] ASTRO: Vahan per log session book karvate Hain4000 Le lete Hain
+#66 [12:58] ASTRO: Yahan per Aisa kuchh nahin Hai yahan per aap video call per aaoge usi per tumhara healing ho jaega","G3: #34 [06:08] ASTRO: You will be able to talk to them even before that if you get some healing done for the relationship and give affirmations, it will happen.
+#36 [06:44] ASTRO: If you want to talk to them before that, then you will have to take healing, like relationship love healing.
+#64 [12:35] ASTRO: People book sessions there and they charge 4000.
+#66 [12:58] ASTRO: There is nothing like that here; here you will come on a video call and your healing will be done right then.",G3: The astrologer uses fear/urgency ('agar usse pahle chahte ho ki aapki baat ho jaaye to fir aapko healing vagaira Lena padega') to push a paid service (healing/video call session).,4.5,4.14,4.0,6.33,,4,3,8,3,4,7,3,3,4,1,7,4,7,1,4,6,9,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+Medium,conversation_1412845_2530.csv,1412845,1620.0,ok,23,16,4.89,good,mixed,5.13,4.66,5.13,,,,,3.5,4.71,5.0,7.33,,3,3,4,4,6,8,1,1,7,3,7,4,7,4,8,4,10,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1413764_723.csv,1413764,4735.34,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1416927_2340.csv,1416927,1963.0,ok,110,77,4.81,mixed,mixed,6.58,6.04,3.0,G3,"G3: #93 [37:14] ASTRO: Ja to sakta hai ji lekin main aapse yahi kahunga ki aapko uske liye remedy ki avashyakta
+#94 [37:26] ASTRO: Kyunki planetary position se gadbad Hoti Hai to problem aati Hai
+#107 [40:53] ASTRO: Kafi fayda milega aur Jab bhi aapke pass lagbhag 20 minut ka samay Ho mujhe dijiyega Main healing kar dunga","G3: #93 [37:14] ASTRO: It is possible, but I would suggest that you need a remedy for it.
+#94 [37:26] ASTRO: Because when there is a disturbance in the planetary position, problems arise.
+#107 [40:53] ASTRO: You will get a lot of benefit, and whenever you have about 20 minutes of time, let me know, I will perform the healing.",G3: The astrologer uses fear regarding planetary positions to push for a paid healing service.,7.0,6.0,6.0,7.33,,6,6,7,9,6,7,4,7,7,3,8,7,7,4,6,7,9,,none,1,1,1,1,1,1,1,1,0,1.0,0.5,0.5,15
+Medium,conversation_1418425_1305.csv,1418425,2850.0,ok,14,8,4.97,good,mixed,6.4,3.55,6.4,,,,,7.75,4.86,4.67,8.33,,6,8,10,7,4,7,3,3,7,3,7,4,6,4,8,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1420718_2262.csv,1420718,570.0,ok,17,8,4.91,good,mixed,6.57,3.25,6.57,,,,,6.5,5.8,5.67,8.33,,3,,10,,6,8,3,3,9,,,4,7,6,8,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1422076_285.csv,1422076,3296.0,ok,28,21,1.21,bad,bad,2.92,2.5,2.92,G3,"G3: #14 [03:04] ASTRO: Isse marriage bilkul bhi nahin hogi agar marriage aap jabardasti Karte Bhi Ho To mere chalega Nahin aapka
+#17 [03:29] ASTRO: Is chij Ko Nahin hataoge tab tak marriage Nahin hogi aap donon ki bilkul Bhi Nahin
+#19 [03:43] ASTRO: Aur mere successful bhi rahega family support ke sath marriage hogi agar Manglik dosh Nahin hataoge to bilkul Nahin hoga kyunki ladka Manglik Nahin Hai
+#21 [04:03] ASTRO: Ya to aap mere ko 10:15 minut ka time doge fir se connect karoge To Main Mantra Jaap karke Sahi kar dungi FIR Koi dikkat Nahin aaegi jaisa aapka decision Ho
+#27 [04:48] ASTRO: Aap mere ko fir se connect karoge To Main Mantra Jaap kar dungi 15 20 minut ka time lagega aapka","G3: #14 [03:04] ASTRO: This marriage will not happen at all, and even if you force the marriage, it will not work out for you.
+#17 [03:29] ASTRO: Until you remove this thing, the marriage between you two will not happen at all.
+#19 [03:43] ASTRO: And the marriage will be successful with family support, but if you don't remove the Manglik dosh, it will not happen at all because the boy is not Manglik.
+#21 [04:03] ASTRO: Either you give me 10-15 minutes and reconnect, then I will perform the Mantra Jaap and fix it, and then there won't be any issues; it's your decision.
+#27 [04:48] ASTRO: If you reconnect with me, I will perform the Mantra Jaap; it will take about 15-20 minutes.","G3: The astrologer uses fear (marriage will not happen, will not work) to push for a paid service (Mantra Jaap) and asks the user to reconnect/extend time for it.",4.0,1.0,1.0,5.67,,3,1,9,3,1,1,1,1,1,1,1,1,1,1,4,3,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1422865_2195.csv,1422865,2725.8,ok,32,15,6.73,good,good,7.33,6.13,7.33,,,,,6.5,7.83,6.67,8.33,,3,8,8,7,8,9,7,7,7,9,,4,8,8,7,8,10,,none,1,0,1,2,2,2,0,2,0,0.5,0.5,0.5,5
+Medium,conversation_1423870_1203.csv,1423870,3442.0,ok,70,36,4.33,mixed,bad,4.67,4.0,4.67,,,,,4.5,3.86,4.67,5.67,,3,3,8,4,3,4,3,3,4,3,7,4,7,3,3,7,7,,none,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,15
+Medium,conversation_1423870_2195.csv,1423870,3442.0,ok,28,15,4.8,mixed,mixed,5.07,4.54,5.07,,,,,3.5,3.8,4.67,8.33,,6,1,3,4,6,4,4,4,1,,,4,7,3,8,7,10,,none,1,1,1,1,1,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_1427033_2530.csv,1427033,951.0,ok,30,19,4.63,mixed,mixed,5.27,4.0,5.27,,,,,4.67,4.4,4.67,7.33,,3,,10,1,4,6,4,4,4,,,4,7,3,6,6,10,,none,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_1429679_2646.csv,1429679,2157.0,ok,60,31,6.56,good,good,5.97,7.15,5.97,,,,,6.33,5.57,6.0,6.0,,6,6,7,,4,7,3,4,7,7,7,4,7,7,4,7,7,,none,1,1,2,1,1,1,1,2,0,1.0,1.0,0.5,15
+Medium,conversation_1434373_347.csv,1434373,1159.94,ok,53,29,2.27,bad,bad,4.3,3.25,3.0,G3,"G3: #31 [03:57] ASTRO: Nhi mangal prabhav
+#33 [04:15] ASTRO: Or saturn planet shadow
+#51 [07:43] ASTRO: Call possible hai kya","G3: #31 [03:57] ASTRO: No, Mangal influence
+#33 [04:15] ASTRO: Or Saturn planet shadow
+#51 [07:43] ASTRO: Is a call possible?","G3: The astrologer uses fear/negative planetary influence (Mangal, Saturn) to create urgency and then immediately pivots to a paid element (requesting a call/extension) to resolve the issue.",4.5,2.71,3.0,7.0,,6,1,7,4,6,6,1,1,1,3,1,4,4,1,6,6,9,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1435746_1260.csv,1435746,977.04,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1439458_4.csv,1439458,663.0,ok,17,8,1.84,bad,bad,3.89,2.8,3.0,G3,"G3: #15 [04:19] ASTRO: Iske Saath Baat karwa doon
+3 din mein","G3: #15 [04:19] ASTRO: Should I get you to talk to him/her
+In 3 days",G3: The astrologer uses a promise of a result ('Baat karwa doon 3 din mein') combined with a paid element (implied service/process for the mantra jaap) to create pressure.,3.0,1.57,3.67,7.33,,3,1,4,4,1,1,3,3,1,1,1,4,6,1,8,7,7,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1446927_2041.csv,1446927,977.0,ok,5,2,2.4,bad,bad,3.5,1.3,3.5,,,,,2.0,3.0,3.67,5.33,,,1,1,4,1,1,3,3,7,,,4,4,3,3,3,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1452115_723.csv,1452115,1046.0,ok,63,16,1.0,bad,bad,3.55,1.3,3.0,G3,"G3: #46 [14:40] ASTRO: Manipulation ond
+#47 [14:47] ASTRO: Vetill
+#48 [14:54] ASTRO: Olle members de
+#53 [15:25] ASTRO: So we can do first session
+#54 [15:26] ASTRO: Now","G3: #46 [14:40] ASTRO: Manipulation is there
+#47 [14:47] ASTRO: At home
+#48 [14:54] ASTRO: All members are
+#53 [15:25] ASTRO: So we can do first session
+#54 [15:26] ASTRO: Now",G3: The astrologer uses fear ('Manipulation ond' / 'Vetill Olle members de') to create urgency and then immediately pushes for a 'first session' (paid element) to be done 'now'.,1.5,2.71,3.67,6.33,,3,1,1,1,1,1,3,3,7,3,1,4,6,1,3,6,10,,none,0,0,1,0,0,0,0,0,0,0.0,0.0,0.0,15
+Medium,conversation_1452776_4.csv,1452776,2083.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1459202_647.csv,1459202,545.0,ok,26,15,2.8,mixed,bad,4.84,3.76,3.0,G3,"G3: #23 [04:32] ASTRO: Aap wapas se connect krna me theek krwaduga aapka relationship
+#24 [04:38] ASTRO: Chinta maat krna aap","G3: #23 [04:32] ASTRO: Connect again, I will fix your relationship
+#24 [04:38] ASTRO: Do not worry","G3: The astrologer uses a promise of a fix ('theek krwaduga') combined with a request to reconnect/extend the chat to perform a ritual/process, which constitutes a paid element.",4.25,3.43,4.0,7.67,,6,3,4,4,6,1,3,3,7,3,1,4,7,1,8,6,9,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_1477178_2283.csv,1477178,1035.0,ok,16,12,6.65,good,good,7.8,5.5,7.8,,,,,7.67,8.2,7.67,7.67,,6,7,10,,9,9,7,7,9,,,7,8,8,6,8,9,,none,1,0,1,2,1,2,2,0,0,0.5,0.5,0.0,5
+Medium,conversation_1483366_2530.csv,1483366,1685.0,ok,30,20,5.17,good,mixed,5.67,4.66,5.67,,,,,5.67,5.0,5.33,6.67,,3,4,10,,6,7,7,4,1,,,6,7,3,6,7,7,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1493983_1283.csv,1493983,2605.44,too_short,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_1517305_347.csv,1517305,1634.0,ok,4,2,2.42,bad,bad,3.83,1.0,3.83,,,,,2.0,3.0,4.0,6.33,,3,,1,,1,1,3,3,7,,,4,4,4,3,6,10,,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1526547_347.csv,1526547,1316.88,ok,40,31,2.01,bad,bad,3.63,3.4,3.0,G3,"G3: #29 [07:57] ASTRO: Aap ki within one hour mein relax milega
+#36 [09:46] ASTRO: Aap again connect ho jaaye","G3: #29 [07:57] ASTRO: You will get relief within one hour
+#36 [09:46] ASTRO: Please connect again",G3: The astrologer uses a guarantee of relief (fear/urgency) to push for a paid reconnection.,2.67,1.5,3.67,6.67,,3,1,4,,4,1,1,1,1,1,,4,6,1,6,6,8,,none,1,1,0,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_1548825_1283.csv,1548825,738.0,ok,26,13,3.04,mixed,bad,4.32,4.75,3.0,G3,"G3: #12 [01:58] ASTRO: Mangal ke prabhav ke liye kya aapane upay kar liya hai Mangal ke prabhav se bhi aapki shaadi mein samasya ho rahi hai
+#15 [02:59] ASTRO: Aapki marriage mein problem a rahi hai
+#19 [03:56] ASTRO: 2027 mein aapki shaadi Hogi per shaadi aapki 2026 mein Hi fix ho jayegi lekin uske liye aapko upay karna hoga agar aap upay karenge to aapke liye achcha rahega
+#23 [04:42] ASTRO: Jaldi hi aapka rishta fix ho jaega agar aap upay kar lenge to aapka Jo rishta Hai June mahine ke last Tak fix ho jaega
+#25 [04:56] ASTRO: Ab dobara connect kariye main aapki job ke bare mein bhi bata raha hun sath mein upay bhi bata raha hun","G3: #12 [01:58] ASTRO: Have you performed the remedies for the influence of Mangal? The influence of Mangal is also causing problems in your marriage.
+#15 [02:59] ASTRO: You are facing problems in your marriage.
+#19 [03:56] ASTRO: You will get married in 2027, but your marriage will be fixed in 2026 itself. However, you will need to perform remedies for that; it will be good for you if you do them.
+#23 [04:42] ASTRO: Your relationship will be fixed soon; if you perform the remedies, your relationship will be fixed by the end of June.
+#25 [04:56] ASTRO: Please connect again; I am telling you about your job as well, along with the remedies.",G3: The astrologer uses fear/urgency regarding marriage delay and then demands the user to reconnect/extend the chat to get the remedy and job reading.,6.33,2.29,1.0,7.67,,3,6,10,,4,4,4,1,1,1,1,1,1,1,7,7,9,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_1565617_347.csv,1565617,1159.94,ok,21,14,3.85,mixed,bad,4.91,2.8,4.91,,,,,4.25,2.71,4.67,8.0,,3,6,4,4,1,1,3,3,7,3,1,4,6,4,8,7,9,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_1565875_2329.csv,1565875,637.2,ok,20,5,3.39,mixed,bad,4.28,2.5,4.28,,,,,2.75,2.71,4.0,7.67,,3,6,1,1,1,1,3,3,7,3,1,4,4,4,6,7,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_160049_1747.csv,160049,1470.0,ok,66,52,5.02,good,mixed,4.54,5.5,4.54,,,,,4.5,4.0,4.67,5.0,,3,3,8,4,4,6,1,3,7,4,3,4,7,3,3,6,6,,none,1,0,1,1,1,1,0,1,0,1.0,0.5,0.5,10
+Medium,conversation_192131_168.csv,192131,1370.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_208572_347.csv,208572,795.0,ok,66,46,2.4,bad,bad,3.79,4.0,3.0,G3,"G3: #23 [02:56] ASTRO: Can you call me
+#24 [03:08] ASTRO: Aap ki problem two minutes mein solve
+#45 [07:21] ASTRO: Ji jaise ki mein dekh pa rahi ho aap ka phone number thoda problem de raha hai
+#53 [08:11] ASTRO: Can you call me
+#63 [09:32] ASTRO: Disconnect
+#64 [09:35] ASTRO: Again connect","G3: #23 [02:56] ASTRO: Can you call me
+#24 [03:08] ASTRO: Your problem will be solved in two minutes
+#45 [07:21] ASTRO: Yes, as I can see, your phone number is causing some issues
+#53 [08:11] ASTRO: Can you call me
+#63 [09:32] ASTRO: Disconnect
+#64 [09:35] ASTRO: Again connect","G3: The astrologer uses fear/urgency ('Aap ki problem two minutes mein solve', 'phone number thoda problem de raha hai') to push the user to call (paid element) and change their phone number.",4.67,2.83,2.33,5.33,,3,3,8,,4,3,3,3,3,1,,3,3,1,6,6,4,,none,1,0,1,1,1,0,0,0,0,1.0,0.0,0.0,10
+Medium,conversation_253497_2059.csv,253497,2125.0,ok,49,35,3.21,mixed,bad,4.66,5.76,3.0,G4,"G4: #27 [05:52] ASTRO: Shaadi hone ke bad bhi aap donon relationship mein rahoge
+#28 [06:01] ASTRO: Jo pyar Jo attraction Jo yah emotional attachment aapse mila hai aapki GF ko
+#29 [06:10] ASTRO: Vah pyar vah respect vah emotional attachment unko apne husband se bhi nahin milega
+#30 [06:42] ASTRO: Marriage ke bad bhi yah aapke sath batchit karengi
+#31 [06:53] ASTRO: Kyunki Jo aapane inko pyar Kiya Hai vah pyar inko apne husband se nahin milega","G4: #27 [05:52] ASTRO: Even after marriage, both of you will remain in a relationship
+#28 [06:01] ASTRO: The love, the attraction, and the emotional attachment that your GF has received from you
+#29 [06:10] ASTRO: She will not receive that same love, respect, and emotional attachment from her husband
+#30 [06:42] ASTRO: Even after marriage, she will continue to communicate with you
+#31 [06:53] ASTRO: Because the love you have given her, she will not get that from her husband","G4: The astrologer makes an invented, unethical claim that the user's ex-girlfriend will continue to have a relationship with the user even after her marriage, which is a harmful and speculative assertion.",3.5,3.14,5.0,7.0,,3,1,7,3,4,3,3,3,3,3,3,4,7,4,6,7,8,,none,1,1,1,1,1,1,1,0,0,1.0,1.0,0.0,10
+Medium,conversation_2678448_3177.csv,2678448,3766.56,ok,66,48,2.7,mixed,bad,4.69,3.7,3.0,G3,"G3: #56 [58:07] ASTRO: isi Ko Sahi karne ke liye Ham aapko upay bataenge
+#57 [58:12] ASTRO: Aur vahi upay aapko karna rahega
+#59 [59:25] ASTRO: Aur uske bad Meri guarantee Hai Ki
+#61 [61:25] ASTRO: Aap upay note Kar Lijiye jaldi se","G3: #56 [58:07] ASTRO: To fix this, we will suggest some remedies for you
+#57 [58:12] ASTRO: And you will have to perform those exact remedies
+#59 [59:25] ASTRO: And after that, it is my guarantee that
+#61 [61:25] ASTRO: Please note down the remedies quickly",G3: The astrologer uses a guarantee ('Meri guarantee Hai') to push a remedy (upay) that is presented as the only way to fix the situation.,3.5,3.57,5.0,6.67,,3,3,4,4,6,4,3,3,1,1,7,4,7,4,4,7,9,,none,1,0,1,1,0,0,0,0,0,1.0,0.0,0.0,15
+Medium,conversation_2946836_3183.csv,2946836,4817.94,ok,115,66,2.06,bad,bad,3.37,3.76,3.0,G3,"G3: #28 [07:23] ASTRO: Lekin main dekh Pa Raha Hun ki present time mein koi negative urja hai koi hai aap logon ke bich mein jo rishte ko lekar jalan rakhta Hai jiske Karan se najar dosh ban raha hai
+#29 [07:36] ASTRO: A present time mein jo struggle ho raha hai ISI ki vajah se ho raha hai koi hai jo aap log ke relation ke bich mein unko bhadkane ka kam kar raha hai
+#32 [08:30] ASTRO: Face reading ke madhyam Se dekha jaaye to main dekh raha hun ki negative urja to unke upar dikhai de rahi hai koi hai teesra Jo aapke rishte ko lekar jalan mein hai unko yah rishta achcha nahin lagta hai isiliye koi hai jo kuchh unke upar Kiya hua Hai
+#33 [08:43] ASTRO: Taki aapke prati unke man mein negative urja utpann ho aur unka behaviour badla badla Sa Lage isiliye unka behaviour badal raha hai
+#45 [13:35] ASTRO: Isiliye unka behaviour change hua Hai aur aap logon ke sath mein ladai jhagada ka Karan yahi hai kuchh unhone unko khilaya hai jiske Karan se unke man mein negative urja utpann ho rahi hai
+#48 [14:23] ASTRO: Lekin jab Se ine logon Ne unko bhadkane ka kam kiya hai aur kuchh unke upar karaya hai negative urja tab Se unke man mein ban rahi hai aapke liye
+#56 [17:10] ASTRO: Aur inhin donon logon Ne milkar ke unke upar kuchh karaya hai jiske Karan se unke man mein negative chijen aapke liye Ban rahe hain
+#65 [20:51] ASTRO: Ek bar aap inki face healing kara dijiye
+#67 [21:12] ASTRO: Agar Inka face healing ho jata hai to aap dekhoge ki jo aapke prati unke man mein negative urja ban rahi hai jo unhone karvaya hai vah samapt ho jaega aur inke man mein aapke liye positive urja ka Pravesh hoga
+#68 [21:31] ASTRO: Dekhiae unka photo Rakh karke ek Puja Kiya jata Hai face healing ka jisse negative urja samapt hoti hai aur positive urja ka Pravesh hota Hai
+#69 [21:58] ASTRO: Iske liye kuchh samagri ki avashyakta hoti hai Jaise panch mombatti haldi aur Inka photo aur ek Kala dhaaga
+#71 [22:26] ASTRO: Aur jab aap comfortable Ho tab aap isko kara sakti ho aapko bhi Puja per baithana hoga aur ham bhi baithenge kuchh Mantra Ko Main aapko lekar send karunga aap usko Jaap karte rahiyega jab tak yah Puja chalegi
+#72 [22:46] ASTRO: Aur kuchh mantron ka uchharan Main karunga usmein kuchh time lagta hai
+#75 [23:28] ASTRO: Ismein Keval 30 Se 32 minut ka time lagta hai aur aapko itne der baithana rahega ek sthan per unki photo ke samne mombatti Jala karke
+#76 [23:37] ASTRO: Aur Main Puja kar dunga bus yah hai ki bich mein Puja khandit honi nahin chahie
+#85 [26:39] ASTRO: Theek hai koi baat nahin mombatti Ko Main Manga lunga lekin yah hai ki aapko 30 Se 32 minut baithana rahega aur mobile mein photo khol karke
+#96 [31:00] ASTRO: To aap apna time increase kar lo Main aapko Mantra likh karke send karta hun aap isko baith karke Apne man mein dohrate rahana
+#100 [31:46] ASTRO: Theek hai aap apna time increase kar do main aapko Mantra likhkar send karta hun aur main bhi Mantra ko Jaap karna shuru karte Hain
+#103 [32:44] ASTRO: Aapane apna time nahin increase Kiya kyunki donon ki urja connect honi chahie hamari aur aapki phone chalu rahana chahie jisse 32 minut Tak
+#107 [35:50] ASTRO: Aap apne mobile mein kam se kam 32 minut ka coin add Kar lijiye
+#113 [39:37] ASTRO: Pahle 15 minut ka Kar lijiye uske bad FIR 15 minut ka Kar lijiyega","G3: #28 [07:23] ASTRO: However, I can see that there is negative energy in the present time; there is someone between you two who is jealous of your relationship, which is causing a nazar dosh.
+#29 [07:36] ASTRO: The struggle you are facing at present is due to this; someone is working to provoke them against your relationship.
+#32 [08:30] ASTRO: Looking through face reading, I can see that negative energy is visible on them. There is a third person who is jealous of your relationship and does not like it, which is why someone has performed something on them.
+#33 [08:43] ASTRO: This is to ensure that negative energy is generated in their mind towards you, making their behavior seem different, which is why their behavior is changing.
+#45 [13:35] ASTRO: That is why their behavior has changed and this is the reason for the fights between you two; someone has fed them something, causing negative energy to arise in their mind.
+#48 [14:23] ASTRO: But ever since these people started provoking them and performed negative energy rituals on them, it has been building up in their mind against you.
+#56 [17:10] ASTRO: And these two people together have had something done to them, which is why negative things are forming in their mind towards you.
+#65 [20:51] ASTRO: Please get a face healing done for them once.
+#67 [21:12] ASTRO: If their face healing is done, you will see that the negative energy forming in their mind towards you, which was caused by others, will end, and positive energy will enter their mind for you.
+#68 [21:31] ASTRO: See, a pooja is performed by keeping their photo, which is called face healing, through which negative energy is eliminated and positive energy enters.
+#69 [21:58] ASTRO: For this, some materials are required, such as five candles, turmeric, their photo, and a black thread.
+#71 [22:26] ASTRO: And whenever you are comfortable, you can get this done. You will also have to sit for the pooja, and I will also sit. I will send you some mantras that you will have to chant as long as this pooja continues.
+#72 [22:46] ASTRO: And I will chant some mantras; it takes some time.
+#75 [23:28] ASTRO: This only takes 30 to 32 minutes, and you will have to sit in one place for that long in front of their photo with a candle lit.
+#76 [23:37] ASTRO: And I will perform the pooja; the only thing is that the pooja should not be interrupted in between.
+#85 [26:39] ASTRO: Okay, no problem, I will arrange for the candles, but you will have to sit for 30 to 32 minutes with their photo open on your mobile.
+#96 [31:00] ASTRO: So, increase your time. I will write down the mantra and send it to you; you sit and keep repeating it in your mind.
+#100 [31:46] ASTRO: Okay, increase your time. I will write and send you the mantra, and I will also start chanting the mantra.
+#103 [32:44] ASTRO: You did not increase your time because both energies need to be connected; our phone call must remain active for 32 minutes.
+#107 [35:50] ASTRO: Add at least 32 minutes of credit to your mobile.
+#113 [39:37] ASTRO: Do it for 15 minutes first, and then do it for another 15 minutes.","G3: The astrologer uses fear (negative energy, someone has done something to the partner) to push a paid 'face healing' ritual that requires the user to add time/coins.",3.5,2.29,1.67,6.0,,3,4,3,4,3,1,3,1,4,1,3,1,3,1,6,6,6,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+Medium,conversation_303459_495.csv,303459,2120.0,ok,41,26,5.0,good,mixed,6.33,3.67,6.33,,,,,7.25,5.71,5.67,6.67,,6,7,9,7,6,7,3,7,7,3,7,6,8,3,3,7,10,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_3137279_2041.csv,3137279,3584.84,ok,28,14,1.85,bad,bad,4.3,3.4,3.0,G4,"G4: #12 [02:20] ASTRO: Aur aane Wale time ki agar baat ki jaaye to aapki marriage uske sath hogi jisse aap pahle Se janti hongi
+#17 [02:55] ASTRO: Abhi main dekh Pa raha hun ki aapki marriage uske sath hogi Jaise aap pahle Se janti honge aur aap usse Mil bhi chuki Hain agar uska main Naam Bata dun to confirm ho jaega
+#18 [02:58] ASTRO: Aap usse mil chuki Hain","G4: #12 [02:20] ASTRO: And if we talk about the time to come, you will marry someone you already know.
+#17 [02:55] ASTRO: Right now I can see that you will marry someone you already know and have even met; if I tell you his name, it will be confirmed.
+#18 [02:58] ASTRO: You have already met him.","G4: The astrologer claims as fact that the user already knows and has met her future husband, which is an invented life event stated as fact.",2.25,3.29,4.0,7.67,,3,1,4,1,4,4,3,1,7,3,1,1,7,4,7,7,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_314580_1004.csv,314580,4480.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_3283278_321.csv,3283278,2679.78,ok,26,14,6.24,good,mixed,6.52,5.97,6.52,,,,,6.25,4.5,7.33,8.0,,8,7,3,7,6,7,3,4,4,3,,7,8,7,7,7,10,,none,2,2,2,1,2,0,1,1,0,0.5,0.0,0.5,5
+Medium,conversation_3292393_4042.csv,3292393,2903.98,ok,86,53,2.46,mixed,bad,3.38,4.54,3.0,G3,"G3: #18 [04:15] ASTRO: Aur mera aapse ek request rahega aur please aap chat ka timing thoda sa badha sakte ho
+#26 [04:59] ASTRO: Aur agar chat disconnect hota Hai to mujhe turant dobara se connect karo
+#43 [15:01] ASTRO: Jaise kisi ne kuchh Black magic kara ho
+#44 [15:09] ASTRO: Mostly mujhe lagta hai yah bhi aap feel Karti hongi","G3: #18 [04:15] ASTRO: And I have one request for you, could you please increase the chat timing a little?
+#26 [04:59] ASTRO: And if the chat disconnects, please reconnect with me immediately.
+#43 [15:01] ASTRO: As if someone has done some black magic.
+#44 [15:09] ASTRO: Mostly I feel that you must be feeling this too.",G3: The astrologer uses fear (black magic) and then immediately pushes for extending the chat/reconnecting to discuss remedies.,3.67,1.86,1.0,7.0,,3,1,7,,3,1,1,1,3,3,1,1,1,1,6,6,9,,none,1,1,1,1,1,1,0,0,0,0.5,0.5,0.0,15
+Medium,conversation_3428988_546.csv,3428988,2659.72,ok,72,39,5.64,good,mixed,6.44,4.84,6.44,,,,,6.75,6.0,5.0,8.0,,7,7,4,9,7,7,4,7,7,3,7,4,7,4,8,7,9,,none,1,2,1,1,1,1,0,0,0,0.5,0.5,0.0,15
+Medium,conversation_3547075_658.csv,3547075,2527.56,ok,51,25,2.46,mixed,bad,4.33,3.58,3.0,G3,"G3: #38 [17:02] ASTRO: kyunki jaisa ki abhi dikh raha hai block kar Rakhi hain lekin Kabhi ko bar sochati Hain ki mujhe aisa behave nahin karna chahie lekin aapka Jo planet se vah negative hone ki vajah se vah unko dur kar raha hai
+#41 [18:23] ASTRO: main aapko bata raha hun aapko karna kya hai kyunki dekhiae Agar aise hi sab kuchh chalega to yah sab long term rahega
+#43 [19:12] ASTRO: Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega
+#44 [19:53] ASTRO: kyunki jo bhi chijen negative Hain vah Main pic ke dauran postive karunga taki vah aapke pass khud a jaaye
+#50 [21:44] ASTRO: aur Apna Samay increase Kar lijiye","G3: #38 [17:02] ASTRO: Because as it appears right now, they have blocked you, but sometimes they think that they shouldn't behave like this, but because your planets are negative, it is pushing them away.
+#41 [18:23] ASTRO: I am telling you what you need to do, because look, if everything continues like this, then this will remain long-term.
+#43 [19:12] ASTRO: I will perform a spell that will improve the bonding between you both and bring them to you.
+#44 [19:53] ASTRO: Because whatever things are negative, I will make them positive during the pooja so that they come to you on their own.
+#50 [21:44] ASTRO: And increase your time.","G3: The astrologer uses fear ('negative planets', 'long term' issues) to push a paid spell/process and requests the user to extend time.",3.5,4.14,3.0,6.67,,6,3,4,1,6,4,3,1,7,1,7,1,7,1,6,6,8,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,15
+Medium,conversation_3630862_1330.csv,3630862,3675.7,ok,34,21,4.62,mixed,mixed,4.95,4.3,4.95,,,,,3.67,4.14,5.0,7.0,,3,1,7,,3,6,3,3,4,3,7,4,7,4,6,7,8,,none,1,0,1,1,1,0,0,0,1,1.0,0.0,0.0,15
+Medium,conversation_382887_44.csv,382887,4871.82,ok,181,14,6.71,good,good,7.38,6.05,7.38,,,,,7.5,7.0,7.33,7.67,,7,7,9,7,7,7,7,7,7,7,7,7,8,7,6,7,10,,none,1,1,1,1,1,1,1,2,1,0.5,0.5,0.5,15
+Medium,conversation_387663_60.csv,387663,3226.0,ok,18,11,4.79,mixed,mixed,6.04,3.55,6.04,,,,,6.5,5.0,5.0,7.67,,3,7,9,7,4,8,3,3,7,3,7,4,7,4,8,7,8,,none,1,0,2,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_448542_752.csv,448542,560.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_45985_168.csv,45985,501.0,ok,19,10,1.75,bad,bad,4.0,2.5,3.0,G3,"G3: #8 [02:29] ASTRO: Seema Ji jaisa ki Main dekh Pa raha hun aapki kundli ke according grahon ke negative prabhav Hai jiski vajah se aapka kafi jyada struggle kar rahi hai
+#18 [04:56] ASTRO: Aap dobara se join Kar lijiye main aapko bata raha hun","G3: #8 [02:29] ASTRO: Seema Ji, as I can see, according to your kundli, there are negative planetary influences due to which you are struggling a lot.
+#18 [04:56] ASTRO: Please join again, I am telling you.","G3: The astrologer uses fear ('grahon ke negative prabhav', 'struggle') and then immediately pushes for the user to 'dobara se join Kar lijiye' (reconnect/extend) to get the reading.",4.67,2.0,2.0,7.33,,3,1,10,,3,1,3,1,1,3,,4,1,1,8,6,8,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_472766_1947.csv,472766,1372.0,ok,17,7,3.89,mixed,bad,4.83,2.95,4.83,,,,,4.67,3.0,4.67,7.0,,3,,10,1,3,3,3,1,7,,1,4,6,4,6,6,9,,none,1,0,0,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_5600_45.csv,5600,2422.0,ok,19,10,4.46,mixed,bad,5.98,2.95,5.98,,,,,4.67,4.6,6.0,8.67,,3,1,10,,6,7,3,3,4,,,4,7,7,10,6,10,,none,1,0,0,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_565831_1283.csv,565831,510.2,ok,6,2,2.6,mixed,bad,3.89,1.3,3.89,,,,,1.5,2.71,4.67,6.67,,3,1,1,1,1,1,3,3,7,3,1,4,6,4,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_602750_347.csv,602750,840.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_631947_997.csv,631947,1057.0,ok,40,24,3.95,mixed,bad,4.35,3.55,4.35,,,,,2.25,4.14,4.67,6.33,,3,1,4,1,4,4,3,1,7,3,7,4,7,3,6,6,7,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_660418_2078.csv,660418,1697.0,ok,35,19,4.61,mixed,mixed,5.21,4.0,5.21,,,,,5.0,3.86,4.67,7.33,,6,1,9,4,7,4,3,4,3,3,3,3,7,4,6,7,9,,none,1,0,1,1,0,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_669496_1883.csv,669496,808.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_681311_347.csv,681311,1470.0,ok,7,5,2.04,bad,bad,3.08,1.0,3.08,,,,,2.0,2.0,3.67,4.67,,3,,1,,1,1,3,3,,,,4,4,3,3,1,10,,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,15
+Medium,conversation_686707_547.csv,686707,1060.0,ok,9,5,2.19,bad,bad,3.38,1.0,3.38,,,,,2.0,1.5,3.67,6.33,,3,,1,,1,1,3,1,,,,4,4,3,3,6,10,,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_687260_1492.csv,687260,1970.0,ok,19,11,3.81,mixed,bad,4.83,2.8,4.83,,,,,2.67,3.0,4.67,9.0,,3,4,1,,1,1,3,3,7,3,3,4,6,4,10,7,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_688691_2078.csv,688691,1052.0,ok,19,10,4.26,mixed,bad,5.27,3.25,5.27,,,,,4.67,3.4,5.0,8.0,,3,,10,1,4,6,3,1,3,,,4,7,4,8,7,9,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_693391_658.csv,693391,1984.0,ok,25,14,5.27,good,mixed,5.58,4.96,5.58,,,,,6.33,5.0,3.67,7.33,,3,6,10,,4,8,1,4,7,6,,4,4,3,6,7,9,,none,1,0,1,2,1,1,0,0,0,0.5,1.0,0.0,10
+Medium,conversation_704485_347.csv,704485,2495.0,ok,30,19,2.49,mixed,bad,3.23,1.75,3.23,,,,,1.0,2.25,3.67,6.0,,,,1,,1,,3,1,,4,,4,4,3,3,6,9,,none,0,0,0,0,0,0,0,1,0,0.0,0.0,0.5,15
+Medium,conversation_714527_347.csv,714527,588.0,ok,58,43,2.44,bad,bad,4.33,3.55,3.0,G3,"G3: #10 [01:06] USER: Call kro
+#13 [01:56] USER: Kro ji
+#16 [02:21] ASTRO: Disconnect
+#17 [02:24] ASTRO: Again connect
+#41 [06:37] ASTRO: Agar aap kuch upay follow kare to 💯 persant
+#42 [07:02] ASTRO: Because kundali mein government chance confirm hi but aap ko activate karna hai
+#47 [08:23] ASTRO: Agar jo bta rhi hu wo kar liya to 2026 aap k liye yaadgaar rahega
+#51 [09:05] ASTRO: Confirm ho jayega aap ko","G3: #10 [01:06] USER: Please call
+#13 [01:56] USER: Please do it
+#16 [02:21] ASTRO: Disconnect
+#17 [02:24] ASTRO: Connect again
+#41 [06:37] ASTRO: If you follow some remedies, then 100 percent
+#42 [07:02] ASTRO: Because in your kundli, government job chances are confirmed, but you need to activate them
+#47 [08:23] ASTRO: If you do what I am telling you, then 2026 will be memorable for you
+#51 [09:05] ASTRO: It will be confirmed for you","G3: The astrologer uses fear/guarantee ('100 percent', 'confirm hi') to push the user to perform remedies and repeatedly pressures the user to connect via call/disconnect/reconnect.",3.33,3.0,4.67,6.33,,3,3,4,,4,4,3,1,1,1,7,4,7,3,4,6,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_723030_1709.csv,723030,520.0,ok,16,7,4.55,mixed,mixed,5.56,3.55,5.56,,,,,6.0,4.57,5.0,6.67,,3,6,8,7,6,4,1,4,7,3,7,4,7,4,3,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_726907_708.csv,726907,2430.0,ok,7,2,2.33,bad,bad,3.67,1.0,3.67,,,,,1.67,2.0,4.67,6.33,,3,,1,1,1,1,3,3,,,,4,7,3,3,6,10,,none,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_738353_2324.csv,738353,4759.0,ok,32,20,1.0,bad,bad,3.45,2.5,3.0,"G3,G4","G3: #27 [07:16] ASTRO: Recharge kar lo aur apni mummy ka pic send karo
+#30 [07:55] ASTRO: Recharge karo nahin to main profile band karne wali hun | G4: #11 [03:17] ASTRO: Ek se do logon ke sath
+#15 [04:04] ASTRO: Koi ek hai
+#21 [05:42] ASTRO: Koi ek person Hai unki life mein bahut jyada log nahin Hai","G3: #27 [07:16] ASTRO: Please recharge and send your mother's picture
+#30 [07:55] ASTRO: Recharge, otherwise I am going to close the profile | G4: #11 [03:17] ASTRO: With one or two people
+#15 [04:04] ASTRO: There is someone
+#21 [05:42] ASTRO: There is one person, there aren't too many people in their life","G3: The astrologer uses a threat to end the session ('main profile band karne wali hun') combined with a demand to recharge to continue the consultation. | G4: The astrologer makes specific, invented claims about the user's mother's sexual history ('Ek se do logon ke sath', 'Koi ek hai') which cannot be determined from a birth chart.",3.25,1.86,2.0,6.67,,1,1,10,1,1,1,3,1,1,3,3,4,1,1,8,3,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,10
+Medium,conversation_750110_347.csv,750110,2467.5,ok,26,23,2.81,mixed,bad,3.88,1.75,3.88,,,,,2.0,2.83,4.67,6.0,,3,,1,,1,1,3,1,7,4,,4,6,4,3,6,9,,none,0,0,0,0,0,0,0,1,0,0.0,0.0,0.5,15
+Medium,conversation_758357_1283.csv,758357,4310.0,ok,45,25,5.38,good,mixed,6.02,4.75,6.02,,,,,6.25,5.14,4.67,8.0,,3,6,7,9,6,7,3,3,7,3,7,4,7,3,8,7,9,,none,1,0,1,1,1,1,0,0,0,1.0,0.5,0.0,10
+Medium,conversation_790870_1283.csv,790870,3572.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_790870_2283.csv,790870,3572.0,ok,79,72,8.31,good,good,8.03,8.6,8.03,,,,,8.75,8.71,8.0,6.67,,9,8,8,10,9,10,9,9,9,7,8,7,9,8,3,9,8,,none,2,2,2,2,2,2,1,1,1,1.0,1.0,0.5,15
+Medium,conversation_799256_752.csv,799256,630.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_806386_1849.csv,806386,2330.0,ok,22,10,1.56,bad,bad,3.62,2.5,3.0,G3,G3: #21 [04:57] ASTRO: Mali connect avandi tym ayipotundi tondara ga,"G3: #21 [04:57] ASTRO: Please connect again, time is running out, hurry up.",G3: The astrologer uses urgency ('tondara ga') to push the user to reconnect/extend the chat ('Mali connect avandi tym ayipotundi').,2.75,2.71,2.0,7.0,,3,6,1,1,1,1,3,3,7,3,1,4,1,1,10,1,10,,none,0,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_816026_2031.csv,816026,780.0,ok,50,31,4.62,mixed,mixed,5.69,3.55,5.69,,,,,5.0,5.43,5.0,7.33,,6,4,4,6,6,7,4,4,7,3,7,4,7,4,6,7,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,10
+Medium,conversation_817595_2078.csv,817595,965.0,ok,20,10,4.62,mixed,mixed,5.98,3.25,5.98,,,,,5.67,4.6,6.0,7.67,,3,,10,4,6,7,3,3,4,,,4,7,7,6,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_821993_752.csv,821993,2343.0,ok,24,13,5.0,good,mixed,5.88,4.12,5.88,,,,,5.0,4.86,6.0,7.67,,6,6,4,4,6,6,4,1,7,3,7,4,7,7,6,7,10,,none,1,0,1,1,1,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_825006_60.csv,825006,945.0,ok,31,14,2.52,mixed,bad,5.16,3.88,3.0,G4,"G4: #27 [04:24] ASTRO: Main aapko batana chahunga inke mataji ke alava bhi Koi Ek vyakti hai jo kafi jyada problem create kar raha hai
+#29 [04:45] ASTRO: Usko aap Shayad janti bhi hain aur vah Bahar bhi hai abhi aapke ghar mein To nahin Hai
+#30 [04:56] ASTRO: Agar aap nahin janti Hain To aapko unka naam bhi bata raha hun kaun hai","G4: #27 [04:24] ASTRO: I would like to tell you that apart from her mother, there is one more person who is creating a lot of problems.
+#29 [04:45] ASTRO: You might even know that person, and they are currently outside, not in your house right now.
+#30 [04:56] ASTRO: If you don't know them, I will even tell you their name, who it is.","G4: The astrologer invents a 'third party' outside the family as a fact to create intrigue, which the user never mentioned and is not based on chart data.",5.5,4.14,4.0,7.0,,6,6,9,1,4,4,3,4,7,3,4,1,7,4,8,7,6,,none,1,1,2,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_826216_997.csv,826216,660.0,ok,21,17,3.63,mixed,bad,5.76,4.51,3.0,G3,"G3: #14 [03:32] ASTRO: Jab humne aapki Kundli ko checking Ho to Main dekh Pa rahi hun ki aapki Kundli mein jo Mangal planet hai vah Kafi kamjor dikhai de rahe hain
+#15 [03:49] ASTRO: Aur Mangal planet ko acchi nahin Mani jaati hai
+#20 [04:56] ASTRO: Aur aap apna time bhi increase Kar lijiye jisse main aapko kuchh important baten bhi batana chahti hun jo main dekh Pa rahi hun aapki Kundli mein","G3: #14 [03:32] ASTRO: When I checked your Kundli, I can see that the Mangal planet in your Kundli appears to be quite weak.
+#15 [03:49] ASTRO: And the Mangal planet is not considered to be in a good position.
+#20 [04:56] ASTRO: And please increase your time as well, so that I can tell you some important things that I am able to see in your Kundli.","G3: The astrologer uses fear (Mangal is weak, not good) and then immediately uses that to pressure the user to extend time (paid element).",5.67,5.71,4.0,7.67,,7,1,9,,7,6,7,3,7,3,7,4,7,1,6,7,10,,none,1,0,1,1,2,1,0,0,0,0.5,0.5,0.0,5
+Medium,conversation_827426_532.csv,827426,3097.4,ok,7,5,3.27,mixed,bad,4.04,2.5,4.04,,,,,3.5,1.67,3.67,7.33,,,6,1,,1,,3,1,,,,4,4,3,6,7,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_832107_1203.csv,832107,540.0,ok,22,14,4.21,mixed,bad,5.17,3.25,5.17,,,,,3.25,3.43,5.0,9.0,,3,3,4,3,4,3,3,3,7,3,1,4,7,4,10,7,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_840882_997.csv,840882,4220.0,ok,25,19,3.64,mixed,bad,5.33,4.96,3.0,G3,"G3: #23 [04:18] ASTRO: Please aap jaldi Karen kyunki aapki Jo time hai vah ja rahi hai
+#24 [04:45] ASTRO: Aur aap apna time hi increase Kar lijiye jisse main aapko kuchh important baten bhi batana chahti hun jo main dekh Pa rahi hun aapki Kundli mein","G3: #23 [04:18] ASTRO: Please hurry up because your time is running out
+#24 [04:45] ASTRO: And please increase your time so that I can tell you some important things that I am able to see in your Kundli",G3: The astrologer uses urgency ('time ja rahi hai') and a paid element ('time hi increase kar lijiye') to pressure the user.,6.0,5.33,2.67,7.33,,6,8,4,,7,8,7,3,4,3,,4,3,1,6,7,9,,none,1,0,1,1,2,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_842191_347.csv,842191,720.0,ok,47,29,2.17,bad,bad,3.94,3.4,3.0,G3,"G3: #16 [02:17] ASTRO: Miscarriage problem bhi show ho raha hai
+#26 [03:16] ASTRO: Can you call me
+#27 [03:31] ASTRO: Aap kuch mistake bhi kar rahe ho use
+#28 [03:38] ASTRO: Aap ko delay ho raha hai","G3: #16 [02:17] ASTRO: Miscarriage problem is also showing.
+#26 [03:16] ASTRO: Can you call me
+#27 [03:31] ASTRO: You are also making some mistakes with it.
+#28 [03:38] ASTRO: You are facing a delay.","G3: The astrologer uses fear ('miscarriage problem', 'mistake') to create urgency and then immediately asks the user to call, which is a paid element.",3.25,2.86,3.67,6.0,,3,3,4,3,3,4,3,3,1,3,3,1,6,4,3,6,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_846190_2031.csv,846190,855.0,ok,32,13,2.89,mixed,bad,5.53,3.25,3.0,G3,"G3: #20 [03:14] ASTRO: Shaadi ke liye chances to hai lekin family ka bahut bada Ishu dikh raha hai mujhe
+#21 [03:18] ASTRO: Kuchh upay karne ki avashyakta hai
+#27 [04:17] ASTRO: Upay karenge tabhi aap donon ki shaadi purn Roop Se Ho payegi kyunki dekhiae family ka ek bada Ishu mujhe dikh raha hai
+#28 [04:25] ASTRO: Family wale man jaenge lekin unke liye kuchh upay karna padega Ankita ji","G3: #20 [03:14] ASTRO: There are chances for marriage, but I see a very big issue with the family.
+#21 [03:18] ASTRO: Some remedies need to be performed.
+#27 [04:17] ASTRO: Only if you perform the remedies will your marriage be fully possible, because look, I see a major issue with the family.
+#28 [04:25] ASTRO: The family will agree, but for that, some remedies will have to be performed, Ankita ji.",G3: The astrologer uses fear ('family ka bahut bada Ishu dikh raha hai') to push for a remedy ('upay karne ki avashyakta hai') which is implied to be a paid service/process to resolve the issue.,5.0,4.43,4.67,8.0,,3,3,10,4,6,4,3,3,7,1,7,4,7,3,7,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_847053_2089.csv,847053,570.0,ok,15,7,3.35,mixed,bad,4.21,2.5,4.21,,,,,3.5,2.0,4.33,7.0,,3,6,1,4,1,1,3,3,,,,4,6,3,6,6,9,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_848493_4.csv,848493,3917.2,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_869151_45.csv,869151,1182.12,too_short,3,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_898206_1763.csv,898206,885.0,ok,18,11,4.79,mixed,mixed,4.92,4.66,4.92,,,,,6.0,2.0,4.67,7.0,,3,6,9,,3,4,1,1,1,,,4,7,3,4,7,10,,none,1,0,1,1,1,1,0,0,0,0.5,1.0,0.0,5
+Medium,conversation_898259_2159.csv,898259,1223.0,ok,24,11,3.51,mixed,bad,4.22,2.8,4.22,,,,,1.5,2.71,4.0,8.67,,3,1,1,1,1,1,3,3,7,3,1,4,4,4,10,6,10,,none,1,0,1,0,1,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_905240_1625.csv,905240,543.0,ok,22,11,4.63,mixed,mixed,5.87,3.4,5.87,,,,,6.33,3.14,5.0,9.0,,3,6,10,,4,4,3,3,4,3,1,4,7,4,10,7,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_906259_285.csv,906259,870.0,ok,20,11,2.93,mixed,bad,5.31,3.55,3.0,G3,"G3: #8 [01:46] ASTRO: Kuchh grahan Jo aapke bich mein rukavat La rahe hain jiske vajah se aisa hota hai
+#19 [04:58] ASTRO: Aap dobara connect kijiye","G3: #8 [01:46] ASTRO: There are some planetary influences causing obstacles between you, which is why this is happening
+#19 [04:58] ASTRO: Please reconnect",G3: The astrologer uses fear ('grahan jo rukavat la rahe hain') and then immediately pushes for a paid element by asking the user to 'dobara connect kijiye' (reconnect/extend) to resolve it.,6.67,3.57,2.0,9.0,,3,7,10,,4,7,3,3,4,3,1,4,1,1,8,,10,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_913184_285.csv,913184,2295.0,ok,25,15,1.99,bad,bad,3.73,3.25,3.0,G3,"G3: #21 [03:55] ASTRO: Unka date off birth bataiye tab to aur fir se connect Kar lijiye madad karungi Puri aapke ghar ka net karenge to unke Sath relationship bhi rahega aur unke man mein aapke liye kya hai yah bhi bataungi per mujhe aap unka date off birth sahi se bataiye
+#22 [04:07] ASTRO: Taki main aapki madad kar sakun aap fir se mujhe connect Kar lijiye aur unka date off birth Bata dijiye main turant Bata dungi aapko check karke","G3: #21 [03:55] ASTRO: Please provide their date of birth, then reconnect with me and I will help you completely. If you provide the details, I will check your house and also tell you about your relationship with them and what they feel for you, but please provide their correct date of birth.
+#22 [04:07] ASTRO: So that I can help you, please reconnect with me and provide their date of birth. I will check and tell you immediately.",G3: The astrologer uses the promise of relationship insight to pressure the user to reconnect/recharge the chat.,2.0,3.57,1.67,7.67,,3,1,3,1,3,6,3,3,4,3,3,1,3,1,7,6,10,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_918475_997.csv,918475,3360.0,ok,28,14,3.95,mixed,bad,4.95,2.95,4.95,,,,,4.67,3.14,5.0,7.0,,3,,10,1,4,3,1,3,7,3,1,4,7,4,6,6,9,,none,1,0,0,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_940949_765.csv,940949,2853.46,ok,17,8,2.23,bad,bad,4.95,2.5,3.0,G3,"G3: #12 [03:01] ASTRO: Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar
+#14 [04:17] ASTRO: Aap apne chat ki timing increase Kar lijiye","G3: #12 [03:01] ASTRO: I will bring them back into your life within 2 to 4 days
+#14 [04:17] ASTRO: Please increase your chat timing",G3: The astrologer guarantees a result ('wapas lya dunga') and then immediately pressures the user to extend the chat time.,5.0,2.14,4.67,8.0,,3,6,10,1,1,1,3,3,1,3,3,4,7,3,8,6,10,,none,1,0,1,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_948537_2195.csv,948537,3879.6,ok,27,13,4.78,mixed,mixed,5.8,3.76,5.8,,,,,4.5,4.71,5.67,8.33,,6,1,7,4,6,6,3,4,4,3,7,4,7,6,8,7,10,,none,1,1,1,1,1,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_954110_1297.csv,954110,880.0,ok,4,2,2.4,bad,bad,3.5,1.3,3.5,,,,,1.67,2.0,3.67,6.67,,3,,1,1,1,1,3,3,,,,4,4,3,3,7,10,,none,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,5
+Medium,conversation_956380_53.csv,956380,944.0,ok,22,14,2.13,bad,bad,4.02,3.25,3.0,G3,"G3: #13 [03:09] ASTRO: Ji main jahan tak dekh pa raha hun ki aap donon ka future mein sath dikhai de raha hai but thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai thoda sa ISI ke vajah se future mein problem a sakta hai
+#14 [03:24] ASTRO: Agar kahiye to main aap donon ka future Aisa banaa deta hun ki aap donon ka shaadi bhi ho jaega aur family walon ke support se shaadi hoga aap donon ke family wale mam jaenge main Aisa kar dunga
+#18 [04:13] ASTRO: Agar aap donon ka kundli matching nahin Karega to main aap donon ka kundli bhi matching kar  dunga
+#19 [04:22] ASTRO: Aur aap thoda samay badha lijiye taki main aapko abhi bahut kuchh batana chahta hun unke bare mein
+#20 [04:46] ASTRO: Ya dobara contact kijiye","G3: #13 [03:09] ASTRO: As far as I can see, I see a future together for both of you, but there seem to be some problems. There is some issue going on with both of you, which might cause problems in the future.
+#14 [03:24] ASTRO: If you say so, I can shape your future in such a way that you both will get married, and it will be with the support of your families. I will make sure your families agree to it.
+#18 [04:13] ASTRO: If your kundli does not match, I will make your kundli match as well.
+#19 [04:22] ASTRO: And please extend your time so that I can tell you a lot more about them right now.
+#20 [04:46] ASTRO: Or contact again.","G3: The astrologer uses fear ('thoda sa problem dikhai de raha aap donon ke upar kuchh problem chal raha hai') and promises a guaranteed result ('main Aisa kar dunga', 'main aap donon ka kundli bhi matching kar dunga') to push for paid services/extending time ('main Aisa kar dunga', 'aap thoda samay badha lijiye', 'dobara contact kijiye').",4.5,3.57,1.67,6.33,,3,1,10,4,6,4,3,3,1,1,7,1,3,1,3,7,9,,none,1,0,1,1,0,0,0,0,0,0.5,0.0,0.0,5
+Medium,conversation_972586_987.csv,972586,555.0,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_977239_4.csv,977239,1271.4,too_short,2,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Medium,conversation_982118_748.csv,982118,1364.0,ok,37,15,6.35,good,mixed,6.21,6.49,6.21,,,,,8.5,4.0,4.67,7.67,,9,8,10,7,7,3,3,4,7,3,1,3,7,4,7,7,9,,none,2,2,2,2,2,1,0,0,0,0.5,1.0,0.0,10
+Medium,conversation_99308_168.csv,99308,1910.0,ok,35,25,1.75,bad,bad,3.1,3.4,3.0,G3,"G3: #27 [04:19] ASTRO: Aur pahle Se 10 Guna Bator wapas aaenge
+#32 [04:40] ASTRO: Aapko dobara se reconnect karna hoga
+#34 [04:58] ASTRO: Please aap dobara se connect Kar lijiye","G3: #27 [04:19] ASTRO: And it will come back 10 times better than before
+#32 [04:40] ASTRO: You will have to reconnect
+#34 [04:58] ASTRO: Please connect again",G3: The astrologer uses a promise of a guaranteed result ('10 Guna Bator wapas aaenge') combined with a request to reconnect/recharge the chat to continue.,2.75,2.67,1.0,6.0,,3,3,4,1,4,4,3,1,1,3,,1,1,1,3,6,9,,none,1,0,1,1,1,0,0,0,0,0.5,0.0,0.0,5

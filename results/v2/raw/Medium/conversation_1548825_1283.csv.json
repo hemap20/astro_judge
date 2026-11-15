@@ -1,0 +1,290 @@
+{
+ "file": "conversation_1548825_1283.csv",
+ "tier": "Medium",
+ "user_id": "1548825",
+ "ltv": 738.0,
+ "n_msgs": 26,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 7,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.67,
+  "B2": 5.43,
+  "B3": 1.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.077,
+   "max_words": 31,
+   "avg_words": 17.2,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     19,
+     23,
+     25
+    ],
+    "reason": "The astrologer uses fear/urgency ('rishte ki baten aage nahin badh Pa rahi hain', 'jaldi hi aapka rishta fix ho jaega') to push for a remedy and then tells the user to 'dobara connect kariye' (recharge/extend) to get the job reading and the remedy."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about marriage delay and the fact that proposals are coming but not moving forward.",
+    "quotes": [
+     "Adhikari se to aapke ghar aate Hain rishte ki baten bhi hoti hai lekin vahi rishte ki baten aage nahin badh Pa rahi hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about whether the user has done a remedy for Mangal, which is Type B (could be asked to any user with Mangal dosh).",
+    "quotes": [
+     "kya aapane upay kar liya hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is about her own marriage and job, not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about marriage delay and proposals coming but not moving forward is specific, about the present, and new.",
+    "quotes": [
+     "Adhikari se to aapke ghar aate Hain rishte ki baten bhi hoti hai lekin vahi rishte ki baten aage nahin badh Pa rahi hain"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for marriage.",
+    "quotes": [
+     "2026 mein Hi fix ho jayegi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage delay to the influence of Mangal.",
+    "quotes": [
+     "Mangal se prabhav se thoda sa aapka marriage delay ho raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds the point about proposals coming but not moving forward, which is new and uses the user's context.",
+    "quotes": [
+     "Adhikari se to aapke ghar aate Hain rishte ki baten bhi hoti hai lekin vahi rishte ki baten aage nahin badh Pa rahi hain"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a window for the marriage to be fixed.",
+    "quotes": [
+     "2026 mein Hi fix ho jayegi"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a remedy but does not provide the actual steps, instead pushing for a recharge.",
+    "quotes": [
+     "agar aap upay karenge to aapke liye achcha rahega"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the job question but pushes it to a new session.",
+    "quotes": [
+     "main aapki job ke bare mein bhi bata raha hun sath mein upay bhi bata raha hun"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a remedy and job reading to keep the user engaged.",
+    "quotes": [
+     "Main aapko upay bata raha hun",
+     "main aapki job ke bare mein bhi bata raha hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but pushes for a recharge.",
+    "quotes": [
+     "Ab dobara connect kariye"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to reconnect/recharge.",
+    "quotes": [
+     "Ab dobara connect kariye main aapki job ke bare mein bhi bata raha hun sath mein upay bhi bata raha hun"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms like Mangal.",
+    "quotes": [
+     "Mangal ka prabhav"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi kb hogi? Or govt. Job hogi ya nhi ...Or kb",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a specific reading about the user's marriage delay and current situation, which helped the user feel heard. However, the astrologer failed by using the promise of a remedy and the pending job question to pressure the user into reconnecting/recharging."
+ },
+ "usage": {
+  "input_tokens": 10805,
+  "output_tokens": 1449
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#19 [03:56] ASTRO: 2027 mein aapki shaadi Hogi per shaadi aapki 2026 mein Hi fix ho jayegi lekin uske liye aapko upay karna hoga agar aap upay karenge to aapke liye achcha rahega\n#23 [04:42] ASTRO: Jaldi hi aapka rishta fix ho jaega agar aap upay kar lenge to aapka Jo rishta Hai June mahine ke last Tak fix ho jaega\n#25 [04:56] ASTRO: Ab dobara connect kariye main aapki job ke bare mein bhi bata raha hun sath mein upay bhi bata raha hun",
+   "reason": "The astrologer uses fear/urgency ('rishte ki baten aage nahin badh Pa rahi hain', 'jaldi hi aapka rishta fix ho jaega') to push for a remedy and then tells the user to 'dobara connect kariye' (recharge/extend) to get the job reading and the remedy.",
+   "quote_en": "#19 [03:56] ASTRO: You will get married in 2027, but your marriage will be fixed in 2026 itself; however, you will need to perform remedies for that. If you perform the remedies, it will be good for you.\n#23 [04:42] ASTRO: Your relationship will be fixed soon. If you perform the remedies, your relationship will be fixed by the end of June.\n#25 [04:56] ASTRO: Connect again now; I am telling you about your job as well, along with the remedies."
+  }
+ }
+}

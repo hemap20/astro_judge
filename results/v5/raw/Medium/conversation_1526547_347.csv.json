@@ -1,0 +1,576 @@
+{
+ "file": "conversation_1526547_347.csv",
+ "tier": "Medium",
+ "user_id": "1526547",
+ "ltv": 1316.88,
+ "n_msgs": 40,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 9,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.83,
+ "blueprint": {
+  "score": 3.76,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S2": 93,
+   "S3": 93,
+   "S4": 196,
+   "S5": 114
+  }
+ },
+ "final": 2.29,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.67,
+  "B2": 2.33,
+  "B3": 3.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.032,
+   "max_words": 42,
+   "avg_words": 5.4,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     36
+    ],
+    "reason": "The astrologer explicitly asks the user to reconnect (paid element) instead of providing the requested guidance within the current session.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is minimal and lacks rapport building."
+   },
+   "S2": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Acknowledged the user's anxiety but did not validate it deeply."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Identified the concern as anxiety."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Gave a generic reading about Rahu without specific depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asked when it started, but it was a basic discovery question."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized prediction tied to the chart was provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 37,
+    "quality": 0,
+    "note": "Remedies provided were just numbers without context or actionable steps."
+   },
+   "S9": {
+    "present": true,
+    "idx": 36,
+    "quality": 0,
+    "note": "The hook was a request to pay/reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the user's anxiety in message 16, but it was generic and lacked depth.",
+    "quotes": [
+     "aap ko or ya aap k first house mein"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for photos (Type C) and when the problem started (Type B).",
+    "quotes": [
+     "Can you send me your left ✋ hand pic",
+     "Kab se ho raha hai yw"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 11,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 18,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 19,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading was generic and lacked specific markers or chart reasons.",
+    "quotes": [
+     "aap ki date of birth is very good jo ki rahu planet se rul hoti hai"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked for a way to get better, and the astrologer told them to reconnect instead of answering.",
+    "quotes": [
+     "Mam plz muje koi rasta btao taki mai thik ho shu",
+     "Aap again connect ho jaaye"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms were mentioned without explaining their impact on the user's life.",
+    "quotes": [
+     "rahu planet se rul hoti hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No meaningful readings were provided to build depth.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy was a request to reconnect, which is a pitch.",
+    "quotes": [
+     "Aap again connect ho jaaye"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 16,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened; the astrologer just asked to reconnect.",
+    "quotes": [],
+    "score": 1,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer did not close the chat early, but the interaction was poor.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were just numbers and a request to reconnect.",
+    "quotes": [
+     "Aap again connect ho jaaye",
+     "808"
+    ],
+    "score": 1,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used formal/broken language and technical terms without explanation.",
+    "quotes": [
+     "rahu planet se rul hoti hai"
+    ],
+    "score": 3,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 1,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mam plz muje koi rasta btao taki mai thik ho shu",
+  "main_question_idx": 34,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful guidance, instead focusing on requesting photos and asking the user to reconnect. The lack of a personalized reading and the push for a paid reconnection significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 16969,
+  "output_tokens": 2460
+ },
+ "reference": {
+  "bare_acks": 3,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": null,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 3,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#36 [09:46] ASTRO: Aap again connect ho jaaye",
+   "reason": "The astrologer explicitly asks the user to reconnect (paid element) instead of providing the requested guidance within the current session.",
+   "quote_en": "#36 [09:46] ASTRO: Please reconnect again"
+  }
+ }
+}

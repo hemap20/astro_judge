@@ -1,0 +1,269 @@
+{
+ "file": "conversation_770487_1117.csv",
+ "tier": "Low",
+ "user_id": "770487",
+ "ltv": 270.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": 1,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 4,
+  "5.1": 6,
+  "1.3": 8,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 6.13,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 5.17,
+  "B3": 7.33,
+  "B4": 6.67,
+  "B5": 6.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 0,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 12.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's conflict in message 16 and 19, but fails to use the user's specific details about her marriage status or children in a meaningful way until prompted.",
+    "quotes": [
+     "Aap donon ke bich mein jhagade hue honge"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions about the user's marriage and family life. Message 12 is a direct question about her Manglik status, and 18 is a follow-up on the fighting. These are Type B/A questions.",
+    "quotes": [
+     "Aapko pata hai aapki kundli manglik hai",
+     "Aap donon ke bich mein jhagade hote hain ya nahin aap hamen clear kijiye"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about her own marriage, but the astrologer does not ask for the partner's details, which would be necessary for a proper reading of a second marriage.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the fighting is relatable and specific to her current situation, though it lacks a deep chart-based explanation.",
+    "quotes": [
+     "Aap donon ke bich mein jhagade hote hain ya nahin aap hamen clear kijiye",
+     "Aap donon ki bonding Sahi nahin Ho pa rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the number of marriages clearly.",
+    "quotes": [
+     "Aapke kundli ke anusar dekha jaaye to aapke kundli mein do shaadi hogi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Manglik dosh and the fourth house, but does not explain how these specifically lead to the outcome in plain, everyday terms.",
+    "quotes": [
+     "Aapke kundli mein manglik dosh ban raha hai aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's confirmation of fighting to predict a divorce and a second marriage.",
+    "quotes": [
+     "Yah jhagada aapko divorce dilaega ek din uske bad dusri shaadi hogi"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a prediction without a specific timeframe or promise, which is appropriate.",
+    "quotes": [
+     "Yah jhagada aapko divorce dilaega ek din uske bad dusri shaadi hogi"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer focuses on the marriage question and does not address the children question at all.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the user's family relationships and being blamed for things she didn't do.",
+    "quotes": [
+     "Aap galtiyan bhi nahin karti Hain fir bhi aapko Doshi thehraya jata hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message; the chat ends abruptly as time runs out.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a reading about the user being blamed, which gives her something to reflect on.",
+    "quotes": [
+     "Aap galtiyan bhi nahin karti Hain fir bhi aapko Doshi thehraya jata hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses technical terms like 'Manglik dosh' and 'chauthe bhav' without explaining them in simple terms for the user.",
+    "quotes": [
+     "Aapke kundli mein manglik dosh ban raha hai aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was pushing for answers ('Jaldi bataye'), and the astrologer eventually provided a reading, though it took several messages.",
+    "quotes": [
+     "Aapke kundli ke anusar dekha jaaye to aapke kundli mein do shaadi hogi"
+    ],
+    "score": 6
+   }
+  },
+  "difficult_user_trigger": "pushing_certainty",
+  "main_question": "Meri kitni shaadi hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's marital conflict and provided a direct answer to her question about the number of marriages. However, the astrologer failed to address the user's question about children and used technical jargon without sufficient explanation."
+ },
+ "usage": {
+  "input_tokens": 10708,
+  "output_tokens": 1482
+ }
+}

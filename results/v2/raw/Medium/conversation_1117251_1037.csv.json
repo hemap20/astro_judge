@@ -1,0 +1,325 @@
+{
+ "file": "conversation_1117251_1037.csv",
+ "tier": "Medium",
+ "user_id": "1117251",
+ "ltv": 2203.0,
+ "n_msgs": 37,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 7,
+  "1.4": 7,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.1,
+ "buckets": {
+  "B1": 6.25,
+  "B2": 4.14,
+  "B3": 7.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.0,
+   "max_words": 18,
+   "avg_words": 7.3,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding Soumi blocking him in message #16, but fails to use the user's specific feeling or detail in a meaningful way, offering only a generic comfort.",
+    "quotes": [
+     "Aap pareshan mat hoiye"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are Type A (building on the user's situation), but the user's answers are not effectively used to build a deeper reading.",
+    "quotes": [
+     "Baat ho rahi hai aap donon ki",
+     "Aap chahte Hain ki aapko unblock kar de",
+     "Aap Somi ko wapas Lana chahte Hain"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details (implied by the chart reading) and uses the name Soumi, but does not provide a reading based on her chart, only the user's.",
+    "quotes": [
+     "Somi se aapki baat ho rahi hai present time mein"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific or new; it repeats the user's situation and provides a generic prediction.",
+    "quotes": [
+     "Somi se aapki baat ho rahi hai present time mein"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window for marriage, though it is contradicted by the user's own intent.",
+    "quotes": [
+     "Aapki marriage 2026 ke November Tak ho jayegi"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but does not explain the chart factors in plain words.",
+    "quotes": [
+     "Aapke kundli ke according Ham dekh Pa Rahe Hain"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the unblocking, but they are not tied to the user's specific details or chart reasons.",
+    "quotes": [
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date/time window for marriage and unblocking, which is presented as a certainty.",
+    "quotes": [
+     "Aapki marriage 2026 ke November Tak ho jayegi",
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a mantra, but it is presented as a guaranteed solution to the user's problem without explaining the 'how' or 'why' effectively.",
+    "quotes": [
+     "Ek MHA Mohini Mantra Hai jiska aapko Jaap karna hoga"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread of the marriage and the unblocking issue throughout the chat.",
+    "quotes": [
+     "Aapki marriage 2026 ke November Tak ho jayegi",
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a next layer regarding the unblocking, but it is not tied to a deep reading.",
+    "quotes": [
+     "Teen din mein vah aapko unblock karke call karegi"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended due to time.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were about the mantra, which is a form of guidance.",
+    "quotes": [
+     "Mantra mein aapko send kar rahi hun"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [
+     "Aap pareshan mat hoiye"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult; this rubric is skipped.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere shadi kab hogi kisse hogi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was quick to engage and maintained a conversational tone throughout the chat. However, the reliance on guaranteed outcomes and lack of deep chart-based explanations weakened the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10907,
+  "output_tokens": 1593
+ }
+}

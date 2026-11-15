@@ -1,0 +1,236 @@
+{
+ "file": "conversation_847053_2089.csv",
+ "tier": "Medium",
+ "user_id": "847053",
+ "ltv": 570.0,
+ "n_msgs": 15,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": null,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": null,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": null,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": null,
+  "3.2": 1,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.08,
+ "buckets": {
+  "B1": 5.33,
+  "B2": 2.0,
+  "B3": 2.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 4,
+   "R": null,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.0,
+   "max_words": 15,
+   "avg_words": 7.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": true,
+    "reasoning": "The user did not share a worry or feeling in the first message, only data.",
+    "quotes": [],
+    "score": null
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details of the father-in-law, which is necessary for the reading. This is a Type C question but is excluded by the rubric rules as it is a request for missing data.",
+    "quotes": [
+     "Kripa karke unka date off birth aur jagah bhej dijiye kahan per janm hua tha"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the other person's details (father-in-law) with a reason (to check his health).",
+    "quotes": [
+     "Kripa karke unka date off birth aur jagah bhej dijiye kahan per janm hua tha"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": true,
+    "reasoning": "No reading was provided in the window.",
+    "quotes": [],
+    "score": null
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answered the question about the father-in-law's health.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": true,
+    "reasoning": "No reading was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or prediction was provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one question was asked.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": true,
+    "reasoning": "No reading was provided to open a layer.",
+    "quotes": [],
+    "score": null
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sent a message stating the time was ending, which is a closing message.",
+    "quotes": [
+     "Aap ka time khatam hone wala hai"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages were a request for data and a notification that time was ending; no reading was provided.",
+    "quotes": [
+     "Kripa karke unka date off birth aur jagah bhej dijiye kahan per janm hua tha",
+     "Aap ka time khatam hone wala hai"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer used formal language ('Kripa karke') which is not how people text.",
+    "quotes": [
+     "Kripa karke unka date off birth aur jagah bhej dijiye kahan per janm hua tha"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Musa ya phuch na ha ke mare father in law ke tabiyat thik nahi ha vo Kab tak thik hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, spending the entire session asking for data and checking connectivity. The consultation ended without answering the user's question, leaving the user with no value."
+ },
+ "usage": {
+  "input_tokens": 10391,
+  "output_tokens": 1103
+ }
+}

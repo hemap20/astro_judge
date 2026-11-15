@@ -1,0 +1,413 @@
+{
+ "file": "conversation_722590_2387.csv",
+ "tier": "High",
+ "user_id": "722590",
+ "ltv": 11853.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": 3,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.39,
+ "blueprint": {
+  "score": 5.14,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 1.0
+  },
+  "order": 0.762,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 1,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 17,
+   "S2": 341,
+   "S3": 72,
+   "S4": 279,
+   "S5": 72,
+   "S7": 635,
+   "S8": 470
+  }
+ },
+ "final": 1.76,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.33,
+  "B2": 3.57,
+  "B3": 5.0,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 9
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.143,
+   "max_words": 47,
+   "avg_words": 18.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     22,
+     26
+    ],
+    "paid_idx": [
+     15,
+     19,
+     20,
+     25
+    ],
+    "evidence_idx": [
+     15,
+     22
+    ],
+    "reason": "The astrologer uses fear ('negativity', 'self esteem low', 'blockages') to push a paid 'job manifestation spell' session."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Acknowledges mental stress but it is used to pivot to a paid pitch."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks for details already provided or generic info."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 1,
+    "note": "Gives a generic date without chart reasoning."
+   },
+   "S5": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Follow-up questions are generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": true,
+    "idx": 31,
+    "quality": 1,
+    "note": "Asks about marriage but does not provide insight."
+   },
+   "S8": {
+    "present": true,
+    "idx": 24,
+    "quality": 1,
+    "note": "Generic remedies provided without connection to the chart."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about job change in the first reply, instead asking generic questions.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for job details already implied and uses Type C questions like asking for a photo for face reading.",
+    "quotes": [
+     "Aap mujhe bataen ki aap kaun se job mein hain",
+     "Apni photo share Karen"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks chart-based reasoning.",
+    "quotes": [
+     "aapki life mein April 16 Tak acche chances Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague date but does not explain the reason or provide a clear direction.",
+    "quotes": [
+     "aapki life mein April 16 Tak acche chances Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use user details.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a specific date without any chart basis.",
+    "quotes": [
+     "April 16"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies are stock and not tied to the problem.",
+    "quotes": [
+     "chidiyon ko Sath anaaj khilana hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer switches to marriage but does not provide a full answer to the job question.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened; only pushes for paid spells.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is filled with pitches.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the app and healing, not a reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy but lacks astrological depth.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mari job kab tak change hogi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight, instead using the consultation to push paid manifestation spells. The chat lacked personalization and relied on generic advice and fear-based sales tactics."
+ },
+ "usage": {
+  "input_tokens": 15672,
+  "output_tokens": 1654
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#15 [05:03] ASTRO: Aapko kuchh upay bata deti hun jisse aap karenge to aapko kafi fayda hoga aur jald fayde ke liye aap new job manifestation spell kara sakte hain jo ki Ham video call session per karenge teen bar aur aapki chijen 40 din ke andar kafi badalne lagenge\n#22 [07:28] ASTRO: Kyunki aapko abhi kafi negativity aur self stream Lo ho gaya hai yani bahut hi blockages chalte chalte aap kafi negative ho gaye ho ise Ham balance karenge aur aapke life mein niyoja le aaenge",
+   "reason": "The astrologer uses fear ('negativity', 'self esteem low', 'blockages') to push a paid 'job manifestation spell' session.",
+   "quote_en": "#15 [05:03] ASTRO: I will suggest some remedies for you, which if you perform, will be very beneficial for you. For quick results, you can get a new job manifestation spell done, which we will perform over a video call session three times, and your situation will start changing significantly within 40 days.\n#22 [07:28] ASTRO: Because right now you have a lot of negativity and your self-esteem has become low, meaning due to many blockages, you have become quite negative. We will balance this and bring a new job into your life."
+  }
+ }
+}

@@ -1,0 +1,551 @@
+{
+ "file": "conversation_140707_2324.csv",
+ "tier": "Medium",
+ "user_id": "140707",
+ "ltv": 4833.0,
+ "n_msgs": 67,
+ "n_astro_msgs": 31,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.29,
+ "blueprint": {
+  "score": 3.49,
+  "coverage": 0.278,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.6,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 5,
+   "S2": 315,
+   "S3": 189,
+   "S4": 271,
+   "S5": 189
+  }
+ },
+ "final": 2.89,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 3.5,
+  "B3": 6.5,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 13,
+   "long_frac": 0.161,
+   "max_words": 80,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     36,
+     43,
+     64,
+     66
+    ],
+    "reason": "The astrologer pushes for a paid 'healing' service, citing other clients' success to pressure the user into paying for a ritual process.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is very brief and lacks warmth."
+   },
+   "S2": {
+    "present": true,
+    "idx": 32,
+    "quality": 1,
+    "note": "Acknowledges the user's distress but in a generic way."
+   },
+   "S3": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already implied."
+   },
+   "S4": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Gives a prediction but it is not tied to any chart logic."
+   },
+   "S5": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Asks about relationship duration."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 34,
+    "quality": 0,
+    "note": "Remedy is a paid healing service."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 32, but it is generic and lacks specific details from the user's story.",
+    "quotes": [
+     "Aap donon ki problem shuru to Hui Hai Lekin pareshani bhi shuru ho gai hai"
+    ],
+    "score": 6,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided (DOB/Name) and pushes for a paid service.",
+    "quotes": [
+     "Unka details de dijiye",
+     "Kitne samay ka relation tha aapka"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 11,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 20,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but never uses them to provide a reading about the partner's chart.",
+    "quotes": [
+     "Unka details de dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks any chart-based reasoning or specific markers.",
+    "quotes": [
+     "15 March ke bad vah aapse baat kar lenge"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 27,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about when they will talk, but the answer is not tied to any chart logic.",
+    "quotes": [
+     "15 March ke bad vah aapse baat kar lenge"
+    ],
+    "score": 6,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 27,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided in the readings.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings do not add depth or use user details effectively.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date range without any chart-based justification.",
+    "quotes": [
+     "15 se 20 March ke andar hi baat ho jayegi"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a paid healing service, which is a violation.",
+    "quotes": [
+     "healing vagaira Lena padega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only has one main question about the relationship.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer is opened; the astrologer only pushes for a paid service.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the content is poor.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses no astrology terms and provides no explanations.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "To kya unse meri wapas se bat ho sakti h",
+  "main_question_idx": 9,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any chart-based insights and instead pressured the user into purchasing a paid healing service. The consultation was entirely focused on selling a service rather than providing astrological guidance."
+ },
+ "usage": {
+  "input_tokens": 18022,
+  "output_tokens": 2381
+ },
+ "reference": {
+  "bare_acks": 5,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 1,
+   "2.1": 4,
+   "2.2": 6,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#36 [06:44] ASTRO: Agar usse pahle chahte ho ki aapki baat ho jaaye to fir aapko healing vagaira Lena padega relationship love heeling\n#43 [08:20] USER: Usme charges kitna hota h\n#64 [12:35] ASTRO: Vahan per log session book karvate Hain4000 Le lete Hain\n#66 [12:58] ASTRO: Yahan per Aisa kuchh nahin Hai yahan per aap video call per aaoge usi per tumhara healing ho jaega",
+   "reason": "The astrologer pushes for a paid 'healing' service, citing other clients' success to pressure the user into paying for a ritual process.",
+   "quote_en": "#36 [06:44] ASTRO: If you want to talk before that, then you will have to take healing etc., relationship love healing\n#43 [08:20] USER: How much are the charges for that?\n#64 [12:35] ASTRO: People book sessions there and they charge 4000.\n#66 [12:58] ASTRO: There is nothing like that here; here you will come on a video call and your healing will be done on that itself."
+  }
+ }
+}

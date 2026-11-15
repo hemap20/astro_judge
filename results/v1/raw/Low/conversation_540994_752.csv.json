@@ -1,0 +1,275 @@
+{
+ "file": "conversation_540994_752.csv",
+ "tier": "Low",
+ "user_id": "540994",
+ "ltv": 100.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.11,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 2.67,
+  "B3": 2.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 6,
+   "R": null,
+   "T": 6
+  },
+  "4.1": {
+   "score": 7,
+   "M": 14,
+   "long_frac": 0.067,
+   "max_words": 41,
+   "avg_words": 11.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 12, stating they will help with the relationship.",
+    "quotes": [
+     "Bilkul Ham aapka pura help karenge aur aapka life stable ho jaega unke sath"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the user's details (already provided) and the partner's details. Asking for the user's details again is Type C.",
+    "quotes": [
+     "Aap ek bar apna detail de dijiye",
+     "Yah Jo aapane detail dala hai yah kiska detail hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a reason (to check the attachment/success of the relationship).",
+    "quotes": [
+     "Aur aap chinta na karo main donon ki Life ko attachment karke bata raha hun kaise Labh milega aur success Ho payega aapka relation"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no actual reading or insight about the user's life or chart in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks for an idea on how to get the person they love. The astrologer promises help but gives no direction or answer.",
+    "quotes": [
+     "Main to pyar karta hun lekin uska pana bhi to hai please sir kuch to idea botao"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or explanation is provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency check possible as no reading was given.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or advice given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one question asked.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases that they are looking at something but does not deliver.",
+    "quotes": [
+     "Main ek chij dekh Raha Hun ki"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pressures the user about time.",
+    "quotes": [
+     "Bahan ji aapka samay chal raha hai thoda jaldi karo ya to fir aap time badha Lo Thoda"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is an incomplete sentence and a tease.",
+    "quotes": [
+     "Main ek chij dekh Raha Hun ki"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Main to pyar karta hun lekin uska pana bhi to hai please sir kuch to idea botao",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful reading or answer to the user's question, instead focusing on data collection and pressuring the user about time. The consultation ended abruptly without delivering any insight."
+ },
+ "usage": {
+  "input_tokens": 10509,
+  "output_tokens": 1235
+ }
+}

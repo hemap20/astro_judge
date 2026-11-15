@@ -1,0 +1,525 @@
+{
+ "file": "conversation_99308_168.csv",
+ "tier": "Medium",
+ "user_id": "99308",
+ "ltv": 1910.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": null,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.73,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S3": 19,
+   "S4": 156,
+   "S5": 81
+  }
+ },
+ "final": 2.06,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.75,
+  "B2": 3.86,
+  "B3": 1.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 8.7,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     32,
+     34
+    ],
+    "reason": "The astrologer explicitly asks the user to reconnect/reconnect again to continue the consultation, which is a paid element.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's distress about being blocked."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Gave a prediction but it is generic and lacks chart depth."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Asked a follow-up question about the duration of the silence."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors like dasha or houses."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 34,
+    "quality": 0,
+    "note": "The hook is a request to pay/reconnect, which is a violation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional state and the specific worry about being blocked, focusing only on data.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name (Type B) and then asks for the photo (Type C) which is not needed for a reading.",
+    "quotes": [
+     "Kya naam hai aapke Pyar Ka",
+     "Amlen ji aap Deepak ji ka photo bhej sakte hain face reading ke liye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 6,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 25,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but does not use it in a reading, and asks for a photo which is not a standard astrological requirement.",
+    "quotes": [
+     "Kya naam hai aapke Pyar Ka"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks any chart-based reasoning or specific markers.",
+    "quotes": [
+     "Jaisa ki Main dekh Pa raha hun Deepak ji ka wapas aane ki bahut hi acche chances hain"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 17,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction without any reason or chart-based explanation.",
+    "quotes": [
+     "Jaisa ki Main dekh Pa raha hun Deepak ji ka wapas aane ki bahut hi acche chances hain"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 17,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are generic and do not build on the user's input.",
+    "quotes": [
+     "Deepak ji aapko kafi jyada mis karte Hain"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user asked two questions, but the astrologer did not address them clearly or in order.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'important things' to push for a reconnect.",
+    "quotes": [
+     "Main Deepak ji ke bare mein kuchh important chijen aapko batana chahta hun"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer pushes for a reconnect/end of chat while time remains.",
+    "quotes": [
+     "Aapko dobara se reconnect karna hoga"
+    ],
+    "score": 1,
+    "checks": {
+     "early_goodbye_while_time_left": true,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms are explained.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera pyar ne mujhe block list kar diya hai to mujhe unblock karega ya nahin",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead focusing on data collection and pushing for a reconnect. The lack of empathy and the pressure to pay for further information significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 16989,
+  "output_tokens": 2350
+ },
+ "reference": {
+  "bare_acks": 3,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 4,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#32 [04:40] ASTRO: Aapko dobara se reconnect karna hoga\n#34 [04:58] ASTRO: Please aap dobara se connect Kar lijiye",
+   "reason": "The astrologer explicitly asks the user to reconnect/reconnect again to continue the consultation, which is a paid element.",
+   "quote_en": "#32 [04:40] ASTRO: You will need to reconnect again\n#34 [04:58] ASTRO: Please connect again"
+  }
+ }
+}

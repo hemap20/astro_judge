@@ -1,0 +1,371 @@
+{
+ "file": "conversation_1434373_347.csv",
+ "tier": "Medium",
+ "user_id": "1434373",
+ "ltv": 1159.94,
+ "n_msgs": 53,
+ "n_astro_msgs": 29,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 7,
+  "1.4": 7,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 8,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 8,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.57,
+  "B3": 5.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 3,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 20,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 4.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     51,
+     52
+    ],
+    "reason": "The astrologer uses the urgency of the situation to push for a paid call/consultation."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's stress and confusion, which the user confirmed.",
+    "quotes": [
+     "Stress",
+     "Confusion"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name, DOB, and photo, which are necessary for the reading.",
+    "quotes": [
+     "Name",
+     "Date of birth",
+     "Pls send me"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to check the compatibility and the possibility of marriage.",
+    "quotes": [
+     "Name",
+     "Date of birth",
+     "Pls send me"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions planet disbalance and Rahu in the 7th house, which are specific chart-based reasons.",
+    "quotes": [
+     "But some planet disbalance hi",
+     "Uske 7 house me rahu hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction regarding the possibility of marriage.",
+    "quotes": [
+     "shadi honi ki possibility Puri hi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to planetary positions like Rahu and Saturn.",
+    "quotes": [
+     "Uske 7 house me rahu hai",
+     "Jis wajah se thoda stability problem ayi hi relationship with",
+     "Or saturn planet shadow"
+    ],
+    "score": 8
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's input about the partner's chart and the family's refusal.",
+    "quotes": [
+     "Uske 7 house me rahu hai",
+     "Kyunki uske ghar walo ne mana kar diya"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a positive outlook without a specific date or promise.",
+    "quotes": [
+     "shadi honi ki possibility Puri hi"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo to check the face, which is not a valid remedy.",
+    "quotes": [
+     "Pls send me"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays focused on the marriage question throughout the chat.",
+    "quotes": [
+     "shadi honi ki possibility Puri hi"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to open a new layer by suggesting a call.",
+    "quotes": [
+     "Call possible hai kya"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a push for a call, which is not a helpful reading.",
+    "quotes": [
+     "Call possible hai kya",
+     "Mein aap ko show bhi kar sakte ho"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sadi fix hone wali thi... Woh aayege wapas? Wait karna chahiye ya nahi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided some chart-based insights regarding the relationship issues. However, the consultation was hurt by the astrologer pushing for a paid call and using a photo for a reading instead of providing a proper remedy."
+ },
+ "usage": {
+  "input_tokens": 11104,
+  "output_tokens": 1558
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#51 [07:43] ASTRO: Call possible hai kya\n#52 [08:05] ASTRO: Mein aap ko show bhi kar sakte ho",
+   "reason": "The astrologer uses the urgency of the situation to push for a paid call/consultation.",
+   "quote_en": "#51 [07:43] ASTRO: Is a call possible?\n#52 [08:05] ASTRO: I can also show it to you"
+  }
+ }
+}

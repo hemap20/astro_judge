@@ -1,0 +1,429 @@
+{
+ "file": "conversation_1338879_1953.csv",
+ "tier": "High",
+ "user_id": "1338879",
+ "ltv": 53149.56,
+ "n_msgs": 103,
+ "n_astro_msgs": 43,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 7,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 6.14,
+  "B3": 6.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.116,
+   "max_words": 42,
+   "avg_words": 16.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Iske liye ek hi solution hai aap karke main use third person ko remove kar dunga aur black magic ko bhi aur inke attraction energy ko aapke taraf kar dunga",
+    "reason": "The astrologer uses fear (black magic) and promises a result (removing the third person and black magic) to push for a paid service."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation by mentioning the breakup and the third person.",
+    "quotes": [
+     "third person ki vajah se Inka mind stable nahin dikh raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and DOB of the partner, which is necessary for the reading.",
+    "quotes": [
+     "Inka naam Bata dijiye"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to perform the reading and uses them to provide insights.",
+    "quotes": [
+     "Inka naam Bata dijiye",
+     "Maine gurjot ki face reading kar li hai"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to the user's situation, and provides a chart-based reason (third person influence).",
+    "quotes": [
+     "third person ki vajah se Inka mind stable nahin dikh raha hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the user's question about whether to move on or if the partner will return.",
+    "quotes": [
+     "Han ab aapko muve on hi karna padega"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the life situation to energy/magic influences.",
+    "quotes": [
+     "use third person ne inke mind ko divert kar diya hai aur inke upar kuchh black magic jaisa bhi uska negative prabhav dikh raha hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the third person's intentions and the physical status of the relationship.",
+    "quotes": [
+     "What third person physical karne ke liye planning kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide a specific timeline for the return, keeping it vague.",
+    "quotes": [
+     "jab tak uske prabhav ko Kam nahin karne Kiya jaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a remedy (donation) but then pivots to a paid service.",
+    "quotes": [
+     "shukrawar ke din koi safed chij Dan karni hai"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the breakup and the third person throughout.",
+    "quotes": [
+     "third person ki vajah se sab problem ho rahi hai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about the third person's physical intentions.",
+    "quotes": [
+     "What third person physical karne ke liye planning kar rahi hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the payment and the service.",
+    "quotes": [
+     "Agar aap ready hain to bataiye aur ek hi bar time increase karke connect kar lijiye main kar deta hun"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya mai move on krlo ya fr vapas ayega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 85,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a reading about the user's relationship issues but quickly pivoted to pushing a paid service for black magic removal. This pressure and the use of fear-based tactics significantly harmed the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 12482,
+  "output_tokens": 1898
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Iske liye ek hi solution hai aap karke main use third person ko remove kar dunga aur black magic ko bhi aur inke attraction energy ko aapke taraf kar dunga",
+   "reason": "The astrologer uses fear (black magic) and promises a result (removing the third person and black magic) to push for a paid service.",
+   "quote_en": "There is only one solution for this; I will perform a ritual to remove that third person and the black magic, and I will redirect their attraction energy towards you."
+  }
+ }
+}

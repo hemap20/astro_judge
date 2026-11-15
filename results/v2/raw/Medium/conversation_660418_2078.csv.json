@@ -1,0 +1,306 @@
+{
+ "file": "conversation_660418_2078.csv",
+ "tier": "Medium",
+ "user_id": "660418",
+ "ltv": 1697.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 9,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.06,
+ "buckets": {
+  "B1": 8.0,
+  "B2": 5.57,
+  "B3": 7.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.053,
+   "max_words": 41,
+   "avg_words": 12.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship and the boy's feelings in the reading.",
+    "quotes": [
+     "ladke ke mind mein aapko lekar love relationship ki feeling hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo for face reading, which is a Type B question as it could be asked to any user, but it is not a Type C question.",
+    "quotes": [
+     "Agar ladke ka koi pic ho to aap ladke ka koi pic send kar sakti ho kya main inki face reading kar deta hun"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's birth time, explains why (to check the kundli), and proceeds to give a reading about the boy's feelings and the relationship future.",
+    "quotes": [
+     "Ladke ka birth time agar aapke pass ho to birth time bhi send kar do"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present (feelings, lack of clarity), new (not stated by user), specific (third person involvement), and tied to the chart.",
+    "quotes": [
+     "ladke ke mind mein aapko lekar love relationship ki feeling hai",
+     "abhi present time mein ladke ki taraf se jo positive response aapko Milana chahie vah positive response nahin mil pa Raha hoga"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks about the timeline, and the astrologer acknowledges it and promises to provide it.",
+    "quotes": [
+     "Kab tak relationship main honge hum log?",
+     "Theek hai main timeline bhi aapko turant Bata deta hun"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions checking the kundli but does not link the reading to specific chart factors like dasha or planets in plain words.",
+    "quotes": [
+     "Maine ladke ka kundli check kiya hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the boy's past and the absence of a third person, using the user's context.",
+    "quotes": [
+     "Inka past bahut hi Bura raha hai",
+     "aap donon ke bich koi third person involvement nahin hoga"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timeline or window was provided in the transcript; the astrologer only promised to provide it at the end.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The user asked how to explain her genuineness, but the astrologer did not provide a practical remedy or advice.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the relationship and the boy's feelings throughout the chat.",
+    "quotes": [
+     "ladke ke mind mein aapko lekar love relationship ki feeling hai",
+     "aap donon ke bich Jo rishte se sambandhit future dikh raha hai vah bilkul positive hoga"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer offers face reading as a next layer to gain more insight.",
+    "quotes": [
+     "Agar ladke ka koi pic ho to aap ladke ka koi pic send kar sakti ho kya main inki face reading kar deta hun"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer was still engaged when the transcript ended.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a promise to provide the timeline, which is a relevant reading/guidance point.",
+    "quotes": [
+     "Theek hai main timeline bhi aapko turant Bata deta hun"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish.",
+    "quotes": [
+     "ladke ke mind mein aapko lekar love relationship ki feeling hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Love life k bare main Janna hain. Iske sath future hain? Relationship main aa sakhte hain?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the boy's feelings and the positive future of the relationship, which helped the user feel heard. However, the astrologer failed to provide a concrete timeline or practical advice on how to handle the situation, leaving the user's main request for guidance unfulfilled."
+ },
+ "usage": {
+  "input_tokens": 11009,
+  "output_tokens": 1584
+ }
+}

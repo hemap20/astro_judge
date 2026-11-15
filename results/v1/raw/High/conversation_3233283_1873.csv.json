@@ -1,0 +1,283 @@
+{
+ "file": "conversation_3233283_1873.csv",
+ "tier": "High",
+ "user_id": "3233283",
+ "ltv": 9480.12,
+ "n_msgs": 27,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 8,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.53,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 6.86,
+  "B3": 8.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 9,
+   "long_frac": 0.214,
+   "max_words": 65,
+   "avg_words": 20.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the relationship in message 11.",
+    "quotes": [
+     "situations abhi critical Hain to Aisa aapko mahsus ho raha hoga and feel ho raha hoga",
+     "Ki mera relationship aage nahin chalega.."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details in message 14, which is necessary for the reading. This is Type A.",
+    "quotes": [
+     "yadi ho sake to aap unka name date off birth birth time birth place share kar dijiye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details with a clear reason (to check the marriage yog) and uses the name 'Vishal' later.",
+    "quotes": [
+     "yadi ho sake to aap unka name date off birth birth time birth place share kar dijiye"
+    ],
+    "score": 8
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific (Ketu factor), and tied to the chart.",
+    "quotes": [
+     "aapke janm Kundli ke Aadhar per main dekh Pa raha hun ketu ke factor Hain jiske vajah se Aisa Ho Raha Hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction regarding the marriage yog.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issues to the Ketu factor in plain words.",
+    "quotes": [
+     "aapke janm Kundli ke Aadhar per main dekh Pa raha hun ketu ke factor Hain jiske vajah se Aisa Ho Raha Hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the marriage yog and the partner's chart.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain",
+     "Mujhe aapke Patrika ke anusar dekhne ko mil raha hai ki aap ka relationship strong ho jaega"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a time window based on the planetary movement.",
+    "quotes": [
+     "Jaise hi ketu agale Rashi mein Ja Rahe Hain vaise hi aapke relationship mein chijen behtar hona prarambh ho jaega"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy but does not provide the specific steps or how/when to do it in the transcript.",
+    "quotes": [
+     "main aapko ek Chhota Sa upay bata raha hun"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the relationship and marriage throughout the chat.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding a factor in the marriage.",
+    "quotes": [
+     "Shaadi ke baad aapke rishte mein ek aur bada factor dikh raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continues to provide insights.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message leaves a specific point pending regarding the marriage.",
+    "quotes": [
+     "Shaadi ke baad aapke rishte mein ek aur bada factor dikh raha hai"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like 'Kundli' and 'yog'.",
+    "quotes": [
+     "aapke janm Kundli ke Aadhar per main dekh Pa raha hun ketu ke factor Hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya meri shaadi hogi usse",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively addressed the user's relationship concerns by linking them to planetary factors and providing a clear outlook on marriage. However, the consultation was slightly hindered by the lack of specific details for the promised remedy."
+ },
+ "usage": {
+  "input_tokens": 10729,
+  "output_tokens": 1429
+ }
+}

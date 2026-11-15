@@ -1,0 +1,530 @@
+{
+ "file": "conversation_1338879_1953.csv",
+ "tier": "High",
+ "user_id": "1338879",
+ "ltv": 53149.56,
+ "n_msgs": 103,
+ "n_astro_msgs": 43,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.76,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.5
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 1,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 10,
+   "S3": 90,
+   "S8": 865
+  }
+ },
+ "final": 2.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.75,
+  "B2": 1.29,
+  "B3": 1.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.116,
+   "max_words": 42,
+   "avg_words": 16.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     28,
+     32,
+     36
+    ],
+    "paid_idx": [
+     41,
+     43,
+     98,
+     101
+    ],
+    "evidence_idx": [
+     28,
+     32,
+     36,
+     41,
+     43,
+     98,
+     101
+    ],
+    "reason": "The astrologer uses fear (black magic, third person influence) to push a paid ritual (mantra jaap) and explicitly asks for payment (600-700 rupees) and to extend time."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks for name, but does not identify the core concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 0,
+    "note": "Prediction is based on fear-mongering about black magic."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer exploration."
+   },
+   "S8": {
+    "present": true,
+    "idx": 60,
+    "quality": 1,
+    "note": "Generic remedy given after failed paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional distress and immediately pivots to data collection and fear-based narratives.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and DOB, which are standard, but then uses questions to manipulate the user into a paid ritual.",
+    "quotes": [
+     "Inka naam Bata dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but uses them to create fear rather than providing a reading.",
+    "quotes": [
+     "Inka naam Bata dijiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is based on fear (black magic) rather than chart analysis.",
+    "quotes": [
+     "Gurjot ke upar buri energy dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the main question about moving on or reconciliation, instead pushing a paid ritual.",
+    "quotes": [
+     "Iske liye ek hi solution hai aap karke main use third person ko remove kar dunga"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or logic are used; only fear-based claims.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same fear-based narrative.",
+    "quotes": [
+     "Gurjot ke upar buri energy dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency; the astrologer changes the narrative to keep the user engaged.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The primary remedy offered is a paid ritual, which is a violation.",
+    "quotes": [
+     "Iske liye ek hi solution hai aap karke main use third person ko remove kar dunga"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is dropped in favor of a paid pitch.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses fear to tease the user into paying.",
+    "quotes": [
+     "Gurjot ke upar buri energy dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close, but the chat is entirely focused on a paid pitch.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pressure pitch for payment.",
+    "quotes": [
+     "Agar aap ready hain to bataiye aur ek hi bar time increase karke connect kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the content is manipulative.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya mai move on krlo ya fr vapas ayega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any genuine astrological insight, instead using fear-mongering about black magic to pressure the user into a paid ritual. The consultation was entirely focused on financial gain rather than addressing the user's relationship concerns."
+ },
+ "usage": {
+  "input_tokens": 17470,
+  "output_tokens": 2195
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#28 [07:48] ASTRO: Dekhiae use third person ne inke mind ko divert kar diya hai aur inke upar kuchh black magic jaisa bhi uska negative prabhav dikh raha hai vah kafi dinon se prayas kar rahi thi Apne relationship mein laane ke liye\n#32 [08:37] ASTRO: Main aapko yah bol raha hun ki gurjot ke upar buri energy dikh rahi hai use third person ka prabhav dikh raha hai\n#36 [08:59] ASTRO: Usne inke mind ko divert kar Diya hai pahle shuru mein hasil jab nahin ho rahe the to usne black magic jaisa kuchh Kiya hua hai Gurjot  ke upar\n#41 [10:20] ASTRO: Iske liye ek hi solution hai aap karke main use third person ko remove kar dunga aur black magic ko bhi aur inke attraction energy ko aapke taraf kar dunga\n#43 [10:44] ASTRO: 2100 Mantra Jaap karna padega third person ko aur black magic ko remove karna padega\n#98 [21:33] ASTRO: Jo bhi aapka Lage 600 ya ₹700 lagega\n#101 [21:46] ASTRO: Agar aap ready hain to bataiye aur ek hi bar time increase karke connect kar lijiye main kar deta hun",
+   "reason": "The astrologer uses fear (black magic, third person influence) to push a paid ritual (mantra jaap) and explicitly asks for payment (600-700 rupees) and to extend time.",
+   "quote_en": "#28 [07:48] ASTRO: See, a third person has diverted their mind, and there is a negative influence of something like black magic visible on them. She has been trying for many days to bring them into her relationship.\n#32 [08:37] ASTRO: I am telling you that there is bad energy visible on Gurjot, and the influence of that third person is visible.\n#36 [08:59] ASTRO: She has diverted their mind. Initially, when she wasn't succeeding, she did something like black magic on Gurjot.\n#41 [10:20] ASTRO: There is only one solution for this; I will remove that third person and the black magic, and I will redirect their attraction energy towards you.\n#43 [10:44] ASTRO: You will have to perform 2100 Mantra Jaap to remove the third person and the black magic.\n#98 [21:33] ASTRO: Whatever it costs you, it will be 600 or 700 rupees.\n#101 [21:46] ASTRO: If you are ready, let me know and connect by increasing the time just once, and I will do it."
+  }
+ }
+}

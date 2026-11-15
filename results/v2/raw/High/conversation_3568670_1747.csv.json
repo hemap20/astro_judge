@@ -1,0 +1,356 @@
+{
+ "file": "conversation_3568670_1747.csv",
+ "tier": "High",
+ "user_id": "3568670",
+ "ltv": 11526.24,
+ "n_msgs": 41,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.25,
+  "B2": 1.86,
+  "B3": 2.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 3
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.0,
+   "max_words": 21,
+   "avg_words": 10.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     23,
+     26,
+     29,
+     30,
+     32,
+     36,
+     38
+    ],
+    "reason": "The astrologer uses guaranteed results ('Guarantee Ke Sath Ho jayegi', 'Main karvata Hun tumhari shaadi') combined with repeated pressure to add coins/extend time to perform a ritual."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the boy and the engagement, but the response is heavily focused on pushing for payment.",
+    "quotes": [
+     "Jisse pasand karti ho vahan per shaadi ka yog पूरा-पूरा banaa hua Hai"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the engagement details, which is Type A, but then shifts to Type C by demanding payment/time extension to proceed.",
+    "quotes": [
+     "Kiske sath mein fix Hui Hai engagement yah bataiye aap"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the boy but uses the details to create a sense of urgency for a paid ritual rather than providing a balanced reading.",
+    "quotes": [
+     "Kiske sath mein fix Hui Hai engagement yah bataiye aap"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based evidence, focusing instead on promises of success.",
+    "quotes": [
+     "Shukr nigative hone ki vajah se problem Bani Hui"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question but immediately ties it to a paid ritual and time extension.",
+    "quotes": [
+     "jisse pyar Karti usi ke sath tumhari shaadi hogi"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Mentions Shukr but does not explain it in a way that helps the user understand the chart's impact on her life.",
+    "quotes": [
+     "Shukr nigative hone ki vajah se problem Bani Hui"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the promise of marriage rather than building depth.",
+    "quotes": [
+     "Maine pahle hi bol diya love marriage ka yog banaa hua Hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a guarantee, which is a major failure in timing and consistency.",
+    "quotes": [
+     "Guarantee Ke Sath Ho jayegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a demand for payment and time extension.",
+    "quotes": [
+     "Main karvata Hun tumhari shaadi kyon pareshan hun aap"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the marriage topic but uses it to pressure the user for payment.",
+    "quotes": [
+     "jisse pyar Karti usi ke sath tumhari shaadi hogi"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about another thing being connected to the marriage to keep the user engaged for payment.",
+    "quotes": [
+     "Love marriage ke yog ke sath ek aur cheez juddi hui dikh rahi"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but uses the time remaining to pressure the user for more coins.",
+    "quotes": [
+     "Aap apna time badha lijiye pahle jaldi se"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the chat ending and the user not having added coins.",
+    "quotes": [
+     "Upar Dekho",
+     "Love marriage ke yog ke sath ek aur cheez juddi hui dikh rahi"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the tone is unprofessional and pushy.",
+    "quotes": [
+     "Ji bahan ji kya question hai jaldi se batao"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one creating the pressure.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Muje jan na hai ki meri love marriage hogi ya arrange",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a reading but immediately pivoted to aggressive pressure tactics for payment and time extensions. The consultation was severely undermined by the lack of professional boundaries and the use of guaranteed outcomes to manipulate the user."
+ },
+ "usage": {
+  "input_tokens": 11067,
+  "output_tokens": 1648
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [03:50] ASTRO: Guarantee Ke Sath Ho jayegi aap mujhe Time to dijiye\n#26 [04:02] ASTRO: Aap apna time badha lijiye pahle jaldi se\n#29 [04:09] ASTRO: Dekho add coin ka option hoga\n#30 [04:14] ASTRO: Main karvata Hun tumhari shaadi kyon pareshan hun aap\n#32 [04:24] ASTRO: Upar Dekho add coin ka option hoga apna time badha Lo pahle\n#36 [04:53] ASTRO: Bharosa karo 10 minut ka time do\n#38 [04:59] ASTRO: Upar Dekho",
+   "reason": "The astrologer uses guaranteed results ('Guarantee Ke Sath Ho jayegi', 'Main karvata Hun tumhari shaadi') combined with repeated pressure to add coins/extend time to perform a ritual.",
+   "quote_en": "#23 [03:50] ASTRO: It will happen with a guarantee, just give me some time\n#26 [04:02] ASTRO: Please increase your time quickly first\n#29 [04:09] ASTRO: Look, there will be an option to add coins\n#30 [04:14] ASTRO: I will get your marriage done, why are you worried?\n#32 [04:24] ASTRO: Look above, there will be an option to add coins, increase your time first\n#36 [04:53] ASTRO: Trust me, give me 10 minutes of time\n#38 [04:59] ASTRO: Look above"
+  }
+ }
+}

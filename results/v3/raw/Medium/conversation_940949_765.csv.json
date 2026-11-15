@@ -1,0 +1,342 @@
+{
+ "file": "conversation_940949_765.csv",
+ "tier": "Medium",
+ "user_id": "940949",
+ "ltv": 2853.46,
+ "n_msgs": 17,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.45,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 7,
+   "S3": 69
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 2.14,
+  "B3": 2.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 6.4,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     12
+    ],
+    "paid_idx": [
+     14
+    ],
+    "evidence_idx": [
+     12,
+     14
+    ],
+    "reason": "The astrologer guarantees a result ('wapas lya dunga') and immediately follows up with a request to extend the chat time for payment."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided in the prompt context."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 0,
+    "note": "The prediction is a guaranteed result, which is unethical and not based on chart analysis."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer did not acknowledge the user's emotional state or the breakup context, only asked for the name.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the name, which is Type A, but the overall interaction is poor.",
+    "quotes": [
+     "Aap jinke Sath relationship me hai unka name bata dijiye"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the name but did not use it in any reading or provide a chart-based insight.",
+    "quotes": [
+     "Aap jinke Sath relationship me hai unka name bata dijiye"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is a guaranteed promise, not a chart-based insight.",
+    "quotes": [
+     "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar"
+    ],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gave a guaranteed result instead of a proper astrological answer.",
+    "quotes": [
+     "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons were provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promised a result within a specific timeframe, which is a guarantee.",
+    "quotes": [
+     "Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one question was asked.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer pushed for more time instead of providing value.",
+    "quotes": [
+     "Aap apne chat ki timing increase Kar lijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message was a confirmation of the user's 'bas', providing no value.",
+    "quotes": [
+     "Ha"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is informal but the quality of the reading is extremely poor.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "humara breakup hua kya woh wapas ayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any astrological insight, instead offering a false guarantee of reconciliation to pressure the user into extending the chat. The lack of chart-based analysis and the unethical promise of a result significantly harmed the consultation."
+ },
+ "usage": {
+  "input_tokens": 14900,
+  "output_tokens": 1428
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#12 [03:01] ASTRO: Mai aap kya life mya wapas lya dunga 2 se 4 din ke andar\n#14 [04:17] ASTRO: Aap apne chat ki timing increase Kar lijiye",
+   "reason": "The astrologer guarantees a result ('wapas lya dunga') and immediately follows up with a request to extend the chat time for payment.",
+   "quote_en": "#12 [03:01] ASTRO: I will bring them back into your life within 2 to 4 days\n#14 [04:17] ASTRO: Please increase your chat timing"
+  }
+ }
+}

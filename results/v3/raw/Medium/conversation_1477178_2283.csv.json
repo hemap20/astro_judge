@@ -1,0 +1,354 @@
+{
+ "file": "conversation_1477178_2283.csv",
+ "tier": "Medium",
+ "user_id": "1477178",
+ "ltv": 1035.0,
+ "n_msgs": 16,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.8,
+ "rubric_score": 7.8,
+ "blueprint": {
+  "score": 5.02,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.8,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 168,
+   "S4": 135,
+   "S5": 282,
+   "S6": 217
+  }
+ },
+ "final": 6.41,
+ "label": "mixed",
+ "buckets": {
+  "B1": 8.0,
+  "B2": 8.2,
+  "B3": 7.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.167,
+   "max_words": 41,
+   "avg_words": 16.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Asks for the question after giving a reading."
+   },
+   "S4": {
+    "present": true,
+    "idx": 7,
+    "quality": 2,
+    "note": "Gives a specific reading about financial and mental peace."
+   },
+   "S5": {
+    "present": true,
+    "idx": 15,
+    "quality": 2,
+    "note": "Asks a relevant follow-up about past relationships."
+   },
+   "S6": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Connects marriage delay to the 7th house lord being debilitated."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user did not share a worry or feeling in the first message, only details.",
+    "quotes": [],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question in message 15 which is Type A (builds on the marriage topic).",
+    "quotes": [
+     "2022 se 2025 ke bich mein Koi rishta tha ya koi shaadi fix hote-hote nahin Ho Paye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's question is not about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new to the user, specific, and tied to chart factors.",
+    "quotes": [
+     "25 April 2025se bilkul mental peace nahin Hai",
+     "family ko lekar bhi detachment hua hoga"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (June to Nov) and a reason (7th house lord).",
+    "quotes": [
+     "June se November ka samay aapke personal life ko lekar ke bahut achcha samay Hai"
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage delay to the 7th house lord being debilitated in plain words.",
+    "quotes": [
+     "marriage house ka Swami dekha jaaye to neech ka hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new layer about the quality of the match and the timing.",
+    "quotes": [
+     "yogyata personality Aur vichardhara Ke anusar perfect rishta nahin mil pa Raha Hoga"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Provides a clear window for marriage without promising a result.",
+    "quotes": [
+     "June se November ka samay aapke personal life ko lekar ke bahut achcha samay Hai"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only asked one question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a next layer by asking about past relationship history.",
+    "quotes": [
+     "2022 se 2025 ke bich mein Koi rishta tha ya koi shaadi fix hote-hote nahin Ho Paye"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, every reply carries reading or questions.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a relevant question about the user's history.",
+    "quotes": [
+     "2022 se 2025 ke bich mein Koi rishta tha ya koi shaadi fix hote-hote nahin Ho Paye"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses simple language and explains the chart term.",
+    "quotes": [
+     "marriage house ka Swami dekha jaaye to neech ka hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Shadi के बारे",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a very accurate and specific reading about the user's life and marriage prospects. However, the consultation lacked a remedy and a proper hook to encourage a return visit."
+ },
+ "usage": {
+  "input_tokens": 15067,
+  "output_tokens": 1561
+ }
+}

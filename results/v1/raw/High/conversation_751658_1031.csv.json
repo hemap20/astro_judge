@@ -1,0 +1,366 @@
+{
+ "file": "conversation_751658_1031.csv",
+ "tier": "High",
+ "user_id": "751658",
+ "ltv": 9256.0,
+ "n_msgs": 79,
+ "n_astro_msgs": 32,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.75,
+  "B2": 2.43,
+  "B3": 2.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 4,
+   "M": 8,
+   "long_frac": 0.125,
+   "max_words": 75,
+   "avg_words": 11.3,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge",
+    "reason": "The astrologer promises a guaranteed result (relationship starting in 2 days) to push for a paid ritual/remedy."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional state and the specific nature of the relationship, jumping straight to a sales pitch for a ritual.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo and then repeatedly asks for the name, despite it being provided. These are Type C questions.",
+    "quotes": [
+     "Send kariye",
+     "jiske bare mein Mantra ka uchharan se start kar sakun"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but uses it only to facilitate a 'guaranteed' ritual pitch rather than providing a reading based on the person's chart.",
+    "quotes": [
+     "jiske bare mein Mantra ka uchharan se start kar sakun"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks any chart-based insight or specific detail about the user's life.",
+    "quotes": [
+     "aapki bhabhi abhi aapke sath relationship mein nahin aana chahti Hain kyunki unke man mein aapke liye feelings nahin hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question with a 'guarantee' of a result, which is a false promise rather than an astrological reading.",
+    "quotes": [
+     "mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors or astrological reasons are provided for the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no depth, only repeating the promise of a guaranteed result.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a 100% guarantee for a result within 2 days, which is a false promise.",
+    "quotes": [
+     "100%"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a pitch for a paid ritual with a false guarantee.",
+    "quotes": [
+     "Main kuchh Mantra ka uchharan karenge aur havan karungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the ritual/guarantee throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the promise of a 'guaranteed' result as a hook to keep the user engaged.",
+    "quotes": [
+     "mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but stalls the user with 'wait' messages to push for a re-connection.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are instructions to reconnect for the ritual, not a reading.",
+    "quotes": [
+     "Dubra judiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Bhabhi mere Se pyar karti hai ki nahi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight, instead using the consultation to push for a paid ritual with false guarantees. The chat was characterized by stalling tactics and a lack of genuine engagement with the user's actual concerns."
+ },
+ "usage": {
+  "input_tokens": 11632,
+  "output_tokens": 1667
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "mere pass ek Aisa upay hai jo guarantee ke sath do din ke andar bhabhi khud aapko bolenge",
+   "reason": "The astrologer promises a guaranteed result (relationship starting in 2 days) to push for a paid ritual/remedy.",
+   "quote_en": "I have a remedy that guarantees that within two days, your sister-in-law will speak to you herself."
+  }
+ }
+}

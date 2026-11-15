@@ -1,0 +1,357 @@
+{
+ "file": "conversation_1021165_2078.csv",
+ "tier": "Low",
+ "user_id": "1021165",
+ "ltv": 383.08,
+ "n_msgs": 21,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 9,
+  "2.4": 3,
+  "2.5": 9,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.2,
+ "rubric_score": 6.2,
+ "blueprint": {
+  "score": 5.2,
+  "coverage": 0.389,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 2,
+   "S4": 2,
+   "S5": 0,
+   "S6": 2,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 4,
+   "S3": 45,
+   "S4": 197,
+   "S6": 147
+  }
+ },
+ "final": 5.7,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.67,
+  "B2": 7.8,
+  "B3": 4.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 4,
+   "M": 14,
+   "long_frac": 0.214,
+   "max_words": 80,
+   "avg_words": 23.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very brief."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 8,
+    "quality": 2,
+    "note": "Identified career and finance as the primary concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Gave a specific prediction about the current career phase and a timeline."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Connected the current situation to Jupiter-Rahu-Ketu dasha."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy or practical guidance provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook for next consultation."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledged the birth details but did not acknowledge the user's worry or feeling.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for a photo of the hand, which is a Type C question as it is not needed for the chart analysis already in progress.",
+    "quotes": [
+     "Main aapka Hastrekha bhi check kar leta Hun"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, new, specific to his career, and tied to his dasha.",
+    "quotes": [
+     "current time period is not going well for your career and since the beginning of 2025, you have not received any good response"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provided a clear direction and timeline for the career improvement.",
+    "quotes": [
+     "After March 2026, the time period of Ketu will end and after that, good times are visible for you."
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer linked the career struggle to the current dasha in plain words.",
+    "quotes": [
+     "current Mahadasha is of Jupiter, your Antar Mahadasha is of Rahu and your Pratyantar Dasha is of Ketu.",
+     "Ever since the time period of Ketu has started, some problem or the other is bound to arise"
+    ],
+    "score": 9
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gave a clear window (March 2026) based on the dasha, without promising a guarantee.",
+    "quotes": [
+     "After March 2026, the time period of Ketu will end and after that, good times are visible for you."
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer asked for a photo which is a distraction.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, not a reading.",
+    "quotes": [
+     "Main aapka Hastrekha bhi check kar leta Hun"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and understandable.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Analyse my birth details from cater and finance point of view",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear and helpful career prediction based on the user's dasha. However, the consultation ended abruptly with a request for a palm photo instead of providing a remedy or a hook for further engagement."
+ },
+ "usage": {
+  "input_tokens": 15593,
+  "output_tokens": 1550
+ }
+}

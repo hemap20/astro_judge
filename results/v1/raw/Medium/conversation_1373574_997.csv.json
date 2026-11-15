@@ -1,0 +1,280 @@
+{
+ "file": "conversation_1373574_997.csv",
+ "tier": "Medium",
+ "user_id": "1373574",
+ "ltv": 3982.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 4,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 6.77,
+ "buckets": {
+  "B1": 8.33,
+  "B2": 6.4,
+  "B3": 5.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 15,
+   "long_frac": 0.2,
+   "max_words": 46,
+   "avg_words": 16.9,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific struggle with work being cancelled at the last moment.",
+    "quotes": [
+     "Jab humne aapki Kundli ko check kiya hun to main dekh Pa rahi hun ki aapki Kundli mein Rahu planet ki barbadi kar rahi hai",
+     "Kyunki aapane yah notice Kiya hoga ki aapka koi bhi kam bante bante last moment mein cancel bhi Ho jaati Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question to confirm the reading, which is Type A (built on the user's situation).",
+    "quotes": [
+     "Kya Aisa hoti hai aapki life mein Sunil ji agar aisa hoti hai to aap mujhe ek bar yas ya no mein reply kar dijiye please Sunil ji"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, new (not mentioned by user), specific (work getting cancelled at the last moment), and tied to a chart reason (Rahu).",
+    "quotes": [
+     "Kyunki aapane yah notice Kiya hoga ki aapka koi bhi kam bante bante last moment mein cancel bhi Ho jaati Hai",
+     "aapki Kundli mein Rahu planet ki barbadi kar rahi hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a positive outlook on job prospects but fails to give a specific time window or clear direction on when the job will be found.",
+    "quotes": [
+     "aapko job lagne ki possibility Kafi adhik dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the life struggle to the Rahu planet in plain words.",
+    "quotes": [
+     "aapki Kundli mein Rahu planet ki barbadi kar rahi hai",
+     "Kyunki aapane yah notice Kiya hoga ki aapka koi bhi kam bante bante last moment mein cancel bhi Ho jaati Hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by connecting the user's struggle to the Rahu planet.",
+    "quotes": [
+     "Kyunki aapane yah notice Kiya hoga ki aapka koi bhi kam bante bante last moment mein cancel bhi Ho jaati Hai",
+     "aapki Kundli mein Rahu planet ki barbadi kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the job search.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer after the reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer remains engaged.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a palm photo, which is a data request/distraction rather than a reading.",
+    "quotes": [
+     "Ek Bar aap apne right hand ka pic ho to mujhe send kar dijiye jisse main aapki hast Rekha aur Bhagya Rekha ko check Karti hun Sunil ji"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like 'Kundli' and 'Rahu'.",
+    "quotes": [
+     "aapki Kundli mein Rahu planet ki barbadi kar rahi hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "job lagne ki possibility",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's specific struggle with work delays and linked it to a chart factor (Rahu). However, the consultation failed to provide a clear timeline for the job search and ended with a request for a palm photo instead of deepening the astrological insight."
+ },
+ "usage": {
+  "input_tokens": 10558,
+  "output_tokens": 1407
+ }
+}

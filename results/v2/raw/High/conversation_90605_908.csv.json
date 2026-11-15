@@ -1,0 +1,324 @@
+{
+ "file": "conversation_90605_908.csv",
+ "tier": "High",
+ "user_id": "90605",
+ "ltv": 102383.5,
+ "n_msgs": 64,
+ "n_astro_msgs": 22,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": null,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 7,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 10,
+  "2.7": 9,
+  "3.1": 9,
+  "3.2": 9,
+  "3.3": 9,
+  "4.2": 9,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 8.88,
+ "buckets": {
+  "B1": 9.67,
+  "B2": 8.86,
+  "B3": 9.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 7,
+   "long_frac": 0.182,
+   "max_words": 37,
+   "avg_words": 18.8,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific concern about the partner's feelings and the confusion caused by her behavior in message #16.",
+    "quotes": [
+     "Rajmita ke andar feelings hain, par Woh emotionally cautious hai."
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions throughout the chat, focusing entirely on providing readings based on the user's prompts.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and DOB at the start, uses the name 'Rajmita' consistently, and provides readings about her feelings and the relationship status.",
+    "quotes": [
+     "Rajmita ke andar feelings hain",
+     "Rajmita loyal hai aap ke liye"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading (#10, #12) identifies negative energy and fear/insecurity, which is specific and new to the user.",
+    "quotes": [
+     "current energies negative aarahi hain",
+     "Yeh card batata hai ki unke mann mein fear, insecurity aur uncertainty chal rahi hai."
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about marriage timing clearly in message #27.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai."
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses tarot terminology but explains it in plain language regarding the user's life situation.",
+    "quotes": [
+     "Cards ke hisaab se 3–6 months ke andar Rajmita apni taraf se clear commitment degi."
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by addressing the user's specific concerns about loyalty, third-party issues, and how to handle the partner's perception of his maturity.",
+    "quotes": [
+     "Break-up ke chances bahut kam hain.",
+     "Nahi, future mein koi serious third person issue nahi dikh raha."
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for marriage and commitment without making absolute promises.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai."
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides practical, actionable advice on how to communicate with the partner, which is directly tied to the user's problem.",
+    "quotes": [
+     "Roz ya regularly short check-ins (“Aaj kaisa feel kar rahi ho?”)",
+     "Bade dramatic gestures se zyada, steady presence important hai."
+    ],
+    "score": 10
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer manages multiple threads (marriage, loyalty, third-party, communication) effectively throughout the session.",
+    "quotes": [
+     "Late 2026 to 2027 ke beech shaadi ka yog zyada strong hai.",
+     "Nahi, future mein koi serious third person issue nahi dikh raha."
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer regarding how to handle the partner's emotional state in message #62.",
+    "quotes": [
+     "Roz ya regularly short check-ins (“Aaj kaisa feel kar rahi ho?”)"
+    ],
+    "score": 9
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never closes the chat prematurely and provides useful insights until the end.",
+    "quotes": [],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides specific, actionable guidance that the user can implement immediately.",
+    "quotes": [
+     "Balki bolo “Tumhara aisa feel karna valid hai”"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, conversational, and uses the user's preferred Hinglish.",
+    "quotes": [
+     "Rajmita ke dil mein care aur emotional attachment hai."
+    ],
+    "score": 9
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Relationship love life energy and marriage prospects.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided excellent, actionable guidance and clear insights into the partner's emotional state, which helped the user feel understood. The session was highly effective because the astrologer consistently provided specific advice on how to improve the relationship dynamics rather than just giving generic predictions."
+ },
+ "usage": {
+  "input_tokens": 11925,
+  "output_tokens": 1626
+ }
+}

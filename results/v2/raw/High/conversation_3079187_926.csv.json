@@ -1,0 +1,293 @@
+{
+ "file": "conversation_3079187_926.csv",
+ "tier": "High",
+ "user_id": "3079187",
+ "ltv": 14965.94,
+ "n_msgs": 29,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 10,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.52,
+ "buckets": {
+  "B1": 8.75,
+  "B2": 6.0,
+  "B3": 8.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 9.0,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's feelings in message #7, mentioning 'mind per pressure aur confusion'.",
+    "quotes": [
+     "Sanchi Ji Main dekh raha hun mind per pressure aur confusion ki situation pichhle kuchh Dinon Se Bani Hui Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for Sumit's details in #9, which is necessary for the reading. No Type C questions were asked.",
+    "quotes": [
+     "Ji Sanchi ji aap mujhe Sumit Ji ka detail provide kar dijiye main check karke batata hun aapko"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details in #9 with a clear reason (to check the compatibility/situation) and uses his name in subsequent messages.",
+    "quotes": [
+     "Ji Sanchi ji aap mujhe Sumit Ji ka detail provide kar dijiye main check karke batata hun aapko"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in #7 identifies the user's current state of mind (pressure/confusion), which is specific and relevant.",
+    "quotes": [
+     "Sanchi Ji Main dekh raha hun mind per pressure aur confusion ki situation pichhle kuchh Dinon Se Bani Hui Hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses the user's question about whether the partner will leave the other relationship by stating he is not satisfied and has already tried to muster courage.",
+    "quotes": [
+     "Vah already himmat kar chuka hai",
+     "Jaisa Ki Main dekh raha hun vah is rishte se Khush nahin Hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'energy' and 'mind' but fails to link these to specific chart factors like dasha or grah in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds on the user's input about the relationship issues and the partner's engagement, adding new insights about his feelings.",
+    "quotes": [
+     "Main dekh raha hun ki unke mind mein aapko lekar ke kafi jyada feeling so energy Bani Hui Hai",
+     "Vah already himmat kar chuka hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window was provided for the outcome.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stayed on the same topic throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer in the final message by mentioning a deeper aspect.",
+    "quotes": [
+     "Rishte mein badlav ke peeche ek aur gehra pehlu dikh raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide insights.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a new insight, giving the user a reason to continue.",
+    "quotes": [
+     "Rishte mein badlav ke peeche ek aur gehra pehlu dikh raha hai"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai Sumit se pyar krti hu mujhe janna hai wo mujhe milega ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully built rapport and addressed the user's concerns about her partner's feelings and intentions. However, the lack of specific chart-based reasoning and practical remedies limited the depth of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10757,
+  "output_tokens": 1449
+ }
+}

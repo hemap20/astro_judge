@@ -1,0 +1,407 @@
+{
+ "file": "conversation_1182173_1037.csv",
+ "tier": "Medium",
+ "user_id": "1182173",
+ "ltv": 2356.0,
+ "n_msgs": 26,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.1,
+ "blueprint": {
+  "score": 1.3,
+  "coverage": 0.056,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 1.5,
+  "B2": 1.57,
+  "B3": 2.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 7,
+   "R": null,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.048,
+   "max_words": 40,
+   "avg_words": 7.5,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No self-harm mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16,
+     17,
+     22,
+     24
+    ],
+    "paid_idx": [
+     22,
+     23,
+     25
+    ],
+    "evidence_idx": [
+     22,
+     23,
+     25
+    ],
+    "reason": "The astrologer uses fear/urgency ('Maha Mohini Mantra', 'man aapke prati ghoom jayegi') to push for a paid service ('chat timing ko badha lijiye')."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No specific life facts invented."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Concern not understood."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook, only a payment pitch."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user's question was nonsensical/unclear, but the astrologer ignored it entirely and pushed for details to perform a ritual.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks for name/DOB/photo without explaining why, and then pivots to a paid ritual.",
+    "quotes": [
+     "उसका नाम और डेट ऑफ बर्थ बताइए",
+     "Naam aur date off birth bataiye",
+     "Photo ho to send kar dijiye ya Naam Bata dijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's name but uses it only to pitch a paid ritual, not to provide a reading.",
+    "quotes": [
+     "उसका क्या नाम है"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's question was ignored; the astrologer only offered a paid ritual.",
+    "quotes": [
+     "मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency in reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid pitch.",
+    "quotes": [
+     "मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for payment.",
+    "quotes": [
+     "आप चेक टाइमिंग को बढ़ा लीजिए"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are payment pitches.",
+    "quotes": [
+     "आप चेक टाइमिंग को बढ़ा लीजिए",
+     "समय लेकर आप लिए"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the content is manipulative.",
+    "quotes": [],
+    "score": 6
+   }
+  },
+  "difficult_user_trigger": "vague",
+  "main_question": "American soccer release on top of what size in the hill",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's query and instead engaged in manipulative behavior by pushing for paid rituals. The entire consultation was a series of payment pitches rather than an astrological reading."
+ },
+ "usage": {
+  "input_tokens": 15169,
+  "output_tokens": 1634
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#22 [05:24] ASTRO: मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है जिसे जो भी मैं पूजन करूं वह आप तक पहुंचे और उसकी मन आपके प्रति बहुत ज्यादा अग्रेषित हो जाए\n#23 [05:38] ASTRO: आप चेक टाइमिंग को बढ़ा लीजिए लक्ष्मी आपसे जरूर बात करेगी\n#25 [06:01] ASTRO: समय लेकर आप लिए",
+   "reason": "The astrologer uses fear/urgency ('Maha Mohini Mantra', 'man aapke prati ghoom jayegi') to push for a paid service ('chat timing ko badha lijiye').",
+   "quote_en": "#22 [05:24] ASTRO: I will perform a small remedy for you, you don't have to do anything. You just need to increase the chat timing so that whatever pooja I perform reaches you and her mind becomes very inclined towards you.\n#23 [05:38] ASTRO: Please increase the chat timing, Lakshmi will definitely talk to you.\n#25 [06:01] ASTRO: Take some time for yourself."
+  }
+ }
+}

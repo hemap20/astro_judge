@@ -1,0 +1,570 @@
+{
+ "file": "conversation_2946836_3183.csv",
+ "tier": "Medium",
+ "user_id": "2946836",
+ "ltv": 4817.94,
+ "n_msgs": 115,
+ "n_astro_msgs": 66,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 6,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.75,
+  "B2": 3.86,
+  "B3": 6.0,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 9,
+   "long_frac": 0.152,
+   "max_words": 50,
+   "avg_words": 19.1,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 4
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     65,
+     68,
+     69,
+     71,
+     103,
+     109,
+     110
+    ],
+    "reason": "The astrologer uses fear (negative energy, someone has done something to him) and urgency (must do face healing, must not break the puja, must add coins/time) to push a paid ritual."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about her partner's behavior and the family's interference.",
+    "quotes": [
+     "Dekho Sneha bahan face reading ke madhyam Se dekha jaaye to kijiye to positive dikhai de rahe hain unke man mein feeling bhi hai aapke liye",
+     "Lekin main dekh Pa Raha Hun ki present time mein koi negative urja hai koi hai aap logon ke bich mein jo rishte ko lekar jalan rakhta Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and photos, which are standard, but then asks about family members to build the narrative of the 'negative energy'.",
+    "quotes": [
+     "Unki family mein कौन-कौन hai"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's birth date and photo to perform the reading and the proposed ritual.",
+    "quotes": [
+     "Main unki current feeling check kar leta Hun aur ya unka data birth ho to bata do"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and relies on the 'negative energy' trope common in such chats.",
+    "quotes": [
+     "Lekin main dekh Pa Raha Hun ki present time mein koi negative urja hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about why the partner is fighting by blaming negative energy/black magic.",
+    "quotes": [
+     "Jiske Karan se aap logon ke bich mein ladai jhagade hote hain"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer uses terms like 'negative urja' and 'face reading' but does not link them to actual chart factors.",
+    "quotes": [
+     "Face reading ke madhyam Se dekha jaaye to main dekh raha hun ki negative urja to unke upar dikhai de rahi hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the family members being involved in the 'negative energy'.",
+    "quotes": [
+     "SNeha Ji Main dekh Raha Hun ki ismein Jo Shamil Hai vah unki donon bahane Hain"
+    ],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timeline for the effect of the ritual.",
+    "quotes": [
+     "Iska prabhav jo hai 1 week ke andar aapko dikhai dene lagega"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid ritual ('face healing') which is a pitch.",
+    "quotes": [
+     "Ek bar aap inki face healing kara dijiye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays focused on the relationship issue throughout.",
+    "quotes": [
+     "Dekhiae main vahi bol raha tha ki vah kahin na kahin vah sab soch rahe hain ki aap logon mein duri ho jaaye"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the family's involvement to keep the user engaged.",
+    "quotes": [
+     "SNeha Ji Main dekh Raha Hun ki ismein Jo Shamil Hai vah unki donon bahane Hain"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the chat going by constantly asking for more time/coins for the ritual.",
+    "quotes": [
+     "To aap apna time increase kar lo"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the logistics of adding time/coins for the ritual.",
+    "quotes": [
+     "Pahle 15 minut ka Kar lijiye uske bad FIR 15 minut ka Kar lijiyega"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish.",
+    "quotes": [
+     "Dekhiae unka photo Rakh karke ek Puja Kiya jata Hai face healing ka"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Woo pine ke bad q hmse ladty hay bina kuch baat ka sab se pyar se baat karty par hmse q ladi karty hay",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 85,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 100,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 107,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 113,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully engaged the user by validating her concerns about her partner's behavior and family interference. However, the consultation was heavily marred by the astrologer using fear and urgency to push a paid 'face healing' ritual, which violates the core quality standards."
+ },
+ "usage": {
+  "input_tokens": 13885,
+  "output_tokens": 2586
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#65 [20:51] ASTRO: Ek bar aap inki face healing kara dijiye\n#68 [21:31] ASTRO: Dekhiae unka photo Rakh karke ek Puja Kiya jata Hai face healing ka jisse negative urja samapt hoti hai aur positive urja ka Pravesh hota Hai\n#69 [21:58] ASTRO: Iske liye kuchh samagri ki avashyakta hoti hai Jaise panch mombatti haldi aur Inka photo aur ek Kala dhaaga\n#71 [22:26] ASTRO: Aur jab aap comfortable Ho tab aap isko kara sakti ho aapko bhi Puja per baithana hoga aur ham bhi baithenge kuchh Mantra Ko Main aapko lekar send karunga aap usko Jaap karte rahiyega jab tak yah Puja chalegi\n#103 [32:44] ASTRO: Aapane apna time nahin increase Kiya kyunki donon ki urja connect honi chahie hamari aur aapki phone chalu rahana chahie jisse 32 minut Tak\n#109 [36:27] USER: Kitna money lagy ga\n#110 [36:54] ASTRO: Ki kitne time ke liye Kitna coin add karna hai",
+   "reason": "The astrologer uses fear (negative energy, someone has done something to him) and urgency (must do face healing, must not break the puja, must add coins/time) to push a paid ritual.",
+   "quote_en": "#65 [20:51] ASTRO: Please get face healing done for them once.\n#68 [21:31] ASTRO: See, a Puja is performed by keeping their photo for face healing, which eliminates negative energy and allows positive energy to enter.\n#69 [21:58] ASTRO: For this, some materials are required, such as five candles, turmeric, their photo, and a black thread.\n#71 [22:26] ASTRO: And whenever you are comfortable, you can get this done. You will also have to sit for the Puja, and I will also sit. I will send you some Mantras, and you will have to keep chanting them as long as this Puja continues.\n#103 [32:44] ASTRO: You did not increase your time because both energies need to connect; our phone should remain on for 32 minutes.\n#109 [36:27] USER: How much money will it cost?\n#110 [36:54] ASTRO: How many coins need to be added for how much time."
+  }
+ }
+}

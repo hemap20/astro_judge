@@ -1,0 +1,339 @@
+{
+ "file": "conversation_758357_1283.csv",
+ "tier": "Medium",
+ "user_id": "758357",
+ "ltv": 4310.0,
+ "n_msgs": 45,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 9,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 6,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.9,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 4.43,
+  "B3": 5.67,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 1,
+   "T": 6
+  },
+  "4.1": {
+   "score": 8,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 12.6,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's name and question about marriage, but fails to address the specific emotional context or details provided by the user in a meaningful way.",
+    "quotes": [
+     "Pushpendra Gupta ji kaise hain aap"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, some of which are Type C (asking for details already provided or assuming facts).",
+    "quotes": [
+     "Iske pahle kahin shaadi ki baat chal rahi thi aapki Pushpendra ji",
+     "Iske pahle kya aap Kisi relation mein rah chuke hain ya Kisi Ko pasand karte The"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details and uses them to provide a reading, though the reading is generic.",
+    "quotes": [
+     "Aap unka detail send kar dijiye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasons or concrete markers.",
+    "quotes": [
+     "Aapki shaadi jaldi hi fix ho jayegi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a positive direction regarding the user's marriage but fails to provide a clear reason or specific timeline.",
+    "quotes": [
+     "Jald hi aap ek dusre ke sath relation mein aaenge"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but does not explain the chart factors in plain words.",
+    "quotes": [
+     "Aapki kundli ke Aadhar per Pushpendra Gupta Ji Adhikari de raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points but fails to build depth using the user's specific details effectively.",
+    "quotes": [
+     "Kashish ji ke kundli ke anusar dikhai de raha hai ki unke bhi kundli mein love marriage ka chance ban raha hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no specific timing or window, only vague promises.",
+    "quotes": [
+     "Jald hi aap ek dusre ke sath relation mein aaenge"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No practical remedy or advice is given; the astrologer asks for a palm photo instead.",
+    "quotes": [
+     "aap let hai na raisen ka photo send kar dijiye"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the marriage question throughout.",
+    "quotes": [
+     "Aap donon ki kundli ke Aadhar per yah dikhai de raha hai ki aap donon dur nahin honge"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about the relationship future but it remains vague.",
+    "quotes": [
+     "Aap donon ka sambandh ek tarike Sath banaa rahega yah dikhai de raha hai"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely.",
+    "quotes": [
+     "Main check kar raha hun Pushpendra ji"
+    ],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for a photo, which is a data request, not a reading.",
+    "quotes": [
+     "aap let hai na raisen ka photo send kar dijiye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's tone.",
+    "quotes": [
+     "Aapki shaadi jaldi hi fix ho jayegi"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir me marriage ke Bare mein jannna chahta hun",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was helpful in addressing the user's relationship concerns and validating their feelings. However, the lack of specific chart-based explanations and the reliance on asking for a palm photo at the end hindered the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11037,
+  "output_tokens": 1591
+ }
+}

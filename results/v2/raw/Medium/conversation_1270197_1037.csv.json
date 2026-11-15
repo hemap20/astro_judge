@@ -1,0 +1,312 @@
+{
+ "file": "conversation_1270197_1037.csv",
+ "tier": "Medium",
+ "user_id": "1270197",
+ "ltv": 3260.82,
+ "n_msgs": 35,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 6,
+  "2.1": 7,
+  "2.2": 1,
+  "2.3": 7,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.25,
+  "B2": 3.14,
+  "B3": 2.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 11.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     26,
+     31,
+     33,
+     34
+    ],
+    "reason": "The astrologer uses fear/urgency ('jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge') to push for extending the chat time and performing a paid remedy."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's conflict with Sameer by mentioning the fighting, but fails to name the feeling of love or the specific worry about him returning.",
+    "quotes": [
+     "aapki kundli mein is samay Rahu ka bahut jyada negative bana hua hai is vajah se ladai ho rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and the last time they spoke, which are relevant, but then asks for a photo and to extend time to get a remedy, which are Type C.",
+    "quotes": [
+     "Sameer ka date of birth maloom hai",
+     "Last baar kab baat hui thi aap dono ki"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details with a reason (to check the Kundli), but fails to provide a reading about the match or the person's feelings beyond a generic 'energy is good'.",
+    "quotes": [
+     "jisse aapki aur Sameer ki kundli check karke main aapko uchit jankari du"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about Rahu causing fights is specific to the user's current situation and provides a chart reason.",
+    "quotes": [
+     "aapki kundli mein is samay Rahu ka bahut jyada negative bana hua hai is vajah se ladai ho rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked if he will come back, and the astrologer never answers this, instead pivoting to a demand for a remedy.",
+    "quotes": [
+     "to mere paas aayenge ki nahi ab"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the fighting to Rahu in plain words.",
+    "quotes": [
+     "aapki kundli mein is samay Rahu ka bahut jyada negative bana hua hai is vajah se ladai ho rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds that the energy is good, but it is not tied to any user detail.",
+    "quotes": [
+     "inki energy to aapse bahut hi achhi hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing is provided; the astrologer refuses to answer until a remedy is performed.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a paid extension of the chat, which is a low-scoring practice.",
+    "quotes": [
+     "aap chat timing ko badha lijiye"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the main question about him returning and focuses on the fight.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a remedy to hold the user's attention.",
+    "quotes": [
+     "main aaj aapke liye ki chhoti si upay abhi kar deta hu"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant pressure to extend time stalls the conversation.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pressure tactics to extend the chat.",
+    "quotes": [
+     "check timing ko badha lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hindi, but the astrologer uses formal/bookish phrasing in the pressure tactics.",
+    "quotes": [
+     "uchit jankari du"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one failing to engage.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "to mere paas aayenge ki nahi ab",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer correctly identified the astrological cause of the conflict but failed to answer the user's core question about the relationship's future. The consultation was severely damaged by the astrologer's repeated, high-pressure demands for the user to extend the chat time to receive a remedy."
+ },
+ "usage": {
+  "input_tokens": 10841,
+  "output_tokens": 1550
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#26 [03:52] ASTRO: जब तक आप राहु का उपाय नहीं करती हैं तब तक हम आपको कुछ भी नहीं बता पाएंगे\n#31 [04:32] ASTRO: आप चैट टाइमिंग को बढ़ा लीजिए\n#33 [04:52] ASTRO: मैं आज आपके लिए की छोटी सी उपाय अभी कर देता हूं जिसे आप दोनों के बीच में लड़ाई कभी नहीं होगी जैसा आप चाहोगी वैसा ही होगा\n#34 [04:59] ASTRO: चेक टाइमिंग को बढ़ा लीजिए आप",
+   "reason": "The astrologer uses fear/urgency ('jab tak aap Rahu ka upay nahi karti hain tab tak hum aapko kuch bhi nahi bata payenge') to push for extending the chat time and performing a paid remedy.",
+   "quote_en": "#26 [03:52] ASTRO: Until you perform the remedy for Rahu, we will not be able to tell you anything.\n#31 [04:32] ASTRO: Please extend your chat timing.\n#33 [04:52] ASTRO: I will perform a small remedy for you right now, after which there will never be any fights between you two, and everything will happen just as you wish.\n#34 [04:59] ASTRO: Please extend your chat timing."
+  }
+ }
+}

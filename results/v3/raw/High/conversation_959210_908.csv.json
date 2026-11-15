@@ -1,0 +1,904 @@
+{
+ "file": "conversation_959210_908.csv",
+ "tier": "High",
+ "user_id": "959210",
+ "ltv": 50015.0,
+ "n_msgs": 317,
+ "n_astro_msgs": 127,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": null,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": null,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 10,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.0,
+ "rubric_score": 5.0,
+ "blueprint": {
+  "score": 2.8,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 2,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 39,
+   "S5": 1311
+  }
+ },
+ "final": 3.9,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.33,
+  "B2": 2.33,
+  "B3": 5.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 12,
+   "T": 21
+  },
+  "4.1": {
+   "score": 10,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 18,
+   "avg_words": 5.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 5,
+    "quality": 2,
+    "note": "Warm greeting and rapport established."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No emotional validation provided."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No concern identified; user explicitly stated no question."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": true,
+    "idx": 121,
+    "quality": 1,
+    "note": "Follow-up question asked but not related to a concern."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer probed."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared no worry, feeling, or story in the window that required an acknowledgement of a concern; the chat was purely social/flirtatious.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asked questions about the user's life (marathon, job), but these were social inquiries, not astrological ones. No Type C questions were asked.",
+    "quotes": [
+     "What do u do in thane?"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "No specific other person mentioned as a subject of a question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": true,
+    "reasoning": "User explicitly stated they had no astrological question.",
+    "quotes": [],
+    "score": null
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No readings provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing or facts stated.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "No main question to hold.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat was entirely social.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages were social banter, not reading or guidance.",
+    "quotes": [],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 106,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 114,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 117,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 124,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 144,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 145,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 149,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 150,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 153,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 157,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 159,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 162,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 163,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 164,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 166,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 167,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 172,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 174,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 175,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 180,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 182,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 184,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 188,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 189,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 191,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 194,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 196,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 199,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 200,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 201,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 203,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 206,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 209,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 210,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 215,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 216,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 217,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 219,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 223,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 229,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 232,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 233,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 235,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 238,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 239,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 243,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 244,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 247,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 249,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 251,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 253,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 257,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 260,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 264,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 265,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 266,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 268,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 273,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 274,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 276,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 279,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 283,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 288,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 290,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 293,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 295,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 297,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 298,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 301,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 304,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 305,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 307,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 310,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 311,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 316,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer maintained a friendly and conversational tone throughout the chat, which helped build rapport. However, the consultation failed to provide any astrological value, as the user explicitly stated they had no questions and the astrologer did not steer the conversation toward a reading."
+ },
+ "usage": {
+  "input_tokens": 20790,
+  "output_tokens": 3570
+ }
+}

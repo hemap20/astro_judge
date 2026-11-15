@@ -1,0 +1,808 @@
+{
+ "file": "conversation_790870_2283.csv",
+ "tier": "Medium",
+ "user_id": "790870",
+ "ltv": 3572.0,
+ "n_msgs": 79,
+ "n_astro_msgs": 72,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 6,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 10,
+  "2.3": 9,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.71,
+ "rubric_score": 7.71,
+ "blueprint": {
+  "score": 8.6,
+  "coverage": 0.833,
+  "milestones": {
+   "S4": 1.0,
+   "S6": 1.0,
+   "S8": 0.5
+  },
+  "order": 0.944,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 2,
+   "S8": 1,
+   "S9": 1
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S2": 151,
+   "S3": 163,
+   "S4": 185,
+   "S5": 444,
+   "S6": 247,
+   "S7": 921,
+   "S8": 1379,
+   "S9": 1347
+  }
+ },
+ "final": 8.15,
+ "label": "good",
+ "buckets": {
+  "B1": 8.0,
+  "B2": 9.17,
+  "B3": 7.33,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 6
+  },
+  "4.1": {
+   "score": 3,
+   "M": 13,
+   "long_frac": 0.25,
+   "max_words": 124,
+   "avg_words": 23.3,
+   "bursts": 5,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 10,
+    "quality": 2,
+    "note": "Acknowledges the child's nature and temperament."
+   },
+   "S3": {
+    "present": true,
+    "idx": 12,
+    "quality": 2,
+    "note": "Identifies the concern about the child's cricket career."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Gives an initial prediction about the child's potential in cricket."
+   },
+   "S5": {
+    "present": true,
+    "idx": 26,
+    "quality": 2,
+    "note": "Asks about current practice status."
+   },
+   "S6": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Connects Mars and Sun placements to the cricket career."
+   },
+   "S7": {
+    "present": true,
+    "idx": 47,
+    "quality": 2,
+    "note": "Probes into numerology and personal year."
+   },
+   "S8": {
+    "present": true,
+    "idx": 78,
+    "quality": 1,
+    "note": "Gives general advice to motivate and support."
+   },
+   "S9": {
+    "present": true,
+    "idx": 74,
+    "quality": 1,
+    "note": "Suggests face reading or palmistry as a next step."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the child's nature and the parent's concern about the cricket career.",
+    "quotes": [
+     "Baccha dharmik nature ka hai lekin thoda sa gussa karta hoga",
+     "Bilkul main dekhta hun ki kya yah ek achcha cricketer ban Sakta hai"
+    ],
+    "score": 9,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks relevant questions about the child's practice and the parent's role.",
+    "quotes": [
+     "Abhi current Li kahin practis karta hai",
+     "aap Anuj ki Mata hain ya pita hai"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 26,
+       "type": "B",
+       "answer_used": false
+      },
+      {
+       "idx": 45,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The question is about the child. The astrologer uses the child's details to provide a reading.",
+    "quotes": [
+     "Anuj Mehta",
+     "03 January, 2012"
+    ],
+    "score": 10,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": true,
+     "reading_about_person": true,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific, tied to the chart, and provides concrete markers.",
+    "quotes": [
+     "Mangal dekha jaaye to 9th house mein baithe Hain",
+     "Surya dekha jaaye to Kendra mein baitha hua hai"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the child becoming a cricketer with a clear direction.",
+    "quotes": [
+     "iski kundli mein ek cricketer banne ka yog hai"
+    ],
+    "score": 9,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 13,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links chart factors like Mars and Sun to the child's career.",
+    "quotes": [
+     "Mangal dekha jaaye to 9th house mein baithe Hain",
+     "Surya dekha jaaye to Kendra mein baitha hua hai"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by adding numerology and D10 chart analysis.",
+    "quotes": [
+     "Ab main iske d10chart kabhi analysis karta hun",
+     "Iska neumerology ke anusar mulank bhi Guru ka hai"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for the career growth.",
+    "quotes": [
+     "December 2024 se hi iska yog shuru ho chuka hai"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides practical guidance to support the child.",
+    "quotes": [
+     "usko motivate karke aur usko support karna hai"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a next layer by suggesting face reading or palmistry.",
+    "quotes": [
+     "aap chahe to face reading kara sakte hain aur iski hast Rekha bhi right hand ki dikha sakte hain"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide guidance and encouragement.",
+    "quotes": [
+     "Baccha jivan mein prasiddhi payega bus usko motivate karke aur usko support karna hai"
+    ],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and understandable.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera beta cricketer banna chahta hai kya vo first class cricketer ban sakta hai",
+  "main_question_idx": 12,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a detailed and encouraging reading about the child's potential as a cricketer, using chart analysis and numerology. The most helpful aspect was the clear connection between the child's chart and his career aspirations, while the astrologer's repetitive requests for a photo slightly hindered the flow."
+ },
+ "usage": {
+  "input_tokens": 19673,
+  "output_tokens": 3577
+ },
+ "reference": {
+  "bare_acks": 1,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": 10,
+   "2.1": 9,
+   "2.2": 9,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ }
+}

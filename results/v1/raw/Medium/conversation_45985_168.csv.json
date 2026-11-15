@@ -1,0 +1,253 @@
+{
+ "file": "conversation_45985_168.csv",
+ "tier": "Medium",
+ "user_id": "45985",
+ "ltv": 501.0,
+ "n_msgs": 19,
+ "n_astro_msgs": 10,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 4.88,
+ "buckets": {
+  "B1": 6.33,
+  "B2": 3.83,
+  "B3": 1.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 10,
+   "long_frac": 0.0,
+   "max_words": 28,
+   "avg_words": 12.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's struggle in message #8, but does not name the feeling of being tired or the specific context of being a single mother.",
+    "quotes": [
+     "Seema Ji jaisa ki Main dekh Pa raha hun aapki kundli ke according grahon ke negative prabhav Hai jiski vajah se aapka kafi jyada struggle kar rahi hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a palm photo (#12), which is a Type C question as it is not necessary for a chart-based reading and was not requested with a clear reason related to her specific financial question.",
+    "quotes": [
+     "Seema ji aap apna left hand ka photo bhej sakti hain Pam reading ke liye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and applies to almost anyone struggling. It lacks specificity and does not provide a concrete marker.",
+    "quotes": [
+     "grahon ke negative prabhav Hai jiski vajah se aapka kafi jyada struggle kar rahi hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about financial stability and debt. The astrologer never provides a direction or answer, instead pivoting to palmistry and remedies.",
+    "quotes": [
+     "mujhhe mere sare grah pata h pr fir bhi meri Fainacial stability kab hogi or mere karz kab khatam honge"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'grahon ke negative prabhav' but does not link it to a specific life event or provide a meaningful explanation.",
+    "quotes": [
+     "grahon ke negative prabhav Hai jiski vajah se aapka kafi jyada struggle kar rahi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions wanting to provide remedies but does not actually provide any specific ones, nor does he link them to the user's problem.",
+    "quotes": [
+     "Main aapko kuchh remedies batana chahta hun jo aapke liye kafi jyada helpful hoga"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases future information without delivering it.",
+    "quotes": [
+     "Main aapke future aur aapke life ke bare mein kuchh important chijen main aapko batana chahta hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to end the chat by telling the user to rejoin, which is a form of closing.",
+    "quotes": [
+     "Aap dobara se join Kar lijiye main aapko bata raha hun"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for the user to rejoin, which is not a reading or guidance.",
+    "quotes": [
+     "Aap dobara se join Kar lijiye main aapko bata raha hun"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri Fainacial stability kab hogi or mere karz kab khatam honge",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's specific financial concerns and instead pushed for a palm reading and then asked the user to rejoin. The lack of any concrete reading or answer to the user's primary question made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 10338,
+  "output_tokens": 1283
+ }
+}

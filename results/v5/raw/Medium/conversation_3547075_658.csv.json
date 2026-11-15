@@ -1,0 +1,514 @@
+{
+ "file": "conversation_3547075_658.csv",
+ "tier": "Medium",
+ "user_id": "3547075",
+ "ltv": 2527.56,
+ "n_msgs": 51,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.92,
+ "blueprint": {
+  "score": 3.1,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.5,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 0,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S2": 900,
+   "S3": 769,
+   "S4": 900,
+   "S5": 821
+  }
+ },
+ "final": 1.01,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.0,
+  "B2": 3.17,
+  "B3": 6.5,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.12,
+   "max_words": 55,
+   "avg_words": 14.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     44
+    ],
+    "paid_idx": [
+     43,
+     50
+    ],
+    "reason": "The astrologer claims negative energy is present and offers to perform a 'spell' (paid element) to fix it, while also pressuring the user to increase time.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No warm greeting or rapport building."
+   },
+   "S2": {
+    "present": true,
+    "idx": 34,
+    "quality": 1,
+    "note": "Acknowledges the user's confusion but is generic."
+   },
+   "S3": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 34,
+    "quality": 1,
+    "note": "Gives a vague prediction about chances of return."
+   },
+   "S5": {
+    "present": true,
+    "idx": 29,
+    "quality": 1,
+    "note": "Asks if something happened, but it's generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid spell, which is excluded from quality."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's pain but does not repeat specific details or name the feeling effectively.",
+    "quotes": [
+     "Reena ji last time kuchh hua tha kya Unka mind Kafi jyada divert dikh raha hai"
+    ],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or unnecessary data.",
+    "quotes": [
+     "unki detail dijiye",
+     "unki Koi pic dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 5,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 6,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but does not use them to provide a reading about the person.",
+    "quotes": [
+     "unki detail dijiye"
+    ],
+    "score": 4,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is vague and lacks concrete markers or chart reasons.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 6,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 34,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction without a clear reason or timeline.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 4,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 34,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart-based reasons provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague points.",
+    "quotes": [
+     "aane ke chances to dikh rahe hain"
+    ],
+    "score": 1,
+    "checks": {
+     "new": false,
+     "uses": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window provided.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "user_asked_question": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid spell pitch.",
+    "quotes": [
+     "Main Ek spell karunga"
+    ],
+    "score": 1,
+    "checks": {
+     "has_remedy": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No second question asked.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the chat ends abruptly due to time.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but no astrology terms are explained.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "vo vapis aaygi mere pass ya nhi",
+  "main_question_idx": 4,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead focusing on requesting photos and eventually pitching a paid spell. The consultation lacked personalization and failed to address the user's emotional distress with genuine astrological insight."
+ },
+ "usage": {
+  "input_tokens": 17596,
+  "output_tokens": 2146
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 4,
+   "2.1": 6,
+   "2.2": 4,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#43 [19:12] ASTRO: Main Ek spell karunga jo ki aap donon ki bonding aur unko aapke pass lekar aaega\n#44 [19:53] ASTRO: kyunki jo bhi chijen negative Hain vah Main pic ke dauran postive karunga taki vah aapke pass khud a jaaye\n#50 [21:44] ASTRO: aur Apna Samay increase Kar lijiye",
+   "reason": "The astrologer claims negative energy is present and offers to perform a 'spell' (paid element) to fix it, while also pressuring the user to increase time.",
+   "quote_en": "#43 [19:12] ASTRO: I will perform a spell that will strengthen the bonding between you two and bring them closer to you\n#44 [19:53] ASTRO: because whatever things are negative, I will make them positive during the pooja so that they come to you on their own\n#50 [21:44] ASTRO: and please increase your time"
+  }
+ }
+}

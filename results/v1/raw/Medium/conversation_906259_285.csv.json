@@ -1,0 +1,268 @@
+{
+ "file": "conversation_906259_285.csv",
+ "tier": "Medium",
+ "user_id": "906259",
+ "ltv": 870.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": 6,
+  "3.1": 7,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.81,
+ "buckets": {
+  "B1": 7.33,
+  "B2": 4.57,
+  "B3": 3.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 16,
+   "avg_words": 8.1,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about marriage and career, but fails to name the user's feeling or build on the specific context of his life.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question: 'Aap Kisi Ko pasand Karte Hain'. This is Type B as it could be asked to any user asking about marriage.",
+    "quotes": [
+     "Aap Kisi Ko pasand Karte Hain"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user did not provide specific details of another person to match.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks a specific chart reason or a marker the user can verify.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for marriage without a clear chart reason.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'grahan' but does not explain how it affects the user's life in plain words.",
+    "quotes": [
+     "Kuchh grahan Jo aapke bich mein rukavat La rahe hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add new points (career, love marriage) but do not use specific details provided by the user.",
+    "quotes": [
+     "Aap usko theek karenge to aapko bahut achcha response milega aapke carrier mein"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window (2026-2027) and later specifies 'After April', which is consistent.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich",
+     "After April chances dikhai de rahe hain rishta fix hone ke"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests fixing 'grahan' but provides no practical steps or how/when to do it.",
+    "quotes": [
+     "Aap usko theek karenge to aapko bahut achcha response milega"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers both marriage and career questions without needing a reminder.",
+    "quotes": [
+     "Shaadi ki yog dikhai de rahe hain aapke 2026 se 2027 ke bich",
+     "aapko bahut achcha response milega aapke carrier mein"
+    ],
+    "score": 6
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about love marriage support.",
+    "quotes": [
+     "Main dekha Rahi love marriage support kam dikhai de raha hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer ends the chat abruptly by asking the user to reconnect.",
+    "quotes": [
+     "Aap dobara connect kijiye"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request to reconnect, which is not a reading or guidance.",
+    "quotes": [
+     "Aap dobara connect kijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though 'grahan' is used without deep explanation.",
+    "quotes": [
+     "Kuchh grahan Jo aapke bich mein rukavat La rahe hain"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shadi kab hogi mam",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear time window for the user's marriage question. However, the chat ended abruptly with a request to reconnect, and the advice given was vague and lacked actionable steps."
+ },
+ "usage": {
+  "input_tokens": 10312,
+  "output_tokens": 1346
+ }
+}

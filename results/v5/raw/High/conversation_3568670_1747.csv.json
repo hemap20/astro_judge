@@ -1,0 +1,580 @@
+{
+ "file": "conversation_3568670_1747.csv",
+ "tier": "High",
+ "user_id": "3568670",
+ "ltv": 11526.24,
+ "n_msgs": 41,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 9,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.29,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 46,
+   "S3": 77,
+   "S4": 140,
+   "S5": 163
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 1.67,
+  "B3": 4.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 24,
+   "long_frac": 0.0,
+   "max_words": 21,
+   "avg_words": 10.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     14,
+     17,
+     20,
+     23,
+     30,
+     31
+    ],
+    "paid_idx": [
+     26,
+     29,
+     32,
+     35,
+     36,
+     38
+    ],
+    "reason": "The astrologer uses fear/guarantees ('110 percent', 'guarantee ke sath ho jayegi') to pressure the user to pay for more time and a ritual/process.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the user's distress about the engagement."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the question but immediately moved to pressure tactics."
+   },
+   "S4": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Gave a generic prediction about a boy."
+   },
+   "S5": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Asked a follow-up question but used it to pivot to a pitch."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No real chart connection provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Hook is a paid pitch."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's worry about the engagement and instead focuses on pushing a paid ritual.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already known or irrelevant to the reading, focusing on the pitch.",
+    "quotes": [
+     "Kiske sath mein fix Hui Hai engagement yah bataiye aap"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 15,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about the boy but uses it to pressure the user into paying for a ritual.",
+    "quotes": [
+     "Kiske sath mein fix Hui Hai engagement yah bataiye aap"
+    ],
+    "score": 3,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": true,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks any chart-based reasoning.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a 'guarantee' instead of a proper astrological answer, tied to a paid pitch.",
+    "quotes": [
+     "Guarantee Ke Sath Ho jayegi aap mujhe Time to dijiye"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are just repetitions of the pitch.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a 110% guarantee, which is a violation.",
+    "quotes": [
+     "yah rishta aapka ho jaega hundred and ten percent"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid pitch.",
+    "quotes": [
+     "Main karvata Hun tumhari shaadi kyon pareshan hun aap"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's concern to push the pitch.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to pressure the user to pay.",
+    "quotes": [
+     "Love marriage ke yog ke sath ek aur cheez juddi hui dikh rahi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close early, but the chat is filled with pitch-related messages.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease to get the user to pay.",
+    "quotes": [
+     "Love marriage ke yog ke sath ek aur cheez juddi hui dikh rahi"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 9,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal language and fails to explain terms.",
+    "quotes": [],
+    "score": 4,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 1,
+     "formal_sentences": 1,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Muje jan na hai ki meri love marriage hogi ya arrange",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a genuine reading, instead using fear and false guarantees to pressure the user into paying for more time and rituals. The entire consultation was a series of pitches rather than an astrological session."
+ },
+ "usage": {
+  "input_tokens": 17161,
+  "output_tokens": 2649
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 3,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 4,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#14 [02:36] ASTRO: Agar apna shukr majbut kar leti ho to yah rishta aapka ho jaega hundred and ten percent\n#17 [03:05] ASTRO: Tumhare sath hogi vahan Tut jaega\n#20 [03:25] ASTRO: Jisse pasand karti ho vahan per shaadi ka yog पूरा-पूरा banaa hua Hai\n#23 [03:50] ASTRO: Guarantee Ke Sath Ho jayegi aap mujhe Time to dijiye\n#26 [04:02] ASTRO: Aap apna time badha lijiye pahle jaldi se\n#29 [04:09] ASTRO: Dekho add coin ka option hoga\n#30 [04:14] ASTRO: Main karvata Hun tumhari shaadi kyon pareshan hun aap\n#31 [04:20] ASTRO: Maine pahle hi bol diya love marriage ka yog banaa hua Hai jisse pyar Karti usi ke sath tumhari shaadi hogi\n#32 [04:24] ASTRO: Upar Dekho add coin ka option hoga apna time badha Lo pahle\n#35 [04:48] ASTRO: Aapko mere sath mein karna hoga main change karunga energy aise thodi Na hoga Ki aap akele bol do\n#36 [04:53] ASTRO: Bharosa karo 10 minut ka time do\n#38 [04:59] ASTRO: Upar Dekho",
+   "reason": "The astrologer uses fear/guarantees ('110 percent', 'guarantee ke sath ho jayegi') to pressure the user to pay for more time and a ritual/process.",
+   "quote_en": "#14 [02:36] ASTRO: If you strengthen your Shukr, this relationship will be yours one hundred and ten percent\n#17 [03:05] ASTRO: Whatever is with you there will break\n#20 [03:25] ASTRO: The person you like, the yog for marriage with them is fully formed\n#23 [03:50] ASTRO: It will happen with a guarantee, just give me some time\n#26 [04:02] ASTRO: Increase your time quickly first\n#29 [04:09] ASTRO: Look, there will be an add coin option\n#30 [04:14] ASTRO: I will get your marriage done, why are you worried\n#31 [04:20] ASTRO: I have already said that the yog for a love marriage is formed, you will marry the person you love\n#32 [04:24] ASTRO: Look above, there will be an add coin option, increase your time first\n#35 [04:48] ASTRO: You will have to do it with me, I will change the energy, it won't happen just by you saying it alone\n#36 [04:53] ASTRO: Trust me, give me 10 minutes of time\n#38 [04:59] ASTRO: Look above"
+  }
+ }
+}

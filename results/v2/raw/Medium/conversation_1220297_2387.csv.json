@@ -1,0 +1,301 @@
+{
+ "file": "conversation_1220297_2387.csv",
+ "tier": "Medium",
+ "user_id": "1220297",
+ "ltv": 1351.0,
+ "n_msgs": 63,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": 4,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 6.67,
+ "buckets": {
+  "B1": 6.5,
+  "B2": 5.86,
+  "B3": 7.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.133,
+   "max_words": 50,
+   "avg_words": 17.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the partner's lack of interest and distraction, which directly addresses the user's concern about the breakup.",
+    "quotes": [
+     "Jaisa ki Main dekh Pa rahi ho vah abhi aapke towards kafi distracted feel kar raha hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details and a number for a reading, which are Type B questions as they could be asked to any user, but they are not Type C (invalid).",
+    "quotes": [
+     "Ek lambi gehri sans aur ek se lekar 6 ke bich ko ek number bolo"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details and uses them to provide a reading about his current state of mind and feelings towards the user.",
+    "quotes": [
+     "Kripya mujhe Apne partner ki detail share kariye yani ki naam date off birth"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, provides new insight (distraction/loss of attraction), and is specific to the user's situation.",
+    "quotes": [
+     "vah abhi aapke towards kafi distracted feel kar raha hai yani vah aakarshan Kho chuka hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether he will return by stating it depends on strengthening the connection, providing a clear direction.",
+    "quotes": [
+     "Agar aap chahte Hain vah aapke life mein aaye to aaenge lekin connection tha vah kamjor ho gaya hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer does not provide any chart-based reasons (e.g., planetary positions or dashas) for the situation, only general intuitive/tarot-style observations.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add new points about his mental state and the need to strengthen the connection, using the user's context.",
+    "quotes": [
+     "unka dimag abhi Kisi aur bhi problems mein Hai",
+     "connection tha vah kamjor ho gaya hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the return, only a general statement that it is possible if the connection is strengthened.",
+    "quotes": [
+     "Agar aap chahte Hain vah aapke life mein aaye to aaenge"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers remedies but does not provide specific instructions on how or when to perform them, making them stock advice.",
+    "quotes": [
+     "main aapko kuchh upay bata deti hun"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the main question throughout the chat.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer by suggesting that the connection is weak and needs strengthening, which is specific to the user's concern.",
+    "quotes": [
+     "connection tha vah kamjor ho gaya hai use aapko strong karna hoga"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There is no closing message, and every reply carries relevant information or guidance.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading about the possibility of the partner returning and the need for remedies, which is relevant to the user's concern.",
+    "quotes": [
+     "Agar aap chahte Hain vah aapke life mein aaye to aaenge lekin connection tha vah kamjor ho gaya hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish style without formal or bookish language.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "To vo samne se vapas aayege",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully engaged with the user's emotional situation and provided consistent, relevant insights about the partner's state of mind. However, the lack of specific chart-based reasoning and vague, non-actionable remedies limited the depth of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11556,
+  "output_tokens": 1540
+ }
+}

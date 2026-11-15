@@ -1,0 +1,402 @@
+{
+ "file": "conversation_1270431_57.csv",
+ "tier": "Medium",
+ "user_id": "1270431",
+ "ltv": 1128.0,
+ "n_msgs": 38,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.17,
+ "blueprint": {
+  "score": 3.91,
+  "coverage": 0.333,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.733,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 19,
+   "S2": 184,
+   "S3": 90,
+   "S4": 139,
+   "S5": 90,
+   "S7": 252
+  }
+ },
+ "final": 1.04,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.0,
+  "B2": 2.0,
+  "B3": 3.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 18,
+   "long_frac": 0.056,
+   "max_words": 34,
+   "avg_words": 15.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     26
+    ],
+    "paid_idx": [
+     31
+    ],
+    "evidence_idx": [
+     26,
+     31
+    ],
+    "reason": "The astrologer uses fear by claiming a third person has done something ('kisi ne kuch kiya hai') and then immediately pivots to a paid element by asking the user to extend their time ('time ko thoda impress kar lijiye')."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Greeting is warm but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 20,
+    "quality": 1,
+    "note": "Acknowledges the user's distress but uses it to keep the user engaged."
+   },
+   "S3": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already provided or easily inferred."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 1,
+    "note": "Gives a generic reading about misunderstanding."
+   },
+   "S5": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": true,
+    "idx": 27,
+    "quality": 1,
+    "note": "Probes for more info to keep the chat going."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 27,
+    "quality": 0,
+    "note": "The hook is a paid pitch to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the breakup but does not use the user's specific feelings or details to build a deeper connection.",
+    "quotes": [
+     "Pareshan mat hoiye main unke kundli check karke bata rahi hun"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or asks for photos/details to prolong the chat.",
+    "quotes": [
+     "Kya aap apni girlfriend ka naam bata sakte hain aur unka date off birth send kar dijiye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but uses them to create fear rather than providing a reading.",
+    "quotes": [
+     "Kya aap apni girlfriend ka naam bata sakte hain aur unka date off birth send kar dijiye"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to any breakup.",
+    "quotes": [
+     "aapka relationship jo hai vah kuchh mis standing ki vajah se hi tuta hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks when the ex will return, and the astrologer avoids answering, instead asking for more time.",
+    "quotes": [
+     "Kab ayega wo mere pass",
+     "Aap apne time ko thoda impress kar lijiye"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms are explained or linked to the user's life.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague promises.",
+    "quotes": [
+     "Pareshan mat hoiye main aapko Puri jankari dungi"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency provided; the astrologer avoids giving a timeline.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about a 'third person' to keep the user engaged.",
+    "quotes": [
+     "Kya aap Janna chahte Hain ki vah third person kaun hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the chat going by promising information later.",
+    "quotes": [
+     "Main aapko sari jankari dungi"
+    ],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are just promises of future information.",
+    "quotes": [
+     "Main aapko sari jankari dungi bus aap apne andar patient banae rakhiye"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the astrologer uses formal/scripted phrases.",
+    "quotes": [
+     "Shubhdeep ji Radhe Radhe kaise hain aap"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "The user is not difficult; the astrologer is the one failing to provide value.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere ex kab ayega mere pass",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight, instead using fear tactics regarding a 'third person' to pressure the user into extending their paid time. The consultation lacked any chart-based personalization or actionable guidance, leaving the user's primary question completely unaddressed."
+ },
+ "usage": {
+  "input_tokens": 15521,
+  "output_tokens": 1752
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#26 [03:54] ASTRO: Ji bilkul main jahan tak dekh pa rahe ho na aap donon ke bich mein jo third person hai na usne kuchh Kiya Hai aap donon ka relationship use dekha nahin ja raha tha\n#31 [04:25] ASTRO: Aap apne time ko thoda impress kar lijiye",
+   "reason": "The astrologer uses fear by claiming a third person has done something ('kisi ne kuch kiya hai') and then immediately pivots to a paid element by asking the user to extend their time ('time ko thoda impress kar lijiye').",
+   "quote_en": "#26 [03:54] ASTRO: Yes, absolutely, as far as I can see, the third person between the two of you has done something; they couldn't stand to see your relationship.\n#31 [04:25] ASTRO: Please manage your time a little better."
+  }
+ }
+}

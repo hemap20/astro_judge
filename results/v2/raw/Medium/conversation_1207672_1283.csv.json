@@ -1,0 +1,307 @@
+{
+ "file": "conversation_1207672_1283.csv",
+ "tier": "Medium",
+ "user_id": "1207672",
+ "ltv": 692.0,
+ "n_msgs": 41,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 4,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": null,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 9,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.56,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 5.67,
+  "B3": 8.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 8,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 30,
+   "avg_words": 13.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message #31, saying 'Main aapki baten samajh sakta hun' after the user shared her struggle with the partner's rejection.",
+    "quotes": [
+     "Main aapki baten samajh sakta hun"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the time of no contact (#17), which is a Type A question as it builds on the user's previous statement about the long gap. The request for hand photos (#37) is a data request, not a question about the user's life.",
+    "quotes": [
+     "Aap exact time bataiye kitne Dinon se baat nahin ho rahi hai aapki"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (#7) and uses them to check the charts (#10, #15, #19, #29).",
+    "quotes": [
+     "Aapke detail ke Aadhar per main aapki kundli open kar raha hun"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading (#12) is about the future (rishte mein sudhar aaega). It lacks a specific marker or chart reason, making it generic.",
+    "quotes": [
+     "Aapki rishte mein sudhar aaega jo aapki baten nahin Ho Pa rahi hai baat hone Lagegi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if the partner will return (#6) and if they will marry (#35). The astrologer gives a positive direction (#36).",
+    "quotes": [
+     "Samay aapka Badal jaega aur aap donon ek dusre se Sath rahenge"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions checking the kundli but fails to explain any specific chart factor (like a planet or dasha) in plain words to explain the situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points like the partner's feelings (#15) and seriousness (#34), which build on the user's concern.",
+    "quotes": [
+     "aapke partner ke andar feeling ho raha energy dikhai de raha hai",
+     "Bilkul aapke lekar vah serious hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives no specific timing or window, only vague promises of improvement.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of the partner throughout the chat.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by suggesting palmistry to confirm the marriage prospect.",
+    "quotes": [
+     "Ek bar Main aapki hastrekha check karna chahunga"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended with a request for photos.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for photos and a promise to provide an exact answer, which gives the user a reason to continue.",
+    "quotes": [
+     "Main aapko exact bataunga ki kya vah ladka aapke jivan Sathi Banega"
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish. No complex technical terms are used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kyaa aap bta shakte ho ki mera bf kab vapis ayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was helpful in validating the user's feelings and maintaining a consistent focus on her relationship concerns. However, the reading lacked depth as it failed to provide any specific chart-based reasons or clear timelines for the predicted outcomes."
+ },
+ "usage": {
+  "input_tokens": 11173,
+  "output_tokens": 1543
+ }
+}

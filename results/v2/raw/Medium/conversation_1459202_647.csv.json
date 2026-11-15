@@ -1,0 +1,290 @@
+{
+ "file": "conversation_1459202_647.csv",
+ "tier": "Medium",
+ "user_id": "1459202",
+ "ltv": 545.0,
+ "n_msgs": 26,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 3,
+  "1.4": 6,
+  "2.1": 7,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 8,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 4.33,
+  "B3": 5.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 18,
+   "avg_words": 6.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     23
+    ],
+    "reason": "The astrologer uses a promise of a guaranteed result ('me theek krwaduga aapka relationship') to push a connection/re-engagement, which implies a paid service or intervention."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's emotional state and the conflict in the relationship, repeating the detail that the partner speaks badly to her.",
+    "quotes": [
+     "Aap bahut jyada emotional ho.",
+     "Lekin wo aapko bahut buri tareeke se baat krte hai right."
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions. Some are Type A (building on the relationship), but the request for the partner's DOB/birthday after the user already said she doesn't know it is Type C.",
+    "quotes": [
+     "Theek hai birthday kab aata hai?"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to help with the relationship, which is relevant, but the user does not have the DOB. The astrologer continues to ask for the birthday after the user stated she doesn't know the DOB.",
+    "quotes": [
+     "Mam koi problem nai aap unka naam or unki date of birth batai",
+     "Theek hai birthday kab aata hai?"
+    ],
+    "score": 6
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to her relationship, and new (the astrologer identifies her emotional nature and the partner's behavior).",
+    "quotes": [
+     "Aap bahut jyada emotional ho.",
+     "Lekin wo aapko bahut buri tareeke se baat krte hai right."
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked why the boyfriend isn't talking. The astrologer does not provide a clear direction or reason, instead focusing on asking for details and promising to fix it.",
+    "quotes": [
+     "Aap wapas se connect krna me theek krwaduga aapka relationship"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart-based reasoning provided in the chat.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds points about her emotional nature and the partner's behavior, using the user's input about the 2-year relationship.",
+    "quotes": [
+     "Aap bahut jyada emotional ho.",
+     "Lekin wo aapko bahut buri tareeke se baat krte hai right."
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistent facts provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer offers to 'fix' the relationship, which is a pitch for a service rather than a practical remedy.",
+    "quotes": [
+     "Aap wapas se connect krna me theek krwaduga aapka relationship"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only has one main question, so this is skipped.",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer, but rather pushes for a paid intervention.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer is repetitive with questions.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a promise to fix the relationship and a general comment, not a reading.",
+    "quotes": [
+     "Aap wapas se connect krna me theek krwaduga aapka relationship",
+     "Aap bahut aache ho lekin wo aapse aache se baat nai krte"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and matches the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera bf mere se baat nahi kar raha h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer helped by validating the user's feelings about her relationship. However, the astrologer hurt the chat by failing to provide a real reading, repeatedly asking for information the user already said she didn't have, and making a promise to 'fix' the relationship, which violates the policy against pressure to pay."
+ },
+ "usage": {
+  "input_tokens": 10616,
+  "output_tokens": 1469
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#23 [04:32] ASTRO: Aap wapas se connect krna me theek krwaduga aapka relationship",
+   "reason": "The astrologer uses a promise of a guaranteed result ('me theek krwaduga aapka relationship') to push a connection/re-engagement, which implies a paid service or intervention.",
+   "quote_en": "#23 [04:32] ASTRO: Please connect again, I will get your relationship fixed."
+  }
+ }
+}

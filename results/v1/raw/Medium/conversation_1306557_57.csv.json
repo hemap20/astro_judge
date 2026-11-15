@@ -1,0 +1,279 @@
+{
+ "file": "conversation_1306557_57.csv",
+ "tier": "Medium",
+ "user_id": "1306557",
+ "ltv": 630.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 6,
+  "1.4": 1,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 6,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 3.5,
+  "B2": 3.43,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.167,
+   "max_words": 49,
+   "avg_words": 20.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information",
+    "reason": "The astrologer is withholding information about the user's question to push for more paid time."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's questions about job and marriage in message 10, but does not name the user's feelings or specific details shared.",
+    "quotes": [
+     "Harsh ji main aapki kundli ko check karke aapko bata rahi hun ki aapki private job rahegi ya FIR government job rahegi aapki shaadi jo hai vah love marriage hogi ya arrange marriage hogi"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the user's crush and job field. These are Type B questions as they could be asked to any user.",
+    "quotes": [
+     "Harsh ji kya aap present time mein kisi ko like karte hain ya FIR aapki koi crush hai aisa kuchh hai kya aapki life mein",
+     "Harsh ji aap government job ki preparation kar rahe hain ki aap teacher field mein preparation kar rahe hain kya ya FIR kisi adar sector mein"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user asks about a girl, but the astrologer never asks for her details, instead using the time to push for more payment.",
+    "quotes": [
+     "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart reasons or markers.",
+    "quotes": [
+     "main jahan tak dekh pa rahi hun na aapke Jo government job ka yog hai vah mujhe Banta hua dikhai de raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction about the job but fails to answer the marriage question, instead pushing for more time.",
+    "quotes": [
+     "aapke Jo government job ka yog hai vah mujhe Banta hua dikhai de raha hai"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'yog' but does not explain it in plain words or link it to the user's life.",
+    "quotes": [
+     "aapke Jo government job ka yog hai vah mujhe Banta hua dikhai de raha hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings are repetitive and do not add depth or use the user's specific details.",
+    "quotes": [
+     "Pahle to aapki private job milane ka mujhe yog dikh raha hai uske bad aapko private job milegi"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the job or marriage.",
+    "quotes": [
+     "agar aapko thoda time Dena padega"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to answer the marriage question fully, instead stalling for time.",
+    "quotes": [
+     "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to withhold information.",
+    "quotes": [
+     "Main aapko bata de rahi hun ki ladki Jo hogi vah kahan se hogi kis Disha se hogi aur dekhne mein kaise hogi uske name kya hoga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the quality of replies is poor.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for more time/payment.",
+    "quotes": [
+     "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Harsh ji main aapki kundli ko check karke aapko bata rahi hun"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Gov job or private, love or arrange marriage, and details about the girl.",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful insights and instead used the consultation to push for more paid time. The lack of specific answers to the user's questions and the withholding of information significantly hurt the experience."
+ },
+ "usage": {
+  "input_tokens": 10582,
+  "output_tokens": 1438
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Aap apne time ko thoda increase kar lijiye taki ladki ke bare mein information",
+   "reason": "The astrologer is withholding information about the user's question to push for more paid time.",
+   "quote_en": "Please increase your time a little so that we can get more information about the girl."
+  }
+ }
+}

@@ -1,0 +1,534 @@
+{
+ "file": "conversation_714527_347.csv",
+ "tier": "Medium",
+ "user_id": "714527",
+ "ltv": 588.0,
+ "n_msgs": 58,
+ "n_astro_msgs": 43,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.33,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 11,
+   "S3": 26,
+   "S4": 201,
+   "S5": 260
+  }
+ },
+ "final": 2.44,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.33,
+  "B2": 3.0,
+  "B3": 4.67,
+  "B4": 6.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 4,
+   "T": 6
+  },
+  "4.1": {
+   "score": 4,
+   "M": 23,
+   "long_frac": 0.023,
+   "max_words": 45,
+   "avg_words": 6.7,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     41,
+     42,
+     47,
+     51
+    ],
+    "paid_idx": [
+     10,
+     13,
+     16,
+     17
+    ],
+    "evidence_idx": [
+     10,
+     13,
+     16,
+     17,
+     41,
+     42,
+     47,
+     51
+    ],
+    "reason": "The astrologer uses fear/guarantee ('100 percent', 'confirm hi') to push the user to perform remedies and repeatedly pressures the user to connect via call/disconnect/reconnect."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 21,
+    "quality": 1,
+    "note": "Generic reading about planet disbalance."
+   },
+   "S5": {
+    "present": true,
+    "idx": 25,
+    "quality": 1,
+    "note": "Follow-up question about exams."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No specific chart connection provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 44,
+    "quality": 0,
+    "note": "Remedies are non-astrological (wallpaper, screen lock) and presented with pressure."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific question about job and provides a generic response.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for field and exam details, but also asks for phone number digits which is irrelevant/Type C.",
+    "quotes": [
+     "Which field",
+     "Aap jo phone number use kar rahe ho usme 2,4,8 digit"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not about another person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone.",
+    "quotes": [
+     "kundli mein bhi partner and career ko lekar acha yog hi but some planet disbalance hi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction for 2026 but relies on pressure/remedies.",
+    "quotes": [
+     "2026 aapke liye kafi achcha opportunities lekar araha hi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No plain words explanation of chart factors.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same generic promise.",
+    "quotes": [
+     "2026 aapke liye kafi achcha opportunities lekar araha hi",
+     "2026 aap k liye yaadgaar rahega"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Promises a 100% result if remedies are followed.",
+    "quotes": [
+     "Agar aap kuch upay follow kare to 100 persant"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies are non-astrological and presented with pressure.",
+    "quotes": [
+     "Wallpaper change",
+     "Screen lock 1151"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "Only one main thread (job).",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the chat is repetitive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are about sending a hand picture.",
+    "quotes": [
+     "Can you send me your right hand pic"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is Hinglish, but astrology terms are not explained.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri job lagegi ya nhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful reading, instead relying on pressure tactics, irrelevant remedies, and repeated requests to connect via call. The chat lacked professional depth and failed to address the user's career concerns with actual astrological insight."
+ },
+ "usage": {
+  "input_tokens": 16066,
+  "output_tokens": 2140
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#10 [01:06] USER: Call kro\n#13 [01:56] USER: Kro ji\n#16 [02:21] ASTRO: Disconnect\n#17 [02:24] ASTRO: Again connect\n#41 [06:37] ASTRO: Agar aap kuch upay follow kare to 💯 persant\n#42 [07:02] ASTRO: Because kundali mein government chance confirm hi but aap ko activate karna hai\n#47 [08:23] ASTRO: Agar jo bta rhi hu wo kar liya to 2026 aap k liye yaadgaar rahega\n#51 [09:05] ASTRO: Confirm ho jayega aap ko",
+   "reason": "The astrologer uses fear/guarantee ('100 percent', 'confirm hi') to push the user to perform remedies and repeatedly pressures the user to connect via call/disconnect/reconnect.",
+   "quote_en": "#10 [01:06] USER: Please call\n#13 [01:56] USER: Please do it\n#16 [02:21] ASTRO: Disconnect\n#17 [02:24] ASTRO: Connect again\n#41 [06:37] ASTRO: If you follow some remedies, then 100 percent\n#42 [07:02] ASTRO: Because in your kundli, government job chances are confirmed, but you need to activate them\n#47 [08:23] ASTRO: If you do what I am telling you, then 2026 will be memorable for you\n#51 [09:05] ASTRO: It will be confirmed for you"
+  }
+ }
+}

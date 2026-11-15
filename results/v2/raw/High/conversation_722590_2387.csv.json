@@ -1,0 +1,330 @@
+{
+ "file": "conversation_722590_2387.csv",
+ "tier": "High",
+ "user_id": "722590",
+ "ltv": 11853.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": 4,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.0,
+  "B2": 3.29,
+  "B3": 2.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 6,
+   "long_frac": 0.143,
+   "max_words": 47,
+   "avg_words": 18.8,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     15,
+     19,
+     20,
+     22,
+     25,
+     26,
+     28
+    ],
+    "reason": "The astrologer uses fear ('negativity', 'self stream low', 'blockages') and urgency ('Navratri ka time bahut achcha hota hai', 'kafi jaruri hai') to push a paid 'job manifestation spell' service."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's job search struggle in message 14.",
+    "quotes": [
+     "Rahul jaisa ki Main dekh Pa rahe ho aapki life mein April 16 Tak acche chances Ban rahe hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions. Message 5 asks for job details (Type B), message 10 asks for a number (Type C - irrelevant), message 11 asks for a photo (Type C - not needed), message 19/20 asks for a video call (Type C - sales pitch).",
+    "quotes": [
+     "Aap mujhe bataen ki aap kaun se job mein hain",
+     "111 Se lekar 999 ke bataiye",
+     "Apni photo share Karen",
+     "Kya aap mujhe video setting per join kar sakte hain"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based reasoning.",
+    "quotes": [
+     "aapki life mein April 16 Tak acche chances Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a date (April 16) but it is not clearly linked to a chart reason.",
+    "quotes": [
+     "Rahul jaisa ki Main dekh Pa rahe ho aapki life mein April 16 Tak acche chances Ban rahe hain"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors are explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are repetitive and focus on selling the spell.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific date (April 16) without a clear chart basis.",
+    "quotes": [
+     "April 16 Tak acche chances Ban rahe hain"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is tied to a sales pitch for a paid spell.",
+    "quotes": [
+     "jald fayde ke liye aap new job manifestation spell kara sakte hain"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question after the job question, but the job question was not fully resolved.",
+    "quotes": [
+     "Sadi ka bara ma janana tha"
+    ],
+    "score": 4
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about 'blockages' to push for a paid service.",
+    "quotes": [
+     "Kyunki aapko abhi kafi negativity aur self stream Lo ho gaya hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant sales pressure stalls the conversation.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the app's limitations and a sales pitch.",
+    "quotes": [
+     "Ham application per healing aur sari chijen clear kar denge"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses formal/bookish requests.",
+    "quotes": [
+     "Kripya lambi gehri sans Le"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mari job kab tak change hogi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a basic timeline for the job change but quickly pivoted to aggressive sales tactics for a paid spell. The constant pressure to purchase services and the lack of meaningful chart-based insights significantly hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 11199,
+  "output_tokens": 1522
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#15 [05:03] ASTRO: Aapko kuchh upay bata deti hun jisse aap karenge to aapko kafi fayda hoga aur jald fayde ke liye aap new job manifestation spell kara sakte hain jo ki Ham video call session per karenge teen bar aur aapki chijen 40 din ke andar kafi badalne lagenge\n#19 [06:37] ASTRO: Kya aap mujhe video setting per join kar sakte hain spell ke liye to aap mujhe\n#20 [06:56] ASTRO: Kyunki Navratri ka time bahut achcha hota hai spell ke liye aap mujhe Somwar ko join kar sakte hain job manifestation ke liye ya FIR Friday ko\n#22 [07:28] ASTRO: Kyunki aapko abhi kafi negativity aur self stream Lo ho gaya hai yani bahut hi blockages chalte chalte aap kafi negative ho gaye ho ise Ham balance karenge aur aapke life mein niyoja le aaenge\n#25 [08:01] ASTRO: Pareshan na ho aap Raat mein bhi mujhe sirf 15 minut bhi join kar sakte ho\n#26 [08:19] ASTRO: Kyunki yah aapke liye kafi jaruri hai\n#28 [09:32] ASTRO: Pareshan Na Ho Main aapko Sahi upay ke sath Sahi manifestation karaungi",
+   "reason": "The astrologer uses fear ('negativity', 'self stream low', 'blockages') and urgency ('Navratri ka time bahut achcha hota hai', 'kafi jaruri hai') to push a paid 'job manifestation spell' service.",
+   "quote_en": "#15 [05:03] ASTRO: I will tell you some remedies that will be very beneficial for you if you follow them, and for quick results, you can get a new job manifestation spell done, which we will do over three video call sessions, and things will start changing significantly for you within 40 days.\n#19 [06:37] ASTRO: Can you join me on a video call for the spell?\n#20 [06:56] ASTRO: Because Navratri is a very good time for spells, you can join me on Monday or Friday for the job manifestation.\n#22 [07:28] ASTRO: Because you are currently facing a lot of negativity and your self-esteem has become low, meaning due to many blockages, you have become quite negative; we will balance this and bring a new job into your life.\n#25 [08:01] ASTRO: Don't worry, you can join me even at night for just 15 minutes.\n#26 [08:19] ASTRO: Because this is very important for you.\n#28 [09:32] ASTRO: Don't worry, I will guide you through the right manifestation along with the right remedies."
+  }
+ }
+}

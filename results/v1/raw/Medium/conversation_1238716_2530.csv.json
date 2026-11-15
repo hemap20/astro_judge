@@ -1,0 +1,268 @@
+{
+ "file": "conversation_1238716_2530.csv",
+ "tier": "Medium",
+ "user_id": "1238716",
+ "ltv": 1065.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 1,
+  "2.3": 7,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 4.24,
+ "buckets": {
+  "B1": 4.0,
+  "B2": 3.29,
+  "B3": 3.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 12,
+   "long_frac": 0.25,
+   "max_words": 47,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific problem regarding marriage cancellation in message #12.",
+    "quotes": [
+     "Ji bilkul shaadi fix nahin Ho Pa rahi hai kyunki aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo of the palm in #17 and #20. This is a Type C question as it is not necessary for a horoscope reading and is used to push a remedy.",
+    "quotes": [
+     "Aap apne hatheli ka pic send kar do"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading in #12 is about the present, new to the user, specific to her situation, and tied to chart factors (Rahu/Shani in 7th house).",
+    "quotes": [
+     "aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai kahin na kahin jis vajah Se acche rishte milte Hain fir bhi jo hai baat aage nahin badh Pa rahi hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked 'Kb tk hoga aisa' and 'Kb tk hogi fix shadi'. The astrologer never provides a time window, instead pivoting to asking for palm photos.",
+    "quotes": [
+     "Aap apne hatheli ka pic send kar do thoda samay kundli se Milan karke kuchh upay batana chahta hun"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage cancellation to Rahu and Shani in the 7th house in plain words.",
+    "quotes": [
+     "aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading in #14 adds new information about the partner's profile and post-marriage life, but it does not use any specific detail provided by the user.",
+    "quotes": [
+     "government wale se hi shaadi Hai ya to Koi name fam wale company mein"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing window was provided despite multiple requests from the user.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a remedy but does not specify what it is, instead using it as a hook to get palm photos.",
+    "quotes": [
+     "thoda sa kuchh remedy kar lo"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's repeated questions about timing and shifts the focus to palmistry.",
+    "quotes": [
+     "Aap apne hatheli ka pic send kar do"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the promise of a remedy as a tease to get palm photos.",
+    "quotes": [
+     "thoda samay kundli se Milan karke kuchh upay batana chahta hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to the repeated requests for photos.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages are requests for palm photos, which is a data request/pressure tactic.",
+    "quotes": [
+     "Aap apne left aur right hand ka pic send karo please",
+     "Donon hathon ka send karo"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like 'kundli' and 'bhav'.",
+    "quotes": [
+     "Ji bilkul shaadi fix nahin Ho Pa rahi hai kyunki aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kb tk hogi fix shadi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a good initial reading linking the user's problem to chart factors. However, the consultation failed to answer the user's repeated questions about timing and instead pivoted to demanding palm photos."
+ },
+ "usage": {
+  "input_tokens": 10490,
+  "output_tokens": 1387
+ }
+}

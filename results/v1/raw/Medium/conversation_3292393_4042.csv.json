@@ -1,0 +1,481 @@
+{
+ "file": "conversation_3292393_4042.csv",
+ "tier": "Medium",
+ "user_id": "3292393",
+ "ltv": 2903.98,
+ "n_msgs": 86,
+ "n_astro_msgs": 53,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 3.75,
+ "buckets": {
+  "B1": 3.5,
+  "B2": 2.57,
+  "B3": 2.67,
+  "B4": 7.0,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 9
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.019,
+   "max_words": 39,
+   "avg_words": 14.4,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's health and marriage concerns in the first chat, but in the second chat, he ignores the user's explicit correction that she is not worried about the past, insisting she is.",
+    "quotes": [
+     "Aap apni health issues aur marriage delay ko lekar Jana chahte ho kya"
+    ],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions about the user's past and feelings that the user explicitly denies or corrects, yet he persists in his own narrative.",
+    "quotes": [
+     "Abhi Koi rishta aapko pasand aaya tha kya Jo ke stuck hai",
+     "Lekin aap emotional to bahut ho yad to Karti hongi usko"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details about the person the user likes, but the user explains it is a married person and not a viable option. The astrologer continues to push for details despite the user's boundary.",
+    "quotes": [
+     "Kuchh details ho to mujhe ek bar share kariye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and the astrologer insists on his own interpretation of the user's feelings despite her direct feedback.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks about her future and marriage, but the astrologer keeps circling back to her past feelings and the married person she mentioned, failing to provide a clear direction.",
+    "quotes": [
+     "Ab mere mn me feelings hi ni us bnde k liye"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions chart terms like 'Kalsarp yog' and 'Shani/Rahu' but does not link them to the user's life in a meaningful way, often using them to justify his incorrect assumptions about her feelings.",
+    "quotes": [
+     "Sabse pahla problem aapki kundli ke marriage house mein Shani aur Rahu ka baithana hi hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats his claims about the user's past and emotional state despite her saying she is focused on the future.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timing for marriage but contradicts the user's own stated reality.",
+    "quotes": [
+     "January se June ka bich ka timing theek nahin tha but abhi ek bahut achcha timing shuru ho chuka hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions remedies but does not provide a clear, actionable plan, instead focusing on the user's emotional state.",
+    "quotes": [
+     "Kuchh Tarika bataunga isko Dhyan se follow karna"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to hold the main thread, constantly diverting back to the user's past feelings instead of addressing her future concerns.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses teases about 'negative things' and 'black magic' to keep the user engaged rather than providing value.",
+    "quotes": [
+     "Jaise kisi ne kuchh Black magic kara ho"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but his constant repetition of the same points makes the chat feel stalled.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a request for details and a repetition of his previous incorrect claims about her emotional state.",
+    "quotes": [
+     "Kuchh details ho to mujhe ek bar share kariye"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses some formal language and insists on his own interpretation of the user's life.",
+    "quotes": [
+     "Manisha ji welcome again"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult, but the astrologer is not engaging with the user's actual input, leading to a disconnect.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "what's d prblm..and kuch acha dikh ra h kya kundali me meri",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 82,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to listen to the user, repeatedly insisting on his own narrative about her past feelings despite her clear corrections. He relied on generic fear-based tactics like 'black magic' and 'Kalsarp yog' instead of providing a helpful, personalized reading."
+ },
+ "usage": {
+  "input_tokens": 12376,
+  "output_tokens": 2301
+ }
+}

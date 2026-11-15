@@ -1,0 +1,304 @@
+{
+ "file": "conversation_1116392_495.csv",
+ "tier": "Medium",
+ "user_id": "1116392",
+ "ltv": 2321.0,
+ "n_msgs": 40,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 9,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 8,
+  "2.5": 7,
+  "2.6": 9,
+  "2.7": 8,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 8.14,
+ "buckets": {
+  "B1": 8.5,
+  "B2": 7.71,
+  "B3": 7.67,
+  "B4": 8.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 9,
+   "long_frac": 0.0,
+   "max_words": 19,
+   "avg_words": 9.3,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about anger in message #23, which the user confirmed in #21.",
+    "quotes": [
+     "Aapko bahot gussa ata hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name (#13), which is a necessary step for matching. No Type C questions were asked.",
+    "quotes": [
+     "Unka naam bataye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name to check the compatibility/possibility of the marriage.",
+    "quotes": [
+     "Unka naam bataye"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the user's anger is specific, new, and relatable, though it lacks a chart reason in the first instance.",
+    "quotes": [
+     "Aapko bahot gussa ata hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about whether the marriage will happen with Suresh.",
+    "quotes": [
+     "Yes possible ho sakti ahi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the user's anger to the partner's emotional energy and the need for a calm partner.",
+    "quotes": [
+     "Suresh ji ki energy kaafi emotional hai aur unhe ek shant partner chahiye"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the partner's emotional nature and provides specific advice on how to handle the relationship.",
+    "quotes": [
+     "Suresh ji ki energy kaafi emotional hai aur unhe ek shant partner chahiye"
+    ],
+    "score": 8
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear age window for marriage.",
+    "quotes": [
+     "Dear apki marriage ki possibility age 28 - 29 me hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is practical and tied to the user's stated problem of anger.",
+    "quotes": [
+     "Purnima ki raat ko ek kaanch ke glass me paani bharke use chat pe ya esi jgh pe rakhe"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the focus on the marriage question throughout the chat.",
+    "quotes": [
+     "Aur rinse rishta bhi fix hone ke chances badhenge"
+    ],
+    "score": 8
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer regarding the partner's emotional nature.",
+    "quotes": [
+     "Suresh ji ki energy kaafi emotional hai aur unhe ek shant partner chahiye"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer remained engaged until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a specific remedy for the user's problem.",
+    "quotes": [
+     "Purnima ki raat ko ek kaanch ke glass me paani bharke use chat pe ya esi jgh pe rakhe"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses the user's own terms.",
+    "quotes": [],
+    "score": 8
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri shadi kab tak hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided clear guidance on the user's marriage prospects and offered a practical, non-paid remedy for anger management. The consultation was helpful because it addressed the user's specific concerns about her partner and her own behavior."
+ },
+ "usage": {
+  "input_tokens": 10783,
+  "output_tokens": 1397
+ }
+}

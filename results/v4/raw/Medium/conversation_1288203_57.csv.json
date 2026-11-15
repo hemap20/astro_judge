@@ -1,0 +1,364 @@
+{
+ "file": "conversation_1288203_57.csv",
+ "tier": "Medium",
+ "user_id": "1288203",
+ "ltv": 1380.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": null,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.71,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 9,
+   "S3": 173,
+   "S4": 223
+  }
+ },
+ "final": 1.98,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.33,
+  "B2": 3.2,
+  "B3": 2.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 12,
+   "long_frac": 0.231,
+   "max_words": 49,
+   "avg_words": 17.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts stated."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     19,
+     20,
+     21
+    ],
+    "paid_idx": [
+     17,
+     18,
+     20,
+     21
+    ],
+    "reason": "The astrologer uses urgency ('please aap ek bar dobara chat join kariye') and pressure to extend the chat to get solutions, which constitutes a paid element."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but lacks warmth or invitation to share."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 15,
+    "quality": 1,
+    "note": "Identifies the concern but only after multiple prompts."
+   },
+   "S4": {
+    "present": true,
+    "idx": 16,
+    "quality": 1,
+    "note": "Generic prediction about struggle."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No personalized prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 20,
+    "quality": 0,
+    "note": "Hook is a pressure pitch to extend the chat."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared their birth details and asked about their future. The astrologer's first reply was a greeting and a request for information, ignoring the user's intent.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth timing twice despite the user saying they don't remember. This is Type C.",
+    "quotes": [
+     "Kishan ji aapki birth timing kya hai please mention kariye",
+     "Birth timing"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Not applicable.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to anyone.",
+    "quotes": [
+     "jo aapke future carrier hoga Na present time mein aapko bahut hi jyada struggle time chal raha hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about the future, instead pivoting to a pitch for more time.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No later readings provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": true,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": null
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "Only one topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks the user to rejoin the chat.",
+    "quotes": [
+     "Jay Kishan ji chat per aaiae"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pressure pitches to extend the chat.",
+    "quotes": [
+     "Jay Kishan ji please chat per aaiae kyunki agar aap chat per nahin aaenge to main aapko details nahin de paungi"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer is pushy.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera life ma aage ka future kay kay hai btayeye",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight and spent the entire consultation pressuring the user to extend the chat. The lack of birth time was used as an excuse to avoid giving a reading."
+ },
+ "usage": {
+  "input_tokens": 15499,
+  "output_tokens": 1461
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#17 [04:00] ASTRO: Aap apne time ko thoda impress kar lijiye taki ham donon ke bich mein aap mujhe pura information Apne bare mein dekh sake aur main aapko usse related solution bata sakun\n#18 [04:11] ASTRO: Jay Kishan ji chat per aaiae\n#19 [04:38] ASTRO: Dekhiae agar aap chat per aaenge to Shayad main aapki problems ko solution bata sakun jo aap problem present time mein kar rahe hain vah karne se aap samle aur ab aur bhi Kai sare jankari Jo aapke man mein abhi present time mein chal rahi hai jisse related\n#20 [04:46] ASTRO: Vah sare jankariyan main aapko Dena chahti hun please aap ek bar dobara chat join kariye\n#21 [05:00] ASTRO: Jay Kishan ji please chat per aaiae kyunki agar aap chat per nahin aaenge to main aapko details nahin de paungi jo ki",
+   "reason": "The astrologer uses urgency ('please aap ek bar dobara chat join kariye') and pressure to extend the chat to get solutions, which constitutes a paid element.",
+   "quote_en": "#17 [04:00] ASTRO: Please provide your birth details so that I can see all your information and provide you with a solution related to it.\n#18 [04:11] ASTRO: Jay Kishan ji, please come to the chat.\n#19 [04:38] ASTRO: See, if you come to the chat, perhaps I can provide solutions to the problems you are currently facing, help you understand them, and address the many other questions currently on your mind.\n#20 [04:46] ASTRO: I want to give you all that information, please join the chat again.\n#21 [05:00] ASTRO: Jay Kishan ji, please come to the chat because if you do not come, I will not be able to provide you with the details."
+  }
+ }
+}

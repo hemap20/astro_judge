@@ -1,0 +1,371 @@
+{
+ "file": "conversation_3141140_670.csv",
+ "tier": "High",
+ "user_id": "3141140",
+ "ltv": 12877.34,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.41,
+ "blueprint": {
+  "score": 3.55,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 15,
+   "S3": 18,
+   "S4": 203,
+   "S5": 220
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 3.5,
+  "B2": 2.14,
+  "B3": 1.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.167,
+   "max_words": 55,
+   "avg_words": 16.1,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     17,
+     18,
+     19
+    ],
+    "paid_idx": [
+     18
+    ],
+    "evidence_idx": [
+     17,
+     18,
+     19
+    ],
+    "reason": "The astrologer uses a guaranteed result ('pakka', '15-20 din ke andar commitment aa jayega') combined with a push to extend the chat ('time ko aap continue kariye') to keep the user paying."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is warm but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 4,
+    "quality": 1,
+    "note": "Identified the question but asked for details already provided."
+   },
+   "S4": {
+    "present": true,
+    "idx": 10,
+    "quality": 1,
+    "note": "Gave a prediction but it is a guaranteed outcome without chart reasoning."
+   },
+   "S5": {
+    "present": true,
+    "idx": 13,
+    "quality": 1,
+    "note": "Follow-up question asked but not tied to the chart."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 21,
+    "quality": 0,
+    "note": "Hook is a tease used after the chat ended to try and get a paid extension."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional context and specific question about the rejection, jumping straight to a generic prediction.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details already provided in the first message.",
+    "quotes": [
+     "Aap unka pura detail send karo"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details but does not use them to provide any reading about the other person's chart.",
+    "quotes": [
+     "Aap unka pura detail send karo"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not specific, provides no chart reason, and is a generic promise of return.",
+    "quotes": [
+     "wapas aane ko lekar ke chances dikhai de rahi hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a guaranteed time frame instead of a direction based on the chart.",
+    "quotes": [
+     "Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading just repeats the promise of return.",
+    "quotes": [
+     "Yah aapki life mein wapas a jaenge"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a specific outcome as certain within a short time frame.",
+    "quotes": [
+     "Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is answered with a guarantee, not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease after the chat ends to try and keep the user engaged.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to keep the chat going after the system ended it.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are guarantees and a tease.",
+    "quotes": [
+     "Yah aapki life mein wapas a jaenge okay Meri bahan Keval do SE teen"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but lacks any astrological depth or explanation.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya woh wapss aayega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any chart-based insight, instead offering false guarantees to keep the user paying. The consultation lacked empathy and professional depth, relying on manipulative tactics rather than astrological guidance."
+ },
+ "usage": {
+  "input_tokens": 15184,
+  "output_tokens": 1603
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#17 [04:45] ASTRO: Dekhiae Meri bahan aapko main clear bata raha hun Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega Lekin\n#18 [04:55] ASTRO: Jaisa main aapko bata raha hun Meri bahana vaisa aapka yah theek hai aapko main kuchh suggestion bata raha hun time ko aap continue Kariye Meri bahan main aapko dekhe Vishwas ke sath bata raha hun\n#19 [05:00] ASTRO: Yah aapki life mein wapas a jaenge okay Meri bahan Keval do SE teen",
+   "reason": "The astrologer uses a guaranteed result ('pakka', '15-20 din ke andar commitment aa jayega') combined with a push to extend the chat ('time ko aap continue kariye') to keep the user paying.",
+   "quote_en": "#17 [04:45] ASTRO: See, my sister, I am telling you clearly that within just 15 to 20 minutes, you will receive a good commitment from their side, but\n#18 [04:55] ASTRO: Just as I am telling you, my sister, this is fine for you. I am giving you some suggestions, continue with the time, my sister. I am telling you this with confidence.\n#19 [05:00] ASTRO: They will come back into your life, okay my sister, just two to three"
+  }
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "file": "conversation_698346_347.csv",
+ "tier": "High",
+ "user_id": "698346",
+ "ltv": 8317.0,
+ "n_msgs": 24,
+ "n_astro_msgs": 18,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 1,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.5,
+ "buckets": {
+  "B1": 1.67,
+  "B2": 1.33,
+  "B3": 1.67,
+  "B4": 5.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 0,
+   "R": null,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 6,
+   "avg_words": 2.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": "No crisis mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": "No identity claim made."
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Wallpaper change ✈️ aeroplane high fly",
+    "reason": "The astrologer is providing arbitrary, superstitious remedies (wallpaper changes, screen lock numbers) that have no basis in astrology and are presented as solutions, which constitutes misleading the user."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": "No specific life events invented."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer never acknowledges the user's details or question, instead sending random numbers and words.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions, only sends cryptic numbers and instructions.",
+    "quotes": [],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user did not ask a question about a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's question is never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reason provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedies provided (wallpaper, screen lock) are not linked to any problem or chart analysis.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not switch topics.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No layer opened.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends random, disconnected messages throughout the chat.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are random numbers, not a reading.",
+    "quotes": [],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not use standard language, but rather cryptic fragments.",
+    "quotes": [],
+    "score": 1
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": null,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any astrological reading or meaningful interaction, instead sending cryptic numbers and random instructions. The consultation was entirely devoid of value and professional conduct."
+ },
+ "usage": {
+  "input_tokens": 10330,
+  "output_tokens": 1113
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Wallpaper change ✈️ aeroplane high fly",
+   "reason": "The astrologer is providing arbitrary, superstitious remedies (wallpaper changes, screen lock numbers) that have no basis in astrology and are presented as solutions, which constitutes misleading the user.",
+   "quote_en": "Wallpaper change ✈️ aeroplane high fly"
+  }
+ }
+}

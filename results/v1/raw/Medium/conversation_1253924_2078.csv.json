@@ -1,0 +1,260 @@
+{
+ "file": "conversation_1253924_2078.csv",
+ "tier": "Medium",
+ "user_id": "1253924",
+ "ltv": 1835.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 11,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.75,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 4.4,
+  "B3": 4.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.091,
+   "max_words": 72,
+   "avg_words": 16.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about his ex-partner in the reading provided in message 15.",
+    "quotes": [
+     "love life se sambandhit Jo present time mein dikkat face karni pad rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex's details (name, DOB, time, place) in messages 16 and 18. These are Type B questions as they are standard for relationship queries.",
+    "quotes": [
+     "agar aap comfortable ho to aap apne ex ka naam date off birth birth time aur janmasthan send kar sakte ho kya"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex's details with a reason (to check the match), but does not use them as the user does not have the birth details.",
+    "quotes": [
+     "agar aap comfortable ho to aap apne ex ka naam date off birth birth time aur janmasthan send kar sakte ho kya"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future (April 2026) and lacks specific chart reasons or details that could be verified as 'new' or 'specific' to the user's current life.",
+    "quotes": [
+     "April 2026 mein rishte se sambandhit Achcha improvement ki sthiti hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific time window for the return of the ex-partner.",
+    "quotes": [
+     "April 2026 mein aapko Apne love relationship se sambandhit positive response milega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli but fails to link it to any specific life event or chart factor in plain words.",
+    "quotes": [
+     "aapki kundli ke anusar April 2026 mein aapko Apne love relationship se sambandhit positive response milega"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific date (April 2026) without a clear chart-based reason, which is a firm prediction.",
+    "quotes": [
+     "April 2026 mein aapko Apne love relationship se sambandhit positive response milega"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user only had one main question.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers of the reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but there are multiple bare acknowledgements.",
+    "quotes": [
+     "Theek hai main check kar raha hun main check Karke aapko bata raha hun"
+    ],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a wait line, leaving the user with no insight.",
+    "quotes": [
+     "Theek hai main check kar raha hun main check Karke aapko bata raha hun"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though it lacks depth.",
+    "quotes": [
+     "love life se sambandhit Jo present time mein dikkat face karni pad rahi hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir Meri ex kab Tak aygi Abhi Tak sa block hu 2 month complete hone wala hai",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear timeline for the user's question, which was helpful. However, the astrologer failed to provide any chart-based reasoning and ended the chat on a wait line, which hurt the user experience."
+ },
+ "usage": {
+  "input_tokens": 10470,
+  "output_tokens": 1328
+ }
+}

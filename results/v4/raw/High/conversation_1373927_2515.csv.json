@@ -1,0 +1,552 @@
+{
+ "file": "conversation_1373927_2515.csv",
+ "tier": "High",
+ "user_id": "1373927",
+ "ltv": 19165.0,
+ "n_msgs": 81,
+ "n_astro_msgs": 46,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 5.42,
+ "blueprint": {
+  "score": 5.48,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.81,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 1,
+   "S3": 2,
+   "S4": 1,
+   "S5": 1,
+   "S6": 1,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 5,
+   "S2": 566,
+   "S3": 18,
+   "S4": 329,
+   "S5": 422,
+   "S6": 439,
+   "S7": 636
+  }
+ },
+ "final": 3.95,
+ "label": "bad",
+ "buckets": {
+  "B1": 7.25,
+  "B2": 4.43,
+  "B3": 3.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 14,
+   "avg_words": 4.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     31,
+     39,
+     60,
+     64
+    ],
+    "paid_idx": [
+     76,
+     77,
+     80
+    ],
+    "evidence_idx": [
+     76,
+     77,
+     80
+    ],
+    "reason": "The astrologer uses fear/urgency regarding the relationship's future and then immediately pivots to a paid call request to resolve the situation."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is polite but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 51,
+    "quality": 1,
+    "note": "Acknowledges the user's situation but lacks depth."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 2,
+    "note": "Identifies the core concern of divorce vs reunion."
+   },
+   "S4": {
+    "present": true,
+    "idx": 31,
+    "quality": 1,
+    "note": "Gives a prediction but it is vague and lacks chart reasoning."
+   },
+   "S5": {
+    "present": true,
+    "idx": 38,
+    "quality": 1,
+    "note": "Asks about the current situation but it is generic."
+   },
+   "S6": {
+    "present": true,
+    "idx": 39,
+    "quality": 1,
+    "note": "Connects to the chart but lacks specific planetary or dasha details."
+   },
+   "S7": {
+    "present": true,
+    "idx": 60,
+    "quality": 1,
+    "note": "Probes into the nature of the issues."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 76,
+    "quality": 0,
+    "note": "The hook is a paid call pitch."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation but does not repeat specific details or name the feeling.",
+    "quotes": [
+     "I can understand that mam"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that are Type B (generic).",
+    "quotes": [
+     "Mee husband details ha mam"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the husband's details and uses them to make a general prediction.",
+    "quotes": [
+     "Mee husband details ha mam"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present but is generic and could apply to any couple in conflict.",
+    "quotes": [
+     "Iddari Jatakam prakaramga challa issues and mind disturbance and temporary separation e undi mam"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about reunion but the answer is inconsistent and vague.",
+    "quotes": [
+     "Ledu ante renuion chances takkuva andi",
+     "Kani malli kalusatru"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'Jatakam' but does not explain any specific chart factors in plain words.",
+    "quotes": [
+     "Iddari Jatakam prakaramga challa issues"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds points about the husband's interest and future support, but they are not linked to specific chart readings.",
+    "quotes": [
+     "Vallaki interested undi mam"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a timeline but it is inconsistent and lacks a clear basis.",
+    "quotes": [
+     "June month nundi set havutaru mam"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical guidance provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer stays on the topic of reunion throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases further information to push for a paid call.",
+    "quotes": [
+     "Call lo chepatanu clear ga mam"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message, but the astrologer pushes for a call.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a pitch for a paid call.",
+    "quotes": [
+     "Call lo chepatanu clear ga mam"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and matches the user's Hinglish/Telugu mix.",
+    "quotes": [
+     "Ardam ayindi mam"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "What are the chances for divorce or reunion?",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided some initial insight but failed to offer any actionable remedies and ultimately used the consultation to push for a paid call. The most helpful part was the initial validation of the user's situation, while the most harmful was the inconsistent prediction and the pressure to move to a paid call."
+ },
+ "usage": {
+  "input_tokens": 16742,
+  "output_tokens": 2251
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#31 [05:29] ASTRO: Ledu ante renuion chances takkuva andi\n#39 [07:19] ASTRO: Iddari Jatakam prakaramga challa issues and mind disturbance and temporary separation e undi mam\n#60 [10:36] ASTRO: Prati chinna chinna vishayam paina koncham issues and disturbance and anger issues vastundi mam\n#64 [11:14] ASTRO: Koncham mind disturbance aithye vastundi mam\n#76 [13:13] ASTRO: Naku emaina call cheyagalla ippudu mam\n#77 [13:19] ASTRO: Call lo chepatanu clear ga mam\n#80 [13:29] ASTRO: Sure mam cheyandi call mam",
+   "reason": "The astrologer uses fear/urgency regarding the relationship's future and then immediately pivots to a paid call request to resolve the situation.",
+   "quote_en": "#31 [05:29] ASTRO: If it's not there, then the chances of reunion are low.\n#39 [07:19] ASTRO: According to both of your Jatakam, there are many issues, mind disturbance, and only a temporary separation, ma'am.\n#60 [10:36] ASTRO: There are some issues, disturbances, and anger issues arising over every small matter, ma'am.\n#64 [11:14] ASTRO: Some mind disturbance is definitely happening, ma'am.\n#76 [13:13] ASTRO: Can you call me now, ma'am?\n#77 [13:19] ASTRO: I will explain it clearly on the call, ma'am.\n#80 [13:29] ASTRO: Sure ma'am, please call, ma'am."
+  }
+ }
+}

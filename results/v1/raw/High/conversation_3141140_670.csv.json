@@ -1,0 +1,274 @@
+{
+ "file": "conversation_3141140_670.csv",
+ "tier": "High",
+ "user_id": "3141140",
+ "ltv": 12877.34,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 4,
+  "1.4": 9,
+  "2.1": 9,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 5.43,
+  "B3": 7.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.167,
+   "max_words": 55,
+   "avg_words": 16.1,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega",
+    "reason": "The astrologer makes a specific, time-bound promise of a commitment, which is a form of false certainty and pressure."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the ex returning and the timing of the possibility.",
+    "quotes": [
+     "wapas aane ko lekar ke chances dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details (Type C) and then asks about misunderstandings (Type B).",
+    "quotes": [
+     "Aap unka pura detail send karo",
+     "Meri bahana aap donon ke bich kuchh mis understanding hua tha kya"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asked for the ex's details and used them to provide a reading about the return.",
+    "quotes": [
+     "Aap unka pura detail send karo"
+    ],
+    "score": 9
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading provides a specific time window for the return, which is a concrete marker.",
+    "quotes": [
+     "July ke last August ke starting Tak possibility jyada dekhne Ko Mil Pa rahi hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the ex returning with a time window.",
+    "quotes": [
+     "July ke last August ke starting Tak possibility jyada dekhne Ko Mil Pa rahi hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reasons are provided in plain words; the astrologer just states the outcome.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about a commitment coming within 15-20 days, using the user's context.",
+    "quotes": [
+     "Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time window but then contradicts it with a 15-20 day promise, which is inconsistent.",
+    "quotes": [
+     "July ke last August ke starting Tak",
+     "Keval 15 se 20 minut din ke andar"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given, just vague suggestions to 'continue' time.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's main question about the ex returning is held throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer at the very end of the chat.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early, but the system ends it.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease about a deeper issue, which is a relevant point.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, though repetitive with 'Meri bahana'.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya woh wapss aayega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a specific time window for the user's concern, which helped build initial trust. However, the astrologer made an unrealistic, high-pressure promise of a commitment within 15-20 days, which severely damaged the quality and credibility of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10510,
+  "output_tokens": 1323
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega",
+   "reason": "The astrologer makes a specific, time-bound promise of a commitment, which is a form of false certainty and pressure.",
+   "quote_en": "Within just 15 to 20 minutes today, you will receive a good commitment from their side."
+  }
+ }
+}

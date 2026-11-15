@@ -1,0 +1,265 @@
+{
+ "file": "conversation_3141140_670.csv",
+ "tier": "High",
+ "user_id": "3141140",
+ "ltv": 12877.34,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.27,
+ "buckets": {
+  "B1": 7.25,
+  "B2": 3.83,
+  "B3": 2.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.167,
+   "max_words": 55,
+   "avg_words": 16.1,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the ex returning in the first reading.",
+    "quotes": [
+     "wapas aane ko lekar ke chances dikhai de rahi hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks about misunderstandings, which is Type B (could be asked to anyone).",
+    "quotes": [
+     "Meri bahana aap donon ke bich kuchh mis understanding hua tha kya"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details, but since the user doesn't have them, the astrologer proceeds with the reading.",
+    "quotes": [
+     "Aap unka pura detail send karo"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the future and lacks a specific chart reason or concrete marker.",
+    "quotes": [
+     "July ke last August ke starting Tak possibility jyada dekhne Ko Mil Pa rahi hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction and time window for the ex's return.",
+    "quotes": [
+     "July ke last August ke starting Tak possibility jyada dekhne Ko Mil Pa rahi hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors (like dasha or grah) are mentioned to explain the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading adds a new point about a commitment coming in 15-20 days.",
+    "quotes": [
+     "Keval 15 se 20 minut din ke andar hi inki taraf se ek achcha Sa commitment a jaega"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time window but promises the return as if it is certain.",
+    "quotes": [
+     "Yah aapki life mein wapas a jaenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice is given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user stays on the same topic (ex/marriage).",
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a deeper reason at the very end without explaining it.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer sends a message after the chat ended, which is not helpful.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease that cannot be followed up on.",
+    "quotes": [
+     "Rishte mein shadi ki baat ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational.",
+    "quotes": [
+     "Meri bahana"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya woh wapss aayega",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a direct answer to the user's question about their ex-partner. However, the lack of chart-based reasoning and the use of vague, potentially misleading promises hurt the quality of the consultation."
+ },
+ "usage": {
+  "input_tokens": 10711,
+  "output_tokens": 1230
+ }
+}

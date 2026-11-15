@@ -1,0 +1,240 @@
+{
+ "file": "conversation_1418425_1305.csv",
+ "tier": "Medium",
+ "user_id": "1418425",
+ "ltv": 2850.0,
+ "n_msgs": 14,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.27,
+ "buckets": {
+  "B1": 7.75,
+  "B2": 5.0,
+  "B3": 4.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 8.0,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about money being stuck in the family by stating there are chances of recovery, but fails to name the feeling or build on the specific details of the situation.",
+    "quotes": [
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the names of the people involved, which is a Type A question as it builds directly on the user's problem of money being stuck with a specific family.",
+    "quotes": [
+     "Jiske pass aapka Paisa fasa Hai unka Naam bataiye"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the names of the people involved to check the situation, which is a valid reason. However, the astrologer does not use the names to provide a reading about those individuals, just says they will check.",
+    "quotes": [
+     "Jiske pass aapka Paisa fasa Hai unka Naam bataiye"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but it is generic and lacks a specific chart reason or detail that would make it unique to the user's situation.",
+    "quotes": [
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about money stuck in a family, and the astrologer provided a direction (chances of recovery) without the user needing to repeat the question.",
+    "quotes": [
+     "Ek pariwar me mere 30-35 lakh rs fans gaye h",
+     "Aapka Paisa nikalne ke chances hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no chart reason provided in plain words for the reading given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or window was provided for the recovery of the money.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stayed on the same topic throughout the chat.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a next layer or provide further insight.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a wait line which stalls the chat.",
+    "quotes": [
+     "Aap aise hi intezar karo"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a wait line, which provides no value or reason to return.",
+    "quotes": [
+     "Aap aise hi intezar karo"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Ek pariwar me mere 30-35 lakh rs fans gaye h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was polite and acknowledged the user's problem, but failed to provide any meaningful astrological insight or chart-based reasoning. The chat was hurt by the lack of depth and the use of stalling messages instead of providing a concrete reading."
+ },
+ "usage": {
+  "input_tokens": 10412,
+  "output_tokens": 1172
+ }
+}

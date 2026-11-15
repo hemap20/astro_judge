@@ -1,0 +1,514 @@
+{
+ "file": "conversation_1053785_226.csv",
+ "tier": "High",
+ "user_id": "1053785",
+ "ltv": 20520.32,
+ "n_msgs": 142,
+ "n_astro_msgs": 57,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": 7,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 6
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.43,
+  "B3": 5.67,
+  "B4": 6.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 8,
+   "long_frac": 0.035,
+   "max_words": 39,
+   "avg_words": 7.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 2,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "My prediction always right",
+    "reason": "The astrologer claims 100% accuracy, which is a form of false promise/guarantee."
+   },
+   "G4": {
+    "fail": true,
+    "quote": "energy shows u are egoistic and flirty character",
+    "reason": "The astrologer makes an unfounded, negative character judgment about the user as a fact."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about Jen's communication issues in message 42, but fails to name the user's feeling of being unsupported until later.",
+    "quotes": [
+     "relationship may be going through a difficult or challenging phase. There could be emotional distance, misunderstandings, stress, or a feeling of neglect from one side."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name (Type A) and asks what the user wants to know (Type B). No Type C questions were asked.",
+    "quotes": [
+     "Tell me her name",
+     "What do you want to know about her"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name to provide a reading, which is appropriate.",
+    "quotes": [
+     "Tell me her name"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about the relationship being in a difficult phase is relatable and specific to the user's situation.",
+    "quotes": [
+     "relationship may be going through a difficult or challenging phase. There could be emotional distance, misunderstandings, stress, or a feeling of neglect from one side."
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked for a Yes/No regarding Jen. The astrologer eventually provided a 'No' in message 102.",
+    "quotes": [
+     "About jen",
+     "No"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'energy' and 'cards' but fails to link the reading to any specific chart factors or plain-worded astrological concepts.",
+    "quotes": [
+     "That is all the guidance that cards says"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the relationship dynamics and the timeline, building on the user's inputs.",
+    "quotes": [
+     "She is not be completely sure about her feelings",
+     "May 2026 to august 2026"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window for the timeline, though it is quite far out.",
+    "quotes": [
+     "May 2026 to august 2026"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice on communication.",
+    "quotes": [
+     "You should try to communicate calmly and patiently, without pressure."
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the relationship questions throughout the chat.",
+    "quotes": [
+     "relationship may be going through a difficult or challenging phase."
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer regarding the timeline and the conditions for it to improve.",
+    "quotes": [
+     "but if she thinks that u are a loyal person then this time decreases"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely, though the tone becomes defensive.",
+    "quotes": null,
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a mix of defensive remarks and a final question from the user, ending on a somewhat unresolved note.",
+    "quotes": [
+     "Don't go on my personal matters..."
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, though the astrologer uses 'cards' and 'energy' rather than specific astrological terms.",
+    "quotes": null,
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user was not difficult in a way that triggered the specific rubric, but the astrologer became defensive when asked about personal experience.",
+    "quotes": [
+     "Don't go on my personal matters..."
+    ],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "can u tell my career future",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 133,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 135,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 138,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 140,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided helpful insights into the relationship dynamics and a timeline for the user's concerns. However, the consultation was marred by the astrologer's defensive behavior, unprofessional claims of 100% accuracy, and unfounded negative character judgments about the user."
+ },
+ "usage": {
+  "input_tokens": 12898,
+  "output_tokens": 2281
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "My prediction always right",
+   "reason": "The astrologer claims 100% accuracy, which is a form of false promise/guarantee.",
+   "quote_en": "My prediction is always right"
+  },
+  "G4": {
+   "quote": "energy shows u are egoistic and flirty character",
+   "reason": "The astrologer makes an unfounded, negative character judgment about the user as a fact.",
+   "quote_en": "The energy shows you have an egoistic and flirty character"
+  }
+ }
+}

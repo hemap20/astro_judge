@@ -1,0 +1,404 @@
+{
+ "file": "conversation_1680677_1931.csv",
+ "tier": "High",
+ "user_id": "1680677",
+ "ltv": 7690.06,
+ "n_msgs": 69,
+ "n_astro_msgs": 36,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 3,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 4.25,
+  "B2": 3.43,
+  "B3": 3.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 5,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.0,
+   "max_words": 20,
+   "avg_words": 7.4,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Wapas aaega main bol raha hun wapas aana Hi padega use",
+    "reason": "The astrologer makes a definitive, non-astrological promise that the person will return, which creates false certainty and pressure."
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation regarding the breakup and the third person, but the response is generic and lacks depth.",
+    "quotes": [
+     "Han ji third person Puri tarike se involve hai aap donon ke bich"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, some of which are repetitive or could be asked to any user (Type B).",
+    "quotes": [
+     "Kya koi aapka partner tha",
+     "Ek bar aap mujhe uska naam bataiye",
+     "Kya hua tha last time jab aapki baat hui thi",
+     "Main yah poochh raha hun third person kaun hai"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's name and DOB, but fails to use the details effectively to provide a reading, instead making a blind promise.",
+    "quotes": [
+     "Ek bar aap mujhe uska naam bataiye aur uski date off birth bhi aapko pata Hai to mujhe bataiye"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights.",
+    "quotes": [
+     "Aapki kundli mein shaadi ka yog present time mein active hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window for marriage, but it is not supported by a clear chart reason.",
+    "quotes": [
+     "October 2026 se march 2027 ke bich"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'yog' but does not explain it in plain words linked to the user's life.",
+    "quotes": [
+     "Aapki kundli mein shaadi ka yog present time mein active hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points but they are not built on the user's specific details in a meaningful way.",
+    "quotes": [
+     "Achha hoga",
+     "Loyel hoga"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time window but makes a promise about the ex-partner returning, which is problematic.",
+    "quotes": [
+     "October 2026 se march 2027 ke bich",
+     "Wapas aaega main bol raha hun wapas aana Hi padega use"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No practical remedy or advice is given; the astrologer just insists the person will return.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps switching between the ex-partner and the future marriage, causing confusion.",
+    "quotes": [
+     "Baki Kisi aur ke bare mein abhi aap mat sochiye"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases information about the third person without delivering a clear insight.",
+    "quotes": [
+     "Main yah poochh raha hun third person kaun hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to repetitive questioning.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are repetitive questions about the third person, providing no closure or value.",
+    "quotes": [
+     "Main yah poochh raha hun third person kaun hai"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, but the content is poor.",
+    "quotes": [
+     "Achha hoga",
+     "Loyel hoga"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one failing to provide value.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "meri shadi kb tak hogi or kaise insan se hogi",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide meaningful insights, instead relying on repetitive questioning and making unrealistic promises about the user's ex-partner. The consultation lacked depth and failed to address the user's primary concerns with professional astrological guidance."
+ },
+ "usage": {
+  "input_tokens": 11451,
+  "output_tokens": 1844
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Wapas aaega main bol raha hun wapas aana Hi padega use",
+   "reason": "The astrologer makes a definitive, non-astrological promise that the person will return, which creates false certainty and pressure.",
+   "quote_en": "He will come back, I am telling you, he will have to come back."
+  }
+ }
+}

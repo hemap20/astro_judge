@@ -1,0 +1,246 @@
+{
+ "file": "conversation_216966_748.csv",
+ "tier": "High",
+ "user_id": "216966",
+ "ltv": 24809.0,
+ "n_msgs": 21,
+ "n_astro_msgs": 8,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 7,
+  "2.2": 4,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 1,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 8,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 5.71,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 4.86,
+  "B3": 4.33,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 0,
+   "T": 0
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.125,
+   "max_words": 39,
+   "avg_words": 15.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message #15 by mentioning the 'detachment' and 'self doubt' the user is experiencing.",
+    "quotes": [
+     "detachment jo hua hai apke apke beloved person ke saath vo ekdam sudden tha aur apko ek self doubt de kar chala gaya hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions throughout the chat. The astrologer only gives instructions or readings.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the partner's birth details, only uses the name provided by the user. The reading is based on the user's chart.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading in #15 is about the present, new (the user didn't mention 'detachment' or 'self doubt'), specific, and tied to the user's chart.",
+    "quotes": [
+     "Agar mein apke grahon ka analysis karun toh apke planets ki sthiti yeh dikhati hai detachment jo hua hai apke apke beloved person ke saath vo ekdam sudden tha"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if he will come back. The astrologer answers that reunion is possible but immediately pivots to a demand for a task.",
+    "quotes": [
+     "Dekhiye app dono ka reunion possible hai but uske appko sab se pehle ek kaam karna hoga ji"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'shukra grah' and '9th house' in #18, but does not explain them in plain words for the user's life.",
+    "quotes": [
+     "apka shukra grah 9th house mein gochar kar rah hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading in #18 adds a new point (connection via Venus) and uses the user's detail (the partner is distant).",
+    "quotes": [
+     "App dono abhi bhi connected ho ek dusre se becoz apka shukra grah 9th house mein gochar kar rah hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing or window is provided for the reunion.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a task is needed for the reunion but does not specify what it is, creating a cliffhanger/pressure.",
+    "quotes": [
+     "uske appko sab se pehle ek kaam karna hoga ji"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the relationship throughout.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a next layer by stating a task is required for the reunion, but it is used as a hook rather than a helpful next step.",
+    "quotes": [
+     "uske appko sab se pehle ek kaam karna hoga ji"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the chat ended when time ran out.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a hook for a task, which is a pressure tactic/tease rather than a reading.",
+    "quotes": [
+     "Dekhiye app dono ka reunion possible hai but uske appko sab se pehle ek kaam karna hoga ji"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Wo muje se abhi b prem krta hai pyar krta he? Bhaiya kya wo ayenge wapas aana chahte he life me or shadi?",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a decent initial reading that resonated with the user's situation. However, the consultation was marred by the astrologer using a 'task' as a hook to keep the user engaged without providing actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 10500,
+  "output_tokens": 1341
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "file": "conversation_1070009_2329.csv",
+ "tier": "Medium",
+ "user_id": "1070009",
+ "ltv": 4011.0,
+ "n_msgs": 26,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": null,
+  "1.4": 1,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 6,
+  "2.5": 7,
+  "2.6": 6,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.66,
+ "buckets": {
+  "B1": 6.0,
+  "B2": 6.0,
+  "B3": 6.33,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 8,
+   "M": 15,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.7,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about their partner returning by addressing the connection status and the reason for the distance.",
+    "quotes": [
+     "connection abhi pura khatam nahi hua hai",
+     "ego ki wajah se problem hui hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks no questions; the user initiates all topics.",
+    "quotes": [],
+    "score": null
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer never asks for the partner's name or birth details, which are necessary for a specific reading about a relationship.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/past (ego issues), but it is generic and lacks a specific chart reason or unique marker.",
+    "quotes": [
+     "ego ki wajah se problem hui hai"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks when the partner will return. The astrologer provides a time window and explains why it isn't urgent.",
+    "quotes": [
+     "2-4 month ki energy hai",
+     "urgently chance nahi hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors (planets, dasha, etc.) are mentioned; the reading is purely intuitive/tarot-based.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points (attitude softening, contact) but does not use specific details provided by the user.",
+    "quotes": [
+     "attitude soft hoga unka",
+     "contact karegi wo aapse"
+    ],
+    "score": 6
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a window (2-4 months) and maintains consistency throughout the chat.",
+    "quotes": [
+     "2-4 month ki energy hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice to put in effort, though it is generic.",
+    "quotes": [
+     "efforts lagane padenge aapko"
+    ],
+    "score": 6
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user stays on one main thread (partner returning).",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer; they only respond to the user's questions.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent, and every reply provided some form of reading or guidance.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message provides a reading about stability, which is a relevant point to end on.",
+    "quotes": [
+     "stability rahegi"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kabtak bapos ayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a consistent timeline and maintained a helpful tone throughout the consultation. However, the reading lacked depth as it failed to incorporate any chart-based insights or request necessary details about the partner."
+ },
+ "usage": {
+  "input_tokens": 10381,
+  "output_tokens": 1233
+ }
+}

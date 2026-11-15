@@ -1,0 +1,264 @@
+{
+ "file": "conversation_770487_1117.csv",
+ "tier": "Low",
+ "user_id": "770487",
+ "ltv": 270.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 1,
+  "2.4": 7,
+  "2.5": 6,
+  "2.6": null,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 8,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.96,
+ "buckets": {
+  "B1": 5.33,
+  "B2": 4.83,
+  "B3": 6.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 0,
+   "R": 2,
+   "T": 3
+  },
+  "4.1": {
+   "score": 8,
+   "M": 12,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 12.0,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific worry about the number of marriages or children, instead focusing on chart data.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks if the user is Manglik (Type C, as it's a chart fact) and repeatedly asks about fights (Type B/A).",
+    "quotes": [
+     "Aapko pata hai aapki kundli manglik hai",
+     "Aap donon ke bich mein jhagade hote hain ya nahin aap hamen clear kijiye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about fights is specific and relatable to the user's situation, but it lacks a clear chart reason linked to the user's life in the first reading.",
+    "quotes": [
+     "Aap donon ke bich mein jhagade hue honge"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question about the number of marriages by predicting a divorce and a second marriage.",
+    "quotes": [
+     "aapke kundli mein do shaadi hogi",
+     "Yah jhagada aapko divorce dilaega ek din uske bad dusri shaadi hogi"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Mangal and the 4th house, but does not explain what this means for the user's life in plain words.",
+    "quotes": [
+     "aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about family issues and being blamed, which builds on the user's confirmation of fights.",
+    "quotes": [
+     "Aapke family mein kisi se aapki baat nahin Banti hogi",
+     "Aap galtiyan bhi nahin karti Hain fir bhi aapko Doshi thehraya jata hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer predicts a divorce and second marriage without a specific time window.",
+    "quotes": [
+     "Yah jhagada aapko divorce dilaega ek din uske bad dusri shaadi hogi"
+    ],
+    "score": 6
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question and ignores the question about children entirely.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open a new layer; the chat ends on a reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide readings until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a reading about the user being blamed, which is relevant to her situation.",
+    "quotes": [
+     "Aap galtiyan bhi nahin karti Hain fir bhi aapko Doshi thehraya jata hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses 'chauthe bhav' and 'manglik dosh' without explaining them in plain language.",
+    "quotes": [
+     "aapke chauthe bhav mein Mangal baithe hue hain"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri kitni shaadi hogi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's marital conflict and provided a direct answer to the marriage question. However, the astrologer failed to address the user's question about children and used technical astrological terms without clear explanations."
+ },
+ "usage": {
+  "input_tokens": 10507,
+  "output_tokens": 1290
+ }
+}

@@ -1,0 +1,266 @@
+{
+ "file": "conversation_1026645_752.csv",
+ "tier": "Low",
+ "user_id": "1026645",
+ "ltv": 141.6,
+ "n_msgs": 19,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 8,
+  "2.1": 7,
+  "2.2": 7,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.04,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 6.33,
+  "B3": 5.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 5
+  },
+  "4.1": {
+   "score": 4,
+   "M": 11,
+   "long_frac": 0.167,
+   "max_words": 90,
+   "avg_words": 20.7,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's question about Mihir in message 14, but does not name the feeling or build on the specific concern of him returning.",
+    "quotes": [
+     "Vaise aage badhane ka Yog To Hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and then asks if they are currently having problems (Type B).",
+    "quotes": [
+     "Unka pura detail dijiye",
+     "Yah batao present time mein acche se attachment hai ya problem chal rahi hai"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details with a reason (to check the kundli) and uses the name Mihir.",
+    "quotes": [
+     "Unka pura detail dijiye Naam aur date off birth",
+     "Mihir ke sath mera jeevan age badhega"
+    ],
+    "score": 8
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading mentions a 'Bandhan Yog' and negative energy, which is specific and tied to a chart reason, though it is somewhat generic.",
+    "quotes": [
+     "Pancham sthan se jo Bandhan Yog lag raha hai vah aapke jivan mein problem create kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction regarding the relationship potential.",
+    "quotes": [
+     "Vaise aage badhane ka Yog To Hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the life situation to a chart factor (Pancham sthan/Bandhan Yog).",
+    "quotes": [
+     "Pancham sthan se jo Bandhan Yog lag raha hai vah aapke jivan mein problem create kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds a new point about negative energy and the partner's personality.",
+    "quotes": [
+     "unki life se jo negative energy prapt ho rahi hai",
+     "vah kisi bhi chij ka kahana man lete Hain"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No specific timing window is provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only has one main thread.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a negative point about the partner to keep the user engaged.",
+    "quotes": [
+     "Main uski life mein ek chij Sabse Badi important chij dekh raha hun"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the final message is a pitch to call.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pitch to call, which is not a reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms.",
+    "quotes": [
+     "Pancham sthan",
+     "Bandhan Yog"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger detected.",
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mihir ke sath mera jeevan age badhega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the relationship concern and provided a chart-based perspective. However, the consultation ended with a push to move to a call rather than providing a complete reading or actionable guidance."
+ },
+ "usage": {
+  "input_tokens": 10516,
+  "output_tokens": 1250
+ }
+}

@@ -1,0 +1,424 @@
+{
+ "file": "conversation_1422076_285.csv",
+ "tier": "Medium",
+ "user_id": "1422076",
+ "ltv": 3296.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 3,
+  "2.1": 3,
+  "2.2": 3,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 3,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.43,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 14,
+   "S3": 21
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 4.5,
+  "B2": 1.86,
+  "B3": 1.67,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.095,
+   "max_words": 31,
+   "avg_words": 15.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     14,
+     15,
+     17,
+     19,
+     26
+    ],
+    "paid_idx": [
+     21,
+     27
+    ],
+    "evidence_idx": [
+     17,
+     21
+    ],
+    "reason": "The astrologer uses fear (claiming marriage will never happen, listing multiple doshas) to pressure the user into paying for a mantra jaap service."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Asks for the question but does not acknowledge the user's specific concern."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 0,
+    "note": "Prediction is fear-based and negative."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": true,
+    "idx": 15,
+    "quality": 0,
+    "note": "Uses fear-based terminology to create pressure."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 20,
+    "quality": 0,
+    "note": "Remedy is tied to a paid service pitch."
+   },
+   "S9": {
+    "present": true,
+    "idx": 21,
+    "quality": 0,
+    "note": "Hook is a paid pitch for mantra jaap."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional concern and immediately demands details.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or demands more details without building rapport.",
+    "quotes": [
+     "ladke ki detail batana padega"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for details but uses them to create fear and sell a service.",
+    "quotes": [
+     "ladke ki detail batana padega"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is fear-based and not relatable.",
+    "quotes": [
+     "Isse marriage bilkul bhi nahin hogi"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers with a negative prediction contingent on a paid service.",
+    "quotes": [
+     "Isse marriage bilkul bhi nahin hogi"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Lists doshas to create fear rather than explaining them in plain words.",
+    "quotes": [
+     "Aapki Kundli mein To kalsrp dosh Manglik dosh Pitur dosh"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same fear-based narrative.",
+    "quotes": [
+     "Manglik dosh ko Sahi karoge To jarur marriage hoga"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Promises marriage if the paid remedy is done, which is a guarantee.",
+    "quotes": [
+     "Manglik dosh ko Sahi karoge To jarur marriage hoga"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid service pitch.",
+    "quotes": [
+     "Main Mantra Jaap karke Sahi kar dungi"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question is answered with a negative, fear-based condition.",
+    "quotes": [
+     "Isse marriage bilkul bhi nahin hogi"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The next layer is opened through fear and a paid pitch.",
+    "quotes": [
+     "Main Mantra Jaap karke Sahi kar dungi"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for more time/money.",
+    "quotes": [
+     "aapko hi Samay badhana padega"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a pressure pitch for a paid service.",
+    "quotes": [
+     "Aap mere ko fir se connect karoge To Main Mantra Jaap kar dungi"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses fear-based terminology without explanation.",
+    "quotes": [
+     "kalsrp dosh Manglik dosh Pitur dosh"
+    ],
+    "score": 3
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Jisse mai chahti hun usse hi merishadi hogi ya nahi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer used fear-based tactics and multiple doshas to pressure the user into paying for a mantra jaap service. This approach completely undermined the consultation and failed to provide any genuine astrological insight or emotional support."
+ },
+ "usage": {
+  "input_tokens": 15438,
+  "output_tokens": 1759
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#17 [03:29] ASTRO: Is chij Ko Nahin hataoge tab tak marriage Nahin hogi aap donon ki bilkul Bhi Nahin\n#21 [04:03] ASTRO: Ya to aap mere ko 10:15 minut ka time doge fir se connect karoge To Main Mantra Jaap karke Sahi kar dungi FIR Koi dikkat Nahin aaegi jaisa aapka decision Ho",
+   "reason": "The astrologer uses fear (claiming marriage will never happen, listing multiple doshas) to pressure the user into paying for a mantra jaap service.",
+   "quote_en": "#17 [03:29] ASTRO: Until you remove this thing, there will be no marriage between you two, absolutely none.\n#21 [04:03] ASTRO: Either you give me 10-15 minutes and reconnect, then I will perform the Mantra Jaap and fix it, and then there won't be any issues. Whatever you decide."
+  }
+ }
+}

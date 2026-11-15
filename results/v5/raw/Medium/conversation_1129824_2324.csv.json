@@ -1,0 +1,601 @@
+{
+ "file": "conversation_1129824_2324.csv",
+ "tier": "Medium",
+ "user_id": "1129824",
+ "ltv": 753.0,
+ "n_msgs": 47,
+ "n_astro_msgs": 33,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.46,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.667,
+  "length_bucket_min": 10,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 14,
+   "S3": 120,
+   "S4": 324,
+   "S5": 68
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.33,
+  "B2": 3.5,
+  "B3": 5.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.091,
+   "max_words": 43,
+   "avg_words": 11.8,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     27
+    ],
+    "paid_idx": [
+     24,
+     25,
+     26,
+     28,
+     30,
+     34,
+     35,
+     41,
+     42,
+     43,
+     44,
+     46
+    ],
+    "reason": "The astrologer repeatedly pushes for a video call to perform a 'healing process' and 'puja' (paid elements) while using fear/urgency by claiming there is a 'blockage' (G3b).",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Identified the concern but asked for details already provided or irrelevant."
+   },
+   "S4": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Gave a generic prediction for 2026 without chart connection."
+   },
+   "S5": {
+    "present": true,
+    "idx": 9,
+    "quality": 1,
+    "note": "Follow-up questions were generic and not tied to the user's specific situation."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedies offered are paid services/rituals."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook; only pushed for a paid video call."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's worry or feeling, instead immediately asking for details.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, many of which are Type C (asking for details already provided or irrelevant).",
+    "quotes": [
+     "Kab aapane cricket kiya tha",
+     "YouTube channel start kab kiya tha tumne",
+     "Kitne subscriber hain abhi",
+     "Channel ka naam kya hai",
+     "Kya content banate"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 9,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 11,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 12,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 13,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 14,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading is generic and lacks any chart-based reason or specific marker.",
+    "quotes": [
+     "2026 tumhare YouTube channel ke liye bahut achcha rahega"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 23,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The main question is answered with a vague time window (2026) but is immediately followed by a pitch for a paid video call.",
+    "quotes": [
+     "Mera YouTube channel Hai success kab hoga",
+     "2026 tumhare YouTube channel ke liye bahut achcha rahega"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 23,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart-based reasons provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are not provided; the astrologer only pushes for a paid call.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a vague window (2026) without any chart basis.",
+    "quotes": [
+     "2026 tumhare YouTube channel ke liye bahut achcha rahega"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedies offered are paid services (healing/puja).",
+    "quotes": [
+     "Healing karvao Apne channel ka",
+     "Puja paath karna hai tumhara"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened; only a pitch for a paid call.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly asks for replies and pushes for a call, stalling the chat.",
+    "quotes": [
+     "Reply karte rahiye thoda jaldi se",
+     "Reply karo reply kyon nahin kar rahe ho"
+    ],
+    "score": 4,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are instructions on how to pay/call, not a reading.",
+    "quotes": [
+     "Puja paath karna hai tumhara aur healing karna hai",
+     "sari chijen bataenge Ham aapko"
+    ],
+    "score": 3,
+    "checks": {}
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses formal/bookish language and pushes for a paid call.",
+    "quotes": [
+     "Main chhipkali hun",
+     "Healing karvao Apne channel ka"
+    ],
+    "score": 3,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera YouTube channel Hai success kab hoga",
+  "main_question_idx": 7,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide a meaningful consultation, instead repeatedly pressuring the user to pay for a video call for 'healing' and 'puja'. The chat was dominated by irrelevant data requests and aggressive sales tactics rather than astrological insight."
+ },
+ "usage": {
+  "input_tokens": 17373,
+  "output_tokens": 2517
+ },
+ "reference": {
+  "bare_acks": 2,
+  "longest_ack_run": 1,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": null,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 3,
+   "3.2": 4
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#24 [05:48] ASTRO: Kya tum abhi video call kar sakte ho\n#25 [06:00] ASTRO: Video call karo vahan per Main ek healing ka process hai vah kar dungi aur aapko kuchh tric bataungi vah karo\n#26 [06:06] ASTRO: Healing karvao Apne channel ka\n#27 [06:18] ASTRO: Bahut sal se mehnat kar rahe ho but aapke mehnat kafi acche Hain result aapko isliye nahin mil raha hai kyunki blockage ja raha hai\n#28 [06:39] ASTRO: 10 se 15 minut ka ek process Hai video call per jaisa bolungi vaisa karna 3 mahine ke andar tumhara channel monetize ho jaega\n#30 [07:26] ASTRO: Piche teen char logon ka session Maine Rakha Hai to aapke chat disconnect hone ke bad unka healing karungi video call per aur usi mein Lage rahoge to tumhara bhi ho jaega\n#34 [09:06] ASTRO: Abhi aap chat disconnect Karti video call per aao 10 minut ke liye\n#35 [09:14] ASTRO: Vahan per tumhara Puja kar dungi 6 mahine ke andar tumhara channel chal jaega\n#41 [11:38] ASTRO: Jahan se aapane chat Kiya Hai vahin per jaaiye vahan per teen option hai audio call chat aur video call\n#42 [11:42] ASTRO: Vahan se aap mujhe video call kar sakte ho\n#43 [11:49] ASTRO: Video call ka option milega aapko aap disconnect karke check karo\n#44 [12:13] ASTRO: Video call per 10 minut ke liye connect karna kyunki video call thoda jaldi se disconnect ho jata hai to pura process continue hone Tak 10 se 15 minut lag jaega to 10 se 15 minut ka hi call lekar aana\n#46 [12:27] ASTRO: Puja paath karna hai tumhara aur healing karna hai aur kaise kis time per kitne baje upload karna hai sari chijen bataenge Ham aapko",
+   "reason": "The astrologer repeatedly pushes for a video call to perform a 'healing process' and 'puja' (paid elements) while using fear/urgency by claiming there is a 'blockage' (G3b).",
+   "quote_en": {
+    "#24 [05:48] ASTRO:": "Can you do a video call right now?",
+    "#25 [06:00] ASTRO:": "Start a video call. I will perform a healing process there and tell you some tricks, follow them.",
+    "#26 [06:06] ASTRO:": "Get your channel healed.",
+    "#27 [06:18] ASTRO:": "You have been working hard for many years, but you are not getting good results because there is a blockage.",
+    "#28 [06:39] ASTRO:": "It is a 10 to 15-minute process on a video call. Do as I say, and your channel will be monetized within 3 months.",
+    "#30 [07:26] ASTRO:": "I have sessions scheduled for three or four people after this, so after your chat disconnects, I will perform their healing on a video call, and if you stay engaged in that, yours will be done too.",
+    "#34 [09:06] ASTRO:": "Disconnect the chat now and come on a video call for 10 minutes.",
+    "#35 [09:14] ASTRO:": "I will perform your pooja there, and your channel will take off within 6 months.",
+    "#41 [11:38] ASTRO:": "Go to where you started the chat; there are three options there: audio call, chat, and video call.",
+    "#42 [11:42] ASTRO:": "You can video call me from there.",
+    "#43 [11:49] ASTRO:": "You will find the video call option, disconnect and check.",
+    "#44 [12:13] ASTRO:": "Connect for 10 minutes on a video call because the video call disconnects a bit quickly, so it will take 10 to 15 minutes to complete the whole process, so come prepared for a 10 to 15-minute call.",
+    "#46 [12:27] ASTRO:": "I need to perform your pooja and healing, and I will tell you everything, including how and at what time you should upload."
+   }
+  }
+ }
+}

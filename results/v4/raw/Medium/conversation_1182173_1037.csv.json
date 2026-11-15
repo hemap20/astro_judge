@@ -1,0 +1,405 @@
+{
+ "file": "conversation_1182173_1037.csv",
+ "tier": "Medium",
+ "user_id": "1182173",
+ "ltv": 2356.0,
+ "n_msgs": 26,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 3,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.14,
+ "blueprint": {
+  "score": 1.3,
+  "coverage": 0.056,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 0,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 6
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.0,
+  "B2": 1.57,
+  "B3": 1.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 9,
+   "R": null,
+   "T": 9
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.048,
+   "max_words": 40,
+   "avg_words": 7.5,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No self-harm mentioned."
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No identity claim made."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": "No invented facts about life stated."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     16,
+     17,
+     24
+    ],
+    "paid_idx": [
+     22,
+     23,
+     25
+    ],
+    "reason": "The astrologer uses fear/urgency ('Maha Mohini Mantra', 'mind will turn') to push for a paid element (extending chat time/recharging)."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Did not identify the concern."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No reading provided."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Remedy is a paid pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Hook is a paid pitch."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "User shared a nonsensical query, astrologer did not acknowledge it.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "Astrologer asks for name/DOB repeatedly despite user providing it or it being irrelevant to the nonsensical query.",
+    "quotes": [
+     "उसका नाम और डेट ऑफ बर्थ बताइए",
+     "Naam aur date off birth bataiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "Asks for details of 'Lakshmi' but uses them for a paid ritual pitch rather than a reading.",
+    "quotes": [
+     "उसका क्या नाम है"
+    ],
+    "score": 3
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "Main question was nonsensical, but astrologer ignored it to pitch a paid ritual.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Promises a result within 24 hours.",
+    "quotes": [
+     "24 ghante ke andar"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "Remedy is a paid ritual pitch.",
+    "quotes": [
+     "मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No question answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Uses fear/tease to push for payment.",
+    "quotes": [
+     "उसकी मन आपके प्रति बहुत ज्यादा अग्रेषित हो जाए"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "Repeatedly asks for name/DOB and pushes for payment.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "Last messages are pressure pitches for payment.",
+    "quotes": [
+     "समय लेकर आप लिए"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the content is predatory.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "American soccer release on top of what size in the hill",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any astrological insight and instead used fear-based tactics to pressure the user into extending the chat for a paid ritual. The consultation was entirely predatory and lacked any professional value."
+ },
+ "usage": {
+  "input_tokens": 15483,
+  "output_tokens": 1594
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [04:19] ASTRO: Main Maha Mohini Mantra Se usko aapke pass 24 ghante ke andar Prem se baat karne ke liye talab kar dungi\n#17 [04:26] ASTRO: Uski mind aapke prati ghoom jayegi\n#22 [05:24] ASTRO: मैं एक छोटी सी उपाय कर दूंगी आपको कुछ भी नहीं करना है आपको चैट टाइमिंग को बढ़ा लेना है जिसे जो भी मैं पूजन करूं वह आप तक पहुंचे और उसकी मन आपके प्रति बहुत ज्यादा अग्रेषित हो जाए\n#23 [05:38] ASTRO: आप चेक टाइमिंग को बढ़ा लीजिए लक्ष्मी आपसे जरूर बात करेगी\n#24 [05:49] ASTRO: मैं उनके मन को आपके लिए घूम रही हूं\n#25 [06:01] ASTRO: समय लेकर आप लिए",
+   "reason": "The astrologer uses fear/urgency ('Maha Mohini Mantra', 'mind will turn') to push for a paid element (extending chat time/recharging).",
+   "quote_en": "#16 [04:19] ASTRO: With the Maha Mohini Mantra, I will compel them to talk to you lovingly within 24 hours.\n#17 [04:26] ASTRO: Their mind will turn towards you.\n#22 [05:24] ASTRO: I will perform a small remedy; you don't have to do anything. You just need to increase the chat timing so that whatever pooja I perform reaches you and their mind becomes very inclined towards you.\n#23 [05:38] ASTRO: Please increase the chat timing, Lakshmi will definitely talk to you.\n#24 [05:49] ASTRO: I am turning their mind towards you.\n#25 [06:01] ASTRO: Take some time for yourself."
+  }
+ }
+}

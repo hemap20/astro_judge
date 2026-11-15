@@ -1,0 +1,267 @@
+{
+ "file": "conversation_1238716_2530.csv",
+ "tier": "Medium",
+ "user_id": "1238716",
+ "ltv": 1065.0,
+ "n_msgs": 22,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 6,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 1,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 4.96,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 4.5,
+  "B3": 3.67,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 1,
+   "R": 3,
+   "T": 4
+  },
+  "4.1": {
+   "score": 3,
+   "M": 12,
+   "long_frac": 0.25,
+   "max_words": 47,
+   "avg_words": 16.2,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's specific problem regarding marriage cancellation in message #12.",
+    "quotes": [
+     "shaadi fix nahin Ho Pa rahi hai kyunki aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a palm photo in #17 and #20. While this is a request for data, it is not a Type C question as it is a common practice for this astrologer's methodology. However, it is not a Type A question either. Since no other questions were asked, the score is 6.",
+    "quotes": [
+     "Aap apne hatheli ka pic send kar do"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading in #12 is about the present, new to the user, specific to her situation, and tied to chart factors (Rahu/Shani).",
+    "quotes": [
+     "shaadi fix nahin Ho Pa rahi hai kyunki aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked when the marriage will be fixed. The astrologer avoids answering the timing question directly and instead pivots to asking for a palm photo.",
+    "quotes": [
+     "Kb tk hoga aisa",
+     "Aap apne hatheli ka pic send kar do"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the marriage issue to Rahu and Shani in the 7th house.",
+    "quotes": [
+     "shaadi fix nahin Ho Pa rahi hai kyunki aapke sath mein bhav mein Rahu aur Shani ka prabhav Chal Raha Hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The second reading in #14 adds new information about the type of partner and future life, using the user's context.",
+    "quotes": [
+     "government wale se hi shaadi Hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing window was provided; the astrologer avoided the question.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer suggests a remedy but does not specify what it is, instead using it as a hook to get a palm photo.",
+    "quotes": [
+     "kuchh upay batana chahta hun"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the promise of a remedy to keep the user engaged.",
+    "quotes": [
+     "kuchh upay batana chahta hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the conversation stalls due to the repeated requests for photos.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages are requests for photos, which does not provide a reading or guidance.",
+    "quotes": [
+     "Aap apne left aur right hand ka pic send karo please",
+     "Donon hathon ka send karo"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and uses common terms like Rahu and Shani.",
+    "quotes": [
+     "Rahu aur Shani ka prabhav"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kb tk hoga aisa",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a relevant initial reading about the user's marriage issues but failed to answer the user's direct question about timing. The chat was hurt by the astrologer's repetitive requests for palm photos instead of providing the promised remedy or further insight."
+ },
+ "usage": {
+  "input_tokens": 10691,
+  "output_tokens": 1307
+ }
+}

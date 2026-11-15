@@ -1,0 +1,504 @@
+{
+ "file": "conversation_3233283_1873.csv",
+ "tier": "High",
+ "user_id": "3233283",
+ "ltv": 9480.12,
+ "n_msgs": 27,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 8,
+  "1.2": 10,
+  "1.4": 6,
+  "2.1": 8,
+  "2.2": 10,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 8,
+  "3.3": null,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 7.12,
+ "rubric_score": 7.12,
+ "blueprint": {
+  "score": 6.27,
+  "coverage": 0.667,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.5,
+   "S8": 0.0
+  },
+  "order": 0.857,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 2,
+   "S3": 2,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 1,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S2": 175,
+   "S3": 249,
+   "S4": 232,
+   "S5": 249,
+   "S6": 232,
+   "S7": 423
+  }
+ },
+ "final": 6.7,
+ "label": "good",
+ "buckets": {
+  "B1": 8.5,
+  "B2": 7.0,
+  "B3": 6.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 0,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 9,
+   "long_frac": 0.214,
+   "max_words": 65,
+   "avg_words": 20.5,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "fear_idx": [],
+    "paid_idx": [],
+    "reason": "",
+    "severity": null
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": true,
+    "idx": 11,
+    "quality": 2,
+    "note": "Acknowledges the user's feeling of uncertainty in the relationship."
+   },
+   "S3": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Identifies the concern about marriage and asks for partner details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Gives a prediction based on Ketu's transit."
+   },
+   "S5": {
+    "present": true,
+    "idx": 14,
+    "quality": 2,
+    "note": "Asks for partner details to check marriage prospects."
+   },
+   "S6": {
+    "present": true,
+    "idx": 13,
+    "quality": 2,
+    "note": "Connects the relationship issue to Ketu's transit."
+   },
+   "S7": {
+    "present": true,
+    "idx": 26,
+    "quality": 1,
+    "note": "Opens a new layer about marriage factors but leaves it hanging."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Mentions a remedy is coming but never provides it."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's feeling of uncertainty in message 11.",
+    "quotes": [
+     "situations abhi critical Hain to Aisa aapko mahsus ho raha hoga and feel ho raha hoga Ki mera relationship aage nahin chalega.."
+    ],
+    "score": 8,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for partner details which is Type A (builds on the user's question about marriage).",
+    "quotes": [
+     "yadi ho sake to aap unka name date off birth birth time birth place share kar dijiye"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 14,
+       "type": "A",
+       "answer_used": true
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user's question is about a specific person (Vishal). The astrologer asks for details with a reason (to check marriage prospects).",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain kya main check karna chahunga yadi ho sake to aap unka name date off birth birth time birth place share kar dijiye"
+    ],
+    "score": 7,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, mentions Ketu, and is specific to the user's relationship.",
+    "quotes": [
+     "aapke janm Kundli ke Aadhar per main dekh Pa raha hun ketu ke factor Hain jiske vajah se Aisa Ho Raha Hai"
+    ],
+    "score": 8,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question with a positive direction.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain"
+    ],
+    "score": 9,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 14,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the relationship issue to Ketu's transit.",
+    "quotes": [
+     "aapke janm Kundli ke Aadhar per main dekh Pa raha hun ketu ke factor Hain jiske vajah se Aisa Ho Raha Hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the marriage prospects after the initial reading.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a positive outlook without a specific date or promise.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy but never provides it.",
+    "quotes": [
+     "main aapko ek Chhota Sa upay bata raha hun"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer holds the thread of the marriage question throughout.",
+    "quotes": [
+     "Aap donon ki shaadi hone ke yog Ban rahe hain"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer about marriage factors but does not deliver it.",
+    "quotes": [
+     "Shaadi ke baad aapke rishte mein ek aur bada factor dikh raha hai"
+    ],
+    "score": 4,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the astrologer leaves the chat hanging at the end.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is easy and informal.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 13,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya meri shaadi hogi usse",
+  "main_question_idx": 10,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a clear prediction regarding the user's marriage prospects and identified the astrological cause. However, the astrologer failed to provide the promised remedy and left the final point about marriage factors hanging at the end of the chat."
+ },
+ "usage": {
+  "input_tokens": 17024,
+  "output_tokens": 2402
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": 7,
+   "2.1": 8,
+   "2.2": 9,
+   "2.7": 7,
+   "4.2": 7,
+   "3.2": 7
+  }
+ }
+}

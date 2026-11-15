@@ -1,0 +1,1200 @@
+{
+ "file": "conversation_2634220_347.csv",
+ "tier": "High",
+ "user_id": "2634220",
+ "ltv": 5090.52,
+ "n_msgs": 376,
+ "n_astro_msgs": 126,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 8,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 4,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 6.8,
+ "buckets": {
+  "B1": 6.33,
+  "B2": 7.86,
+  "B3": 7.33,
+  "B4": 5.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 0,
+   "R": 7,
+   "T": 21
+  },
+  "4.1": {
+   "score": 4,
+   "M": 18,
+   "long_frac": 0.095,
+   "max_words": 71,
+   "avg_words": 9.7,
+   "bursts": 6,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 1,
+   "top_opener_count": 5
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's business and debt issues in messages #4 and #5, which directly relate to the user's initial input.",
+    "quotes": [
+     "Business issues",
+     "Debt problem"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the business type and location, which are relevant to the user's problem. No Type C questions were identified.",
+    "quotes": [
+     "Kaun sa business hai",
+     "Direction kiya hai"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, specific to the user's business stability, and tied to chart/planet disbalance.",
+    "quotes": [
+     "kundli mein bhi partner and career ko lekar acha yog hi but some planet disbalance hi"
+    ],
+    "score": 8
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction regarding the user's business stability and future outlook.",
+    "quotes": [
+     "within 3 months Mein aapki chijen stable ho jayega"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the business issues to 'planet disbalance' and 'negative vibrations' in plain terms.",
+    "quotes": [
+     "some planet disbalance hi jis wajah se aap ko stability problem ki wajah se blockege aagaye hi"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers regarding Vastu (direction) and specific remedies (salt, star symbols) as the chat progresses.",
+    "quotes": [
+     "Direction kiya hai",
+     "In three numbers ko aapko 3 yellow A4 sheet leni hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear time window for results without making absolute promises.",
+    "quotes": [
+     "Ek mahine Mein result dekhne Ko Mil jaega aur within 3 months Mein aapki chijen stable ho jayega"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides specific remedies (salt, star symbols, color therapy) linked to the user's business and Vastu issues.",
+    "quotes": [
+     "In three numbers ko aapko 3 yellow A4 sheet leni hai",
+     "Sar aapko salt rock salt lana hai"
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains focus on the business and Vastu issues throughout the chat.",
+    "quotes": [
+     "Business ghar se",
+     "Direction kiya hai"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by suggesting color therapy and specific phone number changes to improve business.",
+    "quotes": [
+     "Yah ek color therapy hai aapko isko follow karna hai",
+     "Possible hai to is number Ko incoming call rakh"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat early and keeps providing guidance until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are focused on the user's request for a video call to resolve technical issues, which is a continuation of the consultation.",
+    "quotes": [
+     "Ek bar disconnect karke again connect kijiye video call ke liye"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms like 'kundli', 'remedy', and 'blockage'.",
+    "quotes": [
+     "kundli mein bhi partner and career ko lekar acha yog hi"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Business issues and debt problem",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 51,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 80,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 90,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 93,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 95,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 98,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 102,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 103,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 104,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 105,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 108,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 110,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 111,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 115,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 117,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 120,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 121,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 123,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 125,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 128,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 136,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 139,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 141,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 142,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 145,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 148,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 153,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 157,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 158,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 162,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 163,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 165,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 166,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 168,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 172,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 173,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 179,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 180,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 182,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 183,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 184,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 188,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 190,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 192,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 193,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 194,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 196,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 198,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 200,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 201,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 203,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 205,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 206,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 209,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 210,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 213,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 214,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 216,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 217,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 219,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 220,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 223,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 224,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 225,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 226,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 227,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 230,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 232,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 236,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 239,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 240,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 241,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 243,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 244,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 245,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 249,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 254,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 257,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 259,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 262,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 263,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 266,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 270,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 273,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 274,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 276,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 279,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 280,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 282,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 284,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 286,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 287,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 289,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 291,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 296,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 297,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 298,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 301,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 303,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 305,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 307,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 310,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 313,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 315,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 319,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 320,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 322,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 323,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 326,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 328,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 330,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 331,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 334,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 336,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 338,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 339,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 342,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 343,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 345,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 346,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 347,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 352,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 353,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 355,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 357,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 358,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 361,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 362,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 363,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 365,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 368,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 370,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 373,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 374,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 375,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided helpful Vastu and remedial guidance for the user's business issues. However, the chat was heavily disrupted by technical communication issues and repeated requests for media, which hindered the flow."
+ },
+ "usage": {
+  "input_tokens": 18489,
+  "output_tokens": 4973
+ }
+}

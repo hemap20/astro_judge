@@ -1,0 +1,414 @@
+{
+ "file": "conversation_3460845_3788.csv",
+ "tier": "High",
+ "user_id": "3460845",
+ "ltv": 32615.2,
+ "n_msgs": 70,
+ "n_astro_msgs": 40,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 6,
+  "1.4": 4,
+  "2.1": 4,
+  "2.2": 1,
+  "2.3": 4,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 6,
+  "2.7": 1,
+  "3.1": 6,
+  "3.2": 7,
+  "3.3": 7,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 5.61,
+ "buckets": {
+  "B1": 5.75,
+  "B2": 3.0,
+  "B3": 6.67,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 8,
+   "long_frac": 0.0,
+   "max_words": 27,
+   "avg_words": 10.7,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's concern about the child's studies and behavior in message #23, though it is quite late in the chat.",
+    "quotes": [
+     "Dekhiae bacche ka dimag bahut tej hai baccha bahut achcha kar sakta hai"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions about the child's hostel situation and who will perform the remedy. These are Type B questions as they could be asked to any parent.",
+    "quotes": [
+     "Hostel jaane ki jarurat kya hai",
+     "Upay Kaun Karega aap ya baccha"
+    ],
+    "score": 6
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the child's photo to perform face reading, which is a Type C request as it is not a standard astrological requirement for a chart reading.",
+    "quotes": [
+     "Kya aap bacche ki face ki photo bhej sakte hain jisse bacche ki face reading ki Ja sake"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading about Ketu and Rahu causing disturbance is generic and not specific enough to be verified by the user.",
+    "quotes": [
+     "Aapke kundli mein ketu hai jo aapko thoda describe Karega"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asked about studies and behavior. The astrologer provides a remedy but does not give a clear direction or answer regarding the academic or behavioral outcome.",
+    "quotes": [
+     "Mere padhai ke bare mai bathaye aur baki sab bhi"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Rahu and Ketu but does not explain how they specifically impact the child's life in plain, linked terms.",
+    "quotes": [
+     "Kyunki iski kundli mein Rahu bahut jyada week Hai to isliye usko distract Karega"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the point about Rahu/Ketu being weak and causing distraction multiple times without adding new depth.",
+    "quotes": [
+     "Rahu ketu bahut jyada week Hai to isko distract kafi jyada karenge"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time for the remedy but does not provide a window for the outcome of the child's situation.",
+    "quotes": [
+     "Upay karne ka sabhi samay mangalwar subah 6:00 baje ke bad aur 8:00 baje ke pahle hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is provided with instructions (how and when), but it is not clearly tied to the specific cause of the child's behavioral issues.",
+    "quotes": [
+     "Ek Pan ka pata lena hai uske ek taraf Haj ka lep lagana hai"
+    ],
+    "score": 6
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer does not address the multiple concerns (studies, behavior, hostel) in a structured way.",
+    "quotes": [
+     "Mere padhai ke bare mai bathaye aur baki sab bhi"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a future mantra chanting session to keep the user engaged.",
+    "quotes": [
+     "Main aapke bacchi ki details aur uske birth details ke Aadhar per uske liye kuchh Mantra Jaap karunga"
+    ],
+    "score": 6
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat prematurely, but the conversation stalls due to repetitive explanations.",
+    "quotes": [
+     "Ji aap cal chat karen"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about the remedy and a follow-up, which provides a reason to return.",
+    "quotes": [
+     "Jab aap yah Chadha lenge to uske bad ek chhoti Si chat connect karni hai mere pass"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple language, but the term 'Haj' (likely a typo for 'Shahad') was confusing.",
+    "quotes": [
+     "Ek Pan ka pata lena hai uske ek taraf Haj ka lep lagana hai"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger identified.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere padhai ke bare mai bathaye aur baki sab bhi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a remedy but failed to address the user's core concerns about the child's studies and behavior with specific insights. The consultation was hindered by repetitive explanations and a request for a photo that did not add value to the reading."
+ },
+ "usage": {
+  "input_tokens": 11851,
+  "output_tokens": 2013
+ }
+}

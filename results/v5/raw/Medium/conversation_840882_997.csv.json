@@ -1,0 +1,464 @@
+{
+ "file": "conversation_840882_997.csv",
+ "tier": "Medium",
+ "user_id": "840882",
+ "ltv": 4220.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 9,
+  "2.2": 10,
+  "2.3": 7,
+  "2.4": 3,
+  "2.5": 9,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3a"
+ ],
+ "overall": 3.0,
+ "rubric_score": 6.5,
+ "blueprint": {
+  "score": 5.56,
+  "coverage": 0.444,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 1.0,
+   "S8": 0.0
+  },
+  "order": 0.9,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 2,
+   "S5": 2,
+   "S6": 2,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 8,
+   "S3": 24,
+   "S4": 155,
+   "S5": 185,
+   "S6": 172
+  }
+ },
+ "final": 4.53,
+ "label": "mixed",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 6.83,
+  "B3": 6.5,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.053,
+   "max_words": 35,
+   "avg_words": 12.0,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [],
+    "paid_idx": [
+     24
+    ],
+    "reason": "The astrologer explicitly asks the user to increase their time to hear more, which is a paid element.",
+    "severity": "G3a"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but very generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks for the question after the user already provided details."
+   },
+   "S4": {
+    "present": true,
+    "idx": 15,
+    "quality": 2,
+    "note": "Gives a specific time window for marriage."
+   },
+   "S5": {
+    "present": true,
+    "idx": 19,
+    "quality": 2,
+    "note": "Asks a relevant follow-up about anger/irritation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 17,
+    "quality": 2,
+    "note": "Connects the reading to Mangal planet influence."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The user shared a question about marriage, but the astrologer's first reply was just 'Hello'.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a yes/no confirmation of their reading (Type A).",
+    "quotes": [
+     "Kya Aisa aapki life mein bhi hota hai"
+    ],
+    "score": 8,
+    "checks": {
+     "questions": [
+      {
+       "idx": 19,
+       "type": "A",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "Main question is not about a specific other person.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present (anger/irritation), is new, specific, and tied to the Mangal planet.",
+    "quotes": [
+     "aapke andar bechaini chidchidapan aur jaldi gussa bhi a jata hai aapko"
+    ],
+    "score": 9,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 15,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": true,
+     "concrete_marker": true,
+     "strong_statements": 1
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the marriage question with a specific time window.",
+    "quotes": [
+     "2026 April manth mein marriage hone ki possibility Kafi adhik dikh rahi hai"
+    ],
+    "score": 9,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 15,
+     "reply_is_pitch_or_remedy": false,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Links the anger/irritation to the Mangal planet in plain words.",
+    "quotes": [
+     "aapki Kundli mein Mangal planet ki prabhav dikh rahi hai... aapke andar bechaini chidchidapan aur jaldi gussa bhi a jata hai"
+    ],
+    "score": 7,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Only one reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "new": false,
+     "uses": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "Gives a window (April 2026) without promising it as a certainty.",
+    "quotes": [
+     "2026 April manth mein marriage hone ki possibility Kafi adhik dikh rahi hai"
+    ],
+    "score": 9,
+    "checks": {
+     "user_asked_question": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User did not ask a second question.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "Nothing further opened.",
+    "quotes": [],
+    "score": 4,
+    "checks": {}
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No early goodbye, but the astrologer is pushing for time.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Uses simple language, no unexplained technical terms.",
+    "quotes": [],
+    "score": 7,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mare sadi kob hogi",
+  "main_question_idx": 8,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided a clear and specific prediction for the user's marriage question. However, the consultation was marred by the astrologer's pushy behavior regarding extending time instead of providing a remedy or a proper closing."
+ },
+ "usage": {
+  "input_tokens": 16833,
+  "output_tokens": 1944
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 8,
+   "1.4": null,
+   "2.1": 9,
+   "2.2": 9,
+   "2.7": null,
+   "4.2": 7,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3a": {
+   "quote": "#24 [04:45] ASTRO: Aur aap apna time hi increase Kar lijiye jisse main aapko kuchh important baten bhi batana chahti hun jo main dekh Pa rahi hun aapki Kundli mein",
+   "reason": "The astrologer explicitly asks the user to increase their time to hear more, which is a paid element.",
+   "quote_en": "#24 [04:45] ASTRO: And you should increase your time so that I can tell you some important things that I am able to see in your Kundli."
+  }
+ }
+}

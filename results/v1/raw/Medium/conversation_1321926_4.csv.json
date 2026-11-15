@@ -1,0 +1,488 @@
+{
+ "file": "conversation_1321926_4.csv",
+ "tier": "Medium",
+ "user_id": "1321926",
+ "ltv": 4086.0,
+ "n_msgs": 99,
+ "n_astro_msgs": 52,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 3,
+  "4.2": 6,
+  "5.1": 1,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 4
+ },
+ "gate_fails": [
+  "G3",
+  "G4"
+ ],
+ "overall": 2.71,
+ "buckets": {
+  "B1": 2.25,
+  "B2": 1.29,
+  "B3": 3.67,
+  "B4": 5.33,
+  "B5": 1.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 13
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 4,
+   "Rep": 3,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": true,
+    "quote": "Usko chudwa dungi\nFree mein karungi tumhara kaam\nDumm karungi uske photo pe\n5-7 days mein results",
+    "reason": "The astrologer promises a result (breaking the affair) within 5-7 days using a 'dumm' (ritual) on a photo, which is a clear promise of a result for a service."
+   },
+   "G4": {
+    "fail": true,
+    "quote": "Bahot maarte ho usk",
+    "reason": "The astrologer states as a fact that the user beats his wife, despite the user explicitly denying it multiple times."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific concern about his wife's affair and instead focuses on demanding numbers and photos, then later makes accusations.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for photos and birth details, but then repeatedly asks questions that assume facts (e.g., 'Bahot maarte ho usk') which the user denies.",
+    "quotes": [
+     "Bahot maarte ho usk"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the wife's details but uses them to make unfounded accusations rather than providing a reading about the relationship.",
+    "quotes": [
+     "Name and date of birth batao iska"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not relatable; it is based on accusations the user denies and contradicts itself regarding the affair.",
+    "quotes": [
+     "Yes... Affair to hai",
+     "Abhi tak kuch nahi hua"
+    ],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives contradictory answers about whether an affair exists and whether intimacy occurred, failing to provide a clear direction.",
+    "quotes": [
+     "Yes... Affair to hai",
+     "Abhi tak kuch nahi hua"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart-based reasoning is provided; the astrologer relies on accusations and claims of 'seeing' things without linking them to astrological factors.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer contradicts earlier statements, making the reading inconsistent rather than building depth.",
+    "quotes": [
+     "Yes... Affair to hai",
+     "Abhi tak kuch nahi hua"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer contradicts their own facts regarding the affair and intimacy.",
+    "quotes": [
+     "Yes... Affair to hai",
+     "Abhi tak kuch nahi hua"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy offered is a 'dumm' (ritual) on a photo to break the affair, which is a superstitious claim tied to a promise of results.",
+    "quotes": [
+     "Usko chudwa dungi",
+     "5-7 days mein results"
+    ],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to answer the user's core question consistently, constantly shifting the topic to the user's behavior.",
+    "quotes": [
+     "Aage kya karna hai"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses the promise of a ritual to keep the user engaged rather than providing a reading.",
+    "quotes": [
+     "Usko chudwa dungi"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the content is repetitive and accusatory.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are repetitive accusations and a promise of a ritual, which does not provide a helpful ending.",
+    "quotes": [
+     "Bas door door se affair hai"
+    ],
+    "score": 3
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses accusatory and unprofessional tone.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is testing the astrologer's claims, and the astrologer responds by becoming defensive and accusatory rather than adapting.",
+    "quotes": [
+     "Tum bahot pareshan karte isko",
+     "Bahot maarte ho usk"
+    ],
+    "score": 1
+   }
+  },
+  "difficult_user_trigger": "angry_testing",
+  "main_question": "Meri wife k affair hai ya nahi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a consistent reading, instead making unfounded accusations against the user and promising superstitious rituals for payment. The consultation was highly unprofessional, characterized by contradictory statements and a lack of genuine astrological insight."
+ },
+ "usage": {
+  "input_tokens": 11873,
+  "output_tokens": 2165
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "Usko chudwa dungi\nFree mein karungi tumhara kaam\nDumm karungi uske photo pe\n5-7 days mein results",
+   "reason": "The astrologer promises a result (breaking the affair) within 5-7 days using a 'dumm' (ritual) on a photo, which is a clear promise of a result for a service.",
+   "quote_en": "I will make him leave her. I will do your work for free. I will perform a ritual on his photo. Results in 5-7 days."
+  },
+  "G4": {
+   "quote": "Bahot maarte ho usk",
+   "reason": "The astrologer states as a fact that the user beats his wife, despite the user explicitly denying it multiple times.",
+   "quote_en": "You beat him up a lot."
+  }
+ }
+}

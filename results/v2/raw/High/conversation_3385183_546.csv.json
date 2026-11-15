@@ -1,0 +1,736 @@
+{
+ "file": "conversation_3385183_546.csv",
+ "tier": "High",
+ "user_id": "3385183",
+ "ltv": 20880.1,
+ "n_msgs": 181,
+ "n_astro_msgs": 104,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 9,
+  "2.3": 9,
+  "2.4": 9,
+  "2.5": 9,
+  "2.6": 9,
+  "2.7": 9,
+  "3.1": 9,
+  "3.2": 9,
+  "3.3": 9,
+  "4.2": 9,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 3,
+  "4.3": 6
+ },
+ "gate_fails": [],
+ "overall": 8.0,
+ "buckets": {
+  "B1": 8.0,
+  "B2": 9.0,
+  "B3": 9.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 0,
+   "R": 2,
+   "T": 15
+  },
+  "4.1": {
+   "score": 3,
+   "M": 26,
+   "long_frac": 0.01,
+   "max_words": 31,
+   "avg_words": 12.0,
+   "bursts": 7,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 6,
+   "Rep": 0,
+   "top_opener_count": 6
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's anxiety and confusion regarding her future in message #8, which directly addresses the user's state of mind.",
+    "quotes": [
+     "Main dekh raha hun ki present time mein mind per pressure aur confusion Bani Hui Hai future ko lekar ke"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks questions that build on the user's situation (e.g., asking about the business, the communication gap, and the specific conflict). These are Type A questions.",
+    "quotes": [
+     "Achcha ji kis chij ka business hai abhi aapka tanishka ji",
+     "Kitne time ke relation morning hai aap donon ki ek dusre ke sath mein"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details to compare charts and provides a reading on the partner's behavior and the relationship dynamics.",
+    "quotes": [
+     "Ek bar unka detail share kar dijiye main check karke batata hun",
+     "Tanishka ji, maine dono charts compare kiye hain. Aman ki kundli mein abhi confusion ka phase hai"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is specific to the user's current situation, mentioning the partner's serious nature and the current conflict, which is not generic.",
+    "quotes": [
+     "Aapke chart mein life partner ka swabhav thoda serious aur disciplined dikh raha hai."
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses the user's question about whether she should wait for her partner by analyzing the partner's chart and the current phase.",
+    "quotes": [
+     "Tanishka ji, unke chart mein abhi Ketu ka prabhav hai jo insaan ko emotionally detach aur ziddi bana deta hai. Yeh unka nature nahi, balki ek phase hai."
+    ],
+    "score": 9
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the partner's behavior to specific planetary influences like Ketu and Rahu in plain language.",
+    "quotes": [
+     "Tanishka ji, unke chart mein abhi Ketu ka prabhav hai jo insaan ko emotionally detach aur ziddi bana deta hai."
+    ],
+    "score": 9
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer builds depth by analyzing the partner's past behavior, the specific conflict, and the planetary reasons behind the ego issues.",
+    "quotes": [
+     "Unke chart mein abhi Ketu ka prabhav hai jo insaan ko emotionally detach aur ziddi bana deta hai.",
+     "Unka pyaar 'possessive' hai, par 'stable' nahi."
+    ],
+    "score": 9
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a reading based on the current planetary phase without making false promises or giving firm dates.",
+    "quotes": [
+     "Tanishka ji, unke chart mein abhi Ketu ka prabhav hai jo insaan ko emotionally detach aur ziddi bana deta hai."
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer gives practical advice to give the partner space instead of constantly apologizing.",
+    "quotes": [
+     "Aap abhi thoda space dijiye, baar-baar maafi maangne se unka ego aur badhega."
+    ],
+    "score": 9
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer maintains the thread of the relationship issue throughout the chat, addressing the user's concerns about the partner's behavior and the future of the relationship.",
+    "quotes": [
+     "Aap abhi thoda space dijiye, baar-baar maafi maangne se unka ego aur badhega."
+    ],
+    "score": 9
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by discussing the partner's possessive nature and the need for the user to maintain self-respect.",
+    "quotes": [
+     "Woh aapko pyaar toh karte hain, par jab tak woh khud ko nahi badlenge, aapka self-respect hamesha hurt hota rahega."
+    ],
+    "score": 9
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer keeps the conversation going with relevant readings and questions until the end.",
+    "quotes": [
+     "Unka pyaar 'possessive' hai, par 'stable' nahi."
+    ],
+    "score": 9
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a final insight into the partner's nature, leaving the user with a clear understanding of the situation.",
+    "quotes": [
+     "Woh aapko pyaar toh karte hain, par jab tak woh khud ko nahi badlenge, aapka self-respect hamesha hurt hota rahega."
+    ],
+    "score": 9
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses simple, conversational language and explains astrological terms in the context of the user's life.",
+    "quotes": [
+     "Unke chart mein abhi Ketu ka prabhav hai jo insaan ko emotionally detach aur ziddi bana deta hai."
+    ],
+    "score": 9
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya mujhe unka wait krna chahiye",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 37,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 44,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 72,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 75,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 86,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 89,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 91,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 92,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 94,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 98,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 99,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 101,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 103,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 107,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 109,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 111,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 114,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 115,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 116,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 117,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 119,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 126,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 127,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 129,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 130,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 132,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 134,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 135,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 137,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 138,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 140,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 142,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 143,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 147,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 148,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 149,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 151,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 152,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 153,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 154,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 156,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 157,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 158,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 159,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 161,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 162,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 163,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 164,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 165,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 167,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 168,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 170,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 173,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 174,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 176,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 178,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 179,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 180,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer provided a detailed and empathetic reading, effectively using chart analysis to explain the partner's behavior and the relationship dynamics. The most helpful aspect was the clear, non-judgmental explanation of the partner's ego and family pressure, while the astrologer's consistent focus on the user's emotional state kept the consultation engaging."
+ },
+ "usage": {
+  "input_tokens": 14865,
+  "output_tokens": 3444
+ }
+}

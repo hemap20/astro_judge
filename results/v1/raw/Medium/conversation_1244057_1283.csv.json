@@ -1,0 +1,396 @@
+{
+ "file": "conversation_1244057_1283.csv",
+ "tier": "Medium",
+ "user_id": "1244057",
+ "ltv": 1774.0,
+ "n_msgs": 74,
+ "n_astro_msgs": 37,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 4,
+  "2.7": 1,
+  "3.1": 4,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.85,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 2.57,
+  "B3": 5.0,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 7
+  },
+  "4.1": {
+   "score": 6,
+   "M": 10,
+   "long_frac": 0.054,
+   "max_words": 40,
+   "avg_words": 13.2,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message 18, saying 'aapki paristhiti mein samajh sakta hun', but fails to repeat any specific detail provided by the user.",
+    "quotes": [
+     "aapki paristhiti mein samajh sakta hun"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions. Message 11 asks if she is in a relationship, which she already denied in her initial context. Message 19 asks what the boy said, which she had already explained in message 5. Message 33 asks for the name, which she provided in message 8. These are Type C questions.",
+    "quotes": [
+     "Kiske sath aap relation mein hai",
+     "usne aapse Kya kaha",
+     "Ladki ka kya naam hai"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the boy's details and eventually uses them to claim a match, though the process was repetitive and disorganized.",
+    "quotes": [
+     "Dhanyawad, ab hum dono ki kundli dekhenge."
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based markers or verifiable details. It repeats the user's desire rather than providing insight.",
+    "quotes": [
+     "aapki kundli mein usi ke sath aapki shaadi Hogi"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction (yes, they will marry) but it is presented as a promise rather than a chart-based probability.",
+    "quotes": [
+     "aapki kundli mein usi ke sath aapki shaadi Hogi"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'kundli' repeatedly but never explains the actual chart factors or reasons behind the prediction in plain words.",
+    "quotes": [
+     "aapki kundli mein usi ke sath aapki shaadi Hogi"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same prediction throughout the chat without adding depth or new layers based on the user's inputs.",
+    "quotes": [
+     "aap donon ka sambandh ek dusre ke sath hone ka pura chance hai"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a positive result by the end of the month, which is a firm, short-term promise rather than a window based on planetary movements.",
+    "quotes": [
+     "Is mahine ke last Tak aapki batchit ek dusre ke liye badhegi"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a stock religious practice (Shiv Puja, Shani oil lamp) not specifically tied to the astrological cause of the problem.",
+    "quotes": [
+     "Shiv ji ki Puja karna hai aapko Mande ko",
+     "Shani Dev ko aapko Sarson ka tel ka Deepak jalana Hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's request to discuss career, focusing only on the relationship question.",
+    "quotes": [
+     "Ji main aapki career ke liye aapko bata raha hun"
+    ],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers; they simply repeat the same positive outcome.",
+    "quotes": [
+     "aap donon ka sambandh ek dusre ke sath hone ka pura chance hai"
+    ],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are repetitive and lack substance.",
+    "quotes": [
+     "Bilkul aapko tension nahin Lena Hai Kisi baat ke liye"
+    ],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are repetitive affirmations of the relationship, not a reading or guidance.",
+    "quotes": [
+     "Aap donon ki Jodi ek dusre ke liye Bani rahegi"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and accessible, avoiding complex technical jargon.",
+    "quotes": [
+     "Shiv ji ki Puja karna hai aapko Mande ko"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya wo meri life me jayega",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 69,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 72,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer was helpful in providing a positive outlook and simple remedies, but the consultation was marred by repetitive questions and a lack of depth in the astrological analysis. The astrologer failed to address the user's career question and relied on generic promises rather than specific chart-based insights."
+ },
+ "usage": {
+  "input_tokens": 12045,
+  "output_tokens": 1909
+ }
+}

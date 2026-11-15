@@ -1,0 +1,299 @@
+{
+ "file": "conversation_813783_2031.csv",
+ "tier": "High",
+ "user_id": "813783",
+ "ltv": 9197.0,
+ "n_msgs": 27,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 8,
+  "1.4": 10,
+  "2.1": 9,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": 4,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 8,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 7.39,
+ "buckets": {
+  "B1": 8.25,
+  "B2": 7.0,
+  "B3": 7.33,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 8,
+   "Q": 2,
+   "R": 2,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.118,
+   "max_words": 39,
+   "avg_words": 12.3,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's input about the ex-partner and the breakup by referencing the conflict and the partner's current state of mind.",
+    "quotes": [
+     "Last moment per kafi jhagade bhi hue hain",
+     "abhi bhi vah aapke bare mein thinking karte hain vah bhi positive"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the ex's name (Type A, as it is needed for the reading) and asks about third-party involvement (Type A, building on the user's question).",
+    "quotes": [
+     "Ex ka name bata do",
+     "aap donon ke bich mein kuchh misunderstanding aur kuchh third party shuru hua hai kya"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name, uses it in the reading, and provides insight into the partner's state of mind regarding the relationship.",
+    "quotes": [
+     "Ex ka name bata do",
+     "Jo main aapke aur Simran ke mastishk Rekha ke anusar check kar pa raha hun"
+    ],
+    "score": 10
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present, adds new information (third party, partner's positive thinking), is specific to their situation, and is tied to the chart/palmistry.",
+    "quotes": [
+     "aap donon ke bich mein kuchh misunderstanding aur kuchh third party shuru hua hai kya",
+     "shukr parvat ki sthiti Simran ki kafi viprit ho rahi hai"
+    ],
+    "score": 9
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a clear direction that the relationship can improve in the future.",
+    "quotes": [
+     "Rakesh ji ine future aap donon ka relation achcha ho sakta hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the life situation (partner's negative feelings) to a palmistry factor (Shukr parvat).",
+    "quotes": [
+     "shukr parvat ki sthiti Simran ki kafi viprit ho rahi hai jiske Karan se abhi bhi vah negative feel kar rahi hai"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new layers about the partner's hesitation and the possibility of reconciliation, using the user's context of the breakup.",
+    "quotes": [
+     "Bus kuchh kamiyan hai aur kuchh aisi baten Hain jinke Karan se vah aage aane ke liye stand nahin kar pa rahi hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a positive outlook without promising a specific date or using certainties.",
+    "quotes": [
+     "Rakesh ji ine future aap donon ka relation achcha ho sakta hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a solution exists but does not provide the actual remedy, keeping it vague.",
+    "quotes": [
+     "Aapke relation ka ek Chhota Sa solution hai"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only had one main question about the ex-partner.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a layer about a solution to improve the relationship.",
+    "quotes": [
+     "Aapke relation ka ek Chhota Sa solution hai jise aap donon ki chijen behtar ho jaayengi"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat and continues to provide information.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are about providing a suggestion, which keeps the user engaged.",
+    "quotes": [
+     "Main aapko kuchh suggestion deta hun",
+     "Usko please follow"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms like 'Shukr parvat' which are explained in the context of the reading.",
+    "quotes": [
+     "shukr parvat ki sthiti Simran ki kafi viprit ho rahi hai"
+    ],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger detected.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya ex partner wapis ayegi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's concern and provided a reading based on palmistry that felt relevant to the user's situation. However, the astrologer failed to provide the actual remedy after mentioning it, leaving the user hanging at the end of the transcript."
+ },
+ "usage": {
+  "input_tokens": 10781,
+  "output_tokens": 1550
+ }
+}

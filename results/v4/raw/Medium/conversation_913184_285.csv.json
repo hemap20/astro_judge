@@ -1,0 +1,380 @@
+{
+ "file": "conversation_913184_285.csv",
+ "tier": "Medium",
+ "user_id": "913184",
+ "ltv": 2295.0,
+ "n_msgs": 25,
+ "n_astro_msgs": 15,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 3,
+  "2.2": 6,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.73,
+ "blueprint": {
+  "score": 3.25,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 12,
+   "S3": 71,
+   "S4": 200
+  }
+ },
+ "final": 1.99,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.0,
+  "B2": 3.57,
+  "B3": 1.67,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 15,
+   "long_frac": 0.067,
+   "max_words": 48,
+   "avg_words": 12.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     21,
+     22
+    ],
+    "paid_idx": [
+     21,
+     22
+    ],
+    "evidence_idx": [
+     21,
+     22
+    ],
+    "reason": "The astrologer uses the promise of relationship insight to pressure the user to reconnect/recharge the chat."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Asks for the question again despite it being stated."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Gives a generic prediction about marriage timing."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 21,
+    "quality": 0,
+    "note": "Hook is a paid pitch to reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's question about his love interest and asks for details instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details repeatedly and asks the user to reconnect, which are Type C questions.",
+    "quotes": [
+     "Unka detail bataiye",
+     "Aur unka date of birth",
+     "Aap fir se mujhe connect Kar lijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details but never uses them or provides a reading about the match.",
+    "quotes": [
+     "Unka date off birth bataiye"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights.",
+    "quotes": [
+     "Aapki shaadi mein bhi bahut samay hai"
+    ],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague time window for marriage.",
+    "quotes": [
+     "2026 ke bad hi aur bhi time lagega 27 ke bad hi hai"
+    ],
+    "score": 6
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No depth is built; the astrologer just repeats the request for data.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague window without any chart-based justification.",
+    "quotes": [
+     "2026 ke bad hi aur bhi time lagega 27 ke bad hi hai"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the love question and focuses only on marriage timing.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to push for a paid reconnection.",
+    "quotes": [
+     "unke man mein aapke liye kya hai yah bhi bataungi"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly tries to end the chat by asking the user to reconnect.",
+    "quotes": [
+     "Aap fir se mujhe connect Kar lijiye"
+    ],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests to reconnect.",
+    "quotes": [
+     "Aap fir se mujhe connect Kar lijiye",
+     "main turant Bata dungi"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the astrologer is repetitive and pushy.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Myadm ji me jise pyar karta hu oo muje milegi yanahi",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful insight, instead repeatedly demanding birth details and pressuring the user to reconnect for a paid service. The lack of chart-based analysis and the focus on pushing the user to extend the chat made the consultation unhelpful."
+ },
+ "usage": {
+  "input_tokens": 15511,
+  "output_tokens": 1567
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#21 [03:55] ASTRO: Unka date off birth bataiye tab to aur fir se connect Kar lijiye madad karungi Puri aapke ghar ka net karenge to unke Sath relationship bhi rahega aur unke man mein aapke liye kya hai yah bhi bataungi per mujhe aap unka date off birth sahi se bataiye\n#22 [04:07] ASTRO: Taki main aapki madad kar sakun aap fir se mujhe connect Kar lijiye aur unka date off birth Bata dijiye main turant Bata dungi aapko check karke",
+   "reason": "The astrologer uses the promise of relationship insight to pressure the user to reconnect/recharge the chat.",
+   "quote_en": "#21 [03:55] ASTRO: Please provide their date of birth, then reconnect with me and I will help you completely. If you provide the details, I will check your house and also tell you about your relationship with them and what they feel for you, but please provide their correct date of birth.\n#22 [04:07] ASTRO: So that I can help you, please reconnect with me and provide their date of birth. I will check and tell you immediately."
+  }
+ }
+}

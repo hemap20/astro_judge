@@ -1,0 +1,278 @@
+{
+ "file": "conversation_3283278_321.csv",
+ "tier": "Medium",
+ "user_id": "3283278",
+ "ltv": 2679.78,
+ "n_msgs": 26,
+ "n_astro_msgs": 14,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 6,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 4,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 7,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.02,
+ "buckets": {
+  "B1": 4.75,
+  "B2": 4.0,
+  "B3": 7.33,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 2,
+   "R": 6,
+   "T": 8
+  },
+  "4.1": {
+   "score": 7,
+   "M": 13,
+   "long_frac": 0.071,
+   "max_words": 32,
+   "avg_words": 12.7,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's situation in message #6 by referencing the '7 months of silence' which the user had implied in the context of the conversation.",
+    "quotes": [
+     "I understand, 7 months of silence is emotionally draining."
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details and photos (Type C) multiple times despite the user not having them. The question in #20 is Type B.",
+    "quotes": [
+     "Aap ek bar unka pura detail send kijiye",
+     "Ya unka picture Ho send kijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the other person's details (name and DOB) with a clear reason (to check energy/connection) and proceeds when the user provides partial info.",
+    "quotes": [
+     "Taki main unka current ka energy check karke aapko Bata sakun"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in #6 is about the user's present, but it is generic and lacks a specific chart reason.",
+    "quotes": [
+     "I understand, 7 months of silence is emotionally draining."
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks if he thinks about her. The astrologer provides a direction in #23 that communication will start, but it is vague and lacks a clear reason.",
+    "quotes": [
+     "Kya vo bhi mere bare me sochta hh ya shirf me hi pagal hunn",
+     "Batchit start ho jaega"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "There is no linked reading provided that explains a life event using a chart factor in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the partner's nature and the ego issue, but they are not linked to the user's chart or previous readings.",
+    "quotes": [
+     "Egoistic hh par achha hai",
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a prediction without a specific time window or chart-based reason.",
+    "quotes": [
+     "Batchit start ho jaega"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy is needed but does not provide the actual remedy or how to do it.",
+    "quotes": [
+     "Aapko ek simple upay karna padega"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a new layer by mentioning there is another deep reason for the issue, which keeps the user engaged.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, and every message contributes to the flow of the conversation.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a teaser about a deeper reason, which gives the user a reason to continue.",
+    "quotes": [
+     "Rishte mein ego ke alawa ek aur gehri wajah dikh rahi hai"
+    ],
+    "score": 7
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's Hinglish style.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Kya vo bhi mere bare me sochta hh ya shirf me hi pagal hunn",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer successfully built rapport by acknowledging the user's emotional state and keeping the conversation moving with teasers. However, the consultation suffered from repetitive requests for missing birth details and a lack of concrete, chart-based insights."
+ },
+ "usage": {
+  "input_tokens": 10515,
+  "output_tokens": 1371
+ }
+}

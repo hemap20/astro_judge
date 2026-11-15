@@ -1,0 +1,476 @@
+{
+ "file": "conversation_3292393_4042.csv",
+ "tier": "Medium",
+ "user_id": "3292393",
+ "ltv": 2903.98,
+ "n_msgs": 86,
+ "n_astro_msgs": 53,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 4,
+  "1.4": 1,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 4,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 4,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 6,
+  "3.3": 4,
+  "4.2": 6,
+  "5.1": 3,
+  "1.3": 7,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 4.32,
+ "buckets": {
+  "B1": 4.5,
+  "B2": 3.43,
+  "B3": 3.67,
+  "B4": 7.0,
+  "B5": 3.0
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 1,
+   "R": 2,
+   "T": 8
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.019,
+   "max_words": 39,
+   "avg_words": 14.4,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's health and marriage concerns in message #8, but fails to name the feeling or build on the specific context of the user's situation effectively, instead pivoting to general negativity.",
+    "quotes": [
+     "Han ji mujhe pata hai bahut time se pareshan Ho Apne around negativity bhi bahut jyada feel kar rahe ho"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks multiple questions, some of which are Type C (asking for details already provided or assuming facts). Message #17 and #54 are Type A, but the astrologer repeatedly asks about the user's past feelings despite the user clarifying they are focused on the future.",
+    "quotes": [
+     "Lekin mujhe ek baat batao aap abhi present mein Koi rishta pasand kar rahe ho kya jo bhi thoda stuck hai"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The user mentions a married person they like, but the astrologer does not ask for details to analyze the match, instead focusing on the user's emotional state.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and relies on common astrological tropes (Kalsarp, Black Magic) that could apply to many users. It lacks specificity.",
+    "quotes": [
+     "Sabse pahla problem aapki kundli ke marriage house mein Shani aur Rahu ka baithana hi hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user asks about marriage and why they are facing problems. The astrologer provides a vague direction about a 'good timing' starting, but it is not a clear answer to the user's specific situation.",
+    "quotes": [
+     "Iska matlab hai shaadi ke liye bahut achcha timing shuru ho chuka hai ji"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions Kalsarp and Shani/Rahu but does not explain them in plain, relatable terms that connect to the user's life experience.",
+    "quotes": [
+     "Sabse pahla problem aapki kundli ke marriage house mein Shani aur Rahu ka baithana hi hai"
+    ],
+    "score": 4
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer repeats the same points about negativity and past feelings despite the user's corrections.",
+    "quotes": [
+     "Aap hamesha hi past ki baton Ko yad Karti hongi aur usko lekar pareshan rahti hongi"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague timing ('good timing started') without a clear window or specific basis.",
+    "quotes": [
+     "Iska matlab hai shaadi ke liye bahut achcha timing shuru ho chuka hai ji"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions remedies but does not provide a clear, actionable plan tied to the user's specific problem.",
+    "quotes": [
+     "Kuchh Tarika bataunga isko Dhyan se follow karna"
+    ],
+    "score": 4
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to hold the thread, repeatedly bringing up the past and the user's feelings despite the user's focus on the future.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses vague teases about 'seeing things' to keep the user engaged without providing actual value.",
+    "quotes": [
+     "But aap mujhe bataaoge tabhi Na Main aapko kuchh ji bahut hi positive bataunga Jo kundli mein Main dekh Pa raha hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the constant repetition of 'I see things' stalls the conversation.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are vague and do not provide a concrete reading or guidance.",
+    "quotes": [
+     "Aur aap emotionally reserve feelings hai bahut hi strong mujhe pata hai aur sari chijen main dekh raha hun"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy, but the astrologer uses formal/bookish phrasing and repetitive, generic astrological terms.",
+    "quotes": [
+     "Manisha ji welcome again"
+    ],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult, but the astrologer fails to adapt to the user's clear feedback that they are focused on the future, not the past.",
+    "quotes": [
+     "Lekin past ki baten aap bhulati nahin honge"
+    ],
+    "score": 3
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "what's d prblm..and kuch acha dikh ra h kya kundali me meri",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 35,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 40,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 52,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 64,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 65,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 66,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": true,
+    "r": true
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 74,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 75,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 77,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 79,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 82,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 83,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer's attempt to provide insights was hindered by repetitive, generic claims about negativity and past feelings that ignored the user's stated focus on the future. The most helpful aspect was the astrologer's attempt to connect the user's situation to astrological combinations, though these were not explained clearly."
+ },
+ "usage": {
+  "input_tokens": 12577,
+  "output_tokens": 2350
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "file": "conversation_3089486_1765.csv",
+ "tier": "High",
+ "user_id": "3089486",
+ "ltv": 7666.46,
+ "n_msgs": 56,
+ "n_astro_msgs": 33,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 3,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 3,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 1
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 1.57,
+  "B3": 1.67,
+  "B4": 4.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 1
+  },
+  "4.1": {
+   "score": 6,
+   "M": 11,
+   "long_frac": 0.03,
+   "max_words": 34,
+   "avg_words": 11.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 1,
+   "Rep": 7,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "evidence_idx": [
+     16,
+     17,
+     37,
+     39,
+     54
+    ],
+    "reason": "The astrologer uses fear ('negative Prabhav') and urgency ('ratri 9 baje tak jawab mil jayega') to repeatedly pressure the user to extend the chat/recharge ('add coin ka option hai aap apna time Badha lo')."
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's specific anxiety and the details of her situation, offering generic comfort instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question about the problem, but then shifts entirely to chanting mantras without addressing the user's specific concerns.",
+    "quotes": [
+     "Question kya hai aapka kyon pareshan hai aap kya galat ho raha hai aapke sath mein"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and not specific to the user's situation.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer fails to answer the user's specific question about whether she was recorded, instead promising a vague answer by nightfall.",
+    "quotes": [
+     "Jawab aapko Aaj ratri Tak mil jaega pareshan Na Ho"
+    ],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions planets but does not provide a linked reading that explains the user's life situation in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the chat is entirely focused on repetitive chanting.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer guarantees an outcome, which is inappropriate.",
+    "quotes": [
+     "Ji bahan bilkul pyar Se Hi rahega iske guarantee main leta Hun bahan ji"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a series of repetitive chants used to keep the user in the chat, rather than practical advice.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's main question and focuses on the chanting process.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged without providing value.",
+    "quotes": [
+     "Rishte ke future ko lekar ek aur gehri baat saamne aa rahi hai"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat but uses the time to push for more payments.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are a tease and a request for more time.",
+    "quotes": [
+     "Time Badha lijiye aap apna jaldi se Kashish ji bus thoda Mantra bacha hua hai aur",
+     "Rishte ke future ko lekar ek aur gehri baat saamne aa rahi hai"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy, but the content is not helpful.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "did he record something bad while doing and did not tell me",
+  "message_labels": [
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 38,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 47,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 54,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to address the user's urgent and specific concern, instead using fear and pressure to force the user to extend the chat for repetitive chanting. This approach provided no value and exploited the user's anxiety for financial gain."
+ },
+ "usage": {
+  "input_tokens": 11565,
+  "output_tokens": 1657
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#16 [03:29] ASTRO: Sab kuchh main bata raha hun dekhiae upar add coin ka option hai aap apna time Badha lo\n#17 [03:37] ASTRO: Aur ham ek paath ke madhyam se aapke Bane hue negative Prabhav ko positive kar rahe hain aur ratri ko hi aapko jawab mil jaega 9:00 baje tak\n#37 [08:21] ASTRO: Time Badha karke aap mantra kariye\n#39 [09:57] ASTRO: Time Badha lijiye jaldi se aap apna\n#54 [14:57] ASTRO: Time Badha lijiye aap apna jaldi se Kashish ji bus thoda Mantra bacha hua hai aur",
+   "reason": "The astrologer uses fear ('negative Prabhav') and urgency ('ratri 9 baje tak jawab mil jayega') to repeatedly pressure the user to extend the chat/recharge ('add coin ka option hai aap apna time Badha lo').",
+   "quote_en": "#16 [03:29] ASTRO: I am telling you everything, look there is an 'add coin' option above, please increase your time.\n#17 [03:37] ASTRO: And through a path, we are turning your negative influences into positive ones, and you will get your answer by tonight at 9:00 PM.\n#37 [08:21] ASTRO: Please increase your time and perform the mantra.\n#39 [09:57] ASTRO: Please increase your time quickly.\n#54 [14:57] ASTRO: Please increase your time quickly Kashish ji, only a little bit of the mantra is left and"
+  }
+ }
+}

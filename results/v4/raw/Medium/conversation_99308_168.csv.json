@@ -1,0 +1,438 @@
+{
+ "file": "conversation_99308_168.csv",
+ "tier": "Medium",
+ "user_id": "99308",
+ "ltv": 1910.0,
+ "n_msgs": 35,
+ "n_astro_msgs": 25,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 3,
+  "1.4": 1,
+  "2.1": 4,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 3,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 1,
+  "3.3": 1,
+  "4.2": 6,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 3,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.1,
+ "blueprint": {
+  "score": 3.4,
+  "coverage": 0.222,
+  "milestones": {
+   "S4": 0.5,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 0.833,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 1,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 13,
+   "S3": 43,
+   "S4": 156,
+   "S5": 81
+  }
+ },
+ "final": 1.75,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.75,
+  "B2": 2.67,
+  "B3": 1.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 3,
+   "R": 3,
+   "T": 5
+  },
+  "4.1": {
+   "score": 3,
+   "M": 25,
+   "long_frac": 0.0,
+   "max_words": 23,
+   "avg_words": 8.7,
+   "bursts": 4,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     27
+    ],
+    "paid_idx": [
+     32,
+     34
+    ],
+    "evidence_idx": [
+     27,
+     32,
+     34
+    ],
+    "reason": "The astrologer uses a promise of a guaranteed result ('10 Guna Bator wapas aaenge') combined with a request to reconnect/recharge the chat to continue."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is present but generic."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not acknowledge the emotional distress of being blocked."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identifies the concern but asks for details already provided or unnecessary."
+   },
+   "S4": {
+    "present": true,
+    "idx": 17,
+    "quality": 1,
+    "note": "Gives a prediction but it is generic and lacks chart-based reasoning."
+   },
+   "S5": {
+    "present": true,
+    "idx": 11,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No connection to chart factors like dasha or planets."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No additional layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided."
+   },
+   "S9": {
+    "present": true,
+    "idx": 34,
+    "quality": 0,
+    "note": "The hook is a pressure pitch to pay/reconnect."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's distress about being blocked and asks for the partner's name instead.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name (Type B) and then asks for a photo (Type C) which is not needed for a reading.",
+    "quotes": [
+     "Kya naam hai aapke Pyar Ka",
+     "Amlen ji aap Deepak ji ka photo bhej sakte hain face reading ke liye"
+    ],
+    "score": 3
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name but never uses it in a reading or explains why it is needed for the chart.",
+    "quotes": [
+     "Kya naam hai aapke Pyar Ka"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and could apply to any user with relationship issues. It lacks specific chart-based reasoning.",
+    "quotes": [
+     "Deepak ji ka wapas aane ki bahut hi acche chances hain"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a vague direction without any reason or chart-based explanation.",
+    "quotes": [
+     "Deepak ji ka wapas aane ki bahut hi acche chances hain"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided in the reading.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same vague sentiment about the partner being disturbed.",
+    "quotes": [
+     "Deepak ji Thoda Sa disturb rahte Hain"
+    ],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer promises a result as certain ('10 Guna Bator wapas aaenge').",
+    "quotes": [
+     "pahle Se 10 Guna Bator wapas aaenge"
+    ],
+    "score": 1
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy but never actually provides it, using it as a hook instead.",
+    "quotes": [
+     "Main aapke naam ke sath ek chhoti Si attraction remedi suggest karna chahta hun"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "User stayed on one topic.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a remedy to keep the user engaged.",
+    "quotes": [
+     "Main Deepak ji ke bare mein kuchh important chijen aapko batana chahta hun"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer attempts to close the chat to force a reconnect.",
+    "quotes": [
+     "Aapko dobara se reconnect karna hoga"
+    ],
+    "score": 1
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are requests to reconnect.",
+    "quotes": [
+     "Please aap dobara se connect Kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple, but the astrologer is not using the user's specific words for the situation.",
+    "quotes": [],
+    "score": 6
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mera pyar ne mujhe block list kar diya hai to mujhe unblock karega ya nahin",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 32,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful chart-based insight and instead used the consultation to pressure the user into reconnecting. The lack of empathy and the use of guaranteed results to push for a paid reconnect significantly hurt the consultation."
+ },
+ "usage": {
+  "input_tokens": 15682,
+  "output_tokens": 1893
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#27 [04:19] ASTRO: Aur pahle Se 10 Guna Bator wapas aaenge\n#32 [04:40] ASTRO: Aapko dobara se reconnect karna hoga\n#34 [04:58] ASTRO: Please aap dobara se connect Kar lijiye",
+   "reason": "The astrologer uses a promise of a guaranteed result ('10 Guna Bator wapas aaenge') combined with a request to reconnect/recharge the chat to continue.",
+   "quote_en": "#27 [04:19] ASTRO: And it will come back 10 times better than before\n#32 [04:40] ASTRO: You will have to reconnect\n#34 [04:58] ASTRO: Please connect again"
+  }
+ }
+}

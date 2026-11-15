@@ -1,0 +1,278 @@
+{
+ "file": "conversation_948537_2195.csv",
+ "tier": "Medium",
+ "user_id": "948537",
+ "ltv": 3879.6,
+ "n_msgs": 27,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 7,
+  "1.2": 7,
+  "1.4": 1,
+  "2.1": 7,
+  "2.2": 8,
+  "2.3": 3,
+  "2.4": 7,
+  "2.5": 7,
+  "2.6": null,
+  "2.7": null,
+  "3.1": 4,
+  "3.2": 6,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 7,
+  "4.1": 8,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 6.56,
+ "buckets": {
+  "B1": 5.5,
+  "B2": 6.4,
+  "B3": 6.0,
+  "B4": 8.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 7,
+   "Q": 2,
+   "R": 2,
+   "T": 5
+  },
+  "4.1": {
+   "score": 8,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 24,
+   "avg_words": 7.4,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's marital stress and separation in message #13 and #14, which directly addresses the user's shared struggle.",
+    "quotes": [
+     "aapke kundli ke anusar se aapko marriage life mein kafi jyada mansik tanav dekhne Ko Mila Hai",
+     "aur aap donon ek dusre Se Alag bhi rah rahe hain"
+    ],
+    "score": 7
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details (#6, #11) which is a data request, and then asks about the children (#17) and communication (#23, #24). The question about children is Type A as it builds on the user's stated desire to have them back.",
+    "quotes": [
+     "Kya aapke donon Santan aapke pass nahin Hai",
+     "Aapse baat hoti hai"
+    ],
+    "score": 7
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's name and birth place in #6 and #11, but never uses them to provide any insight or reading about the partner or the situation.",
+    "quotes": [
+     "Partner ka detail dijiye",
+     "Pati ka Naam Bata dijiye aur unka janm sthan"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The first reading in #13 and #14 identifies the marital stress and separation. It is about the present, new to the chat, specific to her situation, and tied to her kundli.",
+    "quotes": [
+     "aapke kundli ke anusar se aapko marriage life mein kafi jyada mansik tanav dekhne Ko Mila Hai",
+     "aur aap donon ek dusre Se Alag bhi rah rahe hain"
+    ],
+    "score": 7
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The user's main question is about getting her children back. The astrologer provides a direction (they will return) and a time window (2026).",
+    "quotes": [
+     "Mai apne bccho ko apne pas bulana chahti",
+     "Pareshan mat hoiye aapke Santan aapko mil jaenge",
+     "Kyunki 2026 mein condition bahut hi achcha dekhne ko mil raha hai"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions the kundli in #13, but does not link the specific outcome (getting children back) to a specific chart factor in plain words.",
+    "quotes": [
+     "aapke kundli ke anusar se aapko marriage life mein kafi jyada mansik tanav dekhne Ko Mila Hai"
+    ],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later reading about the children returning in 2026 is new and uses the detail provided by the user about wanting them back.",
+    "quotes": [
+     "Pareshan mat hoiye aapke Santan aapko mil jaenge",
+     "Kyunki 2026 mein condition bahut hi achcha dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a specific year (2026) as a window for the children returning, which is consistent throughout the chat.",
+    "quotes": [
+     "Kyunki 2026 mein condition bahut hi achcha dekhne ko mil raha hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": true,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": null
+   },
+   "2.7": {
+    "skipped": true,
+    "reasoning": "The user did not switch topics; the focus remained on the children.",
+    "quotes": [],
+    "score": null
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not open any further layers after answering the main question.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "There are no closing messages, but there are several bare acknowledgements (#4, #8, #22).",
+    "quotes": [
+     "Ji"
+    ],
+    "score": 6
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last two messages are questions about communication with the children, which are relevant to the user's concern.",
+    "quotes": [
+     "Aapse baat hoti hai",
+     "Aapke Santan se"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common terms. No formal or bookish language was used.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger was present.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai apne bccho ko apne pas bulana chahti",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 24,
+    "q": true,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer successfully identified the user's marital distress and provided a hopeful timeline for her children's return. However, the astrologer failed to use the requested partner details and did not provide clear chart-based reasons for the predictions."
+ },
+ "usage": {
+  "input_tokens": 10462,
+  "output_tokens": 1540
+ }
+}

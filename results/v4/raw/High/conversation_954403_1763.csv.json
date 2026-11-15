@@ -1,0 +1,335 @@
+{
+ "file": "conversation_954403_1763.csv",
+ "tier": "High",
+ "user_id": "954403",
+ "ltv": 10354.0,
+ "n_msgs": 20,
+ "n_astro_msgs": 7,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 1,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 1,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 3,
+  "4.3": 7
+ },
+ "gate_fails": [
+  "G3"
+ ],
+ "overall": 2.72,
+ "rubric_score": 2.72,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 40,
+   "S3": 48
+  }
+ },
+ "final": 1.11,
+ "label": "bad",
+ "buckets": {
+  "B1": 1.5,
+  "B2": 2.71,
+  "B3": 2.0,
+  "B4": 4.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 1,
+   "R": null,
+   "T": 1
+  },
+  "4.1": {
+   "score": 3,
+   "M": 7,
+   "long_frac": 0.286,
+   "max_words": 52,
+   "avg_words": 22.6,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 7,
+   "Rep": 1,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     10,
+     12,
+     13,
+     17
+    ],
+    "paid_idx": [
+     17
+    ],
+    "evidence_idx": [
+     17
+    ],
+    "reason": "The astrologer uses urgency ('jaldi btaiye', 'time lagega') and then explicitly asks the user to extend time ('time add kar lijiye') to get the reading, which constitutes a paid element."
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No validation of feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the question but immediately pivoted to a photo request."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No prediction given."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based prediction."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No remedy provided."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional concern and immediately asks for a photo.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo, which is a Type C question as it is not necessary for a horoscope reading.",
+    "quotes": [
+     "Ji bilkul Bata sakti Hun uska photo hai aapke pass"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a photo instead of using the provided birth details to analyze the relationship.",
+    "quotes": [
+     "Ji bilkul Bata sakti Hun uska photo hai aapke pass"
+    ],
+    "score": 1
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided in the window.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question, instead stalling for time and asking for an extension.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference or reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or prediction provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The main question was never answered.",
+    "quotes": [],
+    "score": 1
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about the process to keep the user engaged without delivering value.",
+    "quotes": [
+     "ismein time lagega 6:00 SE 7 minut ka"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer stalls the chat without providing any reading.",
+    "quotes": [],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a request for more time/payment.",
+    "quotes": [
+     "Prakash ji Meri baat nahin samajh rahe hain agar mere upar hota to Main Bata Diya aapko ab thoda sa time add Kar lijiye"
+    ],
+    "score": 1
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal/bookish Hindi and repetitive stalling tactics.",
+    "quotes": [
+     "ismein process mein chijen nikal kar samne aate ho"
+    ],
+    "score": 4
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is failing to provide a reading.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya aap bta sakti ki ve mere alawa kisi aur se bat krti hai ya nhi",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading or insight, instead stalling the user and demanding more time/payment. The consultation was entirely unproductive and focused on pressuring the user."
+ },
+ "usage": {
+  "input_tokens": 15441,
+  "output_tokens": 1392
+ },
+ "gate_evidence": {
+  "G3": {
+   "quote": "#10 [01:24] ASTRO: Face reading karke current free mein current Udaya check Karti hun check karte hain aapke bare mein kya sochati hai kya Kisi Aur Ke Sath Inka relationship Hai yah sab kuchh aapko batati Hai ismein time lagega 6:00 SE 7 minut ka kyunki gochar milaap mein feelings ki jaanch ki jaati Hai\n#12 [03:03] ASTRO: Agar possible hota to Main aapko bata deti ismein itna time lagta hai kyunki process mein chijen nikal kar samne aate ho sari chijen ek Sath nikal\n#13 [03:05] ASTRO: Agar possible hota to Main aapko bata deti ismein itna time lagta hai kyunki process mein chijen nikal kar samne aate ho sari chijen ek Sath nikalti Hain\n#17 [04:17] ASTRO: Prakash ji Meri baat nahin samajh rahe hain agar mere upar hota to Main Bata Diya aapko ab thoda sa time add Kar lijiye tab tak main check karke Rakhi rahti hun sari chijen aapko Bata dun",
+   "reason": "The astrologer uses urgency ('jaldi btaiye', 'time lagega') and then explicitly asks the user to extend time ('time add kar lijiye') to get the reading, which constitutes a paid element.",
+   "quote_en": "#10 [01:24] ASTRO: I will perform a face reading to check Udaya's current feelings for you, whether she is thinking about you, or if she is in a relationship with someone else. I will tell you everything, but it will take 6 to 7 minutes because the transit analysis requires checking feelings.\n#12 [03:03] ASTRO: If it were possible, I would have told you already. It takes this much time because things come out during the process, and not everything comes out at once.\n#13 [03:05] ASTRO: If it were possible, I would have told you already. It takes this much time because things come out during the process, and not everything comes out at once.\n#17 [04:17] ASTRO: Prakash ji, you are not understanding me. If it were up to me, I would have told you. Please add a little more time, and by then, I will have everything checked and ready to tell you."
+  }
+ }
+}

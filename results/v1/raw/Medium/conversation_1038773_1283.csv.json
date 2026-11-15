@@ -1,0 +1,260 @@
+{
+ "file": "conversation_1038773_1283.csv",
+ "tier": "Medium",
+ "user_id": "1038773",
+ "ltv": 3613.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 12,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 4,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 4,
+  "2.6": 3,
+  "2.7": 3,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 7,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.37,
+ "buckets": {
+  "B1": 2.75,
+  "B2": 2.71,
+  "B3": 4.0,
+  "B4": 8.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 6,
+   "R": 6,
+   "T": 7
+  },
+  "4.1": {
+   "score": 7,
+   "M": 12,
+   "long_frac": 0.083,
+   "max_words": 31,
+   "avg_words": 13.1,
+   "bursts": 0,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific feelings or the situation shared (that the person doesn't like him and they aren't talking).",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or unnecessary ones (hand photos). Message #12 asks for details already requested, and #23 asks for hand photos which are not needed for a chart reading.",
+    "quotes": [
+     "Jiske Sath aap relation mein aana chahte hain na uska detail send kar dijiye",
+     "Aap mujhe apne left hand right hand ka photo send kar dijiye"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name and DOB, but does not explain why or use the information to provide a reading about the match.",
+    "quotes": [
+     "Naam Bata dijiye iska jiske Sath aap relation mein aana chahte Hain"
+    ],
+    "score": 4
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The astrologer provides no chart-based reading, only generic statements.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a prediction without any chart reason or explanation.",
+    "quotes": [
+     "Next manth mein aap relation mein aaenge"
+    ],
+    "score": 4
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart factors are explained in plain words.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer does not build depth; the reading is repetitive and lacks substance.",
+    "quotes": [],
+    "score": 1
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer gives a specific time ('Next manth') without any chart basis or context.",
+    "quotes": [
+     "Next manth mein aap relation mein aaenge"
+    ],
+    "score": 4
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions a remedy but does not provide it, instead using it as a hook.",
+    "quotes": [
+     "Aap relation mein aaenge main aapko ek remedies suggest karta hun agar aap kar lenge"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user's main question is about love life in general and a specific person; the astrologer ignores the general question and focuses only on the specific person.",
+    "quotes": [],
+    "score": 3
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease about remedies to keep the user engaged.",
+    "quotes": [
+     "Aap relation mein aaenge main aapko ek remedies suggest karta hun agar aap kar lenge"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are not substantive.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a prediction without any depth or reason.",
+    "quotes": [
+     "Next manth mein aap relation mein aaenge"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer fails to provide any meaningful astrological insight.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Sir meri love and personal life me improvements kab aygi aur ek achi person kab tak mil sakti h",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide any meaningful astrological insight or chart-based reading, instead relying on generic predictions and requests for unnecessary data like hand photos. The consultation felt scripted and lacked a genuine connection to the user's specific concerns."
+ },
+ "usage": {
+  "input_tokens": 10581,
+  "output_tokens": 1253
+ }
+}

@@ -1,0 +1,306 @@
+{
+ "file": "conversation_1243358_2069.csv",
+ "tier": "Medium",
+ "user_id": "1243358",
+ "ltv": 516.92,
+ "n_msgs": 35,
+ "n_astro_msgs": 19,
+ "status": "ok",
+ "scores": {
+  "1.1": 9,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 4,
+  "2.2": 3,
+  "2.3": 1,
+  "2.4": 3,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 7,
+  "3.1": 1,
+  "3.2": 4,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 3,
+  "4.1": 6,
+  "4.3": 10
+ },
+ "gate_fails": [],
+ "overall": 4.92,
+ "buckets": {
+  "B1": 5.0,
+  "B2": 4.0,
+  "B3": 3.0,
+  "B4": 7.67,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 3,
+   "Q": 5,
+   "R": 5,
+   "T": 6
+  },
+  "4.1": {
+   "score": 6,
+   "M": 19,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 7.4,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's distress and the specific situation (the partner not talking) by promising to check the feelings and future.",
+    "quotes": [
+     "Mai numerology ke according check kar aapko Batata hu pl wait....",
+     "Ki uske dil mein aapke liye kya feeling hai aur kya vah dur rahana chahta Hai ya aap donon ka future hai"
+    ],
+    "score": 9
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details (Type C) and birth place (Type C) despite the user already stating they don't know them. This makes the questions Type C.",
+    "quotes": [
+     "Kya aapko uski birth details pta hogi",
+     "Birth place"
+    ],
+    "score": 1
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details, but when the user says they don't know them, the astrologer proceeds with a numerology analysis instead of demanding them again.",
+    "quotes": [
+     "Kya aapko uski birth details pta hogi",
+     "Ok koi baat nahi"
+    ],
+    "score": 7
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specific chart-based insights or concrete markers. It claims planets are supportive but does not explain how or why.",
+    "quotes": [
+     "aap donon ke birth chart mein ek dusre ke planet kafi jyada supportive hai"
+    ],
+    "score": 4
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer has not yet answered the main question about whether the partner wants to be distant.",
+    "quotes": [
+     "Mai numerology ke according check kar aapko Batata hu pl wait....",
+     "Ki uske dil mein aapke liye kya feeling hai aur kya vah dur rahana chahta Hai ya aap donon ka future hai"
+    ],
+    "score": 3
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions 'birth chart' and 'planets' but provides no actual insight or explanation of what these mean for the user's situation.",
+    "quotes": [
+     "Maine inke birth chart ko acche se analysis kar liya hai",
+     "aap donon ke birth chart mein ek dusre ke planet kafi jyada supportive hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "There is only one reading provided in the window.",
+    "quotes": [
+     "aap donon ke birth chart mein ek dusre ke planet kafi jyada supportive hai"
+    ],
+    "score": 3
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "No timing or consistency issues as no timing was provided.",
+    "quotes": [],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy or practical advice was given.",
+    "quotes": [],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The user only has one main question.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to keep the user engaged without providing the answer.",
+    "quotes": [
+     "But ek important baat Jo Main aapko batana chahunga"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but there are multiple empty acknowledgements.",
+    "quotes": [
+     "Ok",
+     "Okay"
+    ],
+    "score": 4
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a tease/cliffhanger, not a reading.",
+    "quotes": [
+     "But ek important baat Jo Main aapko batana chahunga"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No difficult user trigger.",
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mai bs yhi janna chahti hu ki wo mujhse dur hona chahta h",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 32,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer was kind and acknowledged the user's emotional state well. However, the astrologer wasted time asking for details the user already said they didn't have and used a cliffhanger to keep the user waiting without providing a clear answer."
+ },
+ "usage": {
+  "input_tokens": 10976,
+  "output_tokens": 1487
+ }
+}

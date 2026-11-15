@@ -1,0 +1,266 @@
+{
+ "file": "conversation_365613_168.csv",
+ "tier": "Low",
+ "user_id": "365613",
+ "ltv": 310.0,
+ "n_msgs": 17,
+ "n_astro_msgs": 13,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 4,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 4,
+  "2.5": 7,
+  "2.6": 3,
+  "2.7": 6,
+  "3.1": 1,
+  "3.2": 7,
+  "3.3": 4,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 8
+ },
+ "gate_fails": [],
+ "overall": 5.38,
+ "buckets": {
+  "B1": 5.67,
+  "B2": 4.86,
+  "B3": 4.0,
+  "B4": 7.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 13,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 12.6,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 8,
+   "Rep": 0,
+   "top_opener_count": 3
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G2": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G3": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   },
+   "G4": {
+    "fail": false,
+    "quote": null,
+    "reason": null
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer does not acknowledge the user's specific question about the baby boy or the visa in the first reply after the questions. The first reading message #6 is generic chart talk.",
+    "quotes": [],
+    "score": 3
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for a palm photo (#13) which is not necessary for the reading and was not requested by the user, making it a Type C question.",
+    "quotes": [
+     "Jasveer ji aap apna right hand ka photo bhej sakte hain Pam reading ke liye"
+    ],
+    "score": 4
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is generic and lacks specificity. It mentions planets in a negative state without explaining how this manifests in the user's life.",
+    "quotes": [],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction for the baby (2026) and the visa (November), but the answers are generic and lack depth.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 7
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions planets (Buddh, Shukr, Shani) but does not explain what they mean for the user's life in plain words.",
+    "quotes": [
+     "Buddh shukr Shani aapka negative effect Dal raha hai"
+    ],
+    "score": 1
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The later readings add new points (visa, Ketu) but do not use the user's specific details or build depth.",
+    "quotes": [],
+    "score": 4
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a time window (2026, November) without promising certainty.",
+    "quotes": [
+     "Aane Wale samay Mein 2026 mein bahut hi acche chances Hai Santan prapti ke",
+     "November ke bad mein bahut hi achcha chances hai"
+    ],
+    "score": 7
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer mentions wanting to suggest remedies but does not provide any actual remedy or practical step.",
+    "quotes": [
+     "Main aapko thoda sa remedies suggest karna chahta hun"
+    ],
+    "score": 3
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer answers both questions (baby and visa) without needing a reminder, though the order is not explicitly stated.",
+    "quotes": [],
+    "score": 6
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer teases a remedy/future moment without delivering it.",
+    "quotes": [
+     "Jasveer ji aapke life mein 25 days ke andar"
+    ],
+    "score": 1
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the messages are not consistently useful.",
+    "quotes": [],
+    "score": 7
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last message is a cliffhanger/tease that provides no value.",
+    "quotes": [
+     "Jasveer ji aapke life mein 25 days ke andar"
+    ],
+    "score": 4
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is easy and conversational, matching the user's tone.",
+    "quotes": [],
+    "score": 7
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": null,
+    "quotes": [],
+    "score": null
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Mere ik betiya aa ab dusra baby boy kab tak hoga",
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer provided basic timelines for the user's questions but failed to explain the chart reasons in plain language or provide the promised remedies. The chat ended on an unhelpful cliffhanger, leaving the user with no actionable advice."
+ },
+ "usage": {
+  "input_tokens": 10372,
+  "output_tokens": 1304
+ }
+}

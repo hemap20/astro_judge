@@ -1,0 +1,542 @@
+{
+ "file": "conversation_3064704_1747.csv",
+ "tier": "High",
+ "user_id": "3064704",
+ "ltv": 8242.3,
+ "n_msgs": 23,
+ "n_astro_msgs": 17,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 1,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 3,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 8,
+  "3.3": 1,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 1,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.65,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 41,
+   "S3": 137
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.25,
+  "B2": 1.67,
+  "B3": 3.33,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 1,
+   "Q": 4,
+   "R": null,
+   "T": 4
+  },
+  "4.1": {
+   "score": 6,
+   "M": 16,
+   "long_frac": 0.0,
+   "max_words": 20,
+   "avg_words": 9.5,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     8,
+     14,
+     15,
+     16,
+     20,
+     22
+    ],
+    "paid_idx": [
+     12,
+     13,
+     18,
+     21
+    ],
+    "reason": "The astrologer uses fear (negative direction, negative Shukr) and guarantees (11 ghante ke andar propose karva dunga) to pressure the user into extending time/paying for a service.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Greeting is present but lacks rapport building."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Feelings are not validated; the astrologer immediately pivots to a pitch."
+   },
+   "S3": {
+    "present": true,
+    "idx": 6,
+    "quality": 1,
+    "note": "Identifies the concern but immediately uses it for a pitch."
+   },
+   "S4": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No meaningful prediction given; only fear-based claims."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions asked."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No actionable remedy provided; only a demand for more time."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook; only a demand to extend time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional state and immediately pivots to a pitch.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name (Type C) and then demands more time (Type C).",
+    "quotes": [
+     "Jaldi se uska naam batao",
+     "Time badha lijiye 10 minut ka"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 7,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 18,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the name but uses it only to create a fear-based pitch.",
+    "quotes": [
+     "Jaldi se uska naam batao"
+    ],
+    "score": 3,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "No reading provided; only fear-based claims.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The question is never answered; the astrologer only demands more time.",
+    "quotes": [
+     "Time badha lijiye 10 minut ka"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart reference provided in plain words.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "No reading provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer makes a false guarantee.",
+    "quotes": [
+     "main guarantee le raha hun"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "No remedy provided; only a pitch for more time.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No questions answered.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": false,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses a tease to pressure the user into paying.",
+    "quotes": [
+     "Agar tum mujhe 10 minut ka samay de dete Ho"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer is constantly pushing for an end to the current session to get more time.",
+    "quotes": [
+     "Time badha lijiye 10 minut ka"
+    ],
+    "score": 1,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": false,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are all about extending time.",
+    "quotes": [
+     "Aisa case mein roj dekhta hun bhai jaldi se a jao aap dobara"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": false,
+     "first_reading_idx": null,
+     "now": false,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The astrologer uses formal/bookish language and no explanation for terms.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger present.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "kya hum soul mate h kya hmara kuch ho sakta h aage",
+  "main_question_idx": 6,
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 4,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 5,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 8,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer failed to provide any reading and instead used fear-based tactics to pressure the user into extending the session. The entire consultation was a series of pitches for more time rather than addressing the user's concerns."
+ },
+ "usage": {
+  "input_tokens": 16787,
+  "output_tokens": 2464
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 3,
+   "2.1": 1,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 3,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#8 [02:47] ASTRO: Mere Bhai tumhara negative direction mein move kar raha hai\n#12 [03:31] ASTRO: Agar tum mujhe 10 minut ka samay de dete Ho\n#13 [03:35] ASTRO: To main ISI ladki Se tumko propose karva Dunga 11 ghante ke andar\n#14 [03:40] ASTRO: Kyunki iski feelings bahut jyada hai yah tumhare liye Hi bani hai\n#15 [03:52] ASTRO: Lekin dikkat yah hai tumhara shukr nigative Hai to ladki bhi negative Ho jaati Hai\n#16 [03:56] ASTRO: Baki tumko pyar bahut kar rahi hai\n#18 [04:34] ASTRO: Time badha lijiye 10 minut ka\n#20 [04:51] ASTRO: Aap pareshan mat hoiye main guarantee le raha hun\n#21 [04:59] ASTRO: Aisa case mein roj dekhta hun bhai jaldi se a jao aap dobara\n#22 [05:04] ASTRO: Rishte mein jo rejection ka factor dikh raha, usme kuch gehrai hai",
+   "reason": "The astrologer uses fear (negative direction, negative Shukr) and guarantees (11 ghante ke andar propose karva dunga) to pressure the user into extending time/paying for a service.",
+   "quote_en": "#8 [02:47] ASTRO: My brother, your situation is moving in a negative direction\n#12 [03:31] ASTRO: If you give me 10 minutes of your time\n#13 [03:35] ASTRO: Then I will make this same girl propose to you within 11 hours\n#14 [03:40] ASTRO: Because her feelings are very strong and she is made only for you\n#15 [03:52] ASTRO: But the problem is that your Shukr is negative, so the girl becomes negative too\n#16 [03:56] ASTRO: Otherwise, she loves you a lot\n#18 [04:34] ASTRO: Please extend the time by 10 minutes\n#20 [04:51] ASTRO: Do not worry, I am taking the guarantee\n#21 [04:59] ASTRO: I see such cases every day brother, please come back quickly\n#22 [05:04] ASTRO: The rejection factor visible in the relationship has some depth"
+  }
+ }
+}

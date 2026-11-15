@@ -1,0 +1,358 @@
+{
+ "file": "conversation_1050838_2515.csv",
+ "tier": "High",
+ "user_id": "1050838",
+ "ltv": 8579.0,
+ "n_msgs": 51,
+ "n_astro_msgs": 30,
+ "status": "ok",
+ "scores": {
+  "1.1": 6,
+  "1.2": 8,
+  "1.4": null,
+  "2.1": 6,
+  "2.2": 8,
+  "2.3": 7,
+  "2.4": 7,
+  "2.5": 9,
+  "2.6": 7,
+  "2.7": 7,
+  "3.1": 7,
+  "3.2": 8,
+  "3.3": 8,
+  "4.2": 7,
+  "5.1": null,
+  "1.3": 10,
+  "4.1": 6,
+  "4.3": 9
+ },
+ "gate_fails": [],
+ "overall": 7.57,
+ "buckets": {
+  "B1": 8.0,
+  "B2": 7.29,
+  "B3": 7.67,
+  "B4": 7.33,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 10,
+   "Q": 1,
+   "R": 1,
+   "T": 2
+  },
+  "4.1": {
+   "score": 6,
+   "M": 20,
+   "long_frac": 0.0,
+   "max_words": 22,
+   "avg_words": 7.2,
+   "bursts": 3,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 9,
+   "Rep": 0,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer acknowledges the user's desire for career and love insights by providing a reading on Rahu dasha and its impact on career/travel, though it is somewhat generic.",
+    "quotes": [
+     "Present running under the rahu maha dasa ending period",
+     "This period is showing some place change or travelling or moving one place to another place or abroad in your carrer wise"
+    ],
+    "score": 6
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks one question to clarify the user's intent regarding the 'movement' mentioned, which is Type A (building on the reading).",
+    "quotes": [
+     "Which movement ji"
+    ],
+    "score": 8
+   },
+   "1.4": {
+    "skipped": true,
+    "reasoning": "The user's main question is about their own life (career/love), not a specific other person.",
+    "quotes": [],
+    "score": null
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is about the present/future, but it is quite generic and could apply to many users. It lacks a specific, verifiable marker.",
+    "quotes": [
+     "This period is showing some place change or travelling or moving one place to another place or abroad in your carrer wise"
+    ],
+    "score": 6
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a direction regarding the timing of the movement (this month ending).",
+    "quotes": [
+     "Yes that yog is going to start this month ending onwards ji"
+    ],
+    "score": 8
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "The astrologer links the life event (travel/change) to the Rahu dasha in plain words.",
+    "quotes": [
+     "Present running under the rahu maha dasa ending period",
+     "This period is showing some place change or travelling or moving one place to another place or abroad in your carrer wise"
+    ],
+    "score": 7
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "The astrologer adds new points about the impact on friends/family and the purpose of travel (peace/enjoyment) after the initial reading.",
+    "quotes": [
+     "This period gives the issues and mind disturbance with close friends or family members or friends Circle",
+     "Travelling related to carrer wise and also peace searching and enjoying tours"
+    ],
+    "score": 7
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer provides a consistent timeframe (this month ending) without making a guaranteed promise.",
+    "quotes": [
+     "Yes that yog is going to start this month ending onwards ji"
+    ],
+    "score": 9
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The astrologer provides practical advice to be careful with friends/family, which is linked to the reading.",
+    "quotes": [
+     "Be aware and careful with close friends or family members or friends Circle"
+    ],
+    "score": 7
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer addresses both career (movement) and love (caution in relationships) throughout the chat.",
+    "quotes": [
+     "Travelling related to carrer wise",
+     "And also love and relationship and bonding wise"
+    ],
+    "score": 7
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer opens a further layer regarding caution in relationships and family circles.",
+    "quotes": [
+     "And also love and relationship and bonding wise"
+    ],
+    "score": 7
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "No closing message was sent; the astrologer continued to provide insights until the end.",
+    "quotes": [],
+    "score": 8
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages provide a reading/guidance, leaving the user with information rather than a goodbye.",
+    "quotes": [
+     "In these areas, kindly please be aware and careful ji",
+     "Because this travelling reduce your mind disturbance and health issues and frastaruion ji"
+    ],
+    "score": 8
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple and uses common astrology terms like 'Rahu maha dasa' and 'yog' which are explained in context.",
+    "quotes": [
+     "Present running under the rahu maha dasa ending period"
+    ],
+    "score": 7
+   }
+  },
+  "difficult_user_trigger": "vague",
+  "main_question": "Can u see my kundli overall? Career & Love",
+  "message_labels": [
+   {
+    "idx": 3,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 28,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 29,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 33,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 36,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 41,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 44,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 45,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 46,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 49,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer effectively used the Rahu dasha to provide a consistent reading about upcoming travel and career changes. The chat was most helped by the clear timeframe provided and most hurt by the somewhat generic nature of the predictions."
+ },
+ "usage": {
+  "input_tokens": 11081,
+  "output_tokens": 1713
+ }
+}

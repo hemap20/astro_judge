@@ -1,0 +1,513 @@
+{
+ "file": "conversation_1422076_285.csv",
+ "tier": "Medium",
+ "user_id": "1422076",
+ "ltv": 3296.0,
+ "n_msgs": 28,
+ "n_astro_msgs": 21,
+ "status": "ok",
+ "scores": {
+  "1.1": 3,
+  "1.2": 1,
+  "1.4": 7,
+  "2.1": 3,
+  "2.2": 7,
+  "2.3": 1,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": null,
+  "3.1": 1,
+  "3.2": 8,
+  "3.3": 1,
+  "4.2": 4,
+  "5.1": null,
+  "1.3": 9,
+  "4.1": 4,
+  "4.3": 10
+ },
+ "gate_fails": [
+  "G3b"
+ ],
+ "overall": 3.0,
+ "rubric_score": 4.17,
+ "blueprint": {
+  "score": 2.5,
+  "coverage": 0.111,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 5,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 0,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 14,
+   "S3": 21
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 5.0,
+  "B2": 2.33,
+  "B3": 3.33,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 9,
+   "Q": 2,
+   "R": 2,
+   "T": 2
+  },
+  "4.1": {
+   "score": 4,
+   "M": 21,
+   "long_frac": 0.095,
+   "max_words": 31,
+   "avg_words": 15.8,
+   "bursts": 2,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 10,
+   "Rep": 0,
+   "top_opener_count": 1
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     15,
+     17,
+     19
+    ],
+    "paid_idx": [
+     9,
+     21,
+     27
+    ],
+    "reason": "The astrologer uses fear (listing multiple doshas like Kalsarp, Manglik, Pitru) and urgency to pressure the user into paying for a mantra jaap service.",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic and lacks warmth."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer does not validate the user's feelings."
+   },
+   "S3": {
+    "present": true,
+    "idx": 3,
+    "quality": 1,
+    "note": "Identifies the question but immediately pivots to data demands."
+   },
+   "S4": {
+    "present": true,
+    "idx": 14,
+    "quality": 0,
+    "note": "Prediction is delivered through fear and pressure to pay."
+   },
+   "S5": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant follow-up questions about the user's situation."
+   },
+   "S6": {
+    "present": true,
+    "idx": 15,
+    "quality": 0,
+    "note": "Prediction is based on fear-mongering about doshas."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 21,
+    "quality": 0,
+    "note": "Remedy is a paid service pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No genuine hook; only a pitch to pay for more time."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's emotional concern and immediately demands data.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for details already provided or demands data in a pushy manner.",
+    "quotes": [
+     "Uske liye aapko unka detail batana padega",
+     "aap jaldi se bataiye"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 6,
+       "type": "C",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the partner's details but uses them to create fear and push a paid service.",
+    "quotes": [
+     "Uske liye aapko unka detail batana padega"
+    ],
+    "score": 3,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": true,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": true,
+     "asked_three_plus_times": false,
+     "details_used": true,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": true
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is based on fear-mongering and is not relatable or specific to the user's life beyond general dosha claims.",
+    "quotes": [
+     "Aapki Kundli mein To kalsrp dosh Manglik dosh Pitur dosh"
+    ],
+    "score": 3,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 14,
+     "now": true,
+     "new": false,
+     "specific": false,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer answers the question with a negative prediction tied to a paid remedy.",
+    "quotes": [
+     "Isse marriage bilkul bhi nahin hogi"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": true,
+     "answer_idx": 14,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": true,
+     "user_had_to_repeat": false,
+     "counter_question_before_answer": true,
+     "reason_given": true,
+     "says_what_it_depends_on_or_next": true,
+     "judge_counter_question": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "Chart terms are used to create fear without explaining their impact on the user's life.",
+    "quotes": [
+     "Aapki Kundli mein To kalsrp dosh Manglik dosh Pitur dosh"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings repeat the same fear-based claims.",
+    "quotes": [
+     "Manglik dosh ko Sahi karoge To jarur marriage hoga"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer makes a definitive negative claim about the marriage.",
+    "quotes": [
+     "Isse marriage bilkul bhi nahin hogi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a paid service pitch.",
+    "quotes": [
+     "Main Mantra Jaap karke Sahi kar dungi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "No second question asked.",
+    "quotes": [],
+    "score": null,
+    "checks": {
+     "user_asked_second_question": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "No next layer opened; only a pitch for more time.",
+    "quotes": [],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer repeatedly pushes for more time.",
+    "quotes": [
+     "aapko hi Samay badhana padega"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "3.3": {
+    "skipped": false,
+    "reasoning": "The last messages are pitches for paid services.",
+    "quotes": [
+     "Aap mere ko fir se connect karoge To Main Mantra Jaap kar dungi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "Language is simple but the tone is aggressive and formal in its demands.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 3,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": false,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": true,
+    "reasoning": "No trigger found.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Jisse mai chahti hun usse hi merishadi hogi ya nahi",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 11,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 13,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 14,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 16,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 17,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 18,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 19,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 21,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 23,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 24,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 25,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 27,
+    "q": false,
+    "r": false
+   }
+  ],
+  "summary": "The astrologer used fear-mongering about doshas to pressure the user into paying for a mantra jaap service. The consultation failed to provide genuine guidance and instead focused entirely on pushing for more time and money."
+ },
+ "usage": {
+  "input_tokens": 17059,
+  "output_tokens": 2221
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 3,
+   "2.1": 3,
+   "2.2": 1,
+   "2.7": null,
+   "4.2": 6,
+   "3.2": 1
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#9 [01:57] ASTRO: Main aapko bol bhi rahi hun ki check karne mein time lagega fir bhi aap jaldi reply Nahin de rahe ho aapko hi Samay badhana padega FIR\n#15 [03:13] ASTRO: Aapki Kundli mein To kalsrp dosh Manglik dosh Pitur dosh\n#17 [03:29] ASTRO: Is chij Ko Nahin hataoge tab tak marriage Nahin hogi aap donon ki bilkul Bhi Nahin\n#19 [03:43] ASTRO: Aur mere successful bhi rahega family support ke sath marriage hogi agar Manglik dosh Nahin hataoge to bilkul Nahin hoga kyunki ladka Manglik Nahin Hai\n#21 [04:03] ASTRO: Ya to aap mere ko 10:15 minut ka time doge fir se connect karoge To Main Mantra Jaap karke Sahi kar dungi FIR Koi dikkat Nahin aaegi jaisa aapka decision Ho\n#27 [04:48] ASTRO: Aap mere ko fir se connect karoge To Main Mantra Jaap kar dungi 15 20 minut ka time lagega aapka",
+   "reason": "The astrologer uses fear (listing multiple doshas like Kalsarp, Manglik, Pitru) and urgency to pressure the user into paying for a mantra jaap service.",
+   "quote_en": "#9 [01:57] ASTRO: I am telling you that it will take time to check, yet you are not replying quickly; you will have to increase the time then.\n#15 [03:13] ASTRO: In your Kundli, there is Kalsarp dosh, Manglik dosh, and Pitur dosh.\n#17 [03:29] ASTRO: Until you remove this, there will be no marriage for both of you, absolutely not.\n#19 [03:43] ASTRO: And it will be successful for me too; the marriage will happen with family support. If you don't remove the Manglik dosh, it will not happen at all because the boy is not Manglik.\n#21 [04:03] ASTRO: Either you give me 10-15 minutes and reconnect, then I will perform Mantra Jaap and fix it, then there won't be any problem. Whatever your decision is.\n#27 [04:48] ASTRO: If you reconnect with me, I will perform the Mantra Jaap; it will take 15-20 minutes for you."
+  }
+ }
+}

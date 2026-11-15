@@ -1,0 +1,695 @@
+{
+ "file": "conversation_1321926_4.csv",
+ "tier": "Medium",
+ "user_id": "1321926",
+ "ltv": 4086.0,
+ "n_msgs": 99,
+ "n_astro_msgs": 52,
+ "status": "ok",
+ "scores": {
+  "1.1": 1,
+  "1.2": 1,
+  "1.4": 4,
+  "2.1": 7,
+  "2.2": 1,
+  "2.3": 3,
+  "2.4": 1,
+  "2.5": 1,
+  "2.6": 1,
+  "2.7": 1,
+  "3.1": 1,
+  "3.2": 9,
+  "3.3": null,
+  "4.2": 8,
+  "5.1": null,
+  "1.3": 4,
+  "4.1": 6,
+  "4.3": 4
+ },
+ "gate_fails": [
+  "G3b",
+  "G4"
+ ],
+ "overall": 3.0,
+ "rubric_score": 3.91,
+ "blueprint": {
+  "score": 2.8,
+  "coverage": 0.167,
+  "milestones": {
+   "S4": 0.0,
+   "S6": 0.0,
+   "S8": 0.0
+  },
+  "order": 1.0,
+  "length_bucket_min": 15,
+  "stage_quality": {
+   "S1": 1,
+   "S2": 0,
+   "S3": 1,
+   "S4": 0,
+   "S5": 1,
+   "S6": 0,
+   "S7": 0,
+   "S8": 0,
+   "S9": 0
+  },
+  "stage_sec": {
+   "S1": 5,
+   "S3": 18,
+   "S5": 201
+  }
+ },
+ "final": 1.0,
+ "label": "bad",
+ "buckets": {
+  "B1": 2.5,
+  "B2": 2.14,
+  "B3": 5.0,
+  "B4": 6.0,
+  "B5": null
+ },
+ "counted": {
+  "1.3": {
+   "score": 4,
+   "Q": 4,
+   "R": 4,
+   "T": 15
+  },
+  "4.1": {
+   "score": 6,
+   "M": 17,
+   "long_frac": 0.0,
+   "max_words": 12,
+   "avg_words": 5.9,
+   "bursts": 1,
+   "has_list": false
+  },
+  "4.3": {
+   "score": 4,
+   "Rep": 3,
+   "top_opener_count": 2
+  }
+ },
+ "judge": {
+  "gate": {
+   "G1": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G2": {
+    "fail": false,
+    "evidence_idx": [],
+    "reason": ""
+   },
+   "G4": {
+    "fail": true,
+    "evidence_idx": [
+     30,
+     31,
+     56,
+     57,
+     58,
+     68
+    ],
+    "reason": "The astrologer repeatedly makes specific, unverified claims about the user's behavior (hitting his wife, being cruel, causing her to leave) as absolute facts, which the user denies."
+   },
+   "G3": {
+    "fail": true,
+    "fear_idx": [
+     56,
+     57,
+     58,
+     68,
+     71,
+     73
+    ],
+    "paid_idx": [
+     60,
+     61,
+     62
+    ],
+    "reason": "The astrologer uses fear and guilt (accusing the user of abuse) to push a paid service (performing a ritual/spell to separate the wife from the other man).",
+    "severity": "G3b"
+   }
+  },
+  "blueprint": {
+   "S1": {
+    "present": true,
+    "idx": 2,
+    "quality": 1,
+    "note": "Greeting is generic and lacks rapport."
+   },
+   "S2": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "Astrologer dismisses the user's feelings and blames him."
+   },
+   "S3": {
+    "present": true,
+    "idx": 5,
+    "quality": 1,
+    "note": "Identified the concern but immediately pivoted to blame."
+   },
+   "S4": {
+    "present": true,
+    "idx": 12,
+    "quality": 0,
+    "note": "Prediction is fear-based and lacks chart-based insight."
+   },
+   "S5": {
+    "present": true,
+    "idx": 23,
+    "quality": 1,
+    "note": "Follow-up question is generic."
+   },
+   "S6": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No chart-based personalization provided."
+   },
+   "S7": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No second layer explored."
+   },
+   "S8": {
+    "present": true,
+    "idx": 60,
+    "quality": 0,
+    "note": "Remedy is a ritual/spell pitch."
+   },
+   "S9": {
+    "present": false,
+    "idx": null,
+    "quality": 0,
+    "note": "No relevant hook provided."
+   }
+  },
+  "rubrics": {
+   "1.1": {
+    "skipped": false,
+    "reasoning": "The astrologer ignores the user's worry and instead blames him for the situation.",
+    "quotes": [
+     "Tum bahot pareshan karte isko",
+     "Bahot maarte ho usk"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": []
+    }
+   },
+   "1.2": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for birth details already provided and asks for a photo, which is not used for a reading but for a ritual pitch.",
+    "quotes": [
+     "Wife ka photo batao",
+     "Name and date of birth batao iska"
+    ],
+    "score": 1,
+    "checks": {
+     "questions": [
+      {
+       "idx": 10,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 15,
+       "type": "C",
+       "answer_used": false
+      },
+      {
+       "idx": 23,
+       "type": "B",
+       "answer_used": false
+      }
+     ]
+    }
+   },
+   "1.4": {
+    "skipped": false,
+    "reasoning": "The astrologer asks for the wife's details but uses them to blame the user rather than provide a reading about the relationship.",
+    "quotes": [
+     "Name and date of birth batao iska"
+    ],
+    "score": 1,
+    "checks": {
+     "about_specific_person": true,
+     "user_did_not_know_details": false,
+     "asked": true,
+     "demand_at_start_before_question": false,
+     "asked_with_reason": false,
+     "asked_three_plus_times": false,
+     "details_used": false,
+     "name_used_after": false,
+     "reading_about_person": false,
+     "tied_to_user_question": false
+    }
+   },
+   "2.1": {
+    "skipped": false,
+    "reasoning": "The reading is not tied to any chart reason and is based on accusations rather than astrology.",
+    "quotes": [
+     "Yes... Affair to hai"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true,
+     "first_reading_idx": 12,
+     "now": true,
+     "new": true,
+     "specific": true,
+     "reason": false,
+     "concrete_marker": false,
+     "strong_statements": 0
+    }
+   },
+   "2.2": {
+    "skipped": false,
+    "reasoning": "The astrologer never answers the question about the affair's details clearly, instead shifting to blaming the user.",
+    "quotes": [
+     "Affair 6 months se zyada hua hai"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true,
+     "answered": false,
+     "answer_idx": null,
+     "reply_is_pitch_or_remedy": true,
+     "gives_direction": false,
+     "user_had_to_repeat": true,
+     "counter_question_before_answer": false,
+     "reason_given": false,
+     "says_what_it_depends_on_or_next": false
+    }
+   },
+   "2.3": {
+    "skipped": false,
+    "reasoning": "No chart terms or reasons are provided.",
+    "quotes": [],
+    "score": 3,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.4": {
+    "skipped": false,
+    "reasoning": "Later readings are inconsistent and contradictory regarding the affair's status.",
+    "quotes": [
+     "Nahi hue abtak",
+     "Abhi tak kuch nahi hua"
+    ],
+    "score": 1,
+    "checks": {
+     "new": false,
+     "uses": false
+    }
+   },
+   "2.5": {
+    "skipped": false,
+    "reasoning": "The astrologer contradicts their own statements about the affair.",
+    "quotes": [
+     "Affair to hai",
+     "Nahi hue abtak"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_question": true
+    }
+   },
+   "2.6": {
+    "skipped": false,
+    "reasoning": "The remedy is a ritual pitch to separate the wife from the other man.",
+    "quotes": [
+     "Usko chudwa dungi",
+     "Free mein karungi tumhara kaam"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "2.7": {
+    "skipped": false,
+    "reasoning": "The astrologer avoids answering the user's questions by shifting blame.",
+    "quotes": [
+     "Tum bolo tumko kya chahiye"
+    ],
+    "score": 1,
+    "checks": {
+     "user_asked_second_question": true,
+     "first_answered_after_switch": false,
+     "all_partial_in_one_message": false,
+     "returned_only_when_user_asked": false,
+     "order_stated": false,
+     "returned_without_reminder": false,
+     "both_fully_answered": false,
+     "two_answers_connected": false
+    }
+   },
+   "3.1": {
+    "skipped": false,
+    "reasoning": "The astrologer uses fear to keep the user engaged.",
+    "quotes": [
+     "Usko chudwa dungi"
+    ],
+    "score": 1,
+    "checks": {
+     "has_reading": true
+    }
+   },
+   "3.2": {
+    "skipped": false,
+    "reasoning": "The astrologer does not close the chat, but the content is not helpful.",
+    "quotes": [],
+    "score": 8,
+    "checks": {
+     "early_goodbye_while_time_left": false,
+     "user_thanks_answered_with_goodbye": false,
+     "every_reply_after_first_reading_has_content": true,
+     "user_thanks_met_with_new_point": false
+    }
+   },
+   "4.2": {
+    "skipped": false,
+    "reasoning": "The language is simple, but the astrologer uses no astrology terms and is highly accusatory.",
+    "quotes": [],
+    "score": 6,
+    "checks": {
+     "replies_in_other_language": false,
+     "unexplained_terms": 0,
+     "formal_sentences": 0,
+     "most_messages_formal": false,
+     "every_term_explained": true,
+     "user_word_reuse_count": 0
+    }
+   },
+   "5.1": {
+    "skipped": false,
+    "reasoning": "The user is not difficult; the astrologer is the one failing to provide a professional reading.",
+    "quotes": [],
+    "score": null,
+    "checks": {}
+   }
+  },
+  "difficult_user_trigger": "none",
+  "main_question": "Meri wife k affair hai ya nahi",
+  "main_question_idx": 5,
+  "message_labels": [
+   {
+    "idx": 2,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 3,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 6,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 7,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 9,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 10,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 12,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 15,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 20,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 22,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 23,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 26,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 27,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 28,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 30,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 31,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 34,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 35,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 37,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 39,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 42,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 43,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 46,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 48,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 50,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 51,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 53,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 55,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 56,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 57,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 58,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 59,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 60,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 61,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 62,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 63,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 67,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 68,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 70,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 71,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 73,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 74,
+    "q": true,
+    "r": false
+   },
+   {
+    "idx": 76,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 78,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 81,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 82,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 84,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 87,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 88,
+    "q": false,
+    "r": false
+   },
+   {
+    "idx": 92,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 96,
+    "q": false,
+    "r": true
+   },
+   {
+    "idx": 97,
+    "q": false,
+    "r": true
+   }
+  ],
+  "summary": "The astrologer failed to provide a professional reading, instead using the consultation to blame the user for his wife's alleged affair and pitch a ritual service. The astrologer's behavior was manipulative, accusatory, and lacked any astrological basis."
+ },
+ "usage": {
+  "input_tokens": 18168,
+  "output_tokens": 2989
+ },
+ "reference": {
+  "bare_acks": 0,
+  "longest_ack_run": 0,
+  "judge_own_scores": {
+   "1.2": 1,
+   "1.4": 1,
+   "2.1": 1,
+   "2.2": 1,
+   "2.7": 1,
+   "4.2": 6,
+   "3.2": 8
+  }
+ },
+ "gate_evidence": {
+  "G3b": {
+   "quote": "#56 [08:25] ASTRO: Kyunki woh tumhare zulm se pareshan hai\n#57 [08:36] ASTRO: Tum usko bahot pareshan karte\n#58 [08:49] ASTRO: Tumhari wajah se woh gayi bahar\n#60 [09:03] ASTRO: Usko chudwa dungi\n#61 [09:06] ASTRO: Free mein karungi tumhara kaam\n#62 [09:15] ASTRO: Dumm karungi uske photo pe\n#68 [10:02] ASTRO: Saaf saaf dikh raha\nTum usko bahot strict rehte\nMaarte\nZulm karte\n#71 [10:28] ASTRO: Galat hai tumhara behaviour uski taraf\n#73 [10:42] ASTRO: Biwi ko sahi se nahi rahoge to woh dusri jagah jaayegi",
+   "reason": "The astrologer uses fear and guilt (accusing the user of abuse) to push a paid service (performing a ritual/spell to separate the wife from the other man).",
+   "quote_en": "#56 [08:25] ASTRO: Because she is troubled by your cruelty\n#57 [08:36] ASTRO: You trouble her a lot\n#58 [08:49] ASTRO: She left because of you\n#60 [09:03] ASTRO: I will get her released\n#61 [09:06] ASTRO: I will do your work for free\n#62 [09:15] ASTRO: I will perform a ritual on her photo\n#68 [10:02] ASTRO: It is clearly visible\nYou are very strict with her\nBeat her\nCommit atrocities\n#71 [10:28] ASTRO: Your behavior towards her is wrong\n#73 [10:42] ASTRO: If you don't treat your wife properly, she will go elsewhere"
+  },
+  "G4": {
+   "quote": "#30 [04:29] ASTRO: Tum bahot pareshan karte isko\n#31 [04:34] ASTRO: Bahot maarte ho usk\n#56 [08:25] ASTRO: Kyunki woh tumhare zulm se pareshan hai\n#57 [08:36] ASTRO: Tum usko bahot pareshan karte\n#58 [08:49] ASTRO: Tumhari wajah se woh gayi bahar\n#68 [10:02] ASTRO: Saaf saaf dikh raha\nTum usko bahot strict rehte\nMaarte\nZulm karte",
+   "reason": "The astrologer repeatedly makes specific, unverified claims about the user's behavior (hitting his wife, being cruel, causing her to leave) as absolute facts, which the user denies.",
+   "quote_en": "#30 [04:29] ASTRO: You trouble her a lot\n#31 [04:34] ASTRO: You beat her a lot\n#56 [08:25] ASTRO: Because she is troubled by your cruelty\n#57 [08:36] ASTRO: You trouble her a lot\n#58 [08:49] ASTRO: She left because of you\n#68 [10:02] ASTRO: It is clearly visible\nYou are very strict with her\nBeat her\nCommit atrocities"
+  }
+ }
+}
